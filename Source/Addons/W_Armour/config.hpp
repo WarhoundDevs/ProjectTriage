@@ -1,0 +1,6 @@
+#include "Arid\config.hpp"
+#include "Night\config.hpp"
+#include "Reach\config.hpp"
+#include "Snow\config.hpp"
+#include "Urban\config.hpp"
+#include "Woodland\config.hpp"
