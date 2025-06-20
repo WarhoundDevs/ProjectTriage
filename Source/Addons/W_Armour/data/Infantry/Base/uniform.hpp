@@ -137,3 +137,88 @@ class 22nd_ArmourBaseWVar2_Light: 22nd_Base_None
         "Warhound_Armour\data\Standard\infantry\Woodland\MA_green_TrooperShoulders_CO.paa"
     };
 };
+
+// Arid Uniforms
+
+// Arid Variation 1 - Light
+class 22nd_ArmourBaseAVar1_Light: 22nd_Base_None
+{
+    UniformClass="22nd_ArmourBaseAVar1_Light";
+    hiddenSelections[]=
+    {
+        "Camo1",
+        "Camo2",
+        "Camo3",
+        "Camo4",
+        "Camo5",
+        "Camo6",
+        "Camo7",
+        "Camo8",
+        "Camo9",
+        "Camo10",
+        //"Uni_Upper",
+        //"Uni_Lower",
+        "Uni_Collar",
+        //"Armor_Underpad",
+        //"Armor_Straps",
+        //"Armor_Upper",
+        //"Armor_Lower",
+        "Shoulders_Lower1",
+        "Shoulders_Lower2",
+        "Shoulders_Upper"
+    };
+	hiddenSelectionsTextures[]=
+    {
+        "Warhound_Armour\data\Standard\infantry\Woodland\MA_Desert_TrooperUpperBDU_CO.paa",
+        "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa",
+        "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa",
+        "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
+        "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
+        "Warhound_Armour\data\Standard\infantry\Woodland\MA_Tan_TrooperUpperArmor_CO.paa",
+        "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Tan_TrooperLowerArmor_CO.paa",
+        "Warhound_Armour\data\Standard\infantry\Woodland\MA_Tan_TrooperShoulders_CO.paa",
+        "Warhound_Armour\data\Standard\infantry\Woodland\MA_Tan_TrooperShoulders_CO.paa",
+        "Warhound_Armour\data\Standard\infantry\Woodland\MA_Tan_TrooperShoulders_CO.paa"
+    };
+};
+// Arid Variation 2 - Light
+class 22nd_ArmourBaseAVar2_Light: 22nd_Base_None
+{
+    UniformClass="22nd_ArmourBaseAVar2_Light";
+    hiddenSelections[]=
+    {
+        "Camo1",
+        "Camo2",
+        "Camo3",
+        "Camo4",
+        "Camo5",
+        "Camo6",
+        "Camo7",
+        "Camo8",
+        "Camo9",
+        "Camo10",
+        //"Uni_Upper",
+        //"Uni_Lower",
+        "Uni_Collar",
+        //"Armor_Underpad",
+        //"Armor_Straps",
+        //"Armor_Upper",
+        //"Armor_Lower",
+        "Shoulders_Lower1",
+        "Shoulders_Lower2",
+        "Shoulders_Upper"
+    };
+	hiddenSelectionsTextures[]=
+    {
+        "Warhound_Armour\data\Standard\infantry\Woodland\MA_Brown_TrooperUpperBDU_CO.paa",
+        "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa",
+        "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa",
+        "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
+        "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
+        "Warhound_Armour\data\Standard\infantry\Woodland\MA_Tan_TrooperUpperArmor_CO.paa",
+        "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Tan_TrooperLowerArmor_CO.paa",
+        "Warhound_Armour\data\Standard\infantry\Woodland\MA_Tan_TrooperShoulders_CO.paa",
+        "Warhound_Armour\data\Standard\infantry\Woodland\MA_Tan_TrooperShoulders_CO.paa",
+        "Warhound_Armour\data\Standard\infantry\Woodland\MA_Tan_TrooperShoulders_CO.paa"
+    };
+};
