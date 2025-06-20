@@ -27,7 +27,7 @@ class CfgPatches
 };
 class CfgVehicles
 {
-	#include "data\uniform.hpp" // Removed "uniform_trooper" in order to adhere to new standardisation. ~ Raven
+	#include "data\uniform.hpp"  // Removed uniform_trooper in order to adhere to new standardisation. ~ Raven
 };
 class CfgWeapons
 {
