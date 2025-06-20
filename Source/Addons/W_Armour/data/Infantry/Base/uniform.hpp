@@ -55,6 +55,7 @@ class 22nd_Base_None: MA_Marine_BDU_Base
         "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Base_TrooperShoulders_CO.paa"
     };
 };
+// Woodland Uniforms
 // Woodland Variation 1 - Light
 class 22nd_ArmourBaseWVar1_Light: 22nd_Base_None
 {
@@ -84,16 +85,16 @@ class 22nd_ArmourBaseWVar1_Light: 22nd_Base_None
     };
 	hiddenSelectionsTextures[]=
     {
-        "Warhound_Armour\data\Standard\infantry\Woodland\MA_Woodland_TrooperUpperBDU_CO.paa",
+        "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperUpperBDU_CO.paa",
         "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
         "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa",
         "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
         "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-        "Warhound_Armour\data\Standard\infantry\Woodland\MA_green_TrooperUpperArmor_CO.paa",
+        "Warhound_A\data\Infantry\Base\MA_green_TrooperUpperArmor_CO.paa", // Will need new texture
         "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_green_TrooperLowerArmor_CO.paa",
-        "Warhound_Armour\data\Standard\infantry\Woodland\MA_green_TrooperShoulders_CO.paa",
-        "Warhound_Armour\data\Standard\infantry\Woodland\MA_green_TrooperShoulders_CO.paa",
-        "Warhound_Armour\data\Standard\infantry\Woodland\MA_green_TrooperShoulders_CO.paa"
+        "Warhound_A\data\Infantry\Base\MA_green_TrooperShoulders_CO.paa",
+        "Warhound_A\data\Infantry\Base\MA_green_TrooperShoulders_CO.paa",
+        "Warhound_A\data\Infantry\Base\MA_green_TrooperShoulders_CO.paa"
     };
 };
 // Woodland Variation 2 - Light
@@ -125,21 +126,20 @@ class 22nd_ArmourBaseWVar2_Light: 22nd_Base_None
     };
 	hiddenSelectionsTextures[]=
     {
-        "Warhound_Armour\data\Standard\infantry\Woodland\MA_Green_TrooperUpperBDU_CO.paa",
+        "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperUpperBDU_CO.paa",
         "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
         "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa",
         "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
         "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-        "Warhound_Armour\data\Standard\infantry\Woodland\MA_green_TrooperUpperArmor_CO.paa",
+        "Warhound_A\data\Infantry\Base\MA_green_TrooperUpperArmor_CO.paa", // Will need new texture
         "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_green_TrooperLowerArmor_CO.paa",
-        "Warhound_Armour\data\Standard\infantry\Woodland\MA_green_TrooperShoulders_CO.paa",
-        "Warhound_Armour\data\Standard\infantry\Woodland\MA_green_TrooperShoulders_CO.paa",
-        "Warhound_Armour\data\Standard\infantry\Woodland\MA_green_TrooperShoulders_CO.paa"
+        "Warhound_A\data\Infantry\Base\MA_green_TrooperShoulders_CO.paa",
+        "Warhound_A\data\Infantry\Base\MA_green_TrooperShoulders_CO.paa",
+        "Warhound_A\data\Infantry\Base\MA_green_TrooperShoulders_CO.paa"
     };
 };
 
 // Arid Uniforms
-
 // Arid Variation 1 - Light
 class 22nd_ArmourBaseAVar1_Light: 22nd_Base_None
 {
@@ -169,16 +169,16 @@ class 22nd_ArmourBaseAVar1_Light: 22nd_Base_None
     };
 	hiddenSelectionsTextures[]=
     {
-        "Warhound_Armour\data\Standard\infantry\Woodland\MA_Desert_TrooperUpperBDU_CO.paa",
+        "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperUpperBDU_CO.paa",
         "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa",
         "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa",
         "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
         "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-        "Warhound_Armour\data\Standard\infantry\Woodland\MA_Tan_TrooperUpperArmor_CO.paa",
+        "Warhound_A\data\Infantry\Base\MA_Tan_TrooperUpperArmor_CO.paa",
         "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Tan_TrooperLowerArmor_CO.paa",
-        "Warhound_Armour\data\Standard\infantry\Woodland\MA_Tan_TrooperShoulders_CO.paa",
-        "Warhound_Armour\data\Standard\infantry\Woodland\MA_Tan_TrooperShoulders_CO.paa",
-        "Warhound_Armour\data\Standard\infantry\Woodland\MA_Tan_TrooperShoulders_CO.paa"
+        "Warhound_A\data\Infantry\Base\MA_Tan_TrooperShoulders_CO.paa",
+        "Warhound_A\data\Infantry\Base\MA_Tan_TrooperShoulders_CO.paa",
+        "Warhound_A\data\Infantry\Base\MA_Tan_TrooperShoulders_CO.paa"
     };
 };
 // Arid Variation 2 - Light
@@ -210,15 +210,15 @@ class 22nd_ArmourBaseAVar2_Light: 22nd_Base_None
     };
 	hiddenSelectionsTextures[]=
     {
-        "Warhound_Armour\data\Standard\infantry\Woodland\MA_Brown_TrooperUpperBDU_CO.paa",
+        "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa",
         "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa",
         "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa",
         "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
         "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-        "Warhound_Armour\data\Standard\infantry\Woodland\MA_Tan_TrooperUpperArmor_CO.paa",
+        "Warhound_A\data\Infantry\Base\MA_Tan_TrooperUpperArmor_CO.paa", // Will need new texture
         "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Tan_TrooperLowerArmor_CO.paa",
-        "Warhound_Armour\data\Standard\infantry\Woodland\MA_Tan_TrooperShoulders_CO.paa",
-        "Warhound_Armour\data\Standard\infantry\Woodland\MA_Tan_TrooperShoulders_CO.paa",
-        "Warhound_Armour\data\Standard\infantry\Woodland\MA_Tan_TrooperShoulders_CO.paa"
+        "Warhound_A\data\Infantry\Base\MA_Tan_TrooperShoulders_CO.paa",
+        "Warhound_A\data\Infantry\Base\MA_Tan_TrooperShoulders_CO.paa",
+        "Warhound_A\data\Infantry\Base\MA_Tan_TrooperShoulders_CO.paa"
     };
 };
