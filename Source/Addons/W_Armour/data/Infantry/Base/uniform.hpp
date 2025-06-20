@@ -1,0 +1,96 @@
+class 22ndRDF_Uniform_Base_MAInfantry_HS_Arid: 22ndRDF_Uniform_Base_MAInfantry
+{
+	scope=2;
+    scopeArsenal=2;
+    UniformClass="22ndRDF_Uniform_Base_MAInfantry_base_HS_Arid";
+    hiddenSelections[]=
+    {
+        "Camo1",
+        "Camo2",
+        "Camo3",
+        "Camo4",
+        "Camo5",
+        "Camo6",
+        "Camo7",
+        "Camo8",
+        "Camo9",
+        "Camo10",
+        //"Uni_Upper",
+        //"Uni_Lower",
+        //"Uni_Collar",
+        //"Armor_Underpad",
+        //"Armor_Straps",
+        //"Armor_Upper",
+        //"Armor_Lower",
+        //"Shoulders_Lower1",
+        "Shoulders_Lower2",
+        //"Shoulders_Upper"
+    };
+    hiddenSelectionsTextures[]=
+    {
+        "Warhound_Armour\data\Standard\infantry\Arid\MA_Desert_TrooperUpperBDU_CO.paa",
+        "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa",
+        "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa",
+        "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
+        "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
+        "Warhound_Armour\data\Standard\infantry\Arid\MA_Tan_TrooperUpperArmor_CO.paa",
+        "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Tan_TrooperLowerArmor_CO.paa",
+        "Warhound_Armour\data\Standard\infantry\Arid\MA_Tan_TrooperShoulders_CO.paa",
+        "Warhound_Armour\data\Standard\infantry\Arid\MA_Tan_TrooperShoulders_CO.paa",
+        "Warhound_Armour\data\Standard\infantry\Arid\MA_Tan_TrooperShoulders_CO.paa"
+    };
+};
+class 22ndRDF_Uniform_Base_MAInfantry_MS_Arid: 22ndRDF_Uniform_Base_MAInfantry_HS_Arid
+{
+    UniformClass="22ndRDF_Uniform_Base_MAInfantry_base_MS_Arid";
+    hiddenSelections[]=
+    {
+        "Camo1",
+        "Camo2",
+        "Camo3",
+        "Camo4",
+        "Camo5",
+        "Camo6",
+        "Camo7",
+        "Camo8",
+        "Camo9",
+        "Camo10",
+        //"Uni_Upper",
+        //"Uni_Lower",
+        //"Uni_Collar",
+        //"Armor_Underpad",
+        //"Armor_Straps",
+        //"Armor_Upper",
+        //"Armor_Lower",
+        "Shoulders_Lower1",
+        //"Shoulders_Lower2",
+        //"Shoulders_Upper"
+    };
+};
+class 22ndRDF_Uniform_Base_MAInfantry_NS_Arid: 22ndRDF_Uniform_Base_MAInfantry_HS_Arid
+{
+    UniformClass="22ndRDF_Uniform_Base_MAInfantry_base_NS_Arid";
+    hiddenSelections[]=
+    {
+        "Camo1",
+        "Camo2",
+        "Camo3",
+        "Camo4",
+        "Camo5",
+        "Camo6",
+        "Camo7",
+        "Camo8",
+        "Camo9",
+        "Camo10",
+        //"Uni_Upper",
+        //"Uni_Lower",
+        "Uni_Collar",
+        //"Armor_Underpad",
+        //"Armor_Straps",
+        //"Armor_Upper",
+        //"Armor_Lower",
+        "Shoulders_Lower1",
+        "Shoulders_Lower2",
+        "Shoulders_Upper"
+    };
+};
