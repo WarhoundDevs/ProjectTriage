@@ -17,6 +17,7 @@ class 22nd_Base_None: MA_Marine_BDU_Base
 {
     scope=0;
     scopeArsenal=0;
+    displayName = "Warhound Woodland Base"
     UniformClass="22nd_Base_None";
     hiddenSelections[]=
     {
@@ -59,6 +60,9 @@ class 22nd_Base_None: MA_Marine_BDU_Base
 // Woodland Variation 1 - Light
 class 22nd_ArmourBaseWVar1_Light: 22nd_Base_None
 {
+    scope=1;
+    scopeArsenal=1;
+    displayName = "Warhound Woodland Var1"
     UniformClass="22nd_ArmourBaseWVar1_Light";
     hiddenSelections[]=
     {
@@ -100,6 +104,9 @@ class 22nd_ArmourBaseWVar1_Light: 22nd_Base_None
 // Woodland Variation 2 - Light
 class 22nd_ArmourBaseWVar2_Light: 22nd_Base_None
 {
+    scope=1;
+    scopeArsenal=1;
+    displayName = "Warhound Woodland Var2"
     UniformClass="22nd_ArmourBaseWVar1_Light";
     hiddenSelections[]=
     {
@@ -174,7 +181,7 @@ class 22nd_ArmourBaseAVar1_Light: 22nd_Base_None
         "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa",
         "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
         "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-        "Warhound_A\data\Infantry\Base\MA_Tan_TrooperUpperArmor_CO.paa",
+        "Warhound_A\data\Infantry\Base\MA_Tan_TrooperUpperArmor_CO.paa", // Will need new texture
         "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Tan_TrooperLowerArmor_CO.paa",
         "Warhound_A\data\Infantry\Base\MA_Tan_TrooperShoulders_CO.paa",
         "Warhound_A\data\Infantry\Base\MA_Tan_TrooperShoulders_CO.paa",
