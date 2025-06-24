@@ -75,22 +75,22 @@ class CfgVehicles {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
             "Camo9",
             "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-             "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            "Armor_Upper",
-            // "Armor_Lower",
-            // "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
+          //"Uni_Upper",
+          //"Uni_Lower",
+            "Uni_Collar",
+          //"Armor_Underpad",
+          //"Armor_Straps",
+          //"Armor_Upper",
+          //"Armor_Lower",
+            "Shoulders_Lower1",
+            "Shoulders_Lower2",
+            "Shoulders_Upper"
         };
 
         hiddenSelectionsTextures[] = {
