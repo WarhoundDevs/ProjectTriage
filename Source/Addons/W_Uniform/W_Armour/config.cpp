@@ -284,8 +284,9 @@ class CfgWeapons {
                 "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
                 "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
                 "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
+            };
         };
-    }; // Close 22nd_ArmourBaseVar1_Medium
+    };// Close 22nd_ArmourBaseVar1_Medium
     class 22nd_ArmourBaseVar1_Heavy: MA_Marine_BDU_Base {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
@@ -331,6 +332,7 @@ class CfgWeapons {
                 "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
                 "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
                 "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
+            };
         };
     }; // Close 22nd_ArmourBaseVar1_Heavy
 };
