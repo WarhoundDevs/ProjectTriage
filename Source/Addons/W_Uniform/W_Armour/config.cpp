@@ -1,5 +1,5 @@
 class CfgPatches {
-    class WarhoundArmoury {
+    class 22ndArmsRoom {
         units[] = { 
             //Base
             "22nd_ArmourBaseVar1_Light",
