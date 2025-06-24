@@ -223,7 +223,7 @@ class CfgWeapons {
             // "Armor_Lower",
             "Shoulders_Lower1",
             "Shoulders_Lower2",
-            "Shoulders_Upper",
+            // "Shoulders_Upper",
         };
             hiddenSelectionsTextures[] = {
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperUpperBDU_CO.paa", // Upper texture
