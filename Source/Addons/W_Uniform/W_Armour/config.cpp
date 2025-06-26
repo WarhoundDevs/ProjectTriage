@@ -121,16 +121,16 @@ class CfgVehicles {
             "Camo8",
             "Camo9",
             "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
+          //"Uni_Upper",
+          //"Uni_Lower",
             "Uni_Collar",
             "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
+          //"Armor_Straps",
+          //"Armor_Upper",
+          //"Armor_Lower",
             "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
+          //"Shoulders_Lower2",
+          //"Shoulders_Upper"
         };
 
         hiddenSelectionsTextures[] = {
@@ -161,16 +161,16 @@ class CfgVehicles {
             "Camo8",
             "Camo9",
             "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
+          //"Uni_Upper",
+          //"Uni_Lower",
             "Uni_Collar",
             "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            // "Shoulders_Lower1",
+          //"Armor_Straps",
+          //"Armor_Upper",
+          //"Armor_Lower",
+          //"Shoulders_Lower1",
             "Shoulders_Lower2",
-            // "Shoulders_Upper"
+          //"Shoulders_Upper"
         };
 
         hiddenSelectionsTextures[] = {
@@ -218,12 +218,12 @@ class CfgWeapons {
             "Uni_Lower",
             "Uni_Collar",
             "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
+          //"Armor_Straps",
+          //"Armor_Upper",
+          //"Armor_Lower",
             "Shoulders_Lower1",
             "Shoulders_Lower2",
-            // "Shoulders_Upper",
+          //"Shoulders_Upper",
         };
             hiddenSelectionsTextures[] = {
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperUpperBDU_CO.paa", // Upper texture
@@ -270,8 +270,8 @@ class CfgWeapons {
             "Armor_Upper",
             "Armor_Lower",
             "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
+          //"Shoulders_Lower2",
+          //"Shoulders_Upper"
         };
             hiddenSelectionsTextures[] = {
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperUpperBDU_CO.paa", // Upper texture
@@ -317,9 +317,9 @@ class CfgWeapons {
             "Armor_Straps",
             "Armor_Upper",
             "Armor_Lower",
-            // "Shoulders_Lower1",
+          //"Shoulders_Lower1",
             "Shoulders_Lower2",
-            // "Shoulders_Upper"
+          //"Shoulders_Upper"
         };
             hiddenSelectionsTextures[] = {
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperUpperBDU_CO.paa", // Upper texture
