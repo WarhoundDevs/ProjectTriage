@@ -2,9 +2,12 @@ class CfgPatches {
     class 22ndArmsRoom {
         units[] = { 
             //Base
-            "22nd_ArmourBaseVar2_Light",
-            "22nd_ArmourBaseVar2_Medium",
+            "22nd_ArmourBaseVar1_Light",
+            "22nd_ArmourBaseVar1_LightC",
+            "22nd_ArmourBaseVar1_Medium",
+            "22nd_ArmourBaseVar1_MediumC",
             "22nd_ArmourBaseVar1_Heavy",
+            "22nd_ArmourBaseVar1_HeavyC",
             "22nd_ArmourBaseVar2_Light",
             "22nd_ArmourBaseVar2_Medium",
             "22nd_ArmourBaseVar2_Heavy",
@@ -33,8 +36,11 @@ class CfgPatches {
         weapons[] = {
             //Base
             "22nd_ArmourBaseVar1_Light",
+            "22nd_ArmourBaseVar1_LightC",
             "22nd_ArmourBaseVar1_Medium",
+            "22nd_ArmourBaseVar1_MediumC",
             "22nd_ArmourBaseVar1_Heavy",
+            "22nd_ArmourBaseVar1_HeavyC",
             "22nd_ArmourBaseVar2_Light",
             "22nd_ArmourBaseVar2_Medium",
             "22nd_ArmourBaseVar2_Heavy",
