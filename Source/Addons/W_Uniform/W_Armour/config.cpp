@@ -66,6 +66,13 @@ class CfgPatches {
 class CfgVehicles {
     class MA_Marine_BDU_Base;
 
+    /*
+    * Begin ArmourBase
+    * Including Variants 1 & 2
+    */
+
+    //Begin Variant 1
+
     class 22nd_ArmourBaseVar1_Light: MA_Marine_BDU_Base {
         scope = 2; // Visible in editor
         author="Warhound Mod Team";
@@ -186,6 +193,9 @@ class CfgVehicles {
             "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
         };
     }; // Close 22nd_ArmourBaseVar1_Heavy
+
+    //Begin Variant 2
+
     class 22nd_ArmourBaseVar2_Light: MA_Marine_BDU_Base {
         scope = 2; // Visible in editor
         author="Warhound Mod Team";
@@ -307,10 +317,27 @@ class CfgVehicles {
             "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
         };
     }; // Close 22nd_ArmourBaseVar2_Heavy
+
+    //Begin Variant 3
+
+    /*
+    * Begin ArmourWood
+    */
+
+    /*
+    * Begin ArmourArid
+    */
 };
 class CfgWeapons {
     class MA_Marine_BDU_Base;
     class UniformItem;
+
+    /*
+    * Begin ArmourBase
+    * Including Variants 1 & 2
+    */
+
+    //Begin Variant 1
 
     class 22nd_ArmourBaseVar1_Light: MA_Marine_BDU_Base {
         scope = 2;  // Visible in editor
@@ -456,6 +483,9 @@ class CfgWeapons {
             };
         };
     }; // Close 22nd_ArmourBaseVar1_Heavy
+
+    //Begin Variant 2
+
     class 22nd_ArmourBaseVar2_Light: MA_Marine_BDU_Base {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
@@ -601,4 +631,12 @@ class CfgWeapons {
             };
         };
     }; // Close 22nd_ArmourBaseVar1_Heavy
+
+    /*
+    * Begin ArmourWood
+    */
+
+    /*
+    * Begin ArmourArid
+    */
 };
