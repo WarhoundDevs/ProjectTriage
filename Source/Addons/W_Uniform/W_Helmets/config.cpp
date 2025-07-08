@@ -32,7 +32,6 @@ class CfgWeapons {
     * Begin Base Helmets
     */
 
-    //Begin Helmet Base Open
     class 22nd_HelmBase_Open: CH252_Helmet_Base {
         scope=2;
         scopeArsenal=2;
@@ -110,9 +109,8 @@ class CfgWeapons {
                 "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa" // Closed Visor
             };
         };
-    };
+    };// Close 22nd_HelmBase_Open
     
-    // Begin Helmet Base Closed
     class 22nd_HelmBase_Closed: CH252_Helmet_Base {
         scope=2;
         scopeArsenal=2;
@@ -190,9 +188,7 @@ class CfgWeapons {
                 "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa" // Closed Visor
             };
         };
-    };
-
-    // Begin Helmet Base Eyepiece
+    };// Close 22nd_HelmBase_Closed
 
     class 22nd_HelmBase_Eye: CH252_Helmet_Base {
         scope=2;
@@ -271,9 +267,8 @@ class CfgWeapons {
                 "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa" // Closed Visor
             };
         };
-    };
+    };// Close 22nd_HelmBase_Eye
 
-    // Begin Helmet Base Visor
     class 22nd_HelmBase_Visor: CH252_Helmet_Base {
         scope=2;
         scopeArsenal=2;
@@ -351,5 +346,5 @@ class CfgWeapons {
                 "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa" // Closed Visor
             };
         };
-    };
+    };// Close 22nd_HelmBase_Visor
 };
