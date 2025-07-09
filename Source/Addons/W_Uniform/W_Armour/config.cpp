@@ -2273,7 +2273,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Base Armour Variant 1 (L)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -2322,7 +2322,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Base Armour Variant 1 (M)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -2371,7 +2371,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Base Armour Variant 1 (H)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -2422,7 +2422,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Base Armour Variant 1 (LC)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -2471,7 +2471,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Base Armour Variant 1 (MC)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -2520,7 +2520,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Base Armour Variant 1 (HC)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -2571,7 +2571,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Base Armour Variant 2 (L)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -2620,7 +2620,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Base Armour Variant 2 (M)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -2669,7 +2669,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Base Armour Variant 2 (H)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -2720,7 +2720,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Base Armour Variant 2 (LC)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -2769,7 +2769,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Base Armour Variant 2 (MC)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -2818,7 +2818,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Base Armour Variant 2 (HC)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -2869,7 +2869,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Base Armour Variant 3 (L)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -2918,7 +2918,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Base Armour Variant 3 (M)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -2967,7 +2967,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Base Armour Variant 3 (H)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -3018,7 +3018,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Base Armour Variant 3 (LC)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -3067,7 +3067,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Base Armour Variant 3 (MC)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -3116,7 +3116,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Base Armour Variant 3 (HC)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -3171,7 +3171,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Arid Armour Variant 1 (L)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -3220,7 +3220,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Arid Armour Variant 1 (M)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -3269,7 +3269,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Arid Armour Variant 1 (H)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -3320,7 +3320,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Arid Armour Variant 1 (LC)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -3369,7 +3369,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Arid Armour Variant 1 (MC)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -3418,7 +3418,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Arid Armour Variant 1 (HC)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -3469,7 +3469,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Arid Armour Variant 2 (L)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -3518,7 +3518,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Arid Armour Variant 2 (M)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -3567,7 +3567,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Arid Armour Variant 2 (H)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -3618,7 +3618,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Arid Armour Variant 2 (LC)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -3667,7 +3667,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Arid Armour Variant 2 (MC)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -3716,7 +3716,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Arid Armour Variant 2 (HC)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -3771,7 +3771,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Winter Armour Variant 1 (L)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -3820,7 +3820,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Winter Armour Variant 1 (M)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -3869,7 +3869,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Winter Armour Variant 1 (H)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -3920,7 +3920,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Winter Armour Variant 1 (LC)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -3969,7 +3969,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Winter Armour Variant 1 (MC)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -4018,7 +4018,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Winter Armour Variant 1 (HC)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -4069,7 +4069,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Winter Armour Variant 2 (L)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -4118,7 +4118,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Winter Armour Variant 2 (M)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -4167,7 +4167,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Winter Armour Variant 2 (H)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -4218,7 +4218,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Winter Armour Variant 2 (LC)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -4267,7 +4267,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Winter Armour Variant 2 (MC)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -4316,7 +4316,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Winter Armour Variant 2 (HC)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -4367,7 +4367,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Winter Armour Variant 3 (L)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -4416,7 +4416,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Winter Armour Variant 3 (M)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -4465,7 +4465,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Winter Armour Variant 3 (H)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -4516,7 +4516,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Winter Armour Variant 3 (LC)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -4565,7 +4565,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Winter Armour Variant 3 (MC)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -4614,7 +4614,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Winter Armour Variant 3 (HC)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -4669,7 +4669,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Raven Armour Base Variant (M)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -4718,7 +4718,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Raven Armour Arid Variant (M)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
@@ -4767,7 +4767,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author="Warhound Mod Team";
         displayName = "Warhound Raven Armour Winter Variant (M)"; // In-game name
-        picture = "\W_Uniform\W_Armour\IconG.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         
         class ItemInfo: UniformItem {
