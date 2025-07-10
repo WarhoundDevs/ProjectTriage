@@ -1,24 +1,24 @@
 class 22nd_UNSC_Reach_Rifleman: 22ndRdf_Trooper_Reach_Base
 {
-	displayName="[22nd] Trooper Reach Rifleman";
+	displayName="[22nd] Trooper Reach Rifleman"; // Rifleman Unit
 	author="The Canadian Nematoad";
 	scope=2;
 	scopeCurator=2;
-	backpack="Echo_Rucksack_Soft";
-	uniformClass="22ndRDF_Uniform_Base_MAInfantry_base_MS_Reach";
+	backpack="Echo_Rucksack_Soft"; // May need changing
+	uniformClass="22ndRDF_Uniform_Base_MAInfantry_base_MS_Reach"; // Calling base uniform class
 	weapons[]=
 	{
 		"Throw",
 		"Put",
-		"22ndRDF_Rifle_MA37_Urban",
-		"22RDF_Handgun_M6G_Urban"
+		"22ndRDF_Rifle_MA37_Urban", // Calling 22nd MA37
+		"22RDF_Handgun_M6G_Urban" // Calling 22nd M6G
 	};
 	respawnWeapons[]=
 	{
 		"Throw",
 		"Put",
-		"22ndRDF_Rifle_MA37_Urban",
-		"22RDF_Handgun_M6G_Urban"
+		"22ndRDF_Rifle_MA37_Urban", // Calling 22nd MA37
+		"22RDF_Handgun_M6G_Urban" // Calling 22nd M6G
 	};
 	magazines[]=
 	{
