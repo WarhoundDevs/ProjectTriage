@@ -147,9 +147,9 @@ class CfgWeapons {
             "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
             "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
             "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Brown_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Woodland\FaceModule_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Woodland\FaceModule_CO.paa",
         };
         class ItemInfo: ItemInfo
         {
