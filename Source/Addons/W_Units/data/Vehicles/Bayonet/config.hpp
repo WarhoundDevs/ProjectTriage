@@ -6,8 +6,8 @@ class Warhound_Bayonet_Orca_Default: OPTRE_bayonet_01
 	side=1;
 	scope=2;
 	scopeCurator=2;
-	editorCategory="22ndRDF_Warhound_Company";
-	editorSubcategory="22ndRDF_Warhound_Company_Air_Vehicles";
+	editorCategory="22nd_Warhound_Company";
+	editorSubcategory="22nd_Warhound_Company_Air_Vehicles";
 	dlc="Cvics";
 	author="DJ Tachanka";
 	crew="OPTRE_UNSC_Marine_Pilot";
@@ -20,15 +20,15 @@ class Warhound_Bayonet_Orca_Default: OPTRE_bayonet_01
 			displayName="Orca";
 			textures[]=
 			{
-				"Warhound_Units\data\Vehicles\Bayonet\Bayonet_01_fuselage_Orca_co.paa",
-				"Warhound_Units\data\Vehicles\Bayonet\Bayonet_02_fuselage_Orca_co.paa"
+				"W_Units\data\Vehicles\Bayonet\Bayonet_01_fuselage_Orca_co.paa",
+				"W_Units\data\Vehicles\Bayonet\Bayonet_02_fuselage_Orca_co.paa"
 			};
 		};
 	};
 	hiddenSelectionsTextures[]=
 	{
-		"Warhound_Units\data\Vehicles\Bayonet\Bayonet_01_fuselage_Orca_co.paa",
-		"Warhound_Units\data\Vehicles\Bayonet\Bayonet_02_fuselage_Orca_co.paa"
+		"W_Units\data\Vehicles\Bayonet\Bayonet_01_fuselage_Orca_co.paa",
+		"W_Units\data\Vehicles\Bayonet\Bayonet_02_fuselage_Orca_co.paa"
 	};
 };
 class Warhound_Bayonet_Orca_Stealth: OPTRE_bayonetstealth_01
@@ -36,8 +36,8 @@ class Warhound_Bayonet_Orca_Stealth: OPTRE_bayonetstealth_01
 	side=1;
 	scope=2;
 	scopeCurator=2;
-	editorCategory="22ndRDF_Warhound_Company";
-	editorSubcategory="22ndRDF_Warhound_Company_Air_Vehicles";
+	editorCategory="22nd_Warhound_Company";
+	editorSubcategory="22nd_Warhound_Company_Air_Vehicles";
 	dlc="Cvics";
 	author="DJ Tachanka";
 	crew="OPTRE_UNSC_Marine_Pilot";
@@ -50,15 +50,15 @@ class Warhound_Bayonet_Orca_Stealth: OPTRE_bayonetstealth_01
 			displayName="Orca";
 			textures[]=
 			{
-				"Warhound_Units\data\Vehicles\Bayonet\Bayonet_01_fuselage_Orca_co.paa",
-				"Warhound_Units\data\Vehicles\Bayonet\Bayonet_02_fuselage_Orca_co.paa"
+				"W_Units\data\Vehicles\Bayonet\Bayonet_01_fuselage_Orca_co.paa",
+				"W_Units\data\Vehicles\Bayonet\Bayonet_02_fuselage_Orca_co.paa"
 			};
 		};
 	};
 	hiddenSelectionsTextures[]=
 	{
-		"Warhound_Units\data\Vehicles\Bayonet\Bayonet_01_fuselage_Orca_co.paa",
-		"Warhound_Units\data\Vehicles\Bayonet\Bayonet_02_fuselage_Orca_co.paa"
+		"W_Units\data\Vehicles\Bayonet\Bayonet_01_fuselage_Orca_co.paa",
+		"W_Units\data\Vehicles\Bayonet\Bayonet_02_fuselage_Orca_co.paa"
 	};
 };
 #include "Orca_4\config.hpp"

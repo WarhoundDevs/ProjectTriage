@@ -5,8 +5,8 @@ class 22ndRdf_Bulldog_MG: DMNS_Bulldog_LRV_MG
 	author="Kidd";
 	displayName="[22nd] Bulldog (M247-H)";
 	faction="22nd_Faction";
-	editorCategory="22ndRDF_Warhound_Company";
-	editorSubcategory="22ndRDF_Warhound_Company_Cars";
+	editorCategory="22nd_Warhound_Company";
+	editorSubcategory="22nd_Warhound_Company_Cars";
 	enableRadio=1;
 	tf_range=25000;
 	tf_isolatedAmount=0.40000001;
@@ -14,8 +14,8 @@ class 22ndRdf_Bulldog_MG: DMNS_Bulldog_LRV_MG
 	tf_hasLRradio=1;
 	hiddenSelectionsTextures[] =
 	{
-		"Warhound_Units\data\Vehicles\Bulldog\Base\22ndrdf_Bulldog_Body_Black_co.paa",
-		"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+		"W_Units\data\Vehicles\Bulldog\Base\22ndrdf_Bulldog_Body_Black_co.paa",
+		"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 	};
 	textureList[] =
 	{
@@ -36,8 +36,8 @@ class 22ndRdf_Bulldog_MG: DMNS_Bulldog_LRV_MG
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Bulldog\Base\22ndrdf_Bulldog_Body_Black_co.paa",
-				"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+				"W_Units\data\Vehicles\Bulldog\Base\22ndrdf_Bulldog_Body_Black_co.paa",
+				"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 			};
 		};
 		class Bulldog_Arctic
@@ -46,8 +46,8 @@ class 22ndRdf_Bulldog_MG: DMNS_Bulldog_LRV_MG
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Bulldog\Base\22ndrdf_Bulldog_Body_Arctic_co.paa",
-				"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+				"W_Units\data\Vehicles\Bulldog\Base\22ndrdf_Bulldog_Body_Arctic_co.paa",
+				"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 			};
 		};
 		class Bulldog_Arid
@@ -56,8 +56,8 @@ class 22ndRdf_Bulldog_MG: DMNS_Bulldog_LRV_MG
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Bulldog\Base\22ndrdf_Bulldog_Body_Arid_co.paa",
-				"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+				"W_Units\data\Vehicles\Bulldog\Base\22ndrdf_Bulldog_Body_Arid_co.paa",
+				"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 			};
 		};
 		class Bulldog_Woodland
@@ -66,8 +66,8 @@ class 22ndRdf_Bulldog_MG: DMNS_Bulldog_LRV_MG
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Bulldog\Base\22ndrdf_Bulldog_Body_Woodland_co.paa",
-				"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+				"W_Units\data\Vehicles\Bulldog\Base\22ndrdf_Bulldog_Body_Woodland_co.paa",
+				"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 			};
 		};
 	};
@@ -78,12 +78,12 @@ class 22ndRdf_Pike_1_A_Bulldog_MG: 22ndRdf_Bulldog_MG
 	author="Kidd";
 	displayName="[22nd] Pike 1-A Bulldog (M247-H)";
 	faction="22nd_Faction";
-	editorCategory="22ndRDF_Warhound_Company";
-	editorSubcategory="22ndRDF_Warhound_Company_Cars";
+	editorCategory="22nd_Warhound_Company";
+	editorSubcategory="22nd_Warhound_Company_Cars";
 	hiddenSelectionsTextures[] =
 	{
-		"Warhound_Units\data\Vehicles\Bulldog\Pike\Pike1A\22ndrdf_Pike1A_Bulldog_Body_Black_co.paa",
-		"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+		"W_Units\data\Vehicles\Bulldog\Pike\Pike1A\22ndrdf_Pike1A_Bulldog_Body_Black_co.paa",
+		"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 	};
 	textureList[] =
 	{
@@ -104,8 +104,8 @@ class 22ndRdf_Pike_1_A_Bulldog_MG: 22ndRdf_Bulldog_MG
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Bulldog\Pike\Pike1A\22ndrdf_Pike1A_Bulldog_Body_Black_co.paa",
-				"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+				"W_Units\data\Vehicles\Bulldog\Pike\Pike1A\22ndrdf_Pike1A_Bulldog_Body_Black_co.paa",
+				"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 			};
 		};
 		class BulldogP1A_Arctic
@@ -114,8 +114,8 @@ class 22ndRdf_Pike_1_A_Bulldog_MG: 22ndRdf_Bulldog_MG
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Bulldog\Pike\Pike1A\22ndrdf_Pike1A_Bulldog_Body_Arctic_co.paa",
-				"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+				"W_Units\data\Vehicles\Bulldog\Pike\Pike1A\22ndrdf_Pike1A_Bulldog_Body_Arctic_co.paa",
+				"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 			};
 		};
 		class BulldogP1A_Arid
@@ -124,8 +124,8 @@ class 22ndRdf_Pike_1_A_Bulldog_MG: 22ndRdf_Bulldog_MG
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Bulldog\Pike\Pike1A\22ndrdf_Pike1A_Bulldog_Body_Arid_co.paa",
-				"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+				"W_Units\data\Vehicles\Bulldog\Pike\Pike1A\22ndrdf_Pike1A_Bulldog_Body_Arid_co.paa",
+				"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 			};
 		};
 		class BulldogP1A_Woodland
@@ -134,8 +134,8 @@ class 22ndRdf_Pike_1_A_Bulldog_MG: 22ndRdf_Bulldog_MG
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Bulldog\Pike\Pike1A\22ndrdf_Pike1A_Bulldog_Body_Woodland_co.paa",
-				"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+				"W_Units\data\Vehicles\Bulldog\Pike\Pike1A\22ndrdf_Pike1A_Bulldog_Body_Woodland_co.paa",
+				"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 			};
 		};
 	};
@@ -146,12 +146,12 @@ class 22ndRdf_Pike_1_1_Bulldog_MG: 22ndRdf_Bulldog_MG
 	author="Kidd";
 	displayName="[22nd] Pike 1-1 Bulldog (M247-H)";
 	faction="22nd_Faction";
-	editorCategory="22ndRDF_Warhound_Company";
-	editorSubcategory="22ndRDF_Warhound_Company_Cars";
+	editorCategory="22nd_Warhound_Company";
+	editorSubcategory="22nd_Warhound_Company_Cars";
 	hiddenSelectionsTextures[] =
 	{
-		"Warhound_Units\data\Vehicles\Bulldog\Pike\Pike11\22ndrdf_Pike11_Bulldog_Body_Black_co.paa",
-		"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+		"W_Units\data\Vehicles\Bulldog\Pike\Pike11\22ndrdf_Pike11_Bulldog_Body_Black_co.paa",
+		"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 	};
 	textureList[] =
 	{
@@ -172,8 +172,8 @@ class 22ndRdf_Pike_1_1_Bulldog_MG: 22ndRdf_Bulldog_MG
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Bulldog\Pike\Pike11\22ndrdf_Pike11_Bulldog_Body_Black_co.paa",
-				"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+				"W_Units\data\Vehicles\Bulldog\Pike\Pike11\22ndrdf_Pike11_Bulldog_Body_Black_co.paa",
+				"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 			};
 		};
 		class BulldogP11_Arctic
@@ -182,8 +182,8 @@ class 22ndRdf_Pike_1_1_Bulldog_MG: 22ndRdf_Bulldog_MG
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Bulldog\Pike\Pike11\22ndrdf_Pike11_Bulldog_Body_Arctic_co.paa",
-				"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+				"W_Units\data\Vehicles\Bulldog\Pike\Pike11\22ndrdf_Pike11_Bulldog_Body_Arctic_co.paa",
+				"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 			};
 		};
 		class BulldogP11_Arid
@@ -192,8 +192,8 @@ class 22ndRdf_Pike_1_1_Bulldog_MG: 22ndRdf_Bulldog_MG
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Bulldog\Pike\Pike11\22ndrdf_Pike11_Bulldog_Body_Arid_co.paa",
-				"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+				"W_Units\data\Vehicles\Bulldog\Pike\Pike11\22ndrdf_Pike11_Bulldog_Body_Arid_co.paa",
+				"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 			};
 		};
 		class BulldogP11_Woodland
@@ -202,8 +202,8 @@ class 22ndRdf_Pike_1_1_Bulldog_MG: 22ndRdf_Bulldog_MG
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Bulldog\Pike\Pike11\22ndrdf_Pike11_Bulldog_Body_Woodland_co.paa",
-				"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+				"W_Units\data\Vehicles\Bulldog\Pike\Pike11\22ndrdf_Pike11_Bulldog_Body_Woodland_co.paa",
+				"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 			};
 		};
 	};
@@ -214,12 +214,12 @@ class 22ndRdf_Pike_1_2_Bulldog_MG: 22ndRdf_Bulldog_MG
 	author="Kidd";
 	displayName="[22nd] Pike 1-2 Bulldog (M247-H)";
 	faction="22nd_Faction";
-	editorCategory="22ndRDF_Warhound_Company";
-	editorSubcategory="22ndRDF_Warhound_Company_Cars";
+	editorCategory="22nd_Warhound_Company";
+	editorSubcategory="22nd_Warhound_Company_Cars";
 	hiddenSelectionsTextures[] =
 	{
-		"Warhound_Units\data\Vehicles\Bulldog\Pike\Pike12\22ndrdf_Pike12_Bulldog_Body_Black_co.paa",
-		"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+		"W_Units\data\Vehicles\Bulldog\Pike\Pike12\22ndrdf_Pike12_Bulldog_Body_Black_co.paa",
+		"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 	};
 	textureList[] =
 	{
@@ -240,8 +240,8 @@ class 22ndRdf_Pike_1_2_Bulldog_MG: 22ndRdf_Bulldog_MG
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Bulldog\Pike\Pike12\22ndrdf_Pike12_Bulldog_Body_Black_co.paa",
-				"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+				"W_Units\data\Vehicles\Bulldog\Pike\Pike12\22ndrdf_Pike12_Bulldog_Body_Black_co.paa",
+				"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 			};
 		};
 		class BulldogP12_Arctic
@@ -250,8 +250,8 @@ class 22ndRdf_Pike_1_2_Bulldog_MG: 22ndRdf_Bulldog_MG
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Bulldog\Pike\Pike12\22ndrdf_Pike12_Bulldog_Body_Arctic_co.paa",
-				"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+				"W_Units\data\Vehicles\Bulldog\Pike\Pike12\22ndrdf_Pike12_Bulldog_Body_Arctic_co.paa",
+				"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 			};
 		};
 		class BulldogP12_Arid
@@ -260,8 +260,8 @@ class 22ndRdf_Pike_1_2_Bulldog_MG: 22ndRdf_Bulldog_MG
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Bulldog\Pike\Pike12\22ndrdf_Pike12_Bulldog_Body_Arid_co.paa",
-				"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+				"W_Units\data\Vehicles\Bulldog\Pike\Pike12\22ndrdf_Pike12_Bulldog_Body_Arid_co.paa",
+				"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 			};
 		};
 		class BulldogP12_Woodland
@@ -270,8 +270,8 @@ class 22ndRdf_Pike_1_2_Bulldog_MG: 22ndRdf_Bulldog_MG
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Bulldog\Pike\Pike12\22ndrdf_Pike12_Bulldog_Body_Woodland_co.paa",
-				"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+				"W_Units\data\Vehicles\Bulldog\Pike\Pike12\22ndrdf_Pike12_Bulldog_Body_Woodland_co.paa",
+				"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 			};
 		};
 	};
@@ -282,12 +282,12 @@ class 22ndRdf_Pike_1_3_Bulldog_MG: 22ndRdf_Bulldog_MG
 	author="Kidd";
 	displayName="[22nd] Pike 1-3 Bulldog (M247-H)";
 	faction="22nd_Faction";
-	editorCategory="22ndRDF_Warhound_Company";
-	editorSubcategory="22ndRDF_Warhound_Company_Cars";
+	editorCategory="22nd_Warhound_Company";
+	editorSubcategory="22nd_Warhound_Company_Cars";
 	hiddenSelectionsTextures[] =
 	{
-		"Warhound_Units\data\Vehicles\Bulldog\Pike\Pike13\22ndrdf_Pike13_Bulldog_Body_Black_co.paa",
-		"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+		"W_Units\data\Vehicles\Bulldog\Pike\Pike13\22ndrdf_Pike13_Bulldog_Body_Black_co.paa",
+		"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 	};
 	textureList[] =
 	{
@@ -308,8 +308,8 @@ class 22ndRdf_Pike_1_3_Bulldog_MG: 22ndRdf_Bulldog_MG
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Bulldog\Pike\Pike13\22ndrdf_Pike13_Bulldog_Body_Black_co.paa",
-				"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+				"W_Units\data\Vehicles\Bulldog\Pike\Pike13\22ndrdf_Pike13_Bulldog_Body_Black_co.paa",
+				"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 			};
 		};
 		class BulldogP13_Arctic
@@ -318,8 +318,8 @@ class 22ndRdf_Pike_1_3_Bulldog_MG: 22ndRdf_Bulldog_MG
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Bulldog\Pike\Pike13\22ndrdf_Pike13_Bulldog_Body_Arctic_co.paa",
-				"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+				"W_Units\data\Vehicles\Bulldog\Pike\Pike13\22ndrdf_Pike13_Bulldog_Body_Arctic_co.paa",
+				"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 			};
 		};
 		class BulldogP13_Arid
@@ -328,8 +328,8 @@ class 22ndRdf_Pike_1_3_Bulldog_MG: 22ndRdf_Bulldog_MG
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Bulldog\Pike\Pike13\22ndrdf_Pike13_Bulldog_Body_Arid_co.paa",
-				"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+				"W_Units\data\Vehicles\Bulldog\Pike\Pike13\22ndrdf_Pike13_Bulldog_Body_Arid_co.paa",
+				"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 			};
 		};
 		class BulldogP13_Woodland
@@ -338,8 +338,8 @@ class 22ndRdf_Pike_1_3_Bulldog_MG: 22ndRdf_Bulldog_MG
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Bulldog\Pike\Pike13\22ndrdf_Pike13_Bulldog_Body_Woodland_co.paa",
-				"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+				"W_Units\data\Vehicles\Bulldog\Pike\Pike13\22ndrdf_Pike13_Bulldog_Body_Woodland_co.paa",
+				"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 			};
 		};
 	};
@@ -350,12 +350,12 @@ class 22ndRdf_Javelin_2_A_Bulldog_MG: 22ndRdf_Bulldog_MG
 	author="Kidd";
 	displayName="[22nd] Javelin Bulldog (M247-H)";
 	faction="22nd_Faction";
-	editorCategory="22ndRDF_Warhound_Company";
-	editorSubcategory="22ndRDF_Warhound_Company_Cars";
+	editorCategory="22nd_Warhound_Company";
+	editorSubcategory="22nd_Warhound_Company_Cars";
 	hiddenSelectionsTextures[] =
 	{
-		"Warhound_Units\data\Vehicles\Bulldog\Javelin\22ndRDF_Javelin_Bulldog_Body_Urban_co.paa",
-		"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+		"W_Units\data\Vehicles\Bulldog\Javelin\22ndRDF_Javelin_Bulldog_Body_Urban_co.paa",
+		"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 	};
 	textureList[] =
 	{
@@ -376,8 +376,8 @@ class 22ndRdf_Javelin_2_A_Bulldog_MG: 22ndRdf_Bulldog_MG
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Bulldog\Javelin\22ndRDF_Javelin_Bulldog_Body_Urban_co.paa",
-				"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+				"W_Units\data\Vehicles\Bulldog\Javelin\22ndRDF_Javelin_Bulldog_Body_Urban_co.paa",
+				"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 			};
 		};
 		class BulldogJ_Arctic
@@ -386,8 +386,8 @@ class 22ndRdf_Javelin_2_A_Bulldog_MG: 22ndRdf_Bulldog_MG
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Bulldog\Javelin\22ndRDF_Javelin_Bulldog_Body_Arctic_co.paa",
-				"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+				"W_Units\data\Vehicles\Bulldog\Javelin\22ndRDF_Javelin_Bulldog_Body_Arctic_co.paa",
+				"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 			};
 		};
 		class BulldogJ_Arid
@@ -396,8 +396,8 @@ class 22ndRdf_Javelin_2_A_Bulldog_MG: 22ndRdf_Bulldog_MG
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Bulldog\Javelin\22ndRDF_Javelin_Bulldog_Body_Arid_co.paa",
-				"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+				"W_Units\data\Vehicles\Bulldog\Javelin\22ndRDF_Javelin_Bulldog_Body_Arid_co.paa",
+				"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 			};
 		};
 		class BulldogJ_Woodland
@@ -406,8 +406,8 @@ class 22ndRdf_Javelin_2_A_Bulldog_MG: 22ndRdf_Bulldog_MG
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Bulldog\Javelin\22ndRDF_Javelin_Bulldog_Body_Woodland_co.paa",
-				"Warhound_Units\data\Vehicles\Bulldog\Interior_co.paa"
+				"W_Units\data\Vehicles\Bulldog\Javelin\22ndRDF_Javelin_Bulldog_Body_Woodland_co.paa",
+				"W_Units\data\Vehicles\Bulldog\Interior_co.paa"
 			};
 		};
 	};
