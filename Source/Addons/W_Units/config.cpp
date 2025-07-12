@@ -92,6 +92,6 @@ class CfgFunctions // Loading of appropriate scripts.
 
 class CfgVehicles // Include Statements for other configs
 {
-	#include "data\Infantry\config.hpp"
+	// #include "data\Infantry\config.hpp"
 	#include "data\Vehicles\config.hpp"
 };
