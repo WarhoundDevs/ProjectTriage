@@ -1,16 +1,16 @@
-class 22ndRDF_Oryx_Pike13: Warhound_Oryx
+class 22nd_Oryx_Pike13: Warhound_Oryx
 {
 	author="Kidd";
 	displayName="[22nd] Pike 1-3 M494 Oryx IFV";
 	hiddenSelectionsTextures[] =
 	{
-		"Warhound_Units\data\Vehicles\Oryx\Pike13\Urban\22ndRDF_pike13_oryx_armor_urban_co.paa",
-		"Warhound_Units\data\Vehicles\Oryx\Pike13\Urban\22ndRDF_pike13_oryx_main_urban_co.paa",
+		"W_Units\data\Vehicles\Oryx\Pike13\Urban\22nd_pike13_oryx_armor_urban_co.paa",
+		"W_Units\data\Vehicles\Oryx\Pike13\Urban\22nd_pike13_oryx_main_urban_co.paa",
 		"\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
 		"\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
 		"\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
-		"Warhound_Units\data\Vehicles\Oryx\Pike13\Urban\22ndRDF_pike13_oryx_turret_urban_co.paa",
-		"Warhound_Units\data\Vehicles\Oryx\Standard\Urban\22ndRDF_standard_Scorp_mg_urban_co.paa"
+		"W_Units\data\Vehicles\Oryx\Pike13\Urban\22nd_pike13_oryx_turret_urban_co.paa",
+		"W_Units\data\Vehicles\Oryx\Standard\Urban\22nd_standard_Scorp_mg_urban_co.paa"
 	};
 	textureList[] =
 	{
@@ -31,13 +31,13 @@ class 22ndRDF_Oryx_Pike13: Warhound_Oryx
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Oryx\Pike13\Urban\22ndRDF_pike13_oryx_armor_urban_co.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Pike13\Urban\22ndRDF_pike13_oryx_main_urban_co.paa",
+				"W_Units\data\Vehicles\Oryx\Pike13\Urban\22nd_pike13_oryx_armor_urban_co.paa",
+				"W_Units\data\Vehicles\Oryx\Pike13\Urban\22nd_pike13_oryx_main_urban_co.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Pike13\Urban\22ndRDF_pike13_oryx_turret_urban_co.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Urban\22ndRDF_standard_Scorp_mg_urban_co.paa"
+				"W_Units\data\Vehicles\Oryx\Pike13\Urban\22nd_pike13_oryx_turret_urban_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Urban\22nd_standard_Scorp_mg_urban_co.paa"
 			};
 		};
 		class Oryx_Arid
@@ -46,13 +46,13 @@ class 22ndRDF_Oryx_Pike13: Warhound_Oryx
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Oryx\Pike13\Arid\22ndRDF_pike13_oryx_armor_arid_co.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Pike13\Arid\22ndRDF_pike13_oryx_main_arid_co.paa",
+				"W_Units\data\Vehicles\Oryx\Pike13\Arid\22nd_pike13_oryx_armor_arid_co.paa",
+				"W_Units\data\Vehicles\Oryx\Pike13\Arid\22nd_pike13_oryx_main_arid_co.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_desert_ca.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_desert_ca.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_desert_ca.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Pike13\Arid\22ndRDF_pike13_oryx_turret_arid_co.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Arid\22ndRDF_standard_Scorp_mg_arid_co.paa"
+				"W_Units\data\Vehicles\Oryx\Pike13\Arid\22nd_pike13_oryx_turret_arid_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Arid\22nd_standard_Scorp_mg_arid_co.paa"
 			};
 		};
 		class Oryx_Woodland
@@ -61,13 +61,13 @@ class 22ndRDF_Oryx_Pike13: Warhound_Oryx
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Oryx\Pike13\Woodland\22ndRDF_pike13_oryx_armor_woodland_co.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Pike13\Woodland\22ndRDF_pike13_oryx_main_woodland_co.paa",
+				"W_Units\data\Vehicles\Oryx\Pike13\Woodland\22nd_pike13_oryx_armor_woodland_co.paa",
+				"W_Units\data\Vehicles\Oryx\Pike13\Woodland\22nd_pike13_oryx_main_woodland_co.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_jungle_ca.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_jungle_ca.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_jungle_ca.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Pike13\Woodland\22ndRDF_pike13_oryx_turret_woodland_co.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Woodland\22ndRDF_standard_Scorp_mg_woodland_co.paa"
+				"W_Units\data\Vehicles\Oryx\Pike13\Woodland\22nd_pike13_oryx_turret_woodland_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Woodland\22nd_standard_Scorp_mg_woodland_co.paa"
 			};
 		};
 		class Oryx_Arctic
@@ -76,13 +76,13 @@ class 22ndRDF_Oryx_Pike13: Warhound_Oryx
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Oryx\Pike13\Arctic\22ndRDF_pike13_oryx_armor_arctic_co.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Pike13\Arctic\22ndRDF_pike13_oryx_main_arctic_co.paa",
+				"W_Units\data\Vehicles\Oryx\Pike13\Arctic\22nd_pike13_oryx_armor_arctic_co.paa",
+				"W_Units\data\Vehicles\Oryx\Pike13\Arctic\22nd_pike13_oryx_main_arctic_co.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_tundra_ca.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_tundra_ca.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_tundra_ca.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Pike13\Arctic\22ndRDF_pike13_oryx_turret_arctic_co.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Arctic\22ndRDF_standard_Scorp_mg_arctic_co.paa"
+				"W_Units\data\Vehicles\Oryx\Pike13\Arctic\22nd_pike13_oryx_turret_arctic_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Arctic\22nd_standard_Scorp_mg_arctic_co.paa"
 			};
 		};
 	};

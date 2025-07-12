@@ -22,7 +22,7 @@ class Warhound_Pelican_ARMY: OPTRE_Pelican_armed
 	};
 	hiddenSelectionsTextures[]=
 	{
-		"Warhound_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_BLACK_co.paa"
+		"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_BLACK_co.paa"
 	};
 	class TextureSources
 	{
@@ -32,7 +32,7 @@ class Warhound_Pelican_ARMY: OPTRE_Pelican_armed
 			author="Gatt";
 			textures[]=
 			{
-				"Warhound_Units\data\Vehicles\Pelican\WH_Pelican_ORCA_1_co.paa"
+				"W_Units\data\Vehicles\Pelican\WH_Pelican_ORCA_1_co.paa"
 			};
 		};
 		class Arid
@@ -41,7 +41,7 @@ class Warhound_Pelican_ARMY: OPTRE_Pelican_armed
 			author="Gatt";
 			textures[]=
 			{
-				"Warhound_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_ARID_co.paa",
+				"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_ARID_co.paa",
 				""
 			};
 		};
@@ -51,7 +51,7 @@ class Warhound_Pelican_ARMY: OPTRE_Pelican_armed
 			author="Gatt";
 			textures[]=
 			{
-				"Warhound_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_NIGHT_co.paa",
+				"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_NIGHT_co.paa",
 				""
 			};
 		};
@@ -61,7 +61,7 @@ class Warhound_Pelican_ARMY: OPTRE_Pelican_armed
 			author="Gatt";
 			textures[]=
 			{
-				"Warhound_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_BLACK_co.paa",
+				"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_BLACK_co.paa",
 				""
 			};
 		};
@@ -71,7 +71,7 @@ class Warhound_Pelican_ARMY: OPTRE_Pelican_armed
 			author="Gatt";
 			textures[]=
 			{
-				"Warhound_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_WOOD_co.paa",
+				"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_WOOD_co.paa",
 				""
 			};
 		};
@@ -81,7 +81,7 @@ class Warhound_Pelican_ARMY: OPTRE_Pelican_armed
 			author="Gatt";
 			textures[]=
 			{
-				"Warhound_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_ARCTIC_co.paa",
+				"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_ARCTIC_co.paa",
 				""
 			};
 		};

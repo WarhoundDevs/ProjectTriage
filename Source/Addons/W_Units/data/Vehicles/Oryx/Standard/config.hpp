@@ -4,20 +4,20 @@ class Warhound_Oryx: OPTRE_M494
 	author="Gatt, Kidd";
 	displayName="[22nd] M494 Oryx IFV";
 	faction="22nd_Faction";
-	editorCategory="22ndRDF_Warhound_Company";
-	editorSubcategory="22ndRDF_Warhound_Company_IFVs";
+	editorCategory="22nd_Warhound_Company";
+	editorSubcategory="22nd_Warhound_Company_IFVs";
 	editorPreview="\OPTRE_Vehicles_Tracked\Oryx\data\Preview\OPTRE_M494.jpg";
 	side=1;
 	LODDriverTurnedIn=1100;
 	hiddenSelectionsTextures[] =
 	{
-		"Warhound_Units\data\Vehicles\Oryx\Standard\Urban\22ndRDF_standard_oryx_armor_urban_co.paa",
-		"Warhound_Units\data\Vehicles\Oryx\Standard\Urban\22ndRDF_standard_oryx_main_urban_co.paa",
+		"W_Units\data\Vehicles\Oryx\Standard\Urban\22nd_standard_oryx_armor_urban_co.paa",
+		"W_Units\data\Vehicles\Oryx\Standard\Urban\22nd_standard_oryx_main_urban_co.paa",
 		"\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
 		"\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
 		"\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
-		"Warhound_Units\data\Vehicles\Oryx\Standard\Urban\22ndRDF_standard_oryx_turret_urban_co.paa",
-		"Warhound_Units\data\Vehicles\Oryx\Standard\Urban\22ndRDF_standard_Scorp_mg_urban_co.paa"
+		"W_Units\data\Vehicles\Oryx\Standard\Urban\22nd_standard_oryx_turret_urban_co.paa",
+		"W_Units\data\Vehicles\Oryx\Standard\Urban\22nd_standard_Scorp_mg_urban_co.paa"
 	};
 	textureList[] =
 	{
@@ -38,13 +38,13 @@ class Warhound_Oryx: OPTRE_M494
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Urban\22ndRDF_standard_oryx_armor_urban_co.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Urban\22ndRDF_standard_oryx_main_urban_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Urban\22nd_standard_oryx_armor_urban_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Urban\22nd_standard_oryx_main_urban_co.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Urban\22ndRDF_standard_oryx_turret_urban_co.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Urban\22ndRDF_standard_Scorp_mg_urban_co.paa"
+				"W_Units\data\Vehicles\Oryx\Standard\Urban\22nd_standard_oryx_turret_urban_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Urban\22nd_standard_Scorp_mg_urban_co.paa"
 			};
 		};
 		class Oryx_Arid
@@ -53,13 +53,13 @@ class Warhound_Oryx: OPTRE_M494
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Arid\22ndRDF_standard_oryx_armor_arid_co.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Arid\22ndRDF_standard_oryx_main_arid_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Arid\22nd_standard_oryx_armor_arid_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Arid\22nd_standard_oryx_main_arid_co.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_desert_ca.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_desert_ca.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_desert_ca.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Arid\22ndRDF_standard_oryx_turret_arid_co.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Arid\22ndRDF_standard_Scorp_mg_arid_co.paa"
+				"W_Units\data\Vehicles\Oryx\Standard\Arid\22nd_standard_oryx_turret_arid_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Arid\22nd_standard_Scorp_mg_arid_co.paa"
 			};
 		};
 		class Oryx_Woodland
@@ -68,13 +68,13 @@ class Warhound_Oryx: OPTRE_M494
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Woodland\22ndRDF_standard_oryx_armor_woodland_co.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Woodland\22ndRDF_standard_oryx_main_woodland_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Woodland\22nd_standard_oryx_armor_woodland_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Woodland\22nd_standard_oryx_main_woodland_co.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_jungle_ca.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_jungle_ca.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_jungle_ca.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Woodland\22ndRDF_standard_oryx_turret_woodland_co.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Woodland\22ndRDF_standard_Scorp_mg_woodland_co.paa"
+				"W_Units\data\Vehicles\Oryx\Standard\Woodland\22nd_standard_oryx_turret_woodland_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Woodland\22nd_standard_Scorp_mg_woodland_co.paa"
 			};
 		};
 		class Oryx_Arctic
@@ -83,13 +83,13 @@ class Warhound_Oryx: OPTRE_M494
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Arctic\22ndRDF_standard_oryx_armor_arctic_co.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Arctic\22ndRDF_standard_oryx_main_arctic_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Arctic\22nd_standard_oryx_armor_arctic_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Arctic\22nd_standard_oryx_main_arctic_co.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_tundra_ca.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_tundra_ca.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_tundra_ca.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Arctic\22ndRDF_standard_oryx_turret_arctic_co.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Arctic\22ndRDF_standard_Scorp_mg_arctic_co.paa"
+				"W_Units\data\Vehicles\Oryx\Standard\Arctic\22nd_standard_oryx_turret_arctic_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Arctic\22nd_standard_Scorp_mg_arctic_co.paa"
 			};
 		};
 	};
@@ -137,20 +137,20 @@ class Warhound_APC_Oryx: OPTRE_M493_M37
 	author="Gatt, Kidd";
 	displayName="[22nd] M493 Oryx APC";
 	faction="22nd_Faction";
-	editorCategory="22ndRDF_Warhound_Company";
-	editorSubcategory="22ndRDF_Warhound_Company_APCs";
+	editorCategory="22nd_Warhound_Company";
+	editorSubcategory="22nd_Warhound_Company_APCs";
 	editorPreview="\OPTRE_Vehicles_Tracked\Oryx\data\Preview\OPTRE_M493_AIE.jpg";
 	side=1;
 	LODDriverTurnedIn=1100;
 	hiddenSelectionsTextures[] =
 	{
-		"Warhound_Units\data\Vehicles\Oryx\Standard\Urban\22ndRDF_standard_oryx_armor_urban_co.paa",
-		"Warhound_Units\data\Vehicles\Oryx\Standard\Urban\22ndRDF_standard_oryx_main_urban_co.paa",
+		"W_Units\data\Vehicles\Oryx\Standard\Urban\22nd_standard_oryx_armor_urban_co.paa",
+		"W_Units\data\Vehicles\Oryx\Standard\Urban\22nd_standard_oryx_main_urban_co.paa",
 		"\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
 		"\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
 		"\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
-		"Warhound_Units\data\Vehicles\Oryx\Standard\Urban\22ndRDF_standard_oryx_turret_urban_co.paa",
-		"Warhound_Units\data\Vehicles\Oryx\Standard\Urban\22ndRDF_standard_Scorp_mg_urban_co.paa"
+		"W_Units\data\Vehicles\Oryx\Standard\Urban\22nd_standard_oryx_turret_urban_co.paa",
+		"W_Units\data\Vehicles\Oryx\Standard\Urban\22nd_standard_Scorp_mg_urban_co.paa"
 	};
 	textureList[] =
 	{
@@ -171,13 +171,13 @@ class Warhound_APC_Oryx: OPTRE_M493_M37
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Urban\22ndRDF_standard_oryx_armor_urban_co.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Urban\22ndRDF_standard_oryx_main_urban_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Urban\22nd_standard_oryx_armor_urban_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Urban\22nd_standard_oryx_main_urban_co.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Urban\22ndRDF_standard_oryx_turret_urban_co.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Urban\22ndRDF_standard_Scorp_mg_urban_co.paa"
+				"W_Units\data\Vehicles\Oryx\Standard\Urban\22nd_standard_oryx_turret_urban_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Urban\22nd_standard_Scorp_mg_urban_co.paa"
 			};
 		};
 		class OryxAPC_Arid
@@ -186,13 +186,13 @@ class Warhound_APC_Oryx: OPTRE_M493_M37
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Arid\22ndRDF_standard_oryx_armor_arid_co.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Arid\22ndRDF_standard_oryx_main_arid_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Arid\22nd_standard_oryx_armor_arid_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Arid\22nd_standard_oryx_main_arid_co.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_desert_ca.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_desert_ca.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_desert_ca.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Arid\22ndRDF_standard_oryx_turret_arid_co.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Arid\22ndRDF_standard_Scorp_mg_arid_co.paa"
+				"W_Units\data\Vehicles\Oryx\Standard\Arid\22nd_standard_oryx_turret_arid_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Arid\22nd_standard_Scorp_mg_arid_co.paa"
 			};
 		};
 		class OryxAPC_Woodland
@@ -201,13 +201,13 @@ class Warhound_APC_Oryx: OPTRE_M493_M37
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Woodland\22ndRDF_standard_oryx_armor_woodland_co.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Woodland\22ndRDF_standard_oryx_main_woodland_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Woodland\22nd_standard_oryx_armor_woodland_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Woodland\22nd_standard_oryx_main_woodland_co.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_jungle_ca.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_jungle_ca.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_jungle_ca.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Woodland\22ndRDF_standard_oryx_turret_woodland_co.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Woodland\22ndRDF_standard_Scorp_mg_woodland_co.paa"
+				"W_Units\data\Vehicles\Oryx\Standard\Woodland\22nd_standard_oryx_turret_woodland_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Woodland\22nd_standard_Scorp_mg_woodland_co.paa"
 			};
 		};
 		class OryxAPC_Arctic
@@ -216,13 +216,13 @@ class Warhound_APC_Oryx: OPTRE_M493_M37
 			author = "Kidd";
 			textures[] =
 			{
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Arctic\22ndRDF_standard_oryx_armor_arctic_co.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Arctic\22ndRDF_standard_oryx_main_arctic_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Arctic\22nd_standard_oryx_armor_arctic_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Arctic\22nd_standard_oryx_main_arctic_co.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_tundra_ca.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_tundra_ca.paa",
 				"\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_tundra_ca.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Arctic\22ndRDF_standard_oryx_turret_arctic_co.paa",
-				"Warhound_Units\data\Vehicles\Oryx\Standard\Arctic\22ndRDF_standard_Scorp_mg_arctic_co.paa"
+				"W_Units\data\Vehicles\Oryx\Standard\Arctic\22nd_standard_oryx_turret_arctic_co.paa",
+				"W_Units\data\Vehicles\Oryx\Standard\Arctic\22nd_standard_Scorp_mg_arctic_co.paa"
 			};
 		};
 	};
