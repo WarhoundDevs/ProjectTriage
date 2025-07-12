@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class 22ndRDF_Warhound_Company_Units // General Units Class
+	class 22nd_Warhound_Company_Units // General Units Class
 	{
 		author="Warhound Modding Team";
 		#include "zeus.hpp"
@@ -9,7 +9,7 @@ class CfgPatches
 
 class CfgEditorCategories
 {
-	class 22ndRDF_Warhound_Company // Editor Category
+	class 22nd_Warhound_Company // Editor Category
 	{
 		displayName="Warhound Company";
 	};
@@ -17,19 +17,19 @@ class CfgEditorCategories
 
 class CfgEditorSubcategories
 {
-	class 22ndRDF_Warhound_Company_Air_Vehicles // Airframes
+	class 22nd_Warhound_Company_Air_Vehicles // Airframes
 	{
 		displayName="Air Vehicles";
 	};
-	class 22ndRDF_Warhound_Company_Cars // Warthogs, Bulldogs etc.
+	class 22nd_Warhound_Company_Cars // Warthogs, Bulldogs etc.
 	{
 		displayName="Cars";
 	};
-	class 22ndRDF_Warhound_Company_Tanks // Tonks
+	class 22nd_Warhound_Company_Tanks // Tonks
 	{
 		displayName="Tanks";
 	};
-	class 22ndRDF_Warhound_Company_APCs // Oryx APCs etc.
+	class 22nd_Warhound_Company_APCs // Oryx APCs etc.
 	{
 		displayName="APCs";
 	};
@@ -55,7 +55,7 @@ class CfgEditorSubcategories
 	/*
 	* End Changes
 	*/
-	class 22ndRDF_Warhound_Company_IFVs // Oryx IFVs etc.
+	class 22nd_Warhound_Company_IFVs // Oryx IFVs etc.
 	{
 		displayName="IFVs";
 	};
@@ -92,6 +92,6 @@ class CfgFunctions // Loading of appropriate scripts.
 
 class CfgVehicles // Include Statements for other configs
 {
-	#include "data\Infantry\config.hpp"
+	// #include "data\Infantry\config.hpp"
 	#include "data\Vehicles\config.hpp"
 };

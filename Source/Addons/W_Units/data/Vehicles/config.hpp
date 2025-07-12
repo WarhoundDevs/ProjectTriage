@@ -1,7 +1,6 @@
 #include "Bayonet\config.hpp"
 #include "Bulldog\config.hpp"
 #include "Falcon\config.hpp"
-#include "Heavy_Pelican\config.hpp"
 #include "Hornet\config.hpp"
 #include "Oryx\config.hpp"
 #include "Pelican\config.hpp"
