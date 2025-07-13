@@ -43,6 +43,12 @@ class CfgPatches {
             "22nd_ArmourWinterVar1_MediumC",
             "22nd_ArmourWinterVar1_Heavy",
             "22nd_ArmourWinterVar1_HeavyC",
+            "22nd_ArmourWinterVar2_Light",
+            "22nd_ArmourWinterVar2_Medium",
+            "22nd_ArmourWinterVar2_Heavy",
+            "22nd_ArmourWinterVar2_LightC",
+            "22nd_ArmourWinterVar2_MediumC",
+            "22nd_ArmourWinterVar2_HeavyC",
             
             /*
             *Start Customs
@@ -99,7 +105,12 @@ class CfgPatches {
             "22nd_ArmourWinterVar1_MediumC",
             "22nd_ArmourWinterVar1_Heavy",
             "22nd_ArmourWinterVar1_HeavyC",
-            
+            "22nd_ArmourWinterVar2_Light",
+            "22nd_ArmourWinterVar2_Medium",
+            "22nd_ArmourWinterVar2_Heavy",
+            "22nd_ArmourWinterVar2_LightC",
+            "22nd_ArmourWinterVar2_MediumC",
+            "22nd_ArmourWinterVar2_HeavyC",
             /*
             *Start Customs
             *Current Customs: Raven
@@ -2009,6 +2020,239 @@ class CfgVehicles {
         };
     }; // Close 22nd_ArmourRavenWinter_Medium
 };
+
+// Hertzel 07132025 - XTDGEARMODELS define the arsenal option. 
+class XtdGearModels
+{
+    class CfgWeapons
+    {
+        class WArid_AAE
+        {
+            label = "[22nd] M52A Arid";
+            author = "Warhound Mod Team";
+            options[] = // Class names for your options
+            {
+                "Enviroment",
+                "Shoulder",
+                "Collar"
+            };
+            // all options defined underneath the big options box, class names must match the array (Or is it list I forget)
+            class Enviroment
+            {
+                label = "Variant";
+                values[] =
+                {
+                    "Arid",
+                    "BrownD",
+                };
+                class Arid
+                {
+                    label = "Arid/HW";
+                };
+                class BrownD
+                {
+                    label = "Brown/HW";
+                };
+            };
+            class Shoulder
+            {
+                label = "Shoulders";
+                values[] =
+                {
+                    "Light",
+                    "Medium",
+                    "Heavy",
+
+
+                };
+                class Light
+                {
+                    label = "Light";
+                };
+                class Medium
+                {
+                    label = "Medium";
+                };
+                class Heavy
+                {
+                    label = "Heavy";
+                };
+            };
+            class Collar
+            {
+                label = "Collar";
+                values[] =
+                {
+                    "High",
+                    "Low"
+                };
+                class High
+                {
+                    label = "High";
+                };
+                class Low
+                {
+                    label = "Low";
+                };
+            };
+        };
+        class WGreen_AAE
+        {
+            label = "[22nd] M52A Woodland";
+            author = "Warhound Mod Team";
+            options[] = // Class names for your options
+            {
+                "Enviroment",
+                "Shoulder",
+                "Collar"
+            };
+            // all options defined underneath the big options box, class names must match the array (Or is it list I forget)
+            class Enviroment
+            {
+                label = "Enviroment";
+                values[] =
+                {
+                    "BrownWD",
+                    "Olive",
+                    "Woodland",
+                };
+
+
+               
+                class BrownWD
+                {
+                    label = "Brown/WD";
+                };
+                class Olive
+                {
+                    label = "Olive";
+                };
+
+                class Woodland
+                {
+                    label = "Woodland";
+                };
+            };
+            class Shoulder
+            {
+                label = "Shoulders";
+                values[] =
+                {
+                    "Light",
+                    "Medium",
+                    "Heavy",
+
+
+                };
+                class Light
+                {
+                    label = "Light";
+                };
+                class Medium
+                {
+                    label = "Medium";
+                };
+                class Heavy
+                {
+                    label = "Heavy";
+                };
+            };
+            class Collar
+            {
+                label = "Collar";
+                values[] =
+                {
+                    "High",
+                    "Low"
+                };
+                class High
+                {
+                    label = "High";
+                };
+                class Low
+                {
+                    label = "Low";
+                };
+            };
+        };
+        class WSnow_AAE
+        {
+            label = "[22nd] M52A Winter";
+            author = "Warhound Mod Team";
+            options[] = // Class names for your options
+            {
+                "Enviroment",
+                "Shoulder",
+                "Collar"
+            };
+            // all options defined underneath the big options box, class names must match the array (Or is it list I forget)
+            class Enviroment
+            {
+                label = "Enviroment";
+                values[] =
+                {
+                    "Winter",
+                    "Black",
+                };
+                class Winter
+                {
+                    label = "Winter";
+                };
+                class Black
+                {
+                    label = "Black";
+                };
+
+
+            };
+            class Shoulder
+            {
+                label = "Shoulders";
+                values[] =
+                {
+                    "Light",
+                    "Medium",
+                    "Heavy",
+
+
+                };
+                class Light
+                {
+                    label = "Light";
+                };
+                class Medium
+                {
+                    label = "Medium";
+                };
+                class Heavy
+                {
+                    label = "Heavy";
+                };
+            };
+            class Collar
+            {
+                label = "Collar";
+                values[] =
+                {
+                    "High",
+                    "Low"
+                };
+                class High
+                {
+                    label = "High";
+                };
+                class Low
+                {
+                    label = "Low";
+                };
+            };
+        };
+    };
+       
+ };
+
+// AAE - XtdGearInfo allows the mod to pull items into the model.
+// Model should match the base class in XtdGearModels. Options should match the option class names in XtdGearModels. Options should match the class names in your options. 
 class CfgWeapons {
     class MA_Marine_BDU_Base;
     class UniformItem;
@@ -2019,14 +2263,20 @@ class CfgWeapons {
 
     // Begin Variant 1 - No Collar
 
-    class 22nd_ArmourBaseVar1_Light: MA_Marine_BDU_Base {
+    class 22nd_ArmourBaseVar1_Light : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A Woodland (Light)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+			model = "WGreen_AAE"; // Model name from XtdGearModels
+			Enviroment = "Woodland"; // Environment option from XtdGearModels
+			Shoulder = "Light"; // Shoulder option from XtdGearModels
+			Collar = "Low"; // Collar option from XtdGearModels
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourBaseVar1_Light"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -2036,7 +2286,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -2068,14 +2318,20 @@ class CfgWeapons {
         };
     }; // Close 22nd_ArmourBaseVar1_Light
 
-    class 22nd_ArmourBaseVar1_Medium: MA_Marine_BDU_Base {
+    class 22nd_ArmourBaseVar1_Medium : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A Woodland (Medium)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WGreen_AAE";
+            Enviroment = "Woodland";
+            Shoulder = "Medium";
+            Collar = "Low";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourBaseVar1_Medium"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -2085,7 +2341,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -2117,14 +2373,20 @@ class CfgWeapons {
         };
     };// Close 22nd_ArmourBaseVar1_Medium
 
-    class 22nd_ArmourBaseVar1_Heavy: MA_Marine_BDU_Base {
+    class 22nd_ArmourBaseVar1_Heavy : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A Woodland (Heavy)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WGreen_AAE";
+            Enviroment = "Woodland";
+            Shoulder = "Heavy";
+            Collar = "Low";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourBaseVar1_Heavy"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -2134,7 +2396,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -2168,14 +2430,20 @@ class CfgWeapons {
 
     // Begin Variant 1 - Collar
 
-    class 22nd_ArmourBaseVar1_LightC: MA_Marine_BDU_Base {
+    class 22nd_ArmourBaseVar1_LightC : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A Woodland (Light + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WGreen_AAE";
+            Enviroment = "Woodland";
+            Shoulder = "Light";
+            Collar = "High";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourBaseVar1_LightC"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -2185,7 +2453,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -2217,14 +2485,20 @@ class CfgWeapons {
         };
     }; // Close 22nd_ArmourBaseVar1_LightC
 
-    class 22nd_ArmourBaseVar1_MediumC: MA_Marine_BDU_Base {
+    class 22nd_ArmourBaseVar1_MediumC : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A Woodland (Medium + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WGreen_AAE";
+            Enviroment = "Woodland";
+            Shoulder = "Medium";
+            Collar = "High";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourBaseVar1_MediumC"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -2234,7 +2508,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -2266,14 +2540,20 @@ class CfgWeapons {
         };
     };// Close 22nd_ArmourBaseVar1_Medium
 
-    class 22nd_ArmourBaseVar1_HeavyC: MA_Marine_BDU_Base {
+    class 22nd_ArmourBaseVar1_HeavyC : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A Woodland (Heavy + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WGreen_AAE";
+            Enviroment = "Woodland";
+            Shoulder = "Heavy";
+            Collar = "High";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourBaseVar1_HeavyC"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -2283,7 +2563,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -2317,14 +2597,20 @@ class CfgWeapons {
 
     // Begin Variant 2
 
-    class 22nd_ArmourBaseVar2_Light: MA_Marine_BDU_Base {
+    class 22nd_ArmourBaseVar2_Light : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A Olive Drab (Light)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WGreen_AAE";
+            Enviroment = "Olive";
+            Shoulder = "Light";
+            Collar = "Low";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourBaseVar2_Light"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -2334,7 +2620,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -2366,14 +2652,20 @@ class CfgWeapons {
         };
     }; // Close 22nd_ArmourBaseVar2_Light
 
-    class 22nd_ArmourBaseVar2_Medium: MA_Marine_BDU_Base {
+    class 22nd_ArmourBaseVar2_Medium : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A Olive Drab (Medium)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WGreen_AAE";
+            Enviroment = "Olive";
+            Shoulder = "Medium";
+            Collar = "Low";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourBaseVar2_Medium"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -2383,7 +2675,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -2415,14 +2707,20 @@ class CfgWeapons {
         };
     }; // Close 22nd_ArmourBaseVar2_Medium
 
-    class 22nd_ArmourBaseVar2_Heavy: MA_Marine_BDU_Base {
+    class 22nd_ArmourBaseVar2_Heavy : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A Olive Drab (Heavy)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WGreen_AAE";
+            Enviroment = "Olive";
+            Shoulder = "Heavy";
+            Collar = "Low";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourBaseVar2_Heavy"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -2432,7 +2730,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -2464,16 +2762,22 @@ class CfgWeapons {
         };
     }; // Close 22nd_ArmourBaseVar2_Heavy
 
-     // Begin Variant 2 Collar
+    // Begin Variant 2 Collar
 
-    class 22nd_ArmourBaseVar2_LightC: MA_Marine_BDU_Base {
+    class 22nd_ArmourBaseVar2_LightC : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A Olive Drab (Light + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WGreen_AAE";
+            Enviroment = "Olive";
+            Shoulder = "Light";
+            Collar = "High";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourBaseVar2_LightC"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -2483,7 +2787,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -2515,14 +2819,20 @@ class CfgWeapons {
         };
     }; // Close 22nd_ArmourBaseVar2_LightC
 
-    class 22nd_ArmourBaseVar2_MediumC: MA_Marine_BDU_Base {
+    class 22nd_ArmourBaseVar2_MediumC : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A Olive Drab (Medium + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WGreen_AAE";
+            Enviroment = "Olive";
+            Shoulder = "Medium";
+            Collar = "High";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourBaseVar2_MediumC"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -2532,7 +2842,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -2564,14 +2874,20 @@ class CfgWeapons {
         };
     }; // Close 22nd_ArmourBaseVar2_MediumC
 
-    class 22nd_ArmourBaseVar2_HeavyC: MA_Marine_BDU_Base {
+    class 22nd_ArmourBaseVar2_HeavyC : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A Olive Drab (Heavy + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WGreen_AAE";
+            Enviroment = "Olive";
+            Shoulder = "Heavy";
+            Collar = "High";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourBaseVar2_HeavyC"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -2581,7 +2897,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -2615,14 +2931,20 @@ class CfgWeapons {
 
     // Begin Variant 3
 
-    class 22nd_ArmourBaseVar3_Light: MA_Marine_BDU_Base {
+    class 22nd_ArmourBaseVar3_Light : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A Brown (Light)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WGreen_AAE";
+            Enviroment = "Brown";
+            Shoulder = "Light";
+            Collar = "Low";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourBaseVar3_Light"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -2632,7 +2954,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -2664,14 +2986,20 @@ class CfgWeapons {
         };
     }; // Close 22nd_ArmourBaseVar3_Light
 
-    class 22nd_ArmourBaseVar3_Medium: MA_Marine_BDU_Base {
+    class 22nd_ArmourBaseVar3_Medium : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A Brown (Medium)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WGreen_AAE";
+            Enviroment = "Brown";
+            Shoulder = "Medium";
+            Collar = "Low";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourBaseVar3_Medium"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -2681,7 +3009,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -2712,15 +3040,21 @@ class CfgWeapons {
             };
         };
     }; // Close 22nd_ArmourBaseVar3_Medium
-    
-    class 22nd_ArmourBaseVar3_Heavy: MA_Marine_BDU_Base {
+
+    class 22nd_ArmourBaseVar3_Heavy : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A Brown (Heavy)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WGreen_AAE";
+            Enviroment = "Brown";
+            Shoulder = "Heavy";
+            Collar = "Low";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourBaseVar3_Heavy"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -2730,7 +3064,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -2764,14 +3098,20 @@ class CfgWeapons {
 
     // Begin Variant 3 Collars
 
-    class 22nd_ArmourBaseVar3_LightC: MA_Marine_BDU_Base {
+    class 22nd_ArmourBaseVar3_LightC : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A Brown (Light + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WGreen_AAE";
+            Enviroment = "Brown";
+            Shoulder = "Light";
+            Collar = "High";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourBaseVar3_LightC"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -2781,7 +3121,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -2813,14 +3153,20 @@ class CfgWeapons {
         };
     }; // Close 22nd_ArmourBaseVar3_LightC
 
-    class 22nd_ArmourBaseVar3_MediumC: MA_Marine_BDU_Base {
+    class 22nd_ArmourBaseVar3_MediumC : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A Brown (Medium + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WGreen_AAE";
+            Enviroment = "Brown";
+            Shoulder = "Medium";
+            Collar = "High";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourBaseVar3_MediumC"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -2830,7 +3176,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -2862,14 +3208,20 @@ class CfgWeapons {
         };
     }; // Close 22nd_ArmourBaseVar3_MediumC
 
-    class 22nd_ArmourBaseVar3_HeavyC: MA_Marine_BDU_Base {
+    class 22nd_ArmourBaseVar3_HeavyC : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A Brown (Heavy + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WGreen_AAE";
+            Enviroment = "Brown";
+            Shoulder = "Heavy";
+            Collar = "High";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourBaseVar3_HeavyC"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -2879,7 +3231,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -2917,14 +3269,20 @@ class CfgWeapons {
 
     //Begin Variant 1 - No Collar
 
-    class 22nd_ArmourAridVar1_Light: MA_Marine_BDU_Base {
+    class 22nd_ArmourAridVar1_Light : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A/HW Arid (Light)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WArid_AAE";
+            Enviroment = "Arid";
+            Shoulder = "Light";
+            Collar = "Low";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourAridVar1_Light"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -2934,7 +3292,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -2966,14 +3324,20 @@ class CfgWeapons {
         };
     }; // Close 22nd_ArmourAridVar1_Light
 
-    class 22nd_ArmourAridVar1_Medium: MA_Marine_BDU_Base {
+    class 22nd_ArmourAridVar1_Medium : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A/HW Arid (Medium)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WArid_AAE";
+            Enviroment = "Arid";
+            Shoulder = "Medium";
+            Collar = "Low";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourAridVar1_Medium"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -2983,7 +3347,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -3015,14 +3379,20 @@ class CfgWeapons {
         };
     }; // Close 22nd_ArmourAridVar1_Medium
 
-    class 22nd_ArmourAridVar1_Heavy: MA_Marine_BDU_Base {
+    class 22nd_ArmourAridVar1_Heavy : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A/HW Arid (Heavy)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WArid_AAE";
+            Enviroment = "Arid";
+            Shoulder = "Heavy";
+            Collar = "Low";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourAridVar1_Heavy"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -3032,7 +3402,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -3066,14 +3436,20 @@ class CfgWeapons {
 
     // Begin Arid Variant 1 - Collars
 
-    class 22nd_ArmourAridVar1_LightC: MA_Marine_BDU_Base {
+    class 22nd_ArmourAridVar1_LightC : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A/HW Arid (Light + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WArid_AAE";
+            Enviroment = "Arid";
+            Shoulder = "Light";
+            Collar = "High";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourAridVar1_LightC"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -3083,7 +3459,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -3115,14 +3491,20 @@ class CfgWeapons {
         };
     }; // Close 22nd_ArmourAridVar1_LightC
 
-    class 22nd_ArmourAridVar1_MediumC: MA_Marine_BDU_Base {
+    class 22nd_ArmourAridVar1_MediumC : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A/HW Arid (Medium + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WArid_AAE";
+            Enviroment = "Arid";
+            Shoulder = "Medium";
+            Collar = "High";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourAridVar1_MediumC"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -3132,7 +3514,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -3164,14 +3546,20 @@ class CfgWeapons {
         };
     }; // Close 22nd_ArmourAridVar1_MediumC
 
-    class 22nd_ArmourAridVar1_HeavyC: MA_Marine_BDU_Base {
+    class 22nd_ArmourAridVar1_HeavyC : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A/HW Arid (Heavy + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WArid_AAE";
+            Enviroment = "Arid";
+            Shoulder = "Heavy";
+            Collar = "High";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourAridVar1_HeavyC"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -3181,7 +3569,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -3212,17 +3600,23 @@ class CfgWeapons {
             };
         };
     }; // Close 22nd_ArmourAridVar1_HeavyC
-    
+
     // Begin Arid Variant 2 - No Collars
 
-    class 22nd_ArmourAridVar2_Light: MA_Marine_BDU_Base {
+    class 22nd_ArmourAridVar2_Light : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A/HW Brown (Light)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WArid_AAE";
+            Enviroment = "BrownD";
+            Shoulder = "Light";
+            Collar = "Low";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourAridVar2_Light"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -3232,7 +3626,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -3264,14 +3658,20 @@ class CfgWeapons {
         };
     }; // Close 22nd_ArmourAridVar2_Light
 
-    class 22nd_ArmourAridVar2_Medium: MA_Marine_BDU_Base {
+    class 22nd_ArmourAridVar2_Medium : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A/HW Brown (Medium)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WArid_AAE";
+            Enviroment = "BrownD";
+            Shoulder = "Medium";
+            Collar = "Low";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourAridVar2_Medium"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -3281,7 +3681,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -3313,14 +3713,20 @@ class CfgWeapons {
         };
     }; // Close 22nd_ArmourAridVar1_Medium
 
-    class 22nd_ArmourAridVar2_Heavy: MA_Marine_BDU_Base {
+    class 22nd_ArmourAridVar2_Heavy : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A/HW Brown (Heavy)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WArid_AAE";
+            Enviroment = "BrownD";
+            Shoulder = "Heavy";
+            Collar = "Low";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourAridVar2_Heavy"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -3330,7 +3736,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -3364,14 +3770,20 @@ class CfgWeapons {
 
     // Begin Arid Variant 2 Collars
 
-    class 22nd_ArmourAridVar2_LightC: MA_Marine_BDU_Base {
+    class 22nd_ArmourAridVar2_LightC : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A/HW Brown (Light + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WArid_AAE";
+            Enviroment = "BrownD";
+            Shoulder = "Light";
+            Collar = "High";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourAridVar2_LightC"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -3381,7 +3793,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -3413,14 +3825,20 @@ class CfgWeapons {
         };
     }; // Close 22nd_ArmourAridVar2_LightC
 
-    class 22nd_ArmourAridVar2_MediumC: MA_Marine_BDU_Base {
+    class 22nd_ArmourAridVar2_MediumC : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A/HW Brown (Medium + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WArid_AAE";
+            Enviroment = "BrownD";
+            Shoulder = "Medium";
+            Collar = "High";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourAridVar2_MediumC"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -3430,7 +3848,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -3462,14 +3880,20 @@ class CfgWeapons {
         };
     }; // Close 22nd_ArmourAridVar2_MediumC
 
-    class 22nd_ArmourAridVar2_HeavyC: MA_Marine_BDU_Base {
+    class 22nd_ArmourAridVar2_HeavyC : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A/HW Brown (Heavy + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "WArid_AAE";
+            Enviroment = "BrownD";
+            Shoulder = "Heavy";
+            Collar = "High";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourAridVar2_HeavyC"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -3479,7 +3903,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -3510,21 +3934,27 @@ class CfgWeapons {
             };
         };
     }; // Close 22nd_ArmourAridVar2_HeavyC
-    
+
     /*
     * Begin ArmourSnow
     */
 
     // Begin Winter Variant 1 - No Collars
 
-    class 22nd_ArmourWinterVar1_Light: MA_Marine_BDU_Base {
+    class 22nd_ArmourWinterVar1_Light : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A/W Winterized (Light)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "Wsnow_AAE";
+            Enviroment = "Winter";
+            Shoulder = "Light";
+            Collar = "Low";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar1_Light"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -3534,7 +3964,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -3566,14 +3996,20 @@ class CfgWeapons {
         };
     }; // Close 22nd_ArmourWinterVar1_Light
 
-    class 22nd_ArmourWinterVar1_Medium: MA_Marine_BDU_Base {
+    class 22nd_ArmourWinterVar1_Medium : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A/W Winterized (Medium)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "Wsnow_AAE";
+            Enviroment = "Winter";
+            Shoulder = "Medium";
+            Collar = "Low";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar1_Medium"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -3583,7 +4019,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -3615,14 +4051,20 @@ class CfgWeapons {
         };
     }; // Close 22nd_ArmourWinterVar1_Medium
 
-    class 22nd_ArmourWinterVar1_Heavy: MA_Marine_BDU_Base {
+    class 22nd_ArmourWinterVar1_Heavy : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A/W Winterized (Heavy)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "Wsnow_AAE";
+            Enviroment = "Winter";
+            Shoulder = "Heavy";
+            Collar = "Low";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar1_Heavy"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -3632,7 +4074,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -3666,14 +4108,20 @@ class CfgWeapons {
 
     // Begin Winter Variant 1 - Collars
 
-    class 22nd_ArmourWinterVar1_LightC: MA_Marine_BDU_Base {
+    class 22nd_ArmourWinterVar1_LightC : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A/W Winterized (Light + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "Wsnow_AAE";
+            Enviroment = "Winter";
+            Shoulder = "Light";
+            Collar = "High";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar1_LightC"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -3683,7 +4131,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -3715,14 +4163,20 @@ class CfgWeapons {
         };
     }; // Close 22nd_ArmourWinterVar1_LightC
 
-    class 22nd_ArmourWinterVar1_MediumC: MA_Marine_BDU_Base {
+    class 22nd_ArmourWinterVar1_MediumC : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A/W Winterized (Medium + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "Wsnow_AAE";
+            Enviroment = "Winter";
+            Shoulder = "Medium";
+            Collar = "High";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar1_MediumC"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -3732,7 +4186,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -3764,14 +4218,20 @@ class CfgWeapons {
         };
     }; // Close 22nd_ArmourWinterVar1_MediumC
 
-    class 22nd_ArmourWinterVar1_HeavyC: MA_Marine_BDU_Base {
+    class 22nd_ArmourWinterVar1_HeavyC : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A/W Winterized (Heavy + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "Wsnow_AAE";
+            Enviroment = "Winter";
+            Shoulder = "Heavy";
+            Collar = "High";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar1_HeavyC"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -3781,7 +4241,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -3816,14 +4276,20 @@ class CfgWeapons {
 
     // Begin Winter Variant 2 - No Collar
 
-    class 22nd_ArmourWinterVar2_Light: MA_Marine_BDU_Base {
+    class 22nd_ArmourWinterVar2_Light : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A/W Black (Light)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "Wsnow_AAE";
+            Enviroment = "Black";
+            Shoulder = "Light";
+            Collar = "Low";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar2_Light"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -3833,7 +4299,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -3865,14 +4331,20 @@ class CfgWeapons {
         };
     }; // Close 22nd_ArmourWinterVar2_Light
 
-    class 22nd_ArmourWinterVar2_Medium: MA_Marine_BDU_Base {
+    class 22nd_ArmourWinterVar2_Medium : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A/W Black (Medium)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "Wsnow_AAE";
+            Enviroment = "Black";
+            Shoulder = "Medium";
+            Collar = "Low";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar2_Medium"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -3882,7 +4354,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -3914,14 +4386,20 @@ class CfgWeapons {
         };
     }; // Close 22nd_ArmourWinterVar2_Medium
 
-    class 22nd_ArmourWinterVar2_Heavy: MA_Marine_BDU_Base {
+    class 22nd_ArmourWinterVar2_Heavy : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A/W Black (Heavy)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "Wsnow_AAE";
+            Enviroment = "Black";
+            Shoulder = "Heavy";
+            Collar = "Low";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar2_Heavy"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -3931,7 +4409,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -3965,14 +4443,20 @@ class CfgWeapons {
 
     // Begin Winter Variant 2 - Collar
 
-    class 22nd_ArmourWinterVar2_LightC: MA_Marine_BDU_Base {
+    class 22nd_ArmourWinterVar2_LightC : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A/W Black (Light + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "Wsnow_AAE";
+            Enviroment = "Black";
+            Shoulder = "Light";
+            Collar = "High";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar2_LightC"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -3982,7 +4466,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -4014,14 +4498,20 @@ class CfgWeapons {
         };
     }; // Close 22nd_ArmourWinterVar2_LightC
 
-    class 22nd_ArmourWinterVar2_MediumC: MA_Marine_BDU_Base {
+    class 22nd_ArmourWinterVar2_MediumC : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A/W Black (Medium + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "Wsnow_AAE";
+            Enviroment = "Black";
+            Shoulder = "Medium";
+            Collar = "High";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar2_MediumC"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -4031,7 +4521,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -4063,14 +4553,20 @@ class CfgWeapons {
         };
     }; // Close 22nd_ArmourWinterVar2_MediumC
 
-    class 22nd_ArmourWinterVar2_HeavyC: MA_Marine_BDU_Base {
+    class 22nd_ArmourWinterVar2_HeavyC : MA_Marine_BDU_Base{
         scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
+        author = "Warhound Mod Team";
         displayName = "[22nd] M52A/W Black (Heavy + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
+        class XtdGearInfo
+        {
+            model = "Wsnow_AAE";
+            Enviroment = "Black";
+            Shoulder = "Heavy";
+            Collar = "High";
+        };
+        class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar2_HeavyC"; // Reference to the uniform class in CfgVehicles
             containerClass = "Supply90";
@@ -4080,7 +4576,7 @@ class CfgWeapons {
             "Camo2",
             "Camo3",
             "Camo4",
-            "Camo5",   
+            "Camo5",
             "Camo6",
             "Camo7",
             "Camo8",
@@ -4110,160 +4606,160 @@ class CfgWeapons {
                 "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa"  // Shoulders texture (duplicate)
             };
         };
+    };
+        // End Winter Variant 2 Collars
+        /*
+        * Begin Custom Armours
+        */
 
-    // End Winter Variant 2 Collars
-    /*
-    * Begin Custom Armours
-    */
+        // Raven
 
-    // Raven
+    class 22nd_ArmourRavenBase_Medium : MA_Marine_BDU_Base {
+            scope = 2;  // Visible in editor
+            author = "Warhound Mod Team";
+            displayName = "Warhound Raven Armour Base Variant (M)"; // In-game name
+            picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+            model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
 
-    class 22nd_ArmourRavenBase_Medium: MA_Marine_BDU_Base {
-        scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
-        displayName = "Warhound Raven Armour Base Variant (M)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourRavenBase_Medium"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",   
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Custom\RavenShoulders.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Custom\RavenShoulders.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Custom\RavenShoulders.paa"  // Shoulders texture (duplicate)
+            class ItemInfo : UniformItem {
+                uniformModel = "-";
+                uniformClass = "22nd_ArmourRavenBase_Medium"; // Reference to the uniform class in CfgVehicles
+                containerClass = "Supply90";
+                mass = 80; // Adjust mass if needed
+                hiddenSelections[] = {
+                "Camo1",
+                "Camo2",
+                "Camo3",
+                "Camo4",
+                "Camo5",
+                "Camo6",
+                "Camo7",
+                "Camo8",
+                "Camo9",
+                "Camo10",
+                "Uni_Upper",
+                "Uni_Lower",
+                "Uni_Collar",
+                // "Armor_Underpad",
+                "Armor_Straps",
+                "Armor_Upper",
+                "Armor_Lower",
+                "Shoulders_Lower1",
+                // "Shoulders_Lower2",
+                // "Shoulders_Upper"
             };
-        };
-    }; // Close 22nd_ArmourRavenBase_Medium
-
-    class 22nd_ArmourRavenArid_Medium: MA_Marine_BDU_Base {
-        scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
-        displayName = "Warhound Raven Armour Arid Variant (M)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourRavenArid_Medium"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",   
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Custom\RavenShoulders.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Custom\RavenShoulders.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Custom\RavenShoulders.paa"  // Shoulders texture (duplicate)
+                hiddenSelectionsTextures[] = {
+                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperUpperBDU_CO.paa", // Upper texture
+                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa", // Lower texture
+                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa", // Collar texture
+                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
+                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
+                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
+                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
+                    "\W_Uniform\W_Armour\Custom\RavenShoulders.paa", // Shoulders texture
+                    "\W_Uniform\W_Armour\Custom\RavenShoulders.paa", // Shoulders texture (duplicate)
+                    "\W_Uniform\W_Armour\Custom\RavenShoulders.paa"  // Shoulders texture (duplicate)
+                };
             };
-        };
-    }; // Close 22nd_ArmourRavenArid_Medium
+        }; // Close 22nd_ArmourRavenBase_Medium
 
-    class 22nd_ArmourRavenWinter_Medium: MA_Marine_BDU_Base {
-        scope = 2;  // Visible in editor
-        author="Warhound Mod Team";
-        displayName = "Warhound Raven Armour Winter Variant (M)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        
-        class ItemInfo: UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourRavenWinter_Medium"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",   
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Custom\RavenShoulders.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Custom\RavenShoulders.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Custom\RavenShoulders.paa"  // Shoulders texture (duplicate)
+        class 22nd_ArmourRavenArid_Medium : MA_Marine_BDU_Base {
+            scope = 2;  // Visible in editor
+            author = "Warhound Mod Team";
+            displayName = "Warhound Raven Armour Arid Variant (M)"; // In-game name
+            picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+            model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
+
+            class ItemInfo : UniformItem {
+                uniformModel = "-";
+                uniformClass = "22nd_ArmourRavenArid_Medium"; // Reference to the uniform class in CfgVehicles
+                containerClass = "Supply90";
+                mass = 80; // Adjust mass if needed
+                hiddenSelections[] = {
+                "Camo1",
+                "Camo2",
+                "Camo3",
+                "Camo4",
+                "Camo5",
+                "Camo6",
+                "Camo7",
+                "Camo8",
+                "Camo9",
+                "Camo10",
+                "Uni_Upper",
+                "Uni_Lower",
+                "Uni_Collar",
+                // "Armor_Underpad",
+                "Armor_Straps",
+                "Armor_Upper",
+                "Armor_Lower",
+                "Shoulders_Lower1",
+                // "Shoulders_Lower2",
+                // "Shoulders_Upper"
             };
-        };
-    }; // Close 22nd_ArmourRavenWinter_Medium
-};
+                hiddenSelectionsTextures[] = {
+                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa", // Upper texture
+                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa", // Lower texture
+                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa", // Collar texture
+                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
+                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
+                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
+                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
+                    "\W_Uniform\W_Armour\Custom\RavenShoulders.paa", // Shoulders texture
+                    "\W_Uniform\W_Armour\Custom\RavenShoulders.paa", // Shoulders texture (duplicate)
+                    "\W_Uniform\W_Armour\Custom\RavenShoulders.paa"  // Shoulders texture (duplicate)
+                };
+            };
+        }; // Close 22nd_ArmourRavenArid_Medium
+
+        class 22nd_ArmourRavenWinter_Medium : MA_Marine_BDU_Base {
+            scope = 2;  // Visible in editor
+            author = "Warhound Mod Team";
+            displayName = "Warhound Raven Armour Winter Variant (M)"; // In-game name
+            picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+            model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
+
+            class ItemInfo : UniformItem {
+                uniformModel = "-";
+                uniformClass = "22nd_ArmourRavenWinter_Medium"; // Reference to the uniform class in CfgVehicles
+                containerClass = "Supply90";
+                mass = 80; // Adjust mass if needed
+                hiddenSelections[] = {
+                "Camo1",
+                "Camo2",
+                "Camo3",
+                "Camo4",
+                "Camo5",
+                "Camo6",
+                "Camo7",
+                "Camo8",
+                "Camo9",
+                "Camo10",
+                "Uni_Upper",
+                "Uni_Lower",
+                "Uni_Collar",
+                // "Armor_Underpad",
+                "Armor_Straps",
+                "Armor_Upper",
+                "Armor_Lower",
+                "Shoulders_Lower1",
+                // "Shoulders_Lower2",
+                // "Shoulders_Upper"
+            };
+                hiddenSelectionsTextures[] = {
+                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperUpperBDU_CO.paa", // Upper texture
+                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa", // Lower texture
+                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperCollar_CO.paa", // Collar texture
+                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
+                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
+                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Upper armor texture
+                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa", // Lower armor texture
+                    "\W_Uniform\W_Armour\Custom\RavenShoulders.paa", // Shoulders texture
+                    "\W_Uniform\W_Armour\Custom\RavenShoulders.paa", // Shoulders texture (duplicate)
+                    "\W_Uniform\W_Armour\Custom\RavenShoulders.paa"  // Shoulders texture (duplicate)
+                };
+            };
+        }; // Close 22nd_ArmourRavenWinter_Medium
+    };
 
 };
