@@ -6,6 +6,7 @@ Sr. Developers: PFC Raven (tdb.)
 
 Developers: 
 - WO5. Lex (Discord/GitHub USR : byorh2)
+- H.Hertzel 
 - SPC. Warhead (FatherlyWarhead)
 - SPC. Talin (Moist)
 
