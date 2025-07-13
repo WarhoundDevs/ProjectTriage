@@ -163,7 +163,7 @@ class CfgVehicles {
         };
 
         hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperUpperBDU_CO.paa",
+            "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_WOODLAND.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
@@ -288,7 +288,7 @@ class CfgVehicles {
         };
 
         hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperUpperBDU_CO.paa",
+            "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_WOODLAND.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
@@ -413,7 +413,7 @@ class CfgVehicles {
         };
 
         hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperUpperBDU_CO.paa",
+            "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_GREEN.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
@@ -538,7 +538,7 @@ class CfgVehicles {
         };
 
         hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperUpperBDU_CO.paa",
+            "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_GREEN.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperCollar_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
@@ -663,7 +663,7 @@ class CfgVehicles {
         };
 
         hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa",
+            "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_BROWN.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
@@ -788,7 +788,7 @@ class CfgVehicles {
         };
 
         hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa",
+            "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_BROWN.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperCollar_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
@@ -917,7 +917,7 @@ class CfgVehicles {
         };
 
         hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperUpperBDU_CO.paa",
+            "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_ARID.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
@@ -1042,7 +1042,7 @@ class CfgVehicles {
         };
 
         hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperUpperBDU_CO.paa",
+            "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_ARID.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
@@ -1167,7 +1167,7 @@ class CfgVehicles {
         };
 
         hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa",
+            "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_BROWN.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
@@ -1292,7 +1292,7 @@ class CfgVehicles {
         };
 
         hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa",
+            "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_BROWN.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperCollar_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
@@ -1421,7 +1421,7 @@ class CfgVehicles {
         };
 
         hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperUpperBDU_CO.paa",
+            "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_WINTER.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperCollar_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
@@ -1546,7 +1546,7 @@ class CfgVehicles {
         };
 
         hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperUpperBDU_CO.paa",
+            "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_WINTER.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperCollar_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
@@ -1671,7 +1671,7 @@ class CfgVehicles {
         };
 
         hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperUpperBDU_CO.paa",
+            "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_GRAY.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperCollar_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
@@ -1796,7 +1796,7 @@ class CfgVehicles {
         };
 
         hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperUpperBDU_CO.paa",
+            "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_GRAY.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperCollar_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
@@ -2304,7 +2304,7 @@ class CfgWeapons {
             // "Shoulders_Upper",
         };
             hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperUpperBDU_CO.paa", // Upper texture
+               "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_WOODLAND.paa", // Upper texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa", // Lower texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa", // Collar texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
@@ -2471,7 +2471,7 @@ class CfgWeapons {
             // "Shoulders_Upper",
         };
             hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperUpperBDU_CO.paa", // Upper texture
+               "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_WOODLAND.paa", // Upper texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa", // Lower texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa", // Collar texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
@@ -2638,7 +2638,7 @@ class CfgWeapons {
             // "Shoulders_Upper",
         };
             hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperUpperBDU_CO.paa", // Upper texture
+                "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_GREEN.paa", // Upper texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa", // Lower texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa", // Collar texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
@@ -2860,7 +2860,7 @@ class CfgWeapons {
             // "Shoulders_Upper"
         };
             hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperUpperBDU_CO.paa", // Upper texture
+               "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_GREEN.paa", // Upper texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa", // Lower texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperCollar_CO.paa", // Collar texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
@@ -2972,7 +2972,7 @@ class CfgWeapons {
             // "Shoulders_Upper",
         };
             hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa", // Upper texture
+                "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_BROWN.paa", // Upper texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa", // Lower texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa", // Collar texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
@@ -3139,7 +3139,7 @@ class CfgWeapons {
             // "Shoulders_Upper",
         };
             hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa", // Upper texture
+                "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_BROWN.paa", // Upper texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa", // Lower texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperCollar_CO.paa", // Collar texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
@@ -3310,7 +3310,7 @@ class CfgWeapons {
             // "Shoulders_Upper",
         };
             hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperUpperBDU_CO.paa", // Upper texture
+                "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_ARID.paa", // Upper texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa", // Lower texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa", // Collar texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
@@ -3477,7 +3477,7 @@ class CfgWeapons {
             // "Shoulders_Upper",
         };
             hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperUpperBDU_CO.paa", // Upper texture
+               "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_ARID.paa", // Upper texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa", // Lower texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa", // Collar texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
@@ -3644,7 +3644,7 @@ class CfgWeapons {
             // "Shoulders_Upper",
         };
             hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa", // Upper texture
+                "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_BROWN.paa", // Upper texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa", // Lower texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa", // Collar texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
@@ -3811,7 +3811,7 @@ class CfgWeapons {
             // "Shoulders_Upper",
         };
             hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa", // Upper texture
+                "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_BROWN.paa", // Upper texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa", // Lower texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperCollar_CO.paa", // Collar texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
@@ -3982,7 +3982,7 @@ class CfgWeapons {
             // "Shoulders_Upper",
         };
             hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperUpperBDU_CO.paa", // Upper texture
+                "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_WINTER.paa", // Upper texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa", // Lower texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperCollar_CO.paa", // Collar texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
@@ -4149,7 +4149,7 @@ class CfgWeapons {
             // "Shoulders_Upper",
         };
             hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperUpperBDU_CO.paa", // Upper texture
+                "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_WINTER.paa", // Upper texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa", // Lower texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperCollar_CO.paa", // Collar texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
@@ -4317,7 +4317,7 @@ class CfgWeapons {
             // "Shoulders_Upper",
         };
             hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperUpperBDU_CO.paa", // Upper texture
+                "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_GRAY.paa", // Upper texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa", // Lower texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperCollar_CO.paa", // Collar texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
@@ -4484,7 +4484,7 @@ class CfgWeapons {
             // "Shoulders_Upper",
         };
             hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperUpperBDU_CO.paa", // Upper texture
+                "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_GRAY.paa", // Upper texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa", // Lower texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperCollar_CO.paa", // Collar texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
