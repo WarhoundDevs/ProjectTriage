@@ -3,5 +3,6 @@
 #include "Falcon\config.hpp"
 #include "Hornet\config.hpp"
 #include "Oryx\config.hpp"
+#include "OryxAPC\config.hpp"
 #include "Pelican\config.hpp"
 #include "Scorpion\config.hpp"

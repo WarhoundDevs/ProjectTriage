@@ -1,4 +1,4 @@
-class 22nd_Oryx_Pike12: Warhound_Oryx
+class 22nd_Oryx_Pike12: Warhound_Oryx_Alpha //Will need to remove '_Alpha' and 'Alpha' once new aux mod release, currently there to avoid issues with main aux mod as they use the same class name. - Lex
 {
 	author="Kidd";
 	displayName="[22nd] Pike 1-2 M494 Oryx IFV";
