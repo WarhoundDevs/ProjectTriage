@@ -22,6 +22,132 @@ class CfgPatches {
         requiredAddons[] = {"MA_Armor", "A3_Characters_F", "A3_Data_F_Mark"}; // Reference any required addons
     };
 };
+class XtdGearModels //see uniforms for the guide on how to do this
+{
+    class CfgWeapons
+    {
+        class WBaseH
+        {
+            label = "[22nd] CHC252";
+            author = "Warhound Mod Team";
+            options[] = // Class names for your options
+            {
+                "Options",
+            };
+            // all options defined underneath the big options box, class names must match the array (Or is it list I forget)
+            class Options
+            {
+                label = "Options";
+                values[] =
+                {
+                    "open",
+                    "closed",
+                    "visor",
+                    "eyepiece",
+
+
+                };
+                class open
+                {
+                    label = "Open";
+                };
+                class closed
+                {
+                    label = "Closed";
+                };
+                class visor
+                {
+                    label = "Visor";
+                };
+                class eyepiece
+                {
+                    label = "Eyepiece";
+                };
+            };
+
+        };
+        class WWinterH
+        {
+            label = "[22nd] CHC252";
+            author = "Warhound Mod Team";
+            options[] = // Class names for your options
+            {
+                "Options",
+            };
+            // all options defined underneath the big options box, class names must match the array (Or is it list I forget)
+            class Options
+            {
+                label = "Options";
+                values[] =
+                {
+                    "open",
+                    "closed",
+                    "visor",
+                    "eyepiece",
+
+
+                };
+                class open
+                {
+                    label = "Open";
+                };
+                class closed
+                {
+                    label = "Closed";
+                };
+                class visor
+                {
+                    label = "Visor";
+                };
+                class eyepiece
+                {
+                    label = "Eyepiece";
+                };
+            };
+
+        };
+        class WDepwaiting
+        {
+            label = "[22nd] CHC252";
+            author = "Warhound Mod Team";
+            options[] = // Class names for your options
+            {
+                "Options",
+            };
+            // all options defined underneath the big options box, class names must match the array (Or is it list I forget)
+            class Options
+            {
+                label = "Options";
+                values[] =
+                {
+                    "open",
+                    "closed",
+                    "visor",
+                    "eyepiece",
+
+
+                };
+                class open
+                {
+                    label = "Open";
+                };
+                class closed
+                {
+                    label = "Closed";
+                };
+                class visor
+                {
+                    label = "Visor";
+                };
+                class eyepiece
+                {
+                    label = "Eyepiece";
+                };
+            };
+
+        };
+        };
+    };
 
 class CfgWeapons {
 
@@ -33,6 +159,11 @@ class CfgWeapons {
     */
 
     class 22nd_HelmBase_Open: CH252_Helmet_Base {
+         class XtdGearInfo
+        {
+            model = "WBaseH";
+            Options = "open";
+        };
         scope=2;
         scopeArsenal=2;
         author="Warhound Mod Team";
@@ -112,6 +243,11 @@ class CfgWeapons {
     };// Close 22nd_HelmBase_Open
     
     class 22nd_HelmBase_Closed: CH252_Helmet_Base {
+           class XtdGearInfo
+        {
+            model = "WBaseH";
+            Options = "closed";
+        };
         scope=2;
         scopeArsenal=2;
         author="Warhound Mod Team";
@@ -191,6 +327,11 @@ class CfgWeapons {
     };// Close 22nd_HelmBase_Closed
 
     class 22nd_HelmBase_Eye: CH252_Helmet_Base {
+           class XtdGearInfo
+        {
+            model = "WBaseH";
+            Options = "eyepiece";
+        };
         scope=2;
         scopeArsenal=2;
         author="Warhound Mod Team";
@@ -270,6 +411,11 @@ class CfgWeapons {
     };// Close 22nd_HelmBase_Eye
 
     class 22nd_HelmBase_Visor: CH252_Helmet_Base {
+           class XtdGearInfo
+        {
+            model = "WBaseH";
+            Options = "visor";
+        };
         scope=2;
         scopeArsenal=2;
         author="Warhound Mod Team";
@@ -351,6 +497,11 @@ class CfgWeapons {
     // Begin Winterized Variants
 
     class 22nd_HelmSnow_Open: CH252_Helmet_Base {
+           class XtdGearInfo
+        {
+            model = "WWinterH";
+            Options = "open";
+        };
         scope=2;
         scopeArsenal=2;
         author="Warhound Mod Team";
@@ -430,6 +581,11 @@ class CfgWeapons {
     };  // Close 22nd_HelmSnow_Open
 
     class 22nd_HelmSnow_Closed: CH252_Helmet_Base {
+             class XtdGearInfo
+        {
+            model = "WWinterH";
+            Options = "closed";
+        };
         scope=2;
         scopeArsenal=2;
         author="Warhound Mod Team";
@@ -509,6 +665,11 @@ class CfgWeapons {
     };// Close 22nd_HelmSnow_Closed
 
     class 22nd_HelmSnow_Eye: CH252_Helmet_Base {
+             class XtdGearInfo
+        {
+            model = "WWinterH";
+            Options = "eyepiece";
+        };
         scope=2;
         scopeArsenal=2;
         author="Warhound Mod Team";
@@ -588,6 +749,11 @@ class CfgWeapons {
     };// Close 22nd_HelmSnow_Eye
 
     class 22nd_HelmSnow_Visor: CH252_Helmet_Base {
+                 class XtdGearInfo
+        {
+            model = "WWinterH";
+            Options = "visor";
+        };
         scope=2;
         scopeArsenal=2;
         author="Warhound Mod Team";
