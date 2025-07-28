@@ -1,6 +1,6 @@
 //All textures are in the OryxAPC folder, just copied the ones from the Oryx folder into the new folder and changed where the config pointed. That way changing them will be easier if there is a need. - Lex
 //All classes also use the correct OPTRE classes, and their EditorPreview points towards new preview file.
-class Warhound_APC_Oryx_Alpha: OPTRE_M493_APC //Will need to remove '_Alpha' and 'Alpha' once new aux mod release, currently there to avoid issues with main aux mod as they use the same class name. - Lex
+class Warhound_APC_Oryx: OPTRE_M493_APC
 {
 	scope=2;
 	author="Gatt, Kidd";
@@ -23,18 +23,18 @@ class Warhound_APC_Oryx_Alpha: OPTRE_M493_APC //Will need to remove '_Alpha' and
 	};
 	textureList[] =
 	{
-		"OryxAPC_Alpha_Urban",
+		"OryxAPC_Urban",
 		1,
-		"OryxAPC_Alpha_Woodland",
+		"OryxAPC_Woodland",
 		0,
-		"OryxAPC_Alpha_Arid",
+		"OryxAPC_Arid",
 		0,
-		"OryxAPC_Alpha_Arctic",
+		"OryxAPC_Arctic",
 		0,
 	}; // I have no clue what happened here, you can use the Garage textures now, but its the classname Oryx_(Color) instead of OryxAPC_(Color) but, it works? (I have no clue who wrote this comment but I'm keeping it - Lex)
 	class textureSources
 	{
-		class OryxAPC_Alpha_Urban
+		class OryxAPC_Urban
 		{
 			displayName = "Urban Camo";
 			author = "Kidd";
@@ -49,7 +49,7 @@ class Warhound_APC_Oryx_Alpha: OPTRE_M493_APC //Will need to remove '_Alpha' and
 				"W_Units\data\Vehicles\OryxAPC\Standard\Urban\22nd_standard_Scorp_mg_urban_co.paa"
 			};
 		};
-		class OryxAPC_Alpha_Arid
+		class OryxAPC_Arid
 		{
 			displayName = "Arid Camo";
 			author = "Kidd";
@@ -64,7 +64,7 @@ class Warhound_APC_Oryx_Alpha: OPTRE_M493_APC //Will need to remove '_Alpha' and
 				"W_Units\data\Vehicles\OryxAPC\Standard\Arid\22nd_standard_Scorp_mg_arid_co.paa"
 			};
 		};
-		class OryxAPC_Alpha_Woodland
+		class OryxAPC_Woodland
 		{
 			displayName = "Woodland Camo";
 			author = "Kidd";
@@ -79,7 +79,7 @@ class Warhound_APC_Oryx_Alpha: OPTRE_M493_APC //Will need to remove '_Alpha' and
 				"W_Units\data\Vehicles\OryxAPC\Standard\Woodland\22nd_standard_Scorp_mg_woodland_co.paa"
 			};
 		};
-		class OryxAPC_Alpha_Arctic
+		class OryxAPC_Arctic
 		{
 			displayName = "Arctic Camo";
 			author = "Kidd";

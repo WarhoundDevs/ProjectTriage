@@ -32,12 +32,12 @@ class XtdGearModels //see uniforms for the guide on how to do this
             author = "Warhound Mod Team";
             options[] = // Class names for your options
             {
-                "Variants",
+                "Choices",
             };
             // all options defined underneath the big options box, class names must match the array (Or is it list I forget)
             class Options
             {
-                label = "Variants";
+                label = "Choices";
                 values[] =
                 {
                     "open",
@@ -494,7 +494,7 @@ class CfgWeapons {
         };
     };// Close 22nd_HelmBase_Visor
 
-    // Begin Winterized Variants
+    // Begin Winterized Choices
 
     class 22nd_HelmSnow_Open: CH252_Helmet_Base {
            class XtdGearInfo
