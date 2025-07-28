@@ -21,7 +21,7 @@ class Warhound_Pelican_Orca_1: OPTRE_Pelican_armed
 	};
 	hiddenSelectionsTextures[]=
 	{
-		"Warhound_Units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_BLACK_co.paa",
+		"W_Units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_BLACK_co.paa",
 		""
 	};
 	class TextureSources
@@ -32,7 +32,7 @@ class Warhound_Pelican_Orca_1: OPTRE_Pelican_armed
 			author="Gatt";
 			textures[]=
 			{
-				"Warhound_Units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_ARID_co.paa",
+				"W_Units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_ARID_co.paa",
 				""
 			};
 		};
@@ -42,7 +42,7 @@ class Warhound_Pelican_Orca_1: OPTRE_Pelican_armed
 			author="Gatt";
 			textures[]=
 			{
-				"Warhound_Units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_NIGHT_co.paa",
+				"W_Units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_NIGHT_co.paa",
 				""
 			};
 		};
@@ -52,7 +52,7 @@ class Warhound_Pelican_Orca_1: OPTRE_Pelican_armed
 			author="Gatt";
 			textures[]=
 			{
-				"Warhound_Units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_BLACK_co.paa",
+				"W_Units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_BLACK_co.paa",
 				""
 			};
 		};
@@ -62,7 +62,7 @@ class Warhound_Pelican_Orca_1: OPTRE_Pelican_armed
 			author="Gatt";
 			textures[]=
 			{
-				"Warhound_Units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_WOODLAND_co.paa",
+				"W_Units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_WOODLAND_co.paa",
 				""
 			};
 		};
@@ -72,7 +72,7 @@ class Warhound_Pelican_Orca_1: OPTRE_Pelican_armed
 			author="Gatt";
 			textures[]=
 			{
-				"Warhound_Units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_ARCTIC_co.paa",
+				"W_Units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_ARCTIC_co.paa",
 				""
 			};
 		};
