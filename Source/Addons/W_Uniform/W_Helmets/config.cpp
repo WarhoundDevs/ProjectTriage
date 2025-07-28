@@ -16,10 +16,11 @@ class CfgPatches {
             //Aviation
             "22nd_HelmAvi_Open",
             "22nd_HelmAvi_Closed",
+            "22nd_VX19_Helmet_Base",
             //Custom
         };
         requiredVersion = 1.0;
-        requiredAddons[] = {"MA_Armor", "A3_Characters_F", "A3_Data_F_Mark"}; // Reference any required addons
+        requiredAddons[] = {"MA_Armor", "A3_Characters_F", "A3_Data_F_Mark", "OPTRE_FC_Units"}; // Reference any required addons
     };
 };
 
@@ -665,4 +666,19 @@ class CfgWeapons {
             };
         };
     };// Close 22nd_HelmSnow_Visor
+
+    //Begin VX-19 Base Helmet
+    class OPTRE_FC_VX19_Helmet;
+    class 22nd_VX19_Helmet_Base: OPTRE_FC_VX19_Helmet {
+        scope=2;
+        scopeArsenal=2;
+        author="Warhound Mod Team";
+        displayName="[22nd] VX19 Base";
+        hiddenSelectionsTextures[]= 
+        {
+		"W_Uniform\W_Helmets\Aviation\22nd_Air_Helm_Co.paa",
+		"optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+        };
+    };
+    //End VX-19 Base Helmet
 };
