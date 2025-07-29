@@ -71,7 +71,7 @@ class XtdGearModels //see uniforms for the guide on how to do this
             author = "Warhound Mod Team";
             options[] = // Class names for your options
             {
-                "Options",
+                "Variants",
             };
             // all options defined underneath the big options box, class names must match the array (Or is it list I forget)
             class Options
@@ -111,12 +111,12 @@ class XtdGearModels //see uniforms for the guide on how to do this
             author = "Warhound Mod Team";
             options[] = // Class names for your options
             {
-                "Options",
+                "Choices",
             };
             // all options defined underneath the big options box, class names must match the array (Or is it list I forget)
-            class Options
+            class Choices
             {
-                label = "Options";
+                label = "Variants";
                 values[] =
                 {
                     "open",
