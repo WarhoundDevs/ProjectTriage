@@ -4,7 +4,7 @@ class Warhound_APC_Oryx: OPTRE_M493_APC
 {
 	scope=2;
 	author="Gatt, Kidd";
-	displayName="[22nd] M493 Oryx APC Alpha";
+	displayName="[22nd] M493 Oryx APC";
 	faction="22nd_Faction";
 	editorCategory="22nd_Warhound_Company";
 	editorSubcategory="22nd_Warhound_Company_APCs";

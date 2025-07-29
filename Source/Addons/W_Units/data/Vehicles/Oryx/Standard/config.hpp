@@ -1,8 +1,8 @@
-class Warhound_Oryx_Alpha: OPTRE_M494 //Will need to remove '_Alpha' and 'Alpha' once new aux mod release, currently there to avoid issues with main aux mod as they use the same class name. - Lex
+class Warhound_Oryx: OPTRE_M494
 {
 	scope=2;
 	author="Gatt, Kidd";
-	displayName="[22nd] M494 Oryx IFV Alpha";
+	displayName="[22nd] M494 Oryx IFV";
 	faction="22nd_Faction";
 	editorCategory="22nd_Warhound_Company";
 	editorSubcategory="22nd_Warhound_Company_IFVs";
@@ -21,18 +21,18 @@ class Warhound_Oryx_Alpha: OPTRE_M494 //Will need to remove '_Alpha' and 'Alpha'
 	};
 	textureList[] =
 	{
-		"Oryx_Urban_Alpha",
+		"Oryx_Urban",
 		1,
-		"Oryx_Woodland_Alpha",
+		"Oryx_Woodland",
 		0,
-		"Oryx_Arid_Alpha",
+		"Oryx_Arid",
 		0,
-		"Oryx_Arctic_Alpha",
+		"Oryx_Arctic",
 		0,
 	};
 	class textureSources
 	{
-		class Oryx_Urban_Alpha
+		class Oryx_Urban
 		{
 			displayName = "Urban Camo";
 			author = "Kidd";
@@ -47,7 +47,7 @@ class Warhound_Oryx_Alpha: OPTRE_M494 //Will need to remove '_Alpha' and 'Alpha'
 				"W_Units\data\Vehicles\Oryx\Standard\Urban\22nd_standard_Scorp_mg_urban_co.paa"
 			};
 		};
-		class Oryx_Arid_Alpha
+		class Oryx_Arid
 		{
 			displayName = "Arid Camo";
 			author = "Kidd";
@@ -62,7 +62,7 @@ class Warhound_Oryx_Alpha: OPTRE_M494 //Will need to remove '_Alpha' and 'Alpha'
 				"W_Units\data\Vehicles\Oryx\Standard\Arid\22nd_standard_Scorp_mg_arid_co.paa"
 			};
 		};
-		class Oryx_Woodland_Alpha
+		class Oryx_Woodland
 		{
 			displayName = "Woodland Camo";
 			author = "Kidd";
@@ -77,7 +77,7 @@ class Warhound_Oryx_Alpha: OPTRE_M494 //Will need to remove '_Alpha' and 'Alpha'
 				"W_Units\data\Vehicles\Oryx\Standard\Woodland\22nd_standard_Scorp_mg_woodland_co.paa"
 			};
 		};
-		class Oryx_Arctic_Alpha
+		class Oryx_Arctic
 		{
 			displayName = "Arctic Camo";
 			author = "Kidd";
