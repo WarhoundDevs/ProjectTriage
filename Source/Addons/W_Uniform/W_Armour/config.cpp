@@ -1,4765 +1,834 @@
 class CfgPatches {
     class 22ndArmsRoom{
         units[] = {
-            //Base
-            "22nd_ArmourBaseVar1_Light",
-            "22nd_ArmourBaseVar1_LightC",
-            "22nd_ArmourBaseVar1_Medium",
-            "22nd_ArmourBaseVar1_MediumC",
-            "22nd_ArmourBaseVar1_Heavy",
-            "22nd_ArmourBaseVar1_HeavyC",
-            "22nd_ArmourBaseVar2_Light",
-            "22nd_ArmourBaseVar2_LightC",
-            "22nd_ArmourBaseVar2_Medium",
-            "22nd_ArmourBaseVar2_MediumC",
-            "22nd_ArmourBaseVar2_Heavy",
-            "22nd_ArmourBaseVar2_HeavyC",
-            "22nd_ArmourBaseVar3_Light",
-            "22nd_ArmourBaseVar3_LightC",
-            "22nd_ArmourBaseVar3_Medium",
-            "22nd_ArmourBaseVar3_MediumC",
-            "22nd_ArmourBaseVar3_Heavy",
-            "22nd_ArmourBaseVar3_HeavyC",
-            //Arid
-            "22nd_ArmourAridVar1_Light",
-            "22nd_ArmourAridVar1_LightC",
-            "22nd_ArmourAridVar1_Medium",
-            "22nd_ArmourAridVar1_MediumC",
-            "22nd_ArmourAridVar1_Heavy",
-            "22nd_ArmourAridVar1_HeavyC",
-            "22nd_ArmourAridVar2_Light",
-            "22nd_ArmourAridVar2_LightC",
-            "22nd_ArmourAridVar2_Medium",
-            "22nd_ArmourAridVar2_MediumC",
-            "22nd_ArmourAridVar2_Heavy",
-            "22nd_ArmourAridVar2_HeavyC",
-            "22nd_ArmourAridVar3_Light",
-            "22nd_ArmourAridVar3_Medium",
-            "22nd_ArmourAridVar3_Heavy",
-            //Winter
-            "22nd_ArmourWinterVar1_Light",
-            "22nd_ArmourWinterVar1_LightC",
-            "22nd_ArmourWinterVar1_Medium",
-            "22nd_ArmourWinterVar1_MediumC",
-            "22nd_ArmourWinterVar1_Heavy",
-            "22nd_ArmourWinterVar1_HeavyC",
-            "22nd_ArmourWinterVar2_Light",
-            "22nd_ArmourWinterVar2_Medium",
-            "22nd_ArmourWinterVar2_Heavy",
-            "22nd_ArmourWinterVar2_LightC",
-            "22nd_ArmourWinterVar2_MediumC",
-            "22nd_ArmourWinterVar2_HeavyC",
-
-            /*
-            *Start Customs
-            *Current Customs: Raven
-            */
-
-            //Raven
-            "22nd_ArmourRavenBase_Medium",
-            "22nd_ArmourRavenArid_Medium",
-            "22nd_ArmourRavenWinter_Medium",
-
-
         };
         weapons[] = {
             //Base
-            "22nd_ArmourBaseVar1_Light",
-            "22nd_ArmourBaseVar1_LightC",
-            "22nd_ArmourBaseVar1_Medium",
-            "22nd_ArmourBaseVar1_MediumC",
-            "22nd_ArmourBaseVar1_Heavy",
-            "22nd_ArmourBaseVar1_HeavyC",
-            "22nd_ArmourBaseVar2_Light",
-            "22nd_ArmourBaseVar2_LightC",
-            "22nd_ArmourBaseVar2_Medium",
-            "22nd_ArmourBaseVar2_MediumC",
-            "22nd_ArmourBaseVar2_Heavy",
-            "22nd_ArmourBaseVar2_HeavyC",
-            "22nd_ArmourBaseVar3_Light",
-            "22nd_ArmourBaseVar3_LightC",
-            "22nd_ArmourBaseVar3_Medium",
-            "22nd_ArmourBaseVar3_MediumC",
-            "22nd_ArmourBaseVar3_Heavy",
-            "22nd_ArmourBaseVar3_HeavyC",
-            //Arid
-            "22nd_ArmourAridVar1_Light",
-            "22nd_ArmourAridVar1_LightC",
-            "22nd_ArmourAridVar1_Medium",
-            "22nd_ArmourAridVar1_MediumC",
-            "22nd_ArmourAridVar1_Heavy",
-            "22nd_ArmourAridVar1_HeavyC",
-            "22nd_ArmourAridVar2_Light",
-            "22nd_ArmourAridVar2_LightC",
-            "22nd_ArmourAridVar2_Medium",
-            "22nd_ArmourAridVar2_MediumC",
-            "22nd_ArmourAridVar2_Heavy",
-            "22nd_ArmourAridVar2_HeavyC",
-            "22nd_ArmourAridVar3_Light",
-            "22nd_ArmourAridVar3_Medium",
-            "22nd_ArmourAridVar3_Heavy",
-            //Winter
-            "22nd_ArmourWinterVar1_Light",
-            "22nd_ArmourWinterVar1_LightC",
-            "22nd_ArmourWinterVar1_Medium",
-            "22nd_ArmourWinterVar1_MediumC",
-            "22nd_ArmourWinterVar1_Heavy",
-            "22nd_ArmourWinterVar1_HeavyC",
-            "22nd_ArmourWinterVar2_Light",
-            "22nd_ArmourWinterVar2_Medium",
-            "22nd_ArmourWinterVar2_Heavy",
-            "22nd_ArmourWinterVar2_LightC",
-            "22nd_ArmourWinterVar2_MediumC",
-            "22nd_ArmourWinterVar2_HeavyC",
-            /*
-            *Start Customs
-            *Current Customs: Raven
-            */
-
-            //Raven
-            "22nd_ArmourRavenBase_Medium",
-            "22nd_ArmourRavenArid_Medium",
-            "22nd_ArmourRavenWinter_Medium",
-
-        }; // Link your uniform class
+            "22nd_HelmBase_Open",
+            "22nd_HelmBase_Closed",
+            "22nd_HelmBase_Eye",
+            "22nd_HelmBase_Visor",
+            //Snow
+            "22nd_HelmSnow_Open",
+            "22nd_HelmSnow_Closed",
+            "22nd_HelmSnow_Eye",
+            "22nd_HelmSnow_Visor",
+            //Aviation
+            "22nd_HelmAvi_Open",
+            "22nd_HelmAvi_Closed",
+            //Custom
+        };
         requiredVersion = 1.0;
         requiredAddons[] = {"MA_Armor", "A3_Characters_F", "A3_Data_F_Mark"}; // Reference any required addons
     };
 };
-class CfgVehicles {
-    class MA_Marine_BDU_Base;
-
-    /*
-    * Begin ArmourBase
-    */
-
-    // Begin Variant 1 - No Collar
-
-    class 22nd_ArmourBaseVar1_Light : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourBaseVar1_Light"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-          //"Uni_Upper",
-          //"Uni_Lower",
-            "Uni_Collar",
-          //"Armor_Underpad",
-          //"Armor_Straps",
-          //"Armor_Upper",
-          //"Armor_Lower",
-                "Shoulders_Lower1",
-                "Shoulders_Lower2",
-                "Shoulders_Upper"
-            };
-
-            hiddenSelectionsTextures[] = {
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_WOODLAND.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            };
-    }; // Close 22nd_ArmourBaseVar1_Light
-
-    class 22nd_ArmourBaseVar1_Medium : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourBaseVar1_Medium"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-        };
-    }; // Close 22nd_ArmourBaseVar1_Medium
-
-    class 22nd_ArmourBaseVar1_Heavy : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourBaseVar1_Heavy"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-        };
-    }; // Close 22nd_ArmourBaseVar1_Heavy
-
-    // Begin Variant 1 - Collar
-
-    class 22nd_ArmourBaseVar1_LightC : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourBaseVar1_LightC"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            //"Uni_Upper",
-            //"Uni_Lower",
-            //"Uni_Collar",
-            //"Armor_Underpad",
-            //"Armor_Straps",
-            //"Armor_Upper",
-            //"Armor_Lower",
-              "Shoulders_Lower1",
-              "Shoulders_Lower2",
-              "Shoulders_Upper"
-          };
-
-          hiddenSelectionsTextures[] = {
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_WOODLAND.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-          };
-    }; // Close 22nd_ArmourBaseVar1_LightC
-
-    class 22nd_ArmourBaseVar1_MediumC : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourBaseVar1_MediumC"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-        };
-    }; // Close 22nd_ArmourBaseVar1_MediumC
-
-    class 22nd_ArmourBaseVar1_HeavyC : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourBaseVar1_HeavyC"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-        };
-    }; // Close 22nd_ArmourBaseVar1_HeavyC
-
-    // Begin Variant 2 - No Collar
-
-    class 22nd_ArmourBaseVar2_Light : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourBaseVar2_Light"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            //"Uni_Upper",
-            //"Uni_Lower",
-              "Uni_Collar",
-              //"Armor_Underpad",
-              //"Armor_Straps",
-              //"Armor_Upper",
-              //"Armor_Lower",
-                "Shoulders_Lower1",
-                "Shoulders_Lower2",
-                "Shoulders_Upper"
-            };
-
-            hiddenSelectionsTextures[] = {
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_GREEN.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            };
-    }; // Close 22nd_ArmourBaseVar2_Light
-
-    class 22nd_ArmourBaseVar2_Medium : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourBaseVar2_Medium"; // Custom uniform class
-           hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-        };
-    }; // Close 22nd_ArmourBaseVar2_Medium
-
-    class 22nd_ArmourBaseVar2_Heavy : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourBaseVar2_Heavy"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-        };
-    }; // Close 22nd_ArmourBaseVar2_Heavy
-
-    // Begin Variant 2 - Collar
-
-    class 22nd_ArmourBaseVar2_LightC : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourBaseVar2_LightC"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            //"Uni_Upper",
-            //"Uni_Lower",
-            //"Uni_Collar",
-            //"Armor_Underpad",
-            //"Armor_Straps",
-            //"Armor_Upper",
-            //"Armor_Lower",
-              "Shoulders_Lower1",
-              "Shoulders_Lower2",
-              "Shoulders_Upper"
-          };
-
-          hiddenSelectionsTextures[] = {
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_GREEN.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperCollar_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-          };
-    }; // Close 22nd_ArmourBaseVar2_LightC
-
-    class 22nd_ArmourBaseVar2_MediumC : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourBaseVar2_MediumC"; // Custom uniform class
-           hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-        };
-    }; // Close 22nd_ArmourBaseVar2_MediumC
-
-    class 22nd_ArmourBaseVar2_HeavyC : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourBaseVar2_HeavyC"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-        };
-    }; // Close 22nd_ArmourBaseVar2_Heavy
-
-    // Begin Variant 3 - No Collar
-
-    class 22nd_ArmourBaseVar3_Light : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourBaseVar3_Light"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            //"Uni_Upper",
-            //"Uni_Lower",
-              "Uni_Collar",
-              //"Armor_Underpad",
-              //"Armor_Straps",
-              //"Armor_Upper",
-              //"Armor_Lower",
-                "Shoulders_Lower1",
-                "Shoulders_Lower2",
-                "Shoulders_Upper"
-            };
-
-            hiddenSelectionsTextures[] = {
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_BROWN.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            };
-    }; // Close 22nd_ArmourBaseVar3_Light
-
-    class 22nd_ArmourBaseVar3_Medium : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourBaseVar3_Medium"; // Custom uniform class
-           hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-        };
-    }; // Close 22nd_ArmourBaseVar3_Medium
-
-    class 22nd_ArmourBaseVar3_Heavy : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourBaseVar3_Heavy"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-        };
-    }; // Close 22nd_ArmourBaseVar3_Heavy
-
-    // Begin Variant 3 - Collar
-
-    class 22nd_ArmourBaseVar3_LightC : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourBaseVar3_LightC"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            //"Uni_Upper",
-            //"Uni_Lower",
-            //"Uni_Collar",
-            //"Armor_Underpad",
-            //"Armor_Straps",
-            //"Armor_Upper",
-            //"Armor_Lower",
-              "Shoulders_Lower1",
-              "Shoulders_Lower2",
-              "Shoulders_Upper"
-          };
-
-          hiddenSelectionsTextures[] = {
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_BROWN.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperCollar_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-          };
-    }; // Close 22nd_ArmourBaseVar3_LightC
-
-    class 22nd_ArmourBaseVar3_MediumC : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourBaseVar3_MediumC"; // Custom uniform class
-           hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-        };
-    }; // Close 22nd_ArmourBaseVar3_MediumC
-
-    class 22nd_ArmourBaseVar3_HeavyC : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourBaseVar3_HeavyC"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-        };
-    }; // Close 22nd_ArmourBaseVar3_HeavyC
-
-    /*
-    * Begin ArmourArid
-    */
-
-    // Begin Variant 1 - No Collar
-
-    class 22nd_ArmourAridVar1_Light : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourAridVar1_Light"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            //"Uni_Upper",
-            //"Uni_Lower",
-              "Uni_Collar",
-              //"Armor_Underpad",
-              //"Armor_Straps",
-              //"Armor_Upper",
-              //"Armor_Lower",
-                "Shoulders_Lower1",
-                "Shoulders_Lower2",
-                "Shoulders_Upper"
-            };
-
-            hiddenSelectionsTextures[] = {
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_ARID.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            };
-    }; // Close 22nd_ArmourAridVar1_Light
-
-    class 22nd_ArmourAridVar1_Medium : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourAridVar1_Medium"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-        };
-    }; // Close 22nd_ArmourAridVar1_Medium
-
-    class 22nd_ArmourAridVar1_Heavy : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourAridVar1_Heavy"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-        };
-    }; // Close 22nd_ArmourAridVar1_Heavy
-
-    // Begin Variant 1 - Collar
-
-    class 22nd_ArmourAridVar1_LightC : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourAridVar1_LightC"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            //"Uni_Upper",
-            //"Uni_Lower",
-            //"Uni_Collar",
-            //"Armor_Underpad",
-            //"Armor_Straps",
-            //"Armor_Upper",
-            //"Armor_Lower",
-              "Shoulders_Lower1",
-              "Shoulders_Lower2",
-              "Shoulders_Upper"
-          };
-
-          hiddenSelectionsTextures[] = {
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_ARID.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-          };
-    }; // Close 22nd_ArmourAridVar1_LightC
-
-    class 22nd_ArmourAridVar1_MediumC : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourAridVar1_MediumC"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-        };
-    }; // Close 22nd_ArmourAridVar1_MediumC
-
-    class 22nd_ArmourAridVar1_HeavyC : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourAridVar1_HeavyC"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-        };
-    }; // Close 22nd_ArmourAridVar1_HeavyC
-
-    // Begin Variant 2 - No Collar
-
-    class 22nd_ArmourAridVar2_Light : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourAridVar2_Light"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            //"Uni_Upper",
-            //"Uni_Lower",
-              "Uni_Collar",
-              //"Armor_Underpad",
-              //"Armor_Straps",
-              //"Armor_Upper",
-              //"Armor_Lower",
-                "Shoulders_Lower1",
-                "Shoulders_Lower2",
-                "Shoulders_Upper"
-            };
-
-            hiddenSelectionsTextures[] = {
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_BROWN.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            };
-    }; // Close 22nd_ArmourAridVar2_Light
-
-    class 22nd_ArmourAridVar2_Medium : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourAridVar2_Medium"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-        };
-    }; // Close 22nd_ArmourAridVar2_Medium
-
-    class 22nd_ArmourAridVar2_Heavy : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourAridVar2_Heavy"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-        };
-    }; // Close 22nd_ArmourAridVar2_Heavy
-
-    // Begin Variant 2 - Collar
-
-    class 22nd_ArmourAridVar2_LightC : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourAridVar2_LightC"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            //"Uni_Upper",
-            //"Uni_Lower",
-            //"Uni_Collar",
-            //"Armor_Underpad",
-            //"Armor_Straps",
-            //"Armor_Upper",
-            //"Armor_Lower",
-              "Shoulders_Lower1",
-              "Shoulders_Lower2",
-              "Shoulders_Upper"
-          };
-
-          hiddenSelectionsTextures[] = {
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_BROWN.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperCollar_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-          };
-    }; // Close 22nd_ArmourAridVar2_LightC
-
-    class 22nd_ArmourAridVar2_MediumC : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourAridVar2_MediumC"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-        };
-    }; // Close 22nd_ArmourAridVar2_MediumC
-
-    class 22nd_ArmourAridVar2_HeavyC : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourAridVar2_HeavyC"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            //"Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
-        };
-    }; // Close 22nd_ArmourAridVar2_HeavyC
-
-    /*
-    * Begin ArmourSnow
-    */
-
-    // Begin Variant 1 - No Collar
-
-    class 22nd_ArmourWinterVar1_Light : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourWinterVar1_Light"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            //"Uni_Upper",
-            //"Uni_Lower",
-              "Uni_Collar",
-              //"Armor_Underpad",
-              //"Armor_Straps",
-              //"Armor_Upper",
-              //"Armor_Lower",
-                "Shoulders_Lower1",
-                "Shoulders_Lower2",
-                "Shoulders_Upper"
-            };
-
-            hiddenSelectionsTextures[] = {
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_WINTER.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperCollar_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Will need new texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa",
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            };
-    }; // Close 22nd_ArmourWinterVar1_Light
-
-    class 22nd_ArmourWinterVar1_Medium : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourWinterVar1_Medium"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-        };
-    }; // Close 22nd_ArmourWinterVar1_Medium
-
-    class 22nd_ArmourWinterVar1_Heavy : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourWinterVar1_Heavy"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-        };
-    }; // Close 22nd_ArmourWinterVar1_Heavy
-
-    // Begin Variant 1 - Collar
-
-    class 22nd_ArmourWinterVar1_LightC : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourWinterVar1_LightC"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            //"Uni_Upper",
-            //"Uni_Lower",
-            //"Uni_Collar",
-            //"Armor_Underpad",
-            //"Armor_Straps",
-            //"Armor_Upper",
-            //"Armor_Lower",
-              "Shoulders_Lower1",
-              "Shoulders_Lower2",
-              "Shoulders_Upper"
-          };
-
-          hiddenSelectionsTextures[] = {
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_WINTER.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperCollar_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Will need new texture
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa",
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-          };
-    }; // Close 22nd_ArmourWinterVar1_LightC
-
-    class 22nd_ArmourWinterVar1_MediumC : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourWinterVar1_MediumC"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-        };
-    }; // Close 22nd_ArmourWinterVar1_MediumC
-
-    class 22nd_ArmourWinterVar1_HeavyC : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourWinterVar1_HeavyC"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-        };
-    }; // Close 22nd_ArmourWinterVar1_HeavyC
-
-    // Begin Variant 2 - No Collar
-
-    class 22nd_ArmourWinterVar2_Light : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourWinterVar2_Light"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            //"Uni_Upper",
-            //"Uni_Lower",
-              "Uni_Collar",
-              //"Armor_Underpad",
-              //"Armor_Straps",
-              //"Armor_Upper",
-              //"Armor_Lower",
-                "Shoulders_Lower1",
-                "Shoulders_Lower2",
-                "Shoulders_Upper"
-            };
-
-            hiddenSelectionsTextures[] = {
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_GRAY.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperCollar_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Will need new texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa",
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            };
-    }; // Close 22nd_ArmourWinterVar2_Light
-
-    class 22nd_ArmourWinterVar2_Medium : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourWinterVar2_Medium"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-        };
-    }; // Close 22nd_ArmourWinterVar2_Medium
-
-    class 22nd_ArmourWinterVar2_Heavy : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourWinterVar2_Heavy"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-        };
-    }; // Close 22nd_ArmourWinterVar2_Heavy
-
-    // Begin Variant  - Collar
-
-    class 22nd_ArmourWinterVar2_LightC : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourWinterVar2_LightC"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            //"Uni_Upper",
-            //"Uni_Lower",
-            //"Uni_Collar",
-            //"Armor_Underpad",
-            //"Armor_Straps",
-            //"Armor_Upper",
-            //"Armor_Lower",
-              "Shoulders_Lower1",
-              "Shoulders_Lower2",
-              "Shoulders_Upper"
-          };
-
-          hiddenSelectionsTextures[] = {
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_GRAY.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperCollar_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Will need new texture
-              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa",
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-          };
-    }; // Close 22nd_ArmourWinterVar2_LightC
-
-    class 22nd_ArmourWinterVar2_MediumC : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourWinterVar2_MediumC"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-        };
-    }; // Close 22nd_ArmourWinterVar2_MediumC
-
-    class 22nd_ArmourWinterVar2_HeavyC : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourWinterVar2_HeavyC"; // Custom uniform class
-        hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-        };
-    }; // Close 22nd_ArmourWinterVar2_HeavyC
-
-    /*
-    * Begin Custom Armours
-    */
-
-    //Raven
-
-    class 22nd_ArmourRavenBase_Medium : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourRavenBase_Medium"; // Custom uniform class
-           hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            //"Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Custom\RavenShoulders.paa",
-            "\W_Uniform\W_Armour\Custom\RavenShoulders.paa",
-            "\W_Uniform\W_Armour\Custom\RavenShoulders.paa",
-        };
-    }; // Close 22nd_ArmourRavenBase_Medium
-
-    class 22nd_ArmourRavenArid_Medium : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourRavenArid_Medium"; // Custom uniform class
-           hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Custom\RavenShoulders.paa",
-            "\W_Uniform\W_Armour\Custom\RavenShoulders.paa",
-            "\W_Uniform\W_Armour\Custom\RavenShoulders.paa",
-        };
-    }; // Close 22nd_ArmourRavenArid_Medium
-
-    class 22nd_ArmourRavenWinter_Medium : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourRavenWinter_Medium"; // Custom uniform class
-           hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Custom\RavenShoulders.paa",
-            "\W_Uniform\W_Armour\Custom\RavenShoulders.paa",
-            "\W_Uniform\W_Armour\Custom\RavenShoulders.paa",
-        };
-    }; // Close 22nd_ArmourRavenWinter_Medium
-};
-
-// Hertzel 07132025 - XTDGEARMODELS define the arsenal option. 
-class XtdGearModels
+class XtdGearModels //see uniforms for the guide on how to do this
 {
     class CfgWeapons
     {
-        class WArid_AAE
+        class WBaseH
         {
-            label = "[22nd] M52A Arid";
+            label = "[22nd] CHC252";
             author = "Warhound Mod Team";
             options[] = // Class names for your options
             {
-                "Enviroment",
-                "Shoulder",
-                "Collar"
+                "Variants",
             };
             // all options defined underneath the big options box, class names must match the array (Or is it list I forget)
-            class Enviroment
+            class Variants
             {
-                label = "Variant";
+                label = "Variants";
                 values[] =
                 {
-                    "Arid",
-                    "BrownD",
-                };
-                class Arid
-                {
-                    label = "Arid/HW";
-                };
-                class BrownD
-                {
-                    label = "Brown/HW";
-                };
-            };
-            class Shoulder
-            {
-                label = "Shoulders";
-                values[] =
-                {
-                    "Light",
-                    "Medium",
-                    "Heavy",
+                    "open",
+                    "closed",
+                    "visor",
+                    "eyepiece",
 
 
                 };
-                class Light
+                class open
                 {
-                    label = "Light";
+                    label = "Open";
                 };
-                class Medium
+                class closed
                 {
-                    label = "Medium";
+                    label = "Closed";
                 };
-                class Heavy
+                class visor
                 {
-                    label = "Heavy";
+                    label = "Visor";
                 };
-            };
-            class Collar
-            {
-                label = "Collar";
-                values[] =
+                class eyepiece
                 {
-                    "High",
-                    "Low"
-                };
-                class High
-                {
-                    label = "High";
-                };
-                class Low
-                {
-                    label = "Low";
+                    label = "Eyepiece";
                 };
             };
+
         };
-        class WGreen_AAE
+        class WWinterH
         {
-            label = "[22nd] M52A Woodland";
+            label = "[22nd] CHC252";
             author = "Warhound Mod Team";
             options[] = // Class names for your options
             {
-                "Enviroment",
-                "Shoulder",
-                "Collar"
+                "Variants",
             };
             // all options defined underneath the big options box, class names must match the array (Or is it list I forget)
-            class Enviroment
+            class Variants
             {
-                label = "Enviroment";
+                label = "Variants";
                 values[] =
                 {
-                    "BrownWD",
-                    "Olive",
-                    "Woodland",
+                    "open",
+                    "closed",
+                    "visor",
+                    "eyepiece",
+
+
                 };
-
-
-
-                class BrownWD
+                class open
                 {
-                    label = "Brown/WD";
+                    label = "Open";
                 };
-                class Olive
+                class closed
                 {
-                    label = "Olive";
+                    label = "Closed";
                 };
-
-                class Woodland
+                class visor
                 {
-                    label = "Woodland";
+                    label = "Visor";
+                };
+                class eyepiece
+                {
+                    label = "Eyepiece";
                 };
             };
-            class Shoulder
-            {
-                label = "Shoulders";
-                values[] =
-                {
-                    "Light",
-                    "Medium",
-                    "Heavy",
 
-
-                };
-                class Light
-                {
-                    label = "Light";
-                };
-                class Medium
-                {
-                    label = "Medium";
-                };
-                class Heavy
-                {
-                    label = "Heavy";
-                };
-            };
-            class Collar
-            {
-                label = "Collar";
-                values[] =
-                {
-                    "High",
-                    "Low"
-                };
-                class High
-                {
-                    label = "High";
-                };
-                class Low
-                {
-                    label = "Low";
-                };
-            };
         };
-        class WSnow_AAE
+        class WDepwaiting
         {
-            label = "[22nd] M52A Winter";
+            label = "[22nd] CHC252";
             author = "Warhound Mod Team";
             options[] = // Class names for your options
             {
-                "Enviroment",
-                "Shoulder",
-                "Collar"
+                "Variants",
             };
             // all options defined underneath the big options box, class names must match the array (Or is it list I forget)
-            class Enviroment
+            class Variants
             {
-                label = "Enviroment";
+                label = "Options";
                 values[] =
                 {
-                    "Winter",
-                    "Black",
-                };
-                class Winter
-                {
-                    label = "Winter";
-                };
-                class Black
-                {
-                    label = "Black";
-                };
-
-
-            };
-            class Shoulder
-            {
-                label = "Shoulders";
-                values[] =
-                {
-                    "Light",
-                    "Medium",
-                    "Heavy",
+                    "open",
+                    "closed",
+                    "visor",
+                    "eyepiece",
 
 
                 };
-                class Light
+                class open
                 {
-                    label = "Light";
+                    label = "Open";
                 };
-                class Medium
+                class closed
                 {
-                    label = "Medium";
+                    label = "Closed";
                 };
-                class Heavy
+                class visor
                 {
-                    label = "Heavy";
+                    label = "Visor";
+                };
+                class eyepiece
+                {
+                    label = "Eyepiece";
                 };
             };
-            class Collar
-            {
-                label = "Collar";
-                values[] =
-                {
-                    "High",
-                    "Low"
-                };
-                class High
-                {
-                    label = "High";
-                };
-                class Low
-                {
-                    label = "Low";
-                };
-            };
+
         };
     };
-
 };
 
-// AAE - XtdGearInfo allows the mod to pull items into the model.
-// Model should match the base class in XtdGearModels. Options should match the option class names in XtdGearModels. Options should match the class names in your options. 
 class CfgWeapons {
-    class MA_Marine_BDU_Base;
-    class UniformItem;
+
+    class CH252_Helmet_Base;
+    class ItemInfo;
 
     /*
-    * Begin ArmourBase
+    * Begin Base Helmets
     */
 
-    // Begin Variant 1 - No Collar
-
-    class 22nd_ArmourBaseVar1_Light : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A Woodland (Light)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
+    class 22nd_HelmBase_Open : CH252_Helmet_Base{
+         class XtdGearInfo
         {
-            model = "WGreen_AAE"; // Model name from XtdGearModels
-            Enviroment = "Woodland"; // Environment option from XtdGearModels
-            Shoulder = "Light"; // Shoulder option from XtdGearModels
-            Collar = "Low"; // Collar option from XtdGearModels
+            model = "WBaseH";
+            Variants = "open";
         };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourBaseVar1_Light"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-               "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_WOODLAND.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourBaseVar1_Light
-
-    class 22nd_ArmourBaseVar1_Medium : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
+        scope = 2;
+        scopeArsenal = 2;
         author = "Warhound Mod Team";
-        displayName = "[22nd] M52A Woodland (Medium)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
+        displayName = "[22nd] CHC252"
+        model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        picture = " "//Add Icon
+        hiddenSelections[] =
         {
-            model = "WGreen_AAE";
-            Enviroment = "Woodland";
-            Shoulder = "Medium";
-            Collar = "Low";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourBaseVar1_Medium"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    };// Close 22nd_ArmourBaseVar1_Medium
-
-    class 22nd_ArmourBaseVar1_Heavy : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A Woodland (Heavy)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WGreen_AAE";
-            Enviroment = "Woodland";
-            Shoulder = "Heavy";
-            Collar = "Low";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourBaseVar1_Heavy"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourBaseVar1_Heavy
-
-    // Begin Variant 1 - Collar
-
-    class 22nd_ArmourBaseVar1_LightC : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A Woodland (Light + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WGreen_AAE";
-            Enviroment = "Woodland";
-            Shoulder = "Light";
-            Collar = "High";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourBaseVar1_LightC"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-               "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_WOODLAND.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourBaseVar1_LightC
-
-    class 22nd_ArmourBaseVar1_MediumC : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A Woodland (Medium + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WGreen_AAE";
-            Enviroment = "Woodland";
-            Shoulder = "Medium";
-            Collar = "High";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourBaseVar1_MediumC"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            //"Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    };// Close 22nd_ArmourBaseVar1_Medium
-
-    class 22nd_ArmourBaseVar1_HeavyC : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A Woodland (Heavy + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WGreen_AAE";
-            Enviroment = "Woodland";
-            Shoulder = "Heavy";
-            Collar = "High";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourBaseVar1_HeavyC"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourBaseVar1_Heavy
-
-    // Begin Variant 2
-
-    class 22nd_ArmourBaseVar2_Light : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A Olive Drab (Light)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WGreen_AAE";
-            Enviroment = "Olive";
-            Shoulder = "Light";
-            Collar = "Low";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourBaseVar2_Light"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_GREEN.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourBaseVar2_Light
-
-    class 22nd_ArmourBaseVar2_Medium : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A Olive Drab (Medium)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WGreen_AAE";
-            Enviroment = "Olive";
-            Shoulder = "Medium";
-            Collar = "Low";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourBaseVar2_Medium"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourBaseVar2_Medium
-
-    class 22nd_ArmourBaseVar2_Heavy : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A Olive Drab (Heavy)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WGreen_AAE";
-            Enviroment = "Olive";
-            Shoulder = "Heavy";
-            Collar = "Low";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourBaseVar2_Heavy"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourBaseVar2_Heavy
-
-    // Begin Variant 2 Collar
-
-    class 22nd_ArmourBaseVar2_LightC : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A Olive Drab (Light + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WGreen_AAE";
-            Enviroment = "Olive";
-            Shoulder = "Light";
-            Collar = "High";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourBaseVar2_LightC"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourBaseVar2_LightC
-
-    class 22nd_ArmourBaseVar2_MediumC : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A Olive Drab (Medium + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WGreen_AAE";
-            Enviroment = "Olive";
-            Shoulder = "Medium";
-            Collar = "High";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourBaseVar2_MediumC"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-            hiddenSelectionsTextures[] = {
-               "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_GREEN.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourBaseVar2_MediumC
-
-    class 22nd_ArmourBaseVar2_HeavyC : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A Olive Drab (Heavy + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WGreen_AAE";
-            Enviroment = "Olive";
-            Shoulder = "Heavy";
-            Collar = "High";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourBaseVar2_HeavyC"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourBaseVar2_HeavyC
-
-    // Begin Variant 3
-
-    class 22nd_ArmourBaseVar3_Light : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A Brown (Light)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WGreen_AAE";
-            Enviroment = "BrownWD";
-            Shoulder = "Light";
-            Collar = "Low";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourBaseVar3_Light"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_BROWN.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourBaseVar3_Light
-
-    class 22nd_ArmourBaseVar3_Medium : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A Brown (Medium)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WGreen_AAE";
-            Enviroment = "BrownWD";
-            Shoulder = "Medium";
-            Collar = "Low";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourBaseVar3_Medium"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourBaseVar3_Medium
-
-    class 22nd_ArmourBaseVar3_Heavy : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A Brown (Heavy)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WGreen_AAE";
-            Enviroment = "BrownWD";
-            Shoulder = "Heavy";
-            Collar = "Low";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourBaseVar3_Heavy"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourBaseVar3_Heavy
-
-    // Begin Variant 3 Collars
-
-    class 22nd_ArmourBaseVar3_LightC : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A Brown (Light + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WGreen_AAE";
-            Enviroment = "BrownWD";
-            Shoulder = "Light";
-            Collar = "High";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourBaseVar3_LightC"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_BROWN.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourBaseVar3_LightC
-
-    class 22nd_ArmourBaseVar3_MediumC : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A Brown (Medium + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WGreen_AAE";
-            Enviroment = "BrownWD";
-            Shoulder = "Medium";
-            Collar = "High";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourBaseVar3_MediumC"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourBaseVar3_MediumC
-
-    class 22nd_ArmourBaseVar3_HeavyC : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A Brown (Heavy + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WGreen_AAE";
-            Enviroment = "BrownWD";
-            Shoulder = "Heavy";
-            Collar = "High";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourBaseVar3_HeavyC"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourBaseVar3_HeavyC
-
-    /*
-    * Begin ArmourArid
-    */
-
-    //Begin Variant 1 - No Collar
-
-    class 22nd_ArmourAridVar1_Light : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A/HW Arid (Light)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WArid_AAE";
-            Enviroment = "Arid";
-            Shoulder = "Light";
-            Collar = "Low";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourAridVar1_Light"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_ARID.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourAridVar1_Light
-
-    class 22nd_ArmourAridVar1_Medium : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A/HW Arid (Medium)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WArid_AAE";
-            Enviroment = "Arid";
-            Shoulder = "Medium";
-            Collar = "Low";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourAridVar1_Medium"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourAridVar1_Medium
-
-    class 22nd_ArmourAridVar1_Heavy : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A/HW Arid (Heavy)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WArid_AAE";
-            Enviroment = "Arid";
-            Shoulder = "Heavy";
-            Collar = "Low";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourAridVar1_Heavy"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourAridVar1_Heavy
-
-    // Begin Arid Variant 1 - Collars
-
-    class 22nd_ArmourAridVar1_LightC : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A/HW Arid (Light + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WArid_AAE";
-            Enviroment = "Arid";
-            Shoulder = "Light";
-            Collar = "High";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourAridVar1_LightC"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-               "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_ARID.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourAridVar1_LightC
-
-    class 22nd_ArmourAridVar1_MediumC : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A/HW Arid (Medium + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WArid_AAE";
-            Enviroment = "Arid";
-            Shoulder = "Medium";
-            Collar = "High";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourAridVar1_MediumC"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourAridVar1_MediumC
-
-    class 22nd_ArmourAridVar1_HeavyC : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A/HW Arid (Heavy + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WArid_AAE";
-            Enviroment = "Arid";
-            Shoulder = "Heavy";
-            Collar = "High";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourAridVar1_HeavyC"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourAridVar1_HeavyC
-
-    // Begin Arid Variant 2 - No Collars
-
-    class 22nd_ArmourAridVar2_Light : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A/HW Brown (Light)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WArid_AAE";
-            Enviroment = "BrownD";
-            Shoulder = "Light";
-            Collar = "Low";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourAridVar2_Light"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_BROWN.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourAridVar2_Light
-
-    class 22nd_ArmourAridVar2_Medium : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A/HW Brown (Medium)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WArid_AAE";
-            Enviroment = "BrownD";
-            Shoulder = "Medium";
-            Collar = "Low";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourAridVar2_Medium"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourAridVar1_Medium
-
-    class 22nd_ArmourAridVar2_Heavy : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A/HW Brown (Heavy)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WArid_AAE";
-            Enviroment = "BrownD";
-            Shoulder = "Heavy";
-            Collar = "Low";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourAridVar2_Heavy"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourAridVar2_Heavy
-
-    // Begin Arid Variant 2 Collars
-
-    class 22nd_ArmourAridVar2_LightC : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A/HW Brown (Light + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WArid_AAE";
-            Enviroment = "BrownD";
-            Shoulder = "Light";
-            Collar = "High";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourAridVar2_LightC"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_BROWN.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourAridVar2_LightC
-
-    class 22nd_ArmourAridVar2_MediumC : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A/HW Brown (Medium + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WArid_AAE";
-            Enviroment = "BrownD";
-            Shoulder = "Medium";
-            Collar = "High";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourAridVar2_MediumC"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourAridVar2_MediumC
-
-    class 22nd_ArmourAridVar2_HeavyC : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A/HW Brown (Heavy + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "WArid_AAE";
-            Enviroment = "BrownD";
-            Shoulder = "Heavy";
-            Collar = "High";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourAridVar2_HeavyC"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourAridVar2_HeavyC
-
-    /*
-    * Begin ArmourSnow
-    */
-
-    // Begin Winter Variant 1 - No Collars
-
-    class 22nd_ArmourWinterVar1_Light : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A/W Winterized (Light)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "Wsnow_AAE";
-            Enviroment = "Winter";
-            Shoulder = "Light";
-            Collar = "Low";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourWinterVar1_Light"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_WINTER.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourWinterVar1_Light
-
-    class 22nd_ArmourWinterVar1_Medium : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A/W Winterized (Medium)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "Wsnow_AAE";
-            Enviroment = "Winter";
-            Shoulder = "Medium";
-            Collar = "Low";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourWinterVar1_Medium"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourWinterVar1_Medium
-
-    class 22nd_ArmourWinterVar1_Heavy : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A/W Winterized (Heavy)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "Wsnow_AAE";
-            Enviroment = "Winter";
-            Shoulder = "Heavy";
-            Collar = "Low";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourWinterVar1_Heavy"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourWinterVar1_Heavy    
-
-    // Begin Winter Variant 1 - Collars
-
-    class 22nd_ArmourWinterVar1_LightC : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A/W Winterized (Light + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "Wsnow_AAE";
-            Enviroment = "Winter";
-            Shoulder = "Light";
-            Collar = "High";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourWinterVar1_LightC"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_WINTER.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourWinterVar1_LightC
-
-    class 22nd_ArmourWinterVar1_MediumC : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A/W Winterized (Medium + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "Wsnow_AAE";
-            Enviroment = "Winter";
-            Shoulder = "Medium";
-            Collar = "High";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourWinterVar1_MediumC"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourWinterVar1_MediumC
-
-    class 22nd_ArmourWinterVar1_HeavyC : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A/W Winterized (Heavy + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "Wsnow_AAE";
-            Enviroment = "Winter";
-            Shoulder = "Heavy";
-            Collar = "High";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourWinterVar1_HeavyC"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourWinterVar1_HeavyC
-
-
-    // Begin Winter Variant 2 - No Collar
-
-    class 22nd_ArmourWinterVar2_Light : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A/W Black (Light)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "Wsnow_AAE";
-            Enviroment = "Black";
-            Shoulder = "Light";
-            Collar = "Low";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourWinterVar2_Light"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_GRAY.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourWinterVar2_Light
-
-    class 22nd_ArmourWinterVar2_Medium : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A/W Black (Medium)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "Wsnow_AAE";
-            Enviroment = "Black";
-            Shoulder = "Medium";
-            Collar = "Low";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourWinterVar2_Medium"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourWinterVar2_Medium
-
-    class 22nd_ArmourWinterVar2_Heavy : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A/W Black (Heavy)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "Wsnow_AAE";
-            Enviroment = "Black";
-            Shoulder = "Heavy";
-            Collar = "Low";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourWinterVar2_Heavy"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourWinterVar2_Heavy
-
-    // Begin Winter Variant 2 - Collar
-
-    class 22nd_ArmourWinterVar2_LightC : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A/W Black (Light + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "Wsnow_AAE";
-            Enviroment = "Black";
-            Shoulder = "Light";
-            Collar = "High";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourWinterVar2_LightC"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_GRAY.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourWinterVar2_LightC
-
-    class 22nd_ArmourWinterVar2_MediumC : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A/W Black (Medium + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "Wsnow_AAE";
-            Enviroment = "Black";
-            Shoulder = "Medium";
-            Collar = "High";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourWinterVar2_MediumC"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    }; // Close 22nd_ArmourWinterVar2_MediumC
-
-    class 22nd_ArmourWinterVar2_HeavyC : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
-        author = "Warhound Mod Team";
-        displayName = "[22nd] M52A/W Black (Heavy + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "Wsnow_AAE";
-            Enviroment = "Black";
-            Shoulder = "Heavy";
-            Collar = "High";
-        };
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourWinterVar2_HeavyC"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            // "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            // "Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper",
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa"  // Shoulders texture (duplicate)
-            };
-        };
-    };
-    // End Winter Variant 2 Collars
-    /*
-    * Begin Custom Armours
-    */
-
-    // Raven
-
-    class 22nd_ArmourRavenBase_Medium : MA_Marine_BDU_Base{
-            scope = 2;  // Visible in editor
-            author = "Warhound Mod Team";
-            displayName = "Warhound Raven Armour Base Variant (M)"; // In-game name
-            picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-            model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-
-            class ItemInfo : UniformItem {
-                uniformModel = "-";
-                uniformClass = "22nd_ArmourRavenBase_Medium"; // Reference to the uniform class in CfgVehicles
-                containerClass = "Supply90";
-                mass = 80; // Adjust mass if needed
-                hiddenSelections[] = {
-                "Camo1",
-                "Camo2",
-                "Camo3",
-                "Camo4",
-                "Camo5",
-                "Camo6",
-                "Camo7",
-                "Camo8",
-                "Camo9",
-                "Camo10",
-                "Uni_Upper",
-                "Uni_Lower",
-                "Uni_Collar",
-                // "Armor_Underpad",
-                "Armor_Straps",
-                "Armor_Upper",
-                "Armor_Lower",
-                "Shoulders_Lower1",
-                // "Shoulders_Lower2",
-                // "Shoulders_Upper"
-            };
-                hiddenSelectionsTextures[] = {
-                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperUpperBDU_CO.paa", // Upper texture
-                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa", // Lower texture
-                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa", // Collar texture
-                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                    "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                    "\W_Uniform\W_Armour\Custom\RavenShoulders.paa", // Shoulders texture
-                    "\W_Uniform\W_Armour\Custom\RavenShoulders.paa", // Shoulders texture (duplicate)
-                    "\W_Uniform\W_Armour\Custom\RavenShoulders.paa"  // Shoulders texture (duplicate)
+            "camo1", // Helmet
+            "camo2", // NVG Mount
+            "camo3", // Helmet Strap
+            "camo4", // Eyepiece
+            "camo5", // Eyepiece Glass
+            "camo6", // Glasses/Visor
+            "camo7", // Vac Seal
+            "Camo8", // Chin Module
+            "Camo9", // Visor, Closed
+            //"Helmet",
+            //"NVGMount",
+            //"HelmetStrap",
+              "EyePiece",
+              "EyePieceGlass",
+              "VisorGlasses",
+              "VaccumCollar",
+              "Helmet_Chin",
+              "Closed_Visor"
+          };
+          hiddenSelectionsTextures[] =
+          {
+              "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
+              "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
+              "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
+              "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+              "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+              "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+              "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+              "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+              "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+          };
+          class ItemInfo : ItemInfo
+          {
+              uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+              hiddenSelections[] =
+              {
+                  "camo1", // Helmet
+                  "camo2", // NVG Mount
+                  "camo3", // Helmet Strap
+                  "camo4", // Eye Piece
+                  "camo5", // Eye Piece Glass
+                  "camo6", // Visor Glasses
+                  "camo7", // Vac Seal
+                  "Camo8", // Face Module Chin
+                  "Camo9", // Closed Visor
+                  //"Helmet",
+                  //"NVGMount",
+                  //"HelmetStrap",
+                    "EyePiece",
+                    "EyePieceGlass",
+                    "VisorGlasses",
+                    "VaccumCollar",
+                    "Helmet_Chin",
+                    "Closed_Visor"
+                };
+                hiddenSelectionsTextures[] =
+                {
+                    "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                    "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                    "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                    "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece
+                    "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece Glass
+                    "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Visor Glass
+                    "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa", // Vac Collar
+                    "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa", // Face Module Chin
+                    "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa" // Closed Visor
                 };
             };
-    }; // Close 22nd_ArmourRavenBase_Medium
+    };// Close 22nd_HelmBase_Open
 
-    class 22nd_ArmourRavenArid_Medium : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
+    class 22nd_HelmBase_Closed : CH252_Helmet_Base{
+           class XtdGearInfo
+        {
+            model = "WBaseH";
+            Variants = "closed";
+        };
+        scope = 2;
+        scopeArsenal = 2;
         author = "Warhound Mod Team";
-        displayName = "Warhound Raven Armour Arid Variant (M)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourRavenArid_Medium"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Custom\RavenShoulders.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Custom\RavenShoulders.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Custom\RavenShoulders.paa"  // Shoulders texture (duplicate)
+        displayName = "[22nd] ECHC252"
+        model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        picture = " "//Add Icon
+        hiddenSelections[] =
+        {
+            "camo1", // Helmet
+            "camo2", // NVG Mount
+            "camo3", // Helmet Strap
+            "camo4", // Eyepiece
+            "camo5", // Eyepiece Glass
+            "camo6", // Glasses/Visor
+            "camo7", // Vac Seal
+            "Camo8", // Chin Module
+            "Camo9", // Visor, Closed
+            //"Helmet",
+            //"NVGMount",
+            //"HelmetStrap",
+              "EyePiece",
+              "EyePieceGlass",
+              "VisorGlasses",
+              "VaccumCollar",
+              //"Helmet_Chin",
+              //"Closed_Visor"
             };
-        };
-    }; // Close 22nd_ArmourRavenArid_Medium
+            hiddenSelectionsTextures[] =
+            {
+                "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
+                "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
+                "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Brown_CO.paa",
+                "W_Uniform\W_Helmets\Infantry\22nd_Base_Helmet_Lower",
+                "W_Uniform\W_Helmets\Infantry\22nd_Base_Helmet_Lower",
+            };
+            class ItemInfo : ItemInfo
+            {
+                uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+                hiddenSelections[] =
+                {
+                    "camo1", // Helmet
+                    "camo2", // NVG Mount
+                    "camo3", // Helmet Strap
+                    "camo4", // Eye Piece
+                    "camo5", // Eye Piece Glass
+                    "camo6", // Visor Glasses
+                    "camo7", // Vac Seal
+                    "Camo8", // Face Module Chin
+                    "Camo9", // Closed Visor
+                    //"Helmet",
+                    //"NVGMount",
+                    //"HelmetStrap",
+                      "EyePiece",
+                      "EyePieceGlass",
+                      "VisorGlasses",
+                      "VaccumCollar",
+                      //"Helmet_Chin",
+                      //"Closed_Visor"
+                    };
+                    hiddenSelectionsTextures[] =
+                    {
+                        "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                        "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                        "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece
+                        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece Glass
+                        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Visor Glass
+                        "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa", // Vac Collar
+                        "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa", // Face Module Chin
+                        "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa" // Closed Visor
+                    };
+                };
+    };// Close 22nd_HelmBase_Closed
 
-    class 22nd_ArmourRavenWinter_Medium : MA_Marine_BDU_Base{
-        scope = 2;  // Visible in editor
+    class 22nd_HelmBase_Eye : CH252_Helmet_Base{
+           class XtdGearInfo
+        {
+            model = "WBaseH";
+            Variants = "eyepiece";
+        };
+        scope = 2;
+        scopeArsenal = 2;
         author = "Warhound Mod Team";
-        displayName = "Warhound Raven Armour Winter Variant (M)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-
-        class ItemInfo : UniformItem {
-            uniformModel = "-";
-            uniformClass = "22nd_ArmourRavenWinter_Medium"; // Reference to the uniform class in CfgVehicles
-            containerClass = "Supply90";
-            mass = 80; // Adjust mass if needed
-            hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-            hiddenSelectionsTextures[] = {
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperUpperBDU_CO.paa", // Upper texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa", // Lower texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperCollar_CO.paa", // Collar texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Upper armor texture
-                "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa", // Lower armor texture
-                "\W_Uniform\W_Armour\Custom\RavenShoulders.paa", // Shoulders texture
-                "\W_Uniform\W_Armour\Custom\RavenShoulders.paa", // Shoulders texture (duplicate)
-                "\W_Uniform\W_Armour\Custom\RavenShoulders.paa"  // Shoulders texture (duplicate)
+        displayName = "[22nd] CHC252 Eyepiece"
+        model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        picture = " "//Add Icon
+        hiddenSelections[] =
+        {
+            "camo1", // Helmet
+            "camo2", // NVG Mount
+            "camo3", // Helmet Strap
+            "camo4", // Eyepiece
+            "camo5", // Eyepiece Glass
+            "camo6", // Glasses/Visor
+            "camo7", // Vac Seal
+            "Camo8", // Chin Module
+            "Camo9", // Visor, Closed
+            //"Helmet",
+            //"NVGMount",
+            //"HelmetStrap",
+            //"EyePiece",
+            //"EyePieceGlass",
+              "VisorGlasses",
+              "VaccumCollar",
+              "Helmet_Chin",
+              "Closed_Visor"
+          };
+          hiddenSelectionsTextures[] =
+          {
+              "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
+              "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
+              "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
+              "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+              "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+              "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+              "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+              "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+              "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+          };
+          class ItemInfo : ItemInfo
+          {
+              uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+              hiddenSelections[] =
+              {
+                  "camo1", // Helmet
+                  "camo2", // NVG Mount
+                  "camo3", // Helmet Strap
+                  "camo4", // Eye Piece
+                  "camo5", // Eye Piece Glass
+                  "camo6", // Visor Glasses
+                  "camo7", // Vac Seal
+                  "Camo8", // Face Module Chin
+                  "Camo9", // Closed Visor
+                  //"Helmet",
+                  //"NVGMount",
+                  //"HelmetStrap",
+                  //"EyePiece",
+                  //"EyePieceGlass",
+                    "VisorGlasses",
+                    "VaccumCollar",
+                    "Helmet_Chin",
+                    "Closed_Visor"
+                };
+                hiddenSelectionsTextures[] =
+                {
+                    "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                    "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                    "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                    "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece
+                    "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece Glass
+                    "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Visor Glass
+                    "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa", // Vac Collar
+                    "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa", // Face Module Chin
+                    "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa" // Closed Visor
+                };
             };
-        };
-    }; // Close 22nd_ArmourRavenWinter_Medium
-};
+    };// Close 22nd_HelmBase_Eye
 
+    class 22nd_HelmBase_Visor : CH252_Helmet_Base{
+           class XtdGearInfo
+        {
+            model = "WBaseH";
+            Variants = "visor";
+        };
+        scope = 2;
+        scopeArsenal = 2;
+        author = "Warhound Mod Team";
+        displayName = "[22nd] CHC252 Visor"
+        model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        picture = " "//Add Icon
+        hiddenSelections[] =
+        {
+            "camo1", // Helmet
+            "camo2", // NVG Mount
+            "camo3", // Helmet Strap
+            "camo4", // Eyepiece
+            "camo5", // Eyepiece Glass
+            "camo6", // Glasses/Visor
+            "camo7", // Vac Seal
+            "Camo8", // Chin Module
+            "Camo9", // Visor, Closed
+            //"Helmet",
+            //"NVGMount",
+            //"HelmetStrap",
+              "EyePiece",
+              "EyePieceGlass",
+              //"VisorGlasses",
+                "VaccumCollar",
+                "Helmet_Chin",
+                "Closed_Visor"
+            };
+            hiddenSelectionsTextures[] =
+            {
+                "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
+                "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
+                "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            };
+            class ItemInfo : ItemInfo
+            {
+                uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+                hiddenSelections[] =
+                {
+                    "camo1", // Helmet
+                    "camo2", // NVG Mount
+                    "camo3", // Helmet Strap
+                    "camo4", // Eye Piece
+                    "camo5", // Eye Piece Glass
+                    "camo6", // Visor Glasses
+                    "camo7", // Vac Seal
+                    "Camo8", // Face Module Chin
+                    "Camo9", // Closed Visor
+                    //"Helmet",
+                    //"NVGMount",
+                    //"HelmetStrap",
+                      "EyePiece",
+                      "EyePieceGlass",
+                      //"VisorGlasses",
+                        "VaccumCollar",
+                        "Helmet_Chin",
+                        "Closed_Visor"
+                    };
+                    hiddenSelectionsTextures[] =
+                    {
+                        "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                        "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                        "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece
+                        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece Glass
+                        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Visor Glass
+                        "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa", // Vac Collar
+                        "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa", // Face Module Chin
+                        "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa" // Closed Visor
+                    };
+                };
+    };// Close 22nd_HelmBase_Visor
+
+    // Begin Winterized Choices
+
+    class 22nd_HelmSnow_Open : CH252_Helmet_Base{
+           class XtdGearInfo
+        {
+            model = "WWinterH";
+            Variants = "open";
+        };
+        scope = 2;
+        scopeArsenal = 2;
+        author = "Warhound Mod Team";
+        displayName = "[22nd] CHC252/W"
+        model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        picture = " "//Add Icon
+        hiddenSelections[] =
+        {
+            "camo1", // Helmet
+            "camo2", // NVG Mount
+            "camo3", // Helmet Strap
+            "camo4", // Eyepiece
+            "camo5", // Eyepiece Glass
+            "camo6", // Glasses/Visor
+            "camo7", // Vac Seal
+            "Camo8", // Chin Module
+            "Camo9", // Visor, Closed
+            //"Helmet",
+            //"NVGMount",
+            //"HelmetStrap",
+              "EyePiece",
+              "EyePieceGlass",
+              "VisorGlasses",
+              "VaccumCollar",
+              "Helmet_Chin",
+              "Closed_Visor"
+          };
+          hiddenSelectionsTextures[] =
+          {
+              "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Snow.paa",
+              "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Snow.paa",
+              "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Snow.paa",
+              "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+              "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+              "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+              "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+              "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+              "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+          };
+          class ItemInfo : ItemInfo
+          {
+              uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+              hiddenSelections[] =
+              {
+                  "camo1", // Helmet
+                  "camo2", // NVG Mount
+                  "camo3", // Helmet Strap
+                  "camo4", // Eye Piece
+                  "camo5", // Eye Piece Glass
+                  "camo6", // Visor Glasses
+                  "camo7", // Vac Seal
+                  "Camo8", // Face Module Chin
+                  "Camo9", // Closed Visor
+                  //"Helmet",
+                  //"NVGMount",
+                  //"HelmetStrap",
+                    "EyePiece",
+                    "EyePieceGlass",
+                    "VisorGlasses",
+                    "VaccumCollar",
+                    "Helmet_Chin",
+                    "Closed_Visor"
+                };
+                hiddenSelectionsTextures[] =
+                {
+                    "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Snow.paa", // Helmet Texture
+                    "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Snow.paa", // Helmet Texture
+                    "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Snow.paa", // Helmet Texture
+                    "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece
+                    "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece Glass
+                    "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Visor Glass
+                    "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa", // Vac Collar
+                    "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa", // Face Module Chin
+                    "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa" // Closed Visor
+                };
+            };
+    };  // Close 22nd_HelmSnow_Open
+
+    class 22nd_HelmSnow_Closed : CH252_Helmet_Base{
+             class XtdGearInfo
+        {
+            model = "WWinterH";
+            Variants = "closed";
+        };
+        scope = 2;
+        scopeArsenal = 2;
+        author = "Warhound Mod Team";
+        displayName = "[22nd] ECHC252/W"
+        model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        picture = " "//Add Icon
+        hiddenSelections[] =
+        {
+            "camo1", // Helmet
+            "camo2", // NVG Mount
+            "camo3", // Helmet Strap
+            "camo4", // Eyepiece
+            "camo5", // Eyepiece Glass
+            "camo6", // Glasses/Visor
+            "camo7", // Vac Seal
+            "Camo8", // Chin Module
+            "Camo9", // Visor, Closed
+            //"Helmet",
+            //"NVGMount",
+            //"HelmetStrap",
+              "EyePiece",
+              "EyePieceGlass",
+              "VisorGlasses",
+              "VaccumCollar",
+              //"Helmet_Chin",
+              //"Closed_Visor"
+            };
+            hiddenSelectionsTextures[] =
+            {
+                "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Snow.paa",
+                "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Snow.paa",
+                "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Snow.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Brown_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            };
+            class ItemInfo : ItemInfo
+            {
+                uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+                hiddenSelections[] =
+                {
+                    "camo1", // Helmet
+                    "camo2", // NVG Mount
+                    "camo3", // Helmet Strap
+                    "camo4", // Eye Piece
+                    "camo5", // Eye Piece Glass
+                    "camo6", // Visor Glasses
+                    "camo7", // Vac Seal
+                    "Camo8", // Face Module Chin
+                    "Camo9", // Closed Visor
+                    //"Helmet",
+                    //"NVGMount",
+                    //"HelmetStrap",
+                      "EyePiece",
+                      "EyePieceGlass",
+                      "VisorGlasses",
+                      "VaccumCollar",
+                      //"Helmet_Chin",
+                      //"Closed_Visor"
+                    };
+                    hiddenSelectionsTextures[] =
+                    {
+                        "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Snow.paa", // Helmet Texture
+                        "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Snow.paa", // Helmet Texture
+                        "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Snow.paa", // Helmet Texture
+                        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece
+                        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece Glass
+                        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Visor Glass
+                        "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa", // Vac Collar
+                        "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa", // Face Module Chin
+                        "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa" // Closed Visor
+                    };
+                };
+    };// Close 22nd_HelmSnow_Closed
+
+    class 22nd_HelmSnow_Eye : CH252_Helmet_Base{
+             class XtdGearInfo
+        {
+            model = "WWinterH";
+            Variants = "eyepiece";
+        };
+        scope = 2;
+        scopeArsenal = 2;
+        author = "Warhound Mod Team";
+        displayName = "[22nd] CHC252/W Eyepiece"
+        model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        picture = " "//Add Icon
+        hiddenSelections[] =
+        {
+            "camo1", // Helmet
+            "camo2", // NVG Mount
+            "camo3", // Helmet Strap
+            "camo4", // Eyepiece
+            "camo5", // Eyepiece Glass
+            "camo6", // Glasses/Visor
+            "camo7", // Vac Seal
+            "Camo8", // Chin Module
+            "Camo9", // Visor, Closed
+            //"Helmet",
+            //"NVGMount",
+            //"HelmetStrap",
+            //"EyePiece",
+            //"EyePieceGlass",
+              "VisorGlasses",
+              "VaccumCollar",
+              "Helmet_Chin",
+              "Closed_Visor"
+          };
+          hiddenSelectionsTextures[] =
+          {
+              "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Snow.paa",
+              "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Snow.paa",
+              "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Snow.paa",
+              "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+              "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+              "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+              "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+              "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+              "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+          };
+          class ItemInfo : ItemInfo
+          {
+              uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+              hiddenSelections[] =
+              {
+                  "camo1", // Helmet
+                  "camo2", // NVG Mount
+                  "camo3", // Helmet Strap
+                  "camo4", // Eye Piece
+                  "camo5", // Eye Piece Glass
+                  "camo6", // Visor Glasses
+                  "camo7", // Vac Seal
+                  "Camo8", // Face Module Chin
+                  "Camo9", // Closed Visor
+                  //"Helmet",
+                  //"NVGMount",
+                  //"HelmetStrap",
+                  //"EyePiece",
+                  //"EyePieceGlass",
+                    "VisorGlasses",
+                    "VaccumCollar",
+                    "Helmet_Chin",
+                    "Closed_Visor"
+                };
+                hiddenSelectionsTextures[] =
+                {
+                    "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Snow.paa", // Helmet Texture
+                    "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Snow.paa", // Helmet Texture
+                    "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Snow.paa", // Helmet Texture
+                    "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece
+                    "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece Glass
+                    "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Visor Glass
+                    "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa", // Vac Collar
+                    "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa", // Face Module Chin
+                    "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa" // Closed Visor
+                };
+            };
+    };// Close 22nd_HelmSnow_Eye
+
+    class 22nd_HelmSnow_Visor : CH252_Helmet_Base{
+                 class XtdGearInfo
+        {
+            model = "WWinterH";
+            Variants = "visor";
+        };
+        scope = 2;
+        scopeArsenal = 2;
+        author = "Warhound Mod Team";
+        displayName = "[22nd] CHC252/W Visor"
+        model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        picture = " "//Add Icon
+        hiddenSelections[] =
+        {
+            "camo1", // Helmet
+            "camo2", // NVG Mount
+            "camo3", // Helmet Strap
+            "camo4", // Eyepiece
+            "camo5", // Eyepiece Glass
+            "camo6", // Glasses/Visor
+            "camo7", // Vac Seal
+            "Camo8", // Chin Module
+            "Camo9", // Visor, Closed
+            //"Helmet",
+            //"NVGMount",
+            //"HelmetStrap",
+              "EyePiece",
+              "EyePieceGlass",
+              //"VisorGlasses",
+                "VaccumCollar",
+                "Helmet_Chin",
+                "Closed_Visor"
+            };
+            hiddenSelectionsTextures[] =
+            {
+                "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Snow.paa",
+                "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Snow.paa",
+                "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Snow.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            };
+            class ItemInfo : ItemInfo
+            {
+                uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+                hiddenSelections[] =
+                {
+                    "camo1", // Helmet
+                    "camo2", // NVG Mount
+                    "camo3", // Helmet Strap
+                    "camo4", // Eye Piece
+                    "camo5", // Eye Piece Glass
+                    "camo6", // Visor Glasses
+                    "camo7", // Vac Seal
+                    "Camo8", // Face Module Chin
+                    "Camo9", // Closed Visor
+                    //"Helmet",
+                    //"NVGMount",
+                    //"HelmetStrap",
+                      "EyePiece",
+                      "EyePieceGlass",
+                      //"VisorGlasses",
+                        "VaccumCollar",
+                        "Helmet_Chin",
+                        "Closed_Visor"
+                    };
+                    hiddenSelectionsTextures[] =
+                    {
+                        "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Snow.paa", // Helmet Texture
+                        "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Snow.paa", // Helmet Texture
+                        "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Snow.paa", // Helmet Texture
+                        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece
+                        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece Glass
+                        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Visor Glass
+                        "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa", // Vac Collar
+                        "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa", // Face Module Chin
+                        "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa" // Closed Visor
+                    };
+                };
+    };// Close 22nd_HelmSnow_Visor
 };
