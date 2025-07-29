@@ -64,7 +64,6 @@ class XtdGearModels //see uniforms for the guide on how to do this
                     label = "Eyepiece";
                 };
             };
-
         };
         class WWinterH
         {
