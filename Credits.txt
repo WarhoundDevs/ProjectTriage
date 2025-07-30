@@ -11,4 +11,7 @@ Developers:
 - SPC. Talin (Moist)
 
 
-Texture Artist: WO3. B. Mecha
+Texture Artists: 
+- WO3. B. Mecha
+- SPC. Reaper
+- PV2. Spook
