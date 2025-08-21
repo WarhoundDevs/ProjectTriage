@@ -26,9 +26,9 @@ class ACE_Tags
 		requiredItem="22ndRDF_Spraypaint";
 		textures[]=
 		{
-			"Warhound_Markers\data\Spraypaint\Codes\roomclear.paa"
+			"W_Markers\data\Spraypaint\Codes\roomclear.paa"
 		};
-		icon="Warhound_Markers\data\Spraypaint\Codes\roomclear.paa";
+		icon="W_Markers\data\Spraypaint\Codes\roomclear.paa";
 	};
 	class 22nd_FieldCode_ElectronicsFailure
 	{
@@ -36,9 +36,9 @@ class ACE_Tags
 		requiredItem="22ndRDF_Spraypaint";
 		textures[]=
 		{
-			"Warhound_Markers\data\Spraypaint\Codes\electronicsfailure.paa"
+			"W_Markers\data\Spraypaint\Codes\electronicsfailure.paa"
 		};
-		icon="Warhound_Markers\data\Spraypaint\Codes\electronicsfailure.paa";
+		icon="W_Markers\data\Spraypaint\Codes\electronicsfailure.paa";
 	};
 	class 22nd_FieldCode_GetOut
 	{
@@ -46,9 +46,9 @@ class ACE_Tags
 		requiredItem="22ndRDF_Spraypaint";
 		textures[]=
 		{
-			"Warhound_Markers\data\Spraypaint\Codes\getout.paa"
+			"W_Markers\data\Spraypaint\Codes\getout.paa"
 		};
-		icon="Warhound_Markers\data\Spraypaint\Codes\getout.paa";
+		icon="W_Markers\data\Spraypaint\Codes\getout.paa";
 	};
 	class 22nd_FieldCode_Locked
 	{
@@ -56,9 +56,9 @@ class ACE_Tags
 		requiredItem="22ndRDF_Spraypaint";
 		textures[]=
 		{
-			"Warhound_Markers\data\Spraypaint\Codes\locked.paa"
+			"W_Markers\data\Spraypaint\Codes\locked.paa"
 		};
-		icon="Warhound_Markers\data\Spraypaint\Codes\locked.paa";
+		icon="W_Markers\data\Spraypaint\Codes\locked.paa";
 	};
 	class 22nd_FieldCode_NonHuman
 	{
@@ -66,9 +66,9 @@ class ACE_Tags
 		requiredItem="22ndRDF_Spraypaint";
 		textures[]=
 		{
-			"Warhound_Markers\data\Spraypaint\Codes\nonhuman.paa"
+			"W_Markers\data\Spraypaint\Codes\nonhuman.paa"
 		};
-		icon="Warhound_Markers\data\Spraypaint\Codes\nonhuman.paa";
+		icon="W_Markers\data\Spraypaint\Codes\nonhuman.paa";
 	};
 	class 22nd_FieldCode_TurnBack
 	{
@@ -76,9 +76,9 @@ class ACE_Tags
 		requiredItem="22ndRDF_Spraypaint";
 		textures[]=
 		{
-			"Warhound_Markers\data\Spraypaint\Codes\turnback.paa"
+			"W_Markers\data\Spraypaint\Codes\turnback.paa"
 		};
-		icon="Warhound_Markers\data\Spraypaint\Codes\turnback.paa";
+		icon="W_Markers\data\Spraypaint\Codes\turnback.paa";
 	};
     class 22nd_FieldCode_NoTurningBack
 	{
@@ -86,9 +86,9 @@ class ACE_Tags
 		requiredItem="22ndRDF_Spraypaint";
 		textures[]=
 		{
-			"Warhound_Markers\data\Spraypaint\Codes\noturningback.paa"
+			"W_Markers\data\Spraypaint\Codes\noturningback.paa"
 		};
-		icon="Warhound_Markers\data\Spraypaint\Codes\noturningback.paa";
+		icon="W_Markers\data\Spraypaint\Codes\noturningback.paa";
 	};
 	class 22nd_FieldCode_StayTogether
 	{
@@ -96,9 +96,9 @@ class ACE_Tags
 		requiredItem="22ndRDF_Spraypaint";
 		textures[]=
 		{
-			"Warhound_Markers\data\Spraypaint\Codes\staytogether.paa"
+			"W_Markers\data\Spraypaint\Codes\staytogether.paa"
 		};
-		icon="Warhound_Markers\data\Spraypaint\Codes\staytogether.paa";
+		icon="W_Markers\data\Spraypaint\Codes\staytogether.paa";
 	};
 	class 22nd_FieldCode_Traitors
 	{
@@ -106,9 +106,9 @@ class ACE_Tags
 		requiredItem="22ndRDF_Spraypaint";
 		textures[]=
 		{
-			"Warhound_Markers\data\Spraypaint\Codes\traitors.paa"
+			"W_Markers\data\Spraypaint\Codes\traitors.paa"
 		};
-		icon="Warhound_Markers\data\Spraypaint\Codes\traitors.paa";
+		icon="W_Markers\data\Spraypaint\Codes\traitors.paa";
 	};
 	class 22nd_FieldCode_UnsafeArea
 	{
@@ -116,8 +116,8 @@ class ACE_Tags
 		requiredItem="22ndRDF_Spraypaint";
 		textures[]=
 		{
-			"Warhound_Markers\data\Spraypaint\Codes\unsafearea.paa"
+			"W_Markers\data\Spraypaint\Codes\unsafearea.paa"
 		};
-		icon="Warhound_Markers\data\Spraypaint\Codes\unsafearea.paa";
+		icon="W_Markers\data\Spraypaint\Codes\unsafearea.paa";
 	};
 };

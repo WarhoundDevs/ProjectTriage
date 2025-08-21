@@ -18,7 +18,7 @@ class CfgMarkers
     class 22ndRDF_Marker
     {
 		name="[22nd] 22nd RDF";
-        icon="Warhound_Markers\data\22nd_RDF.paa";
+        icon="W_Markers\data\22nd_RDF.paa";
         color[]={0,0,0,1};
         size=40;
         shadow = 0;
