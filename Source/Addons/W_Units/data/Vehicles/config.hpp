@@ -5,4 +5,5 @@
 #include "Oryx\config.hpp"
 #include "OryxAPC\config.hpp"
 #include "Pelican\config.hpp"
+#include "Heavy_Pelican\config.hpp"
 #include "Scorpion\config.hpp"
