@@ -48,12 +48,13 @@ class XtdGearModels
             author = "Warhound Mod Team";
             options[] =
             {
-                "Variant",
-                "Decal"
+                "Variants",
+                "Decal",
+                "Custom",
             };
-            class Variant
+            class Variants
             {
-                label = "Facewear Variants";
+                label = "Variants";
                 values[] =
                 {
                     "Open",
@@ -78,6 +79,10 @@ class XtdGearModels
                 {
                     label = "Eyepiece";
                 };
+                class Custom
+                {
+                    label = "Custom";
+                };
             };
             class Decal
             {
@@ -86,9 +91,6 @@ class XtdGearModels
                 {
                     "None",
                     "Medical",
-                    "Grimsdottir",
-                    "Bee",
-                    "Harper"
                 };
                 class None
                 {
@@ -98,18 +100,6 @@ class XtdGearModels
                 {
                     label = "Medical";
                 };
-                class Grimsdottir
-                {
-                    label = "Grimsdottir";
-                };
-                class Bee
-                {
-                    label = "Bee";
-                };
-                class Harper
-                {
-                    label = "Harper";
-                };
             };
         };
         class WSnow_AAE
@@ -118,12 +108,12 @@ class XtdGearModels
             author = "Warhound Mod Team";
             options[] =
             {
-                "Variant",
+                "Variants",
                 "Decal"
             };
-            class Variant
+            class Variants
             {
-                label = "Facewear Variants";
+                label = "Variants";
                 values[] =
                 {
                     "Open",
@@ -173,10 +163,31 @@ class XtdGearModels
             author = "Warhound Mod Team";
             options[] =
             {
-                "Variant",
-                "Decal"
+                "Custom",
             };
-        };
+            class Custom
+            {
+                label = "Custom";
+                values[] =
+                {
+                    "Grims",
+                    "Bee",
+                    "Harper"
+                };
+                class Grims
+                {
+                    label = "Grims";
+                };
+                class Bee
+                {
+                    label = "Bee";
+                };
+                class Harper
+                {
+                    label = "Harper";
+                };
+            };
+        }
     };
 };
 class CfgWeapons {
@@ -189,7 +200,7 @@ class CfgWeapons {
         scope = 2;
         scopeArsenal = 2;
         author = "Warhound Mod Team";
-        displayName = "[22nd] CHC252"
+        displayName = "[22nd] CHC252";
         model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
         picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
         hiddenSelections[] =
@@ -216,7 +227,7 @@ class CfgWeapons {
         class XtdGearInfo
         {
             model = "WBase_AAE";
-            Variant = "Open";
+            Variants = "Open";
             Decal = "None";
         };
         hiddenSelectionsTextures[] =
@@ -301,7 +312,7 @@ class CfgWeapons {
         class XtdGearInfo
         {
             model = "WBase_AAE";
-            Variant = "Closed";
+            Variants = "Closed";
             Decal = "None";
         };
         hiddenSelectionsTextures[] =
@@ -355,52 +366,52 @@ class CfgWeapons {
         };
     };// Close 22nd_HelmBase_Closed
 
-        class 22nd_HelmBase_Eye : CH252_Helmet_Base{
-            scope = 2;
-            scopeArsenal = 2;
-            author = "Warhound Mod Team";
-            displayName = "[22nd] CHC252 Eyepiece"
-            model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-            picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
-            hiddenSelections[] =
-            {
-                "camo1", // Helmet
-                "camo2", // NVG Mount
-                "camo3", // Helmet Strap
-                "camo4", // Eyepiece
-                "camo5", // Eyepiece Glass
-                "camo6", // Glasses/Visor
-                "camo7", // Vac Seal
-                "Camo8", // Chin Module
-                "Camo9", // Visor, Closed
-                //"Helmet",
-                //"NVGMount",
-                //"HelmetStrap",
-                //"EyePiece",
-                //"EyePieceGlass",
-                  "VisorGlasses",
-                  "VaccumCollar",
-                  "Helmet_Chin",
-                  "Closed_Visor"
-              };
-            class XtdGearInfo
-            {
-                model = "WBase_AAE";
-                Variant = "Eyepiece";
-                Decal = "None";
-            };
-              hiddenSelectionsTextures[] =
-              {
-                  "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
-                  "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
-                  "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
-                  "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-                  "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-                  "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-                  "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
-                  "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
-                  "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
-              };
+    class 22nd_HelmBase_Eye : CH252_Helmet_Base{
+        scope = 2;
+        scopeArsenal = 2;
+        author = "Warhound Mod Team";
+        displayName = "[22nd] CHC252 Eyepiece";
+        model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
+        hiddenSelections[] =
+        {
+            "camo1", // Helmet
+            "camo2", // NVG Mount
+            "camo3", // Helmet Strap
+            "camo4", // Eyepiece
+            "camo5", // Eyepiece Glass
+            "camo6", // Glasses/Visor
+            "camo7", // Vac Seal
+            "Camo8", // Chin Module
+            "Camo9", // Visor, Closed
+            //"Helmet",
+            //"NVGMount",
+            //"HelmetStrap",
+            //"EyePiece",
+            //"EyePieceGlass",
+            "VisorGlasses",
+            "VaccumCollar",
+            "Helmet_Chin",
+            "Closed_Visor"
+        };
+        class XtdGearInfo
+        {
+            model = "WBase_AAE";
+            Variants = "Eyepiece";
+            Decal = "None";
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
+            "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
+            "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+        };
               class ItemInfo : ItemInfo
               {
                   uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
@@ -444,7 +455,7 @@ class CfgWeapons {
             scope = 2;
             scopeArsenal = 2;
             author = "Warhound Mod Team";
-            displayName = "[22nd] CHC252 Visor"
+            displayName = "[22nd] CHC252 Visor";
             model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
             picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
             hiddenSelections[] =
@@ -471,7 +482,7 @@ class CfgWeapons {
             class XtdGearInfo
             {
                 model = "WBase_AAE";
-                Variant = "Visor";
+                Variants = "Visor";
                 Decal = "None";
             };
                 hiddenSelectionsTextures[] =
@@ -558,7 +569,7 @@ class CfgWeapons {
             class XtdGearInfo
             {
                 model = "WSnow_AAE";
-                Variant = "Open";
+                Variants = "Open";
                 Decal = "None";
             };
               hiddenSelectionsTextures[] =
@@ -643,7 +654,7 @@ class CfgWeapons {
             class XtdGearInfo
             {
                 model = "WSnow_AAE";
-                Variant = "Closed";
+                Variants = "Closed";
                 Decal = "None";
             };
                 hiddenSelectionsTextures[] =
@@ -728,7 +739,7 @@ class CfgWeapons {
             class XtdGearInfo
             {
                 model = "WSnow_AAE";
-                Variant = "Eyepiece";
+                Variants = "Eyepiece";
                 Decal = "None";
             };
               hiddenSelectionsTextures[] =
@@ -813,7 +824,7 @@ class CfgWeapons {
             class XtdGearInfo
             {
                 model = "WSnow_AAE";
-                Variant = "Visor";
+                Variants = "Visor";
                 Decal = "None";
             };
                 hiddenSelectionsTextures[] =
@@ -914,7 +925,7 @@ class CfgWeapons {
             class XtdGearInfo
             {
                 model = "WBase_AAE";
-                Variant = "Open";
+                Variants = "Open";
                 Decal = "Medical";
             };
             class ItemInfo : ItemInfo
@@ -987,7 +998,7 @@ class CfgWeapons {
             class XtdGearInfo
             {
                 model = "WBase_AAE";
-                Variant = "Closed";
+                Variants = "Closed";
                 Decal = "Medical";
             };
                 hiddenSelectionsTextures[] =
@@ -1072,7 +1083,7 @@ class CfgWeapons {
             class XtdGearInfo
             {
                 model = "WBase_AAE";
-                Variant = "Eyepiece";
+                Variants = "Eyepiece";
                 Decal = "Medical";
             };
               hiddenSelectionsTextures[] =
@@ -1157,7 +1168,7 @@ class CfgWeapons {
             class XtdGearInfo
             {
                 model = "WBase_AAE";
-                Variant = "Visor";
+                Variants = "Visor";
                 Decal = "Medical";
             };
                 hiddenSelectionsTextures[] =
@@ -1256,7 +1267,7 @@ class CfgWeapons {
               class XtdGearInfo
               {
                   model = "WSnow_AAE";
-                  Variant = "Open";
+                  Variants = "Open";
                   Decal = "Medical";
               };
               class ItemInfo : ItemInfo
@@ -1329,7 +1340,7 @@ class CfgWeapons {
             class XtdGearInfo
             {
                 model = "WSnow_AAE";
-                Variant = "Closed";
+                Variants = "Closed";
                 Decal = "Medical";
             };
                 hiddenSelectionsTextures[] =
@@ -1427,7 +1438,7 @@ class CfgWeapons {
               class XtdGearInfo
               {
                   model = "WSnow_AAE";
-                  Variant = "Eyepiece";
+                  Variants = "Eyepiece";
                   Decal = "Medical";
               };
               class ItemInfo : ItemInfo
@@ -1500,7 +1511,7 @@ class CfgWeapons {
             class XtdGearInfo
             {
                 model = "WSnow_AAE";
-                Variant = "Visor";
+                Variants = "Visor";
                 Decal = "Medical";
             };
                 hiddenSelectionsTextures[] =
@@ -1587,9 +1598,9 @@ class CfgWeapons {
         };
         class XtdGearInfo
         {
-            model = "WBase_AAE";
-            Variant = "Eyepiece";
-            Decal = "Grimsdottir";
+            model = "WCustom_AAE";
+            Variants = "Eyepiece";
+            Custom = "Grims";
         };
         hiddenSelectionsTextures[] =
         {
@@ -1672,9 +1683,9 @@ class CfgWeapons {
         };
         class XtdGearInfo
         {
-            model = "WBase_AAE";
-            Variant = "Open";
-            Decal = "Bee";
+            model = "WCustom_AAE";
+            Variants = "Open";
+            Custom = "Bee";
         };
         hiddenSelectionsTextures[] =
         {
@@ -1705,8 +1716,8 @@ class CfgWeapons {
                 //"Helmet",
                 //"NVGMount",
                 //"HelmetStrap",
-                //"EyePiece",
-                //"EyePieceGlass",
+                "EyePiece",
+                "EyePieceGlass",
                 "VisorGlasses",
                 "VaccumCollar",
                 "Helmet_Chin",
@@ -1757,9 +1768,9 @@ class CfgWeapons {
         };
         class XtdGearInfo
         {
-            model = "WBase_AAE";
-            Variant = "Open";
-            Decal = "Harper";
+            model = "WCustom_AAE";
+            Variants = "Open";
+            Custom = "Harper";
         };
         hiddenSelectionsTextures[] =
         {
@@ -1790,8 +1801,8 @@ class CfgWeapons {
                 //"Helmet",
                 //"NVGMount",
                 //"HelmetStrap",
-                //"EyePiece",
-                //"EyePieceGlass",
+                "EyePiece",
+                "EyePieceGlass",
                 "VisorGlasses",
                 "VaccumCollar",
                 "Helmet_Chin",
