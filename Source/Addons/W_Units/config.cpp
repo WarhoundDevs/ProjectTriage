@@ -68,8 +68,8 @@ class CfgFactionClasses
 		author="The Canadian Nematoad";
 		priority=1;
 		side=1;
-		icon="\Warhound_Units\data\22nd_rdf.paa";
-		flag="\Warhound_Units\data\22nd_rdf.paa";
+		icon="\Warhound_Units\data\22ndRDF.paa";
+		flag="\Warhound_Units\data\22ndRDF.paa";
 	};
 };
 

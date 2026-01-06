@@ -52,13 +52,10 @@ class CfgPatches {
 
             /*
             *Start Customs
-            *Current Customs: Raven
+            *Current Customs: Rya
             */
 
-            //Raven
-            "22nd_ArmourRavenBase_Medium",
-            "22nd_ArmourRavenArid_Medium",
-            "22nd_ArmourRavenWinter_Medium",
+            "22nd_ArmourCustom_Rya",
 
 
         };
@@ -116,11 +113,7 @@ class CfgPatches {
             *Current Customs: Raven
             */
 
-            //Raven
-            "22nd_ArmourRavenBase_Medium",
-            "22nd_ArmourRavenArid_Medium",
-            "22nd_ArmourRavenWinter_Medium",
-
+            "22nd_ArmourCustom_Rya",
         }; // Link your uniform class
         requiredVersion = 1.0;
         requiredAddons[] = {"MA_Armor", "A3_Characters_F", "A3_Data_F_Mark"}; // Reference any required addons
@@ -2267,7 +2260,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A Woodland (Light)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -2322,7 +2315,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A Woodland (Medium)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -2377,7 +2370,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A Woodland (Heavy)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -2434,7 +2427,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A Woodland (Light + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -2489,7 +2482,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A Woodland (Medium + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -2544,7 +2537,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A Woodland (Heavy + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -2601,7 +2594,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A Olive Drab (Light)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -2656,7 +2649,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A Olive Drab (Medium)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -2711,7 +2704,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A Olive Drab (Heavy)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -2768,7 +2761,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A Olive Drab (Light + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -2823,7 +2816,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A Olive Drab (Medium + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -2878,7 +2871,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A Olive Drab (Heavy + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -2935,7 +2928,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A Brown (Light)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -2990,7 +2983,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A Brown (Medium)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -3045,7 +3038,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A Brown (Heavy)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -3102,7 +3095,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A Brown (Light + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -3157,7 +3150,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A Brown (Medium + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -3212,7 +3205,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A Brown (Heavy + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -3273,7 +3266,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A/HW Arid (Light)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -3328,7 +3321,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A/HW Arid (Medium)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -3383,7 +3376,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A/HW Arid (Heavy)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -3440,7 +3433,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A/HW Arid (Light + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -3495,7 +3488,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A/HW Arid (Medium + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -3550,7 +3543,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A/HW Arid (Heavy + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -3607,7 +3600,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A/HW Brown (Light)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -3662,7 +3655,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A/HW Brown (Medium)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -3717,7 +3710,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A/HW Brown (Heavy)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -3774,7 +3767,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A/HW Brown (Light + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -3829,7 +3822,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A/HW Brown (Medium + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -3884,7 +3877,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A/HW Brown (Heavy + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -3945,7 +3938,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A/W Winterized (Light)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -4000,7 +3993,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A/W Winterized (Medium)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -4055,7 +4048,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A/W Winterized (Heavy)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -4112,7 +4105,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A/W Winterized (Light + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -4167,7 +4160,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A/W Winterized (Medium + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -4222,7 +4215,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A/W Winterized (Heavy + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -4280,7 +4273,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A/W Black (Light)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -4335,7 +4328,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A/W Black (Medium)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -4390,7 +4383,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A/W Black (Heavy)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -4447,7 +4440,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A/W Black (Light + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -4502,7 +4495,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A/W Black (Medium + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
@@ -4557,7 +4550,7 @@ class CfgWeapons {
         scope = 2;  // Visible in editor
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A/W Black (Heavy + Collar)"; // In-game name
-        picture = "\W_Uniform\W_Armour\Icon1.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
