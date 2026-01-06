@@ -1629,9 +1629,9 @@ class CfgWeapons {
             };
             hiddenSelectionsTextures[] =
             {
-                "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
-                "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
-                "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Grims.paa", // Helmet Texture
+                "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Grims.paa", // Helmet Texture
+                "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Grims.paa", // Helmet Texture
                 "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece
                 "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece Glass
                 "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Visor Glass
