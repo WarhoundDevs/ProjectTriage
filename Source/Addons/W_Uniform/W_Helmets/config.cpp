@@ -1617,9 +1617,9 @@ class XtdGearModels
             };
             hiddenSelectionTextures[] =
             {
-                "\W_Uniform\W_Helmets\Infantry\22nd_HelmCustom_Grims.paa",
-                "\W_Uniform\W_Helmets\Infantry\22nd_HelmCustom_Grims.paa",
-                "\W_Uniform\W_Helmets\Infantry\22nd_HelmCustom_Grims.paa",
+                "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Grims.paa",
+                "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Grims.paa",
+                "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Grims.paa",
                 "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
                 "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
                 "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
@@ -1665,9 +1665,9 @@ class XtdGearModels
             };
             hiddenSelectionTextures[] =
             {
-                "\W_Uniform\W_Helmets\Infantry\22nd_HelmCustom_Bee.paa",
-                "\W_Uniform\W_Helmets\Infantry\22nd_HelmCustom_Bee.paa",
-                "\W_Uniform\W_Helmets\Infantry\22nd_HelmCustom_Bee.paa",
+                "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Bee.paa",
+                "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Bee.paa",
+                "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Bee.paa",
                 "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
                 "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
                 "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
@@ -1713,9 +1713,9 @@ class XtdGearModels
             };
             hiddenSelectionTextures[] =
             {
-                "\W_Uniform\W_Helmets\Infantry\22nd_HelmCustom_Harper.paa",
-                "\W_Uniform\W_Helmets\Infantry\22nd_HelmCustom_Harper.paa",
-                "\W_Uniform\W_Helmets\Infantry\22nd_HelmCustom_Harper.paa",
+                "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Harper.paa",
+                "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Harper.paa",
+                "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Harper.paa",
                 "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
                 "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
                 "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
