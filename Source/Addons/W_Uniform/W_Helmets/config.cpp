@@ -85,7 +85,10 @@ class XtdGearModels
                 values[] =
                 {
                     "None",
-                    "Medical"
+                    "Medical",
+                    "Grimsdottir",
+                    "Bee",
+                    "Harper"
                 };
                 class None
                 {
@@ -94,6 +97,18 @@ class XtdGearModels
                 class Medical
                 {
                     label = "Medical";
+                };
+                class Grimsdottir
+                {
+                    label = "Grimsdottir";
+                };
+                class Bee
+                {
+                    label = "Bee";
+                };
+                class Harper
+                {
+                    label = "Harper";
                 };
             };
         };
@@ -161,230 +176,184 @@ class XtdGearModels
                 "Variant",
                 "Decal"
             };
-            class Variant
-            {
-                label = "Facewear Variants";
-                values[] =
-                {
-                    "Open",
-                    "Closed",
-                    "Visor",
-                    "Eyepiece",
-
-                };
-                class Open
-                {
-                    label = "Open";
-                };
-                class Closed
-                {
-                    label = "Closed";
-                };
-                class Visor
-                {
-                    label = "Visor";
-                };
-                class Eyepiece
-                {
-                    label = "Eyepiece";
-                };
-            };
-            class Decal
-            {
-                label = "Decal";
-                values[] =
-                {
-                    "None",
-                    "Medical"
-                };
-                class None
-                {
-                    label = "None";
-                };
-                class Medical
-                {
-                    label = "Medical";
-                };
-            };
         };
     };
 };
-    class CfgWeapons {
-
-        class CH252_Helmet_Base;
-        class ItemInfo;
-        /*
-        * Begin Base Helmets
-        */
-        class 22nd_HelmBase_Open : CH252_Helmet_Base{
-            scope = 2;
-            scopeArsenal = 2;
-            author = "Warhound Mod Team";
-            displayName = "[22nd] CHC252"
-            model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-            picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
+class CfgWeapons {
+    class CH252_Helmet_Base;
+    class ItemInfo;
+    /*
+    * Begin Base Helmets
+    */
+    class 22nd_HelmBase_Open : CH252_Helmet_Base{
+        scope = 2;
+        scopeArsenal = 2;
+        author = "Warhound Mod Team";
+        displayName = "[22nd] CHC252"
+        model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
+        hiddenSelections[] =
+        {
+            "camo1", // Helmet
+            "camo2", // NVG Mount
+            "camo3", // Helmet Strap
+            "camo4", // Eyepiece
+            "camo5", // Eyepiece Glass
+            "camo6", // Glasses/Visor
+            "camo7", // Vac Seal
+            "Camo8", // Chin Module
+            "Camo9", // Visor, Closed
+            //"Helmet",
+            //"NVGMount",
+            //"HelmetStrap",
+            "EyePiece",
+            "EyePieceGlass",
+            "VisorGlasses",
+            "VaccumCollar",
+            "Helmet_Chin",
+            "Closed_Visor"
+        };
+        class XtdGearInfo
+        {
+            model = "WBase_AAE";
+            Variant = "Open";
+            Decal = "None";
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
+            "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
+            "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
             hiddenSelections[] =
             {
                 "camo1", // Helmet
                 "camo2", // NVG Mount
                 "camo3", // Helmet Strap
-                "camo4", // Eyepiece
-                "camo5", // Eyepiece Glass
-                "camo6", // Glasses/Visor
+                "camo4", // Eye Piece
+                "camo5", // Eye Piece Glass
+                "camo6", // Visor Glasses
                 "camo7", // Vac Seal
-                "Camo8", // Chin Module
-                "Camo9", // Visor, Closed
+                "Camo8", // Face Module Chin
+                "Camo9", // Closed Visor
                 //"Helmet",
                 //"NVGMount",
                 //"HelmetStrap",
-                  "EyePiece",
-                  "EyePieceGlass",
-                  "VisorGlasses",
-                  "VaccumCollar",
-                  "Helmet_Chin",
-                  "Closed_Visor"
-              };
-            class XtdGearInfo
-            {
-                model = "WBase_AAE";
-                Variant = "Open";
-                Decal = "None";
+                "EyePiece",
+                "EyePieceGlass",
+                "VisorGlasses",
+                "VaccumCollar",
+                "Helmet_Chin",
+                "Closed_Visor"
             };
-              hiddenSelectionsTextures[] =
-              {
-                  "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
-                  "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
-                  "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
-                  "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-                  "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-                  "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-                  "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
-                  "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
-                  "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
-              };
-              class ItemInfo : ItemInfo
-              {
-                  uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-                  hiddenSelections[] =
-                  {
-                      "camo1", // Helmet
-                      "camo2", // NVG Mount
-                      "camo3", // Helmet Strap
-                      "camo4", // Eye Piece
-                      "camo5", // Eye Piece Glass
-                      "camo6", // Visor Glasses
-                      "camo7", // Vac Seal
-                      "Camo8", // Face Module Chin
-                      "Camo9", // Closed Visor
-                      //"Helmet",
-                      //"NVGMount",
-                      //"HelmetStrap",
-                        "EyePiece",
-                        "EyePieceGlass",
-                        "VisorGlasses",
-                        "VaccumCollar",
-                        "Helmet_Chin",
-                        "Closed_Visor"
-                    };
-                    hiddenSelectionsTextures[] =
-                    {
-                        "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
-                        "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
-                        "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
-                        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece
-                        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece Glass
-                        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Visor Glass
-                        "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa", // Vac Collar
-                        "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa", // Face Module Chin
-                        "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa" // Closed Visor
-                    };
-                };
-        };// Close 22nd_HelmBase_Open
+            hiddenSelectionsTextures[] =
+            {
+                "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece Glass
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Visor Glass
+                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa", // Vac Collar
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa", // Face Module Chin
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa" // Closed Visor
+            };
+        };
+    };// Close 22nd_HelmBase_Open
 
-        class 22nd_HelmBase_Closed : CH252_Helmet_Base{
-            scope = 2;
-            scopeArsenal = 2;
-            author = "Warhound Mod Team";
-            displayName = "[22nd] ECHC252"
-            model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-            picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
+    class 22nd_HelmBase_Closed : CH252_Helmet_Base{
+        scope = 2;
+        scopeArsenal = 2;
+        author = "Warhound Mod Team";
+        displayName = "[22nd] ECHC252"
+        model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
+        hiddenSelections[] =
+        {
+            "camo1", // Helmet
+            "camo2", // NVG Mount
+            "camo3", // Helmet Strap
+            "camo4", // Eyepiece
+            "camo5", // Eyepiece Glass
+            "camo6", // Glasses/Visor
+            "camo7", // Vac Seal
+            "Camo8", // Chin Module
+            "Camo9", // Visor, Closed
+            //"Helmet",
+            //"NVGMount",
+            //"HelmetStrap",
+            "EyePiece",
+            "EyePieceGlass",
+            "VisorGlasses",
+            "VaccumCollar",
+            //"Helmet_Chin",
+            //"Closed_Visor"
+        };
+        class XtdGearInfo
+        {
+            model = "WBase_AAE";
+            Variant = "Closed";
+            Decal = "None";
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
+            "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
+            "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Brown_CO.paa",
+            "W_Uniform\W_Helmets\Infantry\22nd_Base_Helmet_Lower",
+            "W_Uniform\W_Helmets\Infantry\22nd_Base_Helmet_Lower",
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
             hiddenSelections[] =
             {
                 "camo1", // Helmet
                 "camo2", // NVG Mount
                 "camo3", // Helmet Strap
-                "camo4", // Eyepiece
-                "camo5", // Eyepiece Glass
-                "camo6", // Glasses/Visor
+                "camo4", // Eye Piece
+                "camo5", // Eye Piece Glass
+                "camo6", // Visor Glasses
                 "camo7", // Vac Seal
-                "Camo8", // Chin Module
-                "Camo9", // Visor, Closed
+                "Camo8", // Face Module Chin
+                "Camo9", // Closed Visor
                 //"Helmet",
                 //"NVGMount",
                 //"HelmetStrap",
-                  "EyePiece",
-                  "EyePieceGlass",
-                  "VisorGlasses",
-                  "VaccumCollar",
-                  //"Helmet_Chin",
-                  //"Closed_Visor"
-                };
-            class XtdGearInfo
-            {
-                model = "WBase_AAE";
-                Variant = "Closed";
-                Decal = "None";
+                "EyePiece",
+                "EyePieceGlass",
+                "VisorGlasses",
+                "VaccumCollar",
+                //"Helmet_Chin",
+                //"Closed_Visor"
             };
-                hiddenSelectionsTextures[] =
-                {
-                    "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
-                    "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
-                    "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Base.paa",
-                    "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-                    "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-                    "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-                    "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Brown_CO.paa",
-                    "W_Uniform\W_Helmets\Infantry\22nd_Base_Helmet_Lower",
-                    "W_Uniform\W_Helmets\Infantry\22nd_Base_Helmet_Lower",
-                };
-                class ItemInfo : ItemInfo
-                {
-                    uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-                    hiddenSelections[] =
-                    {
-                        "camo1", // Helmet
-                        "camo2", // NVG Mount
-                        "camo3", // Helmet Strap
-                        "camo4", // Eye Piece
-                        "camo5", // Eye Piece Glass
-                        "camo6", // Visor Glasses
-                        "camo7", // Vac Seal
-                        "Camo8", // Face Module Chin
-                        "Camo9", // Closed Visor
-                        //"Helmet",
-                        //"NVGMount",
-                        //"HelmetStrap",
-                          "EyePiece",
-                          "EyePieceGlass",
-                          "VisorGlasses",
-                          "VaccumCollar",
-                          //"Helmet_Chin",
-                          //"Closed_Visor"
-                        };
-                        hiddenSelectionsTextures[] =
-                        {
-                            "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
-                            "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
-                            "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
-                            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece
-                            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece Glass
-                            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Visor Glass
-                            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa", // Vac Collar
-                            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa", // Face Module Chin
-                            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa" // Closed Visor
-                        };
-                    };
-        };// Close 22nd_HelmBase_Closed
+            hiddenSelectionsTextures[] =
+            {
+                "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece Glass
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Visor Glass
+                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa", // Vac Collar
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa", // Face Module Chin
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa" // Closed Visor
+            };
+        };
+    };// Close 22nd_HelmBase_Closed
 
         class 22nd_HelmBase_Eye : CH252_Helmet_Base{
             scope = 2;
@@ -1584,258 +1553,262 @@ class XtdGearModels
                         };
                     };
         };// Close 22nd_HelmSnow_Visor
-        
-        //Begin Custom Helmets
-        //Grimsdottir
-        class 22nd_HelmCustom_Grims : CH252_Helmet_Base{
-            scope = 2;
-            scopeArsenal = 2;
-            author = "Warhound Mod Team";
-            displayName = "[22nd] CHC2505 Grimsdottir";
-            model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-            picture = "\W_Uniform\W_Helmets\22ndRDF.paa";//Add Icon
+    /*
+    * Begin Custom Helmets
+    */
+   // Begin 22nd_HelmCustom_Grims
+    class 22nd_HelmCustom_Grims : CH252_Helmet_Base{
+        scope = 2;
+        scopeArsenal = 2;
+        author = "Warhound Mod Team";
+        displayName = "[22nd] CHC252 Custom Grimsdottir"
+        model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
+        hiddenSelections[] =
+        {
+            "camo1", // Helmet
+            "camo2", // NVG Mount
+            "camo3", // Helmet Strap
+            "camo4", // Eyepiece
+            "camo5", // Eyepiece Glass
+            "camo6", // Glasses/Visor
+            "camo7", // Vac Seal
+            "Camo8", // Chin Module
+            "Camo9", // Visor, Closed
+            //"Helmet",
+            //"NVGMount",
+            //"HelmetStrap",
+            //"EyePiece",
+            //"EyePieceGlass",
+            "VisorGlasses",
+            "VaccumCollar",
+            "Helmet_Chin",
+            "Closed_Visor"
+        };
+        class XtdGearInfo
+        {
+            model = "WBase_AAE";
+            Variant = "Eyepiece";
+            Decal = "Grimsdottir";
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Grims.paa",
+            "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Grims.paa",
+            "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Grims.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
             hiddenSelections[] =
             {
                 "camo1", // Helmet
                 "camo2", // NVG Mount
                 "camo3", // Helmet Strap
-                "camo4", // Eyepiece
-                "camo5", // Eyepiece Glass
-                "camo6", // Glasses/Visor
+                "camo4", // Eye Piece
+                "camo5", // Eye Piece Glass
+                "camo6", // Visor Glasses
                 "camo7", // Vac Seal
-                "Camo8", // Chin Module
-                "Camo9", // Visor, Closed
+                "Camo8", // Face Module Chin
+                "Camo9", // Closed Visor
                 //"Helmet",
                 //"NVGMount",
                 //"HelmetStrap",
                 //"EyePiece",
                 //"EyePieceGlass",
-                  "VisorGlasses",
-                  "VaccumCollar",
-                  "Helmet_Chin",
-                  "Closed_Visor"
+                "VisorGlasses",
+                "VaccumCollar",
+                "Helmet_Chin",
+                "Closed_Visor"
             };
-            class XtdGearInfo
+            hiddenSelectionsTextures[] =
             {
-                model = "WCustom_AAE";
-                Customs = "Grimsdottir";
-                Decal = "None";
+                "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece Glass
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Visor Glass
+                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa", // Vac Collar
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa", // Face Module Chin
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa" // Closed Visor
             };
-            hiddenSelectionTextures[] =
-            {
-                "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Grims.paa",
-                "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Grims.paa",
-                "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Grims.paa",
-                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
-                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
-                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
-            };
-            class ItemInfo : ItemInfo
-              {
-                  uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-                  hiddenSelections[] =
-                  {
-                      "camo1", // Helmet
-                      "camo2", // NVG Mount
-                      "camo3", // Helmet Strap
-                      "camo4", // Eye Piece
-                      "camo5", // Eye Piece Glass
-                      "camo6", // Visor Glasses
-                      "camo7", // Vac Seal
-                      "Camo8", // Face Module Chin
-                      "Camo9", // Closed Visor
-                      //"Helmet",
-                      //"NVGMount",
-                      //"HelmetStrap",
-                        "EyePiece",
-                        "EyePieceGlass",
-                        "VisorGlasses",
-                        "VaccumCollar",
-                        "Helmet_Chin",
-                        "Closed_Visor"
-                    };
-                    hiddenSelectionsTextures[] =
-                    {
-                        "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Grims.paa", // Helmet Texture
-                        "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Grims.paa", // Helmet Texture
-                        "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Grims.paa", // Helmet Texture
-                        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece
-                        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece Glass
-                        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Visor Glass
-                        "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa", // Vac Collar
-                        "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa", // Face Module Chin
-                        "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa" // Closed Visor
-                    };
         };
-        //Bee
-        class 22nd_HelmCustom_Bee : CH252_Helmet_Base{
-            scope = 2;
-            scopeArsenal = 2;
-            author = "Warhound Mod Team";
-            displayName = "[22nd] CHC2505 Bee";
-            model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-            picture = "\W_Uniform\W_Helmets\22ndRDF.paa";//Add Icon
+    };// Close 22nd_HelmCustom_Grims
+    // Begin 22nd_HelmCustom_Bee
+    class 22nd_HelmCustom_Bee : CH252_Helmet_Base{
+        scope = 2;
+        scopeArsenal = 2;
+        author = "Warhound Mod Team";
+        displayName = "[22nd] CHC252 Custom Bee"
+        model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
+        hiddenSelections[] =
+        {
+            "camo1", // Helmet
+            "camo2", // NVG Mount
+            "camo3", // Helmet Strap
+            "camo4", // Eyepiece
+            "camo5", // Eyepiece Glass
+            "camo6", // Glasses/Visor
+            "camo7", // Vac Seal
+            "Camo8", // Chin Module
+            "Camo9", // Visor, Closed
+            //"Helmet",
+            //"NVGMount",
+            //"HelmetStrap",
+            "EyePiece",
+            "EyePieceGlass",
+            "VisorGlasses",
+            "VaccumCollar",
+            "Helmet_Chin",
+            "Closed_Visor"
+        };
+        class XtdGearInfo
+        {
+            model = "WBase_AAE";
+            Variant = "Open";
+            Decal = "Bee";
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Bee.paa",
+            "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Bee.paa",
+            "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Bee.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
             hiddenSelections[] =
             {
                 "camo1", // Helmet
                 "camo2", // NVG Mount
                 "camo3", // Helmet Strap
-                "camo4", // Eyepiece
-                "camo5", // Eyepiece Glass
-                "camo6", // Glasses/Visor
+                "camo4", // Eye Piece
+                "camo5", // Eye Piece Glass
+                "camo6", // Visor Glasses
                 "camo7", // Vac Seal
-                "Camo8", // Chin Module
-                "Camo9", // Visor, Closed
+                "Camo8", // Face Module Chin
+                "Camo9", // Closed Visor
                 //"Helmet",
                 //"NVGMount",
                 //"HelmetStrap",
-                "EyePiece",
-                "EyePieceGlass",
-                  "VisorGlasses",
-                  "VaccumCollar",
-                  "Helmet_Chin",
-                  "Closed_Visor"
+                //"EyePiece",
+                //"EyePieceGlass",
+                "VisorGlasses",
+                "VaccumCollar",
+                "Helmet_Chin",
+                "Closed_Visor"
             };
-            class XtdGearInfo
+            hiddenSelectionsTextures[] =
             {
-                model = "WCustom_AAE";
-                Customs = "Bee";
-                Decal = "None";
+                "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece Glass
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Visor Glass
+                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa", // Vac Collar
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa", // Face Module Chin
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa" // Closed Visor
             };
-            hiddenSelectionTextures[] =
-            {
-                "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Bee.paa",
-                "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Bee.paa",
-                "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Bee.paa",
-                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
-                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
-                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
-            };
-            class ItemInfo : ItemInfo
-              {
-                  uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-                  hiddenSelections[] =
-                  {
-                      "camo1", // Helmet
-                      "camo2", // NVG Mount
-                      "camo3", // Helmet Strap
-                      "camo4", // Eye Piece
-                      "camo5", // Eye Piece Glass
-                      "camo6", // Visor Glasses
-                      "camo7", // Vac Seal
-                      "Camo8", // Face Module Chin
-                      "Camo9", // Closed Visor
-                      //"Helmet",
-                      //"NVGMount",
-                      //"HelmetStrap",
-                        "EyePiece",
-                        "EyePieceGlass",
-                        "VisorGlasses",
-                        "VaccumCollar",
-                        "Helmet_Chin",
-                        "Closed_Visor"
-                    };
-                    hiddenSelectionsTextures[] =
-                    {
-                        "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Bee.paa", // Helmet Texture
-                        "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Bee.paa", // Helmet Texture
-                        "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Bee.paa", // Helmet Texture
-                        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece
-                        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece Glass
-                        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Visor Glass
-                        "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa", // Vac Collar
-                        "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa", // Face Module Chin
-                        "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa" // Closed Visor
-                    };
         };
-        //Harper
-        class 22nd_HelmCustom_Harper : CH252_Helmet_Base{
-            scope = 2;
-            scopeArsenal = 2;
-            author = "Warhound Mod Team";
-            displayName = "[22nd] CHC2505 Harper";
-            model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-            picture = "\W_Uniform\W_Helmets\22ndRDF.paa";//Add Icon
+    };// Close 22nd_HelmCustom_Bee
+    // Begin 22nd_HelmCustom_Harper
+    class 22nd_HelmCustom_Harper : CH252_Helmet_Base{
+        scope = 2;
+        scopeArsenal = 2;
+        author = "Warhound Mod Team";
+        displayName = "[22nd] CHC252 Custom Harper"
+        model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
+        hiddenSelections[] =
+        {
+            "camo1", // Helmet
+            "camo2", // NVG Mount
+            "camo3", // Helmet Strap
+            "camo4", // Eyepiece
+            "camo5", // Eyepiece Glass
+            "camo6", // Glasses/Visor
+            "camo7", // Vac Seal
+            "Camo8", // Chin Module
+            "Camo9", // Visor, Closed
+            //"Helmet",
+            //"NVGMount",
+            //"HelmetStrap",
+            "EyePiece",
+            "EyePieceGlass",
+            "VisorGlasses",
+            "VaccumCollar",
+            "Helmet_Chin",
+            "Closed_Visor"
+        };
+        class XtdGearInfo
+        {
+            model = "WBase_AAE";
+            Variant = "Open";
+            Decal = "Harper";
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Harper.paa",
+            "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Harper.paa",
+            "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Harper.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
             hiddenSelections[] =
             {
                 "camo1", // Helmet
                 "camo2", // NVG Mount
                 "camo3", // Helmet Strap
-                "camo4", // Eyepiece
-                "camo5", // Eyepiece Glass
-                "camo6", // Glasses/Visor
+                "camo4", // Eye Piece
+                "camo5", // Eye Piece Glass
+                "camo6", // Visor Glasses
                 "camo7", // Vac Seal
-                "Camo8", // Chin Module
-                "Camo9", // Visor, Closed
+                "Camo8", // Face Module Chin
+                "Camo9", // Closed Visor
                 //"Helmet",
                 //"NVGMount",
                 //"HelmetStrap",
-                "EyePiece",
-                "EyePieceGlass",
-                  "VisorGlasses",
-                  "VaccumCollar",
-                  "Helmet_Chin",
-                  "Closed_Visor"
+                //"EyePiece",
+                //"EyePieceGlass",
+                "VisorGlasses",
+                "VaccumCollar",
+                "Helmet_Chin",
+                "Closed_Visor"
             };
-            class XtdGearInfo
+            hiddenSelectionsTextures[] =
             {
-                model = "WCustom_AAE";
-                Customs = "Harper";
-                Decal = "None";
+                "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Base.paa", // Helmet Texture
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece Glass
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Visor Glass
+                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa", // Vac Collar
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa", // Face Module Chin
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa" // Closed Visor
             };
-            hiddenSelectionTextures[] =
-            {
-                "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Harper.paa",
-                "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Harper.paa",
-                "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Harper.paa",
-                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
-                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
-                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
-            };
-            class ItemInfo : ItemInfo
-              {
-                  uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-                  hiddenSelections[] =
-                  {
-                      "camo1", // Helmet
-                      "camo2", // NVG Mount
-                      "camo3", // Helmet Strap
-                      "camo4", // Eye Piece
-                      "camo5", // Eye Piece Glass
-                      "camo6", // Visor Glasses
-                      "camo7", // Vac Seal
-                      "Camo8", // Face Module Chin
-                      "Camo9", // Closed Visor
-                      //"Helmet",
-                      //"NVGMount",
-                      //"HelmetStrap",
-                        "EyePiece",
-                        "EyePieceGlass",
-                        "VisorGlasses",
-                        "VaccumCollar",
-                        "Helmet_Chin",
-                        "Closed_Visor"
-                    };
-                    hiddenSelectionsTextures[] =
-                    {
-                        "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Harper.paa", // Helmet Texture
-                        "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Harper.paa", // Helmet Texture
-                        "\W_Uniform\W_Helmets\Customs\22nd_HelmCustom_Harper.paa", // Helmet Texture
-                        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece
-                        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Eyepiece Glass
-                        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa", // Visor Glass
-                        "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa", // Vac Collar
-                        "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa", // Face Module Chin
-                        "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa" // Closed Visor
-                    };
         };
+    };// Close 22nd_HelmCustom_Harper
     };
