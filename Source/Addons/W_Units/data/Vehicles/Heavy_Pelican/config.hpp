@@ -14,6 +14,7 @@ class Splits_UNSC_D77_TC_Pelican
 {
 	class components;
 }
+;
 class 22nd_Vehicle_Heavy_Pelican: Splits_UNSC_D77_TC_Pelican
 {
 	scope=2;
@@ -80,12 +81,12 @@ class 22nd_Vehicle_Heavy_Pelican: Splits_UNSC_D77_TC_Pelican
 	};
 	textureList[]=
 	{
-		"Wahound_Basic",
+		"Warhound_Basic",
 		1,
 		"Warhound_Urban",
 		1,
 		"Warhound_Woodland",
-		1,
+		1
 	};
 	class textureSources
 	{
@@ -98,8 +99,8 @@ class 22nd_Vehicle_Heavy_Pelican: Splits_UNSC_D77_TC_Pelican
 				"\Warhound_Units\data\Vehicles\Heavy_Pelican\body_co.paa",
 				"\Warhound_Units\data\Vehicles\Heavy_Pelican\wings_co.paa",
 				"\Warhound_Units\data\Vehicles\Heavy_Pelican\weaponry_co.paa"
-			}
-		}
+			};
+		};
 		class Warhound_Urban
 		{
 			displayName="Warhound_Urban";
