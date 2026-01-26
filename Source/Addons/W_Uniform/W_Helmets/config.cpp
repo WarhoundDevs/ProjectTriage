@@ -202,7 +202,7 @@ class CfgWeapons {
         author = "Warhound Mod Team";
         displayName = "[22nd] CHC252";
         model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-        picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
+        picture = "\W_Uniform\W_Helmets\22ndRDF.paa";
         hiddenSelections[] =
         {
             "camo1", // Helmet
@@ -285,9 +285,9 @@ class CfgWeapons {
         scope = 2;
         scopeArsenal = 2;
         author = "Warhound Mod Team";
-        displayName = "[22nd] ECHC252"
+        displayName = "[22nd] ECHC252";
         model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-        picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
+        picture = "\W_Uniform\W_Helmets\22ndRDF.paa";//Add Icon
         hiddenSelections[] =
         {
             "camo1", // Helmet
@@ -372,7 +372,7 @@ class CfgWeapons {
         author = "Warhound Mod Team";
         displayName = "[22nd] CHC252 Eyepiece";
         model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-        picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
+        picture = "\W_Uniform\W_Helmets\22ndRDF.paa";//Add Icon
         hiddenSelections[] =
         {
             "camo1", // Helmet
@@ -457,7 +457,7 @@ class CfgWeapons {
             author = "Warhound Mod Team";
             displayName = "[22nd] CHC252 Visor";
             model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-            picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
+            picture = "\W_Uniform\W_Helmets\22ndRDF.paa";//Add Icon
             hiddenSelections[] =
             {
                 "camo1", // Helmet
@@ -542,9 +542,9 @@ class CfgWeapons {
             scope = 2;
             scopeArsenal = 2;
             author = "Warhound Mod Team";
-            displayName = "[22nd] CHC252/W"
+            displayName = "[22nd] CHC252/W";
             model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-            picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
+            picture = "\W_Uniform\W_Helmets\22ndRDF.paa";//Add Icon
             hiddenSelections[] =
             {
                 "camo1", // Helmet
@@ -627,9 +627,9 @@ class CfgWeapons {
             scope = 2;
             scopeArsenal = 2;
             author = "Warhound Mod Team";
-            displayName = "[22nd] ECHC252/W"
+            displayName = "[22nd] ECHC252/W";
             model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-            picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
+            picture = "\W_Uniform\W_Helmets\22ndRDF.paa";//Add Icon
             hiddenSelections[] =
             {
                 "camo1", // Helmet
@@ -712,9 +712,9 @@ class CfgWeapons {
             scope = 2;
             scopeArsenal = 2;
             author = "Warhound Mod Team";
-            displayName = "[22nd] CHC252/W Eyepiece"
+            displayName = "[22nd] CHC252/W Eyepiece";
             model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-            picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
+            picture = "\W_Uniform\W_Helmets\22ndRDF.paa";//Add Icon
             hiddenSelections[] =
             {
                 "camo1", // Helmet
@@ -797,9 +797,9 @@ class CfgWeapons {
             scope = 2;
             scopeArsenal = 2;
             author = "Warhound Mod Team";
-            displayName = "[22nd] CHC252/W Visor"
+            displayName = "[22nd] CHC252/W Visor";
             model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-            picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
+            picture = "\W_Uniform\W_Helmets\22ndRDF.paa";//Add Icon
             hiddenSelections[] =
             {
                 "camo1", // Helmet
@@ -886,9 +886,9 @@ class CfgWeapons {
           scope = 2;
           scopeArsenal = 2;
           author = "Warhound Mod Team";
-          displayName = "[22nd] CHC252"
+          displayName = "[22nd] CHC252";
           model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-          picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
+          picture = "\W_Uniform\W_Helmets\22ndRDF.paa";//Add Icon
           hiddenSelections[] =
           {
               "camo1", // Helmet
@@ -971,9 +971,9 @@ class CfgWeapons {
             scope = 2;
             scopeArsenal = 2;
             author = "Warhound Mod Team";
-            displayName = "[22nd] ECHC252"
+            displayName = "[22nd] ECHC252";
             model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-            picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
+            picture = "\W_Uniform\W_Helmets\22ndRDF.paa";//Add Icon
             hiddenSelections[] =
             {
                 "camo1", // Helmet
@@ -1056,9 +1056,9 @@ class CfgWeapons {
             scope = 2;
             scopeArsenal = 2;
             author = "Warhound Mod Team";
-            displayName = "[22nd] CHC252 Eyepiece"
+            displayName = "[22nd] CHC252 Eyepiece";
             model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-            picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
+            picture = "\W_Uniform\W_Helmets\22ndRDF.paa";//Add Icon
             hiddenSelections[] =
             {
                 "camo1", // Helmet
@@ -1141,9 +1141,9 @@ class CfgWeapons {
             scope = 2;
             scopeArsenal = 2;
             author = "Warhound Mod Team";
-            displayName = "[22nd] CHC252 Visor"
+            displayName = "[22nd] CHC252 Visor";
             model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-            picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
+            picture = "\W_Uniform\W_Helmets\22ndRDF.paa";//Add Icon
             hiddenSelections[] =
             {
                 "camo1", // Helmet
@@ -1228,9 +1228,9 @@ class CfgWeapons {
             scope = 2;
             scopeArsenal = 2;
             author = "Warhound Mod Team";
-            displayName = "[22nd] CHC252/W"
+            displayName = "[22nd] CHC252/W";
             model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-            picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
+            picture = "\W_Uniform\W_Helmets\22ndRDF.paa";//Add Icon
             hiddenSelections[] =
             {
                 "camo1", // Helmet
@@ -1313,9 +1313,9 @@ class CfgWeapons {
             scope = 2;
             scopeArsenal = 2;
             author = "Warhound Mod Team";
-            displayName = "[22nd] ECHC252/W"
+            displayName = "[22nd] ECHC252/W";
             model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-            picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
+            picture = "\W_Uniform\W_Helmets\22ndRDF.paa";//Add Icon
             hiddenSelections[] =
             {
                 "camo1", // Helmet
@@ -1398,9 +1398,9 @@ class CfgWeapons {
             scope = 2;
             scopeArsenal = 2;
             author = "Warhound Mod Team";
-            displayName = "[22nd] CHC252/W Eyepiece"
+            displayName = "[22nd] CHC252/W Eyepiece";
             model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-            picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
+            picture = "\W_Uniform\W_Helmets\22ndRDF.paa";//Add Icon
             hiddenSelections[] =
             {
                 "camo1", // Helmet
@@ -1484,9 +1484,9 @@ class CfgWeapons {
             scope = 2;
             scopeArsenal = 2;
             author = "Warhound Mod Team";
-            displayName = "[22nd] CHC252/W Visor"
+            displayName = "[22nd] CHC252/W Visor";
             model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-            picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
+            picture = "\W_Uniform\W_Helmets\22ndRDF.paa";//Add Icon
             hiddenSelections[] =
             {
                 "camo1", // Helmet
@@ -1572,9 +1572,9 @@ class CfgWeapons {
         scope = 2;
         scopeArsenal = 2;
         author = "Warhound Mod Team";
-        displayName = "[22nd] CHC252 Custom Grimsdottir"
+        displayName = "[22nd] CHC252 Custom Grimsdottir";
         model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-        picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
+        picture = "\W_Uniform\W_Helmets\22ndRDF.paa";//Add Icon
         hiddenSelections[] =
         {
             "camo1", // Helmet
@@ -1657,9 +1657,9 @@ class CfgWeapons {
         scope = 2;
         scopeArsenal = 2;
         author = "Warhound Mod Team";
-        displayName = "[22nd] CHC252 Custom Bee"
+        displayName = "[22nd] CHC252 Custom Bee";
         model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-        picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
+        picture = "\W_Uniform\W_Helmets\22ndRDF.paa";//Add Icon
         hiddenSelections[] =
         {
             "camo1", // Helmet
@@ -1742,9 +1742,9 @@ class CfgWeapons {
         scope = 2;
         scopeArsenal = 2;
         author = "Warhound Mod Team";
-        displayName = "[22nd] CHC252 Custom Harper"
+        displayName = "[22nd] CHC252 Custom Harper";
         model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-        picture = "\W_Uniform\W_Helmets\22ndRDF.paa"//Add Icon
+        picture = "\W_Uniform\W_Helmets\22ndRDF.paa";//Add Icon
         hiddenSelections[] =
         {
             "camo1", // Helmet

@@ -52,11 +52,8 @@ class CfgPatches {
 
             /*
             *Start Customs
-            *Current Customs: Rya
+            *Current Customs:
             */
-
-            "22nd_ArmourCustom_Rya",
-
 
         };
         weapons[] = {
@@ -110,10 +107,10 @@ class CfgPatches {
             "22nd_ArmourWinterVar2_HeavyC",
             /*
             *Start Customs
-            *Current Customs: Raven
+            *Current Customs: 
             */
 
-            "22nd_ArmourCustom_Rya",
+            
         }; // Link your uniform class
         requiredVersion = 1.0;
         requiredAddons[] = {"MA_Armor", "A3_Characters_F", "A3_Data_F_Mark"}; // Reference any required addons
@@ -143,16 +140,16 @@ class CfgVehicles {
             "Camo8",
             "Camo9",
             "Camo10",
-          //"Uni_Upper",
-          //"Uni_Lower",
+            //"Uni_Upper",
+            //"Uni_Lower",
             "Uni_Collar",
-          //"Armor_Underpad",
-          //"Armor_Straps",
-          //"Armor_Upper",
-          //"Armor_Lower",
-                "Shoulders_Lower1",
-                "Shoulders_Lower2",
-                "Shoulders_Upper"
+            //"Armor_Underpad",
+            //"Armor_Straps",
+            //"Armor_Upper",
+            //"Armor_Lower",
+            "Shoulders_Lower1",
+            "Shoulders_Lower2",
+            "Shoulders_Upper"
             };
 
             hiddenSelectionsTextures[] = {
@@ -1403,14 +1400,14 @@ class CfgVehicles {
             "Camo10",
             //"Uni_Upper",
             //"Uni_Lower",
-              "Uni_Collar",
-              //"Armor_Underpad",
-              //"Armor_Straps",
-              //"Armor_Upper",
-              //"Armor_Lower",
-                "Shoulders_Lower1",
-                "Shoulders_Lower2",
-                "Shoulders_Upper"
+            "Uni_Collar",
+            //"Armor_Underpad",
+            //"Armor_Straps",
+            //"Armor_Upper",
+            //"Armor_Lower",
+            "Shoulders_Lower1",
+            "Shoulders_Lower2",
+            "Shoulders_Upper"
             };
 
             hiddenSelectionsTextures[] = {
@@ -1421,9 +1418,9 @@ class CfgVehicles {
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Will need new texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa",
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
+                "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
+                "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
+                "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
             };
     }; // Close 22nd_ArmourWinterVar1_Light
 
@@ -1462,9 +1459,9 @@ class CfgVehicles {
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Will need new texture
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
+            "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
+            "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
+            "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
         };
     }; // Close 22nd_ArmourWinterVar1_Medium
 
@@ -1503,9 +1500,9 @@ class CfgVehicles {
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Will need new texture
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
+            "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
+            "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
+            "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
         };
     }; // Close 22nd_ArmourWinterVar1_Heavy
 
@@ -1546,9 +1543,9 @@ class CfgVehicles {
               "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
               "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Will need new texture
               "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa",
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
+              "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
+              "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
+              "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
           };
     }; // Close 22nd_ArmourWinterVar1_LightC
 
@@ -1587,9 +1584,9 @@ class CfgVehicles {
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Will need new texture
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
+            "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
+            "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
+            "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
         };
     }; // Close 22nd_ArmourWinterVar1_MediumC
 
@@ -1628,9 +1625,9 @@ class CfgVehicles {
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Will need new texture
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
+            "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
+            "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
+            "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
         };
     }; // Close 22nd_ArmourWinterVar1_HeavyC
 
@@ -1671,9 +1668,9 @@ class CfgVehicles {
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Will need new texture
                 "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa",
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-                "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
+                "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
+                "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
+                "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
             };
     }; // Close 22nd_ArmourWinterVar2_Light
 
@@ -1712,9 +1709,9 @@ class CfgVehicles {
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Will need new texture
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
+            "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
+            "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
+            "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
         };
     }; // Close 22nd_ArmourWinterVar2_Medium
 
@@ -1753,9 +1750,9 @@ class CfgVehicles {
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Will need new texture
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
+            "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
+            "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
+            "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
         };
     }; // Close 22nd_ArmourWinterVar2_Heavy
 
@@ -1796,9 +1793,9 @@ class CfgVehicles {
               "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
               "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Will need new texture
               "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa",
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
+              "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
+              "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
+              "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
           };
     }; // Close 22nd_ArmourWinterVar2_LightC
 
@@ -1837,9 +1834,9 @@ class CfgVehicles {
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Will need new texture
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
+            "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
+            "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
+            "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
         };
     }; // Close 22nd_ArmourWinterVar2_MediumC
 
@@ -1878,9 +1875,9 @@ class CfgVehicles {
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Will need new texture
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
-            "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Snow.paa",
+            "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
+            "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
+            "\W_Uniform\W_Armour\Infantry\22nd_Shoulders_Snow.paa",
         };
     }; // Close 22nd_ArmourWinterVar2_HeavyC
 
@@ -1888,130 +1885,7 @@ class CfgVehicles {
     * Begin Custom Armours
     */
 
-    //Raven
-
-    class 22nd_ArmourRavenBase_Medium : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourRavenBase_Medium"; // Custom uniform class
-           hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            "Uni_Upper",
-            "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            "Armor_Straps",
-            "Armor_Upper",
-            "Armor_Lower",
-            //"Shoulders_Lower1",
-            "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Green_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Custom\RavenShoulders.paa",
-            "\W_Uniform\W_Armour\Custom\RavenShoulders.paa",
-            "\W_Uniform\W_Armour\Custom\RavenShoulders.paa",
-        };
-    }; // Close 22nd_ArmourRavenBase_Medium
-
-    class 22nd_ArmourRavenArid_Medium : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourRavenArid_Medium"; // Custom uniform class
-           hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Desert_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Custom\RavenShoulders.paa",
-            "\W_Uniform\W_Armour\Custom\RavenShoulders.paa",
-            "\W_Uniform\W_Armour\Custom\RavenShoulders.paa",
-        };
-    }; // Close 22nd_ArmourRavenArid_Medium
-
-    class 22nd_ArmourRavenWinter_Medium : MA_Marine_BDU_Base{
-        scope = 2; // Visible in editor
-        author = "Warhound Mod Team";
-        uniformClass = "22nd_ArmourRavenWinter_Medium"; // Custom uniform class
-           hiddenSelections[] = {
-            "Camo1",
-            "Camo2",
-            "Camo3",
-            "Camo4",
-            "Camo5",
-            "Camo6",
-            "Camo7",
-            "Camo8",
-            "Camo9",
-            "Camo10",
-            // "Uni_Upper",
-            // "Uni_Lower",
-            "Uni_Collar",
-            // "Armor_Underpad",
-            // "Armor_Straps",
-            // "Armor_Upper",
-            // "Armor_Lower",
-            "Shoulders_Lower1",
-            // "Shoulders_Lower2",
-            // "Shoulders_Upper"
-        };
-
-        hiddenSelectionsTextures[] = {
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperUpperBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Winter_TrooperLowerBDU_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperCollar_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperUpperArmor_CO.paa", // Will need new texture
-            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_White_TrooperLowerArmor_CO.paa",
-            "\W_Uniform\W_Armour\Custom\RavenShoulders.paa",
-            "\W_Uniform\W_Armour\Custom\RavenShoulders.paa",
-            "\W_Uniform\W_Armour\Custom\RavenShoulders.paa",
-        };
-    }; // Close 22nd_ArmourRavenWinter_Medium
+    //---
 };
 
 // Hertzel 07132025 - XTDGEARMODELS define the arsenal option. 
@@ -2206,8 +2080,6 @@ class XtdGearModels
                     "Light",
                     "Medium",
                     "Heavy",
-
-
                 };
                 class Light
                 {
@@ -2228,7 +2100,7 @@ class XtdGearModels
                 values[] =
                 {
                     "High",
-                    "Low"
+                    "Low",
                 };
                 class High
                 {
@@ -3940,13 +3812,13 @@ class CfgWeapons {
         displayName = "[22nd] M52A/W Winterized (Light)"; // In-game name
         picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "Wsnow_AAE";
-            Enviroment = "Winter";
-            Shoulder = "Light";
-            Collar = "Low";
-        };
+        //class XtdGearInfo
+        //{
+            //model = "WSnow_AAE";
+            //Enviroment = "Winter";
+            //Shoulder = "Light";
+            //Collar = "Low";
+        //};
         class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar1_Light"; // Reference to the uniform class in CfgVehicles
@@ -3995,13 +3867,13 @@ class CfgWeapons {
         displayName = "[22nd] M52A/W Winterized (Medium)"; // In-game name
         picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "Wsnow_AAE";
-            Enviroment = "Winter";
-            Shoulder = "Medium";
-            Collar = "Low";
-        };
+        //class XtdGearInfo
+        //{
+            //model = "WSnow_AAE";
+            //Enviroment = "Winter";
+            //Shoulder = "Medium";
+            //Collar = "Low";
+        //};
         class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar1_Medium"; // Reference to the uniform class in CfgVehicles
@@ -4050,13 +3922,13 @@ class CfgWeapons {
         displayName = "[22nd] M52A/W Winterized (Heavy)"; // In-game name
         picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "Wsnow_AAE";
-            Enviroment = "Winter";
-            Shoulder = "Heavy";
-            Collar = "Low";
-        };
+        //class XtdGearInfo
+        //{
+            //model = "WSnow_AAE";
+            //Enviroment = "Winter";
+            //Shoulder = "Heavy";
+            //Collar = "Low";
+        //};
         class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar1_Heavy"; // Reference to the uniform class in CfgVehicles
@@ -4107,13 +3979,13 @@ class CfgWeapons {
         displayName = "[22nd] M52A/W Winterized (Light + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "Wsnow_AAE";
-            Enviroment = "Winter";
-            Shoulder = "Light";
-            Collar = "High";
-        };
+        //class XtdGearInfo
+        //{
+            //model = "WSnow_AAE";
+            //Enviroment = "Winter";
+            //Shoulder = "Light";
+            //Collar = "High";
+        //};
         class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar1_LightC"; // Reference to the uniform class in CfgVehicles
@@ -4162,13 +4034,13 @@ class CfgWeapons {
         displayName = "[22nd] M52A/W Winterized (Medium + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "Wsnow_AAE";
-            Enviroment = "Winter";
-            Shoulder = "Medium";
-            Collar = "High";
-        };
+        //class XtdGearInfo
+        //{
+            //model = "WSnow_AAE";
+            //Enviroment = "Winter";
+            //Shoulder = "Medium";
+            //Collar = "High";
+        //};
         class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar1_MediumC"; // Reference to the uniform class in CfgVehicles
@@ -4217,13 +4089,13 @@ class CfgWeapons {
         displayName = "[22nd] M52A/W Winterized (Heavy + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "Wsnow_AAE";
-            Enviroment = "Winter";
-            Shoulder = "Heavy";
-            Collar = "High";
-        };
+        //class XtdGearInfo
+        //{
+            //model = "WSnow_AAE";
+            //Enviroment = "Winter";
+            //Shoulder = "Heavy";
+            //Collar = "High";
+        //};
         class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar1_HeavyC"; // Reference to the uniform class in CfgVehicles
@@ -4275,13 +4147,13 @@ class CfgWeapons {
         displayName = "[22nd] M52A/W Black (Light)"; // In-game name
         picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "Wsnow_AAE";
-            Enviroment = "Black";
-            Shoulder = "Light";
-            Collar = "Low";
-        };
+        //class XtdGearInfo
+        //{
+            //model = "WSnow_AAE";
+            //Enviroment = "Black";
+            //Shoulder = "Light";
+            //Collar = "Low";
+        //};
         class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar2_Light"; // Reference to the uniform class in CfgVehicles
@@ -4330,13 +4202,13 @@ class CfgWeapons {
         displayName = "[22nd] M52A/W Black (Medium)"; // In-game name
         picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "Wsnow_AAE";
-            Enviroment = "Black";
-            Shoulder = "Medium";
-            Collar = "Low";
-        };
+        //class XtdGearInfo
+        //{
+            //model = "WSnow_AAE";
+            //Enviroment = "Black";
+            //Shoulder = "Medium";
+            //Collar = "Low";
+        //};
         class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar2_Medium"; // Reference to the uniform class in CfgVehicles
@@ -4385,13 +4257,13 @@ class CfgWeapons {
         displayName = "[22nd] M52A/W Black (Heavy)"; // In-game name
         picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "Wsnow_AAE";
-            Enviroment = "Black";
-            Shoulder = "Heavy";
-            Collar = "Low";
-        };
+        //class XtdGearInfo
+        //{
+            //model = "WSnow_AAE";
+            //Enviroment = "Black";
+            //Shoulder = "Heavy";
+            //Collar = "Low";
+        //};
         class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar2_Heavy"; // Reference to the uniform class in CfgVehicles
@@ -4442,13 +4314,13 @@ class CfgWeapons {
         displayName = "[22nd] M52A/W Black (Light + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "Wsnow_AAE";
-            Enviroment = "Black";
-            Shoulder = "Light";
-            Collar = "High";
-        };
+        //class XtdGearInfo
+        //{
+            //model = "WSnow_AAE";
+            //Enviroment = "Black";
+            //Shoulder = "Light";
+            //Collar = "High";
+        //};
         class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar2_LightC"; // Reference to the uniform class in CfgVehicles
@@ -4497,13 +4369,13 @@ class CfgWeapons {
         displayName = "[22nd] M52A/W Black (Medium + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "Wsnow_AAE";
-            Enviroment = "Black";
-            Shoulder = "Medium";
-            Collar = "High";
-        };
+        //class XtdGearInfo
+        //{
+            //model = "WSnow_AAE";
+            //Enviroment = "Black";
+            //Shoulder = "Medium";
+            //Collar = "High";
+        //};
         class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar2_MediumC"; // Reference to the uniform class in CfgVehicles
@@ -4552,13 +4424,13 @@ class CfgWeapons {
         displayName = "[22nd] M52A/W Black (Heavy + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        class XtdGearInfo
-        {
-            model = "Wsnow_AAE";
-            Enviroment = "Black";
-            Shoulder = "Heavy";
-            Collar = "High";
-        };
+        //class XtdGearInfo
+        //{
+            //model = "WSnow_AAE";
+            //Enviroment = "Black";
+            //Shoulder = "Heavy";
+            //Collar = "High";
+        //};
         class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar2_HeavyC"; // Reference to the uniform class in CfgVehicles
