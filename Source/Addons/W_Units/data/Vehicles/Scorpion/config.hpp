@@ -301,26 +301,3 @@ class 22nd_M808BM_Lancer_Scorpion_Driverless: OPTRE_M808BM_UNSC_Driverless
 		};
 	};
 };
-class 22ndM808BFND_Scorpion: DMNS_M808B_F
-{
-	scope=2;
-	author="Kidd";
-	displayName="[22nd] M808B/2 Lancer Scorpion";
-	faction="22nd_Faction";
-	editorCategory="22nd_Warhound_Company";
-	editorSubcategory="22nd_Warhound_Company_Tanks";
-	side=1;
-	armor = 1100;
-	canFloat = true;
-	hiddenSelectionsTextures[]=
-	{
-		"W_Units\data\Vehicles\Scorpion\Lancer\M808B_Hull_co.paa",
-		"W_Units\data\Vehicles\Scorpion\Lancer\M808B_Turret_co.paa",
-		"W_Units\data\Vehicles\Scorpion\Lancer\M808B_Track_Housing_Front_co.paa",
-		"W_Units\data\Vehicles\Scorpion\Lancer\M808B_Track_Housing_Rear_co.paa",
-		"W_Units\data\Vehicles\Scorpion\Lancer\M808B_Commander_co.paa",
-		"W_Units\data\Vehicles\Scorpion\Lancer\M808B_Details_EXT_co.paa",
-		"W_Units\data\Vehicles\Scorpion\Lancer\M808B_Details_EXT_2_co.paa",
-		"W_Units\data\Vehicles\Scorpion\Lancer\M808B_Track_Int_co.paa"
-	};
-};
