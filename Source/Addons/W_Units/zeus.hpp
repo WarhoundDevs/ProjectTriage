@@ -1,11 +1,5 @@
 units[]=
 {
-	"22nd_Bulldog_MG",
-	"22nd_Javelin_2_A_Bulldog_MG",
-	"22nd_Pike_1_1_Bulldog_MG",
-	"22nd_Pike_1_2_Bulldog_MG",
-	"22nd_Pike_1_3_Bulldog_MG",
-	"22nd_Pike_1_A_Bulldog_MG",
 	// "22nd_UNSC_Reach_AntiTank",
 	// "22nd_UNSC_Reach_AutoRifleman",
 	// "22nd_UNSC_Reach_Crewman",
@@ -28,11 +22,9 @@ units[]=
 	"Warhound_Pelican_Orca_3",
 	"Warhound_Pelican_Orca_4",
 	"Warhound_Pelican_ARMY_SOCOM",
-	"22nd_Vehicle_Heavy_Pelican",
 	"22nd_M808BM_Scorpion",
 	"22nd_M808BM_Lancer_Scorpion",
 	"22nd_M808BM_Lancer_Scorpion_Driverless",
-	"22ndRDFM808BFND_Scorpion",
 	"Warhound_Oryx",
 	"22nd_Oryx_Pike1A",
 	"22nd_Oryx_Pike11",
@@ -51,4 +43,5 @@ units[]=
 	"Warhound_APC_Oryx_AIE_RCWS",
 	"Warhound_APC_Oryx_M37",
 	"Warhound_APC_Oryx_M37_RCWS",
+	"22nd_Elephant",
 };

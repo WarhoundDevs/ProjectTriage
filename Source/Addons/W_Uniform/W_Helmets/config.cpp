@@ -14,8 +14,6 @@ class CfgPatches {
             "22nd_HelmSnow_Eye",
             "22nd_HelmSnow_Visor",
             //Aviation
-            "22nd_HelmAvi_Open",
-            "22nd_HelmAvi_Closed",
             //OPEN MED
             // Base
             "22nd_HelmBase_Open_med",
@@ -1564,6 +1562,10 @@ class CfgWeapons {
                         };
                     };
         };// Close 22nd_HelmSnow_Visor
+
+
+    
+
     /*
     * Begin Custom Helmets
     */
