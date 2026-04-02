@@ -14,6 +14,9 @@ class CfgPatches {
             "22nd_HelmSnow_Eye",
             "22nd_HelmSnow_Visor",
             //Aviation
+            "22nd_VX19_Woodland",
+            "22nd_VX19_Arid",
+            "22nd_VX19_Winter",
             //OPEN MED
             // Base
             "22nd_HelmBase_Open_med",
@@ -190,6 +193,7 @@ class XtdGearModels
 };
 class CfgWeapons {
     class CH252_Helmet_Base;
+    class OPTRE_FC_VX19_Helmet;
     class ItemInfo;
     /*
     * Begin Base Helmets
@@ -572,9 +576,9 @@ class CfgWeapons {
             };
               hiddenSelectionsTextures[] =
               {
-                  "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Snow.paa",
-                  "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Snow.paa",
-                  "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Snow.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
                   "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
                   "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
                   "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
@@ -742,9 +746,9 @@ class CfgWeapons {
             };
               hiddenSelectionsTextures[] =
               {
-                  "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Snow.paa",
-                  "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Snow.paa",
-                  "\W_Uniform\W_Helmets\Infantry\22nd_Helmet_Snow.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
                   "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
                   "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
                   "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
@@ -1562,9 +1566,20 @@ class CfgWeapons {
                         };
                     };
         };// Close 22nd_HelmSnow_Visor
-
-
-    
+        // Begin Aviation Helmets
+        class 22nd_VX19_Woodland: OPTRE_FC_VX19_Helmet
+        {
+            scope=2;
+            scopeArsenal=2;
+            author="Warhound Mod Team";
+            displayName="[22nd] VX-19 Woodland";
+            model="\OPTRE_FC_Units\Marines\h3_pilothelmet.p3d";
+            picture="\W_Uniform\W_Helmets\22ndRDF.paa";//Add Icon
+            hiddenSelectionsTextures[] = {
+            "\W_Uniform\W_Helmets\Airman\22nd_Air_Helm_Woodland.paa",
+            "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa",
+        };
+    };
 
     /*
     * Begin Custom Helmets
