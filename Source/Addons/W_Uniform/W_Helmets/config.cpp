@@ -1576,7 +1576,33 @@ class CfgWeapons {
             model="\OPTRE_FC_Units\Marines\h3_pilothelmet.p3d";
             picture="\W_Uniform\W_Helmets\22ndRDF.paa";//Add Icon
             hiddenSelectionsTextures[] = {
-            "\W_Uniform\W_Helmets\Airman\22nd_Air_Helm_Woodland.paa",
+            "\W_Uniform\W_Helmets\Aviation\22nd_Air_Helm_Woodland_Co.paa",
+            "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa",
+        };
+    };
+        class 22nd_VX19_Winter: OPTRE_FC_VX19_Helmet
+        {
+            scope=2;
+            scopeArsenal=2;
+            author="Warhound Mod Team";
+            displayName="[22nd] VX-19 Winter";
+            model="\OPTRE_FC_Units\Marines\h3_pilothelmet.p3d";
+            picture="\W_Uniform\W_Helmets\22ndRDF.paa";//Add Icon
+            hiddenSelectionsTextures[] = {
+            "\W_Uniform\W_Helmets\Aviation\22nd_Air_Helm_Snow_Co.paa",
+            "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa",
+        };
+    };
+        class 22nd_VX19_Arid: OPTRE_FC_VX19_Helmet
+        {
+            scope=2;
+            scopeArsenal=2;
+            author="Warhound Mod Team";
+            displayName="[22nd] VX-19 Arid";
+            model="\OPTRE_FC_Units\Marines\h3_pilothelmet.p3d";
+            picture="\W_Uniform\W_Helmets\22ndRDF.paa";//Add Icon
+            hiddenSelectionsTextures[] = {
+            "\W_Uniform\W_Helmets\Aviation\22nd_Air_Helm_Arid_Co.paa",
             "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa",
         };
     };
