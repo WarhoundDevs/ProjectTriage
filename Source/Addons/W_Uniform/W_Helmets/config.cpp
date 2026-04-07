@@ -576,9 +576,9 @@ class CfgWeapons {
             };
               hiddenSelectionsTextures[] =
               {
-                  "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Snow.paa",
-                  "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Snow.paa",
-                  "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Snow.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
                   "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
                   "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
                   "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
@@ -746,9 +746,9 @@ class CfgWeapons {
             };
               hiddenSelectionsTextures[] =
               {
-                  "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Snow.paa",
-                  "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Snow.paa",
-                  "\W_Uniform\W_Armour\Infantry\22nd_Helmet_Snow.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
                   "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
                   "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
                   "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
