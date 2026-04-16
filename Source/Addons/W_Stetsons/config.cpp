@@ -1,3 +1,4 @@
+#include "BIS_AddonInfo.hpp"
 #define _ARMA_
 
 class CfgPatches
@@ -14,7 +15,7 @@ class CfgVehicleClasses
 {
 	class 22nd_Stetson_Hat
 	{
-		displayName = "22nd UNSC Army Stetson";
+		displayName = "22nd UNSC Army Headgear";
 	};
 };
 class CfgVehicles
@@ -33,19 +34,31 @@ class cfgWeapons
 		displayName = "Cavalry Stetson";
 		vehicleClass = "22nd_Stetson_Hat";
 		author = "22nd Mod Team";
-		picture = "\W_Stetson\UI\icon_h_stetson_ca.paa";
-		model = "\W_Stetson\W_Stetson";
-		hiddenSelectionsTextures[] = {"\W_Stetson\Data\Stetson_co.paa"};
-		hiddenSelections[] = {"Camo"};
+		picture = "\W_Stetsons\UI\icon_h_stetson_ca.paa";
+		model = "\W_Stetsons\22nd_Stetson";
+		hiddenSelectionsTextures[] = 
+		{
+			"\W_Stetsons\Data\Stetson_co.paa"
+		};
+		hiddenSelections[] = 
+		{
+			"Camo"
+		};
 		class ItemInfo: HeadgearItem
 		{
 			mass = 5;
-			uniformmodel = "\W_Stetson\W_Stetson";
+			uniformmodel = "\W_Stetsons\22nd_Stetson";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.95;
-			hiddenSelectionsTextures[] = {"\W_Stetson\Data\Stetson_co.paa"};
-			hiddenSelections[] = {"Camo"};
+			hiddenSelectionsTextures[] = 
+			{
+				"\W_Stetsons\Data\Stetson_co.paa"
+			};
+			hiddenSelections[] = 
+			{
+				"Camo"
+			};
 		};
 	};
 };

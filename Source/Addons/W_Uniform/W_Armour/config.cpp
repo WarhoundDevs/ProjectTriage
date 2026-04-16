@@ -2082,9 +2082,6 @@ class XtdGearModels
                     "Olive",
                     "Woodland",
                 };
-
-
-
                 class BrownWD
                 {
                     label = "Brown/WD";
@@ -2211,7 +2208,7 @@ class XtdGearModels
                 };
             };
         };
-        class WCustom_AAE
+        class WCustomArm_AAE
         {
             label = "[22nd] M52A Custom";
             author = "Warhound Mod Team";
@@ -4590,7 +4587,7 @@ class CfgWeapons {
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
-            model = "WCustom_AAE";
+            model = "WCustomArm_AAE";
             Custom = "Relic";
         };
         class ItemInfo : UniformItem {
@@ -4645,7 +4642,7 @@ class CfgWeapons {
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
-            model = "WCustom_AAE";
+            model = "WCustomArm_AAE";
             Custom = "Rya";
         };
         class ItemInfo : UniformItem {
@@ -4700,7 +4697,7 @@ class CfgWeapons {
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
         class XtdGearInfo
         {
-            model = "WCustom_AAE";
+            model = "WCustomArm_AAE";
             Custom = "Sue";
         };
         class ItemInfo : UniformItem {
