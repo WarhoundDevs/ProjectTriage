@@ -4,8 +4,8 @@ class Warhound_Oryx: OPTRE_M494
 	author="Gatt, Kidd";
 	displayName="[22nd] M494 Oryx IFV";
 	faction="22nd_Faction";
-	editorCategory="22nd_Warhound_Company";
-	editorSubcategory="22nd_Warhound_Company_IFVs";
+	editorCategory="22nd_Warhound_Squadron";
+	editorSubcategory="22nd_Warhound_Squadron_IFVs";
 	editorPreview="\OPTRE_Vehicles_Tracked\Oryx\data\Preview\OPTRE_M494.jpg";
 	side=1;
 	LODDriverTurnedIn=1100;

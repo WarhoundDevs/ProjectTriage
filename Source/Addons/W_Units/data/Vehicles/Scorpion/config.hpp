@@ -7,8 +7,8 @@ class 22nd_M808BM_Scorpion: OPTRE_M808BM_UNSC
 	author="Kidd";
 	displayName="[22nd] M808BM Scorpion";
 	faction="22nd_Faction";
-	editorCategory="22nd_Warhound_Company";
-	editorSubcategory="22nd_Warhound_Company_Tanks";
+	editorCategory="22nd_Warhound_Squadron";
+	editorSubcategory="22nd_Warhound_Squadron_Tanks";
 	editorPreview="\OPTRE_Vehicles\Oryx\data\Preview\OPTRE_M494.jpg";
 	side=1;
 	hiddenSelectionsTextures[] =
@@ -107,8 +107,8 @@ class 22nd_M808BM_Lancer_Scorpion: OPTRE_M808BM_UNSC
 	author="Kidd";
 	displayName="[22nd] M808BM Lancer Scorpion";
 	faction="22nd_Faction";
-	editorCategory="22nd_Warhound_Company";
-	editorSubcategory="22nd_Warhound_Company_Tanks";
+	editorCategory="22nd_Warhound_Squadron";
+	editorSubcategory="22nd_Warhound_Squadron_Tanks";
 	editorPreview="\OPTRE_Vehicles\Oryx\data\Preview\OPTRE_M494.jpg";
 	side=1;
 	hiddenSelectionsTextures[] =
@@ -207,8 +207,8 @@ class 22nd_M808BM_Lancer_Scorpion_Driverless: OPTRE_M808BM_UNSC_Driverless
 	author="Kidd";
 	displayName="[22nd] M808BM Lancer Scorpion Driverless";
 	faction="22nd_Faction";
-	editorCategory="22nd_Warhound_Company";
-	editorSubcategory="22nd_Warhound_Company_Tanks";
+	editorCategory="22nd_Warhound_Squadron";
+	editorSubcategory="22nd_Warhound_Squadron_Tanks";
 	editorPreview="\OPTRE_Vehicles\Oryx\data\Preview\OPTRE_M494.jpg";
 	side=1;
 	hiddenSelectionsTextures[] =

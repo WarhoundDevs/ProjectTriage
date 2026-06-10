@@ -12,8 +12,8 @@ class Warhound_Pelican_ARMY: OPTRE_Pelican_armed
 	displayName="[22nd] D77H-TCI/AV Pelican";
 	faction="22nd_Faction";
 	crew="OPTRE_UNSC_Marine_Pilot";
-	editorCategory="22nd_Warhound_Company";
-	editorSubcategory="22nd_Warhound_Company_Air_Vehicles";
+	editorCategory="22nd_Warhound_Squadron";
+	editorSubcategory="22nd_Warhound_Squadron_Air_Vehicles";
 	hiddenSelections[]=
 	{
 		"camo1",
@@ -121,8 +121,8 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 	displayName="[22nd] D77H-TCI/AV Pelican Single Seater";
 	faction="22nd_Faction";
 	crew="OPTRE_UNSC_Marine_Pilot";
-	editorCategory="22nd_Warhound_Company";
-	editorSubcategory="22nd_Warhound_Company_Air_Vehicles";
+	editorCategory="22nd_Warhound_Squadron";
+	editorSubcategory="22nd_Warhound_Squadron_Air_Vehicles";
 	hiddenSelections[]=
 	{
 		"camo1",
@@ -219,8 +219,8 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
 	displayName="[22nd] D77H-TCI/AV Pelican SOCOM (WIP)";
 	faction="22nd_Faction";
 	crew="OPTRE_UNSC_Marine_Pilot";
-	editorCategory="22nd_Warhound_Company";
-	editorSubcategory="22nd_Warhound_Company_Air_Vehicles";
+	editorCategory="22nd_Warhound_Squadron";
+	editorSubcategory="22nd_Warhound_Squadron_Air_Vehicles";
 	hiddenSelections[]=
 	{
 		"camo1",
