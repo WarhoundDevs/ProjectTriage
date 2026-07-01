@@ -6,8 +6,8 @@ class Warhound_Bayonet_Orca_Default: OPTRE_bayonet_01
 	side=1;
 	scope=2;
 	scopeCurator=2;
-	editorCategory="22nd_Warhound_Squadron";
-	editorSubcategory="22nd_Warhound_Squadron_Air_Vehicles";
+	editorCategory="22nd_Warhound_Company";
+	editorSubcategory="22nd_Warhound_Company_Air_Vehicles";
 	dlc="Cvics";
 	author="DJ Tachanka";
 	crew="OPTRE_UNSC_Marine_Pilot";
@@ -36,8 +36,8 @@ class Warhound_Bayonet_Orca_Stealth: OPTRE_bayonetstealth_01
 	side=1;
 	scope=2;
 	scopeCurator=2;
-	editorCategory="22nd_Warhound_Squadron";
-	editorSubcategory="22nd_Warhound_Squadron_Air_Vehicles";
+	editorCategory="22nd_Warhound_Company";
+	editorSubcategory="22nd_Warhound_Company_Air_Vehicles";
 	dlc="Cvics";
 	author="DJ Tachanka";
 	crew="OPTRE_UNSC_Marine_Pilot";
@@ -61,63 +61,5 @@ class Warhound_Bayonet_Orca_Stealth: OPTRE_bayonetstealth_01
 		"W_Units\data\Vehicles\Bayonet\Bayonet_02_fuselage_Orca_co.paa"
 	};
 };
-
-class Warhound_Bayonet_Orca3: OPTRE_bayonet_01
-{
-	side =1;
-	scope=2;
-	scopeCurator=2;
-	editorCategory="22nd_Warhound_Squadron";
-	editorSubcategory="22nd_Warhound_Squadron_Air_Vehicles";
-	dlc="Cvics";
-	author="Raven";
-	displayName="[22nd] Bayonet (Orca 3)";
-	class textureSources
-	{
-		class Orca3Bayonet
-		{
-			author="Raven";
-			displayName="Orca 3";
-			textures[]=
-			{
-				"W_Units\data\Vehicles\Bayonet\Orca_3\Orca_3_Bayonet_01_fuselage_co.paa",
-				"W_Units\data\Vehicles\Bayonet\Orca_3\Orca_3_Bayonet_02_fuselage_co.paa"
-			};
-		};
-	};
-	hiddenSelectionsTextures[]=
-	{
-		"W_Units\data\Vehicles\Bayonet\Orca_3\Orca_3_Bayonet_01_fuselage_co.paa",
-		"W_Units\data\Vehicles\Bayonet\Orca_3\Orca_3_Bayonet_02_fuselage_co.paa"
-	};
-};
-class Warhound_Bayonet_Stealth_Orca3: OPTRE_bayonetstealth_01
-{
-	side =1;
-	scope=2;
-	scopeCurator=2;
-	editorCategory="22nd_Warhound_Squadron";
-	editorSubcategory="22nd_Warhound_Squadron_Air_Vehicles";
-	dlc="Cvics";
-	author="Raven";
-	displayName="[22nd] Bayonet Stealth (Orca 3)";
-	class textureSources
-	{
-		class Orca3Bayonet
-		{
-			author="Raven";
-			displayName="Orca 3";
-			textures[]=
-			{
-				"W_Units\data\Vehicles\Bayonet\Orca_3\Orca_3_Bayonet_01_fuselage_co.paa",
-				"W_Units\data\Vehicles\Bayonet\Orca_3\Orca_3_Bayonet_02_fuselage_co.paa"
-			};
-		};
-	};
-	hiddenSelectionsTextures[]=
-	{
-		"W_Units\data\Vehicles\Bayonet\Orca_3\Orca_3_Bayonet_01_fuselage_co.paa",
-		"W_Units\data\Vehicles\Bayonet\Orca_3\Orca_3_Bayonet_02_fuselage_co.paa"
-	};
-};
-
+#include "Orca_4\config.hpp"
+#include "Orca_3\config.hpp"

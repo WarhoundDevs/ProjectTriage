@@ -10,8 +10,8 @@ class 22nd_144_Falcon_Armed: OPTRE_UNSC_falcon_armed
 	author="Kidd";
 	displayName="[22nd] UH-144 Falcon Armed";
 	faction="22nd_Faction";
-	editorCategory="22nd_Warhound_Squadron";
-	editorSubcategory="22nd_Warhound_Squadron_Air_Vehicles";
+	editorCategory="22nd_Warhound_Company";
+	editorSubcategory="22nd_Warhound_Company_Air_Vehicles";
 	side=1;
 	hiddenSelectionsTextures[] =
 	{
@@ -85,8 +85,8 @@ class 22nd_144_Falcon_Unarmed: OPTRE_UNSC_falcon
 	author="Kidd";
 	displayName="[22nd] UH-144 Falcon Unarmed";
 	faction="22nd_Faction";
-	editorCategory="22nd_Warhound_Squadron";
-	editorSubcategory="22nd_Warhound_Squadron_Air_Vehicles";
+	editorCategory="22nd_Warhound_Company";
+	editorSubcategory="22nd_Warhound_Company_Air_Vehicles";
 	side=1;
 	hiddenSelectionsTextures[] =
 	{
@@ -160,8 +160,8 @@ class 22nd_144S_Falcon_Armed: OPTRE_UNSC_falcon_armed_S
 	author="Kidd";
 	displayName="[22nd] UH-144S Falcon Armed";
 	faction="22nd_Faction";
-	editorCategory="22nd_Warhound_Squadron";
-	editorSubcategory="22nd_Warhound_Squadron_Air_Vehicles";
+	editorCategory="22nd_Warhound_Company";
+	editorSubcategory="22nd_Warhound_Company_Air_Vehicles";
 	side=1;
 	hiddenSelectionsTextures[] =
 	{
@@ -235,8 +235,8 @@ class 22nd_144S_Falcon_Unarmed: OPTRE_UNSC_falcon_S
 	author="Kidd";
 	displayName="[22nd] UH-144S Falcon Unarmed";
 	faction="22nd_Faction";
-	editorCategory="22nd_Warhound_Squadron";
-	editorSubcategory="22nd_Warhound_Squadron_Air_Vehicles";
+	editorCategory="22nd_Warhound_Company";
+	editorSubcategory="22nd_Warhound_Company_Air_Vehicles";
 	side=1;
 	hiddenSelectionsTextures[] =
 	{
@@ -310,8 +310,8 @@ class 22nd_144AGL_Falcon: OPTRE_Falconagl_01
 	author="Kidd";
 	displayName="[22nd] UH-144AGL Falcon";
 	faction="22nd_Faction";
-	editorCategory="22nd_Warhound_Squadron";
-	editorSubcategory="22nd_Warhound_Squadron_Air_Vehicles";
+	editorCategory="22nd_Warhound_Company";
+	editorSubcategory="22nd_Warhound_Company_Air_Vehicles";
 	side=1;
 	hiddenSelectionsTextures[] =
 	{
@@ -378,3 +378,5 @@ class 22nd_144AGL_Falcon: OPTRE_Falconagl_01
 		};
 	};
 };
+
+#include "Orca_5\config.hpp"

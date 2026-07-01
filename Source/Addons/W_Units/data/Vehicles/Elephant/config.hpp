@@ -6,9 +6,9 @@ class 22nd_Elephant: OPTRE_M313_Base
     author="Warhound Mod Team";
     displayName="[22nd] M313 Elephant";
     faction="22nd_Faction";
-    editorCategory="22nd_Warhound_Squadron";
+    editorCategory="22nd_Warhound_Company";
     #include "W_physX.hpp"
-    editorSubcategory="22nd_Warhound_Squadron_Tanks";
+    editorSubcategory="22nd_Warhound_Company_Tanks";
     side=1;
 	hiddenSelections[] = {"camo_consoles","camo_exterior","camo_flooring","camo_hull","camo_interior","camo_tracks","camo_tracks2",};
 		hiddenSelectionsTextures[] = 

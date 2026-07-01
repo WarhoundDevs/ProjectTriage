@@ -9,8 +9,8 @@ class Warhound_Pelican_Orca_1: OPTRE_Pelican_armed
 	displayName="[22nd] Pelican Orca 1";
 	faction="22nd_Faction";
 	crew="OPTRE_UNSC_Marine_Pilot";
-	editorCategory="22ndRDF_Warhound_Squadron";
-	editorSubcategory="22ndRDF_Warhound_Squadron_Air_Vehicles";
+	editorCategory="22ndRDF_Warhound_Company";
+	editorSubcategory="22ndRDF_Warhound_Company_Air_Vehicles";
 	hiddenSelections[]=
 	{
 		"camo1",

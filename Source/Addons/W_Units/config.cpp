@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class 22nd_Warhound_Squadron_Units // General Units Class
+	class 22nd_Warhound_Company_Units // General Units Class
 	{
 		author="Warhound Modding Team";
 		#include "zeus.hpp"
@@ -9,27 +9,27 @@ class CfgPatches
 
 class CfgEditorCategories
 {
-	class 22nd_Warhound_Squadron // Editor Category
+	class 22nd_Warhound_Company // Editor Category
 	{
-		displayName="Warhound";
+		displayName="Warhound Company";
 	};
 };
 
 class CfgEditorSubcategories
 {
-	class 22nd_Warhound_Squadron_Air_Vehicles // Airframes
+	class 22nd_Warhound_Company_Air_Vehicles // Airframes
 	{
-		displayName="Air";
+		displayName="Air Vehicles";
 	};
-	class 22nd_Warhound_Squadron_Cars // Warthogs, Bulldogs etc.
+	class 22nd_Warhound_Company_Cars // Warthogs, Bulldogs etc.
 	{
 		displayName="Cars";
 	};
-	class 22nd_Warhound_Squadron_Tanks // Tonks
+	class 22nd_Warhound_Company_Tanks // Tonks
 	{
 		displayName="Tanks";
 	};
-	class 22nd_Warhound_Squadron_APCs // Oryx APCs etc.
+	class 22nd_Warhound_Company_APCs // Oryx APCs etc.
 	{
 		displayName="APCs";
 	};
@@ -55,7 +55,7 @@ class CfgEditorSubcategories
 	/*
 	* End Changes
 	*/
-	class 22nd_Warhound_Squadron_IFVs // Oryx IFVs etc.
+	class 22nd_Warhound_Company_IFVs // Oryx IFVs etc.
 	{
 		displayName="IFVs";
 	};
@@ -79,7 +79,7 @@ class CfgFunctions // Loading of appropriate scripts.
 	{
 		class PelicanMagLiftSystem
 		{
-			file="Warhound_Units\data\Functions";
+			file="W_Units\data\Functions";
 			class PelicanLoadValidate
 			{
 			};

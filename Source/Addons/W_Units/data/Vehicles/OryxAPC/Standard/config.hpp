@@ -6,8 +6,8 @@ class Warhound_APC_Oryx: OPTRE_M493_APC
 	author="Gatt, Kidd";
 	displayName="[22nd] M493 Oryx APC";
 	faction="22nd_Faction";
-	editorCategory="22nd_Warhound_Squadron";
-	editorSubcategory="22nd_Warhound_Squadron_APCs";
+	editorCategory="22nd_Warhound_Company";
+	editorSubcategory="22nd_Warhound_Company_APCs";
 	editorPreview="W_Units\data\Vehicles\OryxAPC\Preview\OryxAPC.jpg";
 	side=1;
 	LODDriverTurnedIn=1100;
@@ -102,8 +102,8 @@ class Warhound_APC_Oryx_AIE: OPTRE_M493_AIE
 	author="Gatt, Kidd";
 	displayName="[22nd] M493 Oryx APC AIE";
 	faction="22nd_Faction";
-	editorCategory="22nd_Warhound_Squadron";
-	editorSubcategory="22nd_Warhound_Squadron_APCs";
+	editorCategory="22nd_Warhound_Company";
+	editorSubcategory="22nd_Warhound_Company_APCs";
 	editorPreview="W_Units\data\Vehicles\OryxAPC\Preview\OryxAPC.jpg";
 	side=1;
 	LODDriverTurnedIn=1100;
@@ -198,8 +198,8 @@ class Warhound_APC_Oryx_AIE_RCWS: OPTRE_M493_AIE_RCWS
 	author="Gatt, Kidd";
 	displayName="[22nd] M493 Oryx APC AIE RCWS";
 	faction="22nd_Faction";
-	editorCategory="22nd_Warhound_Squadron";
-	editorSubcategory="22nd_Warhound_Squadron_APCs";
+	editorCategory="22nd_Warhound_Company";
+	editorSubcategory="22nd_Warhound_Company_APCs";
 	editorPreview="W_Units\data\Vehicles\OryxAPC\Preview\OryxAPC.jpg";
 	side=1;
 	LODDriverTurnedIn=1100;
@@ -294,8 +294,8 @@ class Warhound_APC_Oryx_M37: OPTRE_M493_M37
 	author="Gatt, Kidd";
 	displayName="[22nd] M493 Oryx APC M37";
 	faction="22nd_Faction";
-	editorCategory="22nd_Warhound_Squadron";
-	editorSubcategory="22nd_Warhound_Squadron_APCs";
+	editorCategory="22nd_Warhound_Company";
+	editorSubcategory="22nd_Warhound_Company_APCs";
 	editorPreview="W_Units\data\Vehicles\OryxAPC\Preview\OryxAPC.jpg";
 	side=1;
 	LODDriverTurnedIn=1100;
@@ -390,8 +390,8 @@ class Warhound_APC_Oryx_M37_RCWS: OPTRE_M493_M37_RCWS
 	author="Gatt, Kidd";
 	displayName="[22nd] M493 Oryx APC M37 RCWS";
 	faction="22nd_Faction";
-	editorCategory="22nd_Warhound_Squadron";
-	editorSubcategory="22nd_Warhound_Squadron_APCs";
+	editorCategory="22nd_Warhound_Company";
+	editorSubcategory="22nd_Warhound_Company_APCs";
 	editorPreview="W_Units\data\Vehicles\OryxAPC\Preview\OryxAPC.jpg";
 	side=1;
 	LODDriverTurnedIn=1100;

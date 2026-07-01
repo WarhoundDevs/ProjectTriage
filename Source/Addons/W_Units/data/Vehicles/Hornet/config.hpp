@@ -8,8 +8,8 @@ class 22nd_Hornet: OPTRE_UNSC_hornet
 	author="Kidd";
 	displayName="[22nd] AV-14 Hornet";
 	faction="22nd_Faction";
-	editorCategory="22nd_Warhound_Squadron";
-	editorSubcategory="22nd_Warhound_Squadron_Air_Vehicles";
+	editorCategory="22nd_Warhound_Company";
+	editorSubcategory="22nd_Warhound_Company_Air_Vehicles";
 	side=1;
 	hiddenSelectionsTextures[] =
 	{
@@ -73,8 +73,8 @@ class 22nd_Hornet_CAP: OPTRE_UNSC_hornet_CAP
 	author="Kidd";
 	displayName="[22nd] AV-14 Hornet CAP";
 	faction="22nd_Faction";
-	editorCategory="22nd_Warhound_Squadron";
-	editorSubcategory="22nd_Warhound_Squadron_Air_Vehicles";
+	editorCategory="22nd_Warhound_Company";
+	editorSubcategory="22nd_Warhound_Company_Air_Vehicles";
 	side=1;
 	hiddenSelectionsTextures[] =
 	{
@@ -138,8 +138,8 @@ class 22nd_Hornet_CAS: OPTRE_UNSC_hornet_CAS
 	author="Kidd";
 	displayName="[22nd] AV-14 Hornet CAS";
 	faction="22nd_Faction";
-	editorCategory="22nd_Warhound_Squadron";
-	editorSubcategory="22nd_Warhound_Squadron_Air_Vehicles";
+	editorCategory="22nd_Warhound_Company";
+	editorSubcategory="22nd_Warhound_Company_Air_Vehicles";
 	side=1;
 	hiddenSelectionsTextures[] =
 	{
