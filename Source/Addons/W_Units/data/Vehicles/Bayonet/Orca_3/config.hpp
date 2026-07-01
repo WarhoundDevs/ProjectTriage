@@ -2,17 +2,17 @@ class Warhound_Bayonet_Orca_3: OPTRE_bayonet_01
 {
 	side=1;
 	scope=2;
-	editorCategory="22ndRDF_Warhound_Company";
-	editorSubcategory="22ndRDF_Warhound_Company_Air_Vehicles";
+	editorCategory="22nd_Warhound_Company";
+	editorSubcategory="22nd_Warhound_Company_Air_Vehicles";
 	dlc="Cvics";
-	author="TacoHombre";
+	author="Astro";
 	crew="OPTRE_UNSC_Marine_Pilot";
 	displayName="[22nd] Bayonet (Orca 3)";
 	class textureSources
 	{
 		class Orca3Bayonet
 		{
-			author="TacoHombre";
+			author="Astro";
 			displayName="Orca 3";
 			textures[]=
 			{
@@ -31,17 +31,17 @@ class Warhound_Bayonet_Stealth_Orca3: OPTRE_bayonetstealth_01
 {
 	side=1;
 	scope=2;
-	editorCategory="22ndRDF_Warhound_Company";
-	editorSubcategory="22ndRDF_Warhound_Company_Air_Vehicles";
+	editorCategory="22nd_Warhound_Company";
+	editorSubcategory="22nd_Warhound_Company_Air_Vehicles";
 	dlc="Cvics";
-	author="TacoHombre";
+	author="Astro";
 	crew="OPTRE_UNSC_Marine_Pilot";
 	displayName="[22nd] Bayonet Stealth (Orca 3)";
 	class textureSources
 	{
 		class Orca3StealthBayonet
 		{
-			author="TacoHombre";
+			author="Astro";
 			displayName="Orca 3";
 			textures[]=
 			{

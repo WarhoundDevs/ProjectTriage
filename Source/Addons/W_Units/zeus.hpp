@@ -21,6 +21,7 @@ units[]=
 	"Warhound_Pelican_Orca_2",
 	"Warhound_Pelican_Orca_3",
 	"Warhound_Pelican_Orca_4",
+	"22nd_144_Falcon_Orca_5",
 	"Warhound_Pelican_ARMY_SOCOM",
 	"22nd_M808BM_Scorpion",
 	"22nd_M808BM_Lancer_Scorpion",
