@@ -22,6 +22,12 @@ class CfgPatches {
             "22nd_VX19_Woodland_HMHD",
             "22nd_VX19_Arid_HMHD",
             "22nd_VX19_Winter_HMHD",
+            //Crewman
+            "W_CH252C_Helmet_Base",
+            "W_CH252C_Helmet_Urban",
+            "W_CH252C_Helmet_Snow",
+            "W_CH252C_Helmet_Arid",
+            "W_CH252C_Helmet_Woodland",
             //OPEN MED
             // Base
             "22nd_HelmBase_Open_med",
@@ -72,7 +78,7 @@ class CfgPatches {
         requiredAddons[] = 
         {
             "MA_Armor", 
-            "A3_Characters_F", 
+            "A3_Characters_F",
             "A3_Data_F_Mark"
         }; // Reference any required addons
     };
@@ -341,6 +347,48 @@ class XtdGearModels
                 class Ras
                 {
                     label = "Ras";
+                };
+            };
+        };
+        class W_CH252C_Helmet{
+
+            label = "22nd CH252C";
+
+            options[] =
+            {
+            "Camouflage",
+            };
+
+            class Camouflage
+            {
+                label = "Camouflage";
+
+                values[] =
+                {
+                    "Urban",
+                    "Woodland",
+                    "Arid",
+                    "Winter"
+                };
+
+                class Urban
+                {
+                    label = "Urban";
+                };
+
+                class Woodland
+                {
+                    label = "Woodland";
+                };
+
+                class Arid
+                {
+                    label = "Arid";
+                };
+
+                class Snow
+                {
+                    label = "Winter";
                 };
             };
         };
@@ -3272,5 +3320,6 @@ class CfgWeapons {
             };
         };
     };// Close 22nd_HelmCustom_Harper
-};
+    
+    #include "Crewman\config.hpp"
 };
