@@ -2139,7 +2139,7 @@ class XtdGearModels
                 };
             };
         };
-        class WSnow_AAE
+        class WWinter_AAE
         {
             label = "[22nd] M52A Winter";
             author = "Warhound Mod Team";
@@ -3920,13 +3920,13 @@ class CfgWeapons {
         displayName = "[22nd] M52A/W Winterized (Light)"; // In-game name
         picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        //class XtdGearInfo
-        //{
-            //model = "WSnow_AAE";
-            //Enviroment = "Winter";
-            //Shoulder = "Light";
-            //Collar = "Low";
-        //};
+        class XtdGearInfo
+        {
+            model = "WWinter_AAE";
+            Enviroment = "Winter";
+            Shoulder = "Light";
+            Collar = "Low";
+        };
         class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar1_Light"; // Reference to the uniform class in CfgVehicles
@@ -3974,13 +3974,13 @@ class CfgWeapons {
         displayName = "[22nd] M52A/W Winterized (Medium)"; // In-game name
         picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        //class XtdGearInfo
-        //{
-            //model = "WSnow_AAE";
-            //Enviroment = "Winter";
-            //Shoulder = "Medium";
-            //Collar = "Low";
-        //};
+        class XtdGearInfo
+        {
+            model = "WWinter_AAE";
+            Enviroment = "Winter";
+            Shoulder = "Medium";
+            Collar = "Low";
+        };
         class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar1_Medium"; // Reference to the uniform class in CfgVehicles
@@ -4028,13 +4028,13 @@ class CfgWeapons {
         displayName = "[22nd] M52A/W Winterized (Heavy)"; // In-game name
         picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        //class XtdGearInfo
-        //{
-            //model = "WSnow_AAE";
-            //Enviroment = "Winter";
-            //Shoulder = "Heavy";
-            //Collar = "Low";
-        //};
+        class XtdGearInfo
+        {
+            model = "WWinter_AAE";
+            Enviroment = "Winter";
+            Shoulder = "Heavy";
+            Collar = "Low";
+        };
         class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar1_Heavy"; // Reference to the uniform class in CfgVehicles
@@ -4085,13 +4085,13 @@ class CfgWeapons {
         displayName = "[22nd] M52A/W Winterized (Light + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        //class XtdGearInfo
-        //{
-            //model = "WSnow_AAE";
-            //Enviroment = "Winter";
-            //Shoulder = "Light";
-            //Collar = "High";
-        //};
+        class XtdGearInfo
+        {
+            model = "WWinter_AAE";
+            Enviroment = "Winter";
+            Shoulder = "Light";
+            Collar = "High";
+        };
         class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar1_LightC"; // Reference to the uniform class in CfgVehicles
@@ -4139,13 +4139,13 @@ class CfgWeapons {
         displayName = "[22nd] M52A/W Winterized (Medium + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        //class XtdGearInfo
-        //{
-            //model = "WSnow_AAE";
-            //Enviroment = "Winter";
-            //Shoulder = "Medium";
-            //Collar = "High";
-        //};
+        class XtdGearInfo
+        {
+            model = "WWinter_AAE";
+            Enviroment = "Winter";
+            Shoulder = "Medium";
+            Collar = "High";
+        };
         class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar1_MediumC"; // Reference to the uniform class in CfgVehicles
@@ -4193,13 +4193,13 @@ class CfgWeapons {
         displayName = "[22nd] M52A/W Winterized (Heavy + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        //class XtdGearInfo
-        //{
-            //model = "WSnow_AAE";
-            //Enviroment = "Winter";
-            //Shoulder = "Heavy";
-            //Collar = "High";
-        //};
+        class XtdGearInfo
+        {
+            model = "WWinter_AAE";
+            Enviroment = "Winter";
+            Shoulder = "Heavy";
+            Collar = "High";
+        };
         class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar1_HeavyC"; // Reference to the uniform class in CfgVehicles
@@ -4250,13 +4250,13 @@ class CfgWeapons {
         displayName = "[22nd] M52A/W Black (Light)"; // In-game name
         picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        //class XtdGearInfo
-        //{
-            //model = "WSnow_AAE";
-            //Enviroment = "Black";
-            //Shoulder = "Light";
-            //Collar = "Low";
-        //};
+        class XtdGearInfo
+        {
+            model = "WWinter_AAE";
+            Enviroment = "Black";
+            Shoulder = "Light";
+            Collar = "Low";
+        };
         class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar2_Light"; // Reference to the uniform class in CfgVehicles
@@ -4304,13 +4304,13 @@ class CfgWeapons {
         displayName = "[22nd] M52A/W Black (Medium)"; // In-game name
         picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        //class XtdGearInfo
-        //{
-            //model = "WSnow_AAE";
-            //Enviroment = "Black";
-            //Shoulder = "Medium";
-            //Collar = "Low";
-        //};
+        class XtdGearInfo
+        {
+            model = "WWinter_AAE";
+            Enviroment = "Black";
+            Shoulder = "Medium";
+            Collar = "Low";
+        };
         class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar2_Medium"; // Reference to the uniform class in CfgVehicles
@@ -4358,13 +4358,13 @@ class CfgWeapons {
         displayName = "[22nd] M52A/W Black (Heavy)"; // In-game name
         picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        //class XtdGearInfo
-        //{
-            //model = "WSnow_AAE";
-            //Enviroment = "Black";
-            //Shoulder = "Heavy";
-            //Collar = "Low";
-        //};
+        class XtdGearInfo
+        {
+            model = "WWinter_AAE";
+            Enviroment = "Black";
+            Shoulder = "Heavy";
+            Collar = "Low";
+        };
         class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar2_Heavy"; // Reference to the uniform class in CfgVehicles
@@ -4415,13 +4415,13 @@ class CfgWeapons {
         displayName = "[22nd] M52A/W Black (Light + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        //class XtdGearInfo
-        //{
-            //model = "WSnow_AAE";
-            //Enviroment = "Black";
-            //Shoulder = "Light";
-            //Collar = "High";
-        //};
+        class XtdGearInfo
+        {
+            model = "WWinter_AAE";
+            Enviroment = "Black";
+            Shoulder = "Light";
+            Collar = "High";
+        };
         class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar2_LightC"; // Reference to the uniform class in CfgVehicles
@@ -4469,13 +4469,13 @@ class CfgWeapons {
         displayName = "[22nd] M52A/W Black (Medium + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        //class XtdGearInfo
-        //{
-            //model = "WSnow_AAE";
-            //Enviroment = "Black";
-            //Shoulder = "Medium";
-            //Collar = "High";
-        //};
+        class XtdGearInfo
+        {
+            model = "WWinter_AAE";
+            Enviroment = "Black";
+            Shoulder = "Medium";
+            Collar = "High";
+        };
         class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar2_MediumC"; // Reference to the uniform class in CfgVehicles
@@ -4523,13 +4523,13 @@ class CfgWeapons {
         displayName = "[22nd] M52A/W Black (Heavy + Collar)"; // In-game name
         picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
-        //class XtdGearInfo
-        //{
-            //model = "WSnow_AAE";
-            //Enviroment = "Black";
-            //Shoulder = "Heavy";
-            //Collar = "High";
-        //};
+        class XtdGearInfo
+        {
+            model = "WWinter_AAE";
+            Enviroment = "Black";
+            Shoulder = "Heavy";
+            Collar = "High";
+        };
         class ItemInfo : UniformItem {
             uniformModel = "-";
             uniformClass = "22nd_ArmourWinterVar2_HeavyC"; // Reference to the uniform class in CfgVehicles
