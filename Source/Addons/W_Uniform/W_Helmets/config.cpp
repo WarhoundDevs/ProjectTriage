@@ -39,7 +39,7 @@ class CfgPatches {
             "22nd_HelmSnow_Closed_med",
             "22nd_HelmSnow_Eye_med",
             "22nd_HelmSnow_Visor_med",
-            //Custom
+            //Custom VX19
             "22nd_VX19_Urban_Manta",
             "22nd_VX19_Woodland_Manta",
             "22nd_VX19_Arid_Manta",
@@ -64,6 +64,12 @@ class CfgPatches {
             "22nd_VX19_Woodland_Ras",
             "22nd_VX19_Arid_Ras",
             "22nd_VX19_Winter_Ras",
+            //Custom Crewman
+            "22nd_CH252C_German_Urban",
+            "22nd_CH252C_German_Woodland",
+            "22nd_CH252C_German_Arid",
+            "22nd_CH252C_German_Winter",
+            //Custom Base
             "22nd_HelmCustom_Alloy",
             "22nd_HelmCustom_Bay",
             "22nd_HelmCustom_Bee",
@@ -357,6 +363,7 @@ class XtdGearModels
             options[] =
             {
             "Camouflage",
+            "Variant"
             };
 
             class Camouflage
@@ -389,6 +396,21 @@ class XtdGearModels
                 class Snow
                 {
                     label = "Winter";
+                };
+            };
+            class Variant
+            {
+                label = "Variant";
+
+                values[] =
+                {
+                    "Base",
+                    "German"
+                };
+
+                class German
+                {
+                    label = "German";
                 };
             };
         };

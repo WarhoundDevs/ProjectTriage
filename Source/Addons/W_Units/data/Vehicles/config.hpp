@@ -6,3 +6,4 @@
 #include "Pelican\config.hpp"
 #include "Scorpion\config.hpp"
 #include "Elephant\config.hpp"
+#include "Sparrowhawk\config.hpp"
