@@ -15,6 +15,8 @@ units[]=
 	"Warhound_Bayonet_Orca_3",
 	"Warhound_Bayonet_Stealth_Orca_3",
 	"Warhound_Bayonet_Orca_4",
+	"Warhound_Sparrowhawk_30mm",
+	"Warhound_Sparrowhawk_50mm",
 	"Warhound_Pelican_ARMY",
 	"Warhound_Pelican_ARMY_Single_Seater",
 	"Warhound_Pelican_Orca_1",
