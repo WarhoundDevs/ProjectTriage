@@ -7,3 +7,4 @@
 #include "Scorpion\config.hpp"
 #include "Elephant\config.hpp"
 #include "Sparrowhawk\config.hpp"
+//#include "Dingo\config.hpp"

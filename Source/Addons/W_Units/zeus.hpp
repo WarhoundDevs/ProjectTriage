@@ -46,5 +46,9 @@ units[]=
 	"Warhound_APC_Oryx_AIE_RCWS",
 	"Warhound_APC_Oryx_M37",
 	"Warhound_APC_Oryx_M37_RCWS",
+	//"Warhound_Dingo_Troop",
+	//"Warhound_DingoRCWS",
+	//"Warhound_Dingo_Autocannon",
+	//"Warhound_Dingo_Med",
 	"22nd_Elephant",
 };

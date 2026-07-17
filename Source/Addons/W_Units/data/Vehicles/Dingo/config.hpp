@@ -1,0 +1,9 @@
+class SMT_DingoTroop;
+class SMT_DingoRCWS_minigun_troop;
+class SMT_DingoRCWS_autogun_troop;
+class SMT_DingoMed;
+#include "DingoBase\config.hpp"
+#include "Dingo1A\config.hpp"
+#include "Dingo11\config.hpp"
+#include "Dingo12\config.hpp"
+#include "Dingo13\config.hpp"
