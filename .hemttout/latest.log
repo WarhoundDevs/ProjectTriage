@@ -1,0 +1,51 @@
+2026-07-18T09:49:59.632525Z TRACE ThreadId(01) version: 1.19.1
+2026-07-18T09:49:59.632720Z TRACE ThreadId(01) platform: windows
+2026-07-18T09:49:59.632810Z TRACE ThreadId(01) args: [
+    "C:\\Users\\leoha\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrettMayson.HEMTT_Microsoft.Winget.Source_8wekyb3d8bbwe\\hemtt.exe",
+    "dev",
+]
+2026-07-18T09:49:59.633603Z TRACE ThreadId(01) using temporary folder: "C:\\Users\\leoha\\AppData\\Local\\Temp\\hemtt\\Users_leoha_OneDrive_Desktop_Warhoundthe2nd_ProjectTriage_Arms_Room_2.0.1"
+2026-07-18T09:49:59.633624Z TRACE ThreadId(01) using project folder: "C:\\Users\\leoha\\OneDrive\\Desktop\\Warhoundthe2nd\\ProjectTriage\\Arms_Room_2.0.1"
+2026-07-18T09:49:59.633678Z TRACE ThreadId(01) using out folder: "C:\\Users\\leoha\\OneDrive\\Desktop\\Warhoundthe2nd\\ProjectTriage\\Arms_Room_2.0.1\\.hemttout"
+2026-07-18T09:49:59.634043Z TRACE ThreadId(01) using build folder: "C:\\Users\\leoha\\OneDrive\\Desktop\\Warhoundthe2nd\\ProjectTriage\\Arms_Room_2.0.1\\.hemttout\\dev"
+2026-07-18T09:49:59.635497Z TRACE ThreadId(01) reading version from project.toml
+2026-07-18T09:49:59.647946Z  INFO ThreadId(01) Config loaded for 22nd RDF Arms Room 2.0 1.0.0.0-93babd2c
+2026-07-18T09:49:59.648101Z TRACE ThreadId(01) Scanning C:\Users\leoha\OneDrive\Desktop\Warhoundthe2nd\ProjectTriage\Arms_Room_2.0.1\addons for addons
+2026-07-18T09:49:59.649995Z DEBUG ThreadId(01) using global config directory: "C:\\Users\\leoha\\AppData\\Roaming\\hemtt"
+2026-07-18T09:49:59.652604Z  INFO ThreadId(01) Creating `dev` version
+2026-07-18T09:49:59.652752Z TRACE ThreadId(01) phase: init (BOM Check) (start)
+2026-07-18T09:49:59.652779Z TRACE ThreadId(01) phase: init (BOM Check) (done)
+2026-07-18T09:49:59.652791Z TRACE ThreadId(01) phase: init (Final New Line Check) (start)
+2026-07-18T09:49:59.652803Z TRACE ThreadId(01) phase: init (Final New Line Check) (done)
+2026-07-18T09:49:59.652819Z TRACE ThreadId(01) phase: init (git) (start)
+2026-07-18T09:49:59.652836Z TRACE ThreadId(01) phase: init (git) (done)
+2026-07-18T09:49:59.652848Z TRACE ThreadId(01) phase: init (Hooks) (start)
+2026-07-18T09:49:59.653026Z TRACE ThreadId(01) no hooks folder
+2026-07-18T09:49:59.653043Z TRACE ThreadId(01) phase: init (Hooks) (done)
+2026-07-18T09:49:59.653054Z TRACE ThreadId(01) phase: init (pboprefix) (start)
+2026-07-18T09:49:59.653065Z TRACE ThreadId(01) phase: init (pboprefix) (done)
+2026-07-18T09:49:59.653077Z TRACE ThreadId(01) phase: init (tex_headers) (start)
+2026-07-18T09:49:59.653088Z TRACE ThreadId(01) phase: init (tex_headers) (done)
+2026-07-18T09:49:59.653100Z TRACE ThreadId(01) phase: init (Files) (start)
+2026-07-18T09:49:59.653111Z TRACE ThreadId(01) phase: init (Files) (done)
+2026-07-18T09:49:59.653122Z TRACE ThreadId(01) phase: init (FilePatching) (start)
+2026-07-18T09:49:59.653133Z TRACE ThreadId(01) phase: init (FilePatching) (done)
+2026-07-18T09:49:59.653144Z TRACE ThreadId(01) phase: init (summary) (start)
+2026-07-18T09:49:59.653155Z TRACE ThreadId(01) phase: init (summary) (done)
+2026-07-18T09:49:59.653167Z TRACE ThreadId(01) phase: init (Rapifier) (start)
+2026-07-18T09:49:59.653178Z TRACE ThreadId(01) phase: init (Rapifier) (done)
+2026-07-18T09:49:59.653189Z TRACE ThreadId(01) phase: init (SQF) (start)
+2026-07-18T09:50:00.244562Z TRACE ThreadId(01) phase: init (SQF) (done)
+2026-07-18T09:50:00.244630Z TRACE ThreadId(01) phase: init (Stringtables) (start)
+2026-07-18T09:50:00.244645Z TRACE ThreadId(01) phase: init (Stringtables) (done)
+2026-07-18T09:50:00.244658Z TRACE ThreadId(01) phase: check (BOM Check) (start)
+2026-07-18T09:50:00.245266Z TRACE ThreadId(01) phase: check (BOM Check) (done)
+2026-07-18T09:50:00.245279Z TRACE ThreadId(01) phase: check (Final New Line Check) (start)
+2026-07-18T09:50:00.245392Z TRACE ThreadId(01) phase: check (Final New Line Check) (done)
+2026-07-18T09:50:00.245398Z TRACE ThreadId(01) phase: check (git) (start)
+2026-07-18T09:50:00.259657Z  WARN ThreadId(01) .biprivatekey is not in your .gitignore file.
+2026-07-18T09:50:00.262016Z ERROR ThreadId(01) ==== STOP ====
+2026-07-18T09:50:00.262076Z ERROR ThreadId(01) You have private key files in your project directory: C:\Users\leoha\OneDrive\Desktop\Warhoundthe2nd\ProjectTriage\Arms_Room_2.0.1\Raven_1.0.hemttprivatekey
+2026-07-18T09:50:00.262211Z ERROR ThreadId(01) These files are not ignored by git, which is a serious security risk.
+2026-07-18T09:50:00.262313Z ERROR ThreadId(01) HEMTT will refuse to build until this is resolved.
+2026-07-18T09:50:00.262406Z ERROR ThreadId(01) ==== STOP ====

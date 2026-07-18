@@ -28,7 +28,12 @@ url = "https://github.com/WarhoundDevs/ProjectTriage"
 runtime_macros = true
 
 [signing]
-authority = "my_authority"
+authority = "Raven_1.0"
 version = 3
+private_key_hash = "87cc5e24f292cab9db611c6068253a53f7d12405"
 
-
+[version]
+major = 1
+minor = 0
+patch = 0
+build = 0
