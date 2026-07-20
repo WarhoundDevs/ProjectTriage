@@ -109,7 +109,11 @@ class CfgPatches {
             //Custom
             "22nd_ArmourCustom_Relic",
             "22nd_ArmourCustom_Rya",
-            "22nd_ArmourCustom_Sue"
+            "22nd_ArmourCustom_Sue",
+            "22nd_ArmourCustom_Yar",
+            "22nd_ArmourCustom_German",
+            "22nd_ArmourCustom_Zoey",
+            "22nd_ArmourCustom_Darling"
             
         }; // Link your uniform class
         requiredVersion = 1.0;
@@ -1984,7 +1988,170 @@ class CfgVehicles {
             "\W_Uniform\W_Armour\Custom\Sue_TrooperShoulders.paa",
         };
     }; // Close 22nd_ArmourCustom_Sue
-    //---
+    // Begin 22nd_ArmourCustom_Yar
+    class 22nd_ArmourCustom_Yar : MA_Marine_BDU_Base{
+        scope = 2; // Visible in editor
+        author = "Warhound Mod Team";
+        uniformClass = "22nd_ArmourCustom_Yar"; // Reference to the uniform class in CfgVehicles
+        hiddenSelections[] = {
+            "Camo1",
+            "Camo2",
+            "Camo3",
+            "Camo4",
+            "Camo5",
+            "Camo6",
+            "Camo7",
+            "Camo8",
+            "Camo9",
+            "Camo10",
+            // "Uni_Upper",
+            // "Uni_Lower",
+            // "Uni_Collar",
+            // "Armor_Underpad",
+            // "Armor_Straps",
+            // "Armor_Upper",
+            // "Armor_Lower",
+            "Shoulders_Lower1",
+            // "Shoulders_Lower2",
+            // "Shoulders_Upper"
+        };
+
+        hiddenSelectionsTextures[] = {
+            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa",
+            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
+            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperCollar_CO.paa",
+            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
+            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
+            "\W_Uniform\W_Armour\Custom\Yar_UpperArmor.paa",
+            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
+            "\W_Uniform\W_Armour\Custom\Yar_TrooperShoulders.paa",
+            "\W_Uniform\W_Armour\Custom\Yar_TrooperShoulders.paa",
+            "\W_Uniform\W_Armour\Custom\Yar_TrooperShoulders.paa",
+        };
+    }; // Close 22nd_ArmourCustom_Yar
+    // Begin 22nd_ArmourCustom_German
+    class 22nd_ArmourCustom_German : MA_Marine_BDU_Base{
+        scope = 2; // Visible in editor
+        author = "Warhound Mod Team";
+        uniformClass = "22nd_ArmourCustom_German"; // Custom uniform class
+        hiddenSelections[] = {
+            "Camo1",
+            "Camo2",
+            "Camo3",
+            "Camo4",
+            "Camo5",
+            "Camo6",
+            "Camo7",
+            "Camo8",
+            "Camo9",
+            "Camo10",
+            //"Uni_Upper",
+            //"Uni_Lower",
+            //"Uni_Collar",
+            //"Armor_Underpad",
+            //"Armor_Straps",
+            //"Armor_Upper",
+            //"Armor_Lower",
+              "Shoulders_Lower1",
+              "Shoulders_Lower2",
+              "Shoulders_Upper"
+          };
+
+          hiddenSelectionsTextures[] = {
+              "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_WOODLAND.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
+              "\W_Uniform\W_Armour\Custom\German_UpperArmor.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
+              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
+              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
+              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
+          };
+    }; // Close 22nd_ArmourCustom_German
+    // Begin 22nd_ArmourCustom_Zoey
+    class 22nd_ArmourCustom_Zoey : MA_Marine_BDU_Base{
+        scope = 2; // Visible in editor
+        author = "Warhound Mod Team";
+        uniformClass = "22nd_ArmourCustom_Zoey"; // Custom uniform class
+        hiddenSelections[] = {
+            "Camo1",
+            "Camo2",
+            "Camo3",
+            "Camo4",
+            "Camo5",
+            "Camo6",
+            "Camo7",
+            "Camo8",
+            "Camo9",
+            "Camo10",
+            //"Uni_Upper",
+            //"Uni_Lower",
+            //"Uni_Collar",
+            //"Armor_Underpad",
+            //"Armor_Straps",
+            //"Armor_Upper",
+            //"Armor_Lower",
+              "Shoulders_Lower1",
+              "Shoulders_Lower2",
+              "Shoulders_Upper"
+          };
+
+          hiddenSelectionsTextures[] = {
+              "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_WOODLAND.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
+              "\W_Uniform\W_Armour\Custom\Zoey_UpperArmor.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
+              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
+              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
+              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
+          };
+    }; // Close 22nd_ArmourCustom_Zoey
+    // Begin 22nd_ArmourCustom_Darling
+    class 22nd_ArmourCustom_Darling : MA_Marine_BDU_Base{
+        scope = 2; // Visible in editor
+        author = "Warhound Mod Team";
+        uniformClass = "22nd_ArmourCustom_Darling"; // Custom uniform class
+        hiddenSelections[] = {
+            "Camo1",
+            "Camo2",
+            "Camo3",
+            "Camo4",
+            "Camo5",
+            "Camo6",
+            "Camo7",
+            "Camo8",
+            "Camo9",
+            "Camo10",
+            //"Uni_Upper",
+            //"Uni_Lower",
+            //"Uni_Collar",
+            //"Armor_Underpad",
+            //"Armor_Straps",
+            //"Armor_Upper",
+            //"Armor_Lower",
+              "Shoulders_Lower1",
+              "Shoulders_Lower2",
+              "Shoulders_Upper"
+          };
+
+          hiddenSelectionsTextures[] = {
+              "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_BROWN.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperCollar_CO.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
+              "\W_Uniform\W_Armour\Custom\Darling_UpperArmor.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
+              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
+              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
+              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
+          };
+    }; // Close 22nd_ArmourCustom_Darling
 };
 
 // Hertzel 07132025 - XTDGEARMODELS define the arsenal option. 
@@ -2225,7 +2392,11 @@ class XtdGearModels
                 {
                     "Relic",
                     "Rya",
-                    "Sue"
+                    "Sue",
+                    "Yar",
+                    "German",
+                    "Zoey",
+                    "Darling"
                 };
                 class Relic
                 {
@@ -2238,6 +2409,22 @@ class XtdGearModels
                 class Sue
                 {
                     label = "Sue";
+                };
+                class Yar
+                {
+                    label = "Yar";
+                };
+                class German
+                {
+                    label = "German";
+                };
+                class Zoey
+                {
+                    label = "Zoey";
+                };
+                class Darling
+                {
+                    label = "Darling";
                 };
             };
         };
@@ -4742,4 +4929,215 @@ class CfgWeapons {
             };
         };
     };// Close 22nd_ArmourCustom_Sue
+    
+    // Begin 22nd_ArmourCustom_Yar
+    class 22nd_ArmourCustom_Yar : MA_Marine_BDU_Base{
+        scope = 2; // Visible in editor
+        author = "Warhound Mod Team";
+        displayName = "[22nd] M52A Woodland (Custom Yar)"; // In-game name
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
+        class XtdGearInfo
+        {
+            model = "WCustomArm_AAE";
+            Custom = "Yar";
+        };
+        class ItemInfo : UniformItem {
+            uniformModel = "-";
+            uniformClass = "22nd_ArmourCustom_Yar"; // Reference to the uniform class in CfgVehicles
+            containerClass = "Supply90";
+            mass = 80; // Adjust mass if needed
+           hiddenSelections[] = {
+            "Camo1",
+            "Camo2",
+            "Camo3",
+            "Camo4",
+            "Camo5",
+            "Camo6",
+            "Camo7",
+            "Camo8",
+            "Camo9",
+            "Camo10",
+            // "Uni_Upper",
+            // "Uni_Lower",
+            // "Uni_Collar",
+            // "Armor_Underpad",
+            // "Armor_Straps",
+            // "Armor_Upper",
+            // "Armor_Lower",
+            "Shoulders_Lower1",
+            // "Shoulders_Lower2",
+            // "Shoulders_Upper"
+        };
+
+        hiddenSelectionsTextures[] = {
+            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperUpperBDU_CO.paa",
+            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
+            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperCollar_CO.paa",
+            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
+            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
+            "\W_Uniform\W_Armour\Custom\Yar_UpperArmor.paa",
+            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
+            "\W_Uniform\W_Armour\Custom\Yar_TrooperShoulders.paa",
+            "\W_Uniform\W_Armour\Custom\Yar_TrooperShoulders.paa",
+            "\W_Uniform\W_Armour\Custom\Yar_TrooperShoulders.paa",
+        };
+    }; // Close 22nd_ArmourCustom_Yar
+}; // Begin 22nd_ArmourCustom_German
+    class 22nd_ArmourCustom_German : MA_Marine_BDU_Base{
+        scope = 2; // Visible in editor
+        author = "Warhound Mod Team";
+        displayName = "[22nd] M52A Woodland (Custom German)"; // In-game name
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
+        class XtdGearInfo
+        {
+            model = "WCustomArm_AAE";
+            Custom = "German";
+        };
+        class ItemInfo : UniformItem {
+        uniformClass = "22nd_ArmourCustom_German"; // Custom uniform class
+        containerClass = "Supply90";
+        mass = 80; // Adjust mass if needed
+        hiddenSelections[] = {
+            "Camo1",
+            "Camo2",
+            "Camo3",
+            "Camo4",
+            "Camo5",
+            "Camo6",
+            "Camo7",
+            "Camo8",
+            "Camo9",
+            "Camo10",
+            //"Uni_Upper",
+            //"Uni_Lower",
+            //"Uni_Collar",
+            //"Armor_Underpad",
+            //"Armor_Straps",
+            //"Armor_Upper",
+            //"Armor_Lower",
+              "Shoulders_Lower1",
+              "Shoulders_Lower2",
+              "Shoulders_Upper"
+          };
+
+          hiddenSelectionsTextures[] = {
+              "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_WOODLAND.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
+              "\W_Uniform\W_Armour\Custom\German_UpperArmor.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
+              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
+              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
+              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
+          };
+    }; // Close 22nd_ArmourCustom_German
+};// Begin 22nd_ArmourCustom_Zoey
+    class 22nd_ArmourCustom_Zoey : MA_Marine_BDU_Base{
+        scope = 2; // Visible in editor
+        author = "Warhound Mod Team";
+        displayName = "[22nd] M52A Woodland (Custom Zoey)"; // In-game name
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
+        class XtdGearInfo
+        {
+            model = "WCustomArm_AAE";
+            Custom = "Zoey";
+        };
+        class ItemInfo : UniformItem {
+        uniformClass = "22nd_ArmourCustom_Zoey"; // Custom uniform class
+        containerClass = "Supply90";
+        mass = 80; // Adjust mass if needed
+        hiddenSelections[] = {
+            "Camo1",
+            "Camo2",
+            "Camo3",
+            "Camo4",
+            "Camo5",
+            "Camo6",
+            "Camo7",
+            "Camo8",
+            "Camo9",
+            "Camo10",
+            //"Uni_Upper",
+            //"Uni_Lower",
+            //"Uni_Collar",
+            //"Armor_Underpad",
+            //"Armor_Straps",
+            //"Armor_Upper",
+            //"Armor_Lower",
+              "Shoulders_Lower1",
+              "Shoulders_Lower2",
+              "Shoulders_Upper"
+          };
+
+          hiddenSelectionsTextures[] = {
+              "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_WOODLAND.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperCollar_CO.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
+              "\W_Uniform\W_Armour\Custom\Zoey_UpperArmor.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
+              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
+              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
+              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
+          };
+    }; // Close 22nd_ArmourCustom_Zoey
+}; // Begin 22nd_ArmourCustom_Darling
+    class 22nd_ArmourCustom_Darling : MA_Marine_BDU_Base{
+        scope = 2; // Visible in editor
+        author = "Warhound Mod Team";
+        displayName = "[22nd] M52A Woodland (Custom Darling)"; // In-game name
+        picture = "\W_Uniform\W_Armour\22ndRDF.paa"; // Path to icon FUCKING CHANGE BEFORE PUSH
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier"; // Path to uniform model
+        class XtdGearInfo
+        {
+            model = "WCustomArm_AAE";
+            Custom = "Darling";
+        };
+        class ItemInfo : UniformItem {
+        uniformClass = "22nd_ArmourCustom_Darling"; // Custom uniform class
+        containerClass = "Supply90";
+        mass = 80; // Adjust mass if needed
+        hiddenSelections[] = {
+            "Camo1",
+            "Camo2",
+            "Camo3",
+            "Camo4",
+            "Camo5",
+            "Camo6",
+            "Camo7",
+            "Camo8",
+            "Camo9",
+            "Camo10",
+            //"Uni_Upper",
+            //"Uni_Lower",
+            //"Uni_Collar",
+            //"Armor_Underpad",
+            //"Armor_Straps",
+            //"Armor_Upper",
+            //"Armor_Lower",
+              "Shoulders_Lower1",
+              "Shoulders_Lower2",
+              "Shoulders_Upper"
+          };
+
+          hiddenSelectionsTextures[] = {
+              "\W_Uniform\W_Armour\Infantry\Base\22nd_Light_BDU_BROWN.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Woodland_TrooperLowerBDU_CO.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Brown_TrooperCollar_CO.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
+              "\W_Uniform\W_Armour\Custom\Darling_UpperArmor.paa",
+              "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa",
+              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
+              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
+              "\W_Uniform\W_Armour\Infantry\Base\22nd_Shoulders_Base.paa",
+          };
+    }; // Close 22nd_ArmourCustom_Darling
+};
 };

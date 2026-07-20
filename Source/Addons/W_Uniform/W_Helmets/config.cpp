@@ -57,6 +57,14 @@ class CfgPatches {
             "W_Grenadier_Helmet_Urban",
             "W_Grenadier_Helmet_Woodland",
             "W_Grenadier_Helmet_Winter",
+            //Gungnir
+            "W_Gungnir_Helmet_Urban",
+            "W_Gungnir_Helmet_Snow",
+            "W_Gungnir_Helmet_Woodland",
+            //Operator
+            "W_Operator_Helmet_Urban",
+            "W_Operator_Helmet_Snow",
+            "W_Operator_Helmet_Woodland",
             //OPEN MED
             // Base
             "22nd_HelmBase_Open_med",
@@ -104,9 +112,6 @@ class CfgPatches {
             "22nd_CH252C_Lamb_Winter",
             //Custom EOD
             "22nd_EOD_Urban_Yogi",
-            "22nd_EOD_Woodland_Yogi",
-            "22nd_EOD_Arid_Yogi",
-            "22nd_EOD_Winter_Yogi",
             //Custom AA
             "22nd_AA_Urban_Hatty",
             "22nd_AA_Woodland_Hatty",
@@ -131,6 +136,10 @@ class CfgPatches {
             "22nd_Grenadier_Urban_Test",
             "22nd_Grenadier_Winter_Test",
             "22nd_Grenadier_Woodland_Test",
+            //Custom Gungnir
+            "W_Gungnir_Helmet_Custom_Test",
+            //Custom Operator
+            "W_Operator_Helmet_Urban_Test",
             //Custom Base
             "22nd_HelmCustom_Alloy",
             "22nd_HelmCustom_Bay",
@@ -857,6 +866,112 @@ class XtdGearModels
                 };
             };
         };
+        class W_Gungnir_Helmet{
+
+            label = "22nd Gungnir Helmet";
+
+            options[] =
+            {
+            "Camouflage",
+            "Variant"
+            };
+
+            class Camouflage
+            {
+                label = "Camouflage";
+
+                values[] =
+                {
+                    "Urban",
+                    "Woodland",
+                    "Winter"
+                };
+
+                class Urban
+                {
+                    label = "Urban";
+                };
+
+                class Woodland
+                {
+                    label = "Woodland";
+                };
+
+                class Snow
+                {
+                    label = "Winter";
+                };
+            };
+
+            class Variant
+            {
+                label = "Variant";
+
+                values[] =
+                {
+                    "Base",
+                    "Test"
+                };
+
+                class Test
+                {
+                    label = "Test";
+                };
+            };
+        };
+        class W_Operator_Helmet{
+
+            label = "22nd Operator Helmet";
+
+            options[] =
+            {
+            "Camouflage",
+            "Variant"
+            };
+
+            class Camouflage
+            {
+                label = "Camouflage";
+
+                values[] =
+                {
+                    "Urban",
+                    "Woodland",
+                    "Winter"
+                };
+
+                class Urban
+                {
+                    label = "Urban";
+                };
+
+                class Woodland
+                {
+                    label = "Woodland";
+                };
+
+                class Snow
+                {
+                    label = "Winter";
+                };
+            };
+
+            class Variant
+            {
+                label = "Variant";
+
+                values[] =
+                {
+                    "Base",
+                    "Test"
+                };
+
+                class Test
+                {
+                    label = "Test";
+                };
+            };
+        };
         class WCustom_AAE
         {
             label = "[22nd] CHC252 Custom";
@@ -955,6 +1070,8 @@ class CfgWeapons {
     class MA_Mjolnir_Commando_Helmet;
     class MA_Mjolnir_CQC_Helmet;
     class MA_Mjolnir_Grenadier_Helmet;
+    class MA_Mjolnir_Gungnir_Helmet;
+    class OPTRE_UNSC_Operator_Helmet;
     class ItemInfo;
     /*
     * Begin Base Helmets
@@ -2330,11 +2447,13 @@ class CfgWeapons {
     #include "Customs\config.hpp"
     #include "Aviation\config.hpp"
     #include "Crewman\config.hpp"
-    //#include "EOD\config.hpp"
+    #include "EOD\config.hpp"
     //#include "AA\config.hpp"
     //#include "Scout\config.hpp"
     //#include "JFO\config.hpp"
     //#include "Commando\config.hpp"
     //#include "CQC\config.hpp"
     //#include "Grenadier\config.hpp"
+    //#include "Gungnir\config.hpp"
+    //#include "Operator\config.hpp"
 };
