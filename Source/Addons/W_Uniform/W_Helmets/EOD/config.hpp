@@ -80,24 +80,24 @@
             //"\W_Uniform\W_Helmets\Customs\EOD\Yogi\Yogi_Base_EOD_Visor_R_CO.paa"
         //};
     //};
-    class 22nd_EOD_Urban_Yogi : MA_M56E_Helmet
+    class 22nd_EOD_Custom_Yogi : MA_M56E_Helmet
     {
         scope=2;
         scopeArsenal=2;
         author= "Astro";
-        displayName= "[22nd] EOD Urban Yogi";
+        displayName= "[22nd] EOD Custom Yogi";
         picture = "\W_Uniform\W_Helmets\22ndRDF.paa";
 
         class XtdGearInfo
         {
             model = "W_EOD_Helmet";
-            Camouflage = "Urban";
+            Camouflage = "Woodland";
             Variant = "Yogi";
         };
 
         hiddenSelectionsTextures[]=
         {
-            "\W_Uniform\W_Helmets\Customs\EOD\Yogi\22nd_Urban_EOD_Helmet_Yogi_CO.paa",
+            "\W_Uniform\W_Helmets\Customs\EOD\Yogi\22nd_Custom_EOD_Helmet_Yogi_CO.paa",
             "\W_Uniform\W_Helmets\Customs\EOD\Yogi\Yogi_Base_EOD_Visor_R_CO.paa"
         };
     };

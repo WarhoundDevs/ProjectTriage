@@ -111,7 +111,7 @@ class CfgPatches {
             "22nd_CH252C_Lamb_Arid",
             "22nd_CH252C_Lamb_Winter",
             //Custom EOD
-            "22nd_EOD_Urban_Yogi",
+            "22nd_EOD_Custom_Yogi",
             //Custom AA
             "22nd_AA_Urban_Hatty",
             "22nd_AA_Woodland_Hatty",
