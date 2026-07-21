@@ -78,12 +78,12 @@
 		};
     };
     //Start Customs
-    class 22nd_Operator_Urban_Test : OPTRE_UNSC_Operator_Helmet
+    class 22nd_Operator_Custom_Test : OPTRE_UNSC_Operator_Helmet
     {
         scope=2;
         scopeArsenal=2;
         author= "Astro";
-        displayName= "[22nd] Operator Urban Test";
+        displayName= "[22nd] Operator Custom Test";
         picture = "\W_Uniform\W_Helmets\22ndRDF.paa";
 		hiddenSelections[]=
 		{
@@ -101,7 +101,7 @@
 
 		hiddenSelectionsTextures[]=
 		{
-			"\W_Uniform\W_Helmets\Customs\Operator\22nd_Operator_Helmet_Test_co.paa",
+			"\W_Uniform\W_Helmets\Customs\Operator\22nd_Operator_Helmet_Custom_Test_co.paa",
 			"\W_Uniform\W_Helmets\Operator\22nd_Operator_Visor_co.paa"
 		};
     };

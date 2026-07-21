@@ -60,11 +60,11 @@
         };
     };
     //Start Customs
-    class 22nd_Scout_Woodland_Test : MA_Mjolnir_Scout_Helmet{
+    class 22nd_Scout_Custom_Test : MA_Mjolnir_Scout_Helmet{
         scope=2;
         scopeArsenal=2;
         author= "Astro";
-        displayName= "[22nd] Scout Woodland Test";
+        displayName= "[22nd] Scout Custom Test";
         picture = "\W_Uniform\W_Helmets\22ndRDF.paa";
 
         class XtdGearInfo
@@ -76,48 +76,7 @@
 
         hiddenSelectionsTextures[]=
         {
-            "\W_Uniform\W_Helmets\Customs\Scout\Test\22nd_Woodland_Test_Helm_co.paa",
-            "MA_Armor\data\Helmets\H4_Scout\Scout_Visor_Blue_co.paa"
-        };
-    };
-    class 22nd_Scout_Urban_Test : MA_Mjolnir_Scout_Helmet
-    {
-        scope=2;
-        scopeArsenal=2;
-        author= "Astro";
-        displayName= "[22nd] Scout Urban Test";
-        picture = "\W_Uniform\W_Helmets\22ndRDF.paa";
-
-        class XtdGearInfo
-        {
-            model = "W_Scout_Helmet";
-            Camouflage = "Urban";
-            Variant = "Test";
-        };
-
-        hiddenSelectionsTextures[]=
-        {
-            "\W_Uniform\W_Helmets\Customs\Scout\Test\22nd_Urban_Test_Helm_co.paa",
-            "MA_Armor\data\Helmets\H4_Scout\Scout_Visor_Blue_co.paa"
-        };
-    };
-    class 22nd_Scout_Winter_Test : MA_Mjolnir_Scout_Helmet{
-        scope=2;
-        scopeArsenal=2;
-        author= "Astro";
-        displayName= "[22nd] Scout Snow Test";
-        picture = "\W_Uniform\W_Helmets\22ndRDF.paa";
-
-        class XtdGearInfo
-        {
-            model = "W_Scout_Helmet";
-            Camouflage = "Winter";
-            Variant = "Test";
-        };
-
-        hiddenSelectionsTextures[]=
-        {
-            "\W_Uniform\W_Helmets\Customs\Scout\Test\22nd_Winter_Test_Helm_co.paa",
+            "\W_Uniform\W_Helmets\Customs\Scout\Test\22nd_Custom_Test_Helm_co.paa",
             "MA_Armor\data\Helmets\H4_Scout\Scout_Visor_Blue_co.paa"
         };
     };

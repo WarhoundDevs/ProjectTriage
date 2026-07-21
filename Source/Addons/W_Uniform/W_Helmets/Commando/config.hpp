@@ -60,11 +60,11 @@
         };
     };
     //Start Customs
-    class 22nd_Commando_Woodland_Test: MA_Mjolnir_Commando_Helmet{
+    class 22nd_Commando_Custom_Test: MA_Mjolnir_Commando_Helmet{
         scope=2;
         scopeArsenal=2;
         author= "Astro";
-        displayName= "[22nd] Commando Woodland Test";
+        displayName= "[22nd] Commando Custom Test";
         picture = "\W_Uniform\W_Helmets\22ndRDF.paa";
 
         class XtdGearInfo
@@ -76,48 +76,7 @@
 
         hiddenSelectionsTextures[]=
         {
-            "\W_Uniform\W_Helmets\Customs\Commando\Test\22nd_Commando_Woodland_Test_Helm_co.paa",
-            "MA_Armor\data\Helmets\Commando\Visors\Base_Commando_Visor_CO.paa"
-        };
-    };
-    class 22nd_Commando_Urban_Test : MA_Mjolnir_Commando_Helmet
-    {
-        scope=2;
-        scopeArsenal=2;
-        author= "Astro";
-        displayName= "[22nd] Commando Urban Test";
-        picture = "\W_Uniform\W_Helmets\22ndRDF.paa";
-
-        class XtdGearInfo
-        {
-            model = "W_Commando_Helmet";
-            Camouflage = "Urban";
-            Variant = "Test";
-        };
-
-        hiddenSelectionsTextures[]=
-        {
-            "\W_Uniform\W_Helmets\Customs\Commando\Test\22nd_Commando_Urban_Test_Helm_co.paa",
-            "MA_Armor\data\Helmets\Commando\Visors\Base_Commando_Visor_CO.paa"
-        };
-    };
-    class 22nd_Commando_Winter_Test : MA_Mjolnir_Commando_Helmet{
-        scope=2;
-        scopeArsenal=2;
-        author= "Astro";
-        displayName= "[22nd] Commando Snow Test";
-        picture = "\W_Uniform\W_Helmets\22ndRDF.paa";
-
-        class XtdGearInfo
-        {
-            model = "W_Commando_Helmet";
-            Camouflage = "Winter";
-            Variant = "Test";
-        };
-
-        hiddenSelectionsTextures[]=
-        {
-            "\W_Uniform\W_Helmets\Customs\Commando\Test\22nd_Commando_Winter_Test_Helm_co.paa",
+            "\W_Uniform\W_Helmets\Customs\Commando\Test\22nd_Commando_Custom_Test_Helm_co.paa",
             "MA_Armor\data\Helmets\Commando\Visors\Base_Commando_Visor_CO.paa"
         };
     };

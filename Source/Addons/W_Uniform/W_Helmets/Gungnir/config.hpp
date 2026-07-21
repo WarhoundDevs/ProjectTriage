@@ -69,7 +69,7 @@
         };
     };
     //Start Customs
-        class W_Gungnir_Helmet_Custom_Test : MA_Mjolnir_Gungnir_Helmet
+        class 22nd_Gungnir_Helmet_Custom_Test : MA_Mjolnir_Gungnir_Helmet
     {
         scope=2;
         scopeArsenal=2;

@@ -113,33 +113,23 @@ class CfgPatches {
             //Custom EOD
             "22nd_EOD_Custom_Yogi",
             //Custom AA
-            "22nd_AA_Urban_Hatty",
-            "22nd_AA_Woodland_Hatty",
-            "22nd_AA_Winter_Hatty",
+            "22nd_AA_Custom_Hatty",
             //Custom Scout
-            "22nd_Scout_Urban_Test",
-            "22nd_Scout_Woodland_Test",
-            "22nd_Scout_Winter_Test",
+            "22nd_Scout_Custom_Test",
             //Custom JFO
-            "22nd_JFO_Woodland_Test",
-            "22nd_JFO_Urban_Test",
-            "22nd_JFO_Winter_Test",
+            "22nd_JFO_Custom_Test",
             //Custom Commando
-            "22nd_Commando_Urban_Test",
-            "22nd_Commando_Winter_Test",
-            "22nd_Commando_Woodland_Test",
+            "22nd_Commando_Custom_Test",
             //Custom CQC
             "22nd_CQC_Urban_Test",
             "22nd_CQC_Winter_Test",
             "22nd_CQC_Woodland_Test",
             //Custom Grenadier
-            "22nd_Grenadier_Urban_Test",
-            "22nd_Grenadier_Winter_Test",
-            "22nd_Grenadier_Woodland_Test",
+            "22nd_Grenadier_Custom_Test",
             //Custom Gungnir
-            "W_Gungnir_Helmet_Custom_Test",
+            "22nd_Gungnir_Helmet_Custom_Test",
             //Custom Operator
-            "W_Operator_Helmet_Urban_Test",
+            "22nd_Operator_Custom_Test",
             //Custom Base
             "22nd_HelmCustom_Alloy",
             "22nd_HelmCustom_Bay",
