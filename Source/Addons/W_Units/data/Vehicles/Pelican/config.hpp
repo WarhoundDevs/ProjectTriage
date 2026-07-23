@@ -311,3 +311,4 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
 #include "Orca_2\config.hpp"
 #include "Orca_3\config.hpp"
 #include "Orca_4\config.hpp"
+#include "Orca_5\config.hpp"
