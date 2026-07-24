@@ -1,26 +1,932 @@
-2026-07-18T09:53:26.430719Z TRACE ThreadId(01) version: 1.19.1
-2026-07-18T09:53:26.430881Z TRACE ThreadId(01) platform: windows
-2026-07-18T09:53:26.430905Z TRACE ThreadId(01) args: [
-    "C:\\Users\\leoha\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrettMayson.HEMTT_Microsoft.Winget.Source_8wekyb3d8bbwe\\hemtt.exe",
-    "dev",
+2026-07-23T17:35:42.513164Z TRACE ThreadId(01) version: 1.19.1
+2026-07-23T17:35:42.513222Z TRACE ThreadId(01) platform: windows
+2026-07-23T17:35:42.513232Z TRACE ThreadId(01) args: [
+    "C:\\Users\\mishs\\AppData\\Local\\Microsoft\\WinGet\\Links\\hemtt.exe",
+    "launch",
 ]
-2026-07-18T09:53:26.431456Z TRACE ThreadId(01) using temporary folder: "C:\\Users\\leoha\\AppData\\Local\\Temp\\hemtt\\Users_leoha_OneDrive_Desktop_Warhoundthe2nd_ProjectTriage_Arms_Room_2.0.1"
-2026-07-18T09:53:26.431475Z TRACE ThreadId(01) using project folder: "C:\\Users\\leoha\\OneDrive\\Desktop\\Warhoundthe2nd\\ProjectTriage\\Arms_Room_2.0.1"
-2026-07-18T09:53:26.431550Z TRACE ThreadId(01) using out folder: "C:\\Users\\leoha\\OneDrive\\Desktop\\Warhoundthe2nd\\ProjectTriage\\Arms_Room_2.0.1\\.hemttout"
-2026-07-18T09:53:26.431932Z TRACE ThreadId(01) using build folder: "C:\\Users\\leoha\\OneDrive\\Desktop\\Warhoundthe2nd\\ProjectTriage\\Arms_Room_2.0.1\\.hemttout\\dev"
-2026-07-18T09:53:26.435680Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/W_Uniform/W_Bags/$PREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\leoha\\AppData\\Local\\Temp\\hemtt\\Users_leoha_OneDrive_Desktop_Warhoundthe2nd_ProjectTriage_Arms_Room_2.0.1\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\leoha\\OneDrive\\Desktop\\Warhoundthe2nd\\ProjectTriage\\Arms_Room_2.0.1" } } } } } }] } } }
-2026-07-18T09:53:26.439683Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/W_Uniform/W_Bags/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\leoha\\AppData\\Local\\Temp\\hemtt\\Users_leoha_OneDrive_Desktop_Warhoundthe2nd_ProjectTriage_Arms_Room_2.0.1\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\leoha\\OneDrive\\Desktop\\Warhoundthe2nd\\ProjectTriage\\Arms_Room_2.0.1" } } } } } }] } } }
-2026-07-18T09:53:26.442126Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/W_Uniform/W_Vests/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\leoha\\AppData\\Local\\Temp\\hemtt\\Users_leoha_OneDrive_Desktop_Warhoundthe2nd_ProjectTriage_Arms_Room_2.0.1\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\leoha\\OneDrive\\Desktop\\Warhoundthe2nd\\ProjectTriage\\Arms_Room_2.0.1" } } } } } }] } } }
-2026-07-18T09:53:26.442437Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/W_Uniform/W_Armour/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\leoha\\AppData\\Local\\Temp\\hemtt\\Users_leoha_OneDrive_Desktop_Warhoundthe2nd_ProjectTriage_Arms_Room_2.0.1\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\leoha\\OneDrive\\Desktop\\Warhoundthe2nd\\ProjectTriage\\Arms_Room_2.0.1" } } } } } }] } } }
-2026-07-18T09:53:26.445905Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/W_Uniform/W_Helmets/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\leoha\\AppData\\Local\\Temp\\hemtt\\Users_leoha_OneDrive_Desktop_Warhoundthe2nd_ProjectTriage_Arms_Room_2.0.1\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\leoha\\OneDrive\\Desktop\\Warhoundthe2nd\\ProjectTriage\\Arms_Room_2.0.1" } } } } } }] } } }
-2026-07-18T09:53:26.474522Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/W_Stetsons/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\leoha\\AppData\\Local\\Temp\\hemtt\\Users_leoha_OneDrive_Desktop_Warhoundthe2nd_ProjectTriage_Arms_Room_2.0.1\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\leoha\\OneDrive\\Desktop\\Warhoundthe2nd\\ProjectTriage\\Arms_Room_2.0.1" } } } } } }] } } }
-2026-07-18T09:53:26.477361Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/W_Menu/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\leoha\\AppData\\Local\\Temp\\hemtt\\Users_leoha_OneDrive_Desktop_Warhoundthe2nd_ProjectTriage_Arms_Room_2.0.1\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\leoha\\OneDrive\\Desktop\\Warhoundthe2nd\\ProjectTriage\\Arms_Room_2.0.1" } } } } } }] } } }
-2026-07-18T09:53:26.478106Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/W_Markers/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\leoha\\AppData\\Local\\Temp\\hemtt\\Users_leoha_OneDrive_Desktop_Warhoundthe2nd_ProjectTriage_Arms_Room_2.0.1\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\leoha\\OneDrive\\Desktop\\Warhoundthe2nd\\ProjectTriage\\Arms_Room_2.0.1" } } } } } }] } } }
-2026-07-18T09:53:26.485104Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/W_Units/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\leoha\\AppData\\Local\\Temp\\hemtt\\Users_leoha_OneDrive_Desktop_Warhoundthe2nd_ProjectTriage_Arms_Room_2.0.1\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\leoha\\OneDrive\\Desktop\\Warhoundthe2nd\\ProjectTriage\\Arms_Room_2.0.1" } } } } } }] } } }
-2026-07-18T09:53:26.544463Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/W_Medical/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\leoha\\AppData\\Local\\Temp\\hemtt\\Users_leoha_OneDrive_Desktop_Warhoundthe2nd_ProjectTriage_Arms_Room_2.0.1\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\leoha\\OneDrive\\Desktop\\Warhoundthe2nd\\ProjectTriage\\Arms_Room_2.0.1" } } } } } }] } } }
-2026-07-18T09:53:26.544734Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/W_Maxwell/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\leoha\\AppData\\Local\\Temp\\hemtt\\Users_leoha_OneDrive_Desktop_Warhoundthe2nd_ProjectTriage_Arms_Room_2.0.1\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\leoha\\OneDrive\\Desktop\\Warhoundthe2nd\\ProjectTriage\\Arms_Room_2.0.1" } } } } } }] } } }
-2026-07-18T09:53:26.545405Z TRACE ThreadId(01) reading version from project.toml
-2026-07-18T09:53:26.556671Z  INFO ThreadId(01) Config loaded for 22nd RDF Arms Room 2.0 1.0.0.0-21069a90
-2026-07-18T09:53:26.556781Z TRACE ThreadId(01) Scanning C:\Users\leoha\OneDrive\Desktop\Warhoundthe2nd\ProjectTriage\Arms_Room_2.0.1\addons for addons
-2026-07-18T09:53:26.557227Z ERROR ThreadId(01) Failed to execute command:
-Workspace Error: Addon error: Addon prefix not found: W_Markers
+2026-07-23T17:35:42.513392Z TRACE ThreadId(02) HEMTT is installed at: C:\Users\mishs\AppData\Local\Microsoft\WinGet\Links\hemtt.exe
+2026-07-23T17:35:42.514291Z DEBUG ThreadId(01) using global config directory: "C:\\Users\\mishs\\AppData\\Roaming\\hemtt"
+2026-07-23T17:35:42.514587Z TRACE ThreadId(01) launch config: LaunchOptions { workshop: ["450814997"], dlc: [], presets: ["warhound"], optionals: [], mission: Some("test.VR"), dev_mission: None, parameters: ["-debug", "-filePatching", "-noSplash", "-showScriptErrors", "-skipIntro"], executable: None, binarize: None, file_patching: None, instances: None, rapify: None }
+2026-07-23T17:35:42.515043Z DEBUG ThreadId(01) Arma 3 found at: C:\Steam\steamapps\common\Arma 3
+2026-07-23T17:35:42.515055Z TRACE ThreadId(01) Loading preset: warhound
+2026-07-23T17:35:42.515481Z TRACE ThreadId(01) Found new mod 3683921847 in preset warhound
+2026-07-23T17:35:42.515487Z TRACE ThreadId(01) Found new mod 1161319271 in preset warhound
+2026-07-23T17:35:42.515490Z TRACE ThreadId(01) Found new mod 3513210722 in preset warhound
+2026-07-23T17:35:42.515493Z TRACE ThreadId(01) Found new mod 3140668728 in preset warhound
+2026-07-23T17:35:42.515496Z TRACE ThreadId(01) Found new mod 3525863056 in preset warhound
+2026-07-23T17:35:42.515499Z TRACE ThreadId(01) Found new mod 1124993203 in preset warhound
+2026-07-23T17:35:42.515502Z TRACE ThreadId(01) Found new mod 2853476684 in preset warhound
+2026-07-23T17:35:42.515504Z TRACE ThreadId(01) Found new mod 623475643 in preset warhound
+2026-07-23T17:35:42.515507Z TRACE ThreadId(01) Found new mod 1790880882 in preset warhound
+2026-07-23T17:35:42.515510Z TRACE ThreadId(01) Found new mod 1659590037 in preset warhound
+2026-07-23T17:35:42.515513Z TRACE ThreadId(01) Found new mod 463939057 in preset warhound
+2026-07-23T17:35:42.515516Z TRACE ThreadId(01) Found new mod 766491311 in preset warhound
+2026-07-23T17:35:42.515518Z TRACE ThreadId(01) Found new mod 1911374016 in preset warhound
+2026-07-23T17:35:42.515521Z TRACE ThreadId(01) Found new mod 2522638637 in preset warhound
+2026-07-23T17:35:42.515524Z TRACE ThreadId(01) Found new mod 3372876344 in preset warhound
+2026-07-23T17:35:42.515526Z TRACE ThreadId(01) Found new mod 3499977893 in preset warhound
+2026-07-23T17:35:42.515529Z TRACE ThreadId(01) Found new mod 2073987581 in preset warhound
+2026-07-23T17:35:42.515532Z TRACE ThreadId(01) Found new mod 615007497 in preset warhound
+2026-07-23T17:35:42.515534Z TRACE ThreadId(01) Found new mod 639837898 in preset warhound
+2026-07-23T17:35:42.515537Z TRACE ThreadId(01) Found new mod 2439516586 in preset warhound
+2026-07-23T17:35:42.515540Z TRACE ThreadId(01) Found new mod 2794721649 in preset warhound
+2026-07-23T17:35:42.515543Z TRACE ThreadId(01) Found new mod 2198339170 in preset warhound
+2026-07-23T17:35:42.515545Z TRACE ThreadId(01) Found new mod 3085697583 in preset warhound
+2026-07-23T17:35:42.515548Z TRACE ThreadId(01) Found new mod 2372036642 in preset warhound
+2026-07-23T17:35:42.515550Z TRACE ThreadId(01) Found new mod 2853828143 in preset warhound
+2026-07-23T17:35:42.515553Z TRACE ThreadId(01) Found new mod 2791403093 in preset warhound
+2026-07-23T17:35:42.515556Z TRACE ThreadId(01) Found new mod 3283645995 in preset warhound
+2026-07-23T17:35:42.515558Z TRACE ThreadId(01) Found new mod 2095827925 in preset warhound
+2026-07-23T17:35:42.515561Z TRACE ThreadId(01) Found new mod 2095882226 in preset warhound
+2026-07-23T17:35:42.515564Z TRACE ThreadId(01) Found new mod 2915485125 in preset warhound
+2026-07-23T17:35:42.515566Z TRACE ThreadId(01) Found new mod 450814997 in preset warhound
+2026-07-23T17:35:42.515569Z TRACE ThreadId(01) Found new mod 837729515 in preset warhound
+2026-07-23T17:35:42.515572Z TRACE ThreadId(01) Found new mod 2515887728 in preset warhound
+2026-07-23T17:35:42.515575Z TRACE ThreadId(01) Found new mod 2447965207 in preset warhound
+2026-07-23T17:35:42.515597Z TRACE ThreadId(01) Found new mod 2262006564 in preset warhound
+2026-07-23T17:35:42.515601Z TRACE ThreadId(01) Found new mod 583496184 in preset warhound
+2026-07-23T17:35:42.515603Z TRACE ThreadId(01) Found new mod 853743366 in preset warhound
+2026-07-23T17:35:42.515606Z TRACE ThreadId(01) Found new mod 583544987 in preset warhound
+2026-07-23T17:35:42.515609Z TRACE ThreadId(01) Found new mod 2822758266 in preset warhound
+2026-07-23T17:35:42.515612Z TRACE ThreadId(01) Found new mod 3656397343 in preset warhound
+2026-07-23T17:35:42.515614Z TRACE ThreadId(01) Found new mod 1447351824 in preset warhound
+2026-07-23T17:35:42.515617Z TRACE ThreadId(01) Found new mod 1638341685 in preset warhound
+2026-07-23T17:35:42.515620Z TRACE ThreadId(01) Found new mod 2800081814 in preset warhound
+2026-07-23T17:35:42.515622Z TRACE ThreadId(01) Found new mod 3540049844 in preset warhound
+2026-07-23T17:35:42.515625Z TRACE ThreadId(01) Found new mod 2699465073 in preset warhound
+2026-07-23T17:35:42.515628Z TRACE ThreadId(01) Found new mod 2231150238 in preset warhound
+2026-07-23T17:35:42.515631Z TRACE ThreadId(01) Found new mod 3477090282 in preset warhound
+2026-07-23T17:35:42.515633Z TRACE ThreadId(01) Found new mod 1224892496 in preset warhound
+2026-07-23T17:35:42.515636Z TRACE ThreadId(01) Found new mod 3255508422 in preset warhound
+2026-07-23T17:35:42.515639Z TRACE ThreadId(01) Found new mod 2797404045 in preset warhound
+2026-07-23T17:35:42.515641Z TRACE ThreadId(01) Found new mod 2617713656 in preset warhound
+2026-07-23T17:35:42.515644Z TRACE ThreadId(01) Found new mod 3328314886 in preset warhound
+2026-07-23T17:35:42.515647Z TRACE ThreadId(01) Found new mod 3487820370 in preset warhound
+2026-07-23T17:35:42.515649Z TRACE ThreadId(01) Found new mod 1767731032 in preset warhound
+2026-07-23T17:35:42.515652Z TRACE ThreadId(01) Found new mod 753946944 in preset warhound
+2026-07-23T17:35:42.515655Z TRACE ThreadId(01) Found new mod 2291129343 in preset warhound
+2026-07-23T17:35:42.515658Z TRACE ThreadId(01) Found new mod 1883956552 in preset warhound
+2026-07-23T17:35:42.515660Z TRACE ThreadId(01) Found new mod 1876589191 in preset warhound
+2026-07-23T17:35:42.515663Z TRACE ThreadId(01) Found new mod 2020940806 in preset warhound
+2026-07-23T17:35:42.515666Z TRACE ThreadId(01) Found new mod 1858075458 in preset warhound
+2026-07-23T17:35:42.515668Z TRACE ThreadId(01) Found new mod 1858070328 in preset warhound
+2026-07-23T17:35:42.515671Z TRACE ThreadId(01) Found new mod 1808238502 in preset warhound
+2026-07-23T17:35:42.515674Z TRACE ThreadId(01) Found new mod 1862208264 in preset warhound
+2026-07-23T17:35:42.515677Z TRACE ThreadId(01) Found new mod 3314208366 in preset warhound
+2026-07-23T17:35:42.515679Z TRACE ThreadId(01) Found new mod 2901732103 in preset warhound
+2026-07-23T17:35:42.515683Z TRACE ThreadId(01) Found new mod 779520435 in preset warhound
+2026-07-23T17:35:42.515685Z TRACE ThreadId(01) Found new mod 1770265310 in preset warhound
+2026-07-23T17:35:42.515688Z TRACE ThreadId(01) Found new mod 1923321700 in preset warhound
+2026-07-23T17:35:42.515691Z TRACE ThreadId(01) Found new mod 769440155 in preset warhound
+2026-07-23T17:35:42.515694Z TRACE ThreadId(01) Found new mod 1572627279 in preset warhound
+2026-07-23T17:35:42.515696Z TRACE ThreadId(01) Found new mod 1763651451 in preset warhound
+2026-07-23T17:35:42.515699Z TRACE ThreadId(01) Found new mod 3551744946 in preset warhound
+2026-07-23T17:35:42.515702Z TRACE ThreadId(01) Found new mod 2909265898 in preset warhound
+2026-07-23T17:35:42.515704Z TRACE ThreadId(01) Found new mod 3734996574 in preset warhound
+2026-07-23T17:35:42.515707Z TRACE ThreadId(01) Found new mod 2017877109 in preset warhound
+2026-07-23T17:35:42.515710Z TRACE ThreadId(01) Found new mod 632435682 in preset warhound
+2026-07-23T17:35:42.515713Z TRACE ThreadId(01) Found new mod 782415569 in preset warhound
+2026-07-23T17:35:42.515715Z TRACE ThreadId(01) Found new mod 2641295901 in preset warhound
+2026-07-23T17:35:42.515718Z TRACE ThreadId(01) Found new mod 2797232351 in preset warhound
+2026-07-23T17:35:42.515722Z TRACE ThreadId(01) Found new mod 3652151369 in preset warhound
+2026-07-23T17:35:42.515725Z TRACE ThreadId(01) Found new mod 3490140797 in preset warhound
+2026-07-23T17:35:42.515728Z TRACE ThreadId(01) Found new mod 2918542818 in preset warhound
+2026-07-23T17:35:42.515731Z TRACE ThreadId(01) Found new mod 3539476763 in preset warhound
+2026-07-23T17:35:42.515734Z TRACE ThreadId(01) Found new mod 3679986577 in preset warhound
+2026-07-23T17:35:42.515736Z TRACE ThreadId(01) Found new mod 3459898476 in preset warhound
+2026-07-23T17:35:42.515739Z TRACE ThreadId(01) Found new mod 2128676112 in preset warhound
+2026-07-23T17:35:42.515742Z TRACE ThreadId(01) Found new mod 2179632906 in preset warhound
+2026-07-23T17:35:42.515745Z TRACE ThreadId(01) Found new mod 3283642267 in preset warhound
+2026-07-23T17:35:42.515748Z TRACE ThreadId(01) Found new mod 770418577 in preset warhound
+2026-07-23T17:35:42.515750Z TRACE ThreadId(01) Found new mod 3542975083 in preset warhound
+2026-07-23T17:35:42.515753Z TRACE ThreadId(01) Found new mod 1808723766 in preset warhound
+2026-07-23T17:35:42.515756Z TRACE ThreadId(01) Found new mod 1598735666 in preset warhound
+2026-07-23T17:35:42.515759Z TRACE ThreadId(01) Found new mod 779568775 in preset warhound
+2026-07-23T17:35:42.515761Z TRACE ThreadId(01) Found new mod 894678801 in preset warhound
+2026-07-23T17:35:42.515764Z TRACE ThreadId(01) Found new mod 2021778690 in preset warhound
+2026-07-23T17:35:42.515767Z TRACE ThreadId(01) Found new mod 2680118205 in preset warhound
+2026-07-23T17:35:42.515770Z TRACE ThreadId(01) Found new mod 2931279278 in preset warhound
+2026-07-23T17:35:42.515773Z TRACE ThreadId(01) Found new mod 2624532448 in preset warhound
+2026-07-23T17:35:42.515776Z TRACE ThreadId(01) Found new mod 3038821437 in preset warhound
+2026-07-23T17:35:42.515778Z TRACE ThreadId(01) Found new mod 3038826897 in preset warhound
+2026-07-23T17:35:42.515781Z TRACE ThreadId(01) Found new mod 3339027493 in preset warhound
+2026-07-23T17:35:42.515784Z TRACE ThreadId(01) Found new mod 3469976535 in preset warhound
+2026-07-23T17:35:42.515787Z TRACE ThreadId(01) Found new mod 2987115897 in preset warhound
+2026-07-23T17:35:42.515790Z TRACE ThreadId(01) Found new mod 2735613231 in preset warhound
+2026-07-23T17:35:42.515792Z TRACE ThreadId(01) Found new mod 3032643455 in preset warhound
+2026-07-23T17:35:42.515795Z TRACE ThreadId(01) Found new mod 2933180786 in preset warhound
+2026-07-23T17:35:42.515798Z TRACE ThreadId(01) Found new mod 2789152015 in preset warhound
+2026-07-23T17:35:42.515801Z TRACE ThreadId(01) Found new mod 925018569 in preset warhound
+2026-07-23T17:35:42.515804Z TRACE ThreadId(01) Found new mod 1412981204 in preset warhound
+2026-07-23T17:35:42.515807Z TRACE ThreadId(01) Found new mod 1251859358 in preset warhound
+2026-07-23T17:35:42.515809Z TRACE ThreadId(01) Found new mod 3566424733 in preset warhound
+2026-07-23T17:35:42.515812Z TRACE ThreadId(01) Found new mod 1779063631 in preset warhound
+2026-07-23T17:35:42.515815Z TRACE ThreadId(01) Found new mod 3660920964 in preset warhound
+2026-07-23T17:35:42.515818Z TRACE ThreadId(01) Found new mod 2461386136 in preset warhound
+2026-07-23T17:35:42.516222Z TRACE ThreadId(01) using temporary folder: "C:\\Users\\mishs\\AppData\\Local\\Temp\\hemtt\\z_22nd_Valkyrie"
+2026-07-23T17:35:42.516228Z TRACE ThreadId(01) using project folder: "C:\\z\\22nd_Valkyrie"
+2026-07-23T17:35:42.516247Z TRACE ThreadId(01) using out folder: "C:\\z\\22nd_Valkyrie\\.hemttout"
+2026-07-23T17:35:42.516447Z TRACE ThreadId(01) using build folder: "C:\\z\\22nd_Valkyrie\\.hemttout\\dev"
+2026-07-23T17:35:42.519113Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/22nd_uniforms/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\mishs\\AppData\\Local\\Temp\\hemtt\\z_22nd_Valkyrie\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\z\\22nd_Valkyrie" } } } } } }] } } }
+2026-07-23T17:35:42.519281Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/22nd_uniforms/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\mishs\\AppData\\Local\\Temp\\hemtt\\z_22nd_Valkyrie\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\z\\22nd_Valkyrie" } } } } } }] } } }
+2026-07-23T17:35:42.519579Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/22nd_uniforms/vests/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\mishs\\AppData\\Local\\Temp\\hemtt\\z_22nd_Valkyrie\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\z\\22nd_Valkyrie" } } } } } }] } } }
+2026-07-23T17:35:42.519705Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/22nd_uniforms/bags/$PREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\mishs\\AppData\\Local\\Temp\\hemtt\\z_22nd_Valkyrie\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\z\\22nd_Valkyrie" } } } } } }] } } }
+2026-07-23T17:35:42.519844Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/22nd_uniforms/bags/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\mishs\\AppData\\Local\\Temp\\hemtt\\z_22nd_Valkyrie\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\z\\22nd_Valkyrie" } } } } } }] } } }
+2026-07-23T17:35:42.520905Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/22nd_uniforms/helmets/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\mishs\\AppData\\Local\\Temp\\hemtt\\z_22nd_Valkyrie\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\z\\22nd_Valkyrie" } } } } } }] } } }
+2026-07-23T17:35:42.533220Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/22nd_uniforms/armour/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\mishs\\AppData\\Local\\Temp\\hemtt\\z_22nd_Valkyrie\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\z\\22nd_Valkyrie" } } } } } }] } } }
+2026-07-23T17:35:42.534732Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/22nd_misc/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\mishs\\AppData\\Local\\Temp\\hemtt\\z_22nd_Valkyrie\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\z\\22nd_Valkyrie" } } } } } }] } } }
+2026-07-23T17:35:42.534924Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/22nd_misc/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\mishs\\AppData\\Local\\Temp\\hemtt\\z_22nd_Valkyrie\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\z\\22nd_Valkyrie" } } } } } }] } } }
+2026-07-23T17:35:42.535166Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/22nd_misc/stetsons/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\mishs\\AppData\\Local\\Temp\\hemtt\\z_22nd_Valkyrie\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\z\\22nd_Valkyrie" } } } } } }] } } }
+2026-07-23T17:35:42.535835Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/22nd_misc/maxwell/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\mishs\\AppData\\Local\\Temp\\hemtt\\z_22nd_Valkyrie\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\z\\22nd_Valkyrie" } } } } } }] } } }
+2026-07-23T17:35:42.536278Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/22nd_misc/menu/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\mishs\\AppData\\Local\\Temp\\hemtt\\z_22nd_Valkyrie\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\z\\22nd_Valkyrie" } } } } } }] } } }
+2026-07-23T17:35:42.536782Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/22nd_misc/markers/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\mishs\\AppData\\Local\\Temp\\hemtt\\z_22nd_Valkyrie\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\z\\22nd_Valkyrie" } } } } } }] } } }
+2026-07-23T17:35:42.538585Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/22nd_items/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\mishs\\AppData\\Local\\Temp\\hemtt\\z_22nd_Valkyrie\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\z\\22nd_Valkyrie" } } } } } }] } } }
+2026-07-23T17:35:42.538740Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/22nd_items/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\mishs\\AppData\\Local\\Temp\\hemtt\\z_22nd_Valkyrie\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\z\\22nd_Valkyrie" } } } } } }] } } }
+2026-07-23T17:35:42.538870Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/22nd_items/medical/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\mishs\\AppData\\Local\\Temp\\hemtt\\z_22nd_Valkyrie\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\z\\22nd_Valkyrie" } } } } } }] } } }
+2026-07-23T17:35:42.539061Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/22nd_main/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\mishs\\AppData\\Local\\Temp\\hemtt\\z_22nd_Valkyrie\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\z\\22nd_Valkyrie" } } } } } }] } } }
+2026-07-23T17:35:42.539225Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/22nd_main/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\mishs\\AppData\\Local\\Temp\\hemtt\\z_22nd_Valkyrie\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\z\\22nd_Valkyrie" } } } } } }] } } }
+2026-07-23T17:35:42.539449Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/22nd_weapons/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\mishs\\AppData\\Local\\Temp\\hemtt\\z_22nd_Valkyrie\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\z\\22nd_Valkyrie" } } } } } }] } } }
+2026-07-23T17:35:42.539635Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/22nd_weapons/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\mishs\\AppData\\Local\\Temp\\hemtt\\z_22nd_Valkyrie\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\z\\22nd_Valkyrie" } } } } } }] } } }
+2026-07-23T17:35:42.539866Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/22nd_units/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\mishs\\AppData\\Local\\Temp\\hemtt\\z_22nd_Valkyrie\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\z\\22nd_Valkyrie" } } } } } }] } } }
+2026-07-23T17:35:42.540057Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/22nd_units/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\mishs\\AppData\\Local\\Temp\\hemtt\\z_22nd_Valkyrie\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\z\\22nd_Valkyrie" } } } } } }] } } }
+2026-07-23T17:35:42.540228Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/22nd_units/units/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\mishs\\AppData\\Local\\Temp\\hemtt\\z_22nd_Valkyrie\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\z\\22nd_Valkyrie" } } } } } }] } } }
+2026-07-23T17:35:42.560306Z TRACE ThreadId(01) reading version from project.toml
+2026-07-23T17:35:42.565594Z  INFO ThreadId(01) Config loaded for 22nd RDF Arms Room 2.0 1.0.0.0-eaf4acd8
+2026-07-23T17:35:42.565650Z TRACE ThreadId(01) Scanning C:\z\22nd_Valkyrie\addons for addons
+2026-07-23T17:35:42.566276Z DEBUG ThreadId(01) using global config directory: "C:\\Users\\mishs\\AppData\\Roaming\\hemtt"
+2026-07-23T17:35:42.566806Z  INFO ThreadId(01) Creating `dev` version
+2026-07-23T17:35:42.566825Z TRACE ThreadId(01) phase: init (BOM Check) (start)
+2026-07-23T17:35:42.566828Z TRACE ThreadId(01) phase: init (BOM Check) (done)
+2026-07-23T17:35:42.566830Z TRACE ThreadId(01) phase: init (Final New Line Check) (start)
+2026-07-23T17:35:42.566832Z TRACE ThreadId(01) phase: init (Final New Line Check) (done)
+2026-07-23T17:35:42.566835Z TRACE ThreadId(01) phase: init (git) (start)
+2026-07-23T17:35:42.566838Z TRACE ThreadId(01) phase: init (git) (done)
+2026-07-23T17:35:42.566851Z TRACE ThreadId(01) phase: init (Hooks) (start)
+2026-07-23T17:35:42.566915Z TRACE ThreadId(01) no hooks folder
+2026-07-23T17:35:42.566919Z TRACE ThreadId(01) phase: init (Hooks) (done)
+2026-07-23T17:35:42.566920Z TRACE ThreadId(01) phase: init (pboprefix) (start)
+2026-07-23T17:35:42.566922Z TRACE ThreadId(01) phase: init (pboprefix) (done)
+2026-07-23T17:35:42.566925Z TRACE ThreadId(01) phase: init (tex_headers) (start)
+2026-07-23T17:35:42.566926Z TRACE ThreadId(01) phase: init (tex_headers) (done)
+2026-07-23T17:35:42.566928Z TRACE ThreadId(01) phase: init (Files) (start)
+2026-07-23T17:35:42.566930Z TRACE ThreadId(01) phase: init (Files) (done)
+2026-07-23T17:35:42.566932Z TRACE ThreadId(01) phase: init (FilePatching) (start)
+2026-07-23T17:35:42.566934Z TRACE ThreadId(01) phase: init (FilePatching) (done)
+2026-07-23T17:35:42.566936Z TRACE ThreadId(01) phase: init (summary) (start)
+2026-07-23T17:35:42.566937Z TRACE ThreadId(01) phase: init (summary) (done)
+2026-07-23T17:35:42.566940Z TRACE ThreadId(01) phase: init (Rapifier) (start)
+2026-07-23T17:35:42.566941Z TRACE ThreadId(01) phase: init (Rapifier) (done)
+2026-07-23T17:35:42.566943Z TRACE ThreadId(01) phase: init (SQF) (start)
+2026-07-23T17:35:42.797149Z TRACE ThreadId(01) phase: init (SQF) (done)
+2026-07-23T17:35:42.797163Z TRACE ThreadId(01) phase: init (Stringtables) (start)
+2026-07-23T17:35:42.797165Z TRACE ThreadId(01) phase: init (Stringtables) (done)
+2026-07-23T17:35:42.797168Z TRACE ThreadId(01) phase: check (BOM Check) (start)
+2026-07-23T17:35:42.803002Z TRACE ThreadId(01) phase: check (BOM Check) (done)
+2026-07-23T17:35:42.803010Z TRACE ThreadId(01) phase: check (Final New Line Check) (start)
+2026-07-23T17:35:42.808052Z TRACE ThreadId(01) phase: check (Final New Line Check) (done)
+2026-07-23T17:35:42.808059Z TRACE ThreadId(01) phase: check (git) (start)
+2026-07-23T17:35:42.815899Z TRACE ThreadId(01) phase: check (git) (done)
+2026-07-23T17:35:42.815906Z TRACE ThreadId(01) phase: check (Hooks) (start)
+2026-07-23T17:35:42.815909Z TRACE ThreadId(01) phase: check (Hooks) (done)
+2026-07-23T17:35:42.815911Z TRACE ThreadId(01) phase: check (pboprefix) (start)
+2026-07-23T17:35:42.815923Z TRACE ThreadId(01) Checking prefixes against expected project path: z\22nd_valkyrie\
+2026-07-23T17:35:42.816321Z TRACE ThreadId(01) phase: check (pboprefix) (done)
+2026-07-23T17:35:42.816331Z TRACE ThreadId(01) phase: check (tex_headers) (start)
+2026-07-23T17:35:42.816334Z TRACE ThreadId(01) phase: check (tex_headers) (done)
+2026-07-23T17:35:42.816336Z TRACE ThreadId(01) phase: check (Files) (start)
+2026-07-23T17:35:42.816338Z TRACE ThreadId(01) phase: check (Files) (done)
+2026-07-23T17:35:42.816340Z TRACE ThreadId(01) phase: check (FilePatching) (start)
+2026-07-23T17:35:42.816342Z TRACE ThreadId(01) phase: check (FilePatching) (done)
+2026-07-23T17:35:42.816344Z TRACE ThreadId(01) phase: check (summary) (start)
+2026-07-23T17:35:42.816345Z TRACE ThreadId(01) phase: check (summary) (done)
+2026-07-23T17:35:42.816380Z TRACE ThreadId(01) phase: check (Rapifier) (start)
+2026-07-23T17:35:42.816427Z TRACE ThreadId(01) phase: check (Rapifier) (done)
+2026-07-23T17:35:42.816429Z TRACE ThreadId(01) phase: check (SQF) (start)
+2026-07-23T17:35:42.816474Z TRACE ThreadId(01) phase: check (SQF) (done)
+2026-07-23T17:35:42.816476Z TRACE ThreadId(01) phase: check (Stringtables) (start)
+2026-07-23T17:35:42.816505Z TRACE ThreadId(01) phase: check (Stringtables) (done)
+2026-07-23T17:35:42.816507Z TRACE ThreadId(01) phase: pre_build (BOM Check) (start)
+2026-07-23T17:35:42.816509Z TRACE ThreadId(01) phase: pre_build (BOM Check) (done)
+2026-07-23T17:35:42.816511Z TRACE ThreadId(01) phase: pre_build (Final New Line Check) (start)
+2026-07-23T17:35:42.816513Z TRACE ThreadId(01) phase: pre_build (Final New Line Check) (done)
+2026-07-23T17:35:42.816515Z TRACE ThreadId(01) phase: pre_build (git) (start)
+2026-07-23T17:35:42.816517Z TRACE ThreadId(01) phase: pre_build (git) (done)
+2026-07-23T17:35:42.816519Z TRACE ThreadId(01) phase: pre_build (Hooks) (start)
+2026-07-23T17:35:42.816523Z TRACE ThreadId(01) phase: pre_build (Hooks) (done)
+2026-07-23T17:35:42.816524Z TRACE ThreadId(01) phase: pre_build (pboprefix) (start)
+2026-07-23T17:35:42.816526Z TRACE ThreadId(01) phase: pre_build (pboprefix) (done)
+2026-07-23T17:35:42.816528Z TRACE ThreadId(01) phase: pre_build (tex_headers) (start)
+2026-07-23T17:35:42.824793Z DEBUG ThreadId(06) Writing texture headers to "/addons/22nd_misc/texHeaders.bin"
+2026-07-23T17:35:43.008614Z DEBUG ThreadId(05) Writing texture headers to "/addons/22nd_uniforms/texHeaders.bin"
+2026-07-23T17:35:43.084444Z DEBUG ThreadId(03) Writing texture headers to "/addons/22nd_units/texHeaders.bin"
+2026-07-23T17:35:43.084915Z  INFO ThreadId(01) Generated 3 texture headers
+2026-07-23T17:35:43.084932Z TRACE ThreadId(01) phase: pre_build (tex_headers) (done)
+2026-07-23T17:35:43.084935Z TRACE ThreadId(01) phase: pre_build (Files) (start)
+2026-07-23T17:35:43.084937Z TRACE ThreadId(01) phase: pre_build (Files) (done)
+2026-07-23T17:35:43.084939Z TRACE ThreadId(01) phase: pre_build (FilePatching) (start)
+2026-07-23T17:35:43.085299Z TRACE ThreadId(03) junction link "C:\\z\\22nd_Valkyrie\\.hemttout\\dev\\addons\\22nd_items" => "C:\\z\\22nd_Valkyrie\\addons\\22nd_items"
+2026-07-23T17:35:43.085307Z TRACE ThreadId(04) junction link "C:\\z\\22nd_Valkyrie\\.hemttout\\dev\\addons\\22nd_uniforms" => "C:\\z\\22nd_Valkyrie\\addons\\22nd_uniforms"
+2026-07-23T17:35:43.085360Z TRACE ThreadId(05) junction link "C:\\z\\22nd_Valkyrie\\.hemttout\\dev\\addons\\22nd_main" => "C:\\z\\22nd_Valkyrie\\addons\\22nd_main"
+2026-07-23T17:35:43.085368Z TRACE ThreadId(06) junction link "C:\\z\\22nd_Valkyrie\\.hemttout\\dev\\addons\\22nd_units" => "C:\\z\\22nd_Valkyrie\\addons\\22nd_units"
+2026-07-23T17:35:43.085399Z TRACE ThreadId(07) junction link "C:\\z\\22nd_Valkyrie\\.hemttout\\dev\\addons\\22nd_misc" => "C:\\z\\22nd_Valkyrie\\addons\\22nd_misc"
+2026-07-23T17:35:43.085408Z TRACE ThreadId(14) junction link "C:\\z\\22nd_Valkyrie\\.hemttout\\dev\\addons\\22nd_weapons" => "C:\\z\\22nd_Valkyrie\\addons\\22nd_weapons"
+2026-07-23T17:35:43.135866Z TRACE ThreadId(01) phase: pre_build (FilePatching) (done)
+2026-07-23T17:35:43.135881Z TRACE ThreadId(01) phase: pre_build (summary) (start)
+2026-07-23T17:35:43.135883Z TRACE ThreadId(01) phase: pre_build (summary) (done)
+2026-07-23T17:35:43.135886Z TRACE ThreadId(01) phase: pre_build (Rapifier) (start)
+2026-07-23T17:35:43.298645Z  INFO ThreadId(01) Rapified 17 addon configs
+2026-07-23T17:35:43.298705Z TRACE ThreadId(01) phase: pre_build (Rapifier) (done)
+2026-07-23T17:35:43.298716Z TRACE ThreadId(01) phase: pre_build (SQF) (start)
+2026-07-23T17:35:43.380122Z TRACE ThreadId(03) sqf compiling /addons/22nd_units/units/data/Functions/fn_PelicanLoadValidate.sqf
+2026-07-23T17:35:43.380129Z TRACE ThreadId(06) sqf compiling /addons/22nd_units/units/data/Functions/fn_loadIntoNearestVehicle.sqf
+2026-07-23T17:35:43.380491Z TRACE ThreadId(04) sqf compiling /addons/22nd_units/units/data/Functions/fn_SlipspaceRuptureDetected.sqf
+2026-07-23T17:35:43.381296Z TRACE ThreadId(05) sqf compiling /addons/22nd_units/units/data/Functions/fn_PelicanUnLoadValidate.sqf
+2026-07-23T17:35:43.383302Z TRACE ThreadId(07) sqf compiling /addons/22nd_units/units/data/Functions/fn_twelfthMagLock.sqf
+2026-07-23T17:35:43.395815Z  INFO ThreadId(01) Compiled 5 sqf files
+2026-07-23T17:35:43.395864Z TRACE ThreadId(01) phase: pre_build (SQF) (done)
+2026-07-23T17:35:43.395868Z TRACE ThreadId(01) phase: pre_build (Stringtables) (start)
+2026-07-23T17:35:43.432041Z  INFO ThreadId(01) Checked 0 stringtables
+2026-07-23T17:35:43.432069Z TRACE ThreadId(01) phase: pre_build (Stringtables) (done)
+2026-07-23T17:35:43.432075Z TRACE ThreadId(01) phase: build (start)
+2026-07-23T17:35:43.434190Z DEBUG ThreadId(01) "C:\\z\\22nd_Valkyrie\\.hemttout\\dev\\addons" already exists
+2026-07-23T17:35:43.434199Z DEBUG ThreadId(01) building "addons/22nd_items" => "C:\\z\\22nd_Valkyrie\\.hemttout\\dev\\addons\\22nd_Valkyrie_22nd_items.pbo"
+2026-07-23T17:35:43.434461Z TRACE ThreadId(01) adding file "config.bin"
+2026-07-23T17:35:43.434645Z TRACE ThreadId(01) adding file "medical\\config.bin"
+2026-07-23T17:35:43.435327Z DEBUG ThreadId(01) "C:\\z\\22nd_Valkyrie\\.hemttout\\dev\\addons" already exists
+2026-07-23T17:35:43.435336Z DEBUG ThreadId(01) building "addons/22nd_main" => "C:\\z\\22nd_Valkyrie\\.hemttout\\dev\\addons\\22nd_Valkyrie_22nd_main.pbo"
+2026-07-23T17:35:43.435740Z TRACE ThreadId(01) adding file "script_macros.hpp"
+2026-07-23T17:35:43.435817Z TRACE ThreadId(01) adding file "script_version.hpp"
+2026-07-23T17:35:43.435983Z TRACE ThreadId(01) adding file "config.bin"
+2026-07-23T17:35:43.436024Z TRACE ThreadId(01) adding file "script_component.hpp"
+2026-07-23T17:35:43.436095Z TRACE ThreadId(01) adding file "script_mod.hpp"
+2026-07-23T17:35:43.436653Z DEBUG ThreadId(01) "C:\\z\\22nd_Valkyrie\\.hemttout\\dev\\addons" already exists
+2026-07-23T17:35:43.436662Z DEBUG ThreadId(01) building "addons/22nd_misc" => "C:\\z\\22nd_Valkyrie\\.hemttout\\dev\\addons\\22nd_Valkyrie_22nd_misc.pbo"
+2026-07-23T17:35:43.439690Z TRACE ThreadId(01) adding file "config.bin"
+2026-07-23T17:35:43.439740Z TRACE ThreadId(01) adding file "texHeaders.bin"
+2026-07-23T17:35:43.439917Z TRACE ThreadId(01) adding file "stetsons\\22nd_Stetson.p3d"
+2026-07-23T17:35:43.440033Z TRACE ThreadId(01) adding file "stetsons\\pbo.json"
+2026-07-23T17:35:43.440145Z TRACE ThreadId(01) adding file "stetsons\\BIS_AddonInfo.hpp"
+2026-07-23T17:35:43.440183Z TRACE ThreadId(01) adding file "stetsons\\config.bin"
+2026-07-23T17:35:43.440227Z TRACE ThreadId(01) adding file "stetsons\\UI\\icon_h_stetson_ca.paa"
+2026-07-23T17:35:43.440267Z TRACE ThreadId(01) adding file "stetsons\\Data\\stetson.rvmat"
+2026-07-23T17:35:43.440312Z TRACE ThreadId(01) adding file "stetsons\\Data\\Stetson_nohq.paa"
+2026-07-23T17:35:43.440386Z TRACE ThreadId(01) adding file "stetsons\\Data\\Stetson_ti_ca.paa"
+2026-07-23T17:35:43.440460Z TRACE ThreadId(01) adding file "stetsons\\Data\\Stetson_co.paa"
+2026-07-23T17:35:43.440534Z TRACE ThreadId(01) adding file "stetsons\\Data\\Stetson_smdi.paa"
+2026-07-23T17:35:43.440609Z TRACE ThreadId(01) adding file "markers\\config.bin"
+2026-07-23T17:35:43.440787Z TRACE ThreadId(01) adding file "markers\\data\\22ndRDF.paa"
+2026-07-23T17:35:43.440876Z TRACE ThreadId(01) adding file "markers\\data\\Support\\config.hpp"
+2026-07-23T17:35:43.440954Z TRACE ThreadId(01) adding file "markers\\data\\Support\\Lancer.paa"
+2026-07-23T17:35:43.441028Z TRACE ThreadId(01) adding file "markers\\data\\Support\\Orca.paa"
+2026-07-23T17:35:43.441106Z TRACE ThreadId(01) adding file "markers\\data\\Pike\\Pike_Actual.paa"
+2026-07-23T17:35:43.441183Z TRACE ThreadId(01) adding file "markers\\data\\Pike\\config.hpp"
+2026-07-23T17:35:43.441259Z TRACE ThreadId(01) adding file "markers\\data\\Pike\\Pike_2.paa"
+2026-07-23T17:35:43.441334Z TRACE ThreadId(01) adding file "markers\\data\\Pike\\Pike_1.paa"
+2026-07-23T17:35:43.441409Z TRACE ThreadId(01) adding file "markers\\data\\Pike\\Pike_3.paa"
+2026-07-23T17:35:43.441523Z TRACE ThreadId(01) adding file "markers\\data\\Spraypaint\\config.hpp"
+2026-07-23T17:35:43.441604Z TRACE ThreadId(01) adding file "markers\\data\\Spraypaint\\Codes\\roomclear.paa"
+2026-07-23T17:35:43.441683Z TRACE ThreadId(01) adding file "markers\\data\\Spraypaint\\Codes\\noturningback.paa"
+2026-07-23T17:35:43.441763Z TRACE ThreadId(01) adding file "markers\\data\\Spraypaint\\Codes\\turnback.paa"
+2026-07-23T17:35:43.441840Z TRACE ThreadId(01) adding file "markers\\data\\Spraypaint\\Codes\\trapped.paa"
+2026-07-23T17:35:43.441918Z TRACE ThreadId(01) adding file "markers\\data\\Spraypaint\\Codes\\unsafearea.paa"
+2026-07-23T17:35:43.441995Z TRACE ThreadId(01) adding file "markers\\data\\Spraypaint\\Codes\\locked.paa"
+2026-07-23T17:35:43.442077Z TRACE ThreadId(01) adding file "markers\\data\\Spraypaint\\Codes\\traitors.paa"
+2026-07-23T17:35:43.442156Z TRACE ThreadId(01) adding file "markers\\data\\Spraypaint\\Codes\\staytogether.paa"
+2026-07-23T17:35:43.442245Z TRACE ThreadId(01) adding file "markers\\data\\Spraypaint\\Codes\\getout.paa"
+2026-07-23T17:35:43.442329Z TRACE ThreadId(01) adding file "markers\\data\\Spraypaint\\Codes\\electronicsfailure.paa"
+2026-07-23T17:35:43.442425Z TRACE ThreadId(01) adding file "markers\\data\\Spraypaint\\Codes\\nonhuman.paa"
+2026-07-23T17:35:43.442500Z TRACE ThreadId(01) adding file "maxwell\\Maxwell.p3d"
+2026-07-23T17:35:43.442666Z TRACE ThreadId(01) adding file "maxwell\\BIS_AddonInfo.hpp"
+2026-07-23T17:35:43.442704Z TRACE ThreadId(01) adding file "maxwell\\config.bin"
+2026-07-23T17:35:43.442746Z TRACE ThreadId(01) adding file "maxwell\\data\\Dingus.paa"
+2026-07-23T17:35:43.442862Z TRACE ThreadId(01) adding file "menu\\config.bin"
+2026-07-23T17:35:43.443025Z TRACE ThreadId(01) adding file "menu\\textures\\LoadingScreens\\startImage.jpg"
+2026-07-23T17:35:43.443116Z TRACE ThreadId(01) adding file "menu\\textures\\LoadingScreens\\Insignia.paa"
+2026-07-23T17:35:43.443188Z TRACE ThreadId(01) adding file "menu\\textures\\LoadingScreens\\mainMenu.jpg"
+2026-07-23T17:35:43.448837Z DEBUG ThreadId(01) "C:\\z\\22nd_Valkyrie\\.hemttout\\dev\\addons" already exists
+2026-07-23T17:35:43.448847Z DEBUG ThreadId(01) building "addons/22nd_uniforms" => "C:\\z\\22nd_Valkyrie\\.hemttout\\dev\\addons\\22nd_Valkyrie_22nd_uniforms.pbo"
+2026-07-23T17:35:43.463437Z TRACE ThreadId(01) adding file "texHeaders.bin"
+2026-07-23T17:35:43.463640Z TRACE ThreadId(01) adding file "config.bin"
+2026-07-23T17:35:43.463730Z TRACE ThreadId(01) adding file "armour\\22ndRDF.paa"
+2026-07-23T17:35:43.463806Z TRACE ThreadId(01) adding file "armour\\config.bin"
+2026-07-23T17:35:43.463848Z TRACE ThreadId(01) adding file "armour\\BIS_AddonInfo.hpp"
+2026-07-23T17:35:43.463988Z TRACE ThreadId(01) adding file "armour\\Custom\\Darling_UpperArmor.paa"
+2026-07-23T17:35:43.464062Z TRACE ThreadId(01) adding file "armour\\Custom\\Sue_UpperArmor.paa"
+2026-07-23T17:35:43.464135Z TRACE ThreadId(01) adding file "armour\\Custom\\Sue_TrooperShoulders.paa"
+2026-07-23T17:35:43.464208Z TRACE ThreadId(01) adding file "armour\\Custom\\German_UpperArmor.paa"
+2026-07-23T17:35:43.464450Z TRACE ThreadId(01) adding file "armour\\Custom\\Rya_TrooperShoulders.paa"
+2026-07-23T17:35:43.464555Z TRACE ThreadId(01) adding file "armour\\Custom\\Relic_TrooperShoulders.paa"
+2026-07-23T17:35:43.464636Z TRACE ThreadId(01) adding file "armour\\Custom\\Relic_UpperArmor.paa"
+2026-07-23T17:35:43.464719Z TRACE ThreadId(01) adding file "armour\\Custom\\Zoey_UpperArmor.paa"
+2026-07-23T17:35:43.464804Z TRACE ThreadId(01) adding file "armour\\Custom\\Yar_TrooperShoulders.paa"
+2026-07-23T17:35:43.464879Z TRACE ThreadId(01) adding file "armour\\Custom\\Yar_UpperArmor.paa"
+2026-07-23T17:35:43.464954Z TRACE ThreadId(01) adding file "armour\\Custom\\Rya_UpperArmor.paa"
+2026-07-23T17:35:43.465031Z TRACE ThreadId(01) adding file "armour\\Infantry\\MA_Tan_TrooperShoulders_CO.paa"
+2026-07-23T17:35:43.465107Z TRACE ThreadId(01) adding file "armour\\Infantry\\MA_Green_TrooperShoulders_CO.paa"
+2026-07-23T17:35:43.465180Z TRACE ThreadId(01) adding file "armour\\Infantry\\22nd_Shoulders_Base.paa"
+2026-07-23T17:35:43.465267Z TRACE ThreadId(01) adding file "armour\\Infantry\\22nd_Shoulders_Snow.paa"
+2026-07-23T17:35:43.465382Z TRACE ThreadId(01) adding file "armour\\Infantry\\Base\\22nd_Light_BDU_BROWN.paa"
+2026-07-23T17:35:43.465457Z TRACE ThreadId(01) adding file "armour\\Infantry\\Base\\22nd_Light_BDU_ARID.paa"
+2026-07-23T17:35:43.465530Z TRACE ThreadId(01) adding file "armour\\Infantry\\Base\\22nd_Light_BDU_WOODLAND.paa"
+2026-07-23T17:35:43.465603Z TRACE ThreadId(01) adding file "armour\\Infantry\\Base\\22nd_Shoulders_Base.paa"
+2026-07-23T17:35:43.465675Z TRACE ThreadId(01) adding file "armour\\Infantry\\Base\\22nd_Light_BDU_WINTER.paa"
+2026-07-23T17:35:43.465748Z TRACE ThreadId(01) adding file "armour\\Infantry\\Base\\22nd_Light_BDU_GRAY.paa"
+2026-07-23T17:35:43.465821Z TRACE ThreadId(01) adding file "armour\\Infantry\\Base\\22nd_Light_BDU_GREEN.paa"
+2026-07-23T17:35:43.465860Z TRACE ThreadId(01) adding file "vests\\config.bin"
+2026-07-23T17:35:43.466211Z TRACE ThreadId(01) adding file "helmets\\22ndRDF.paa"
+2026-07-23T17:35:43.466251Z TRACE ThreadId(01) adding file "helmets\\config.bin"
+2026-07-23T17:35:43.466493Z TRACE ThreadId(01) adding file "helmets\\EOD\\config.hpp"
+2026-07-23T17:35:43.466568Z TRACE ThreadId(01) adding file "helmets\\EOD\\22nd_Olive_EOD_Helmet_R_CO.paa"
+2026-07-23T17:35:43.466641Z TRACE ThreadId(01) adding file "helmets\\EOD\\EOD_Visor_WH_co.paa"
+2026-07-23T17:35:43.466715Z TRACE ThreadId(01) adding file "helmets\\EOD\\22nd_Woodland_EOD_Helmet_R_CO.paa"
+2026-07-23T17:35:43.466787Z TRACE ThreadId(01) adding file "helmets\\EOD\\22nd_White_EOD_Helmet_R_CO.paa"
+2026-07-23T17:35:43.466861Z TRACE ThreadId(01) adding file "helmets\\EOD\\22nd_Gray_EOD_Helmet_R_CO.paa"
+2026-07-23T17:35:43.466934Z TRACE ThreadId(01) adding file "helmets\\EOD\\22nd_Brown_EOD_Helmet_R_CO.paa"
+2026-07-23T17:35:43.467006Z TRACE ThreadId(01) adding file "helmets\\EOD\\22nd_Urban_EOD_Helmet_R_CO.paa"
+2026-07-23T17:35:43.467078Z TRACE ThreadId(01) adding file "helmets\\EOD\\22nd_Winter_EOD_Helmet_R_CO.paa"
+2026-07-23T17:35:43.467150Z TRACE ThreadId(01) adding file "helmets\\Scout\\22nd_Urban_Scout_Helm_co.paa"
+2026-07-23T17:35:43.467223Z TRACE ThreadId(01) adding file "helmets\\Scout\\config.hpp"
+2026-07-23T17:35:43.467298Z TRACE ThreadId(01) adding file "helmets\\Scout\\22nd_Woodland_Scout_Helm_co.paa"
+2026-07-23T17:35:43.467372Z TRACE ThreadId(01) adding file "helmets\\Scout\\22nd_Winter_Scout_Helm_co.paa"
+2026-07-23T17:35:43.467486Z TRACE ThreadId(01) adding file "helmets\\Grenadier\\22nd_Urban_Grenadier_Helm_co.paa"
+2026-07-23T17:35:43.467562Z TRACE ThreadId(01) adding file "helmets\\Grenadier\\22nd_Winter_Grenadier_Helm_co.paa"
+2026-07-23T17:35:43.467638Z TRACE ThreadId(01) adding file "helmets\\Grenadier\\config.hpp"
+2026-07-23T17:35:43.467715Z TRACE ThreadId(01) adding file "helmets\\Grenadier\\22nd_Woodland_Grenadier_Helm_co.paa"
+2026-07-23T17:35:43.467792Z TRACE ThreadId(01) adding file "helmets\\CQC\\22nd_Woodland_CQC_Helm_co.paa"
+2026-07-23T17:35:43.467867Z TRACE ThreadId(01) adding file "helmets\\CQC\\22nd_Winter_CQC_Helm_co.paa"
+2026-07-23T17:35:43.467942Z TRACE ThreadId(01) adding file "helmets\\CQC\\config.hpp"
+2026-07-23T17:35:43.468014Z TRACE ThreadId(01) adding file "helmets\\CQC\\22nd_Urban_CQC_Helm_co.paa"
+2026-07-23T17:35:43.468090Z TRACE ThreadId(01) adding file "helmets\\Commando\\22nd_Woodland_Commando_Helm_co.paa"
+2026-07-23T17:35:43.468196Z TRACE ThreadId(01) adding file "helmets\\Commando\\config.hpp"
+2026-07-23T17:35:43.468271Z TRACE ThreadId(01) adding file "helmets\\Commando\\22nd_Winter_Commando_Helm_co.paa"
+2026-07-23T17:35:43.468344Z TRACE ThreadId(01) adding file "helmets\\Commando\\22nd_Urban_Commando_Helm_co.paa"
+2026-07-23T17:35:43.468417Z TRACE ThreadId(01) adding file "helmets\\Operator\\22nd_Operator_Helmet_Winter_co.paa"
+2026-07-23T17:35:43.468491Z TRACE ThreadId(01) adding file "helmets\\Operator\\config.hpp"
+2026-07-23T17:35:43.468567Z TRACE ThreadId(01) adding file "helmets\\Operator\\22nd_Operator_Helmet_Woodland_co.paa"
+2026-07-23T17:35:43.468647Z TRACE ThreadId(01) adding file "helmets\\Operator\\22nd_Operator_Visor_co.paa"
+2026-07-23T17:35:43.468728Z TRACE ThreadId(01) adding file "helmets\\Operator\\22nd_Operator_Helmet_Urban_co.paa"
+2026-07-23T17:35:43.468803Z TRACE ThreadId(01) adding file "helmets\\AA\\22nd_AA_Helm_Snow_co.paa"
+2026-07-23T17:35:43.468876Z TRACE ThreadId(01) adding file "helmets\\AA\\config.hpp"
+2026-07-23T17:35:43.468948Z TRACE ThreadId(01) adding file "helmets\\AA\\22nd_AA_Helm_Urban_co.paa"
+2026-07-23T17:35:43.469021Z TRACE ThreadId(01) adding file "helmets\\AA\\22nd_AA_Helm_Woodland_co.paa"
+2026-07-23T17:35:43.469097Z TRACE ThreadId(01) adding file "helmets\\Gungnir\\22nd_Snow_Gungnir_Helmet_R_CO.paa"
+2026-07-23T17:35:43.469169Z TRACE ThreadId(01) adding file "helmets\\Gungnir\\config.hpp"
+2026-07-23T17:35:43.469242Z TRACE ThreadId(01) adding file "helmets\\Gungnir\\22nd_Woodland_Gungnir_Helmet_R_CO.paa"
+2026-07-23T17:35:43.469314Z TRACE ThreadId(01) adding file "helmets\\Gungnir\\22nd_Urban_Gungnir_Helmet_R_CO.paa"
+2026-07-23T17:35:43.469388Z TRACE ThreadId(01) adding file "helmets\\Customs\\22nd_HelmCustom_Ferret.paa"
+2026-07-23T17:35:43.469462Z TRACE ThreadId(01) adding file "helmets\\Customs\\22nd_HelmCustom_Relic.paa"
+2026-07-23T17:35:43.469771Z TRACE ThreadId(01) adding file "helmets\\Customs\\22nd_HelmCustom_Zoey.paa"
+2026-07-23T17:35:43.469910Z TRACE ThreadId(01) adding file "helmets\\Customs\\config.hpp"
+2026-07-23T17:35:43.469984Z TRACE ThreadId(01) adding file "helmets\\Customs\\22nd_HelmCustom_Grims.paa"
+2026-07-23T17:35:43.470060Z TRACE ThreadId(01) adding file "helmets\\Customs\\22nd_HelmCustom_Yar.paa"
+2026-07-23T17:35:43.470203Z TRACE ThreadId(01) adding file "helmets\\Customs\\22nd_HelmCustom_Hoodie.paa"
+2026-07-23T17:35:43.470276Z TRACE ThreadId(01) adding file "helmets\\Customs\\22nd_HelmCustom_Jacks.paa"
+2026-07-23T17:35:43.470348Z TRACE ThreadId(01) adding file "helmets\\Customs\\22nd_HelmCustom_Alloy.paa"
+2026-07-23T17:35:43.470421Z TRACE ThreadId(01) adding file "helmets\\Customs\\22nd_HelmCustom_Darling.paa"
+2026-07-23T17:35:43.470496Z TRACE ThreadId(01) adding file "helmets\\Customs\\22nd_HelmCustom_Perse.paa"
+2026-07-23T17:35:43.470603Z TRACE ThreadId(01) adding file "helmets\\Customs\\22nd_HelmCustom_Harper.paa"
+2026-07-23T17:35:43.470674Z TRACE ThreadId(01) adding file "helmets\\Customs\\22nd_HelmCustom_Bay.paa"
+2026-07-23T17:35:43.470746Z TRACE ThreadId(01) adding file "helmets\\Customs\\22nd_HelmCustom_Bee.paa"
+2026-07-23T17:35:43.470831Z TRACE ThreadId(01) adding file "helmets\\Customs\\22nd_HelmCustom_Sue.paa"
+2026-07-23T17:35:43.471074Z TRACE ThreadId(01) adding file "helmets\\Customs\\Aviation\\Evans\\22nd_Air_Helm_Evans_Snow_Co.paa"
+2026-07-23T17:35:43.471149Z TRACE ThreadId(01) adding file "helmets\\Customs\\Aviation\\Evans\\22nd_Air_Helm_Evans_Arid_Co.paa"
+2026-07-23T17:35:43.471223Z TRACE ThreadId(01) adding file "helmets\\Customs\\Aviation\\Evans\\22nd_Air_Helm_Evans_Urban_Co.paa"
+2026-07-23T17:35:43.471298Z TRACE ThreadId(01) adding file "helmets\\Customs\\Aviation\\Evans\\22nd_Air_Helm_Evans_Woodland_Co.paa"
+2026-07-23T17:35:43.471394Z TRACE ThreadId(01) adding file "helmets\\Customs\\Aviation\\Cuban\\22nd_Air_Helm_Cuban_Urban_Co.paa"
+2026-07-23T17:35:43.471467Z TRACE ThreadId(01) adding file "helmets\\Customs\\Aviation\\Cuban\\22nd_Air_Helm_Cuban_Arid_Co.paa"
+2026-07-23T17:35:43.471551Z TRACE ThreadId(01) adding file "helmets\\Customs\\Aviation\\Cuban\\22nd_Air_Helm_Cuban_Woodland_Co.paa"
+2026-07-23T17:35:43.471625Z TRACE ThreadId(01) adding file "helmets\\Customs\\Aviation\\Cuban\\22nd_Air_Helm_Cuban_Snow_Co.paa"
+2026-07-23T17:35:43.471699Z TRACE ThreadId(01) adding file "helmets\\Customs\\Aviation\\Astro\\h3_pilothelmet_visor_crack_co.paa"
+2026-07-23T17:35:43.471773Z TRACE ThreadId(01) adding file "helmets\\Customs\\Aviation\\Astro\\22nd_Air_Helm_Astro_Arid_Co.paa"
+2026-07-23T17:35:43.471852Z TRACE ThreadId(01) adding file "helmets\\Customs\\Aviation\\Astro\\22nd_Air_Helm_Astro_Snow_Co.paa"
+2026-07-23T17:35:43.471926Z TRACE ThreadId(01) adding file "helmets\\Customs\\Aviation\\Astro\\22nd_Air_Helm_Astro_Urban_Co.paa"
+2026-07-23T17:35:43.472001Z TRACE ThreadId(01) adding file "helmets\\Customs\\Aviation\\Astro\\22nd_Air_Helm_Astro_Woodland_Co.paa"
+2026-07-23T17:35:43.472079Z TRACE ThreadId(01) adding file "helmets\\Customs\\Aviation\\Ras\\22nd_Air_Helm_Ras_Arid_Co.paa"
+2026-07-23T17:35:43.472153Z TRACE ThreadId(01) adding file "helmets\\Customs\\Aviation\\Ras\\22nd_Air_Helm_Ras_Snow_Co.paa"
+2026-07-23T17:35:43.472227Z TRACE ThreadId(01) adding file "helmets\\Customs\\Aviation\\Ras\\22nd_Air_Helm_Ras_Woodland_Co.paa"
+2026-07-23T17:35:43.472301Z TRACE ThreadId(01) adding file "helmets\\Customs\\Aviation\\Ras\\22nd_Air_Helm_Ras_Urban_Co.paa"
+2026-07-23T17:35:43.472376Z TRACE ThreadId(01) adding file "helmets\\Customs\\Aviation\\Manta\\22nd_Air_Helm_Manta_Urban_Co.paa"
+2026-07-23T17:35:43.472450Z TRACE ThreadId(01) adding file "helmets\\Customs\\Aviation\\Manta\\22nd_Air_Helm_Manta_Snow_Co.paa"
+2026-07-23T17:35:43.472524Z TRACE ThreadId(01) adding file "helmets\\Customs\\Aviation\\Manta\\22nd_Air_Helm_Manta_Woodland_Co.paa"
+2026-07-23T17:35:43.472597Z TRACE ThreadId(01) adding file "helmets\\Customs\\Aviation\\Manta\\22nd_Air_Helm_Manta_Arid_Co.paa"
+2026-07-23T17:35:43.472671Z TRACE ThreadId(01) adding file "helmets\\Customs\\Gungnir\\22nd_Urban_Gungnir_Helmet_Test_CO.paa"
+2026-07-23T17:35:43.472816Z TRACE ThreadId(01) adding file "helmets\\Customs\\Crewman\\Lamb\\22nd_Lamb_crewmanaridcamo.paa"
+2026-07-23T17:35:43.472931Z TRACE ThreadId(01) adding file "helmets\\Customs\\Crewman\\Lamb\\22nd_Lamb_crewmanurbancamo.paa"
+2026-07-23T17:35:43.473005Z TRACE ThreadId(01) adding file "helmets\\Customs\\Crewman\\Lamb\\22nd_Lamb_crewmanwdlndcamo.paa"
+2026-07-23T17:35:43.473079Z TRACE ThreadId(01) adding file "helmets\\Customs\\Crewman\\Lamb\\22nd_Lamb_crewmansnowcamo.paa"
+2026-07-23T17:35:43.473153Z TRACE ThreadId(01) adding file "helmets\\Customs\\Crewman\\German\\22nd_German_crewmanwdlndcamo.paa"
+2026-07-23T17:35:43.473226Z TRACE ThreadId(01) adding file "helmets\\Customs\\Crewman\\German\\22nd_German_crewmansnowcamo.paa"
+2026-07-23T17:35:43.473300Z TRACE ThreadId(01) adding file "helmets\\Customs\\Crewman\\German\\22nd_German_crewmanurbancamo.paa"
+2026-07-23T17:35:43.473374Z TRACE ThreadId(01) adding file "helmets\\Customs\\Crewman\\German\\22nd_German_crewmanaridcamo.paa"
+2026-07-23T17:35:43.473490Z TRACE ThreadId(01) adding file "helmets\\Customs\\Commando\\Test\\22nd_Commando_Urban_Test_Helm_co.paa"
+2026-07-23T17:35:43.473564Z TRACE ThreadId(01) adding file "helmets\\Customs\\Commando\\Test\\22nd_Commando_Winter_Test_Helm_co.paa"
+2026-07-23T17:35:43.473641Z TRACE ThreadId(01) adding file "helmets\\Customs\\Commando\\Test\\22nd_Commando_Custom_Test_Helm_co.paa"
+2026-07-23T17:35:43.473720Z TRACE ThreadId(01) adding file "helmets\\Customs\\Commando\\Test\\22nd_Commando_Woodland_Test_Helm_co.paa"
+2026-07-23T17:35:43.473796Z TRACE ThreadId(01) adding file "helmets\\Customs\\Base\\22nd_HelmCustom_Darling.paa"
+2026-07-23T17:35:43.473871Z TRACE ThreadId(01) adding file "helmets\\Customs\\Base\\22nd_HelmCustom_Ferret.paa"
+2026-07-23T17:35:43.473945Z TRACE ThreadId(01) adding file "helmets\\Customs\\Base\\22nd_HelmCustom_Perse.paa"
+2026-07-23T17:35:43.474017Z TRACE ThreadId(01) adding file "helmets\\Customs\\Base\\22nd_HelmCustom_Relic.paa"
+2026-07-23T17:35:43.474089Z TRACE ThreadId(01) adding file "helmets\\Customs\\Base\\22nd_HelmCustom_Sue.paa"
+2026-07-23T17:35:43.474161Z TRACE ThreadId(01) adding file "helmets\\Customs\\Base\\22nd_HelmCustom_Bee.paa"
+2026-07-23T17:35:43.474233Z TRACE ThreadId(01) adding file "helmets\\Customs\\Base\\22nd_HelmCustom_Harper.paa"
+2026-07-23T17:35:43.474306Z TRACE ThreadId(01) adding file "helmets\\Customs\\Base\\22nd_HelmCustom_Alloy.paa"
+2026-07-23T17:35:43.474379Z TRACE ThreadId(01) adding file "helmets\\Customs\\Base\\22nd_HelmCustom_Bay.paa"
+2026-07-23T17:35:43.474452Z TRACE ThreadId(01) adding file "helmets\\Customs\\Base\\22nd_HelmCustom_Jacks.paa"
+2026-07-23T17:35:43.474524Z TRACE ThreadId(01) adding file "helmets\\Customs\\Base\\22nd_HelmCustom_Yar.paa"
+2026-07-23T17:35:43.474596Z TRACE ThreadId(01) adding file "helmets\\Customs\\Base\\22nd_HelmCustom_Zoey.paa"
+2026-07-23T17:35:43.474670Z TRACE ThreadId(01) adding file "helmets\\Customs\\Base\\22nd_HelmCustom_Grims.paa"
+2026-07-23T17:35:43.474743Z TRACE ThreadId(01) adding file "helmets\\Customs\\Base\\22nd_HelmCustom_Hoodie.paa"
+2026-07-23T17:35:43.474852Z TRACE ThreadId(01) adding file "helmets\\Customs\\Scout\\Test\\22nd_Woodland_Test_Helm_co.paa"
+2026-07-23T17:35:43.474927Z TRACE ThreadId(01) adding file "helmets\\Customs\\Scout\\Test\\22nd_Winter_Test_Helm_co.paa"
+2026-07-23T17:35:43.475000Z TRACE ThreadId(01) adding file "helmets\\Customs\\Scout\\Test\\22nd_Custom_Test_Helm_co.paa"
+2026-07-23T17:35:43.475074Z TRACE ThreadId(01) adding file "helmets\\Customs\\Scout\\Test\\22nd_Urban_Test_Helm_co.paa"
+2026-07-23T17:35:43.475149Z TRACE ThreadId(01) adding file "helmets\\Customs\\Operator\\22nd_Operator_Helmet_Test_co.paa"
+2026-07-23T17:35:43.475222Z TRACE ThreadId(01) adding file "helmets\\Customs\\Operator\\22nd_Operator_Helmet_Custom_Test_co.paa"
+2026-07-23T17:35:43.475330Z TRACE ThreadId(01) adding file "helmets\\Customs\\JFO\\Test\\22nd_Winter_JFO_Test_Helm_CO.paa"
+2026-07-23T17:35:43.475404Z TRACE ThreadId(01) adding file "helmets\\Customs\\JFO\\Test\\22nd_Urban_JFO_Test_Helm_CO.paa"
+2026-07-23T17:35:43.475478Z TRACE ThreadId(01) adding file "helmets\\Customs\\JFO\\Test\\22nd_Woodland_JFO_Test_Helm_CO.paa"
+2026-07-23T17:35:43.475554Z TRACE ThreadId(01) adding file "helmets\\Customs\\JFO\\Test\\22nd_Custom_JFO_Test_Helm_co.paa"
+2026-07-23T17:35:43.475662Z TRACE ThreadId(01) adding file "helmets\\Customs\\Grenadier\\Test\\22nd_Gren_Woodland_Test_Helm_co.paa"
+2026-07-23T17:35:43.475737Z TRACE ThreadId(01) adding file "helmets\\Customs\\Grenadier\\Test\\22nd_Gren_Urban_Test_Helm_co.paa"
+2026-07-23T17:35:43.475813Z TRACE ThreadId(01) adding file "helmets\\Customs\\Grenadier\\Test\\22nd_Gren_Winter_Test_Helm_co.paa"
+2026-07-23T17:35:43.475892Z TRACE ThreadId(01) adding file "helmets\\Customs\\Grenadier\\Test\\22nd_Gren_Custom_Test_Helm_co.paa"
+2026-07-23T17:35:43.476002Z TRACE ThreadId(01) adding file "helmets\\Customs\\EOD\\Yogi\\22nd_Woodland_EOD_Helmet_Yogi_CO.paa"
+2026-07-23T17:35:43.476077Z TRACE ThreadId(01) adding file "helmets\\Customs\\EOD\\Yogi\\22nd_White_EOD_Helmet_Yogi_CO.paa"
+2026-07-23T17:35:43.476151Z TRACE ThreadId(01) adding file "helmets\\Customs\\EOD\\Yogi\\22nd_Winter_EOD_Helmet_Yogi_CO.paa"
+2026-07-23T17:35:43.476224Z TRACE ThreadId(01) adding file "helmets\\Customs\\EOD\\Yogi\\22nd_Olive_EOD_Helmet_Yogi_CO.paa"
+2026-07-23T17:35:43.476296Z TRACE ThreadId(01) adding file "helmets\\Customs\\EOD\\Yogi\\22nd_Urban_EOD_Helmet_Yogi_CO.paa"
+2026-07-23T17:35:43.476369Z TRACE ThreadId(01) adding file "helmets\\Customs\\EOD\\Yogi\\22nd_Gray_EOD_Helmet_Yogi_CO.paa"
+2026-07-23T17:35:43.476443Z TRACE ThreadId(01) adding file "helmets\\Customs\\EOD\\Yogi\\Yogi_Base_EOD_Visor_R_CO.paa"
+2026-07-23T17:35:43.476516Z TRACE ThreadId(01) adding file "helmets\\Customs\\EOD\\Yogi\\22nd_Custom_EOD_Helmet_Yogi_CO.paa"
+2026-07-23T17:35:43.476590Z TRACE ThreadId(01) adding file "helmets\\Customs\\EOD\\Yogi\\22nd_Brown_EOD_Helmet_Yogi_CO.paa"
+2026-07-23T17:35:43.476706Z TRACE ThreadId(01) adding file "helmets\\Customs\\AA\\Hatty\\22nd_Hatty_Helm_Urban_co.paa"
+2026-07-23T17:35:43.476780Z TRACE ThreadId(01) adding file "helmets\\Customs\\AA\\Hatty\\22nd_Hatty_Helm_Winter_co.paa"
+2026-07-23T17:35:43.476854Z TRACE ThreadId(01) adding file "helmets\\Customs\\AA\\Hatty\\22nd_Hatty_Helm_Woodland_co.paa"
+2026-07-23T17:35:43.476928Z TRACE ThreadId(01) adding file "helmets\\Customs\\AA\\Hatty\\22nd_Hatty_Helm_Custom_co.paa"
+2026-07-23T17:35:43.477034Z TRACE ThreadId(01) adding file "helmets\\Customs\\CQC\\Test\\22nd_CQC_Urban_Test_Helm_co.paa"
+2026-07-23T17:35:43.477107Z TRACE ThreadId(01) adding file "helmets\\Customs\\CQC\\Test\\22nd_CQC_Winter_Test_Helm_co.paa"
+2026-07-23T17:35:43.477181Z TRACE ThreadId(01) adding file "helmets\\Customs\\CQC\\Test\\22nd_CQC_Woodland_Test_Helm_co.paa"
+2026-07-23T17:35:43.477256Z TRACE ThreadId(01) adding file "helmets\\Infantry\\22nd_Helmet_Base.paa"
+2026-07-23T17:35:43.477362Z TRACE ThreadId(01) adding file "helmets\\Infantry\\22nd_Helmet_Snow.paa"
+2026-07-23T17:35:43.477436Z TRACE ThreadId(01) adding file "helmets\\Infantry\\22nd_Helmet_Snow_Med.paa"
+2026-07-23T17:35:43.477517Z TRACE ThreadId(01) adding file "helmets\\Infantry\\22nd_Base_Helmet_Lower.paa"
+2026-07-23T17:35:43.477589Z TRACE ThreadId(01) adding file "helmets\\Infantry\\22nd_Helmet_Base_Med.paa"
+2026-07-23T17:35:43.477661Z TRACE ThreadId(01) adding file "helmets\\Infantry\\data\\22nd_Helmet_Snow.paa"
+2026-07-23T17:35:43.477735Z TRACE ThreadId(01) adding file "helmets\\Infantry\\data\\22nd_Helmet_Base.paa"
+2026-07-23T17:35:43.477807Z TRACE ThreadId(01) adding file "helmets\\Infantry\\data\\22nd_Helmet_Base_Med.paa"
+2026-07-23T17:35:43.477880Z TRACE ThreadId(01) adding file "helmets\\Infantry\\data\\22nd_Base_Helmet_Lower.paa"
+2026-07-23T17:35:43.477952Z TRACE ThreadId(01) adding file "helmets\\Infantry\\data\\22nd_Helmet_Snow_Med.paa"
+2026-07-23T17:35:43.478034Z TRACE ThreadId(01) adding file "helmets\\Crewman\\config.hpp"
+2026-07-23T17:35:43.478106Z TRACE ThreadId(01) adding file "helmets\\Crewman\\crewmanwdlndcamo.paa"
+2026-07-23T17:35:43.478179Z TRACE ThreadId(01) adding file "helmets\\Crewman\\crewmanurbancamo.paa"
+2026-07-23T17:35:43.478253Z TRACE ThreadId(01) adding file "helmets\\Crewman\\crewmansnowcamo.paa"
+2026-07-23T17:35:43.478324Z TRACE ThreadId(01) adding file "helmets\\Crewman\\crewmanaridcamo.paa"
+2026-07-23T17:35:43.478431Z TRACE ThreadId(01) adding file "helmets\\Aviation\\22nd_Air_Helm_Co.paa"
+2026-07-23T17:35:43.478505Z TRACE ThreadId(01) adding file "helmets\\Aviation\\22nd_Air_Helm_Snow_Co.paa"
+2026-07-23T17:35:43.478577Z TRACE ThreadId(01) adding file "helmets\\Aviation\\22nd_Air_Helm_Arid_Co.paa"
+2026-07-23T17:35:43.478650Z TRACE ThreadId(01) adding file "helmets\\Aviation\\22nd_Air_Helm_Woodland_Co.paa"
+2026-07-23T17:35:43.478756Z TRACE ThreadId(01) adding file "helmets\\Aviation\\config.hpp"
+2026-07-23T17:35:43.478832Z TRACE ThreadId(01) adding file "helmets\\Aviation\\Hammerhead\\22nd_Air_Helm_Urban_HMHD_Co.paa"
+2026-07-23T17:35:43.478910Z TRACE ThreadId(01) adding file "helmets\\Aviation\\Hammerhead\\22nd_Air_Helm_Arid_HMHD_Co.paa"
+2026-07-23T17:35:43.478983Z TRACE ThreadId(01) adding file "helmets\\Aviation\\Hammerhead\\22nd_Air_Helm_Snow_HMHD_Co.paa"
+2026-07-23T17:35:43.479064Z TRACE ThreadId(01) adding file "helmets\\Aviation\\Hammerhead\\22nd_Air_Helm_Woodland_HMHD_Co.paa"
+2026-07-23T17:35:43.479138Z TRACE ThreadId(01) adding file "helmets\\Aviation\\Orca\\22nd_Air_Helm_Woodland_Co.paa"
+2026-07-23T17:35:43.479210Z TRACE ThreadId(01) adding file "helmets\\Aviation\\Orca\\22nd_Air_Helm_Urban_Co.paa"
+2026-07-23T17:35:43.479283Z TRACE ThreadId(01) adding file "helmets\\Aviation\\Orca\\22nd_Air_Helm_Arid_Co.paa"
+2026-07-23T17:35:43.479354Z TRACE ThreadId(01) adding file "helmets\\Aviation\\Orca\\22nd_Air_Helm_Snow_Co.paa"
+2026-07-23T17:35:43.479428Z TRACE ThreadId(01) adding file "helmets\\JFO\\22nd_Winter_JFO_Helmet_CO.paa"
+2026-07-23T17:35:43.479502Z TRACE ThreadId(01) adding file "helmets\\JFO\\22nd_Urban_JFO_Helmet_CO.paa"
+2026-07-23T17:35:43.479576Z TRACE ThreadId(01) adding file "helmets\\JFO\\22nd_Woodland_JFO_Helmet_CO.paa"
+2026-07-23T17:35:43.479648Z TRACE ThreadId(01) adding file "helmets\\JFO\\config.hpp"
+2026-07-23T17:35:43.479756Z TRACE ThreadId(01) adding file "bags\\config.bin"
+2026-07-23T17:35:43.480022Z TRACE ThreadId(01) adding file "bags\\data\\soft_backpack_echo_snow_co.paa"
+2026-07-23T17:35:43.480145Z TRACE ThreadId(01) adding file "bags\\data\\echo_invis_tas.p3d"
+2026-07-23T17:35:43.480259Z TRACE ThreadId(01) adding file "bags\\data\\soft_backpack_echo_medical_snow_co.paa"
+2026-07-23T17:35:43.480336Z TRACE ThreadId(01) adding file "bags\\data\\Soft_Backpack_WH_WDL_co.paa"
+2026-07-23T17:35:43.480413Z TRACE ThreadId(01) adding file "bags\\data\\WH_invis_tas.p3d"
+2026-07-23T17:35:43.480490Z TRACE ThreadId(01) adding file "bags\\data\\soft_backpack_WH_medical_co.paa"
+2026-07-23T17:35:43.480566Z TRACE ThreadId(01) adding file "bags\\data\\soft_backpack_WH_snow_co.paa"
+2026-07-23T17:35:43.480654Z TRACE ThreadId(01) adding file "bags\\data\\soft_backpack_echo_medical_co.paa"
+2026-07-23T17:35:43.480732Z TRACE ThreadId(01) adding file "bags\\data\\soft_backpack_echo_co.paa"
+2026-07-23T17:35:43.480807Z TRACE ThreadId(01) adding file "bags\\data\\soft_backpack_WH_co.paa"
+2026-07-23T17:35:43.480883Z TRACE ThreadId(01) adding file "bags\\data\\Soft_Backpack_Echo_WDL_co.paa"
+2026-07-23T17:35:43.480959Z TRACE ThreadId(01) adding file "bags\\data\\soft_backpack_WH_medical_snow_co.paa"
+2026-07-23T17:35:43.481032Z TRACE ThreadId(01) adding file "bags\\data\\Soft_Backpack_Echo_Medical_WDL_co.paa"
+2026-07-23T17:35:43.481106Z TRACE ThreadId(01) adding file "bags\\data\\Soft_Backpack_WH_Medical_WDL_co.paa"
+2026-07-23T17:35:43.678522Z DEBUG ThreadId(01) "C:\\z\\22nd_Valkyrie\\.hemttout\\dev\\addons" already exists
+2026-07-23T17:35:43.678537Z DEBUG ThreadId(01) building "addons/22nd_units" => "C:\\z\\22nd_Valkyrie\\.hemttout\\dev\\addons\\22nd_Valkyrie_22nd_units.pbo"
+2026-07-23T17:35:43.697836Z TRACE ThreadId(01) adding file "texHeaders.bin"
+2026-07-23T17:35:43.697897Z TRACE ThreadId(01) adding file "22ndRDF.paa"
+2026-07-23T17:35:43.698110Z TRACE ThreadId(01) adding file "config.bin"
+2026-07-23T17:35:43.698199Z TRACE ThreadId(01) adding file "units\\zeus.hpp"
+2026-07-23T17:35:43.698239Z TRACE ThreadId(01) adding file "units\\config.bin"
+2026-07-23T17:35:43.698282Z TRACE ThreadId(01) adding file "units\\data\\22nd_rdf.paa"
+2026-07-23T17:35:43.698685Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\config.hpp"
+2026-07-23T17:35:43.698832Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Sparrowhawk\\WH_Body_05_CO.paa"
+2026-07-23T17:35:43.698914Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Sparrowhawk\\config.hpp"
+2026-07-23T17:35:43.698989Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Sparrowhawk\\WH_Body_01_CO.paa"
+2026-07-23T17:35:43.699064Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Sparrowhawk\\WH_Body_03_CO.paa"
+2026-07-23T17:35:43.699194Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Sparrowhawk\\WH_Body_04_CO.paa"
+2026-07-23T17:35:43.699305Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Sparrowhawk\\WH_Body_02_CO.paa"
+2026-07-23T17:35:43.699393Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Elephant\\W_physX.hpp"
+2026-07-23T17:35:43.699513Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Elephant\\config.hpp"
+2026-07-23T17:35:43.699599Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Elephant\\Standard\\config.hpp"
+2026-07-23T17:35:43.699673Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\config.hpp"
+2026-07-23T17:35:43.699956Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike12\\config.hpp"
+2026-07-23T17:35:43.700138Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike12\\Urban\\22nd_pike12_oryx_armor_urban_co.paa"
+2026-07-23T17:35:43.700215Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike12\\Urban\\22nd_pike12_oryx_main_urban_co.paa"
+2026-07-23T17:35:43.700291Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike12\\Arid\\22nd_pike12_oryx_armor_arid_co.paa"
+2026-07-23T17:35:43.700367Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike12\\Arid\\22nd_pike12_oryx_main_arid_co.paa"
+2026-07-23T17:35:43.700444Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike12\\Woodland\\22nd_pike12_oryx_main_woodland_co.paa"
+2026-07-23T17:35:43.700539Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike12\\Woodland\\22nd_pike12_oryx_armor_woodland_co.paa"
+2026-07-23T17:35:43.700615Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike12\\Arctic\\22nd_pike12_oryx_armor_arctic_co.paa"
+2026-07-23T17:35:43.700691Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike12\\Arctic\\22nd_pike12_oryx_main_arctic_co.paa"
+2026-07-23T17:35:43.700914Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike11\\config.hpp"
+2026-07-23T17:35:43.700990Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike11\\Woodland\\22nd_pike11_oryx_armor_woodland_co.paa"
+2026-07-23T17:35:43.701080Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike11\\Woodland\\22nd_pike11_oryx_turret_woodland_co.paa"
+2026-07-23T17:35:43.701177Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike11\\Woodland\\22nd_pike11_oryx_main_woodland_co.paa"
+2026-07-23T17:35:43.701254Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike11\\Urban\\22nd_pike11_oryx_armor_urban_co.paa"
+2026-07-23T17:35:43.701330Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike11\\Urban\\22nd_pike11_oryx_turret_urban_co.paa"
+2026-07-23T17:35:43.701410Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike11\\Urban\\22nd_pike11_oryx_main_urban_co.paa"
+2026-07-23T17:35:43.701486Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike11\\Arctic\\22nd_pike11_oryx_main_arctic_co.paa"
+2026-07-23T17:35:43.701567Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike11\\Arctic\\22nd_pike11_oryx_turret_arctic_co.paa"
+2026-07-23T17:35:43.701642Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike11\\Arctic\\22nd_pike11_oryx_armor_arctic_co.paa"
+2026-07-23T17:35:43.701724Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike11\\Arid\\22nd_pike11_oryx_armor_arid_co.paa"
+2026-07-23T17:35:43.701800Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike11\\Arid\\22nd_pike11_oryx_main_arid_co.paa"
+2026-07-23T17:35:43.701875Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike11\\Arid\\22nd_pike11_oryx_turret_arid_co.paa"
+2026-07-23T17:35:43.702090Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike1A\\config.hpp"
+2026-07-23T17:35:43.702165Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike1A\\Arid\\22nd_pike1A_oryx_armor_arid_co.paa"
+2026-07-23T17:35:43.702247Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike1A\\Arid\\22nd_pike1A_oryx_main_arid_co.paa"
+2026-07-23T17:35:43.702325Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike1A\\Urban\\22nd_pike1A_oryx_armor_urban_co.paa"
+2026-07-23T17:35:43.702401Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike1A\\Urban\\22nd_pike1A_oryx_main_urban_co.paa"
+2026-07-23T17:35:43.702476Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike1A\\Arctic\\22nd_pike1A_oryx_armor_arctic_co.paa"
+2026-07-23T17:35:43.702557Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike1A\\Arctic\\22nd_pike1A_oryx_main_arctic_co.paa"
+2026-07-23T17:35:43.702633Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike1A\\Woodland\\22nd_pike1A_oryx_armor_woodland_co.paa"
+2026-07-23T17:35:43.702717Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike1A\\Woodland\\22nd_pike1A_oryx_main_woodland_co.paa"
+2026-07-23T17:35:43.702836Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike13\\config.hpp"
+2026-07-23T17:35:43.703016Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike13\\Urban\\22nd_pike13_oryx_armor_urban_co.paa"
+2026-07-23T17:35:43.703097Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike13\\Urban\\22nd_pike13_oryx_turret_urban_co.paa"
+2026-07-23T17:35:43.703172Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike13\\Urban\\22nd_pike13_oryx_main_urban_co.paa"
+2026-07-23T17:35:43.703248Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike13\\Woodland\\22nd_pike13_oryx_armor_woodland_co.paa"
+2026-07-23T17:35:43.703323Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike13\\Woodland\\22nd_pike13_oryx_main_woodland_co.paa"
+2026-07-23T17:35:43.703403Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike13\\Woodland\\22nd_pike13_oryx_turret_woodland_co.paa"
+2026-07-23T17:35:43.703480Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike13\\Arctic\\22nd_pike13_oryx_main_arctic_co.paa"
+2026-07-23T17:35:43.703560Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike13\\Arctic\\22nd_pike13_oryx_armor_arctic_co.paa"
+2026-07-23T17:35:43.703646Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike13\\Arctic\\22nd_pike13_oryx_turret_arctic_co.paa"
+2026-07-23T17:35:43.703726Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike13\\Arid\\22nd_pike13_oryx_armor_arid_co.paa"
+2026-07-23T17:35:43.703802Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike13\\Arid\\22nd_pike13_oryx_turret_arid_co.paa"
+2026-07-23T17:35:43.703877Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Pike13\\Arid\\22nd_pike13_oryx_main_arid_co.paa"
+2026-07-23T17:35:43.704067Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Standard\\config.hpp"
+2026-07-23T17:35:43.704177Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Standard\\Arid\\22nd_standard_Scorp_mg_arid_co.paa"
+2026-07-23T17:35:43.704258Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Standard\\Arid\\22nd_standard_oryx_turret_arid_co.paa"
+2026-07-23T17:35:43.704333Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Standard\\Arid\\22nd_standard_oryx_main_arid_co.paa"
+2026-07-23T17:35:43.704408Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Standard\\Arid\\22nd_standard_oryx_armor_arid_co.paa"
+2026-07-23T17:35:43.704488Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Standard\\Arctic\\22nd_standard_Scorp_mg_arctic_co.paa"
+2026-07-23T17:35:43.704571Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Standard\\Arctic\\22nd_standard_oryx_main_arctic_co.paa"
+2026-07-23T17:35:43.704646Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Standard\\Arctic\\22nd_standard_oryx_armor_arctic_co.paa"
+2026-07-23T17:35:43.704721Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Standard\\Arctic\\22nd_standard_oryx_turret_arctic_co.paa"
+2026-07-23T17:35:43.704796Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Standard\\Woodland\\22nd_standard_Scorp_mg_woodland_co.paa"
+2026-07-23T17:35:43.704875Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Standard\\Woodland\\22nd_standard_oryx_main_woodland_co.paa"
+2026-07-23T17:35:43.704952Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Standard\\Woodland\\22nd_standard_oryx_armor_woodland_co.paa"
+2026-07-23T17:35:43.705029Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Standard\\Woodland\\22nd_standard_oryx_turret_woodland_co.paa"
+2026-07-23T17:35:43.705106Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Standard\\Urban\\22nd_standard_oryx_turret_urban_co.paa"
+2026-07-23T17:35:43.705185Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Standard\\Urban\\22nd_standard_oryx_armor_urban_co.paa"
+2026-07-23T17:35:43.705260Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Standard\\Urban\\22nd_standard_oryx_main_urban_co.paa"
+2026-07-23T17:35:43.705334Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Oryx\\Standard\\Urban\\22nd_standard_Scorp_mg_urban_co.paa"
+2026-07-23T17:35:43.705481Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Falcon\\config.hpp"
+2026-07-23T17:35:43.705678Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Falcon\\Urban\\22ndRDF_Falcon_Attachments_Black_co.paa"
+2026-07-23T17:35:43.705759Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Falcon\\Urban\\22ndRDF_Falcon_Main_Black_co.paa"
+2026-07-23T17:35:43.705836Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Falcon\\Orca_5\\22ndRDF_Falcon_Attachments_Snow_Orca5_co.paa"
+2026-07-23T17:35:43.705917Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Falcon\\Orca_5\\22ndRDF_Falcon_Main_Snow_Orca5_co.paa"
+2026-07-23T17:35:43.705992Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Falcon\\Orca_5\\22ndRDF_Falcon_Attachments_Woodland_Orca5_co.paa"
+2026-07-23T17:35:43.706067Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Falcon\\Orca_5\\22ndRDF_Falcon_Main_Black_Orca5_co.paa"
+2026-07-23T17:35:43.706145Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Falcon\\Orca_5\\config.hpp"
+2026-07-23T17:35:43.706220Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Falcon\\Orca_5\\22ndRDF_Falcon_Attachments_Arid_Orca5_co.paa"
+2026-07-23T17:35:43.706297Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Falcon\\Orca_5\\22ndRDF_Falcon_Attachments_Black_Orca5_co.paa"
+2026-07-23T17:35:43.706373Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Falcon\\Orca_5\\22ndRDF_Falcon_Main_Woodland_Orca5_co.paa"
+2026-07-23T17:35:43.706448Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Falcon\\Orca_5\\22ndRDF_Falcon_Main_Arid_Orca5_co.paa"
+2026-07-23T17:35:43.706553Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Falcon\\Woodland\\22ndRDF_Falcon_Main_Woodland_co.paa"
+2026-07-23T17:35:43.706630Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Falcon\\Woodland\\22ndRDF_Falcon_Attachments_Woodland_co.paa"
+2026-07-23T17:35:43.706709Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Falcon\\Arctic\\22ndRDF_Falcon_Main_Snow_co.paa"
+2026-07-23T17:35:43.706789Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Falcon\\Arctic\\22ndRDF_Falcon_Attachments_Snow_co.paa"
+2026-07-23T17:35:43.706865Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Falcon\\Arid\\22ndRDF_Falcon_Main_Arid_co.paa"
+2026-07-23T17:35:43.706943Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Falcon\\Arid\\22ndRDF_Falcon_Attachments_Arid_co.paa"
+2026-07-23T17:35:43.707059Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Bayonet\\Bayonet_02_fuselage_Orca_co.paa"
+2026-07-23T17:35:43.707133Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Bayonet\\Bayonet_01_fuselage_Orca_co.paa"
+2026-07-23T17:35:43.707223Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Bayonet\\config.hpp"
+2026-07-23T17:35:43.707331Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Bayonet\\Orca_4\\config.hpp"
+2026-07-23T17:35:43.707438Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Bayonet\\Orca_4\\Bayonet_01_fuselage_Orca4_co.paa"
+2026-07-23T17:35:43.707517Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Bayonet\\Orca_3\\Bayonet_01_fuselage_Orca3_co.paa"
+2026-07-23T17:35:43.707592Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Bayonet\\Orca_3\\Bayonet_02_fuselage_Orca3_co.paa"
+2026-07-23T17:35:43.707666Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Bayonet\\Orca_3\\config.hpp"
+2026-07-23T17:35:43.707741Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\WH_Pelican_ARMY_ARCTIC_co.paa"
+2026-07-23T17:35:43.707921Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\WH_Pelican_ARMY_BLACK_co.paa"
+2026-07-23T17:35:43.707994Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\WH_Pelican_ARMY_WOOD_co.paa"
+2026-07-23T17:35:43.708068Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\WH_Pelican_ARMY_ARID_co.paa"
+2026-07-23T17:35:43.708144Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\config.hpp"
+2026-07-23T17:35:43.708287Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\WH_Pelican_ARMY_NIGHT_co.paa"
+2026-07-23T17:35:43.708361Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_2\\WH_Pelican_ORCA_2_NIGHT_co.paa"
+2026-07-23T17:35:43.708436Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_2\\WH_Pelican_ORCA_2_WOODLAND_co.png"
+2026-07-23T17:35:43.708518Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_2\\WH_Pelican_ORCA_2_BLACK_co.paa"
+2026-07-23T17:35:43.708598Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_2\\config.hpp"
+2026-07-23T17:35:43.708671Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_2\\WH_Pelican_ORCA_2_NIGHT_co.png"
+2026-07-23T17:35:43.708745Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_2\\WH_Pelican_ORCA_2_WOODLAND_co.paa"
+2026-07-23T17:35:43.708820Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_2\\WH_Pelican_ORCA_2_BLACK_co.png"
+2026-07-23T17:35:43.708893Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_2\\WH_Pelican_ORCA_2_ARCTIC_co.png"
+2026-07-23T17:35:43.708969Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_2\\WH_Pelican_ORCA_2_ARID_co.paa"
+2026-07-23T17:35:43.709047Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_2\\WH_Pelican_ORCA_2_ARCTIC_co.paa"
+2026-07-23T17:35:43.709121Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_2\\WH_Pelican_ORCA_2_ARID_co.png"
+2026-07-23T17:35:43.709196Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_5\\WH_Pelican_ORCA_5_WOODLAND_co.paa"
+2026-07-23T17:35:43.709270Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_5\\config.hpp"
+2026-07-23T17:35:43.709344Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_5\\WH_Pelican_ORCA_5_ARCTIC_co.paa"
+2026-07-23T17:35:43.709419Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_5\\WH_Pelican_ORCA_5_BLACK_co.paa"
+2026-07-23T17:35:43.709493Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_5\\WH_Pelican_ORCA_5_NIGHT_co.paa"
+2026-07-23T17:35:43.709567Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_5\\WH_Pelican_ORCA_5_ARID_co.paa"
+2026-07-23T17:35:43.709644Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_3\\config.hpp"
+2026-07-23T17:35:43.709718Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_3\\WH_Pelican_ORCA_3_BLACK_co.png"
+2026-07-23T17:35:43.709793Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_3\\WH_Pelican_ORCA_3_ARID_co.png"
+2026-07-23T17:35:43.709867Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_3\\WH_Pelican_ORCA_3_NIGHT_co.paa"
+2026-07-23T17:35:43.709941Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_3\\WH_Pelican_ORCA_3_NIGHT_co.png"
+2026-07-23T17:35:43.710016Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_3\\WH_Pelican_ORCA_3_ARCTIC_co.png"
+2026-07-23T17:35:43.710090Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_3\\WH_Pelican_ORCA_3_BLACK_co.paa"
+2026-07-23T17:35:43.710164Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_3\\WH_Pelican_ORCA_3_WOODLAND_co.paa"
+2026-07-23T17:35:43.710237Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_3\\WH_Pelican_ORCA_3_WOODLAND_co.png"
+2026-07-23T17:35:43.710311Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_3\\WH_Pelican_ORCA_3_ARID_co.paa"
+2026-07-23T17:35:43.710385Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_3\\WH_Pelican_ORCA_3_BLACK_co PSD.paa"
+2026-07-23T17:35:43.710461Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_3\\WH_Pelican_ORCA_3_ARCTIC_co.paa"
+2026-07-23T17:35:43.710535Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_4\\WH_Pelican_ORCA_4_WOODLAND_co.paa"
+2026-07-23T17:35:43.710609Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_4\\WH_Pelican_ORCA_4_WOODLAND_co.png"
+2026-07-23T17:35:43.710683Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_4\\WH_Pelican_ORCA_4_ARID_co.png"
+2026-07-23T17:35:43.710757Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_4\\config.hpp"
+2026-07-23T17:35:43.710830Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_4\\WH_Pelican_ORCA_4_ARID_co.paa"
+2026-07-23T17:35:43.710903Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_4\\WH_Pelican_ORCA_4_BLACK_co.paa"
+2026-07-23T17:35:43.710977Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_4\\WH_Pelican_ORCA_4_BLACK_co.png"
+2026-07-23T17:35:43.711057Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_4\\WH_Pelican_ORCA_4_ARCTIC_co.png"
+2026-07-23T17:35:43.711133Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_4\\WH_Pelican_ORCA_4_NIGHT_co.paa"
+2026-07-23T17:35:43.711207Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_4\\WH_Pelican_ORCA_4_ARCTIC_co.paa"
+2026-07-23T17:35:43.711282Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_4\\WH_Pelican_ORCA_4_NIGHT_co.png"
+2026-07-23T17:35:43.711358Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_1\\config.hpp"
+2026-07-23T17:35:43.711432Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_1\\WH_Pelican_ORCA_1_ARID_co.png"
+2026-07-23T17:35:43.711506Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_1\\WH_Pelican_ORCA_1_WOODLAND_co.paa"
+2026-07-23T17:35:43.711579Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_1\\WH_Pelican_ORCA_1_WOODLAND_co.png"
+2026-07-23T17:35:43.711654Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_1\\WH_Pelican_ORCA_1_NIGHT_co.paa"
+2026-07-23T17:35:43.711728Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_1\\WH_Pelican_ORCA_1_ARCTIC_co.paa"
+2026-07-23T17:35:43.711804Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_1\\WH_Pelican_ORCA_1_BLACK_co.paa"
+2026-07-23T17:35:43.711876Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_1\\WH_Pelican_ORCA_1_ARCTIC_co.png"
+2026-07-23T17:35:43.711951Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_1\\WH_Pelican_ORCA_1_ARID_co.paa"
+2026-07-23T17:35:43.712027Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_1\\WH_Pelican_ORCA_1_NIGHT_co.png"
+2026-07-23T17:35:43.712101Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Pelican\\Orca_1\\WH_Pelican_ORCA_1_BLACK_co.png"
+2026-07-23T17:35:43.712458Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Dingo\\config.hpp"
+2026-07-23T17:35:43.712569Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Dingo\\DingoMG\\config.hpp"
+2026-07-23T17:35:43.712656Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Dingo\\Dingo1A\\config.hpp"
+2026-07-23T17:35:43.712729Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Dingo\\DingoAuto\\config.hpp"
+2026-07-23T17:35:43.712801Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Dingo\\DingoBase\\config.hpp"
+2026-07-23T17:35:43.712875Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Dingo\\DingoMed\\config.hpp"
+2026-07-23T17:35:43.712950Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Dingo\\Dingo11\\config.hpp"
+2026-07-23T17:35:43.713231Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Dingo\\DingoTroop\\config.hpp"
+2026-07-23T17:35:43.713326Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Dingo\\Dingo13\\config.hpp"
+2026-07-23T17:35:43.713403Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Dingo\\Dingo12\\config.hpp"
+2026-07-23T17:35:43.713482Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\22nd_det_3_black_co.paa"
+2026-07-23T17:35:43.713600Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\config.hpp"
+2026-07-23T17:35:43.713786Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\22nd_scorp_decal_blank_ca.paa"
+2026-07-23T17:35:43.713897Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\Urban\\22nd_Scorp_Base_Black_co.paa"
+2026-07-23T17:35:43.713972Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\Urban\\Scorp_net_wood_ca.paa"
+2026-07-23T17:35:43.714049Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\Urban\\22nd_Scorp_MG_Black_co.paa"
+2026-07-23T17:35:43.714129Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\Urban\\22nd_Scorp_Mine_Roller_Black_co.paa"
+2026-07-23T17:35:43.714206Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\Urban\\22nd_Scorp_Tur_Black_co.paa"
+2026-07-23T17:35:43.714281Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\Arctic\\22nd_Scorp_Tur_Arctic_co.paa"
+2026-07-23T17:35:43.714358Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\Arctic\\22nd_Scorp_Mine_Roller_Arctic_co.paa"
+2026-07-23T17:35:43.714434Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\Arctic\\22nd_Scorp_Base_Arctic_co.paa"
+2026-07-23T17:35:43.714511Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\Arctic\\22nd_Scorp_MG_Arctic_co.paa"
+2026-07-23T17:35:43.714589Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\Arctic\\Scorp_net_tundra_ca.paa"
+2026-07-23T17:35:43.714666Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\Arid\\22nd_Scorp_MG_Desert_co.paa"
+2026-07-23T17:35:43.714752Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\Arid\\Scorp_net_desert_ca.paa"
+2026-07-23T17:35:43.714867Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\Arid\\22nd_Scorp_Base_Desert_co.paa"
+2026-07-23T17:35:43.714947Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\Arid\\22nd_Scorp_Mine_Roller_Desert_co.paa"
+2026-07-23T17:35:43.715023Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\Arid\\22nd_Scorp_Tur_Desert_co.paa"
+2026-07-23T17:35:43.715100Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\Woodland\\22nd_Scorp_Tur_Woodland_co.paa"
+2026-07-23T17:35:43.715180Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\Woodland\\22nd_Scorp_Mine_Roller_Woodland_co.paa"
+2026-07-23T17:35:43.715265Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\Woodland\\22nd_Scorp_MG_Woodland_co.paa"
+2026-07-23T17:35:43.715340Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\Woodland\\Scorp_net_jungle_ca.paa"
+2026-07-23T17:35:43.715416Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\Woodland\\22nd_Scorp_Base_Woodland_co.paa"
+2026-07-23T17:35:43.715492Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\Lancer\\22nd_Scorp_Tur_Lancer_Arctic_co.paa"
+2026-07-23T17:35:43.715568Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\Lancer\\22nd_Scorp_Tur_Lancer_Black_co.paa"
+2026-07-23T17:35:43.715643Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\Lancer\\22nd_Scorp_Tur_Lancer_Desert_co.paa"
+2026-07-23T17:35:43.715724Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\Lancer\\22nd_scorp_decal_Lancer_co.paa"
+2026-07-23T17:35:43.715800Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Scorpion\\Lancer\\22nd_Scorp_Tur_Lancer_Woodland_co.paa"
+2026-07-23T17:35:43.715956Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\OryxAPC\\config.hpp"
+2026-07-23T17:35:43.716117Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\OryxAPC\\Standard\\config.hpp"
+2026-07-23T17:35:43.716270Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\OryxAPC\\Standard\\Arctic\\22nd_standard_oryx_turret_arctic_co.paa"
+2026-07-23T17:35:43.716349Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\OryxAPC\\Standard\\Arctic\\22nd_standard_oryx_armor_arctic_co.paa"
+2026-07-23T17:35:43.716428Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\OryxAPC\\Standard\\Arctic\\22nd_standard_Scorp_mg_arctic_co.paa"
+2026-07-23T17:35:43.716512Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\OryxAPC\\Standard\\Arctic\\22nd_standard_oryx_main_arctic_co.paa"
+2026-07-23T17:35:43.716595Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\OryxAPC\\Standard\\Arid\\22nd_standard_Scorp_mg_arid_co.paa"
+2026-07-23T17:35:43.716673Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\OryxAPC\\Standard\\Arid\\22nd_standard_oryx_turret_arid_co.paa"
+2026-07-23T17:35:43.716749Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\OryxAPC\\Standard\\Arid\\22nd_standard_oryx_armor_arid_co.paa"
+2026-07-23T17:35:43.716828Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\OryxAPC\\Standard\\Arid\\22nd_standard_oryx_main_arid_co.paa"
+2026-07-23T17:35:43.716912Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\OryxAPC\\Standard\\Woodland\\22nd_standard_oryx_main_woodland_co.paa"
+2026-07-23T17:35:43.716993Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\OryxAPC\\Standard\\Woodland\\22nd_standard_oryx_armor_woodland_co.paa"
+2026-07-23T17:35:43.717072Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\OryxAPC\\Standard\\Woodland\\22nd_standard_oryx_turret_woodland_co.paa"
+2026-07-23T17:35:43.717159Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\OryxAPC\\Standard\\Woodland\\22nd_standard_Scorp_mg_woodland_co.paa"
+2026-07-23T17:35:43.717249Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\OryxAPC\\Standard\\Urban\\22nd_standard_oryx_main_urban_co.paa"
+2026-07-23T17:35:43.717332Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\OryxAPC\\Standard\\Urban\\22nd_standard_Scorp_mg_urban_co.paa"
+2026-07-23T17:35:43.717413Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\OryxAPC\\Standard\\Urban\\22nd_standard_oryx_armor_urban_co.paa"
+2026-07-23T17:35:43.717495Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\OryxAPC\\Standard\\Urban\\22nd_standard_oryx_turret_urban_co.paa"
+2026-07-23T17:35:43.717580Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\OryxAPC\\Preview\\OryxAPC.jpg"
+2026-07-23T17:35:43.717774Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Hornet\\config.hpp"
+2026-07-23T17:35:43.717896Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Hornet\\Arctic\\22nd_hornet_hull_snow_CO.paa"
+2026-07-23T17:35:43.717976Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Hornet\\Urban\\22nd_hornet_hull_urban_CO.paa"
+2026-07-23T17:35:43.718055Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Hornet\\Woodland\\22nd_hornet_hull_wood_CO.paa"
+2026-07-23T17:35:43.718136Z TRACE ThreadId(01) adding file "units\\data\\Vehicles\\Hornet\\Arid\\22nd_hornet_hull_arid_CO.paa"
+2026-07-23T17:35:43.718217Z TRACE ThreadId(01) adding file "units\\data\\Functions\\fn_twelfthMagLock.sqf"
+2026-07-23T17:35:43.718257Z TRACE ThreadId(01) adding file "units\\data\\Functions\\fn_twelfthMagLock.sqfc"
+2026-07-23T17:35:43.718316Z TRACE ThreadId(01) adding file "units\\data\\Functions\\fn_PelicanUnLoadValidate.sqf"
+2026-07-23T17:35:43.718359Z TRACE ThreadId(01) adding file "units\\data\\Functions\\fn_SlipspaceRuptureDetected.sqfc"
+2026-07-23T17:35:43.718366Z TRACE ThreadId(01) adding file "units\\data\\Functions\\fn_PelicanLoadValidate.sqfc"
+2026-07-23T17:35:43.718410Z TRACE ThreadId(01) adding file "units\\data\\Functions\\fn_SlipspaceRuptureDetected.sqf"
+2026-07-23T17:35:43.718449Z TRACE ThreadId(01) adding file "units\\data\\Functions\\fn_PelicanUnLoadValidate.sqfc"
+2026-07-23T17:35:43.718494Z TRACE ThreadId(01) adding file "units\\data\\Functions\\fn_PelicanLoadValidate.sqf"
+2026-07-23T17:35:43.718534Z TRACE ThreadId(01) adding file "units\\data\\Functions\\fn_loadIntoNearestVehicle.sqfc"
+2026-07-23T17:35:43.718579Z TRACE ThreadId(01) adding file "units\\data\\Functions\\fn_loadIntoNearestVehicle.sqf"
+2026-07-23T17:35:44.091256Z DEBUG ThreadId(01) "C:\\z\\22nd_Valkyrie\\.hemttout\\dev\\addons" already exists
+2026-07-23T17:35:44.091272Z DEBUG ThreadId(01) building "addons/22nd_weapons" => "C:\\z\\22nd_Valkyrie\\.hemttout\\dev\\addons\\22nd_Valkyrie_22nd_weapons.pbo"
+2026-07-23T17:35:44.091580Z TRACE ThreadId(01) adding file "config.bin"
+2026-07-23T17:35:44.091758Z TRACE ThreadId(01) adding file "Temp.txt"
+2026-07-23T17:35:44.092367Z  INFO ThreadId(01) Built 6 PBOs
+2026-07-23T17:35:44.092415Z TRACE ThreadId(01) phase: build (done)
+2026-07-23T17:35:44.092426Z TRACE ThreadId(01) phase: post_build (BOM Check) (start)
+2026-07-23T17:35:44.092429Z TRACE ThreadId(01) phase: post_build (BOM Check) (done)
+2026-07-23T17:35:44.092431Z TRACE ThreadId(01) phase: post_build (Final New Line Check) (start)
+2026-07-23T17:35:44.092433Z TRACE ThreadId(01) phase: post_build (Final New Line Check) (done)
+2026-07-23T17:35:44.092435Z TRACE ThreadId(01) phase: post_build (git) (start)
+2026-07-23T17:35:44.092437Z TRACE ThreadId(01) phase: post_build (git) (done)
+2026-07-23T17:35:44.092438Z TRACE ThreadId(01) phase: post_build (Hooks) (start)
+2026-07-23T17:35:44.092455Z TRACE ThreadId(01) phase: post_build (Hooks) (done)
+2026-07-23T17:35:44.092464Z TRACE ThreadId(01) phase: post_build (pboprefix) (start)
+2026-07-23T17:35:44.092466Z TRACE ThreadId(01) phase: post_build (pboprefix) (done)
+2026-07-23T17:35:44.092468Z TRACE ThreadId(01) phase: post_build (tex_headers) (start)
+2026-07-23T17:35:44.092470Z TRACE ThreadId(01) phase: post_build (tex_headers) (done)
+2026-07-23T17:35:44.092475Z TRACE ThreadId(01) phase: post_build (Files) (start)
+2026-07-23T17:35:44.378438Z DEBUG ThreadId(01) copying "/meta.cpp" => "C:\\z\\22nd_Valkyrie\\.hemttout\\dev\\meta.cpp"
+2026-07-23T17:35:44.380098Z DEBUG ThreadId(01) copying "/LICENSE" => "C:\\z\\22nd_Valkyrie\\.hemttout\\dev\\LICENSE"
+2026-07-23T17:35:44.381393Z DEBUG ThreadId(01) copying "/mod.cpp" => "C:\\z\\22nd_Valkyrie\\.hemttout\\dev\\mod.cpp"
+2026-07-23T17:35:44.382437Z  INFO ThreadId(01) Copied 3 files
+2026-07-23T17:35:44.382459Z TRACE ThreadId(01) phase: post_build (Files) (done)
+2026-07-23T17:35:44.382462Z TRACE ThreadId(01) phase: post_build (FilePatching) (start)
+2026-07-23T17:35:44.382636Z TRACE ThreadId(01) removing existing symlink at C:\Steam\steamapps\common\Arma 3\z\22nd_Valkyrie
+2026-07-23T17:35:44.382780Z TRACE ThreadId(01) junction link "C:\\Steam\\steamapps\\common\\Arma 3\\z\\22nd_Valkyrie" => "C:\\z\\22nd_Valkyrie\\.hemttout\\dev"
+2026-07-23T17:35:44.398661Z  INFO ThreadId(01) Symlink created at C:\Steam\steamapps\common\Arma 3\z\22nd_Valkyrie
+2026-07-23T17:35:44.398672Z TRACE ThreadId(01) phase: post_build (FilePatching) (done)
+2026-07-23T17:35:44.398675Z TRACE ThreadId(01) phase: post_build (summary) (start)
+2026-07-23T17:35:44.399648Z TRACE ThreadId(01) phase: post_build (summary) (done)
+2026-07-23T17:35:44.399656Z TRACE ThreadId(01) phase: post_build (Rapifier) (start)
+2026-07-23T17:35:44.399659Z TRACE ThreadId(01) phase: post_build (Rapifier) (done)
+2026-07-23T17:35:44.399661Z TRACE ThreadId(01) phase: post_build (SQF) (start)
+2026-07-23T17:35:44.399666Z TRACE ThreadId(01) phase: post_build (SQF) (done)
+2026-07-23T17:35:44.399668Z TRACE ThreadId(01) phase: post_build (Stringtables) (start)
+2026-07-23T17:35:44.399670Z TRACE ThreadId(01) phase: post_build (Stringtables) (done)
+2026-07-23T17:35:44.406182Z  INFO ThreadId(01) Launching "C:\\Steam\\steamapps\\common\\Arma 3" with:
+  -mod="C:\Steam\steamapps\workshop\content\107410\1124993203"
+  -mod="C:\Steam\steamapps\workshop\content\107410\1161319271"
+  -mod="C:\Steam\steamapps\workshop\content\107410\1224892496"
+  -mod="C:\Steam\steamapps\workshop\content\107410\1251859358"
+  -mod="C:\Steam\steamapps\workshop\content\107410\1412981204"
+  -mod="C:\Steam\steamapps\workshop\content\107410\1447351824"
+  -mod="C:\Steam\steamapps\workshop\content\107410\1572627279"
+  -mod="C:\Steam\steamapps\workshop\content\107410\1598735666"
+  -mod="C:\Steam\steamapps\workshop\content\107410\1638341685"
+  -mod="C:\Steam\steamapps\workshop\content\107410\1659590037"
+  -mod="C:\Steam\steamapps\workshop\content\107410\1763651451"
+  -mod="C:\Steam\steamapps\workshop\content\107410\1767731032"
+  -mod="C:\Steam\steamapps\workshop\content\107410\1770265310"
+  -mod="C:\Steam\steamapps\workshop\content\107410\1779063631"
+  -mod="C:\Steam\steamapps\workshop\content\107410\1790880882"
+  -mod="C:\Steam\steamapps\workshop\content\107410\1808238502"
+  -mod="C:\Steam\steamapps\workshop\content\107410\1808723766"
+  -mod="C:\Steam\steamapps\workshop\content\107410\1858070328"
+  -mod="C:\Steam\steamapps\workshop\content\107410\1858075458"
+  -mod="C:\Steam\steamapps\workshop\content\107410\1862208264"
+  -mod="C:\Steam\steamapps\workshop\content\107410\1876589191"
+  -mod="C:\Steam\steamapps\workshop\content\107410\1883956552"
+  -mod="C:\Steam\steamapps\workshop\content\107410\1911374016"
+  -mod="C:\Steam\steamapps\workshop\content\107410\1923321700"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2017877109"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2020940806"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2021778690"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2073987581"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2095827925"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2095882226"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2128676112"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2179632906"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2198339170"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2231150238"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2262006564"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2291129343"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2372036642"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2439516586"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2447965207"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2461386136"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2515887728"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2522638637"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2617713656"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2624532448"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2641295901"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2680118205"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2699465073"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2735613231"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2789152015"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2791403093"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2794721649"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2797232351"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2797404045"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2800081814"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2822758266"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2853476684"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2853828143"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2901732103"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2909265898"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2915485125"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2918542818"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2931279278"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2933180786"
+  -mod="C:\Steam\steamapps\workshop\content\107410\2987115897"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3032643455"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3038821437"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3038826897"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3085697583"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3140668728"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3255508422"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3283642267"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3283645995"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3314208366"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3328314886"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3339027493"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3372876344"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3459898476"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3469976535"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3477090282"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3487820370"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3490140797"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3499977893"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3513210722"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3525863056"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3539476763"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3540049844"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3542975083"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3551744946"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3566424733"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3652151369"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3656397343"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3660920964"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3679986577"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3683921847"
+  -mod="C:\Steam\steamapps\workshop\content\107410\3734996574"
+  -mod="C:\Steam\steamapps\workshop\content\107410\450814997"
+  -mod="C:\Steam\steamapps\workshop\content\107410\463939057"
+  -mod="C:\Steam\steamapps\workshop\content\107410\583496184"
+  -mod="C:\Steam\steamapps\workshop\content\107410\583544987"
+  -mod="C:\Steam\steamapps\workshop\content\107410\615007497"
+  -mod="C:\Steam\steamapps\workshop\content\107410\623475643"
+  -mod="C:\Steam\steamapps\workshop\content\107410\632435682"
+  -mod="C:\Steam\steamapps\workshop\content\107410\639837898"
+  -mod="C:\Steam\steamapps\workshop\content\107410\753946944"
+  -mod="C:\Steam\steamapps\workshop\content\107410\766491311"
+  -mod="C:\Steam\steamapps\workshop\content\107410\769440155"
+  -mod="C:\Steam\steamapps\workshop\content\107410\770418577"
+  -mod="C:\Steam\steamapps\workshop\content\107410\779520435"
+  -mod="C:\Steam\steamapps\workshop\content\107410\779568775"
+  -mod="C:\Steam\steamapps\workshop\content\107410\782415569"
+  -mod="C:\Steam\steamapps\workshop\content\107410\837729515"
+  -mod="C:\Steam\steamapps\workshop\content\107410\853743366"
+  -mod="C:\Steam\steamapps\workshop\content\107410\894678801"
+  -mod="C:\Steam\steamapps\workshop\content\107410\925018569"
+  -mod="C:\z\22nd_Valkyrie\.hemttout/dev"
+  -skipIntro
+  -noSplash
+  -showScriptErrors
+  -debug
+  -debug
+  -filePatching
+  -noSplash
+  -showScriptErrors
+  -skipIntro
+  "C:\z\22nd_Valkyrie\.hemtt\missions\test.VR\mission.sqm"
+  -filePatching
+2026-07-23T17:35:44.422607Z TRACE ThreadId(01) writing ci annotations to .hemttout/ci_annotations.txt
+2026-07-23T17:35:44.422967Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2026-07-23T17:35:44.423079Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2026-07-23T17:35:44.423082Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2026-07-23T17:35:44.423085Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2026-07-23T17:35:44.423087Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2026-07-23T17:35:44.423673Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2026-07-23T17:35:44.423678Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2026-07-23T17:35:44.423680Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2026-07-23T17:35:44.423682Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2026-07-23T17:35:44.423684Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2026-07-23T17:35:44.423686Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2026-07-23T17:35:44.423688Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2026-07-23T17:35:44.423690Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2026-07-23T17:35:44.424039Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2026-07-23T17:35:44.424043Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2026-07-23T17:35:44.424160Z TRACE ThreadId(01) wrote 74 ci annotations to .hemttout/ci_annotations.txt
+2026-07-23T17:35:44.424345Z  INFO ThreadId(01) HEMTT 1.20.0 is available, please update

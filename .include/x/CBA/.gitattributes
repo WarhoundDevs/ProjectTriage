@@ -1,0 +1,7 @@
+* text=auto
+*.png binary
+*.jpg binary
+*.paa binary
+
+/tools/make_docs eol=lf
+/tools/make_docs_docker eol=lf

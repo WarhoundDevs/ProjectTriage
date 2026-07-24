@@ -1,0 +1,1 @@
+class Warhound_Elephant: OPTRE_M313_Base

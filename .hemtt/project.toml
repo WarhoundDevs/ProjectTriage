@@ -1,7 +1,7 @@
 name = "22nd RDF Arms Room 2.0"
 author = "22nd Mod Team"
-prefix = "22nd"
-mainprefix = "22nd"
+prefix = "22nd_Valkyrie"
+mainprefix = "z" #Folder the mod sits inside of 
 
 [hemtt.build]
 optional_mod_folders = false # Default: true
@@ -37,3 +37,22 @@ major = 1
 minor = 0
 patch = 0
 build = 0
+
+[launch.pointers]
+CBA = "C:\\z\\CBA"
+
+[hemtt.launch.default]
+workshop = [
+    "450814997", # CBA_A3's Workshop ID
+]
+presets = [
+    "warhound"
+]
+mission = "test.VR"
+parameters = [
+    "-skipIntro",
+    "-noSplash",
+    "-showScriptErrors",
+    "-debug",
+    "-filePatching",
+]
