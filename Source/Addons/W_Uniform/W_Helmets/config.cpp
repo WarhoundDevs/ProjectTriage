@@ -93,10 +93,6 @@ class CfgPatches {
             "22nd_VX19_Woodland_Evans",
             "22nd_VX19_Arid_Evans",
             "22nd_VX19_Winter_Evans",
-            "22nd_VX19_Urban_Kamea",
-            "22nd_VX19_Woodland_Kamea",
-            "22nd_VX19_Arid_Kamea",
-            "22nd_VX19_Winter_Kamea",
             "22nd_VX19_Urban_Ras",
             "22nd_VX19_Woodland_Ras",
             "22nd_VX19_Arid_Ras",
@@ -387,7 +383,6 @@ class XtdGearModels
                     "Cuban",
                     "Astro",
                     "Evans",
-                    "Kamea",
                     "Ras"
                 };
 
@@ -409,11 +404,6 @@ class XtdGearModels
                 class Evans
                 {
                     label = "Evans";
-                };
-
-                class Kamea
-                {
-                    label = "Kamea";
                 };
                 
                 class Ras

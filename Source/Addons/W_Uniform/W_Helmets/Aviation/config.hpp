@@ -540,98 +540,6 @@ class 22nd_HelmCustom_Evans_Snow : OPTRE_FC_VX19_Helmet
     };
 };//Close 22nd_HelmCustom_Orca4
 //Begin 22_HelmCustom_Orca5
-class 22nd_HelmCustom_Kamea_Urban : OPTRE_FC_VX19_Helmet
-{
-    scope = 2;
-    scopeArsenal = 2;
-    author = "Warhound Mod Team";
-    displayName = "[22nd] VX-19 Kamea (Urban)";
-    model = "\OPTRE_FC_Units\Marines\h3_pilothelmet.p3d";
-    picture = "\W_Uniform\W_Helmets\22ndRDF.paa";
-
-    class XtdGearInfo
-    {
-        model = "22nd_VX19_Custom";
-        Camouflage = "Urban";
-        Variant = "Kamea";
-    };
-
-    hiddenSelectionsTextures[] =
-    {
-        "\W_Uniform\W_Helmets\Customs\Aviation\Kamea\22nd_Air_Helm_Kamea_Urban_Co.paa",
-        "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
-    };
-};
-
-class 22nd_HelmCustom_Kamea_Woodland : OPTRE_FC_VX19_Helmet
-{
-    scope = 2;
-    scopeArsenal = 2;
-    author = "Warhound Mod Team";
-    displayName = "[22nd] VX-19 Kamea (Woodland)";
-    model = "\OPTRE_FC_Units\Marines\h3_pilothelmet.p3d";
-    picture = "\W_Uniform\W_Helmets\22ndRDF.paa";
-
-    class XtdGearInfo
-    {
-        model = "22nd_VX19_Custom";
-        Camouflage = "Woodland";
-        Variant = "Kamea";
-    };
-
-    hiddenSelectionsTextures[] =
-    {
-        "\W_Uniform\W_Helmets\Customs\Aviation\Kamea\22nd_Air_Helm_Kamea_Woodland_Co.paa",
-        "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
-    };
-};
-
-class 22nd_HelmCustom_Kamea_Arid : OPTRE_FC_VX19_Helmet
-{
-    scope = 2;
-    scopeArsenal = 2;
-    author = "Warhound Mod Team";
-    displayName = "[22nd] VX-19 Kamea (Arid)";
-    model = "\OPTRE_FC_Units\Marines\h3_pilothelmet.p3d";
-    picture = "\W_Uniform\W_Helmets\22ndRDF.paa";
-
-    class XtdGearInfo
-    {
-        model = "22nd_VX19_Custom";
-        Camouflage = "Arid";
-        Variant = "Kamea";
-    };
-
-    hiddenSelectionsTextures[] =
-    {
-        "\W_Uniform\W_Helmets\Customs\Aviation\Kamea\22nd_Air_Helm_Kamea_Arid_Co.paa",
-        "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
-    };
-};
-
-class 22nd_HelmCustom_Kamea_Snow : OPTRE_FC_VX19_Helmet
-{
-    scope = 2;
-    scopeArsenal = 2;
-    author = "Warhound Mod Team";
-    displayName = "[22nd] VX-19 Kamea (Snow)";
-    model = "\OPTRE_FC_Units\Marines\h3_pilothelmet.p3d";
-    picture = "\W_Uniform\W_Helmets\22ndRDF.paa";
-
-    class XtdGearInfo
-    {
-        model = "22nd_VX19_Custom";
-        Camouflage = "Winter";
-        Variant = "Kamea";
-    };
-
-    hiddenSelectionsTextures[] =
-    {
-        "\W_Uniform\W_Helmets\Customs\Aviation\Kamea\22nd_Air_Helm_Kamea_Snow_Co.paa",
-        "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
-    };
-};//Close 22nd_HelmCustom_Orca5
-//Begin 22_HelmCustom_HMHD1
 class 22nd_HelmCustom_Ras_Urban : OPTRE_FC_VX19_Helmet
 {
     scope = 2;
@@ -722,4 +630,4 @@ class 22nd_HelmCustom_Ras_Snow : OPTRE_FC_VX19_Helmet
         "\W_Uniform\W_Helmets\Customs\Aviation\Ras\22nd_Air_Helm_Ras_Snow_Co.paa",
         "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
     };
-};//Close 22nd_HelmCustom_HMHD1
+};//Close 22nd_HelmCustom_Orca5
