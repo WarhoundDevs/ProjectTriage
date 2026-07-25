@@ -1,5 +1,9 @@
-build/Addons/W_Markers.pbo
-build/Addons/W_Uniform.pbo
-build/Addons/W_Units.pbo
-build/Addons/W_Weapons.pbo
-build/Addons/W_Menu.pbo
+/.hemttout/dev/addons/22nd_valkyrie_22nd_items.pbo
+/.hemttout/dev/addons/22nd_valkyrie_22nd_main.pbo
+/.hemttout/dev/addons/22nd_valkyrie_22nd_misc.pbo
+/.hemttout/dev/addons/22nd_valkyrie_22nd_uniforms.pbo
+/.hemttout/dev/addons/22nd_valkyrie_22nd_units.pbo
+/.hemttout/dev/addons/22nd_valkyrie_22nd_weapons.pbo
+/.vs
+*.hemttprivatekey
+*.biprivatekey

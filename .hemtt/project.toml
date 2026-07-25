@@ -1,0 +1,58 @@
+name = "22nd RDF Arms Room 2.0"
+author = "22nd Mod Team"
+prefix = "22ndRDF"
+mainprefix = "z" #Folder the mod sits inside of 
+
+[hemtt.build]
+optional_mod_folders = false # Default: true
+
+[files]
+include = [
+    "mod.cpp",        # These files are copied to the build directory by default
+    "meta.cpp",       # They do not need to be added to your list
+    "LICENSE",
+    "logo_ca.paa",
+    "logo_co.paa",
+    "python_code/**", # Copy the folder "python_code" including all its files
+]
+exclude = [
+    "*.psd",          # By default this list is empty
+    "addons/main/README.md",
+]
+
+[properties]
+author = "22nd Mod Team"
+url = "https://github.com/WarhoundDevs/ProjectTriage"
+
+[preprocessor]
+runtime_macros = true
+
+[signing]
+authority = "Raven_1.0"
+version = 3
+private_key_hash = "87cc5e24f292cab9db611c6068253a53f7d12405"
+
+[version]
+major = 1
+minor = 0
+patch = 0
+build = 0
+
+[launch.pointers]
+CBA = "C:\\z\\CBA"
+
+[hemtt.launch.default]
+workshop = [
+    "450814997", # CBA_A3's Workshop ID
+]
+presets = [
+    "warhound"
+]
+mission = "test.VR"
+parameters = [
+    "-skipIntro",
+    "-noSplash",
+    "-showScriptErrors",
+    "-debug",
+    "-filePatching",
+]
