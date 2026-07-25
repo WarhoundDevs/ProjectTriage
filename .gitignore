@@ -17,3 +17,5 @@
 /.vs
 *.hemttprivatekey
 *.biprivatekey
+/.hemttout
+.hemtt/missions/~test.vr/mission.sqm
