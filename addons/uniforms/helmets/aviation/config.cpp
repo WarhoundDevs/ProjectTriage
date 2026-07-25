@@ -42,12 +42,6 @@ class CfgPatches
             "22nd_HelmCustom_Evans_Snow",
 
 
-            // "22nd_HelmCustom_Kamea_Urban"
-            // "22nd_HelmCustom_Kamea_Woodland",
-            // "22nd_HelmCustom_Kamea_Arid", 
-            // "22nd_HelmCustom_Kamea_Snow",
-
-
             "22nd_HelmCustom_Ras_Urban",
             "22nd_HelmCustom_Ras_Woodland",
             "22nd_HelmCustom_Ras_Arid",

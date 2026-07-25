@@ -16,12 +16,6 @@ class CfgPatches {
             //CERT UNLOCK HELMETS
            
 
-            //Crewman
-            "W_CH252C_Helmet_Base",
-            "W_CH252C_Helmet_Urban",
-            "W_CH252C_Helmet_Snow",
-            "W_CH252C_Helmet_Arid",
-            "W_CH252C_Helmet_Woodland",
             //EOD
             "W_EOD_Helmet_Woodland",
             "W_EOD_Helmet_Snow",
@@ -71,16 +65,6 @@ class CfgPatches {
             "22nd_HelmSnow_Visor_med",
             
 
-           
-            //Custom Crewman
-            "22nd_CH252C_German_Urban",
-            "22nd_CH252C_German_Woodland",
-            "22nd_CH252C_German_Arid",
-            "22nd_CH252C_German_Winter",
-            "22nd_CH252C_Lamb_Urban",
-            "22nd_CH252C_Lamb_Woodland",
-            "22nd_CH252C_Lamb_Arid",
-            "22nd_CH252C_Lamb_Winter",
             //Custom EOD
             "22nd_EOD_Custom_Yogi",
             //Custom AA
@@ -242,69 +226,6 @@ class XtdGearModels
             };
         };
        
-        class W_CH252C_Helmet{
-
-            label = "22nd CH252C";
-
-            options[] =
-            {
-            "Camouflage",
-            "Variant"
-            };
-
-            class Camouflage
-            {
-                label = "Camouflage";
-
-                values[] =
-                {
-                    "Urban",
-                    "Woodland",
-                    "Arid",
-                    "Winter"
-                };
-
-                class Urban
-                {
-                    label = "Urban";
-                };
-
-                class Woodland
-                {
-                    label = "Woodland";
-                };
-
-                class Arid
-                {
-                    label = "Arid";
-                };
-
-                class Snow
-                {
-                    label = "Winter";
-                };
-            };
-            class Variant
-            {
-                label = "Variant";
-
-                values[] =
-                {
-                    "Base",
-                    "German",
-                    "Lamb"
-                };
-
-                class German
-                {
-                    label = "German";
-                };
-                class Lamb
-                {
-                    label = "Lamb";
-                };
-            };
-        };
         class W_EOD_Helmet{
 
             label = "22nd EOD Helmet";
@@ -2255,7 +2176,6 @@ class CfgWeapons {
     };// Close 22nd_HelmSnow_Visor
     
     #include "Customs\config.hpp"
-    #include "Crewman\config.hpp"
     #include "EOD\config.hpp"
     //#include "AA\config.hpp"
     //#include "Scout\config.hpp"

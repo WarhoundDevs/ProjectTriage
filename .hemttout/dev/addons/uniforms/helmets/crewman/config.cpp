@@ -1,8 +1,57 @@
-class VES_CH252_URB_Crew
+class CfgPatches 
 {
+    class 22nd_uniforms_helmets_crewman
+    {
+        units[] = {};
+        weapons[] = 
+        {
+            "22nd_CH252C_Helmet_Base",
+
+
+            "22nd_CH252C_Helmet_Urban",
+            "22nd_CH252C_Helmet_Snow",
+            "22nd_CH252C_Helmet_Arid",
+            "22nd_CH252C_Helmet_Woodland",
+
+
+            "22nd_CH252C_German_Urban",
+            "22nd_CH252C_German_Woodland",
+            "22nd_CH252C_German_Arid",
+            "22nd_CH252C_German_Winter",
+
+
+            "22nd_CH252C_Lamb_Urban",
+            "22nd_CH252C_Lamb_Woodland",
+            "22nd_CH252C_Lamb_Arid",
+            "22nd_CH252C_Lamb_Winter",
+        };
+        requiredVersion = 1.0;
+        requiredAddons[] = 
+        {
+            "V_FZ_Armor", 
+            "A3_Characters_F",
+            "A3_Data_F_Mark"
+        }; // Reference any required addons
+    };
+};
+
+// For customs remember to add a value under "variants"
+#include "ch252cXtdGear.hpp"
+
+class VES_CH252_MAR_Crew
+{
+	// picture="\OPTRE_FC_Units\Marines\data\h3_pilothelmet_i_ca.paa";
 	class ItemInfo;
 };
-class W_CH252C_Helmet_Base: VES_CH252_URB_Crew
+
+
+
+class CfgWeapons
+{
+
+
+
+class 22nd_CH252C_Helmet_Base: VES_CH252_MAR_Crew
 {
 	displayName="[22nd] CH252C Base";
 	author="Warhound";
@@ -35,238 +84,229 @@ class W_CH252C_Helmet_Base: VES_CH252_URB_Crew
 	};
 };
 
-    class W_CH252C_Helmet_Urban : W_CH252C_Helmet_Base
+    //BASE
+    class 22nd_CH252C_Helmet_Urban : 22nd_CH252C_Helmet_Base
     {
         scope=2;
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] CH252C Urban";
-        picture = "\22nd_uniforms\helmets\22ndRDF.paa";
 
         class XtdGearInfo
         {
-            model = "W_CH252C_Helmet";
+            model = "22nd_CH252C";
             Camouflage = "Urban";
             Variant = "Base";
         };
 
         hiddenSelectionsTextures[]=
         {
-            "\22nd_uniforms\helmets\Crewman\crewmanurbancamo.paa"
+            "\z\22ndRDF\addons\uniforms\helmets\crewman\data\base\crewmanurbancamo.paa"
         };
     };
-    class W_CH252C_Helmet_Snow : W_CH252C_Helmet_Urban{
+
+    class 22nd_CH252C_Helmet_Snow : 22nd_CH252C_Helmet_Base{
         scope=2;
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] CH252C Snow";
-        picture = "\22nd_uniforms\helmets\22ndRDF.paa";
 
         class XtdGearInfo
         {
-            model = "W_CH252C_Helmet";
+            model = "22nd_CH252C";
             Camouflage = "Winter";
             Variant = "Base";
         };
 
         hiddenSelectionsTextures[]=
         {
-            "\22nd_uniforms\helmets\Crewman\crewmansnowcamo.paa"
+            "\z\22ndRDF\addons\uniforms\helmets\crewman\data\base\crewmansnowcamo.paa"
         };
     };
-    class W_CH252C_Helmet_Arid : W_CH252C_Helmet_Urban{
+    class 22nd_CH252C_Helmet_Arid : 22nd_CH252C_Helmet_Base{
         scope=2;
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] CH252C Arid";
-        picture = "\22nd_uniforms\helmets\22ndRDF.paa";
 
         class XtdGearInfo
         {
-            model = "W_CH252C_Helmet";
+            model = "22nd_CH252C";
             Camouflage = "Arid";
             Variant = "Base";
         };
 
         hiddenSelectionsTextures[]=
         {
-            "\22nd_uniforms\helmets\Crewman\crewmanaridcamo.paa"
+            "\z\22ndRDF\addons\uniforms\helmets\crewman\data\base\crewmanaridcamo.paa"
         };
     };
-    class W_CH252C_Helmet_Woodland : W_CH252C_Helmet_Urban{
+    class 22nd_CH252C_Helmet_Woodland : 22nd_CH252C_Helmet_Base{
         scope=2;
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] CH252C Woodland";
-        picture = "\22nd_uniforms\helmets\22ndRDF.paa";
 
         class XtdGearInfo
         {
-            model = "W_CH252C_Helmet";
+            model = "22nd_CH252C";
             Camouflage = "Woodland";
             Variant = "Base";
         };
 
         hiddenSelectionsTextures[]=
         {
-            "\22nd_uniforms\helmets\Crewman\crewmanwdlndcamo.paa"
+            "\z\22ndRDF\addons\uniforms\helmets\crewman\data\base\crewmanwdlndcamo.paa"
         };
     };
     //End Base
     //Start German Custom
-    class 22nd_CH252C_German_Urban : W_CH252C_Helmet_Base
+    class 22nd_CH252C_German_Urban : 22nd_CH252C_Helmet_Base
     {
         scope=2;
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] CH252C Urban";
-        picture = "\22nd_uniforms\helmets\22ndRDF.paa";
 
         class XtdGearInfo
         {
-            model = "W_CH252C_Helmet";
+            model = "22nd_CH252C";
             Camouflage = "Urban";
             Variant = "German";
         };
 
         hiddenSelectionsTextures[]=
         {
-            "\22nd_uniforms\helmets\Customs\Crewman\German\22nd_German_crewmanurbancamo.paa"
+            "\z\22ndRDF\addons\uniforms\helmets\crewman\data\customs\German\22nd_German_crewmanurbancamo.paa"
         };
     };
-    class 22nd_CH252C_German_Winter : W_CH252C_Helmet_Urban{
+    class 22nd_CH252C_German_Winter : 22nd_CH252C_Helmet_Base{
         scope=2;
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] CH252C Snow";
-        picture = "\22nd_uniforms\helmets\22ndRDF.paa";
 
         class XtdGearInfo
         {
-            model = "W_CH252C_Helmet";
+            model = "22nd_CH252C";
             Camouflage = "Winter";
             Variant = "German";
         };
 
         hiddenSelectionsTextures[]=
         {
-            "\22nd_uniforms\helmets\Customs\Crewman\German\22nd_German_crewmansnowcamo.paa"
+            "\z\22ndRDF\addons\uniforms\helmets\crewman\data\customs\German\22nd_German_crewmansnowcamo.paa"
         };
     };
-    class 22nd_CH252C_German_Arid : W_CH252C_Helmet_Urban{
+    class 22nd_CH252C_German_Arid : 22nd_CH252C_Helmet_Base{
         scope=2;
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] CH252C Arid";
-        picture = "\22nd_uniforms\helmets\22ndRDF.paa";
 
         class XtdGearInfo
         {
-            model = "W_CH252C_Helmet";
+            model = "22nd_CH252C";
             Camouflage = "Arid";
             Variant = "German";
         };
 
         hiddenSelectionsTextures[]=
         {
-            "\22nd_uniforms\helmets\Customs\Crewman\German\22nd_German_crewmanaridcamo.paa"
+            "\z\22ndRDF\addons\uniforms\helmets\crewman\data\customs\German\22nd_German_crewmanaridcamo.paa"
         };
     };
-    class 22nd_CH252C_German_Woodland : W_CH252C_Helmet_Urban{
+    class 22nd_CH252C_German_Woodland : 22nd_CH252C_Helmet_Base{
         scope=2;
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] CH252C Woodland";
-        picture = "\22nd_uniforms\helmets\22ndRDF.paa";
 
         class XtdGearInfo
         {
-            model = "W_CH252C_Helmet";
+            model = "22nd_CH252C";
             Camouflage = "Woodland";
             Variant = "German";
         };
 
         hiddenSelectionsTextures[]=
         {
-            "\22nd_uniforms\helmets\Customs\Crewman\German\22nd_German_crewmanwdlndcamo.paa"
+            "\z\22ndRDF\addons\uniforms\helmets\crewman\data\customs\German\22nd_German_crewmanwdlndcamo.paa"
         };
     };
     //End German Custom
     //Start Lamb Custom
-    class 22nd_CH252C_Lamb_Urban : W_CH252C_Helmet_Base
+    class 22nd_CH252C_Lamb_Urban : 22nd_CH252C_Helmet_Base
     {
         scope=2;
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] CH252C Urban";
-        picture = "\22nd_uniforms\helmets\22ndRDF.paa";
 
         class XtdGearInfo
         {
-            model = "W_CH252C_Helmet";
+            model = "22nd_CH252C";
             Camouflage = "Urban";
             Variant = "Lamb";
         };
 
         hiddenSelectionsTextures[]=
         {
-            "\22nd_uniforms\helmets\Customs\Crewman\Lamb\22nd_Lamb_crewmanurbancamo.paa"
+            "\z\22ndRDF\addons\uniforms\helmets\crewman\data\customs\Lamb\22nd_Lamb_crewmanurbancamo.paa"
         };
     };
-    class 22nd_CH252C_Lamb_Winter : W_CH252C_Helmet_Urban{
+    class 22nd_CH252C_Lamb_Winter : 22nd_CH252C_Helmet_Base{
         scope=2;
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] CH252C Snow";
-        picture = "\22nd_uniforms\helmets\22ndRDF.paa";
 
         class XtdGearInfo
         {
-            model = "W_CH252C_Helmet";
+            model = "22nd_CH252C";
             Camouflage = "Winter";
             Variant = "Lamb";
         };
 
         hiddenSelectionsTextures[]=
         {
-            "\22nd_uniforms\helmets\Customs\Crewman\Lamb\22nd_Lamb_crewmansnowcamo.paa"
+            "\z\22ndRDF\addons\uniforms\helmets\crewman\data\customs\Lamb\22nd_Lamb_crewmansnowcamo.paa"
         };
     };
-    class 22nd_CH252C_Lamb_Arid : W_CH252C_Helmet_Urban{
+    class 22nd_CH252C_Lamb_Arid : 22nd_CH252C_Helmet_Base{
         scope=2;
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] CH252C Arid";
-        picture = "\22nd_uniforms\helmets\22ndRDF.paa";
 
         class XtdGearInfo
         {
-            model = "W_CH252C_Helmet";
+            model = "22nd_CH252C";
             Camouflage = "Arid";
             Variant = "Lamb";
         };
 
         hiddenSelectionsTextures[]=
         {
-            "\22nd_uniforms\helmets\Customs\Crewman\Lamb\22nd_Lamb_crewmanaridcamo.paa"
+            "\z\22ndRDF\addons\uniforms\helmets\crewman\data\customs\Lamb\22nd_Lamb_crewmanaridcamo.paa"
         };
     };
-    class 22nd_CH252C_Lamb_Woodland : W_CH252C_Helmet_Urban{
+    class 22nd_CH252C_Lamb_Woodland : 22nd_CH252C_Helmet_Base{
         scope=2;
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] CH252C Woodland";
-        picture = "\22nd_uniforms\helmets\22ndRDF.paa";
 
         class XtdGearInfo
         {
-            model = "W_CH252C_Helmet";
+            model = "22nd_CH252C";
             Camouflage = "Woodland";
             Variant = "Lamb";
         };
 
         hiddenSelectionsTextures[]=
         {
-            "\22nd_uniforms\helmets\Customs\Crewman\Lamb\22nd_Lamb_crewmanwdlndcamo.paa"
+            "\z\22ndRDF\addons\uniforms\helmets\crewman\data\customs\Lamb\22nd_Lamb_crewmanwdlndcamo.paa"
         };
     };
+};

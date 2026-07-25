@@ -1,66 +1,66 @@
-SilencedSound - addons/weapons/M319IGL/config.cpp:44:9
-MuzzleSlot - addons/weapons/M319IGL/config.cpp:48:9
-CowsSlot - addons/weapons/M319IGL/config.cpp:49:9
-UnderBarrelSlot - addons/weapons/M319IGL/config.cpp:51:9
+PointerSlot - addons/weapons/M6G/config.cpp:47OPTRE_BiofoamItem: - 9addons/items/medical/config.cpp
+:UnderBarrelSlot57 - :addons/weapons/M6G/config.cpp11
+:48:9
+SilencedSoundPointerSlot - 22nd_SDrifle_SoundSet -  - addons/weapons/M250/config.cppaddons/weapons/M7/config.cpp:addons/weapons/BR55/sounds/config.cpp:46:50:94:9:
+98PointerSlot
+
+ - UnderBarrelSlotACE_ItemCore - addons/weapons/M250/config.cpp - addons/weapons/M7/config.cpp:addons/misc/markers/data/Spraypaint/config.hpp52:::9251:
+11UnderBarrelSlot: - addons/weapons/M250/config.cpp:
+539
+CBA_MiscItem_ItemInfo: - 9
+addons/misc/markers/data/Spraypaint/config.hpp:3:11
+ACE_SpraypaintWhite - addons/misc/markers/data/Spraypaint/config.hpp:5:11
+SilencedSoundMuzzleSlot - addons/weapons/M310UTIL/config.cpp:47:9
+CowsSlot - addons/weapons/M310UTIL/config.cpp:48:9
+UnderBarrelSlot - addons/weapons/M310UTIL/config.cpp:50:9
+ - addons/weapons/M45/config.cpp:30:9
+PointerSlot - addons/weapons/M45/config.cpp:36:9
+UnderBarrelSlot - addons/weapons/M45/config.cpp:37:9
+PointerSlot - addons/weapons/M73/config.cpp:58:9
+SilencedSoundUnderBarrelSlotPointerSlot - addons/weapons/M247A1/config.cpp:52:9
+UnderBarrelSlot - addons/weapons/M247A1/config.cpp:53:9
+ -  - addons/weapons/M393EMR/config.cppaddons/weapons/M73/config.cpp::59:9
+43:9
+PointerSlot - addons/weapons/M393EMR/config.cpp:49:9
+UnderBarrelSlot - addons/weapons/M393EMR/config.cpp:50:9
+B_Soldier_base_F - addons/misc/stetsons/config.cpp:23:8
+InventoryItem_Base_F - addons/misc/stetsons/config.cpp:28:8
 StandardSound - addons/weapons/M6C/config.cpp:43:9
 SilencedSound - addons/weapons/M6C/config.cpp:44:9
 MuzzleSlot - addons/weapons/M6C/config.cpp:48:9
 CowsSlot - addons/weapons/M6C/config.cpp:49:9
-PointerSlot22nd_SDrifle_SoundSetSilencedSound -  -  - addons/weapons/M6C/config.cppaddons/weapons/BR55/sounds/config.cppOPTRE_BiofoamItem: - :9450PointerSlotaddons/weapons/M250/config.cpp - ::addons/items/medical/config.cpp9:addons/weapons/M7/config.cpp
-846:UnderBarrelSlot
-:50 - 9:addons/weapons/M6C/config.cpp
-9:
-UnderBarrelSlot - addons/weapons/M7/config.cpp:51:9
-51PointerSlot:57: - 9:
-11
+PointerSlot - addons/weapons/M6C/config.cpp:50:9
+UnderBarrelSlot - addons/weapons/M6C/config.cpp:51:9
 UnderBarrelSlot - addons/weapons/M6C/config.cpp:67:9
-addons/weapons/M250/config.cpp:52:9
-UnderBarrelSlot - addons/weapons/M250/config.cpp:53:9
-B_Soldier_base_F - addons/misc/stetsons/config.cpp:23:8
-InventoryItem_Base_F - addons/misc/stetsons/config.cpp:28:8
+PointerSlot - addons/weapons/BR55/config.cpp:50:9
+UnderBarrelSlot - addons/weapons/BR55/config.cpp:51:9
+MuzzleSlot - addons/weapons/M392/config.cpp:47:9
+PointerSlot - addons/weapons/M392/config.cpp:49:9
+UnderBarrelSlot - addons/weapons/M392/config.cpp:50:9
 StandardSound - addons/weapons/MA37/config.cpp:57:9
 SilencedSound - addons/weapons/MA37/config.cpp:58:9
 StandardSound - addons/weapons/MA37/config.cpp:62:9
 SilencedSound - addons/weapons/MA37/config.cpp:63:9
 PointerSlot - addons/weapons/MA37/config.cpp:69:9
 UnderBarrelSlot - addons/weapons/MA37/config.cpp:70:9
-ACE_ItemCore - addons/misc/markers/data/Spraypaint/config.hpp:2:11
-CBA_MiscItem_ItemInfo - addons/misc/markers/data/Spraypaint/config.hpp:3:11
-ACE_SpraypaintWhite - addons/misc/markers/data/Spraypaint/config.hpp:5:11
-MuzzleSlot - addons/weapons/M392/config.cpp:47:9
-PointerSlot - addons/weapons/M392/config.cpp:49:9
-UnderBarrelSlot - addons/weapons/M392/config.cpp:50:9
-SilencedSound - addons/weapons/M45/config.cpp:30:9
-PointerSlot - addons/weapons/M45/config.cpp:36:9
-UnderBarrelSlot - addons/weapons/M45/config.cpp:37:9
-PointerSlot - addons/weapons/M73/config.cpp:58:9PointerSlot
-UnderBarrelSlot -  - addons/weapons/BR55/config.cppaddons/weapons/M73/config.cpp:59:9
-:50:9
-UnderBarrelSlot - addons/weapons/BR55/config.cpp:51:9
+SilencedSound - addons/weapons/M319IGL/config.cpp:44:9
+MuzzleSlot - addons/weapons/M319IGL/config.cpp:48:9
+CowsSlot - addons/weapons/M319IGL/config.cpp:49:9
+UnderBarrelSlot - addons/weapons/M319IGL/config.cpp:51:9
 StandardSound - addons/weapons/AudioTest/config.cpp:36:9
 SilencedSound - addons/weapons/AudioTest/config.cpp:37:9
 StandardSound - addons/weapons/AudioTest/config.cpp:41:9
 SilencedSound - addons/weapons/AudioTest/config.cpp:42:9
-PointerSlotPointerSlot - addons/weapons/M6G/config.cpp:47:9
-UnderBarrelSlot - addons/weapons/M6G/config.cpp:48 - :addons/weapons/AudioTest/config.cpp:948
-:9
+PointerSlot - addons/weapons/AudioTest/config.cpp:48:9
 UnderBarrelSlot - addons/weapons/AudioTest/config.cpp:49:9
-SilencedSound - addons/weapons/M393EMR/config.cpp:43:9
-PointerSlot - addons/weapons/M393EMR/config.cpp:49:9
-UnderBarrelSlot - addons/weapons/M393EMR/config.cpp:50:9
-PointerSlot - addons/weapons/M247A1/config.cpp:52:9
-UnderBarrelSlot - addons/weapons/M247A1/config.cpp:53:9
-MuzzleSlot - addons/weapons/M310UTIL/config.cpp:47:9
-CowsSlot - addons/weapons/M310UTIL/config.cpp:48:9
-UnderBarrelSlot - addons/weapons/M310UTIL/config.cpp:50:9
-OPTRE_FC_VX19_Helmet - addons/uniforms/helmets/config.cpp:875:11
-MA_M56A_Helmet - addons/uniforms/helmets/config.cpp:877:11
-MA_Mjolnir_Scout_Helmet - addons/uniforms/helmets/config.cpp:878:11
-MA_Mjolnir_JFO_Helmet - addons/uniforms/helmets/config.cpp:879:11
-MA_Mjolnir_Commando_Helmet - addons/uniforms/helmets/config.cpp:880:11
-MA_Mjolnir_CQC_Helmet - addons/uniforms/helmets/config.cpp:881:11
-MA_Mjolnir_Grenadier_Helmet - addons/uniforms/helmets/config.cpp:882:11
-MA_Mjolnir_Gungnir_Helmet - addons/uniforms/helmets/config.cpp:883:11
-OPTRE_UNSC_Operator_Helmet - addons/uniforms/helmets/config.cpp:884:11
+OPTRE_FC_VX19_Helmet - addons/uniforms/helmets/config.cpp:796:11
+MA_M56A_Helmet - addons/uniforms/helmets/config.cpp:798:11
+MA_Mjolnir_Scout_Helmet - addons/uniforms/helmets/config.cpp:799:11
+MA_Mjolnir_JFO_Helmet - addons/uniforms/helmets/config.cpp:800:11
+MA_Mjolnir_Commando_Helmet - addons/uniforms/helmets/config.cpp:801:11
+MA_Mjolnir_CQC_Helmet - addons/uniforms/helmets/config.cpp:802:11
+MA_Mjolnir_Grenadier_Helmet - addons/uniforms/helmets/config.cpp:803:11
+MA_Mjolnir_Gungnir_Helmet - addons/uniforms/helmets/config.cpp:804:11
+OPTRE_UNSC_Operator_Helmet - addons/uniforms/helmets/config.cpp:805:11
 B_Plane_Fighter_01_F - addons/units/units/data/Vehicles/Bayonet/config.hpp:1:7
 DMNS_M808B_F - addons/units/units/data/Vehicles/Scorpion/config.hpp:3:7
