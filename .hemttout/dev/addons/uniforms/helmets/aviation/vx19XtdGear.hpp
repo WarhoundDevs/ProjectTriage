@@ -11,113 +11,19 @@ class XtdGearModels
 
             options[] =
             {
-                "Camouflage",
-                "Variant"
+                "Variant",
+                "Camouflage"
+                
             };
 
-            class Camouflage
-            {
-                label = "Camouflage";
-
-                values[] =
-                {
-                    "Urban",
-                    "Woodland",
-                    "Arid",
-                    "Winter"
-                };
-
-                class Urban
-                {
-                    label = "Urban";
-                };
-
-                class Woodland
-                {
-                    label = "Woodland";
-                };
-
-                class Arid
-                {
-                    label = "Arid";
-                };
-
-                class Snow
-                {
-                    label = "Winter";
-                };
-            };
-
-            class Variant
+             class Variant
             {
                 label = "Variant";
 
                 values[] =
                 {
                     "Standard",
-                    "HMHD"
-                };
-
-                class Standard
-                {
-                    label = "Orca";
-                };
-
-                class HMHD
-                {
-                    label = "Hammerhead";
-                };
-            };
-        };
-        class 22nd_VX19_Custom
-        {
-            label = "22nd VX-19 Aviation Helmet Customs";
-
-            options[] =
-            {
-                "Camouflage",
-                "Variant"
-            };
-
-            class Camouflage
-            {
-                label = "Camouflage";
-
-                values[] =
-                {
-                    "Urban",
-                    "Woodland",
-                    "Arid",
-                    "Winter"
-                };
-
-                class Urban
-                {
-                    label = "Urban";
-                };
-
-                class Woodland
-                {
-                    label = "Woodland";
-                };
-
-                class Arid
-                {
-                    label = "Arid";
-                };
-
-                class Snow
-                {
-                    label = "Winter";
-                };
-            };
-
-            class Variant
-            {
-                label = "Variant";
-
-                values[] =
-                {
+                    "HMHD",
                     "Manta",
                     "Cuban",
                     "Astro",
@@ -126,7 +32,19 @@ class XtdGearModels
                     "Ras"
                 };
 
-                class Manta
+                class Standard
+                {
+                    label = "Orca";
+                    image="#(rgb,8,8,3)color(0.52,0.19,0,1)";
+                };
+
+                class HMHD
+                {
+                    label = "Hammerhead";
+                    image="#(rgb,8,8,3)color(0.33,0.51,0.7)";
+                    
+                };
+                 class Manta
                 {
                     label = "Manta";
                 };
@@ -146,14 +64,51 @@ class XtdGearModels
                     label = "Evans";
                 };
 
-                class Kamea
-                {
-                    label = "Kamea";
-                };
+                // class Kamea
+                // {
+                //     label = "Kamea";
+                // };
                 
                 class Ras
                 {
                     label = "Ras";
+                };
+            };
+
+            class Camouflage
+            {
+                label = "Camouflage";
+
+                values[] =
+                {
+                    "Urban",
+                    "Woodland",
+                    "Arid",
+                    "Winter"
+                };
+               
+                class Urban
+                {
+                    label = "Urban";
+                    image = "#(rgb,8,8,3)color(0.043,0.047,0.051,1)";
+                };
+
+                class Woodland
+                {
+                    label = "Woodland";
+                    image = "#(rgb,8,8,3)color(0.15,0.18,0.11,1)";
+                };
+
+                class Arid
+                {
+                    label = "Arid";
+                    image = "#(rgb,8,8,3)color(0.4,0.337,0.247,1)";
+                };
+
+                class Snow
+                {
+                    label = "Winter";
+                    image = "#(rgb,8,8,3)color(0.765,0.765,0.765,1)";
                 };
             };
         };

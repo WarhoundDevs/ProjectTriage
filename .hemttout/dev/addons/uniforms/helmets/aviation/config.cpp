@@ -307,7 +307,7 @@ class CfgWeapons
         scopeArsenal=2;
         class XtdGearInfo
         {
-            model = "22nd_VX19_Custom";
+            model = "22nd_VX19";
             Camouflage = "Urban";
             Variant = "Manta";
         };
@@ -325,7 +325,7 @@ class CfgWeapons
         displayName = "[22nd] VX-19 Manta (Woodland)";
         class XtdGearInfo
         {
-            model = "22nd_VX19_Custom";
+            model = "22nd_VX19";
             Camouflage = "Woodland";
             Variant = "Manta";
         };
@@ -343,7 +343,7 @@ class CfgWeapons
         scopeArsenal=2;
         class XtdGearInfo
         {
-            model = "22nd_VX19_Custom";
+            model = "22nd_VX19";
             Camouflage = "Arid";
             Variant = "Manta";
         };
@@ -361,7 +361,7 @@ class CfgWeapons
         scopeArsenal=2;
         class XtdGearInfo
         {
-            model = "22nd_VX19_Custom";
+            model = "22nd_VX19";
             Camouflage = "Winter";
             Variant = "Manta";
         };
@@ -381,7 +381,7 @@ class CfgWeapons
         scopeArsenal=2;
         class XtdGearInfo
         {
-            model = "22nd_VX19_Custom";
+            model = "22nd_VX19";
             Camouflage = "Urban";
             Variant = "Cuban";
         };
@@ -399,13 +399,13 @@ class CfgWeapons
         scopeArsenal=2;
         class XtdGearInfo
         {
-            model = "22nd_VX19_Custom";
+            model = "22nd_VX19";
             Camouflage = "Woodland";
             Variant = "Cuban";
         };
         hiddenSelectionsTextures[] =
         {
-            "addons\\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\cuban\22nd_Air_Helm_Cuban_Woodland_Co.paa",
+            "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\cuban\22nd_Air_Helm_Cuban_Woodland_Co.paa",
             "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
         };
     };
@@ -417,7 +417,7 @@ class CfgWeapons
         scopeArsenal=2;
         class XtdGearInfo
         {
-            model = "22nd_VX19_Custom";
+            model = "22nd_VX19";
             Camouflage = "Arid";
             Variant = "Cuban";
         };
@@ -435,7 +435,7 @@ class CfgWeapons
         scopeArsenal=2;
         class XtdGearInfo
         {
-            model = "22nd_VX19_Custom";
+            model = "22nd_VX19";
             Camouflage = "Winter";
             Variant = "Cuban";
         };
@@ -455,7 +455,7 @@ class CfgWeapons
         scopeArsenal=2;
         class XtdGearInfo
         {
-            model = "22nd_VX19_Custom";
+            model = "22nd_VX19";
             Camouflage = "Urban";
             Variant = "Astro";
         };
@@ -473,7 +473,7 @@ class CfgWeapons
         scopeArsenal=2;
         class XtdGearInfo
         {
-            model = "22nd_VX19_Custom";
+            model = "22nd_VX19";
             Camouflage = "Woodland";
             Variant = "Astro";
         };
@@ -491,7 +491,7 @@ class CfgWeapons
         scopeArsenal=2;
         class XtdGearInfo
         {
-            model = "22nd_VX19_Custom";
+            model = "22nd_VX19";
             Camouflage = "Arid";
             Variant = "Astro";
         };
@@ -509,7 +509,7 @@ class CfgWeapons
         scopeArsenal=2;
         class XtdGearInfo
         {
-            model = "22nd_VX19_Custom";
+            model = "22nd_VX19";
             Camouflage = "Winter";
             Variant = "Astro";
         };
@@ -529,7 +529,7 @@ class CfgWeapons
         scopeArsenal=2;
         class XtdGearInfo
         {
-            model = "22nd_VX19_Custom";
+            model = "22nd_VX19";
             Camouflage = "Urban";
             Variant = "Evans";
         };
@@ -547,7 +547,7 @@ class CfgWeapons
         scopeArsenal=2;
         class XtdGearInfo
         {
-            model = "22nd_VX19_Custom";
+            model = "22nd_VX19";
             Camouflage = "Woodland";
             Variant = "Evans";
         };
@@ -570,7 +570,7 @@ class CfgWeapons
         scopeArsenal=2;
         class XtdGearInfo
         {
-            model = "22nd_VX19_Custom";
+            model = "22nd_VX19";
             Camouflage = "Arid";
             Variant = "Evans";
         };
@@ -593,7 +593,7 @@ class CfgWeapons
         scopeArsenal=2;
         class XtdGearInfo
         {
-            model = "22nd_VX19_Custom";
+            model = "22nd_VX19";
             Camouflage = "Winter";
             Variant = "Evans";
         };
@@ -616,7 +616,7 @@ class CfgWeapons
     //     displayName = "[22nd] VX-19 Kamea (Urban)";
     //     class XtdGearInfo
     //     {
-    //         model = "22nd_VX19_Custom";
+    //         model = "22nd_VX19";
     //         Camouflage = "Urban";
     //         Variant = "Kamea";
     //     };
@@ -638,7 +638,7 @@ class CfgWeapons
 
     //     class XtdGearInfo
     //     {
-    //         model = "22nd_VX19_Custom";
+    //         model = "22nd_VX19";
     //         Camouflage = "Woodland";
     //         Variant = "Kamea";
     //     };
@@ -661,7 +661,7 @@ class CfgWeapons
 
     //     class XtdGearInfo
     //     {
-    //         model = "22nd_VX19_Custom";
+    //         model = "22nd_VX19";
     //         Camouflage = "Arid";
     //         Variant = "Kamea";
     //     };
@@ -684,7 +684,7 @@ class CfgWeapons
 
     //     class XtdGearInfo
     //     {
-    //         model = "22nd_VX19_Custom";
+    //         model = "22nd_VX19";
     //         Camouflage = "Winter";
     //         Variant = "Kamea";
     //     };
@@ -705,7 +705,7 @@ class CfgWeapons
         scopeArsenal=2;
         class XtdGearInfo
         {
-            model = "22nd_VX19_Custom";
+            model = "22nd_VX19";
             Camouflage = "Urban";
             Variant = "Ras";
         };
@@ -721,12 +721,12 @@ class CfgWeapons
         displayName = "[22nd] VX-19 Ras (Woodland)";
         scope=2;
         scopeArsenal=2;
-        // class XtdGearInfo
-        // {
-        //     model = "22nd_VX19_Custom";
-        //     Camouflage = "Woodland";
-        //     Variant = "Ras";
-        // };
+        class XtdGearInfo
+        {
+            model = "22nd_VX19";
+            Camouflage = "Woodland";
+            Variant = "Ras";
+        };
         hiddenSelections[]=
 		{
 			"camo",
@@ -746,7 +746,7 @@ class CfgWeapons
         scopeArsenal=2;
         class XtdGearInfo
         {
-            model = "22nd_VX19_Custom";
+            model = "22nd_VX19";
             Camouflage = "Arid";
             Variant = "Ras";
         };
@@ -764,7 +764,7 @@ class CfgWeapons
         scopeArsenal=2;
         class XtdGearInfo
         {
-            model = "22nd_VX19_Custom";
+            model = "22nd_VX19";
             Camouflage = "Winter";
             Variant = "Ras";
         };
