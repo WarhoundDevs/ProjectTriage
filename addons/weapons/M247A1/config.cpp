@@ -14,8 +14,8 @@ class CfgPatches
 			"OPTRE_Weapons_MG_M247",
 			"OPTRE_Weapons_MG_M247a1", 
 			"22nd_M247A1_sounds",
-			"22nd_ammo",
-			"22nd_magazines"
+			"22nd_weapons_ammo",
+			"22nd_weapons_magazines"
 		};
 		requiredVersion=0.1;
 		units[]={};
