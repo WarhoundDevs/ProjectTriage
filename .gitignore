@@ -14,8 +14,9 @@
 /.hemttout/last_build.hsb
 /.hemttout/latest.log
 /.hemttout/unused_external_classes.txt
+/.hemttout
+/.hemtt/missions/~test.vr/mission.sqm
 /.vs
 *.hemttprivatekey
 *.biprivatekey
-/.hemttout
-.hemtt/missions/~test.vr/mission.sqm
+
