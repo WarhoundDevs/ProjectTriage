@@ -28,7 +28,6 @@ class XtdGearModels
                     "Cuban",
                     "Astro",
                     "Evans",
-                    "Kamea",
                     "Ras"
                 };
 
@@ -63,11 +62,6 @@ class XtdGearModels
                 {
                     label = "Evans";
                 };
-
-                // class Kamea
-                // {
-                //     label = "Kamea";
-                // };
                 
                 class Ras
                 {
