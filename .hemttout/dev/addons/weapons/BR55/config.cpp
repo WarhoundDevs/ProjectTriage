@@ -10,7 +10,7 @@ class CfgPatches
 			"A3_Weapons_F",
 			"OPTRE_Weapons_BR",
 			"22nd_weapons_sound",
-			"22nd_BR55_sounds"
+			"22nd_weapons"
 		};
 		requiredVersion=0.1;
 		units[]={};

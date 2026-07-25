@@ -24,20 +24,20 @@ class CfgPatches
     };
 };
 
-
-
-class CfgWeapons
-{
-	class OPTRE_MA37_Smartlink_Scope
+class OPTRE_MA37_Smartlink_Scope
 {
 
 	class ItemInfo
 	{
-		class MA37_Irons;
-		class MA37_Sight;
+			class MA37_Irons;
+			class MA37_Sight;
 	};
 
 };
+
+class CfgWeapons
+{
+	
 	
 	class 22nd_MA37_Smartlink_Scope: OPTRE_MA37_Smartlink_Scope
 	{
@@ -78,10 +78,7 @@ class CfgWeapons
 				{
 					opticsID=1;
 					useModelOptics=1;
-					modelOptics[]=
-					{
-						"\OPTRE_Weapons\AR\MA37_2x_Scope.p3d"
-					};
+					modelOptics[] = {"\OPTRE_Weapons\BR\BR_Optic_2x","\OPTRE_Weapons\BR\BR_Optic_4x"};
 					opticsPPEffects[]=
 					{
 						"OpticsCHAbera2",
@@ -89,12 +86,12 @@ class CfgWeapons
 					};
 					opticsFlare=1;
 					opticsDisablePeripherialVision=1;
-					opticsZoomMin="1 call (uiNamespace getVariable 'cba_optics_fnc_setOpticMagnificationHelper')";
+					opticsZoomMin="2 call (uiNamespace getVariable 'cba_optics_fnc_setOpticMagnificationHelper')";
 					opticsZoomMax="4 call (uiNamespace getVariable 'cba_optics_fnc_setOpticMagnificationHelper')";
-					opticsZoomInit="1 call (uiNamespace getVariable 'cba_optics_fnc_setOpticMagnificationHelper')";
+					opticsZoomInit="2 call (uiNamespace getVariable 'cba_optics_fnc_setOpticMagnificationHelper')";
 					discretefov[]=
 					{
-						"1 call (uiNamespace getVariable 'cba_optics_fnc_setOpticMagnificationHelper')",
+						"2 call (uiNamespace getVariable 'cba_optics_fnc_setOpticMagnificationHelper')",
 						"4 call (uiNamespace getVariable 'cba_optics_fnc_setOpticMagnificationHelper')"
 					};
 					discreteInitIndex=0;
@@ -112,8 +109,5 @@ class CfgWeapons
 			};
 		};
 	};
-
-
-
 };
 

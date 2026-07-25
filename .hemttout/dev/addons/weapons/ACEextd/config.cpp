@@ -15,12 +15,7 @@ class CfgPatches
             "A3_Weapons_F",
             "OPTRE_Weapons_AR",
 			"OPTRE_Weapons",
-            "22nd_weapons",
-			"22nd_MA37",
-			"22nd_M247A1",
-			"22nd_M73",
-			"22nd_M319",
-			"22nd_M250"
+            "22nd_weapons"
         };
 		//Add any weapons utilising this system above^ + Optre base required addons to be safe
         units[] = {};

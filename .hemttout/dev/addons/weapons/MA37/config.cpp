@@ -167,20 +167,6 @@ class CfgWeapons
 			reloadTime = 0.1;
 			dispersion = 0.001;
 
-			aiBurstTerminable = 1;
-
-			minRange = 2;
-			minRangeProbab = 0.5;
-
-			midRange = 75;
-			midRangeProbab = 0.7;
-
-			maxRange = 150;
-			maxRangeProbab = 0.05;
-
-			aiRateOfFire = 2;
-			aiRateOfFireDistance = 200;
-
 			sounds[] = {"StandardSound","SilencedSound"};
 			class BaseSoundModeType
 			{
@@ -237,13 +223,13 @@ class CfgWeapons
 				};
 			};
 
-			// class CowsSlot : CowsSlot
-			// {
-			// 	compatibleItems[] =
-			// 	{
-			    
-			// 	};
-			// };
+			class CowsSlot : CowsSlot
+			{
+				compatibleItems[] =
+				{
+					"22nd_MA37_Smartlink_Scope"
+				};
+			};
 			
 		};
 	};

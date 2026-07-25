@@ -2,7 +2,7 @@ class CfgPatches
 {
 	class 22nd_weapons_M392
 	{
-		author="Valkyrie";
+		author="22nd Mod Team";
 		addonRootClass="22nd_weapons";
 		requiredAddons[]=
 		{

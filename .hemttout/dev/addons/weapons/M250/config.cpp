@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class 22nd_wepaons_M250
+	class 22nd_weapons_M250
 	{
 		author="22nd Mod Team";
 		addonRootClass="22nd_weapons";
@@ -14,8 +14,8 @@ class CfgPatches
 			"OPTRE_Weapons_MG_M247",
 			"OPTRE_Weapons_MG_M247a1", 
 			"22nd_M250_sounds",
-			"22nd_ammo",
-			"22nd_magazines"
+			"22nd_weapons_ammo",
+			"22nd_weapons_magazines"
 		};
 		requiredVersion=0.1;
 		units[]={};
