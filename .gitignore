@@ -10,6 +10,10 @@
 /.hemttout/build/addons/22ndRDF_uniforms.pbo
 /.hemttout/build/addons/22ndRDF_units.pbo
 /.hemttout/build/addons/22ndRDF_weapons.pbo
+/.hemttout/ci_annotations.txt
+/.hemttout/last_build.hsb
+/.hemttout/latest.log
+/.hemttout/unused_external_classes.txt
 /.vs
 *.hemttprivatekey
 *.biprivatekey
