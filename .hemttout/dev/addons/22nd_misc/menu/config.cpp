@@ -2,12 +2,11 @@ class CfgPatches
 {
 	class 22nd_LoadingScreens
 	{
-		author="Smacko";
-		addonRootClass="1st_MEU_patch_main";
+		author="22nd Mod Team";
+		addonRootClass="22nd_misc";
 		requiredAddons[]=
 		{
-			"22nd_misc",
-			"1st_MEU_patch_main"
+			"22nd_misc"
 		};
 		skipWhenMissingDependencies = 1;
 		requiredVersion=0.1;

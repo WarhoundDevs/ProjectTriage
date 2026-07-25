@@ -17,10 +17,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={7004.5483,29.555325,2980.6643};
-		dir[]={-0.026171975,-0.56677562,0.82345843};
-		up[]={-0.018004788,0.82387161,0.56649065};
-		aside[]={0.99949825,-2.3138114e-10,0.031767074};
+		pos[]={6991.0386,29.555325,2955.2476};
+		dir[]={0.02578965,-0.54571211,0.83759129};
+		up[]={0.016795032,0.83796352,0.54546714};
+		aside[]={0.99954349,-2.1503001e-07,-0.030775707};
 	};
 };
 binarizationWanted=0;
@@ -28,14 +28,14 @@ sourceName="test";
 addons[]=
 {
 	"A3_Characters_F",
-	"ValkHalo_MA37",
-	"ValkHalo_magazines",
-	"ValkHalo_M6G",
-	"OPTRE_Weapons_M6G",
+	"22nd_weapons_M7",
+	"22nd_weapons_magazines",
 	"A3_Weapons_F",
 	"A3_Characters_F_Heads",
 	"ace_goggles",
 	"22ndArmsRoom",
+	"22nd_uniforms_helmets_aviation",
+	"22nd_uniforms_armour",
 	"A3_Weapons_F_Items",
 	"ace_medical_treatment",
 	"MA_Armor",
@@ -46,6 +46,7 @@ addons[]=
 	"A3_Weapons_F_Pistols_P07",
 	"ace_ballistics",
 	"ace_smallarms",
+	"22nd_uniforms_helmets",
 	"A3_Modules_F_Curator_Curator",
 	"A3_Structures_F_Bootcamp_VR_Blocks"
 };
@@ -53,7 +54,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=15;
+		items=17;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -63,90 +64,99 @@ class AddonsMetaData
 		};
 		class Item1
 		{
-			className="ValkHalo_weapons";
-			name="ValkHalo_MA37";
-			author="Valk";
+			className="22nd_weapons";
+			name="22nd_weapons_M7";
+			author="22nd Mod Team";
 		};
 		class Item2
-		{
-			className="OPTRE_Weapons_Pistol";
-			name="OPTRE_Weapons_M6G";
-			author="Article 2 Studios";
-		};
-		class Item3
 		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item4
+		class Item3
 		{
 			className="ace_goggles";
 			name="ACE3 - Goggles";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item5
+		class Item4
 		{
 			className="22ndArmsRoom";
 			name="22ndArmsRoom";
 		};
+		class Item5
+		{
+			className="22nd_uniforms_helmets_aviation";
+			name="22nd_uniforms_helmets_aviation";
+		};
 		class Item6
+		{
+			className="22nd_uniforms_armour";
+			name="22nd_uniforms_armour";
+		};
+		class Item7
 		{
 			className="ace_medical_treatment";
 			name="ACE3 - Medical Treatment";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item7
+		class Item8
 		{
 			className="MA_Armor";
 			name="MA_Armor";
 			author="Misriah Armory";
 		};
-		class Item8
+		class Item9
 		{
 			className="ace_attach";
 			name="ACE3 - Attach";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item9
+		class Item10
 		{
 			className="ace_chemlights";
 			name="ACE3 - Chemlights";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item10
+		class Item11
 		{
 			className="OPTRE_Hud";
 			name="OPTRE_Hud";
 			author="Article 2 Studios";
 		};
-		class Item11
+		class Item12
 		{
 			className="ace_ballistics";
 			name="ACE3 - Ballistics";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item12
+		class Item13
 		{
 			className="ace_smallarms";
 			name="ACE3 - Small Arms";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item13
+		class Item14
+		{
+			className="22nd_uniforms_helmets";
+			name="22nd_uniforms_helmets";
+		};
+		class Item15
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item14
+		class Item16
 		{
 			className="A3_Structures_F_Bootcamp";
 			name="Arma 3 Bootcamp Update - Buildings and Structures";
@@ -157,7 +167,8 @@ class AddonsMetaData
 };
 dlcs[]=
 {
-	"OPTRE"
+	"OPTRE",
+	"22nd_RDF"
 };
 randomSeed=2063849;
 class ScenarioData
@@ -407,18 +418,13 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="ValkHalo_weapon_MA37";
-								firemode="ValkHalo_weapon_MA37:Single";
+								name="22nd_M7";
+								firemode="22nd_M7:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="ValkHalo_32nd_762x51_FMJ";
-									ammoLeft=32;
+									name="22nd_mag_M7";
+									ammoLeft=48;
 								};
-							};
-							class handgun
-							{
-								name="ValkHalo_weapon_M6G";
-								optics="OPTRE_M6G_Scope";
 							};
 							class uniform
 							{
@@ -440,7 +446,7 @@ class Mission
 								isBackpack=0;
 								class MagazineCargo
 								{
-									items=4;
+									items=5;
 									class Item0
 									{
 										name="SmokeShell";
@@ -465,6 +471,12 @@ class Mission
 										count=2;
 										ammoLeft=1;
 									};
+									class Item4
+									{
+										name="22nd_mag_M7";
+										count=6;
+										ammoLeft=48;
+									};
 								};
 							};
 							class backpack
@@ -477,7 +489,7 @@ class Mission
 							watch="ItemWatch";
 							radio="ItemRadio";
 							goggles="G_Tactical_Clear";
-							headgear="22nd_HelmBase_Closed";
+							headgear="22nd_VX19_Urban";
 						};
 					};
 					id=2;

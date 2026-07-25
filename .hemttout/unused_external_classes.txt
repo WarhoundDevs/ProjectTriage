@@ -1,16 +1,66 @@
-B_Soldier_base_F - addons/22nd_misc/stetsons/config.cpp:23:8
-InventoryItem_Base_F - addons/22nd_misc/stetsons/config.cpp:28:8
-ACE_ItemCore - addons/22nd_misc/markers/data/Spraypaint/config.hpp:2:11
+SilencedSound - addons/22nd_weapons/M250/config.cpp:46:9
+PointerSlot - addons/22nd_weapons/M250/config.cpp:52:9
+StandardSoundUnderBarrelSlot - SilencedSoundOPTRE_BiofoamItem - addons/22nd_weapons/M6C/config.cpp -  - addons/22nd_weapons/M250/config.cppaddons/22nd_weapons/M393EMR/config.cpp:addons/22nd_items/medical/config.cpp::53:4343:57::99:9
+11
+
+
+SilencedSound - addons/22nd_weapons/M6C/config.cpp:44:9
+MuzzleSlot - addons/22nd_weapons/M6C/config.cpp:48:9
+CowsSlot - addons/22nd_weapons/M6C/config.cpp:49:9
+PointerSlot - addons/22nd_weapons/M6C/config.cpp:50:9
+UnderBarrelSlot - addons/22nd_weapons/M6C/config.cpp:51:9
+UnderBarrelSlot - addons/22nd_weapons/M6C/config.cpp:67:9
+PointerSlot - addons/22nd_weapons/M393EMR/config.cpp:49:9
+UnderBarrelSlot - addons/22nd_weapons/M393EMR/config.cpp:50:9
+StandardSoundPointerSlot -  - addons/22nd_weapons/MA37/config.cppaddons/22nd_weapons/M7/config.cpp::5750::99
+
+SilencedSound - addons/22nd_weapons/MA37/config.cppUnderBarrelSlot: - 58addons/22nd_weapons/M7/config.cpp::9
+51:9
+StandardSound - addons/22nd_weapons/MA37/config.cpp:62:9
+SilencedSound - addons/22nd_weapons/MA37/config.cpp:63:9
+PointerSlot - addons/22nd_weapons/MA37/config.cpp:69:9
+UnderBarrelSlot - addons/22nd_weapons/MA37/config.cpp:70:9
+PointerSlotACE_ItemCore -  - addons/22nd_misc/markers/data/Spraypaint/config.hpp:2:11
 CBA_MiscItem_ItemInfo - addons/22nd_misc/markers/data/Spraypaint/config.hpp:3:11
-ACE_SpraypaintWhite - addons/22nd_misc/markers/data/Spraypaint/config.hppOPTRE_BiofoamItem: - 5addons/22nd_items/medical/config.cpp::1157
-:11
+ACE_SpraypaintWhite - addons/22nd_misc/markers/data/Spraypaint/config.hpp:5:11
+addons/22nd_weapons/M73/config.cppPointerSlot - addons/22nd_weapons/M6G/config.cpp:47:9
+UnderBarrelSlot - addons/22nd_weapons/M6G/config.cpp:48::589
+:StandardSound9 - addons/22nd_weapons/AudioTest/config.cpp:
+36:9UnderBarrelSlot
+ - addons/22nd_weapons/M73/config.cpp:59:9SilencedSound
+ - addons/22nd_weapons/AudioTest/config.cpp:37:9
+StandardSound - addons/22nd_weapons/AudioTest/config.cpp:41:9
+SilencedSound - addons/22nd_weapons/AudioTest/config.cpp:42:9
+PointerSlot - addons/22nd_weapons/AudioTest/config.cpp:48:9
+UnderBarrelSlot - addons/22nd_weapons/AudioTest/config.cpp:49B_Soldier_base_F - :addons/22nd_misc/stetsons/config.cpp9:
+23:8
+22nd_SDrifle_SoundSetInventoryItem_Base_F - addons/22nd_misc/stetsons/config.cpp:28:8
+ - addons/22nd_weapons/BR55/sounds/config.cpp:94:8
+MuzzleSlot - addons/22nd_weapons/M392/config.cpp:47:9
+PointerSlot - addons/22nd_weapons/M392/config.cpp:49:9
+UnderBarrelSlot - addons/22nd_weapons/M392/config.cpp:50:9
+PointerSlot - addons/22nd_weapons/BR55/config.cpp:50:9
+UnderBarrelSlot - addons/22nd_weapons/BR55/config.cpp:51:9
+PointerSlot - addons/22nd_weapons/M247A1/config.cpp:52:9
+UnderBarrelSlot - addons/22nd_weapons/M247A1/config.cpp:53:9
+SilencedSound - addons/22nd_weapons/M45/config.cpp:30:9
+PointerSlot - addons/22nd_weapons/M45/config.cpp:36:9
+UnderBarrelSlot - addons/22nd_weapons/M45/config.cpp:37:9
+SilencedSound - addons/22nd_weapons/M319IGL/config.cpp:44:9
+MuzzleSlot - addons/22nd_weapons/M319IGL/config.cpp:48:9
+CowsSlot - addons/22nd_weapons/M319IGL/config.cpp:49:9
+UnderBarrelSlot - addons/22nd_weapons/M319IGL/config.cpp:51:9
+MuzzleSlot - addons/22nd_weapons/M310UTIL/config.cpp:47:9
+CowsSlot - addons/22nd_weapons/M310UTIL/config.cpp:48:9
+UnderBarrelSlot - addons/22nd_weapons/M310UTIL/config.cpp:50:9
 B_Plane_Fighter_01_F - addons/22nd_units/units/data/Vehicles/Bayonet/config.hpp:1:7
 DMNS_M808B_F - addons/22nd_units/units/data/Vehicles/Scorpion/config.hpp:3:7
-MA_M56A_Helmet - addons/22nd_uniforms/helmets/config.cpp:1057:11
-MA_Mjolnir_Scout_Helmet - addons/22nd_uniforms/helmets/config.cpp:1058:11
-MA_Mjolnir_JFO_Helmet - addons/22nd_uniforms/helmets/config.cpp:1059:11
-MA_Mjolnir_Commando_Helmet - addons/22nd_uniforms/helmets/config.cpp:1060:11
-MA_Mjolnir_CQC_Helmet - addons/22nd_uniforms/helmets/config.cpp:1061:11
-MA_Mjolnir_Grenadier_Helmet - addons/22nd_uniforms/helmets/config.cpp:1062:11
-MA_Mjolnir_Gungnir_Helmet - addons/22nd_uniforms/helmets/config.cpp:1063:11
-OPTRE_UNSC_Operator_Helmet - addons/22nd_uniforms/helmets/config.cpp:1064:11
+OPTRE_FC_VX19_Helmet - addons/22nd_uniforms/helmets/config.cpp:875:11
+MA_M56A_Helmet - addons/22nd_uniforms/helmets/config.cpp:877:11
+MA_Mjolnir_Scout_Helmet - addons/22nd_uniforms/helmets/config.cpp:878:11
+MA_Mjolnir_JFO_Helmet - addons/22nd_uniforms/helmets/config.cpp:879:11
+MA_Mjolnir_Commando_Helmet - addons/22nd_uniforms/helmets/config.cpp:880:11
+MA_Mjolnir_CQC_Helmet - addons/22nd_uniforms/helmets/config.cpp:881:11
+MA_Mjolnir_Grenadier_Helmet - addons/22nd_uniforms/helmets/config.cpp:882:11
+MA_Mjolnir_Gungnir_Helmet - addons/22nd_uniforms/helmets/config.cpp:883:11
+OPTRE_UNSC_Operator_Helmet - addons/22nd_uniforms/helmets/config.cpp:884:11

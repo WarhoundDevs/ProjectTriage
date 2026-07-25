@@ -34,8 +34,8 @@ class cfgWeapons
 		displayName = "Cavalry Stetson";
 		vehicleClass = "22nd_Stetson_Hat";
 		author = "22nd Mod Team";
-		picture = "\22nd_Stetsons\UI\icon_h_stetson_ca.paa";
-		model = "\22nd_Stetsons\22nd_Stetson";
+		picture = "addons\22nd_misc\UI\icon_h_stetson_ca.paa";
+		model = "addons\22nd_misc\22nd_Stetson.p3d";
 		hiddenSelectionsTextures[] = 
 		{
 			"\22nd_Stetsons\Data\Stetson_co.paa"

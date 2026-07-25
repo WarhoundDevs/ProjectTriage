@@ -11,8 +11,8 @@ class CfgPatches
         requiredVersion=0.1;
         units[]=
         {
-            "22nd_Medigel_Item",
-            "22nd_Biofoam_Item"
+            "22nd_Medigel_Item"
+            // "22nd_Biofoam_Item"
         };
         weapons[]=
         {

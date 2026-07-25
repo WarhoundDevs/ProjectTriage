@@ -14,15 +14,8 @@ class CfgPatches {
             "22nd_HelmSnow_Eye",
             "22nd_HelmSnow_Visor",
             //CERT UNLOCK HELMETS
-            //Aviation
-            "22nd_VX19_Urban",
-            "22nd_VX19_Woodland",
-            "22nd_VX19_Arid",
-            "22nd_VX19_Winter",
-            "22nd_VX19_Urban_HMHD",
-            "22nd_VX19_Woodland_HMHD",
-            "22nd_VX19_Arid_HMHD",
-            "22nd_VX19_Winter_HMHD",
+           
+
             //Crewman
             "W_CH252C_Helmet_Base",
             "W_CH252C_Helmet_Urban",
@@ -34,37 +27,37 @@ class CfgPatches {
             "W_EOD_Helmet_Snow",
             "W_EOD_Helmet_Urban",
             //Air Assault
-            "W_AA_Helmet_Urban",
-            "W_AA_Helmet_Woodland",
-            "W_AA_Helmet_Snow",
+            // "W_AA_Helmet_Urban",
+            // "W_AA_Helmet_Woodland",
+            // "W_AA_Helmet_Snow",
             //Scout
-            "W_Scout_Helmet_Urban",
-            "W_Scout_Helmet_Woodland",
-            "W_Scout_Helmet_Snow",
+            // "W_Scout_Helmet_Urban",
+            // "W_Scout_Helmet_Woodland",
+            // "W_Scout_Helmet_Snow",
             //JFO
-            "W_JFO_Helmet_Urban",
-            "W_JFO_Helmet_Snow",
-            "W_JFO_Helmet_Woodland",
+            // "W_JFO_Helmet_Urban",
+            // "W_JFO_Helmet_Snow",
+            // "W_JFO_Helmet_Woodland",
             //Commando
-            "W_Commando_Helmet_Urban",
-            "W_Commando_Helmet_Woodland",
-            "W_Commando_Helmet_Winter",
+            // "W_Commando_Helmet_Urban",
+            // "W_Commando_Helmet_Woodland",
+            // "W_Commando_Helmet_Winter",
             //CQC
-            "W_CQC_Helmet_Urban",
-            "W_CQC_Helmet_Woodland",
-            "W_CQC_Helmet_Winter",
+            // "W_CQC_Helmet_Urban",
+            // "W_CQC_Helmet_Woodland",
+            // "W_CQC_Helmet_Winter",
             //Grenadier
-            "W_Grenadier_Helmet_Urban",
-            "W_Grenadier_Helmet_Woodland",
-            "W_Grenadier_Helmet_Winter",
+            // "W_Grenadier_Helmet_Urban",
+            // "W_Grenadier_Helmet_Woodland",
+            // "W_Grenadier_Helmet_Winter",
             //Gungnir
-            "W_Gungnir_Helmet_Urban",
-            "W_Gungnir_Helmet_Snow",
-            "W_Gungnir_Helmet_Woodland",
+            // "W_Gungnir_Helmet_Urban",
+            // "W_Gungnir_Helmet_Snow",
+            // "W_Gungnir_Helmet_Woodland",
             //Operator
-            "W_Operator_Helmet_Urban",
-            "W_Operator_Helmet_Snow",
-            "W_Operator_Helmet_Woodland",
+            // "W_Operator_Helmet_Urban",
+            // "W_Operator_Helmet_Snow",
+            // "W_Operator_Helmet_Woodland",
             //OPEN MED
             // Base
             "22nd_HelmBase_Open_med",
@@ -76,31 +69,9 @@ class CfgPatches {
             "22nd_HelmSnow_Closed_med",
             "22nd_HelmSnow_Eye_med",
             "22nd_HelmSnow_Visor_med",
-            //Custom VX19
-            "22nd_VX19_Urban_Manta",
-            "22nd_VX19_Woodland_Manta",
-            "22nd_VX19_Arid_Manta",
-            "22nd_VX19_Winter_Manta",
-            "22nd_VX19_Urban_Cuban",
-            "22nd_VX19_Woodland_Cuban",
-            "22nd_VX19_Arid_Cuban",
-            "22nd_VX19_Winter_Cuban",
-            "22nd_VX19_Urban_Astro",
-            "22nd_VX19_Woodland_Astro",
-            "22nd_VX19_Arid_Astro",
-            "22nd_VX19_Winter_Astro",
-            "22nd_VX19_Urban_Evans",
-            "22nd_VX19_Woodland_Evans",
-            "22nd_VX19_Arid_Evans",
-            "22nd_VX19_Winter_Evans",
-            "22nd_VX19_Urban_Kamea",
-            "22nd_VX19_Woodland_Kamea",
-            "22nd_VX19_Arid_Kamea",
-            "22nd_VX19_Winter_Kamea",
-            "22nd_VX19_Urban_Ras",
-            "22nd_VX19_Woodland_Ras",
-            "22nd_VX19_Arid_Ras",
-            "22nd_VX19_Winter_Ras",
+            
+
+           
             //Custom Crewman
             "22nd_CH252C_German_Urban",
             "22nd_CH252C_German_Woodland",
@@ -270,158 +241,7 @@ class XtdGearModels
                 };
             };
         };
-        class 22nd_VX19
-        {
-            label = "22nd VX-19 Aviation Helmet";
-
-            options[] =
-            {
-                "Camouflage",
-                "Variant"
-            };
-
-            class Camouflage
-            {
-                label = "Camouflage";
-
-                values[] =
-                {
-                    "Urban",
-                    "Woodland",
-                    "Arid",
-                    "Winter"
-                };
-
-                class Urban
-                {
-                    label = "Urban";
-                };
-
-                class Woodland
-                {
-                    label = "Woodland";
-                };
-
-                class Arid
-                {
-                    label = "Arid";
-                };
-
-                class Snow
-                {
-                    label = "Winter";
-                };
-            };
-
-            class Variant
-            {
-                label = "Variant";
-
-                values[] =
-                {
-                    "Standard",
-                    "HMHD"
-                };
-
-                class Standard
-                {
-                    label = "Orca";
-                };
-
-                class HMHD
-                {
-                    label = "Hammerhead";
-                };
-            };
-        };
-        class 22nd_VX19_Custom
-        {
-            label = "22nd VX-19 Aviation Helmet Customs";
-
-            options[] =
-            {
-                "Camouflage",
-                "Variant"
-            };
-
-            class Camouflage
-            {
-                label = "Camouflage";
-
-                values[] =
-                {
-                    "Urban",
-                    "Woodland",
-                    "Arid",
-                    "Winter"
-                };
-
-                class Urban
-                {
-                    label = "Urban";
-                };
-
-                class Woodland
-                {
-                    label = "Woodland";
-                };
-
-                class Arid
-                {
-                    label = "Arid";
-                };
-
-                class Snow
-                {
-                    label = "Winter";
-                };
-            };
-
-            class Variant
-            {
-                label = "Variant";
-
-                values[] =
-                {
-                    "Manta",
-                    "Cuban",
-                    "Astro",
-                    "Evans",
-                    "Kamea",
-                    "Ras"
-                };
-
-                class Manta
-                {
-                    label = "Manta";
-                };
-
-                class Cuban
-                {
-                    label = "Cuban";
-                };
-
-                class Astro
-                {
-                    label = "Astro";
-                };
-
-                class Evans
-                {
-                    label = "Evans";
-                };
-
-                class Kamea
-                {
-                    label = "Kamea";
-                };
-                
-                class Ras
-                {
-                    label = "Ras";
-                };
-            };
-        };
+       
         class W_CH252C_Helmet{
 
             label = "22nd CH252C";
@@ -2435,7 +2255,6 @@ class CfgWeapons {
     };// Close 22nd_HelmSnow_Visor
     
     #include "Customs\config.hpp"
-    #include "Aviation\config.hpp"
     #include "Crewman\config.hpp"
     #include "EOD\config.hpp"
     //#include "AA\config.hpp"
