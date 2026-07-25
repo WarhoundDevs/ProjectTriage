@@ -11,8 +11,8 @@ class CfgPatches
 			"A3_Weapons_F",
 			"OPTRE_Weapons_DMR",
 			"22nd_M393_sounds",
-			"22nd_ammo",
-			"22nd_magazines"
+			"22nd_weapons_ammo",
+			"22nd_weapons_magazines"
 		};
 		requiredVersion=0.1;
 		units[]={};

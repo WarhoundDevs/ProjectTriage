@@ -15,8 +15,7 @@ class CfgPatches
             "A3_Weapons_F",
             "OPTRE_Weapons_AR",
 			"OPTRE_Weapons",
-			"22nd_magazines",
-			"22nd_MA37",
+			"22nd_weapons_MA37",
             "22nd_weapons"
         };
 
@@ -55,12 +54,12 @@ class CfgWeapons
 
 	class 22nd_weapon_AudioTest : 22nd_weapon_MA37
 	{
-		scope = 1;
-		arsenalscope =1;
+		scope = 0;
+		arsenalscope =0;
 		access=3;
 		aimTransitionSpeed=1.0;
-		author = "Valkyrie";
-		displayName = "[VK] AudioTest AR";
+		author = "22nd Mod Team";
+		displayName = "[22nd] AudioTest AR";
 	    initSpeed=850;
 		baseWeapon = "22nd_weapon_AudioTest";
 
