@@ -236,6 +236,8 @@ class CfgWeapons
     class 22nd_VX19_Arid_HMHD: 22nd_VX19_base
     {
         displayName = "[22nd] VX-19 Arid (Hammerhead)";
+        scope=2;
+        scopeArsenal=2;
         class XtdGearInfo
         {
             model = "22nd_VX19";

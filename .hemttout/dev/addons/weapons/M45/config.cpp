@@ -15,8 +15,8 @@ class CfgPatches
 			"OPTRE_Weapons_Shotgun",
 			"22nd_weapons_sound",
 			"22nd_M45_sounds",
-			"22nd_ammo",
-			"22nd_magazines"
+			"22nd_weapons_ammo",
+			"22nd_weapons_magazines"
 		};
 	};
 };

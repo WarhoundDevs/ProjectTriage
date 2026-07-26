@@ -1,10 +1,10 @@
 
 class CfgPatches
 {
-    class ValkHalo_magazines_gl
+    class 22nd_weapons_magazines_gl
     {
-        addonRootClass = "ValkHalo_weapons";
-        author = "Halligan";
+        addonRootClass = "22nd_weapons";
+        author = "22nd Mod Team";
 
         requiredVersion = 0.1;
 
@@ -14,9 +14,9 @@ class CfgPatches
             "A3_Data_F",
             "A3_Weapons_F",
             "OPTRE_Weapons_Ammo",
-			"ValkHalo_ammo_gl",
-			"ValkHalo_ammo",
-            "ValkHalo_weapons"
+			"22nd_weapons_ammo_gl",
+			"22nd_weapons_ammo",
+            "22nd_weapons"
         };
 
         units[] = {};
@@ -30,9 +30,9 @@ class CfgMagazines //Review and make sure ace ballistics and such is properly co
 
 	
 	class 1Rnd_HE_Grenade_shell;
-	class ValkHalo_1Rnd_40mm_HE_base: 1Rnd_HE_Grenade_shell
+	class 22nd_1Rnd_40mm_HE_base: 1Rnd_HE_Grenade_shell
 	{
-		author = "Valkyrie";
+		author = "22nd Mod Team";
 		displayNameShort = "HE-FRAG"; //UI in top right
 		descriptionShort = "High Explosive Fragmentation <br />Shrapnel: High <br />Used in: M319, M302, M310";
 		displayName = "40mm HE-FRAG";
@@ -43,17 +43,17 @@ class CfgMagazines //Review and make sure ace ballistics and such is properly co
 
 	
 
-	class ValkHalo_1Rnd_40mm_HE_FRAG: 1Rnd_HE_Grenade_shell
+	class 22nd_1Rnd_40mm_HE_FRAG: 1Rnd_HE_Grenade_shell
 	{
 		displayNameShort = "HE-FRAG"; 
 		descriptionShort = "High Explosive Fragmentation <br />Use for: Anti-personnel, Defensive <br />Used in: M319, M302, M310";
 		displayName = "40mm HE-FRAG";
 		picture = "\A3\Weapons_f\Data\ui\gear_UGL_slug_CA.paa";
-		ammo = "ValkHalo_G_40mm_HE";
+		ammo = "22nd_G_40mm_HE";
 		initSpeed = 80;
 		mass = 4;
 	};
-	class ValkHalo_3Rnd_40mm_HE_FRAG: ValkHalo_1Rnd_40mm_HE_FRAG
+	class 22nd_3Rnd_40mm_HE_FRAG: 22nd_1Rnd_40mm_HE_FRAG
 	{
 		count = 3;
 		displayNameShort = "3rnd HE-FRAG"; 
@@ -64,17 +64,17 @@ class CfgMagazines //Review and make sure ace ballistics and such is properly co
 		mass = 4;
 	};
 
-	class ValkHalo_1Rnd_40mm_HE_DP: 1Rnd_HE_Grenade_shell
+	class 22nd_1Rnd_40mm_HE_DP: 1Rnd_HE_Grenade_shell
 	{
 		displayNameShort = "HE-DP"; 
 		descriptionShort = "High Explosive Dual-Purpose <br />Use: Light Vehicles, Offensive, anti-personnel   <br />Used in: M319, M302, M310";
 		displayName = "40mm HE-DP";
 		picture = "\A3\Weapons_f\Data\ui\gear_UGL_slug_CA.paa";
-		ammo = "ValkHalo_G_40mm_HEDP";
+		ammo = "22nd_G_40mm_HEDP";
 		initSpeed = 80;
 		mass = 4;
 	};
-	class ValkHalo_3Rnd_40mm_HE_DP: ValkHalo_1Rnd_40mm_HE_DP
+	class 22nd_3Rnd_40mm_HE_DP: 22nd_1Rnd_40mm_HE_DP
 	{
 		count = 3;
 		displayNameShort = "3rnd HE-DP"; 
@@ -87,7 +87,7 @@ class CfgMagazines //Review and make sure ace ballistics and such is properly co
 
 
     class 1Rnd_Smoke_Grenade_shell;
-	class ValkHalo_1Rnd_40mm_smokeF_base: 1Rnd_Smoke_Grenade_shell
+	class 22nd_1Rnd_40mm_smokeF_base: 1Rnd_Smoke_Grenade_shell
 	{
 		author = "Valkyrie";
 		displayNameShort = "White Smoke"; //UI in top right
@@ -100,87 +100,87 @@ class CfgMagazines //Review and make sure ace ballistics and such is properly co
 	};
 
 
-	class ValkHalo_1Rnd_40mm_smokeF_Red: ValkHalo_1Rnd_40mm_smokeF_base
+	class 22nd_1Rnd_40mm_smokeF_Red: 22nd_1Rnd_40mm_smokeF_base
 	{
 		displayNameShort = "Red Marker"; 
 		descriptionShort = "40mm Marker Round - Red<br />Used for: Marking hostile assets<br />Used in: M302, M310";
 		displayName = "Red Marker (Hostiles)";
-		ammo = "ValkHalo_G_40mm_smokeF_smokeRed";
+		ammo = "22nd_G_40mm_smokeF_smokeRed";
 		picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_red_CA.paa";
 	};
-	// class ValkHalo_3Rnd_40mm_smokeF_Red: ValkHalo_1Rnd_40mm_smokeF_base
+	// class 22nd_3Rnd_40mm_smokeF_Red: 22nd_1Rnd_40mm_smokeF_base
 	// {
 	// 	count = 3;
 	// 	displayNameShort = "3rnd Red Marker"; 
 	// 	descriptionShort = "40mm 3rnd Stacked Marker Round - Red<br />Used for: Marking hostile assets / positions<br />Used in: M319, M302, M310";
 	// 	displayName = "3rnd Red Marker (Hostiles)";
-	// 	ammo = "ValkHalo_G_40mm_smokeF_smokeRed";
+	// 	ammo = "22nd_G_40mm_smokeF_smokeRed";
 	// 	picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_red_CA.paa";
 	// };
 
 
-	class ValkHalo_1Rnd_40mm_smokeF_Green: ValkHalo_1Rnd_40mm_smokeF_base
+	class 22nd_1Rnd_40mm_smokeF_Green: 22nd_1Rnd_40mm_smokeF_base
 	{
 		displayNameShort = "Green Marker"; 
 		descriptionShort = "40mm Marker Round - Green<br />Rounds: 1<br />Used in: M319, M302, M310";
 		displayName = "Green Marker (Green)";
-		ammo = "ValkHalo_G_40mm_smokeF_smokeGreen";
+		ammo = "22nd_G_40mm_smokeF_smokeGreen";
 		picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_green_CA.paa";
 	};
-	// class ValkHalo_3Rnd_40mm_smokeF_Green: ValkHalo_1Rnd_40mm_smokeF_base
+	// class 22nd_3Rnd_40mm_smokeF_Green: 22nd_1Rnd_40mm_smokeF_base
 	// {
 	// 	count = 3;
 	// 	displayNameShort = "3rnd Green Marker"; 
 	// 	descriptionShort = "3rnd Stacked 40mm Marker Round - Green<br />Rounds: 1<br />Used in: M319, M302, M310";
 	// 	displayName = "Green Marker (Green)";
-	// 	ammo = "ValkHalo_G_40mm_smokeF_smokeGreen";
+	// 	ammo = "22nd_G_40mm_smokeF_smokeGreen";
 	// 	picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_green_CA.paa";
 	// };
 
 
-	class ValkHalo_1Rnd_40mm_smokeF_Blue: ValkHalo_1Rnd_40mm_smokeF_base
+	class 22nd_1Rnd_40mm_smokeF_Blue: 22nd_1Rnd_40mm_smokeF_base
 	{
 		displayNameShort = "Blue Marker"; 
 		descriptionShort = "40mm Marker Round - Blue<br />Used for marking LZs & Safe areas <br />Used in: M319, M302, M310";
 		displayName = "Blue Marker (LZs and Safe areas}";
-		ammo = "ValkHalo_G_40mm_smokeF_smokeBlue";
+		ammo = "22nd_G_40mm_smokeF_smokeBlue";
 		picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_blue_CA.paa"; 
 	};
-	// class ValkHalo_3Rnd_40mm_smokeF_Blue: ValkHalo_1Rnd_40mm_smokeF_base
+	// class 22nd_3Rnd_40mm_smokeF_Blue: 22nd_1Rnd_40mm_smokeF_base
 	// {
 	// 	count = 3;
 	// 	displayNameShort = "3rnd Blue Marker"; 
 	// 	descriptionShort = "3rnd Stacked 40mm Marker Round - Blue<br />Used for: marking friendly assets / positions/>Used in: M319, M302, M310";
 	// 	displayName = "3rnd Blue Marker (Friendlies)";
-	// 	ammo = "ValkHalo_G_40mm_smokeF_smokeBlue";
+	// 	ammo = "22nd_G_40mm_smokeF_smokeBlue";
 	// 	picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_blue_CA.paa"; 
 	// };
 
 
-	class ValkHalo_1Rnd_40mm_smokeF_Purple: ValkHalo_1Rnd_40mm_smokeF_base
+	class 22nd_1Rnd_40mm_smokeF_Purple: 22nd_1Rnd_40mm_smokeF_base
 	{
 		displayNameShort = "Purple Marker"; 
 		descriptionShort = "40mm Marker Round - Purple<br />Used for: Marking position in case of MASS CAS<br />Used in: M319, M302, M310";
 		displayName = "Red Marker (Purple)";
-		ammo = "ValkHalo_G_40mm_smokeF_smokePurple";
+		ammo = "22nd_G_40mm_smokeF_smokePurple";
 		picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_purple_CA.paa"; 
 	};
 
-	class ValkHalo_1Rnd_40mm_smokeF_Yellow: ValkHalo_1Rnd_40mm_smokeF_base
+	class 22nd_1Rnd_40mm_smokeF_Yellow: 22nd_1Rnd_40mm_smokeF_base
 	{
 		displayNameShort = "Yellow Marker"; 
 		descriptionShort = "40mm Marker Round - Yellow<br />Rounds: 1<br />Used in: M319, M302, M310";
 		displayName = "Yellow Marker (Resupply)";
-		ammo = "ValkHalo_G_40mm_smokeF_smokeYellow";
+		ammo = "22nd_G_40mm_smokeF_smokeYellow";
 		picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_yellow_CA.paa"; 
 	};
 
-	class ValkHalo_1Rnd_40mm_smokeF_Orange: ValkHalo_1Rnd_40mm_smokeF_base
+	class 22nd_1Rnd_40mm_smokeF_Orange: 22nd_1Rnd_40mm_smokeF_base
 	{
 		displayNameShort = "Orange Marker"; 
 		descriptionShort = "40mm Marker Round - Orange<br />Rounds: 1<br />Used in: M319, M302, M310";
 		displayName = "Orange Marker (Orange)";
-		ammo = "ValkHalo_G_40mm_smokeF_smokeOrange";
+		ammo = "22nd_G_40mm_smokeF_smokeOrange";
 		picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_orange_CA.paa"; 
 	};
 
@@ -189,11 +189,11 @@ class CfgMagazines //Review and make sure ace ballistics and such is properly co
 
 	class UGL_FlareWhite_F;
 
-	class ValkHalo_1Rnd_40mm_Flare_base: UGL_FlareWhite_F
+	class 22nd_1Rnd_40mm_Flare_base: UGL_FlareWhite_F
 	{
 		author = "Valkyrie";
 
-		ammo = "ValkHalo_F_40mm_flareWhite";
+		ammo = "22nd_F_40mm_flareWhite";
 
 		picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_white_CA.paa";
 
@@ -201,80 +201,80 @@ class CfgMagazines //Review and make sure ace ballistics and such is properly co
 		mass = 4;
 	};
 
-	class ValkHalo_1Rnd_40mm_Flare_White: ValkHalo_1Rnd_40mm_Flare_base
+	class 22nd_1Rnd_40mm_Flare_White: 22nd_1Rnd_40mm_Flare_base
 	{
 
 		displayNameShort = "White Flare"; //UI in top right
 		descriptionShort = "40mm  Flare Round - White <br />Rounds: 1<br />Used in: M319, M302, M310"; //inventory hover
 		displayName = "White Flare (Illum)";
 
-		ammo = "ValkHalo_F_40mm_flareWhite";
+		ammo = "22nd_F_40mm_flareWhite";
 		picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_white_CA.paa";
 	};
 
-	class ValkHalo_1Rnd_40mm_Flare_Red: ValkHalo_1Rnd_40mm_Flare_base //Red
+	class 22nd_1Rnd_40mm_Flare_Red: 22nd_1Rnd_40mm_Flare_base //Red
 	{
 
 		displayNameShort = "Red Flare";
 		descriptionShort = "40mm  Flare Round - Red<br />Rounds: 1<br />Used in: M319, M302, M310";
 		displayName = "Red flare (Hostiles)";
 
-		ammo = "ValkHalo_F_40mm_flareRed";
+		ammo = "22nd_F_40mm_flareRed";
 		picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_red_CA.paa";
 	};
 
-	class ValkHalo_1Rnd_40mm_Flare_Green: ValkHalo_1Rnd_40mm_Flare_base //Green
+	class 22nd_1Rnd_40mm_Flare_Green: 22nd_1Rnd_40mm_Flare_base //Green
 	{
 
 		displayNameShort = "Green Flare"; 
 		descriptionShort = "40mm  Flare Round - Green<br />Rounds: 1<br />Used in: M319, M302, M310";
 		displayName = "Green Flare";
 
-		ammo = "ValkHalo_F_40mm_flareGreen";
+		ammo = "22nd_F_40mm_flareGreen";
 		picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_green_CA.paa";
 	};
 
-	class ValkHalo_1Rnd_40mm_Flare_Blue: ValkHalo_1Rnd_40mm_Flare_base // Blue
+	class 22nd_1Rnd_40mm_Flare_Blue: 22nd_1Rnd_40mm_Flare_base // Blue
 	{
 
 		displayNameShort = "Blue Flare"; 
 		descriptionShort = "40mm  Flare Round - Blue<br />Rounds: 1<br />Used in: M319, M302, M310";
 		displayName = "Blue Flare (Friendly)";
 
-		ammo = "ValkHalo_F_40mm_flareBlue";
+		ammo = "22nd_F_40mm_flareBlue";
 		picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_blue_CA.paa";
 	};
 
-	class ValkHalo_1Rnd_40mm_Flare_Purple: ValkHalo_1Rnd_40mm_Flare_base //Purple
+	class 22nd_1Rnd_40mm_Flare_Purple: 22nd_1Rnd_40mm_Flare_base //Purple
 	{
 
 		displayNameShort = "Purple Flare"; 
 		descriptionShort = "40mm  Flare Round - Purple<br />Rounds: 1<br />Used in: M319, M302, M310";
 		displayName = "Purple Flare (Mass Cas)";
 
-		ammo = "ValkHalo_F_40mm_flarePurple";
+		ammo = "22nd_F_40mm_flarePurple";
 		picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_purple_CA.paa";
 	};
 
-	class ValkHalo_1Rnd_40mm_Flare_Yellow: ValkHalo_1Rnd_40mm_Flare_base //Yellow
+	class 22nd_1Rnd_40mm_Flare_Yellow: 22nd_1Rnd_40mm_Flare_base //Yellow
 	{
 
 		displayNameShort = "Yellow Flare"; 
 		descriptionShort = "40mm  Flare Round - Yellow<br />Rounds: 1<br />Used in: M319, M302, M310";
 		displayName = "Flare Round (Yellow)";
 
-		ammo = "ValkHalo_F_40mm_flareYellow";
+		ammo = "22nd_F_40mm_flareYellow";
 		picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_yellow_CA.paa";
 	};
 
-	class ValkHalo_1Rnd_40mm_Flare_Orange: ValkHalo_1Rnd_40mm_Flare_base //Orange
+	class 22nd_1Rnd_40mm_Flare_Orange: 22nd_1Rnd_40mm_Flare_base //Orange
 	{
 
 		displayNameShort = "Orange Flare"; 
 		descriptionShort = "40mm  Flare Round - Orange<br />Rounds: 1<br />Used in: M319, M302, M310";
 		displayName = "Flare Round (Orange)";
 
-		ammo = "ValkHalo_F_40mm_flareOrange";
+		ammo = "22nd_F_40mm_flareOrange";
 		picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_orange_CA.paa";
 	};
 
@@ -286,75 +286,75 @@ class CfgMagazineWells
 	class 40MM_M319 //Bigger HE?, Crazy good concealment round, Crazy good illumination round
 	{
 		
-		ValkHalo_40mm_Magazines[] =
+		22nd_40mm_Magazines[] =
 		{
 
-			"ValkHalo_3Rnd_40mm_HE_FRAG",
-			"ValkHalo_3Rnd_40mm_HE_DP",
+			"22nd_3Rnd_40mm_HE_FRAG",
+			"22nd_3Rnd_40mm_HE_DP",
 
-			"ValkHalo_1Rnd_40mm_smokeF_Red",
-			"ValkHalo_1Rnd_40mm_smokeF_Green",
-			"ValkHalo_1Rnd_40mm_smokeF_Blue",
-			"ValkHalo_1Rnd_40mm_smokeF_Purple",
-			"ValkHalo_1Rnd_40mm_smokeF_Yellow",
-			"ValkHalo_1Rnd_40mm_smokeF_Orange",
+			"22nd_1Rnd_40mm_smokeF_Red",
+			"22nd_1Rnd_40mm_smokeF_Green",
+			"22nd_1Rnd_40mm_smokeF_Blue",
+			"22nd_1Rnd_40mm_smokeF_Purple",
+			"22nd_1Rnd_40mm_smokeF_Yellow",
+			"22nd_1Rnd_40mm_smokeF_Orange",
 
-			"ValkHalo_1Rnd_40mm_Flare_White",
-			"ValkHalo_1Rnd_40mm_Flare_Red",
-			"ValkHalo_1Rnd_40mm_Flare_Green",
-			"ValkHalo_1Rnd_40mm_Flare_Blue",
-			"ValkHalo_1Rnd_40mm_Flare_Purple",
-			"ValkHalo_1Rnd_40mm_Flare_Yellow",
-			"ValkHalo_1Rnd_40mm_Flare_Orange"
+			"22nd_1Rnd_40mm_Flare_White",
+			"22nd_1Rnd_40mm_Flare_Red",
+			"22nd_1Rnd_40mm_Flare_Green",
+			"22nd_1Rnd_40mm_Flare_Blue",
+			"22nd_1Rnd_40mm_Flare_Purple",
+			"22nd_1Rnd_40mm_Flare_Yellow",
+			"22nd_1Rnd_40mm_Flare_Orange"
 		};
 	};
 
 	class 40MM_M302
 	{
 		
-		ValkHalo_40mm_Magazines[] =
+		22nd_40mm_Magazines[] =
 		{
 
-			"ValkHalo_1Rnd_40mm_HE_FRAG",
-			"ValkHalo_1Rnd_40mm_HE_DP",
+			"22nd_1Rnd_40mm_HE_FRAG",
+			"22nd_1Rnd_40mm_HE_DP",
 
-			"ValkHalo_1Rnd_40mm_smokeF_Red",
-			"ValkHalo_1Rnd_40mm_smokeF_Green",
-			"ValkHalo_1Rnd_40mm_smokeF_Blue",
-			"ValkHalo_1Rnd_40mm_smokeF_Purple",
-			"ValkHalo_1Rnd_40mm_smokeF_Yellow",
-			"ValkHalo_1Rnd_40mm_smokeF_Orange",
+			"22nd_1Rnd_40mm_smokeF_Red",
+			"22nd_1Rnd_40mm_smokeF_Green",
+			"22nd_1Rnd_40mm_smokeF_Blue",
+			"22nd_1Rnd_40mm_smokeF_Purple",
+			"22nd_1Rnd_40mm_smokeF_Yellow",
+			"22nd_1Rnd_40mm_smokeF_Orange",
 
-			"ValkHalo_1Rnd_40mm_Flare_White",
-			"ValkHalo_1Rnd_40mm_Flare_Red",
-			"ValkHalo_1Rnd_40mm_Flare_Green",
-			"ValkHalo_1Rnd_40mm_Flare_Blue",
-			"ValkHalo_1Rnd_40mm_Flare_Purple",
-			"ValkHalo_1Rnd_40mm_Flare_Yellow",
-			"ValkHalo_1Rnd_40mm_Flare_Orange"
+			"22nd_1Rnd_40mm_Flare_White",
+			"22nd_1Rnd_40mm_Flare_Red",
+			"22nd_1Rnd_40mm_Flare_Green",
+			"22nd_1Rnd_40mm_Flare_Blue",
+			"22nd_1Rnd_40mm_Flare_Purple",
+			"22nd_1Rnd_40mm_Flare_Yellow",
+			"22nd_1Rnd_40mm_Flare_Orange"
 		};
 	};
 
 	class 40MM_M310
 	{
 		
-		ValkHalo_40mm_Magazines[] =
+		22nd_40mm_Magazines[] =
 		{
 
-			"ValkHalo_1Rnd_40mm_smokeF_Red",
-			"ValkHalo_1Rnd_40mm_smokeF_Green",
-			"ValkHalo_1Rnd_40mm_smokeF_Blue",
-			"ValkHalo_1Rnd_40mm_smokeF_Purple",
-			"ValkHalo_1Rnd_40mm_smokeF_Yellow",
-			"ValkHalo_1Rnd_40mm_smokeF_Orange",
+			"22nd_1Rnd_40mm_smokeF_Red",
+			"22nd_1Rnd_40mm_smokeF_Green",
+			"22nd_1Rnd_40mm_smokeF_Blue",
+			"22nd_1Rnd_40mm_smokeF_Purple",
+			"22nd_1Rnd_40mm_smokeF_Yellow",
+			"22nd_1Rnd_40mm_smokeF_Orange",
 
-			"ValkHalo_1Rnd_40mm_Flare_White",
-			"ValkHalo_1Rnd_40mm_Flare_Red",
-			"ValkHalo_1Rnd_40mm_Flare_Green",
-			"ValkHalo_1Rnd_40mm_Flare_Blue",
-			"ValkHalo_1Rnd_40mm_Flare_Purple",
-			"ValkHalo_1Rnd_40mm_Flare_Yellow",
-			"ValkHalo_1Rnd_40mm_Flare_Orange"
+			"22nd_1Rnd_40mm_Flare_White",
+			"22nd_1Rnd_40mm_Flare_Red",
+			"22nd_1Rnd_40mm_Flare_Green",
+			"22nd_1Rnd_40mm_Flare_Blue",
+			"22nd_1Rnd_40mm_Flare_Purple",
+			"22nd_1Rnd_40mm_Flare_Yellow",
+			"22nd_1Rnd_40mm_Flare_Orange"
 		};
 	};
 };

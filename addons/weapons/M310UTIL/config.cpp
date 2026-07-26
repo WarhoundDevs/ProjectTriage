@@ -11,9 +11,9 @@ class CfgPatches
 			"A3_Weapons_F",
 			"OPTRE_Weapons_GL", 
 			"22nd_M319_sounds",
-			"22nd_M319",
-			"22nd_ammo",
-			"22nd_magazines"
+			"22nd_weapons_M319",
+			"22nd_weapons_ammo",
+			"22nd_weapons_magazines"
 		};
 		requiredVersion=0.1;
 		units[]={};
