@@ -116,6 +116,14 @@ class CfgWeapons
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\orca\22nd_Air_Helm_Urban_Co.paa",
             "OPTRE_FC_Units\Marines\Data\h3_pilothelmet_visor_co.paa"
         };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\orca\22nd_Air_Helm_Urban_Co.paa",
+                "OPTRE_FC_Units\Marines\Data\h3_pilothelmet_visor_co.paa"
+            };
+        };
     };
 
     class 22nd_VX19_Woodland: 22nd_VX19_base
@@ -133,6 +141,14 @@ class CfgWeapons
         {
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\orca\22nd_Air_Helm_Woodland_Co.paa",
             "OPTRE_FC_Units\Marines\Data\h3_pilothelmet_visor_co.paa"
+        };
+        class itemInfo: itemInfo
+        {
+           hiddenSelectionsTextures[] =
+           {
+               "\z\22ndRDF\addons\uniforms\helmets\aviation\data\orca\22nd_Air_Helm_Woodland_Co.paa",
+               "OPTRE_FC_Units\Marines\Data\h3_pilothelmet_visor_co.paa"
+           };
         };
     };
 
@@ -152,6 +168,14 @@ class CfgWeapons
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\orca\22nd_Air_Helm_Snow_Co.paa",
             "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
         };
+        class itemInfo: itemInfo
+        {
+           hiddenSelectionsTextures[] =
+           {
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\orca\22nd_Air_Helm_Snow_Co.paa",
+                "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+           };
+        };
     };
 
     class 22nd_VX19_Arid: 22nd_VX19_base
@@ -170,6 +194,14 @@ class CfgWeapons
         {
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\orca\22nd_Air_Helm_Arid_Co.paa",
             "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+        };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\orca\22nd_Air_Helm_Arid_Co.paa",
+                "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+            };
         };
     };
 
@@ -191,6 +223,14 @@ class CfgWeapons
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\hammerhead\22nd_Air_Helm_Urban_HMHD_Co.paa",
             "OPTRE_FC_Units\Marines\Data\h3_pilothelmet_visor_co.paa"
         };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\hammerhead\22nd_Air_Helm_Urban_HMHD_Co.paa",
+                "OPTRE_FC_Units\Marines\Data\h3_pilothelmet_visor_co.paa"
+            };
+        };
     };
 
 
@@ -211,6 +251,14 @@ class CfgWeapons
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\hammerhead\22nd_Air_Helm_Woodland_HMHD_Co.paa",
             "OPTRE_FC_Units\Marines\Data\h3_pilothelmet_visor_co.paa"
         };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\hammerhead\22nd_Air_Helm_Woodland_HMHD_Co.paa",
+                "OPTRE_FC_Units\Marines\Data\h3_pilothelmet_visor_co.paa"
+            };
+        };
     };
 
 
@@ -230,6 +278,14 @@ class CfgWeapons
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\hammerhead\22nd_Air_Helm_Snow_HMHD_Co.paa",
             "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa",
         };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\hammerhead\22nd_Air_Helm_Snow_HMHD_Co.paa",
+                "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa",
+            };
+        };
     };
 
 
@@ -248,6 +304,14 @@ class CfgWeapons
         {
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\hammerhead\22nd_Air_Helm_Arid_HMHD_Co.paa",
             "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa",
+        };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\hammerhead\22nd_Air_Helm_Arid_HMHD_Co.paa",
+                "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa",
+            };
         };
     };
 
@@ -271,6 +335,14 @@ class CfgWeapons
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\manta\22nd_Air_Helm_Manta_Urban_Co.paa",
             "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
         };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\manta\22nd_Air_Helm_Manta_Urban_Co.paa",
+                "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+            };
+        };
     };
 
     class 22nd_VX19_Manta_Woodland: 22nd_VX19_base
@@ -288,6 +360,14 @@ class CfgWeapons
         {
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\manta\22nd_Air_Helm_Manta_Woodland_Co.paa",
             "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+        };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\manta\22nd_Air_Helm_Manta_Woodland_Co.paa",
+                "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+            };
         };
     };
 
@@ -307,6 +387,14 @@ class CfgWeapons
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\manta\22nd_Air_Helm_Manta_Arid_Co.paa",
             "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
         };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\manta\22nd_Air_Helm_Manta_Arid_Co.paa",
+                "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+            };
+        };
     };
 
     class 22nd_VX19_Manta_Snow: 22nd_VX19_base
@@ -324,6 +412,14 @@ class CfgWeapons
         {
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\manta\22nd_Air_Helm_Manta_Snow_Co.paa",
             "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+        };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\manta\22nd_Air_Helm_Manta_Snow_Co.paa",
+                "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+            };
         };
     };
 
@@ -345,6 +441,14 @@ class CfgWeapons
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\cuban\22nd_Air_Helm_Cuban_Urban_Co.paa", 
             "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
         };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\cuban\22nd_Air_Helm_Cuban_Urban_Co.paa", 
+                "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+            };
+        };
     };
 
     class 22nd_VX19_Cuban_Woodland: 22nd_VX19_base
@@ -362,6 +466,14 @@ class CfgWeapons
         {
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\cuban\22nd_Air_Helm_Cuban_Woodland_Co.paa",
             "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+        };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\cuban\22nd_Air_Helm_Cuban_Woodland_Co.paa",
+                "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+            };
         };
     };
 
@@ -381,6 +493,14 @@ class CfgWeapons
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\cuban\22nd_Air_Helm_Cuban_Arid_Co.paa", 
             "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
         };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\cuban\22nd_Air_Helm_Cuban_Arid_Co.paa", 
+                "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+            };
+        };
     };
 
     class 22nd_VX19_Cuban_Snow: 22nd_VX19_base
@@ -396,8 +516,16 @@ class CfgWeapons
         };
         hiddenSelectionsTextures[] =
         {
-            "\z\22ndRDF\addons\uniforms\helmets\aviation\data\hammerhead\22nd_Air_Helm_Cuban_Snow_Co.paa",
+            "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\cuban\22nd_Air_Helm_Cuban_Snow_Co.paa", 
             "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+        };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\cuban\22nd_Air_Helm_Cuban_Snow_Co.paa",
+                "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+            };
         };
     };
     
@@ -419,6 +547,14 @@ class CfgWeapons
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\astro\22nd_Air_Helm_Astro_Urban_Co.paa", 
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\astro\h3_pilothelmet_visor_crack_co.paa"
         };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[] = 
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\astro\22nd_Air_Helm_Astro_Urban_Co.paa", 
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\astro\h3_pilothelmet_visor_crack_co.paa"
+            };
+        };
     };
 
     class 22nd_VX19_Astro_Woodland : 22nd_VX19_base
@@ -436,6 +572,14 @@ class CfgWeapons
         {
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\astro\22nd_Air_Helm_Astro_Woodland_Co.paa",
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\astro\h3_pilothelmet_visor_crack_co.paa"
+        };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\astro\22nd_Air_Helm_Astro_Woodland_Co.paa",
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\astro\h3_pilothelmet_visor_crack_co.paa"
+            };
         };
     };
 
@@ -455,6 +599,14 @@ class CfgWeapons
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\astro\22nd_Air_Helm_Astro_Arid_Co.paa",
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\astro\h3_pilothelmet_visor_crack_co.paa"
         };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\astro\22nd_Air_Helm_Astro_Arid_Co.paa",
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\astro\h3_pilothelmet_visor_crack_co.paa"
+            };
+        };
     };
 
     class 22nd_VX19_Astro_Snow : 22nd_VX19_base
@@ -472,6 +624,14 @@ class CfgWeapons
         {
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\astro\22nd_Air_Helm_Astro_Snow_Co.paa",
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\astro\h3_pilothelmet_visor_crack_co.paa"
+        };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\astro\22nd_Air_Helm_Astro_Snow_Co.paa",
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\astro\h3_pilothelmet_visor_crack_co.paa"
+            };
         };
     };
 
@@ -493,6 +653,14 @@ class CfgWeapons
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\evans\22nd_Air_Helm_Evans_Urban_Co.paa",
             "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
         };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\evans\22nd_Air_Helm_Evans_Urban_Co.paa",
+                "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+            };
+        };
     };
 
     class 22nd_VX19_Evans_Woodland : 22nd_VX19_base
@@ -510,6 +678,14 @@ class CfgWeapons
         {
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\evans\22nd_Air_Helm_Evans_Woodland_Co.paa",
             "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+        };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\evans\22nd_Air_Helm_Evans_Woodland_Co.paa",
+                "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+            };
         };
     };
 
@@ -529,6 +705,14 @@ class CfgWeapons
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\evans\22nd_Air_Helm_Evans_Arid_Co.paa",
             "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
         };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\evans\22nd_Air_Helm_Evans_Arid_Co.paa",
+                "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+            };
+        };
     };
 
     class 22nd_VX19_Evans_Snow : 22nd_VX19_base
@@ -546,6 +730,14 @@ class CfgWeapons
         {
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\evans\22nd_Air_Helm_Evans_Snow_Co.paa",
             "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+        };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\evans\22nd_Air_Helm_Evans_Snow_Co.paa",
+                "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+            };
         };
     };
     
@@ -567,6 +759,14 @@ class CfgWeapons
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\ras\22nd_Air_Helm_Ras_Urban_Co.paa",
             "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
         };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[] =  
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\ras\22nd_Air_Helm_Ras_Urban_Co.paa",
+                "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+            };
+        };
     };
 
     class 22nd_VX19_Ras_Woodland : 22nd_VX19_base
@@ -584,6 +784,14 @@ class CfgWeapons
         {
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\ras\22nd_Air_Helm_Ras_Woodland_Co.paa",
             "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+        };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\ras\22nd_Air_Helm_Ras_Woodland_Co.paa",
+                "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+            };
         };
     };
 
@@ -603,6 +811,14 @@ class CfgWeapons
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\ras\22nd_Air_Helm_Ras_Arid_Co.paa",
             "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
         };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\ras\22nd_Air_Helm_Ras_Arid_Co.paa",
+                "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+            };
+        };
     };
 
     class 22nd_VX19_Ras_Snow : 22nd_VX19_base
@@ -620,6 +836,14 @@ class CfgWeapons
         {
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\ras\22nd_Air_Helm_Ras_Snow_Co.paa",
             "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+        };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\ras\22nd_Air_Helm_Ras_Snow_Co.paa",
+                "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+            };
         };
     };
 };

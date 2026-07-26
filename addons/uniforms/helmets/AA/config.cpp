@@ -72,18 +72,24 @@ class CfgWeapons
         scope=0;
         scopeArsenal=0;
         displayName= "[22nd] Air Assault Urban";
-
         class XtdGearInfo
         {
             model = "22nd_AA_Helmet";
             Camouflage = "Urban";
             Variant = "Base";
         };
-
         hiddenSelectionsTextures[]=
         {
             "\z\22ndRDF\addons\uniforms\helmets\AA\data\base\22nd_AA_Helm_Urban_co.paa",
             "MA_Armor\data\Helmets\AA\AA_Visor_Blue_co.paa"
+        };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[]=
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\AA\data\base\22nd_AA_Helm_Urban_co.paa",
+                "MA_Armor\data\Helmets\AA\AA_Visor_Blue_co.paa"
+            };
         };
     };
 
@@ -103,6 +109,14 @@ class CfgWeapons
             "\z\22ndRDF\addons\uniforms\helmets\AA\data\base\22nd_AA_Helm_Snow_co.paa", 
             "MA_Armor\data\Helmets\AA\AA_Visor_Blue_co.paa"
         };
+         class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[]=
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\AA\data\base\22nd_AA_Helm_Snow_co.paa", 
+                "MA_Armor\data\Helmets\AA\AA_Visor_Blue_co.paa"
+            };
+        };
     };
 
     class 22nd_AA_Helmet_Woodland: 22nd_AA_base
@@ -120,6 +134,14 @@ class CfgWeapons
         {
             "\z\22ndRDF\addons\uniforms\helmets\AA\data\base\22nd_AA_Helm_Woodland_co.paa",
             "MA_Armor\data\Helmets\AA\AA_Visor_Blue_co.paa"
+        };
+         class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[]=
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\AA\data\base\22nd_AA_Helm_Woodland_co.paa",
+                "MA_Armor\data\Helmets\AA\AA_Visor_Blue_co.paa"
+            };
         };
     };
 
@@ -140,6 +162,14 @@ class CfgWeapons
         {
             "\z\22ndRDF\addons\uniforms\helmets\AA\data\customs\Hatty\22nd_Hatty_Helm_Custom_co.paa",
             "MA_Armor\data\Helmets\AA\AA_Visor_Blue_co.paa"
+        };
+         class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[]=
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\AA\data\customs\Hatty\22nd_Hatty_Helm_Custom_co.paa",
+                "MA_Armor\data\Helmets\AA\AA_Visor_Blue_co.paa"
+            };
         };
     };
 };

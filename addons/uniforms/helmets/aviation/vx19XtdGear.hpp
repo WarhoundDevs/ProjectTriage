@@ -90,7 +90,7 @@ class XtdGearModels
                 class Woodland
                 {
                     label = "Woodland";
-                    image = "#(rgb,8,8,3)color(0.15,0.18,0.11,1)";
+                    image = "#(rgb,8,8,3)color(0.15,0.14,0.11,1)";
                 };
 
                 class Arid

@@ -27,6 +27,7 @@ class CfgPatches
     };
 };
 
+
 // For customs remember to add a value under "variants"
 #include "commandoXtdGear.hpp"
 
@@ -68,7 +69,7 @@ class CfgWeapons
     };
 
     //Base
-    class 22nd_Commando_base_Urban: 22nd_helmet_commando_base
+    class 22nd_Commando_Helmet_Urban: 22nd_helmet_commando_base
     {
         scope=0;
         scopeArsenal=0;
@@ -84,9 +85,17 @@ class CfgWeapons
             "\z\22ndRDF\addons\uniforms\helmets\commando\data\base\22nd_Urban_Commando_Helm_co.paa", 
             "MA_Armor\data\Helmets\Commando\Visors\Base_Commando_Visor_CO.paa"
         };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[]=
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\commando\data\base\22nd_Urban_Commando_Helm_co.paa", 
+                "MA_Armor\data\Helmets\Commando\Visors\Base_Commando_Visor_CO.paa"
+            };
+        };
     };
 
-    class 22nd_Commando_base_Winter: 22nd_helmet_commando_base
+    class 22nd_Commando_Helmet_Winter: 22nd_helmet_commando_base
     {
         scope=0;
         scopeArsenal=0;
@@ -102,9 +111,17 @@ class CfgWeapons
             "\z\22ndRDF\addons\uniforms\helmets\commando\data\base\22nd_Winter_Commando_Helm_co.paa",  
             "MA_Armor\data\Helmets\Commando\Visors\Base_Commando_Visor_CO.paa"
         };
+         class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[]=
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\commando\data\base\22nd_Winter_Commando_Helm_co.paa",  
+                "MA_Armor\data\Helmets\Commando\Visors\Base_Commando_Visor_CO.paa"
+            };
+        };
     };
 
-    class 22nd_Commando_base_Woodland: 22nd_helmet_commando_base
+    class 22nd_Commando_Helmet_Woodland: 22nd_helmet_commando_base
     {
         scope=0;
         scopeArsenal=0;
@@ -119,6 +136,14 @@ class CfgWeapons
         {
             "\z\22ndRDF\addons\uniforms\helmets\commando\data\base\22nd_Woodland_Commando_Helm_co.paa",
             "MA_Armor\data\Helmets\Commando\Visors\Base_Commando_Visor_CO.paa"
+        };
+         class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[]=
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\commando\data\base\22nd_Woodland_Commando_Helm_co.paa",
+                "MA_Armor\data\Helmets\Commando\Visors\Base_Commando_Visor_CO.paa"
+            };
         };
     };
 
@@ -139,6 +164,14 @@ class CfgWeapons
         {
             "\z\22ndRDF\addons\uniforms\helmets\commando\data\customs\hatty\22nd_Commando_Custom_Test_Helm_co.paa",
             "MA_Armor\data\Helmets\Commando\Visors\Base_Commando_Visor_CO.paa"
+        };
+        class itemInfo: itemInfo
+        {
+            hiddenSelectionsTextures[]=
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\commando\data\customs\hatty\22nd_Commando_Custom_Test_Helm_co.paa",
+                "MA_Armor\data\Helmets\Commando\Visors\Base_Commando_Visor_CO.paa"
+            };
         };
     };
 };

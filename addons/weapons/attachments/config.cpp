@@ -24,22 +24,14 @@ class CfgPatches
     };
 };
 
-class OPTRE_MA37_Smartlink_Scope
-{
-
-	class ItemInfo
-	{
-			class MA37_Irons;
-			class MA37_Sight;
-	};
-
-};
 
 class CfgWeapons
 {
-	
-	
-	class 22nd_MA37_Smartlink_Scope: OPTRE_MA37_Smartlink_Scope
+	class optic_Aco;
+	class InventoryOpticsItem_Base_F;
+
+
+	class 22nd_MA37_Smartlink_Scope: optic_Aco
 	{
 		dlc="";
 		author="22nd Mod Team";
@@ -47,14 +39,14 @@ class CfgWeapons
 		descriptionShort="1-4x Smart Linked Scope";
 		model="OPTRE_Weapons\AR\MA37_2x_Scope.p3d";
 		inertia=0.1;
-		class ItemInfo: ItemInfo
+		class ItemInfo: InventoryOpticsItem_Base_F
 		{
 			mass=4;
 			modelOptics="\A3\Weapons_F\empty";
 			optics=1;
 			class OpticsModes
 			{
-				class 22nd_MA37_Irons: MA37_Irons 
+				class 22nd_MA37_Irons 
 				{
 					opticsID=2;
 					useModelOptics=0;
@@ -74,11 +66,11 @@ class CfgWeapons
 					discreteDistance[]={100,200,300,400,500,600};
 					discreteDistanceInitIndex=0;
 				};
-				class 22nd_MA37_Sight: MA37_Sight
+				class 22nd_MA37_Sight
 				{
 					opticsID=1;
 					useModelOptics=1;
-					modelOptics[] = {"\OPTRE_Weapons\BR\BR_Optic_2x","\OPTRE_Weapons\BR\BR_Optic_4x"};
+					modelOptics[] = {"\OPTRE_Weapons\BR\BR_Optic_2x.p3d","\OPTRE_Weapons\BR\BR_Optic_4x.p3d"};
 					opticsPPEffects[]=
 					{
 						"OpticsCHAbera2",

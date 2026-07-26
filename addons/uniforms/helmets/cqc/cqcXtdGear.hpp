@@ -5,9 +5,10 @@ class XtdGearModels
 {
     class CfgWeapons
     {
-        class 22nd_CH252C{
+       class 22nd_CQC_Helmet
+       {
 
-            label = "ECH252-AC";
+            label = "22nd CQC Helmet";
 
             options[] =
             {
@@ -23,7 +24,6 @@ class XtdGearModels
                 {
                     "Urban",
                     "Woodland",
-                    "Arid",
                     "Winter"
                 };
 
@@ -37,16 +37,12 @@ class XtdGearModels
                     label = "Woodland";
                 };
 
-                class Arid
-                {
-                    label = "Arid";
-                };
-
                 class Snow
                 {
                     label = "Winter";
                 };
             };
+
             class Variant
             {
                 label = "Variant";
@@ -54,19 +50,16 @@ class XtdGearModels
                 values[] =
                 {
                     "Base",
-                    "German",
-                    "Lamb"
+                    "Test"
                 };
 
-                class German
+                class Test
                 {
-                    label = "German";
-                };
-                class Lamb
-                {
-                    label = "Lamb";
+                    label = "Test";
                 };
             };
-        };
+       };
     };
 };
+       
+       
