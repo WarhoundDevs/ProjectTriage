@@ -1,9 +1,9 @@
+115||115||12||20||notice||`isKindof` does not match the wiki's case||non-standard command case||/addons/units/units/data/Functions/fn_PelicanLoadValidate.sqf
 34||34||60||61||notice||Unneeded Not||unneeded not||/addons/units/units/data/Functions/fn_PelicanUnLoadValidate.sqf
 39||39||156||161||notice||`Sleep` does not match the wiki's case||non-standard command case||/addons/units/units/data/Functions/fn_PelicanUnLoadValidate.sqf
 54||54||10||17||notice||`daytime` does not match the wiki's case||non-standard command case||/addons/units/units/data/Functions/fn_PelicanUnLoadValidate.sqf
 54||54||30||37||notice||`daytime` does not match the wiki's case||non-standard command case||/addons/units/units/data/Functions/fn_PelicanUnLoadValidate.sqf
 65||65||156||161||notice||`Sleep` does not match the wiki's case||non-standard command case||/addons/units/units/data/Functions/fn_PelicanUnLoadValidate.sqf
-115||115||12||20||notice||`isKindof` does not match the wiki's case||non-standard command case||/addons/units/units/data/Functions/fn_PelicanLoadValidate.sqf
 37||37||13||40||warning||CfgPatches units[] class `22nd_armouraridvar3_light` not found||not defined in CfgVehicles||/addons/uniforms/armour/config.cpp
 38||38||13||41||warning||CfgPatches units[] class `22nd_armouraridvar3_medium` not found||not defined in CfgVehicles||/addons/uniforms/armour/config.cpp
 39||39||13||40||warning||CfgPatches units[] class `22nd_armouraridvar3_heavy` not found||not defined in CfgVehicles||/addons/uniforms/armour/config.cpp
@@ -24,3 +24,5 @@
 23||23||13||43||warning||CfgPatches weapons[] class `22nd_helmcustom_manta_winter` not found||not defined in CfgWeapons||/addons/uniforms/helmets/aviation/config.cpp
 438||438||14||105||warning||File Missing||missing||/addons/uniforms/helmets/aviation/config.cpp
 16||16||2||35||warning||CfgPatches units[] class `warhound_bayonet_stealth_orca_3` not found||not defined in CfgVehicles||/addons/units/units/zeus.hpp
+81||81||24||53||warning||a property that references a file is missing a file extension||missing file extension||/addons/weapons/attachments/config.cpp
+81||81||56||85||warning||a property that references a file is missing a file extension||missing file extension||/addons/weapons/attachments/config.cpp
