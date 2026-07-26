@@ -10,13 +10,11 @@
 /.hemttout/build/addons/22ndRDF_uniforms.pbo
 /.hemttout/build/addons/22ndRDF_units.pbo
 /.hemttout/build/addons/22ndRDF_weapons.pbo
-/.hemttout/ci_annotations.txt
-/.hemttout/last_build.hsb
 /.hemttout/latest.log
-/.hemttout/unused_external_classes.txt
-/.hemttout
 /.vs
 *.hemttprivatekey
 *.biprivatekey
 /.hemtt/presets/Warhound.html
 /.hemtt/missions/test.VR/mission.sqm
+.hemttout/
+

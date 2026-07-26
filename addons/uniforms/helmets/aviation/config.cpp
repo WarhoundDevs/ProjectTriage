@@ -62,7 +62,6 @@ class CfgPatches
 
 class OPTRE_FC_VX19_Helmet
 {
-	// picture="\OPTRE_FC_Units\Marines\data\h3_pilothelmet_i_ca.paa";
 	class ItemInfo;
 };
 
@@ -81,7 +80,7 @@ class CfgWeapons
         author = "Warhound Mod Team + OPTRE FC";
         displayName = "[22nd] VX-19 Urban";
         model = "\OPTRE_FC_Units\Marines\h3_pilothelmet.p3d";
-        picture = "\z\22ndRDF\addons\uniforms\helmets\22ndRDF.paa";
+        picture="\OPTRE_FC_Units\Marines\data\h3_pilothelmet_i_ca.paa";
         class ItemInfo : ItemInfo
 		{
 			mass = 40;
