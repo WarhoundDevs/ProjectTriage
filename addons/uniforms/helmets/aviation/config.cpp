@@ -18,34 +18,34 @@ class CfgPatches
             "22nd_VX19_Arid_HMHD",
 
 
-            "22nd_HelmCustom_Manta_Urban",
-            "22nd_HelmCustom_Manta_Woodland",
-            "22nd_HelmCustom_Manta_Winter",
-            "22nd_HelmCustom_Manta_Arid",
+            "22nd_VX19_Manta_Urban",
+            "22nd_VX19_Manta_Woodland",
+            "22nd_VX19_Manta_Winter",
+            "22nd_VX19_Manta_Arid",
 
 
-            "22nd_HelmCustom_Cuban_Urban",
-            "22nd_HelmCustom_Cuban_Woodland",
-            "22nd_HelmCustom_Cuban_Arid",
-            "22nd_HelmCustom_Cuban_Snow",
+            "22nd_VX19_Cuban_Urban",
+            "22nd_VX19_Cuban_Woodland",
+            "22nd_VX19_Cuban_Arid",
+            "22nd_VX19_Cuban_Snow",
 
 
-            "22nd_HelmCustom_Astro_Urban",
-            "22nd_HelmCustom_Astro_Woodland",
-            "22nd_HelmCustom_Astro_Arid",
-            "22nd_HelmCustom_Astro_Snow",
+            "22nd_VX19_Astro_Urban",
+            "22nd_VX19_Astro_Woodland",
+            "22nd_VX19_Astro_Arid",
+            "22nd_VX19_Astro_Snow",
 
 
-            "22nd_HelmCustom_Evans_Urban",
-            "22nd_HelmCustom_Evans_Woodland",
-            "22nd_HelmCustom_Evans_Arid",
-            "22nd_HelmCustom_Evans_Snow",
+            "22nd_VX19_Evans_Urban",
+            "22nd_VX19_Evans_Woodland",
+            "22nd_VX19_Evans_Arid",
+            "22nd_VX19_Evans_Snow",
 
 
-            "22nd_HelmCustom_Ras_Urban",
-            "22nd_HelmCustom_Ras_Woodland",
-            "22nd_HelmCustom_Ras_Arid",
-            "22nd_HelmCustom_Ras_Snow"
+            "22nd_VX19_Ras_Urban",
+            "22nd_VX19_Ras_Woodland",
+            "22nd_VX19_Ras_Arid",
+            "22nd_VX19_Ras_Snow"
         };
         requiredVersion = 1.0;
         requiredAddons[] = 
@@ -255,7 +255,7 @@ class CfgWeapons
 
 
     //Manta
-    class 22nd_HelmCustom_Manta_Urban: 22nd_VX19_base
+    class 22nd_VX19_Manta_Urban: 22nd_VX19_base
     {
         displayName = "[22nd] VX-19 Manta (Urban)";
         scope=2;
@@ -273,7 +273,7 @@ class CfgWeapons
         };
     };
 
-    class 22nd_HelmCustom_Manta_Woodland: 22nd_VX19_base
+    class 22nd_VX19_Manta_Woodland: 22nd_VX19_base
     {
         scope=2;
         scopeArsenal=2;
@@ -291,7 +291,7 @@ class CfgWeapons
         };
     };
 
-    class 22nd_HelmCustom_Manta_Arid: 22nd_VX19_base
+    class 22nd_VX19_Manta_Arid: 22nd_VX19_base
     {
         displayName = "[22nd] VX-19 Manta (Arid)";
         scope=2;
@@ -309,7 +309,7 @@ class CfgWeapons
         };
     };
 
-    class 22nd_HelmCustom_Manta_Snow: 22nd_VX19_base
+    class 22nd_VX19_Manta_Snow: 22nd_VX19_base
     {
         displayName = "[22nd] VX-19 Manta (Snow)";
         scope=2;
@@ -329,7 +329,7 @@ class CfgWeapons
 
 
     //Cuban
-    class 22nd_HelmCustom_Cuban_Urban: 22nd_VX19_base
+    class 22nd_VX19_Cuban_Urban: 22nd_VX19_base
     {
         displayName = "[22nd] VX-19 Cuban (Urban)";
         scope=2;
@@ -347,7 +347,7 @@ class CfgWeapons
         };
     };
 
-    class 22nd_HelmCustom_Cuban_Woodland: 22nd_VX19_base
+    class 22nd_VX19_Cuban_Woodland: 22nd_VX19_base
     {
         displayName = "[22nd] VX-19 Cuban (Woodland)";
         scope=2;
@@ -365,7 +365,7 @@ class CfgWeapons
         };
     };
 
-    class 22nd_HelmCustom_Cuban_Arid: 22nd_VX19_base
+    class 22nd_VX19_Cuban_Arid: 22nd_VX19_base
     {
         displayName = "[22nd] VX-19 Cuban (Arid)";
         scope=2;
@@ -383,7 +383,7 @@ class CfgWeapons
         };
     };
 
-    class 22nd_HelmCustom_Cuban_Snow: 22nd_VX19_base
+    class 22nd_VX19_Cuban_Snow: 22nd_VX19_base
     {
         displayName = "[22nd] VX-19 Cuban (Snow)";
         scope=2;
@@ -403,7 +403,7 @@ class CfgWeapons
     
 
     //Astro
-    class 22nd_HelmCustom_Astro_Urban: 22nd_VX19_base
+    class 22nd_VX19_Astro_Urban: 22nd_VX19_base
     {
         displayName = "[22nd] VX-19 Astro (Urban)";
         scope=2;
@@ -421,7 +421,7 @@ class CfgWeapons
         };
     };
 
-    class 22nd_HelmCustom_Astro_Woodland : 22nd_VX19_base
+    class 22nd_VX19_Astro_Woodland : 22nd_VX19_base
     {
         displayName = "[22nd] VX-19 Astro (Woodland)";
         scope=2;
@@ -439,7 +439,7 @@ class CfgWeapons
         };
     };
 
-    class 22nd_HelmCustom_Astro_Arid : 22nd_VX19_base
+    class 22nd_VX19_Astro_Arid : 22nd_VX19_base
     {
         displayName = "[22nd] VX-19 Astro (Arid)";
         scope=2;
@@ -457,7 +457,7 @@ class CfgWeapons
         };
     };
 
-    class 22nd_HelmCustom_Astro_Snow : 22nd_VX19_base
+    class 22nd_VX19_Astro_Snow : 22nd_VX19_base
     {
         displayName = "[22nd] VX-19 Astro (Snow)";
         scope=2;
@@ -477,7 +477,7 @@ class CfgWeapons
 
 
     //Evans
-    class 22nd_HelmCustom_Evans_Urban : 22nd_VX19_base
+    class 22nd_VX19_Evans_Urban : 22nd_VX19_base
     {
         displayName = "[22nd] VX-19 Evans (Urban)";
         scope=2;
@@ -495,7 +495,7 @@ class CfgWeapons
         };
     };
 
-    class 22nd_HelmCustom_Evans_Woodland : 22nd_VX19_base
+    class 22nd_VX19_Evans_Woodland : 22nd_VX19_base
     {
         displayName = "[22nd] VX-19 Evans (Woodland)";
         scope=2;
@@ -513,7 +513,7 @@ class CfgWeapons
         };
     };
 
-    class 22nd_HelmCustom_Evans_Arid : 22nd_VX19_base
+    class 22nd_VX19_Evans_Arid : 22nd_VX19_base
     {
         displayName = "[22nd] VX-19 Evans (Arid)";
         scope=2;
@@ -531,7 +531,7 @@ class CfgWeapons
         };
     };
 
-    class 22nd_HelmCustom_Evans_Snow : 22nd_VX19_base
+    class 22nd_VX19_Evans_Snow : 22nd_VX19_base
     {
         displayName = "[22nd] VX-19 Evans (Snow)";
         scope=2;
@@ -551,7 +551,7 @@ class CfgWeapons
     
 
     //Ras
-    class 22nd_HelmCustom_Ras_Urban : 22nd_VX19_base
+    class 22nd_VX19_Ras_Urban : 22nd_VX19_base
     {
         displayName = "[22nd] VX-19 Ras (Urban)";
         scope=2;
@@ -569,7 +569,7 @@ class CfgWeapons
         };
     };
 
-    class 22nd_HelmCustom_Ras_Woodland : 22nd_VX19_base
+    class 22nd_VX19_Ras_Woodland : 22nd_VX19_base
     {
         displayName = "[22nd] VX-19 Ras (Woodland)";
         scope=2;
@@ -587,7 +587,7 @@ class CfgWeapons
         };
     };
 
-    class 22nd_HelmCustom_Ras_Arid : 22nd_VX19_base
+    class 22nd_VX19_Ras_Arid : 22nd_VX19_base
     {
         displayName = "[22nd] VX-19 Ras (Arid)";
         scope=2;
@@ -605,7 +605,7 @@ class CfgWeapons
         };
     };
 
-    class 22nd_HelmCustom_Ras_Snow : 22nd_VX19_base
+    class 22nd_VX19_Ras_Snow : 22nd_VX19_base
     {
         displayName = "[22nd] VX-19 Ras (Snow)";
         scope=2;
