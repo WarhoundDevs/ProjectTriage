@@ -117,14 +117,6 @@ class CfgWeapons
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\orca\22nd_Air_Helm_Urban_Co.paa",
             "OPTRE_FC_Units\Marines\Data\h3_pilothelmet_visor_co.paa"
         };
-  //       class ItemInfo : ItemInfo
-		// {
-		// 	hiddenSelectionsTextures[]=
-		// 	{
-		// 		  "\z\22ndRDF\addons\uniforms\helmets\aviation\data\orca\22nd_Air_Helm_Urban_Co.paa",
-  //                 "OPTRE_FC_Units\Marines\Data\h3_pilothelmet_visor_co.paa"
-		// 	};
-		// };
     };
 
     class 22nd_VX19_Woodland: 22nd_VX19_base
@@ -161,14 +153,6 @@ class CfgWeapons
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\orca\22nd_Air_Helm_Snow_Co.paa",
             "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
         };
-        class ItemInfo : ItemInfo
-		{
-		    hiddenSelectionsTextures[] =
-            {
-                "addons\\z\22ndRDF\addons\uniforms\helmets\aviation\data\orca\22nd_Air_Helm_Snow_Co.paa",
-                "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
-            };
-		};
     };
 
     class 22nd_VX19_Arid: 22nd_VX19_base
@@ -188,14 +172,6 @@ class CfgWeapons
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\orca\22nd_Air_Helm_Arid_Co.paa",
             "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
         };
-        class ItemInfo : ItemInfo
-		{
-		    hiddenSelectionsTextures[] =
-            {
-                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\orca\22nd_Air_Helm_Arid_Co.paa",
-                "optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
-            };
-		};
     };
 
     //HAMMERHEAD
@@ -216,14 +192,6 @@ class CfgWeapons
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\hammerhead\22nd_Air_Helm_Urban_HMHD_Co.paa",
             "OPTRE_FC_Units\Marines\Data\h3_pilothelmet_visor_co.paa"
         };
-        class ItemInfo : ItemInfo
-		{
-		    hiddenSelectionsTextures[] =
-            {
-                 "\z\22ndRDF\addons\uniforms\helmets\aviation\data\hammerhead\22nd_Air_Helm_Urban_HMHD_Co.paa",
-                 "OPTRE_FC_Units\Marines\Data\h3_pilothelmet_visor_co.paa"
-            };
-		};
     };
 
 
@@ -244,14 +212,6 @@ class CfgWeapons
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\hammerhead\22nd_Air_Helm_Woodland_HMHD_Co.paa",
             "OPTRE_FC_Units\Marines\Data\h3_pilothelmet_visor_co.paa"
         };
-        class ItemInfo : ItemInfo
-		{
-		    hiddenSelectionsTextures[] =
-            {
-                "\z\22ndRDF\addons\uniforms\helmets\aviation\data\hammerhead\22nd_Air_Helm_Woodland_HMHD_Co.paa",
-                "OPTRE_FC_Units\Marines\Data\h3_pilothelmet_visor_co.paa"
-            };
-		};
     };
 
 
@@ -545,11 +505,6 @@ class CfgWeapons
             Camouflage = "Woodland";
             Variant = "Evans";
         };
-        hiddenSelections[]=
-		{
-			"camo",
-			"camo2"
-		};
         hiddenSelectionsTextures[] =
         {
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\evans\22nd_Air_Helm_Evans_Woodland_Co.paa",
@@ -568,11 +523,6 @@ class CfgWeapons
             Camouflage = "Arid";
             Variant = "Evans";
         };
-        hiddenSelections[]=
-		{
-			"camo",
-			"camo2"
-		};
         hiddenSelectionsTextures[] =
         {
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\evans\22nd_Air_Helm_Evans_Arid_Co.paa",
@@ -591,11 +541,6 @@ class CfgWeapons
             Camouflage = "Winter";
             Variant = "Evans";
         };
-        hiddenSelections[]=
-		{
-			"camo",
-			"camo2"
-		};
         hiddenSelectionsTextures[] =
         {
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\evans\22nd_Air_Helm_Evans_Snow_Co.paa",
@@ -634,11 +579,6 @@ class CfgWeapons
             Camouflage = "Woodland";
             Variant = "Ras";
         };
-        hiddenSelections[]=
-		{
-			"camo",
-			"camo2"
-		};
         hiddenSelectionsTextures[] =
         {
             "\z\22ndRDF\addons\uniforms\helmets\aviation\data\customs\ras\22nd_Air_Helm_Ras_Woodland_Co.paa",
