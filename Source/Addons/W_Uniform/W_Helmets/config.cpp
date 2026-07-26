@@ -25,9 +25,7 @@ class CfgPatches {
             "22nd_VX19_Winter_HMHD",
             //Crewman
             "W_CH252C_Helmet_Base",
-            "W_CH252C_Helmet_Urban",
             "W_CH252C_Helmet_Snow",
-            "W_CH252C_Helmet_Arid",
             "W_CH252C_Helmet_Woodland",
             //EOD
             "W_EOD_Helmet_Woodland",
@@ -98,14 +96,12 @@ class CfgPatches {
             "22nd_VX19_Arid_Ras",
             "22nd_VX19_Winter_Ras",
             //Custom Crewman
-            "22nd_CH252C_German_Urban",
             "22nd_CH252C_German_Woodland",
-            "22nd_CH252C_German_Arid",
             "22nd_CH252C_German_Winter",
-            "22nd_CH252C_Lamb_Urban",
             "22nd_CH252C_Lamb_Woodland",
-            "22nd_CH252C_Lamb_Arid",
             "22nd_CH252C_Lamb_Winter",
+            "22nd_CH252C_Enigmous_Woodland",
+            "22nd_CH252C_Enigmous_Winter",
             //Custom EOD
             "22nd_EOD_Custom_Yogi",
             //Custom AA
@@ -428,25 +424,13 @@ class XtdGearModels
 
                 values[] =
                 {
-                    "Urban",
                     "Woodland",
-                    "Arid",
                     "Winter"
-                };
-
-                class Urban
-                {
-                    label = "Urban";
                 };
 
                 class Woodland
                 {
                     label = "Woodland";
-                };
-
-                class Arid
-                {
-                    label = "Arid";
                 };
 
                 class Snow
@@ -462,7 +446,8 @@ class XtdGearModels
                 {
                     "Base",
                     "German",
-                    "Lamb"
+                    "Lamb",
+                    "Enigmous"
                 };
 
                 class German
@@ -472,6 +457,11 @@ class XtdGearModels
                 class Lamb
                 {
                     label = "Lamb";
+                };
+
+                class Enigmous
+                {
+                    label = "Enigmous";
                 };
             };
         };

@@ -35,27 +35,7 @@ class W_CH252C_Helmet_Base: VES_CH252_URB_Crew
 	}
 };
 
-    class W_CH252C_Helmet_Urban : W_CH252C_Helmet_Base
-    {
-        scope=2;
-        scopeArsenal=2;
-        author= "Astro";
-        displayName= "[22nd] CH252C Urban";
-        picture = "\W_Uniform\W_Helmets\22ndRDF.paa";
-
-        class XtdGearInfo
-        {
-            model = "W_CH252C_Helmet";
-            Camouflage = "Urban";
-            Variant = "Base";
-        };
-
-        hiddenSelectionsTextures[]=
-        {
-            "\W_Uniform\W_Helmets\Crewman\crewmanurbancamo.paa"
-        };
-    };
-    class W_CH252C_Helmet_Snow : W_CH252C_Helmet_Urban{
+    class W_CH252C_Helmet_Snow : W_CH252C_Helmet_Base{
         scope=2;
         scopeArsenal=2;
         author= "Astro";
@@ -74,26 +54,7 @@ class W_CH252C_Helmet_Base: VES_CH252_URB_Crew
             "\W_Uniform\W_Helmets\Crewman\crewmansnowcamo.paa"
         };
     };
-    class W_CH252C_Helmet_Arid : W_CH252C_Helmet_Urban{
-        scope=2;
-        scopeArsenal=2;
-        author= "Astro";
-        displayName= "[22nd] CH252C Arid";
-        picture = "\W_Uniform\W_Helmets\22ndRDF.paa";
-
-        class XtdGearInfo
-        {
-            model = "W_CH252C_Helmet";
-            Camouflage = "Arid";
-            Variant = "Base";
-        };
-
-        hiddenSelectionsTextures[]=
-        {
-            "\W_Uniform\W_Helmets\Crewman\crewmanaridcamo.paa"
-        };
-    };
-    class W_CH252C_Helmet_Woodland : W_CH252C_Helmet_Urban{
+    class W_CH252C_Helmet_Woodland : W_CH252C_Helmet_Base{
         scope=2;
         scopeArsenal=2;
         author= "Astro";
@@ -114,27 +75,7 @@ class W_CH252C_Helmet_Base: VES_CH252_URB_Crew
     };
     //End Base
     //Start German Custom
-    class 22nd_CH252C_German_Urban : W_CH252C_Helmet_Base
-    {
-        scope=2;
-        scopeArsenal=2;
-        author= "Astro";
-        displayName= "[22nd] CH252C Urban";
-        picture = "\W_Uniform\W_Helmets\22ndRDF.paa";
-
-        class XtdGearInfo
-        {
-            model = "W_CH252C_Helmet";
-            Camouflage = "Urban";
-            Variant = "German";
-        };
-
-        hiddenSelectionsTextures[]=
-        {
-            "\W_Uniform\W_Helmets\Customs\Crewman\German\22nd_German_crewmanurbancamo.paa"
-        };
-    };
-    class 22nd_CH252C_German_Winter : W_CH252C_Helmet_Urban{
+    class 22nd_CH252C_German_Winter : W_CH252C_Helmet_Base{
         scope=2;
         scopeArsenal=2;
         author= "Astro";
@@ -153,26 +94,7 @@ class W_CH252C_Helmet_Base: VES_CH252_URB_Crew
             "\W_Uniform\W_Helmets\Customs\Crewman\German\22nd_German_crewmansnowcamo.paa"
         };
     };
-    class 22nd_CH252C_German_Arid : W_CH252C_Helmet_Urban{
-        scope=2;
-        scopeArsenal=2;
-        author= "Astro";
-        displayName= "[22nd] CH252C Arid";
-        picture = "\W_Uniform\W_Helmets\22ndRDF.paa";
-
-        class XtdGearInfo
-        {
-            model = "W_CH252C_Helmet";
-            Camouflage = "Arid";
-            Variant = "German";
-        };
-
-        hiddenSelectionsTextures[]=
-        {
-            "\W_Uniform\W_Helmets\Customs\Crewman\German\22nd_German_crewmanaridcamo.paa"
-        };
-    };
-    class 22nd_CH252C_German_Woodland : W_CH252C_Helmet_Urban{
+    class 22nd_CH252C_German_Woodland : W_CH252C_Helmet_Base{
         scope=2;
         scopeArsenal=2;
         author= "Astro";
@@ -193,27 +115,7 @@ class W_CH252C_Helmet_Base: VES_CH252_URB_Crew
     };
     //End German Custom
     //Start Lamb Custom
-    class 22nd_CH252C_Lamb_Urban : W_CH252C_Helmet_Base
-    {
-        scope=2;
-        scopeArsenal=2;
-        author= "Astro";
-        displayName= "[22nd] CH252C Urban";
-        picture = "\W_Uniform\W_Helmets\22ndRDF.paa";
-
-        class XtdGearInfo
-        {
-            model = "W_CH252C_Helmet";
-            Camouflage = "Urban";
-            Variant = "Lamb";
-        };
-
-        hiddenSelectionsTextures[]=
-        {
-            "\W_Uniform\W_Helmets\Customs\Crewman\Lamb\22nd_Lamb_crewmanurbancamo.paa"
-        };
-    };
-    class 22nd_CH252C_Lamb_Winter : W_CH252C_Helmet_Urban{
+    class 22nd_CH252C_Lamb_Winter : W_CH252C_Helmet_Base{
         scope=2;
         scopeArsenal=2;
         author= "Astro";
@@ -232,26 +134,7 @@ class W_CH252C_Helmet_Base: VES_CH252_URB_Crew
             "\W_Uniform\W_Helmets\Customs\Crewman\Lamb\22nd_Lamb_crewmansnowcamo.paa"
         };
     };
-    class 22nd_CH252C_Lamb_Arid : W_CH252C_Helmet_Urban{
-        scope=2;
-        scopeArsenal=2;
-        author= "Astro";
-        displayName= "[22nd] CH252C Arid";
-        picture = "\W_Uniform\W_Helmets\22ndRDF.paa";
-
-        class XtdGearInfo
-        {
-            model = "W_CH252C_Helmet";
-            Camouflage = "Arid";
-            Variant = "Lamb";
-        };
-
-        hiddenSelectionsTextures[]=
-        {
-            "\W_Uniform\W_Helmets\Customs\Crewman\Lamb\22nd_Lamb_crewmanaridcamo.paa"
-        };
-    };
-    class 22nd_CH252C_Lamb_Woodland : W_CH252C_Helmet_Urban{
+    class 22nd_CH252C_Lamb_Woodland : W_CH252C_Helmet_Base{
         scope=2;
         scopeArsenal=2;
         author= "Astro";
@@ -270,3 +153,44 @@ class W_CH252C_Helmet_Base: VES_CH252_URB_Crew
             "\W_Uniform\W_Helmets\Customs\Crewman\Lamb\22nd_Lamb_crewmanwdlndcamo.paa"
         };
     };
+    //End Lamb Custom
+    //Start Enigmous Custom
+    class 22nd_CH252C_Enigmous_Winter : W_CH252C_Helmet_Base{
+        scope=2;
+        scopeArsenal=2;
+        author= "Astro";
+        displayName= "[22nd] CH252C Snow";
+        picture = "\W_Uniform\W_Helmets\22ndRDF.paa";
+
+        class XtdGearInfo
+        {
+            model = "W_CH252C_Helmet";
+            Camouflage = "Winter";
+            Variant = "Enigmous";
+        };
+
+        hiddenSelectionsTextures[]=
+        {
+            "\W_Uniform\W_Helmets\Customs\Crewman\Enigmous\22nd_Enigmous_crewmansnowcamo.paa"
+        };
+    };
+    class 22nd_CH252C_Enigmous_Woodland : W_CH252C_Helmet_Base{
+        scope=2;
+        scopeArsenal=2;
+        author= "Astro";
+        displayName= "[22nd] CH252C Woodland";
+        picture = "\W_Uniform\W_Helmets\22ndRDF.paa";
+
+        class XtdGearInfo
+        {
+            model = "W_CH252C_Helmet";
+            Camouflage = "Woodland";
+            Variant = "Enigmous";
+        };
+
+        hiddenSelectionsTextures[]=
+        {
+            "\W_Uniform\W_Helmets\Customs\Crewman\Enigmous\22nd_Enigmous_crewmanwdlndcamo.paa"
+        };
+    };
+    //End Enigmous Custom
