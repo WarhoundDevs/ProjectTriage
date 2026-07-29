@@ -126,7 +126,18 @@ class XtdGearModels
                     "Alloy",
                     "Bay",
                     "Bee",
-                    "Darling"
+                    "Darling",
+                    "Ferret",
+                    "Grims",
+                    "Harper",
+                    "Hoodie",
+                    "Jacks",
+                    "Kulyk",
+                    "Relic",
+                    "Rivera",
+                    "Sue",
+                    "Yar",
+                    "Zoey",
  
                 };
 
@@ -140,7 +151,7 @@ class XtdGearModels
                 class Bay
                 {
                     label = "Bay";
-                    image="#(rgb,8,8,3)color(0.1,0.1,0.1,0.7)";
+                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
                 };
                 class Bee
                 {
@@ -150,49 +161,66 @@ class XtdGearModels
                 class Darling
                 {
                     label = "Darling";
-                    image="#(rgb,8,8,3)color(0.1,0.1,0.1,0.7)";
+                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
                 };
-                // class Grims
-                // {
-                //     label = "Grims";
-                // };
-                // class Harper
-                // {
-                //     label = "Harper";
-                // };
-                // class Jacks
-                // {
-                //     label = "Jacks";
-                // };
-                // class Perse
-                // {
-                //     label = "Perse";
-                // };
-                // class Relic
-                // {
-                //     label = "Relic";
-                // };
-                // class Sue
-                // {
-                //     label = "Sue";
-                // };
-                // class Hoodie
-                // {
-                //     label = "Hoodie";
-                // };
-                // class Zoey
-                // {
-                //     label = "Zoey";
-                // };
-                // class Yar
-                // {
-                //     label = "Yar";
-                // };
+                class Ferret
+                {
+                    label = "Ferret";
+                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+                };
+                class Grims
+                {
+                    label = "Grims";
+                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+                };
+                class Harper
+                {
+                    label = "Harper";
+                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+                };
+                class Hoodie
+                {
+                    label = "Hoodie";
+                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+                };
+                class Jacks
+                {
+                    label = "Jacks";
+                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+                };
+                class Kulyk
+                {
+                    label = "Kulyk";
+                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+                };
+                class Relic
+                {
+                    label = "Relic";
+                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+                };
+                class Rivera
+                {
+                    label = "Rivera";
+                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+                };
+                class Sue
+                {
+                    label = "Sue";
+                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+                };
+                class Yar
+                {
+                    label = "Yar";
+                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+                };
+                class Zoey
+                {
+                    label = "Zoey";
+                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+                };
+                
                
-                // class Ferret
-                // {
-                //     label = "Ferret";
-                // };
+                
             };
             class Camouflage
             {
