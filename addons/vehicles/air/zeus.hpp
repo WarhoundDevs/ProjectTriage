@@ -1,0 +1,21 @@
+units[]=
+{
+	// "Warhound_Bayonet_Orca_Default",
+	// "Warhound_Bayonet_Orca_Stealth",
+	// "Warhound_Bayonet_Orca_3",
+	// "Warhound_Bayonet_Stealth_Orca_3",
+	// "Warhound_Bayonet_Orca_4",
+	// "Warhound_Sparrowhawk_30mm",
+	// "Warhound_Sparrowhawk_50mm",
+	// "22nd_144_Falcon_Orca_5",
+	// "22nd_144_Falcon_Armed",
+	// "22nd_144_Falcon_Unarmed",
+	// "22nd_144S_Falcon_Armed",
+	// "22nd_144S_Falcon_Unarmed",
+	// "22nd_144AGL_Falcon",
+	// "22nd_Hornet",
+	"Warhound_Pelican_AF",
+	"Warhound_Pelican_AF_Single_Seater",
+	"Warhound_Pelican_AF_SOCOM",
+	"Warhound_Pelican_AF_Gunship"
+};
