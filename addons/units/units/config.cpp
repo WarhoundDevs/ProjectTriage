@@ -7,6 +7,24 @@ class CfgPatches
 	};
 };
 
+
+class CfgFunctions // Loading of appropriate scripts.
+{
+	class V_FZ
+	{
+		class PelicanMagLiftSystem
+		{
+			file="\22nd_units\units\data\Functions";
+			class PelicanLoadValidate
+			{
+			};
+			class PelicanUnLoadValidate
+			{
+			};
+		};
+	};
+};
+
 class CfgEditorCategories
 {
 	class 22nd_Warhound_Company // Editor Category
@@ -71,27 +89,4 @@ class CfgFactionClasses
 		icon="\22nd_units\units\data\22ndRDF.paa";
 		flag="\22nd_units\units\data\22ndRDF.paa";
 	};
-};
-
-class CfgFunctions // Loading of appropriate scripts.
-{
-	class V_FZ
-	{
-		class PelicanMagLiftSystem
-		{
-			file="\22nd_units\units\data\Functions";
-			class PelicanLoadValidate
-			{
-			};
-			class PelicanUnLoadValidate
-			{
-			};
-		};
-	};
-};
-
-class CfgVehicles // Include Statements for other configs
-{
-	// #include "data\Infantry\config.hpp"
-	#include "data\Vehicles\config.hpp"
 };

@@ -1,12 +1,12 @@
-class Warhound_Pelican_Orca_1: OPTRE_Pelican_armed
+                            class Warhound_Pelican_Orca_5: OPTRE_Pelican_armed
 {
 	features="Randomization: No";
 	scope=2;
 	scopeCurator=2;
 	side=1;
 	forceInGarage=1;
-	author="The Canadian Nematoad";
-	displayName="[22nd] Pelican Orca 1";
+	author="Astro";
+	displayName="[22nd] Pelican Orca 5";
 	faction="22nd_Faction";
 	crew="OPTRE_UNSC_Marine_Pilot";
 	editorCategory="22nd_Warhound_Company";
@@ -21,7 +21,7 @@ class Warhound_Pelican_Orca_1: OPTRE_Pelican_armed
 	};
 	hiddenSelectionsTextures[]=
 	{
-		"\22nd_units\units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_BLACK_co.paa",
+		"\z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ORCA_5_BLACK_co.paa",
 		""
 	};
 	class TextureSources
@@ -32,7 +32,7 @@ class Warhound_Pelican_Orca_1: OPTRE_Pelican_armed
 			author="Gatt";
 			textures[]=
 			{
-				"\22nd_units\units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_ARID_co.paa",
+				"\z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ORCA_5_ARID_co.paa",
 				""
 			};
 		};
@@ -42,7 +42,7 @@ class Warhound_Pelican_Orca_1: OPTRE_Pelican_armed
 			author="Gatt";
 			textures[]=
 			{
-				"\22nd_units\units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_NIGHT_co.paa",
+				"\z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ORCA_5_NIGHT_co.paa",
 				""
 			};
 		};
@@ -52,7 +52,7 @@ class Warhound_Pelican_Orca_1: OPTRE_Pelican_armed
 			author="Gatt";
 			textures[]=
 			{
-				"\22nd_units\units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_BLACK_co.paa",
+				"\z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ORCA_5_BLACK_co.paa",
 				""
 			};
 		};
@@ -62,7 +62,7 @@ class Warhound_Pelican_Orca_1: OPTRE_Pelican_armed
 			author="Gatt";
 			textures[]=
 			{
-				"\22nd_units\units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_WOODLAND_co.paa",
+				"\z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ORCA_5_WOODLAND_co.paa",
 				""
 			};
 		};
@@ -72,7 +72,7 @@ class Warhound_Pelican_Orca_1: OPTRE_Pelican_armed
 			author="Gatt";
 			textures[]=
 			{
-				"\22nd_units\units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_ARCTIC_co.paa",
+				"\z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ORCA_5_ARCTIC_co.paa",
 				""
 			};
 		};
