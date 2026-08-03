@@ -1,7 +1,6 @@
 
-
-_weapon = "ValkHalo_weapon_M319";     //ValkHalo_AudioTest_Mag //ValkHalo_weapon_AudioTest
-_mag = "ValkHalo_1Rnd_40mm_smokeF_Red";
+_weapon = "22nd_weapon_AudioTest";     //22nd_AudioTest_Mag //22ndd_weapon_AudioTest
+_mag = "22nd_32nd_762x51_FMJ";
 _firemode = "single";
 
 

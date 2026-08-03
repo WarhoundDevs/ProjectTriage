@@ -30,21 +30,7 @@ class CfgPatches {
             "22nd_Gungnir_Helmet_Custom_Test",
             //Custom Operator
             "22nd_Operator_Custom_Test",
-            //Custom Base
-            "22nd_HelmCustom_Alloy",
-            "22nd_HelmCustom_Bay",
-            "22nd_HelmCustom_Bee",
-            "22nd_HelmCustom_Grims",
-            "22nd_HelmCustom_Harper",
-            "22nd_HelmCustom_Jacks",
-            "22nd_HelmCustom_Perse",
-            "22nd_HelmCustom_Relic",
-            "22nd_HelmCustom_Sue",
-            "22nd_HelmCustom_Hoodie",
-            "22nd_HelmCustom_Zoey",
-            "22nd_HelmCustom_Yar",
-            "22nd_HelmCustom_Darling",
-            "22nd_HelmCustom_Ferret"
+          
         };
         requiredVersion = 1.0;
         requiredAddons[] = 
@@ -403,7 +389,6 @@ class CfgWeapons {
   
    // Close 22nd_HelmSnow_Visor
     
-    #include "Customs\config.hpp"
     #include "EOD\config.hpp"
     //#include "AA\config.hpp"
     //#include "Scout\config.hpp"

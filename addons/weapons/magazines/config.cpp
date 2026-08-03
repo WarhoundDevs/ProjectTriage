@@ -49,7 +49,7 @@ class CfgMagazines
 		displayName="8rnd 08 Gauge Buckshot";
 		displayNameShort="8rnd 8G Buckshot";
 		descriptionShort="8rnd 8G Buckshot";
-		ammo="22nd_ammo_8g_Buck_shell";
+		ammo="22nd_V_8g_Buck_shell";
 		tracersEvery=1;
 	};
 	class 22nd_mag_M45_Slug: OPTRE_6Rnd_8Gauge_Slugs
@@ -60,7 +60,7 @@ class CfgMagazines
 		displayName="8rnd 08 Gauge AP Slug";
 		displayNameShort="8rnd 8g AP Slug";
 		descriptionShort="8rnd 8g AP Slug";
-		ammo="22nd_ammo_8g_Slug_AP";
+		ammo="22nd_V_8g_Slug_AP";
 		tracersEvery=1;
 	};
 
@@ -77,7 +77,7 @@ class CfgMagazines
 
 		initSpeed = 800;
 
-		ammo = "22nd_ammo_762x51_FMJ";
+		ammo = "22nd_B_762x51_FMJ";
 
 		tracersEvery = 3;
 
@@ -113,7 +113,7 @@ class CfgMagazines
 		displayName="36rnd BR55 Mag";
 		displayNameShort="36rnd 9.5x40";
 		descriptionShort="36rnd 9.5x40";
-		ammo="22nd_ammo_762x51_HVAP";
+		ammo="22nd_B_762x51_HVAP";
 		tracersEvery=1;
 	};
 

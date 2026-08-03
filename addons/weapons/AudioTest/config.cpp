@@ -28,7 +28,7 @@ class CfgPatches
 };
 
 
-class 22nd_weapon_MA37
+class 22nd_MA37
 {
 	class Single
 	{
@@ -52,7 +52,7 @@ class CfgWeapons
 {
 	
 
-	class 22nd_weapon_AudioTest : 22nd_weapon_MA37
+	class 22nd_weapon_AudioTest : 22nd_MA37
 	{
 		scope = 0;
 		arsenalscope =0;
@@ -75,8 +75,7 @@ class CfgWeapons
 
 		magazines[] =
 		{
-			"22nd_AudioTest_Mag",
-			"22nd_mag_Uni"
+			"22nd_32nd_762x51_FMJ"
 		};
 		magazineWell[] = {};
 		modes[] =

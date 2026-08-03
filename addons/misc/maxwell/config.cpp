@@ -8,7 +8,7 @@ class CfgPatches
 			"Maxwell"
 		};
 		weapons[]={};
-		requiredVersion=0.1;
+		requiredVersion = 0.5;
 		requiredAddons[]=
 		{
 

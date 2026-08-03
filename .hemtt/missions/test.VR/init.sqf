@@ -1,7 +1,7 @@
 /*
     Weapon Test Framework v0.2
     HintSilent Version
-*/
+
 
 
 waitUntil {!isNull player};
@@ -156,3 +156,5 @@ player addEventHandler [
 // Start display
 
 [] call WTF_updateDisplay;
+
+*/

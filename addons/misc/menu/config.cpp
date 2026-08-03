@@ -9,7 +9,7 @@ class CfgPatches
 			"22nd_misc"
 		};
 		skipWhenMissingDependencies = 1;
-		requiredVersion=0.1;
+		requiredVersion = 0.5;
 		units[]={};
 		weapons[]={};
 	};

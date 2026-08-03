@@ -8,7 +8,7 @@ class CfgPatches
 		requiredAddons[]=
 		{ "22nd_main", "cba_main"
 		};
-		requiredVersion = 0.1;
+		requiredVersion = 0.5;
 		units[] = {};
 		weapons[] = {};
 	};

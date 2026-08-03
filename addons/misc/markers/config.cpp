@@ -4,6 +4,7 @@ class CfgPatches
     {
 		author="Warhound Modding Team";
 		units[]={};
+        requiredVersion = 0.5;
     };
 };
 class CfgMarkerClasses

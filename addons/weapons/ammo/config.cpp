@@ -59,7 +59,7 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
 		triggerDistance=0;
 		typicalSpeed=900;
 	};
-	class 22nd_ammo_8g_Buck: B_12Gauge_Pellets_Submunition_Deploy
+	class 22nd_B_8g_Buck: B_12Gauge_Pellets_Submunition_Deploy
 	{
 		hit=7;
 		caliber=1.5;
@@ -71,7 +71,7 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
 		tracerEndTime = 2;
 	};
 
-	class 22nd_ammo_8g_Slug_AP: B_12Gauge_Slug //switch to vanilla base class and make tracer
+	class 22nd_B_8g_Slug_AP: B_12Gauge_Slug //switch to vanilla base class and make tracer
 	{
 		hit=40;
 		caliber=4.5;
@@ -81,7 +81,7 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
 
 	/// Rifle ///
 
-    class 22nd_ammo_762x51_FMJ : B_762x51_Ball //FMJ Used in MA37, 
+    class 22nd_B_762x51_FMJ : B_762x51_Ball //FMJ Used in MA37, 
     {
         caliber = 2.125;
         timetolive = 15;
@@ -89,7 +89,7 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
         model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
     };
 
-	class 22nd_ammo_762x51_HVAP : B_762x51_Ball //FMJ Used in MA37, 
+	class 22nd_B_762x51_HVAP : B_762x51_Ball //FMJ Used in MA37, 
     {
         caliber = 2.315;
         timetolive = 15;
