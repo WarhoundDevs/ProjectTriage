@@ -389,7 +389,7 @@ class CfgWeapons {
   
    // Close 22nd_HelmSnow_Visor
     
-    #include "EOD\config.hpp"
+    //#include "EOD\config.hpp"
     //#include "AA\config.hpp"
     //#include "Scout\config.hpp"
     //#include "JFO\config.hpp"
