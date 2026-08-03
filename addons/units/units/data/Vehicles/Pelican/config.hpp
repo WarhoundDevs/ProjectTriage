@@ -25,7 +25,7 @@ class Warhound_Pelican_ARMY: OPTRE_Pelican_armed
 	};
 	hiddenSelectionsTextures[]=
 	{
-		"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_BLACK_co.paa"
+		"z\22ndRDF\addons\units\units\data\vehicles\Pelican\WH_Pelican_ARMY_BLACK_co.paa"
 	};
 	class TextureSources
 	{
@@ -35,7 +35,7 @@ class Warhound_Pelican_ARMY: OPTRE_Pelican_armed
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\WH_Pelican_ORCA_1_co.paa"
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\WH_Pelican_ORCA_1_co.paa"
 			};
 		};
 		class Arid
@@ -44,7 +44,7 @@ class Warhound_Pelican_ARMY: OPTRE_Pelican_armed
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_ARID_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\WH_Pelican_ARMY_ARID_co.paa",
 				""
 			};
 		};
@@ -54,7 +54,7 @@ class Warhound_Pelican_ARMY: OPTRE_Pelican_armed
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_NIGHT_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\WH_Pelican_ARMY_NIGHT_co.paa",
 				""
 			};
 		};
@@ -64,7 +64,7 @@ class Warhound_Pelican_ARMY: OPTRE_Pelican_armed
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_BLACK_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\WH_Pelican_ARMY_BLACK_co.paa",
 				""
 			};
 		};
@@ -74,7 +74,7 @@ class Warhound_Pelican_ARMY: OPTRE_Pelican_armed
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_WOOD_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\WH_Pelican_ARMY_WOOD_co.paa",
 				""
 			};
 		};
@@ -84,7 +84,7 @@ class Warhound_Pelican_ARMY: OPTRE_Pelican_armed
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_ARCTIC_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\WH_Pelican_ARMY_ARCTIC_co.paa",
 				""
 			};
 		};
@@ -134,7 +134,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 	};
 	hiddenSelectionsTextures[]=
 	{
-		"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_BLACK_co.paa"
+		"z\22ndRDF\addons\units\units\data\vehicles\Pelican\WH_Pelican_ARMY_BLACK_co.paa"
 	};
 	class TextureSources
 	{
@@ -144,7 +144,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_ARID_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\WH_Pelican_ARMY_ARID_co.paa",
 				""
 			};
 		};
@@ -154,7 +154,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_NIGHT_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\WH_Pelican_ARMY_NIGHT_co.paa",
 				""
 			};
 		};
@@ -164,7 +164,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_BLACK_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\WH_Pelican_ARMY_BLACK_co.paa",
 				""
 			};
 		};
@@ -174,7 +174,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_WOOD_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\WH_Pelican_ARMY_WOOD_co.paa",
 				""
 			};
 		};
@@ -184,7 +184,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_ARCTIC_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\WH_Pelican_ARMY_ARCTIC_co.paa",
 				""
 			};
 		};
@@ -194,7 +194,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_ARID_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_ARID_co.paa",
 				""
 			};
 		};
@@ -204,7 +204,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_NIGHT_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_NIGHT_co.paa",
 				""
 			};
 		};
@@ -214,7 +214,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_BLACK_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_BLACK_co.paa",
 				""
 			};
 		};
@@ -224,7 +224,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_WOODLAND_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_WOODLAND_co.paa",
 				""
 			};
 		};
@@ -234,7 +234,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_ARCTIC_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_ARCTIC_co.paa",
 				""
 			};
 		};
@@ -244,7 +244,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_ARID_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_ARID_co.paa",
 				""
 			};
 		};
@@ -254,7 +254,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_NIGHT_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_NIGHT_co.paa",
 				""
 			};
 		};
@@ -264,7 +264,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_BLACK_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_BLACK_co.paa",
 				""
 			};
 		};
@@ -274,7 +274,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_WOODLAND_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_WOODLAND_co.paa",
 				""
 			};
 		};
@@ -284,7 +284,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_ARCTIC_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_ARCTIC_co.paa",
 				""
 			};
 		};
@@ -294,7 +294,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_ARID_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_ARID_co.paa",
 				""
 			};
 		};
@@ -304,7 +304,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_NIGHT_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_NIGHT_co.paa",
 				""
 			};
 		};
@@ -314,7 +314,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_BLACK_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_BLACK_co.paa",
 				""
 			};
 		};
@@ -324,7 +324,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_WOODLAND_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_WOODLAND_co.paa",
 				""
 			};
 		};
@@ -334,7 +334,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_ARCTIC_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_ARCTIC_co.paa",
 				""
 			};
 		};
@@ -344,7 +344,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_ARID_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_ARID_co.paa",
 				""
 			};
 		};
@@ -354,7 +354,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_NIGHT_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_NIGHT_co.paa",
 				""
 			};
 		};
@@ -364,7 +364,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_BLACK_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_BLACK_co.paa",
 				""
 			};
 		};
@@ -374,7 +374,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_WOODLAND_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_WOODLAND_co.paa",
 				""
 			};
 		};
@@ -384,7 +384,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_ARCTIC_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_ARCTIC_co.paa",
 				""
 			};
 		};
@@ -394,7 +394,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_ARID_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_ARID_co.paa",
 				""
 			};
 		};
@@ -404,7 +404,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_NIGHT_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_NIGHT_co.paa",
 				""
 			};
 		};
@@ -414,7 +414,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_BLACK_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_BLACK_co.paa",
 				""
 			};
 		};
@@ -424,7 +424,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_WOODLAND_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_WOODLAND_co.paa",
 				""
 			};
 		};
@@ -434,7 +434,7 @@ class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_ARCTIC_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_ARCTIC_co.paa",
 				""
 			};
 		};
@@ -532,7 +532,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
 	};
 	hiddenSelectionsTextures[]=
 	{
-		"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_BLACK_co.paa"
+		"z\22ndRDF\addons\units\units\data\vehicles\Pelican\WH_Pelican_ARMY_BLACK_co.paa"
 	};
 	class TextureSources
 	{
@@ -542,7 +542,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_ARID_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\WH_Pelican_ARMY_ARID_co.paa",
 				""
 			};
 		};
@@ -552,7 +552,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_NIGHT_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\WH_Pelican_ARMY_NIGHT_co.paa",
 				""
 			};
 		};
@@ -562,7 +562,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_BLACK_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\WH_Pelican_ARMY_BLACK_co.paa",
 				""
 			};
 		};
@@ -572,7 +572,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_WOOD_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\WH_Pelican_ARMY_WOOD_co.paa",
 				""
 			};
 		};
@@ -582,7 +582,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
 			author="Gatt";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_ARCTIC_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\WH_Pelican_ARMY_ARCTIC_co.paa",
 				""
 			};
 		};
@@ -592,7 +592,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_ARID_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_ARID_co.paa",
                 ""
             };
         };
@@ -602,7 +602,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_NIGHT_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_NIGHT_co.paa",
                 ""
             };
         };
@@ -612,7 +612,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_BLACK_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_BLACK_co.paa",
                 ""
             };
         };
@@ -622,7 +622,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_WOODLAND_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_WOODLAND_co.paa",
                 ""
             };
         };
@@ -632,7 +632,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_ARCTIC_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_ARCTIC_co.paa",
                 ""
             };
         };
@@ -642,7 +642,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_ARID_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_ARID_co.paa",
                 ""
             };
         };
@@ -652,7 +652,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_NIGHT_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_NIGHT_co.paa",
                 ""
             };
         };
@@ -662,7 +662,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_BLACK_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_BLACK_co.paa",
                 ""
             };
         };
@@ -672,7 +672,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_WOODLAND_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_WOODLAND_co.paa",
                 ""
             };
         };
@@ -682,7 +682,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_ARCTIC_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_ARCTIC_co.paa",
                 ""
             };
         };
@@ -692,7 +692,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_ARID_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_ARID_co.paa",
                 ""
             };
         };
@@ -702,7 +702,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_NIGHT_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_NIGHT_co.paa",
                 ""
             };
         };
@@ -712,7 +712,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_BLACK_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_BLACK_co.paa",
                 ""
             };
         };
@@ -722,7 +722,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_WOODLAND_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_WOODLAND_co.paa",
                 ""
             };
         };
@@ -732,7 +732,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_ARCTIC_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_ARCTIC_co.paa",
                 ""
             };
         };
@@ -742,7 +742,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_ARID_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_ARID_co.paa",
                 ""
             };
         };
@@ -752,7 +752,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_NIGHT_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_NIGHT_co.paa",
                 ""
             };
         };
@@ -762,7 +762,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_BLACK_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_BLACK_co.paa",
                 ""
             };
         };
@@ -772,7 +772,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_WOODLAND_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_WOODLAND_co.paa",
                 ""
             };
         };
@@ -782,7 +782,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_ARCTIC_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_ARCTIC_co.paa",
                 ""
             };
         };
@@ -792,7 +792,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_ARID_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_ARID_co.paa",
                 ""
             };
         };
@@ -802,7 +802,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_NIGHT_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_NIGHT_co.paa",
                 ""
             };
         };
@@ -812,7 +812,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_BLACK_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_BLACK_co.paa",
                 ""
             };
         };
@@ -822,7 +822,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_WOODLAND_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_WOODLAND_co.paa",
                 ""
             };
         };
@@ -832,7 +832,7 @@ class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_ARCTIC_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_ARCTIC_co.paa",
                 ""
             };
         };
@@ -929,7 +929,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
 	};
 	hiddenSelectionsTextures[]=
 	{
-		"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_BLACK_co.paa"
+		"z\22ndRDF\addons\units\units\data\vehicles\Pelican\WH_Pelican_ARMY_BLACK_co.paa"
 	};
 	class TextureSources
 	{
@@ -939,7 +939,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
 			author="Astro";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_ARID_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\WH_Pelican_ARMY_ARID_co.paa",
 				""
 			};
 		};
@@ -949,7 +949,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
 			author="Astro";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_NIGHT_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\WH_Pelican_ARMY_NIGHT_co.paa",
 				""
 			};
 		};
@@ -959,7 +959,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
 			author="Astro";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_BLACK_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\WH_Pelican_ARMY_BLACK_co.paa",
 				""
 			};
 		};
@@ -969,7 +969,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
 			author="Astro";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_WOOD_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\WH_Pelican_ARMY_WOOD_co.paa",
 				""
 			};
 		};
@@ -979,7 +979,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
 			author="Astro";
 			textures[]=
 			{
-				"W_Units\data\Vehicles\Pelican\WH_Pelican_ARMY_ARCTIC_co.paa",
+				"z\22ndRDF\addons\units\units\data\vehicles\Pelican\WH_Pelican_ARMY_ARCTIC_co.paa",
 				""
 			};
 		};
@@ -989,7 +989,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_ARID_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_ARID_co.paa",
                 ""
             };
         };
@@ -999,7 +999,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_NIGHT_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_NIGHT_co.paa",
                 ""
             };
         };
@@ -1009,7 +1009,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_BLACK_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_BLACK_co.paa",
                 ""
             };
         };
@@ -1019,7 +1019,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_WOODLAND_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_WOODLAND_co.paa",
                 ""
             };
         };
@@ -1029,7 +1029,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_ARCTIC_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_1\WH_Pelican_ORCA_1_ARCTIC_co.paa",
                 ""
             };
         };
@@ -1039,7 +1039,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_ARID_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_ARID_co.paa",
                 ""
             };
         };
@@ -1049,7 +1049,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_NIGHT_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_NIGHT_co.paa",
                 ""
             };
         };
@@ -1059,7 +1059,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_BLACK_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_BLACK_co.paa",
                 ""
             };
         };
@@ -1069,7 +1069,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_WOODLAND_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_WOODLAND_co.paa",
                 ""
             };
         };
@@ -1079,7 +1079,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_ARCTIC_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_2\WH_Pelican_ORCA_2_ARCTIC_co.paa",
                 ""
             };
         };
@@ -1089,7 +1089,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_ARID_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_ARID_co.paa",
                 ""
             };
         };
@@ -1099,7 +1099,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_NIGHT_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_NIGHT_co.paa",
                 ""
             };
         };
@@ -1109,7 +1109,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_BLACK_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_BLACK_co.paa",
                 ""
             };
         };
@@ -1119,7 +1119,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_WOODLAND_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_WOODLAND_co.paa",
                 ""
             };
         };
@@ -1129,7 +1129,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_ARCTIC_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_3\WH_Pelican_ORCA_3_ARCTIC_co.paa",
                 ""
             };
         };
@@ -1139,7 +1139,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_ARID_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_ARID_co.paa",
                 ""
             };
         };
@@ -1149,7 +1149,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_NIGHT_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_NIGHT_co.paa",
                 ""
             };
         };
@@ -1159,7 +1159,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_BLACK_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_BLACK_co.paa",
                 ""
             };
         };
@@ -1169,7 +1169,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_WOODLAND_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_WOODLAND_co.paa",
                 ""
             };
         };
@@ -1179,7 +1179,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_ARCTIC_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_4\WH_Pelican_ORCA_4_ARCTIC_co.paa",
                 ""
             };
         };
@@ -1189,7 +1189,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_ARID_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_ARID_co.paa",
                 ""
             };
         };
@@ -1199,7 +1199,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_NIGHT_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_NIGHT_co.paa",
                 ""
             };
         };
@@ -1209,7 +1209,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_BLACK_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_BLACK_co.paa",
                 ""
             };
         };
@@ -1219,7 +1219,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_WOODLAND_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_WOODLAND_co.paa",
                 ""
             };
         };
@@ -1229,7 +1229,7 @@ class Warhound_Pelican_ARMY_Gunship: SAG6_Pelican_Gunship{
             author="Gatt";
             textures[]=
             {
-                "W_Units\data\Vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_ARCTIC_co.paa",
+                "z\22ndRDF\addons\units\units\data\vehicles\Pelican\Orca_5\WH_Pelican_ORCA_5_ARCTIC_co.paa",
                 ""
             };
         };
