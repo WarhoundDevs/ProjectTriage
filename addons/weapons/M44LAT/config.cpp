@@ -57,7 +57,7 @@ class cfgWeapons
 	class 22nd_M44: OPTRE_M44_Lykoi_Semi_Disposable_AT
 	{
 		author="22nd Mod Team";
-		displayName="[22nd] M44 LAT";
+		displayName="[22nd] M44 "Lykoi" LAT";
 		canShootInWater=1;
 		baseweapon="22nd_M44";
 		scope=2;
