@@ -32,7 +32,7 @@
             Custom = "Rivera";
             Camouflage = "WD";
             Variants = "Open";
-            Decal = "None";
+            
         };
         hiddenSelectionsTextures[] =
         {
@@ -116,7 +116,7 @@
             Custom = "Rivera";
             Camouflage = "WD";
             Variants = "Closed";
-            Decal = "None";
+            
         };
         hiddenSelectionsTextures[] =
         {
@@ -201,7 +201,7 @@
             Custom = "Rivera";
             Camouflage = "WD";
             Variants = "Eyepiece";
-            Decal = "None";
+            
         };
         hiddenSelectionsTextures[] =
         {
@@ -288,7 +288,7 @@
             Custom = "Rivera";
             Camouflage = "WD";
             Variants = "Visor";
-            Decal = "None";
+            
         };
         hiddenSelectionsTextures[] =
         {
@@ -388,7 +388,7 @@
             Custom = "Rivera";
             Camouflage = "Winter";
             Variants = "Open";
-            Decal = "None";
+            
         };
         class ItemInfo : ItemInfo
         {
@@ -462,7 +462,7 @@
             Custom = "Rivera";
             Camouflage = "Winter";
             Variants = "Closed";
-            Decal = "None";
+            
         };
         hiddenSelectionsTextures[] =
         {
@@ -559,7 +559,7 @@
             Custom = "Rivera";
             Camouflage = "Winter";
             Variants = "Eyepiece";
-            Decal = "None";
+            
         };
         class ItemInfo : ItemInfo
         {
@@ -644,7 +644,7 @@
             Custom = "Rivera";
             Camouflage = "Winter";
             Variants = "Visor";
-            Decal = "None";
+            
         };
         class ItemInfo : ItemInfo
         {
