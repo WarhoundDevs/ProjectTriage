@@ -115,8 +115,7 @@ class XtdGearModels
             {
                 "Custom",
                 "Camouflage",
-                "Variants",
-                "Decal"
+                "Variants"
             };
              class Custom ////// 10. ADD CUSTOM NAMES HERE /////
             {
@@ -278,25 +277,6 @@ class XtdGearModels
                 {
                     label = "Eyepiece";
                     image = "#(rgb,8,8,3)color(0.1,0.1,0.1,0.5)";
-                };
-            };
-            class Decal
-            {
-                label = "Decal";
-                values[] =
-                {
-                    "None",
-                    "Medical",
-                };
-                class None
-                {
-                    label = "None";
-                    image = "#(rgb,8,8,3)color(0.1,0.1,0.1,0.5)";
-                };
-                class Medical
-                {
-                    label = "Medical";
-                    image="#(rgb,8,8,3)color(0.52,0,0,0.5)";
                 };
             };
         };
