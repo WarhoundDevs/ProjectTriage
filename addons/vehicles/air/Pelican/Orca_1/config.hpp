@@ -1,3 +1,4 @@
+class OPTRE_Pelican_armed;
 class Warhound_Pelican_Orca_1: OPTRE_Pelican_armed
 {
 	features="Randomization: No";

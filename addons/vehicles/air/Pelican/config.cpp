@@ -14,14 +14,15 @@ class CfgPatches
 		requiredVersion=0.1;
 		units[]=
 		{
-			"Warhound_Pelican_ARMY",
-			"Warhound_Pelican_ARMY_Single_Seater",
-			"Warhound_Pelican_Orca_1",
-			"Warhound_Pelican_Orca_2",
-			"Warhound_Pelican_Orca_3",
-			"Warhound_Pelican_Orca_4",
-			"Warhound_Pelican_Orca_5",
-			"Warhound_Pelican_ARMY_SOCOM"
+			"Warhound_Pelican_AF",
+			"Warhound_Pelican_AF_Single_Seater",
+			// "Warhound_Pelican_Orca_1",
+			// "Warhound_Pelican_Orca_2",
+			// "Warhound_Pelican_Orca_3",
+			// "Warhound_Pelican_Orca_4",
+			// "Warhound_Pelican_Orca_5",
+			"Warhound_Pelican_AF_SOCOM",
+			"Warhound_Pelican_AF_Gunship"
 		};
 	};
 };
@@ -32,14 +33,15 @@ class CfgVehicles
 	class OPTRE_Pelican_armed;
 	class OPTRE_Pelican_armed_single_seater;
 	class OPTRE_Pelican_armed_SOCOM;
-	class Warhound_Pelican_ARMY: OPTRE_Pelican_armed
+	class SAG6_Pelican_Gunship;
+	class Warhound_Pelican_AF: OPTRE_Pelican_armed
 	{
 		features="Randomization: No";
 		scope=2;
 		scopeCurator=2;
 		forceInGarage=1;
 		side=1;
-		author="22nd Mod Team";
+		author="The Canadian Nematoad";
 		displayName="[22nd] D77H-TCI/AV Pelican";
 		faction="22nd_Faction";
 		crew="OPTRE_UNSC_Marine_Pilot";
@@ -55,26 +57,17 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ARMY_BLACK_co.paa" 
+			"z\22ndRDF\addons\vehicles\air\Pelican\WH_Pelican_ARMY_BLACK_co.paa"
 		};
 		class TextureSources
 		{
-			class Manta
-			{
-				displayName="Manta";
-				author="Gatt";
-				textures[]=
-				{
-					"\z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ORCA_1_co.paa"
-				};
-			};
 			class Arid
 			{
 				displayName="Arid";
 				author="Gatt";
 				textures[]=
 				{
-					"\z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ARMY_ARID_co.paa",
+					"z\22ndRDF\addons\vehicles\air\Pelican\WH_Pelican_ARMY_ARID_co.paa",
 					""
 				};
 			};
@@ -84,7 +77,7 @@ class CfgVehicles
 				author="Gatt";
 				textures[]=
 				{
-					"\z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ARMY_NIGHT_co.paa",
+					"z\22ndRDF\addons\vehicles\air\Pelican\WH_Pelican_ARMY_NIGHT_co.paa",
 					""
 				};
 			};
@@ -94,7 +87,7 @@ class CfgVehicles
 				author="Gatt";
 				textures[]=
 				{
-					"\z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ARMY_BLACK_co.paa",
+					"z\22ndRDF\addons\vehicles\air\Pelican\WH_Pelican_ARMY_BLACK_co.paa",
 					""
 				};
 			};
@@ -104,7 +97,7 @@ class CfgVehicles
 				author="Gatt";
 				textures[]=
 				{
-					"\z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ARMY_WOOD_co.paa",
+					"z\22ndRDF\addons\vehicles\air\Pelican\WH_Pelican_ARMY_WOOD_co.paa",
 					""
 				};
 			};
@@ -114,7 +107,257 @@ class CfgVehicles
 				author="Gatt";
 				textures[]=
 				{
-					"\z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ARMY_ARCTIC_co.paa",
+					"z\22ndRDF\addons\vehicles\air\Pelican\WH_Pelican_ARMY_ARCTIC_co.paa",
+					""
+				};
+			};
+			class Arid_Orca_1
+			{
+				displayName="Arid_Orca_1";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_1\WH_Pelican_ORCA_1_ARID_co.paa",
+					""
+				};
+			};
+			class Night_Orca_1
+			{
+				displayName="Night_Orca_1";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_1\WH_Pelican_ORCA_1_NIGHT_co.paa",
+					""
+				};
+			};
+			class Black_Orca_1
+			{
+				displayName="Black_Orca_1";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_1\WH_Pelican_ORCA_1_BLACK_co.paa",
+					""
+				};
+			};
+			class Woodland_Orca_1
+			{
+				displayName="Woodland_Orca_1";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_1\WH_Pelican_ORCA_1_WOODLAND_co.paa",
+					""
+				};
+			};
+			class Arctic_Orca_1
+			{
+				displayName="Arctic_Orca_1";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_1\WH_Pelican_ORCA_1_ARCTIC_co.paa",
+					""
+				};
+			};
+			class Arid_Orca_2
+			{
+				displayName="Arid_Orca_2";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_2\WH_Pelican_ORCA_2_ARID_co.paa",
+					""
+				};
+			};
+			class Night_Orca_2
+			{
+				displayName="Night_Orca_2";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_2\WH_Pelican_ORCA_2_NIGHT_co.paa",
+					""
+				};
+			};
+			class Black_Orca_2
+			{
+				displayName="Black_Orca_2";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_2\WH_Pelican_ORCA_2_BLACK_co.paa",
+					""
+				};
+			};
+			class Woodland_Orca_2
+			{
+				displayName="Woodland_Orca_2";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_2\WH_Pelican_ORCA_2_WOODLAND_co.paa",
+					""
+				};
+			};
+			class Arctic_Orca_2
+			{
+				displayName="Arctic_Orca_2";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_2\WH_Pelican_ORCA_2_ARCTIC_co.paa",
+					""
+				};
+			};
+			class Arid_Orca_3
+			{
+				displayName="Arid_Orca_3";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_3\WH_Pelican_ORCA_3_ARID_co.paa",
+					""
+				};
+			};
+			class Night_Orca_3
+			{
+				displayName="Night_Orca_3";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_3\WH_Pelican_ORCA_3_NIGHT_co.paa",
+					""
+				};
+			};
+			class Black_Orca_3
+			{
+				displayName="Black_Orca_3";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_3\WH_Pelican_ORCA_3_BLACK_co.paa",
+					""
+				};
+			};
+			class Woodland_Orca_3
+			{
+				displayName="Woodland_Orca_3";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_3\WH_Pelican_ORCA_3_WOODLAND_co.paa",
+					""
+				};
+			};
+			class Arctic_Orca_3
+			{
+				displayName="Arctic_Orca_3";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_3\WH_Pelican_ORCA_3_ARCTIC_co.paa",
+					""
+				};
+			};
+			class Arid_Orca_4
+			{
+				displayName="Arid_Orca_4";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_4\WH_Pelican_ORCA_4_ARID_co.paa",
+					""
+				};
+			};
+			class Night_Orca_4
+			{
+				displayName="Night_Orca_4";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_4\WH_Pelican_ORCA_4_NIGHT_co.paa",
+					""
+				};
+			};
+			class Black_Orca_4
+			{
+				displayName="Black_Orca_4";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_4\WH_Pelican_ORCA_4_BLACK_co.paa",
+					""
+				};
+			};
+			class Woodland_Orca_4
+			{
+				displayName="Woodland_Orca_4";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_4\WH_Pelican_ORCA_4_WOODLAND_co.paa",
+					""
+				};
+			};
+			class Arctic_Orca_4
+			{
+				displayName="Arctic_Orca_4";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_4\WH_Pelican_ORCA_4_ARCTIC_co.paa",
+					""
+				};
+			};
+			class Arid_Orca_5
+			{
+				displayName="Arid_Orca_5";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ORCA_5_ARID_co.paa",
+					""
+				};
+			};
+			class Night_Orca_5
+			{
+				displayName="Night_Orca_5";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ORCA_5_NIGHT_co.paa",
+					""
+				};
+			};
+			class Black_Orca_5
+			{
+				displayName="Black_Orca_5";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ORCA_5_BLACK_co.paa",
+					""
+				};
+			};
+			class Woodland_Orca_5
+			{
+				displayName="Woodland_Orca_5";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ORCA_5_WOODLAND_co.paa",
+					""
+				};
+			};
+			class Arctic_Orca_5
+			{
+				displayName="Arctic_Orca_5";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ORCA_5_ARCTIC_co.paa",
 					""
 				};
 			};
@@ -137,18 +380,66 @@ class CfgVehicles
 			0,
 			"Black",
 			0,
-			"Manta",
-			0
+			"Arid_Orca_1",
+            0,
+            "Woodland_Orca_1",
+            0,
+            "Arctic_Orca_1",
+            0,
+            "Night_Orca_1",
+            0,
+            "Black_Orca_1",
+            0,
+            "Arid_Orca_2",
+            0,
+            "Woodland_Orca_2",
+            0,
+            "Arctic_Orca_2",
+            0,
+            "Night_Orca_2",
+            0,
+            "Black_Orca_2",
+            0,
+            "Arid_Orca_3",
+            0,
+            "Woodland_Orca_3",
+            0,
+            "Arctic_Orca_3",
+            0,
+            "Night_Orca_3",
+            0,
+            "Black_Orca_3",
+            0,
+            "Arid_Orca_4",
+            0,
+            "Woodland_Orca_4",
+            0,
+            "Arctic_Orca_4",
+            0,
+            "Night_Orca_4",
+            0,
+            "Black_Orca_4",
+            0,
+            "Arid_Orca_5",
+            0,
+            "Woodland_Orca_5",
+            0,
+            "Arctic_Orca_5",
+            0,
+            "Night_Orca_5",
+            0,
+            "Black_Orca_5",
+            0,
 		};
 	};
-	class Warhound_Pelican_ARMY_Single_Seater: OPTRE_Pelican_armed_single_seater
+	class Warhound_Pelican_AF_Single_Seater: OPTRE_Pelican_armed_single_seater
 	{
 		features="Randomization: No";
 		scope=2;
 		scopeCurator=2;
 		forceInGarage=1;
 		side=1;
-		author="22nd Mod Team"
+		author="The Canadian Nematoad";
 		displayName="[22nd] D77H-TCI/AV Pelican Single Seater";
 		faction="22nd_Faction";
 		crew="OPTRE_UNSC_Marine_Pilot";
@@ -164,7 +455,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ARMY_BLACK_co.paa"
+			"z\22ndRDF\addons\vehicles\air\Pelican\WH_Pelican_ARMY_BLACK_co.paa"
 		};
 		class TextureSources
 		{
@@ -174,7 +465,7 @@ class CfgVehicles
 				author="Gatt";
 				textures[]=
 				{
-					"\z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ARMY_ARID_co.paa",
+					"z\22ndRDF\addons\vehicles\air\Pelican\WH_Pelican_ARMY_ARID_co.paa",
 					""
 				};
 			};
@@ -184,7 +475,7 @@ class CfgVehicles
 				author="Gatt";
 				textures[]=
 				{
-					"\z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ARMY_NIGHT_co.paa",
+					"z\22ndRDF\addons\vehicles\air\Pelican\WH_Pelican_ARMY_NIGHT_co.paa",
 					""
 				};
 			};
@@ -194,7 +485,7 @@ class CfgVehicles
 				author="Gatt";
 				textures[]=
 				{
-					"\z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ARMY_BLACK_co.paa",
+					"z\22ndRDF\addons\vehicles\air\Pelican\WH_Pelican_ARMY_BLACK_co.paa",
 					""
 				};
 			};
@@ -204,7 +495,7 @@ class CfgVehicles
 				author="Gatt";
 				textures[]=
 				{
-					"\z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ARMY_WOOD_co.paa",
+					"z\22ndRDF\addons\vehicles\air\Pelican\WH_Pelican_ARMY_WOOD_co.paa",
 					""
 				};
 			};
@@ -214,7 +505,257 @@ class CfgVehicles
 				author="Gatt";
 				textures[]=
 				{
-					"\z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ARMY_ARCTIC_co.paa",
+					"z\22ndRDF\addons\vehicles\air\Pelican\WH_Pelican_ARMY_ARCTIC_co.paa",
+					""
+				};
+			};
+			class Arid_Single_Seater_Orca_1
+			{
+				displayName="Arid_Single_Seater_Orca_1";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_1\WH_Pelican_ORCA_1_ARID_co.paa",
+					""
+				};
+			};
+			class Night_Single_Seater_Orca_1
+			{
+				displayName="Night_Single_Seater_Orca_1";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_1\WH_Pelican_ORCA_1_NIGHT_co.paa",
+					""
+				};
+			};
+			class Black_Single_Seater_Orca_1
+			{
+				displayName="Black_Single_Seater_Orca_1";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_1\WH_Pelican_ORCA_1_BLACK_co.paa",
+					""
+				};
+			};
+			class Woodland_Single_Seater_Orca_1
+			{
+				displayName="Woodland_Single_Seater_Orca_1";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_1\WH_Pelican_ORCA_1_WOODLAND_co.paa",
+					""
+				};
+			};
+			class Arctic_Single_Seater_Orca_1
+			{
+				displayName="Arctic_Single_Seater_Orca_1";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_1\WH_Pelican_ORCA_1_ARCTIC_co.paa",
+					""
+				};
+			};
+			class Arid_Single_Seater_Orca_2
+			{
+				displayName="Arid_Single_Seater_Orca_2";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_2\WH_Pelican_ORCA_2_ARID_co.paa",
+					""
+				};
+			};
+			class Night_Single_Seater_Orca_2
+			{
+				displayName="Night_Single_Seater_Orca_2";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_2\WH_Pelican_ORCA_2_NIGHT_co.paa",
+					""
+				};
+			};
+			class Black_Single_Seater_Orca_2
+			{
+				displayName="Black_Single_Seater_Orca_2";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_2\WH_Pelican_ORCA_2_BLACK_co.paa",
+					""
+				};
+			};
+			class Woodland_Single_Seater_Orca_2
+			{
+				displayName="Woodland_Single_Seater_Orca_2";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_2\WH_Pelican_ORCA_2_WOODLAND_co.paa",
+					""
+				};
+			};
+			class Arctic_Single_Seater_Orca_2
+			{
+				displayName="Arctic_Single_Seater_Orca_2";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_2\WH_Pelican_ORCA_2_ARCTIC_co.paa",
+					""
+				};
+			};
+			class Arid_Single_Seater_Orca_3
+			{
+				displayName="Arid_Single_Seater_Orca_3";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_3\WH_Pelican_ORCA_3_ARID_co.paa",
+					""
+				};
+			};
+			class Night_Single_Seater_Orca_3
+			{
+				displayName="Night_Single_Seater_Orca_3";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_3\WH_Pelican_ORCA_3_NIGHT_co.paa",
+					""
+				};
+			};
+			class Black_Single_Seater_Orca_3
+			{
+				displayName="Black_Single_Seater_Orca_3";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_3\WH_Pelican_ORCA_3_BLACK_co.paa",
+					""
+				};
+			};
+			class Woodland_Single_Seater_Orca_3
+			{
+				displayName="Woodland_Single_Seater_Orca_3";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_3\WH_Pelican_ORCA_3_WOODLAND_co.paa",
+					""
+				};
+			};
+			class Arctic_Single_Seater_Orca_3
+			{
+				displayName="Arctic_Single_Seater_Orca_3";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_3\WH_Pelican_ORCA_3_ARCTIC_co.paa",
+					""
+				};
+			};
+			class Arid_Single_Seater_Orca_4
+			{
+				displayName="Arid_Single_Seater_Orca_4";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_4\WH_Pelican_ORCA_4_ARID_co.paa",
+					""
+				};
+			};
+			class Night_Single_Seater_Orca_4
+			{
+				displayName="Night_Single_Seater_Orca_4";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_4\WH_Pelican_ORCA_4_NIGHT_co.paa",
+					""
+				};
+			};
+			class Black_Single_Seater_Orca_4
+			{
+				displayName="Black_Single_Seater_Orca_4";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_4\WH_Pelican_ORCA_4_BLACK_co.paa",
+					""
+				};
+			};
+			class Woodland_Single_Seater_Orca_4
+			{
+				displayName="Woodland_Single_Seater_Orca_4";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_4\WH_Pelican_ORCA_4_WOODLAND_co.paa",
+					""
+				};
+			};
+			class Arctic_Single_Seater_Orca_4
+			{
+				displayName="Arctic_Single_Seater_Orca_4";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_4\WH_Pelican_ORCA_4_ARCTIC_co.paa",
+					""
+				};
+			};
+			class Arid_Single_Seater_Orca_5
+			{
+				displayName="Arid_Single_Seater_Orca_5";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ORCA_5_ARID_co.paa",
+					""
+				};
+			};
+			class Night_Single_Seater_Orca_5
+			{
+				displayName="Night_Single_Seater_Orca_5";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ORCA_5_NIGHT_co.paa",
+					""
+				};
+			};
+			class Black_Single_Seater_Orca_5
+			{
+				displayName="Black_Single_Seater_Orca_5";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ORCA_5_BLACK_co.paa",
+					""
+				};
+			};
+			class Woodland_Single_Seater_Orca_5
+			{
+				displayName="Woodland_Single_Seater_Orca_5";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ORCA_5_WOODLAND_co.paa",
+					""
+				};
+			};
+			class Arctic_Single_Seater_Orca_5
+			{
+				displayName="Arctic_Single_Seater_Orca_5";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ORCA_5_ARCTIC_co.paa",
 					""
 				};
 			};
@@ -237,16 +778,66 @@ class CfgVehicles
 			0,
 			"Black_Single_Seater",
 			0,
+			"Arid_Single_Seater_Orca_1",
+			0,
+			"Woodland_Single_Seater_Orca_1",
+			0,
+			"Arctic_Single_Seater_Orca_1",
+			0,
+			"Night_Single_Seater_Orca_1",
+			0,
+			"Black_Single_Seater_Orca_1",
+			0,
+			"Arid_Single_Seater_Orca_2",
+			0,
+			"Woodland_Single_Seater_Orca_2",
+			0,
+			"Arctic_Single_Seater_Orca_2",
+			0,
+			"Night_Single_Seater_Orca_2",
+			0,
+			"Black_Single_Seater_Orca_2",
+			0,
+			"Arid_Single_Seater_Orca_3",
+			0,
+			"Woodland_Single_Seater_Orca_3",
+			0,
+			"Arctic_Single_Seater_Orca_3",
+			0,
+			"Night_Single_Seater_Orca_3",
+			0,
+			"Black_Single_Seater_Orca_3",
+			0,
+			"Arid_Single_Seater_Orca_4",
+			0,
+			"Woodland_Single_Seater_Orca_4",
+			0,
+			"Arctic_Single_Seater_Orca_4",
+			0,
+			"Night_Single_Seater_Orca_4",
+			0,
+			"Black_Single_Seater_Orca_4",
+			0,
+			"Arid_Single_Seater_Orca_5",
+			0,
+			"Woodland_Single_Seater_Orca_5",
+			0,
+			"Arctic_Single_Seater_Orca_5",
+			0,
+			"Night_Single_Seater_Orca_5",
+			0,
+			"Black_Single_Seater_Orca_5",
+			0,
 		};
 	};
-	class Warhound_Pelican_ARMY_SOCOM: OPTRE_Pelican_armed_SOCOM
+	class Warhound_Pelican_AF_SOCOM: OPTRE_Pelican_armed_SOCOM
 	{
 		features="Randomization: No";
 		scope=2;
 		scopeCurator=2;
 		forceInGarage=1;
 		side=1;
-		author="22nd Mod Team"
+		author="The Canadian Nematoad";
 		displayName="[22nd] D77H-TCI/AV Pelican SOCOM (WIP)";
 		faction="22nd_Faction";
 		crew="OPTRE_UNSC_Marine_Pilot";
@@ -262,7 +853,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ARMY_BLACK_co.paa"
+			"z\22ndRDF\addons\vehicles\air\Pelican\WH_Pelican_ARMY_BLACK_co.paa"
 		};
 		class TextureSources
 		{
@@ -272,7 +863,7 @@ class CfgVehicles
 				author="Gatt";
 				textures[]=
 				{
-					"\z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ARMY_ARID_co.paa",
+					"z\22ndRDF\addons\vehicles\air\Pelican\WH_Pelican_ARMY_ARID_co.paa",
 					""
 				};
 			};
@@ -282,7 +873,7 @@ class CfgVehicles
 				author="Gatt";
 				textures[]=
 				{
-					"\z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ARMY_NIGHT_co.paa",
+					"z\22ndRDF\addons\vehicles\air\Pelican\WH_Pelican_ARMY_NIGHT_co.paa",
 					""
 				};
 			};
@@ -292,7 +883,7 @@ class CfgVehicles
 				author="Gatt";
 				textures[]=
 				{
-					"\z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ARMY_BLACK_co.paa",
+					"z\22ndRDF\addons\vehicles\air\Pelican\WH_Pelican_ARMY_BLACK_co.paa",
 					""
 				};
 			};
@@ -302,7 +893,7 @@ class CfgVehicles
 				author="Gatt";
 				textures[]=
 				{
-					"\z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ARMY_WOOD_co.paa",
+					"z\22ndRDF\addons\vehicles\air\Pelican\WH_Pelican_ARMY_WOOD_co.paa",
 					""
 				};
 			};
@@ -312,7 +903,257 @@ class CfgVehicles
 				author="Gatt";
 				textures[]=
 				{
-					"\z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ARMY_ARCTIC_co.paa",
+					"z\22ndRDF\addons\vehicles\air\Pelican\WH_Pelican_ARMY_ARCTIC_co.paa",
+					""
+				};
+			};
+			class Arid_SOCOM_Orca_1
+			{
+				displayName="Arid_SOCOM_Orca_1";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_1\WH_Pelican_ORCA_1_ARID_co.paa",
+					""
+				};
+			};
+			class Night_SOCOM_Orca_1
+			{
+				displayName="Night_SOCOM_Orca_1";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_1\WH_Pelican_ORCA_1_NIGHT_co.paa",
+					""
+				};
+			};
+			class Black_SOCOM_Orca_1
+			{
+				displayName="Black_SOCOM_Orca_1";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_1\WH_Pelican_ORCA_1_BLACK_co.paa",
+					""
+				};
+			};
+			class Woodland_SOCOM_Orca_1
+			{
+				displayName="Woodland_SOCOM_Orca_1";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_1\WH_Pelican_ORCA_1_WOODLAND_co.paa",
+					""
+				};
+			};
+			class Arctic_SOCOM_Orca_1
+			{
+				displayName="Arctic_SOCOM_Orca_1";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_1\WH_Pelican_ORCA_1_ARCTIC_co.paa",
+					""
+				};
+			};
+			class Arid_SOCOM_Orca_2
+			{
+				displayName="Arid_SOCOM_Orca_2";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_2\WH_Pelican_ORCA_2_ARID_co.paa",
+					""
+				};
+			};
+			class Night_SOCOM_Orca_2
+			{
+				displayName="Night_SOCOM_Orca_2";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_2\WH_Pelican_ORCA_2_NIGHT_co.paa",
+					""
+				};
+			};
+			class Black_SOCOM_Orca_2
+			{
+				displayName="Black_SOCOM_Orca_2";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_2\WH_Pelican_ORCA_2_BLACK_co.paa",
+					""
+				};
+			};
+			class Woodland_SOCOM_Orca_2
+			{
+				displayName="Woodland_SOCOM_Orca_2";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_2\WH_Pelican_ORCA_2_WOODLAND_co.paa",
+					""
+				};
+			};
+			class Arctic_SOCOM_Orca_2
+			{
+				displayName="Arctic_SOCOM_Orca_2";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_2\WH_Pelican_ORCA_2_ARCTIC_co.paa",
+					""
+				};
+			};
+			class Arid_SOCOM_Orca_3
+			{
+				displayName="Arid_SOCOM_Orca_3";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_3\WH_Pelican_ORCA_3_ARID_co.paa",
+					""
+				};
+			};
+			class Night_SOCOM_Orca_3
+			{
+				displayName="Night_SOCOM_Orca_3";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_3\WH_Pelican_ORCA_3_NIGHT_co.paa",
+					""
+				};
+			};
+			class Black_SOCOM_Orca_3
+			{
+				displayName="Black_SOCOM_Orca_3";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_3\WH_Pelican_ORCA_3_BLACK_co.paa",
+					""
+				};
+			};
+			class Woodland_SOCOM_Orca_3
+			{
+				displayName="Woodland_SOCOM_Orca_3";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_3\WH_Pelican_ORCA_3_WOODLAND_co.paa",
+					""
+				};
+			};
+			class Arctic_SOCOM_Orca_3
+			{
+				displayName="Arctic_SOCOM_Orca_3";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_3\WH_Pelican_ORCA_3_ARCTIC_co.paa",
+					""
+				};
+			};
+			class Arid_SOCOM_Orca_4
+			{
+				displayName="Arid_SOCOM_Orca_4";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_4\WH_Pelican_ORCA_4_ARID_co.paa",
+					""
+				};
+			};
+			class Night_SOCOM_Orca_4
+			{
+				displayName="Night_SOCOM_Orca_4";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_4\WH_Pelican_ORCA_4_NIGHT_co.paa",
+					""
+				};
+			};
+			class Black_SOCOM_Orca_4
+			{
+				displayName="Black_SOCOM_Orca_4";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_4\WH_Pelican_ORCA_4_BLACK_co.paa",
+					""
+				};
+			};
+			class Woodland_SOCOM_Orca_4
+			{
+				displayName="Woodland_SOCOM_Orca_4";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_4\WH_Pelican_ORCA_4_WOODLAND_co.paa",
+					""
+				};
+			};
+			class Arctic_SOCOM_Orca_4
+			{
+				displayName="Arctic_SOCOM_Orca_4";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_4\WH_Pelican_ORCA_4_ARCTIC_co.paa",
+					""
+				};
+			};
+			class Arid_SOCOM_Orca_5
+			{
+				displayName="Arid_SOCOM_Orca_5";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ORCA_5_ARID_co.paa",
+					""
+				};
+			};
+			class Night_SOCOM_Orca_5
+			{
+				displayName="Night_SOCOM_Orca_5";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ORCA_5_NIGHT_co.paa",
+					""
+				};
+			};
+			class Black_SOCOM_Orca_5
+			{
+				displayName="Black_SOCOM_Orca_5";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ORCA_5_BLACK_co.paa",
+					""
+				};
+			};
+			class Woodland_SOCOM_Orca_5
+			{
+				displayName="Woodland_SOCOM_Orca_5";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ORCA_5_WOODLAND_co.paa",
+					""
+				};
+			};
+			class Arctic_SOCOM_Orca_5
+			{
+				displayName="Arctic_SOCOM_Orca_5";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ORCA_5_ARCTIC_co.paa",
 					""
 				};
 			};
@@ -335,13 +1176,459 @@ class CfgVehicles
 			0,
 			"Black_SOCOM",
 			0,
+			"Arid_SOCOM_Orca_1",
+			0,
+			"Woodland_SOCOM_Orca_1",
+			0,
+			"Arctic_SOCOM_Orca_1",
+			0,
+			"Night_SOCOM_Orca_1",
+			0,
+			"Black_SOCOM_Orca_1",
+			0,
+			"Arid_SOCOM_Orca_2",
+			0,
+			"Woodland_SOCOM_Orca_2",
+			0,
+			"Arctic_SOCOM_Orca_2",
+			0,
+			"Night_SOCOM_Orca_2",
+			0,
+			"Black_SOCOM_Orca_2",
+			0,
+			"Arid_SOCOM_Orca_3",
+			0,
+			"Woodland_SOCOM_Orca_3",
+			0,
+			"Arctic_SOCOM_Orca_3",
+			0,
+			"Night_SOCOM_Orca_3",
+			0,
+			"Black_SOCOM_Orca_3",
+			0,
+			"Arid_SOCOM_Orca_4",
+			0,
+			"Woodland_SOCOM_Orca_4",
+			0,
+			"Arctic_SOCOM_Orca_4",
+			0,
+			"Night_SOCOM_Orca_4",
+			0,
+			"Black_SOCOM_Orca_4",
+			0,
+			"Arid_SOCOM_Orca_5",
+			0,
+			"Woodland_SOCOM_Orca_5",
+			0,
+			"Arctic_SOCOM_Orca_5",
+			0,
+			"Night_SOCOM_Orca_5",
+			0,
+			"Black_SOCOM_Orca_5",
+			0,
 		};
 	};
-
-	#include "Orca_1\config.hpp"
-	#include "Orca_2\config.hpp"
-	#include "Orca_3\config.hpp"
-	#include "Orca_4\config.hpp"
-	#include "Orca_5\config.hpp"
-
+	class Warhound_Pelican_AF_Gunship: SAG6_Pelican_Gunship{
+		features="Randomization: No";
+		scope=2;
+		scopeCurator=2;
+		forceInGarage=1;
+		side=1;
+		author="Astro";
+		displayName="[22nd] D77H-TCI/G Pelican Gunship";
+		faction="22nd_Faction";
+		crew="OPTRE_UNSC_Marine_Pilot";
+		editorCategory="22nd_Warhound_Company";
+		editorSubcategory="22nd_Warhound_Company_Air_Vehicles";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo3",
+			"clan",
+			"clan_text",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"z\22ndRDF\addons\vehicles\air\Pelican\WH_Pelican_ARMY_BLACK_co.paa"
+		};
+		class TextureSources
+		{
+			class Arid_GNSHP
+			{
+				displayName="Arid_GNSHP";
+				author="Astro";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\WH_Pelican_ARMY_ARID_co.paa",
+					""
+				};
+			};
+			class Night_GNSHP
+			{
+				displayName="Night_GNSHP";
+				author="Astro";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\WH_Pelican_ARMY_NIGHT_co.paa",
+					""
+				};
+			};
+			class Black_GNSHP
+			{
+				displayName="Black_GNSHP";
+				author="Astro";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\WH_Pelican_ARMY_BLACK_co.paa",
+					""
+				};
+			};
+			class Woodland_GNSHP
+			{
+				displayName="Woodland_GNSHP";
+				author="Astro";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\WH_Pelican_ARMY_WOOD_co.paa",
+					""
+				};
+			};
+			class Arctic_GNSHP
+			{
+				displayName="Arctic_GNSHP";
+				author="Astro";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\WH_Pelican_ARMY_ARCTIC_co.paa",
+					""
+				};
+			};
+			class Arid_GNSHP_Orca_1
+			{
+				displayName="Arid_GNSHP_Orca_1";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_1\WH_Pelican_ORCA_1_ARID_co.paa",
+					""
+				};
+			};
+			class Night_GNSHP_Orca_1
+			{
+				displayName="Night_GNSHP_Orca_1";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_1\WH_Pelican_ORCA_1_NIGHT_co.paa",
+					""
+				};
+			};
+			class Black_GNSHP_Orca_1
+			{
+				displayName="Black_GNSHP_Orca_1";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_1\WH_Pelican_ORCA_1_BLACK_co.paa",
+					""
+				};
+			};
+			class Woodland_GNSHP_Orca_1
+			{
+				displayName="Woodland_GNSHP_Orca_1";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_1\WH_Pelican_ORCA_1_WOODLAND_co.paa",
+					""
+				};
+			};
+			class Arctic_GNSHP_Orca_1
+			{
+				displayName="Arctic_GNSHP_Orca_1";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_1\WH_Pelican_ORCA_1_ARCTIC_co.paa",
+					""
+				};
+			};
+			class Arid_GNSHP_Orca_2
+			{
+				displayName="Arid_GNSHP_Orca_2";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_2\WH_Pelican_ORCA_2_ARID_co.paa",
+					""
+				};
+			};
+			class Night_GNSHP_Orca_2
+			{
+				displayName="Night_GNSHP_Orca_2";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_2\WH_Pelican_ORCA_2_NIGHT_co.paa",
+					""
+				};
+			};
+			class Black_GNSHP_Orca_2
+			{
+				displayName="Black_GNSHP_Orca_2";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_2\WH_Pelican_ORCA_2_BLACK_co.paa",
+					""
+				};
+			};
+			class Woodland_GNSHP_Orca_2
+			{
+				displayName="Woodland_GNSHP_Orca_2";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_2\WH_Pelican_ORCA_2_WOODLAND_co.paa",
+					""
+				};
+			};
+			class Arctic_GNSHP_Orca_2
+			{
+				displayName="Arctic_GNSHP_Orca_2";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_2\WH_Pelican_ORCA_2_ARCTIC_co.paa",
+					""
+				};
+			};
+			class Arid_GNSHP_Orca_3
+			{
+				displayName="Arid_GNSHP_Orca_3";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_3\WH_Pelican_ORCA_3_ARID_co.paa",
+					""
+				};
+			};
+			class Night_GNSHP_Orca_3
+			{
+				displayName="Night_GNSHP_Orca_3";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_3\WH_Pelican_ORCA_3_NIGHT_co.paa",
+					""
+				};
+			};
+			class Black_GNSHP_Orca_3
+			{
+				displayName="Black_GNSHP_Orca_3";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_3\WH_Pelican_ORCA_3_BLACK_co.paa",
+					""
+				};
+			};
+			class Woodland_GNSHP_Orca_3
+			{
+				displayName="Woodland_GNSHP_Orca_3";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_3\WH_Pelican_ORCA_3_WOODLAND_co.paa",
+					""
+				};
+			};
+			class Arctic_GNSHP_Orca_3
+			{
+				displayName="Arctic_GNSHP_Orca_3";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_3\WH_Pelican_ORCA_3_ARCTIC_co.paa",
+					""
+				};
+			};
+			class Arid_GNSHP_Orca_4
+			{
+				displayName="Arid_GNSHP_Orca_4";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_4\WH_Pelican_ORCA_4_ARID_co.paa",
+					""
+				};
+			};
+			class Night_GNSHP_Orca_4
+			{
+				displayName="Night_GNSHP_Orca_4";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_4\WH_Pelican_ORCA_4_NIGHT_co.paa",
+					""
+				};
+			};
+			class Black_GNSHP_Orca_4
+			{
+				displayName="Black_GNSHP_Orca_4";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_4\WH_Pelican_ORCA_4_BLACK_co.paa",
+					""
+				};
+			};
+			class Woodland_GNSHP_Orca_4
+			{
+				displayName="Woodland_GNSHP_Orca_4";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_4\WH_Pelican_ORCA_4_WOODLAND_co.paa",
+					""
+				};
+			};
+			class Arctic_GNSHP_Orca_4
+			{
+				displayName="Arctic_GNSHP_Orca_4";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_4\WH_Pelican_ORCA_4_ARCTIC_co.paa",
+					""
+				};
+			};
+			class Arid_GNSHP_Orca_5
+			{
+				displayName="Arid_GNSHP_Orca_5";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ORCA_5_ARID_co.paa",
+					""
+				};
+			};
+			class Night_GNSHP_Orca_5
+			{
+				displayName="Night_GNSHP_Orca_5";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ORCA_5_NIGHT_co.paa",
+					""
+				};
+			};
+			class Black_GNSHP_Orca_5
+			{
+				displayName="Black_GNSHP_Orca_5";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ORCA_5_BLACK_co.paa",
+					""
+				};
+			};
+			class Woodland_GNSHP_Orca_5
+			{
+				displayName="Woodland_GNSHP_Orca_5";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ORCA_5_WOODLAND_co.paa",
+					""
+				};
+			};
+			class Arctic_GNSHP_Orca_5
+			{
+				displayName="Arctic_GNSHP_Orca_5";
+				author="Gatt";
+				textures[]=
+				{
+					"z\22ndRDF\addons\vehicles\air\Pelican\Orca_5\WH_Pelican_ORCA_5_ARCTIC_co.paa",
+					""
+				};
+			};
+			factions[]=
+			{
+				"BLU_F",
+				"BLU_T_F",
+				"22nd_Faction"
+			};
+		};
+		textureList[]=
+		{
+			"Arid_GNSHP",
+			1,
+			"Woodland_GNSHP",
+			0,
+			"Arctic_GNSHP",
+			0,
+			"Night_GNSHP",
+			0,
+			"Black_GNSHP",
+			0,
+			"Arid_GNSHP_Orca_1",
+			0,
+			"Woodland_GNSHP_Orca_1",
+			0,
+			"Arctic_GNSHP_Orca_1",
+			0,
+			"Night_GNSHP_Orca_1",
+			0,
+			"Black_GNSHP_Orca_1",
+			0,
+			"Arid_GNSHP_Orca_2",
+			0,
+			"Woodland_GNSHP_Orca_2",
+			0,
+			"Arctic_GNSHP_Orca_2",
+			0,
+			"Night_GNSHP_Orca_2",
+			0,
+			"Black_GNSHP_Orca_2",
+			0,
+			"Arid_GNSHP_Orca_3",
+			0,
+			"Woodland_GNSHP_Orca_3",
+			0,
+			"Arctic_GNSHP_Orca_3",
+			0,
+			"Night_GNSHP_Orca_3",
+			0,
+			"Black_GNSHP_Orca_3",
+			0,
+			"Arid_GNSHP_Orca_4",
+			0,
+			"Woodland_GNSHP_Orca_4",
+			0,
+			"Arctic_GNSHP_Orca_4",
+			0,
+			"Night_GNSHP_Orca_4",
+			0,
+			"Black_GNSHP_Orca_4",
+			0,
+			"Arid_GNSHP_Orca_5",
+			0,
+			"Woodland_GNSHP_Orca_5",
+			0,
+			"Arctic_GNSHP_Orca_5",
+			0,
+			"Night_GNSHP_Orca_5",
+			0,
+			"Black_GNSHP_Orca_5",
+			0,
+		};
+	};
 };
+
+// #include "Orca_1\config.hpp"
+// #include "Orca_2\config.hpp"
+// #include "Orca_3\config.hpp"
+// #include "Orca_4\config.hpp"
+// #include "Orca_5\config.hpp"

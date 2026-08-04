@@ -1,4 +1,5 @@
-                            class Warhound_Pelican_Orca_5: OPTRE_Pelican_armed
+// class OPTRE_Pelican_armed;
+class Warhound_Pelican_Orca_5: OPTRE_Pelican_armed
 {
 	features="Randomization: No";
 	scope=2;
