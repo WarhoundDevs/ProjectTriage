@@ -1,6 +1,6 @@
 
 
-    class 22nd_Alloy_HelmBase_Open: 
+    class 22nd_Alloy_HelmBase_Open: 22nd_Helm_base
     {
         scope = 2;
         scopeArsenal = 2;
@@ -33,7 +33,7 @@
             Custom = "Alloy";
             Camouflage = "WD";
             Variants = "Open";
-            Decal = "None";
+            
         };
         hiddenSelectionsTextures[] =
         {
@@ -84,7 +84,7 @@
         };
     };
 
-    class 22nd_Alloy_HelmBase_Closed : 
+    class 22nd_Alloy_HelmBase_Closed : 22nd_Helm_base
     {
         scope = 2;
         scopeArsenal = 2;
@@ -117,7 +117,7 @@
             Custom = "Alloy";
             Camouflage = "WD";
             Variants = "Closed";
-            Decal = "None";
+            
         };
         hiddenSelectionsTextures[] =
         {
@@ -169,7 +169,7 @@
         };
     };
 
-    class 22nd_Alloy_HelmBase_Eye : 
+    class 22nd_Alloy_HelmBase_Eye : 22nd_Helm_base
     {
         scope = 2;
         scopeArsenal = 2;
@@ -202,7 +202,7 @@
             Custom = "Alloy";
             Camouflage = "WD";
             Variants = "Eyepiece";
-            Decal = "None";
+            
         };
         hiddenSelectionsTextures[] =
         {
@@ -254,7 +254,7 @@
         };
     };
 
-    class 22nd_Alloy_HelmBase_Visor : 
+    class 22nd_Alloy_HelmBase_Visor : 22nd_Helm_base
     {
         scope = 2;
         scopeArsenal = 2;
@@ -289,7 +289,7 @@
             Custom = "Alloy";
             Camouflage = "WD";
             Variants = "Visor";
-            Decal = "None";
+            
         };
         hiddenSelectionsTextures[] =
         {
@@ -344,7 +344,7 @@
 
     //Infantry Winter
 
-    class 22nd_Alloy_HelmSnow_Open : 
+    class 22nd_Alloy_HelmSnow_Open : 22nd_Helm_base
     {
         scope = 2;
         scopeArsenal = 2; 
@@ -389,7 +389,7 @@
             Custom = "Alloy";
             Camouflage = "Winter";
             Variants = "Open";
-            Decal = "None";
+            
         };
         class ItemInfo : ItemInfo
         {
@@ -430,7 +430,7 @@
         };
     }; 
 
-    class 22nd_Alloy_HelmSnow_Closed : 
+    class 22nd_Alloy_HelmSnow_Closed : 22nd_Helm_base
     {
         scope = 2;
         scopeArsenal = 2;
@@ -463,7 +463,7 @@
             Custom = "Alloy";
             Camouflage = "Winter";
             Variants = "Closed";
-            Decal = "None";
+            
         };
         hiddenSelectionsTextures[] =
         {
@@ -515,7 +515,7 @@
             };
         };
     };
-    class 22nd_Alloy_HelmSnow_Eye : 
+    class 22nd_Alloy_HelmSnow_Eye : 22nd_Helm_base
     {
         scope = 2;
         scopeArsenal = 2;
@@ -560,7 +560,7 @@
             Custom = "Alloy";
             Camouflage = "Winter";
             Variants = "Eyepiece";
-            Decal = "None";
+            
         };
         class ItemInfo : ItemInfo
         {
@@ -600,7 +600,7 @@
             };
         };
     };
-    class 22nd_Alloy_HelmSnow_Visor : 
+    class 22nd_Alloy_HelmSnow_Visor : 22nd_Helm_base
     {
         scope = 2;
         scopeArsenal = 2;
@@ -645,7 +645,7 @@
             Custom = "Alloy";
             Camouflage = "Winter";
             Variants = "Visor";
-            Decal = "None";
+            
         };
         class ItemInfo : ItemInfo
         {

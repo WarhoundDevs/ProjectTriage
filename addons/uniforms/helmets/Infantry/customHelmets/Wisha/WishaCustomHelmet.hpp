@@ -1,6 +1,6 @@
    
 
-    class 22nd_Wisha_HelmBase_Open: 
+    class 22nd_Wisha_HelmBase_Open: 22nd_Helm_base
     {
         scope = 2;
         scopeArsenal = 2;
@@ -84,7 +84,7 @@
         };
     };
 
-    class 22nd_Wisha_HelmBase_Closed : 
+    class 22nd_Wisha_HelmBase_Closed : 22nd_Helm_base
     {
         scope = 2;
         scopeArsenal = 2;
@@ -169,7 +169,7 @@
         };
     };
 
-    class 22nd_Wisha_HelmBase_Eye : 
+    class 22nd_Wisha_HelmBase_Eye : 22nd_Helm_base
     {
         scope = 2;
         scopeArsenal = 2;
@@ -254,7 +254,7 @@
         };
     };
 
-    class 22nd_Wisha_HelmBase_Visor : 
+    class 22nd_Wisha_HelmBase_Visor : 22nd_Helm_base
     {
         scope = 2;
         scopeArsenal = 2;
@@ -343,7 +343,7 @@
 
     //Infantry Winter
 
-    class 22nd_Wisha_HelmSnow_Open : 
+    class 22nd_Wisha_HelmSnow_Open : 22nd_Helm_base
     {
         scope = 2;
         scopeArsenal = 2; 
@@ -429,7 +429,7 @@
         };
     }; 
 
-    class 22nd_Wisha_HelmSnow_Closed : 
+    class 22nd_Wisha_HelmSnow_Closed : 22nd_Helm_base
     {
         scope = 2;
         scopeArsenal = 2;
@@ -514,7 +514,7 @@
             };
         };
     };
-    class 22nd_Wisha_HelmSnow_Eye : 
+    class 22nd_Wisha_HelmSnow_Eye : 22nd_Helm_base
     {
         scope = 2;
         scopeArsenal = 2;
@@ -599,7 +599,7 @@
             };
         };
     };
-    class 22nd_Wisha_HelmSnow_Visor : 
+    class 22nd_Wisha_HelmSnow_Visor : 22nd_Helm_base
     {
         scope = 2;
         scopeArsenal = 2;
