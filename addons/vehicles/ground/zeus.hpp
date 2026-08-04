@@ -1,0 +1,21 @@
+units[]=
+{
+	"22nd_M808BM_Scorpion",
+	"22nd_M808BM_Lancer_Scorpion",
+	"22nd_M808BM_Lancer_Scorpion_Driverless",
+	"Warhound_Oryx",
+	"22nd_Oryx_Pike1A",
+	"22nd_Oryx_Pike11",
+	"22nd_Oryx_Pike12",
+	"22nd_Oryx_Pike13",
+	"Warhound_APC_Oryx",
+	"Warhound_APC_Oryx_AIE",
+	"Warhound_APC_Oryx_AIE_RCWS",
+	"Warhound_APC_Oryx_M37",
+	"Warhound_APC_Oryx_M37_RCWS",
+	//"Warhound_Dingo_Troop",
+	//"Warhound_DingoRCWS",
+	//"Warhound_Dingo_Autocannon",
+	//"Warhound_Dingo_Med",
+	"22nd_Elephant",
+};
