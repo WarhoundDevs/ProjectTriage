@@ -1,13 +1,13 @@
 units[]=
 {
-	"22nd_M808BM_Scorpion",
-	"22nd_M808BM_Lancer_Scorpion",
-	"22nd_M808BM_Lancer_Scorpion_Driverless",
+	"Warhound_M808BM_Scorpion",
+	"Warhound_M808BM_Lancer_Scorpion",
+	"Warhound_M808BM_Lancer_Scorpion_Driverless",
 	"Warhound_Oryx",
-	"22nd_Oryx_Pike1A",
-	"22nd_Oryx_Pike11",
-	"22nd_Oryx_Pike12",
-	"22nd_Oryx_Pike13",
+	"Warhound_Oryx_Pike1A",
+	"Warhound_Oryx_Pike11",
+	"Warhound_Oryx_Pike12",
+	"Warhound_Oryx_Pike13",
 	"Warhound_APC_Oryx",
 	"Warhound_APC_Oryx_AIE",
 	"Warhound_APC_Oryx_AIE_RCWS",
@@ -17,5 +17,5 @@ units[]=
 	//"Warhound_DingoRCWS",
 	//"Warhound_Dingo_Autocannon",
 	//"Warhound_Dingo_Med",
-	"22nd_Elephant",
+	"Warhound_Elephant",
 };
