@@ -13,15 +13,21 @@ class cfgpatches {
 		    };
             units[] = {
                 "22nd_MAKO_Vest", // this is for spawnable units, cfgvehicles specifically, you'd define say: '22nd rifleman' here. Unless you're actually making a new unit theres no need to touch this
+                "22nd_TacVest_Base",
             };
             weapons[]= {
             "22nd_MAKO_Vest", // ditto, but this is to let the editor recognize it and spawn it on said unit, this only fits weapons, vests and helmets (i think also nvgs?)
+            "22nd_TacVest_Base",
         };
     };
 };
+
+
+
 class cfgweapons
 {
     class VestItem;
+    class Marine_Pouches_Base;
     class V_PlateCarrier1_rgr;
     class 22nd_MAKO_Vest: V_PlateCarrier1_rgr
     {
@@ -247,6 +253,211 @@ class cfgweapons
                 {
                     hitpointName="HitBody";
                     armor=40;
+                    passThrough=0.1;
+                };
+            };
+        };
+    };
+    class 22nd_TacVest_Base: Marine_Pouches_Base
+    {
+        scope=0;
+        scopeArsenal=0;
+        author="Misriah Armory";
+        displayName="[22nd] Tactical Pouches Base";
+        model="MA_Armor\data\Vests\Marine_Pouches\Marine_Pouches.p3d";
+        picture="";
+        hiddenSelections[]=
+        {
+            "camo1",
+            "camo2",
+            "camo3",
+            "camo4",
+            "camo5",
+            "camo6",
+            "camo7",
+            "camo8",
+            "camo9",
+            "camo10",
+            "camo11",
+            "camo12",
+            "camo13",
+            "camo14",
+            "camo15",
+            "camo16",
+            "camo17",
+            "camo18",
+            "camo19",
+            "camo20",
+            // "ChestPMLeft",
+            // "ChestPMRight",
+            // "ChestPouch",
+            // "ChestRadio",
+            // "LegLeft",
+            // "LegRight",
+            // "StomachPouch",
+            // "TorsoPM",
+            // "TorsoPMLeft",
+            // "TorsoPMRight",
+            // "TorsoPouch",
+            // "WaistBack",
+            // "WaistGLeft",
+            // "WaistGRight",
+            // "WaistPLeft",
+            // "WaistPRight",
+            // "WaistRLeft",
+            // "WaistRRight",
+            // "WaistSLeft",
+            // "WaistSRight"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_A_CO.paa",
+            "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_A_CO.paa",
+            "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_B_CO.paa",
+            "MA_Armor\data\Backpacks\ODST_Rucksack\Attachments\Backpack_Radio_Green_co.paa",
+            "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_B_CO.paa",
+            "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_B_CO.paa",
+            "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_A_CO.paa",
+            "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_A_CO.paa",
+            "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_A_CO.paa",
+            "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_A_CO.paa",
+            "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_B_CO.paa",
+            "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_B_CO.paa",
+            "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_A_CO.paa",
+            "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_A_CO.paa",
+            "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_A_CO.paa",
+            "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_A_CO.paa",
+            "MA_Armor\data\Backpacks\ODST_Rucksack\Attachments\Backpack_Radio_Green_co.paa",
+            "MA_Armor\data\Backpacks\ODST_Rucksack\Attachments\Backpack_Radio_Green_co.paa",
+            "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_B_CO.paa",
+            "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_B_CO.paa"
+        };
+        class ItemInfo: VestItem
+        {
+            hiddenSelections[]=
+            {
+                "camo1",
+                "camo2",
+                "camo3",
+                "camo4",
+                "camo5",
+                "camo6",
+                "camo7",
+                "camo8",
+                "camo9",
+                "camo10",
+                "camo11",
+                "camo12",
+                "camo13",
+                "camo14",
+                "camo15",
+                "camo16",
+                "camo17",
+                "camo18",
+                "camo19",
+                "camo20",
+                // "ChestPMLeft",
+                // "ChestPMRight",
+                // "ChestPouch",
+                // "ChestRadio",
+                // "LegLeft",
+                // "LegRight",
+                // "StomachPouch",
+                // "TorsoPM",
+                // "TorsoPMLeft",
+                // "TorsoPMRight",
+                // "TorsoPouch",
+                // "WaistBack",
+                // "WaistGLeft",
+                // "WaistGRight",
+                // "WaistPLeft",
+                // "WaistPRight",
+                // "WaistRLeft",
+                // "WaistRRight",
+                // "WaistSLeft",
+                // "WaistSRight"
+            };
+            hiddenSelectionsTextures[]=
+            {
+                "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_A_CO.paa",
+                "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_A_CO.paa",
+                "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_B_CO.paa",
+                "MA_Armor\data\Backpacks\ODST_Rucksack\Attachments\Backpack_Radio_Green_co.paa",
+                "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_B_CO.paa",
+                "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_B_CO.paa",
+                "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_A_CO.paa",
+                "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_A_CO.paa",
+                "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_A_CO.paa",
+                "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_A_CO.paa",
+                "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_B_CO.paa",
+                "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_B_CO.paa",
+                "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_A_CO.paa",
+                "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_A_CO.paa",
+                "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_A_CO.paa",
+                "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_A_CO.paa",
+                "MA_Armor\data\Backpacks\ODST_Rucksack\Attachments\Backpack_Radio_Green_co.paa",
+                "MA_Armor\data\Backpacks\ODST_Rucksack\Attachments\Backpack_Radio_Green_co.paa",
+                "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_B_CO.paa",
+                "MA_Armor\data\Vests\Marine_Pouches\data\MA_TrooperExtras_B_CO.paa"
+            };
+            uniformModel="MA_Armor\data\Vests\Marine_Pouches\Marine_Pouches.p3d";
+            containerClass="Supply200";
+            mass=20;
+            passThrough=0.1;
+            modelSides[]={6};
+            class HitpointsProtectionInfo
+            {
+                class Neck
+                {
+                    hitpointName="HitNeck";
+                    armor=20;
+                    passThrough=0.5;
+                };
+                class Legs
+                {
+                    hitpointName="HitLegs";
+                    armor=20;
+                    passThrough=0.5;
+                };
+                class Arms
+                {
+                    hitpointName="HitArms";
+                    armor=25;
+                    passThrough=0.1;
+                };
+                class Hands
+                {
+                    hitpointName="HitHands";
+                    armor=20;
+                    passThrough=0.1;
+                };
+                class Chest
+                {
+                    hitpointName="HitChest";
+                    armor=35;
+                    passThrough=0.1;
+                };
+                class Diaphragm
+                {
+                    hitpointName="HitDiaphragm";
+                    armor=30;
+                    passThrough=0.1;
+                };
+                class Abdomen
+                {
+                    hitpointName="HitAbdomen";
+                    armor=30;
+                    passThrough=0.1;
+                };
+                class Pelvis
+                {
+                    hitpointName="HitPelvis";
+                    armor=30;
+                    passThrough=0.1;
+                };
+                class Body
+                {
+                    hitpointName="HitBody";
                     passThrough=0.1;
                 };
             };
