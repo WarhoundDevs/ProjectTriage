@@ -11,7 +11,6 @@ class XtdGearModels
             {
                 "upperUniform",
                 "lowerUniform",
-                "ArmorPaint",
                 "Shoulder",
                 "Collar"
             };
@@ -112,6 +111,174 @@ class XtdGearModels
                 };
             };
         };
-    };  
+    
+        class 22nd_InfantryCustoms_AAE
+        {
+            label = "[22nd] M52A Arid";
+            author = "Warhound Mod Team";
+            options[] = // Class names for your options
+            {
+                "custom",
+                "upperUniform",
+                "lowerUniform",
+                "Shoulder",
+                "Collar"
+            };
+
+            class custom
+            {
+                label = "Owner";
+                values[] =
+                {
+                    "Darling",
+                    "German",
+                    "Relic",
+                    "Rya",
+                    "Sue",
+                    "Yar",
+                    "Zoey",
+                };
+
+               
+
+                class Darling
+                {
+                    label = "Darling";
+                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+                };
+                class German
+                {
+                    label = "German";
+                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+                };
+                class Relic
+                {
+                    label = "Relic";
+                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+                };
+                class Rya
+                {
+                    label = "Rya";
+                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+                };
+                class Sue
+                {
+                    label = "Sue";
+                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+                };
+                //  class Wisha
+                // {
+                //     label = "Wisha";
+                //     image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+                // };
+                class Yar
+                {
+                    label = "Yar";
+                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+                };
+                class Zoey
+                {
+                    label = "Zoey";
+                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+                };
+            };
+
+            class upperUniform
+            {
+                label = "BDU Top";
+                values[] =
+                {
+                    "Woodland",
+                    "Winter",
+                    "Brown",
+                    "Olive",
+                    "Gray",
+                    
+                };
+                    class Woodland
+                {
+                    label = "Woodland";
+                };
+                    class Winter
+                {
+                    label = "Winter";
+                };
+                class Brown
+                {
+                    label = "Brown";
+                };
+                class Olive
+                {
+                    label = "Olive";
+                };
+                    class Gray
+                {
+                    label = "Gray";
+                };
+                
+            };
+
+            class lowerUniform
+            {
+                label = "BDU + Armor";
+                values[] =
+                {
+                    "Woodland",
+                    "Winter"
+                };
+                    class Woodland
+                {
+                    label = "Woodland";
+                };
+                    class Winter
+                {
+                    label = "Winter";
+                };
+            };
+
+            
+            class Shoulder
+            {
+                label = "Shoulders";
+                values[] =
+                {
+                    "Light",
+                    "Medium",
+                    "Heavy",
+
+
+                };
+                class Light
+                {
+                    label = "Light";
+                };
+                class Medium
+                {
+                    label = "Medium";
+                };
+                class Heavy
+                {
+                    label = "Heavy";
+                };
+            };
+            class Collar
+            {
+                label = "Collar";
+                values[] =
+                {
+                    "High",
+                    "Low"
+                };
+                class High
+                {
+                    label = "High";
+                };
+                class Low
+                {
+                    label = "Low";
+                };
+            };
+        }; 
+    };
 };
        

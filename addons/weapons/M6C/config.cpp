@@ -26,12 +26,13 @@ class CfgPatches
 
 class cfgRecoils
 {
-	class recoil_M6C
+	class 22nd_recoil_M6C
 	{
-		muzzleOuter[]={0,0.1,0,0};
-		kickBack[]={0.0099999998,0.02};
+		muzzleInner[] = {0,0,0.1,0.1};
+		muzzleOuter[] = {0.04,1,0.2,0.3};
+		kickBack[] = {0.042,0.084};
 		permanent=0;
-		temporary=0.0099999998;
+		temporary = 0.036;
 	};
 };
 
@@ -84,7 +85,7 @@ class cfgWeapons
 			"22nd_mag_M6C_SS"
 		};
 		magazineWell[] = {};
-		recoil="recoil_pistol_zubr";
+		recoil="22nd_recoil_M6C";
 		baseWeapon="";
 		
 		class WeaponSlotsInfo: WeaponSlotsInfo

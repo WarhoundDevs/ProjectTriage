@@ -29,12 +29,13 @@ class CfgPatches
 
 class cfgRecoils
 {
-	class recoil_M247A1
+	class 22nd_recoil_m247A1
 	{
-		muzzleOuter[]={0,0.1,0,0};
-		kickBack[]={0.0099999998,0.02};
+		muzzleOuter[] = {0.3,0.8,0.4,0.3};
+		muzzleInner[] = {0,0,0.1,0.1};
+		kickBack[] = {0.03,0.06};
 		permanent=0;
-		temporary=0.0099999998;
+		temporary = 0.015;
 	};
 };
 
@@ -67,8 +68,8 @@ class cfgWeapons
 		ArsenalScope=2;
 		HUD_TotalPosibleBullet=48;
 		ACE_Overheating_mrbs=300000;
-		recoil="recoil_M247A1";
-		recoilProne="recoil_M247A1";
+		recoil="22nd_recoil_m247A1";
+		recoilProne="22nd_recoil_m247A1";
 		magazines[]=
 		{
 			"22nd_125rnd_762x51_FMJ",
@@ -114,7 +115,7 @@ class cfgWeapons
 			recoil="recoil_single_primary_2outof10";
 			recoilProne="recoil_single_primary_2outof10";
 			reloadTime=0.08;
-			dispersion=0.00050000002;
+			dispersion=	0.0010181087;
 			minRange=2;
 			minRangeProbab=0.5;
 			midRange=250;
@@ -131,7 +132,7 @@ class cfgWeapons
 			recoil="recoil_single_primary_2outof10";
 			recoilProne="recoil_single_primary_2outof10";
 			reloadTime=0.06;
-			dispersion=0.00050000002;
+			dispersion=	0.0010181087;
 			textureType = "fastAuto"; //More bars on the select fire UI in the top right
 		};
 		

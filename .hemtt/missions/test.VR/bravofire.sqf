@@ -1,5 +1,5 @@
-_weapon = "ValkHalo_weapon_MA37";     //ValkHalo_AudioTest_Mag //ValkHalo_weapon_AudioTest
-_mag = "ValkHalo_mag_Uni";
+_weapon = "22nd_SRS99C";     //ValkHalo_AudioTest_Mag //ValkHalo_weapon_AudioTest
+_mag = "22nd_6nd_145x114_APFSDS";
 _firemode = "Single";
 
 

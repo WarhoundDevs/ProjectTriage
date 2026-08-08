@@ -23,23 +23,13 @@ class CfgPatches
 };
 class cfgRecoils
 {
-	class 22nd_recoil_MA73
+	class 22nd_recoil_M73
 	{
-		muzzleOuter[]=
-		{
-			0.4,
-			1,
-			0.3,
-			0.3
-		};
-		muzzleInner[]={0,0,0.1,0.1};
-		kickBack[]=
-		{
-			0.02,
-			0.02
-		};
+		muzzleOuter[] = {0.06,1,0.4,0.3};
+		muzzleInner[] = {0,0,0.1,0.1};
+		kickBack[] = {0.028,0.056};
 		permanent=0;
-		temporary=0.01;
+		temporary = 0.012;
 	};
 };
 
@@ -67,12 +57,12 @@ class cfgWeapons
 	class 22nd_M73: OPTRE_M73
 	{
 		displayName="[22nd] M73 LSW";
-		descriptionShort = "M45 8 Gauge Shotgun <br /> Best used for CQB enivroments and when hostiles need to be removed from existance. <br /> Operator can front load specialized rounds atop regular magazine (GL Slot)";
+		descriptionShort = "M73 LSW <br /> Portable  <br /> Operator can front load specialized rounds atop regular magazine (GL Slot)";
 		canShootInWater=1;
 		baseweapon="";
 		ACE_Overheating_mrbs=300000;
-		recoil="22nd_recoil_MA73";
-		recoilProne="recoil_single_prone_mx";
+		recoil="22nd_recoil_M73";
+		recoilProne="22nd_recoil_M73";
 		scope=2;
 		ArsenalScope=2;
 		magazines[]=
@@ -115,10 +105,10 @@ class cfgWeapons
 				};
 			};
 			multiplier=1;
-			recoil="recoil_single_primary_2outof10";
-			recoilProne="recoil_single_primary_2outof10";
+			recoil="22nd_recoil_M73";
+			recoilProne="22nd_recoil_M73";
 			reloadTime=0.1;
-			dispersion=0.003;
+			dispersion=0.0006544985;
 			minRange=2;
 			minRangeProbab=0.5;
 			midRange=250;

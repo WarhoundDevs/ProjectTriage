@@ -24,13 +24,13 @@ class CfgPatches
 
 class cfgRecoils
 {
-	class recoil_M392
+	class 22nd_recoil_M392
 	{
-		muzzleOuter[]={0.05,0.060000002,0.030000001,0.030000001};
+		muzzleOuter[] = {0.06,1.5,0.5,0.4};
 		muzzleInner[]={0,0,0.1,0.1};
-		kickBack[]={0.02,0.039999999};
+		kickBack[] = {0.042,0.084};
 		permanent=0;
-		temporary=0.015;
+		temporary=0.025;
 	};
 };
 
@@ -63,8 +63,8 @@ class cfgWeapons
 		initspeed=1000;
 		ArsenalScope=2;
 		ACE_Overheating_mrbs=300000;
-		recoil="recoil_M392";
-		recoilProne="recoil_M392";
+		recoil="22nd_recoil_M392";
+		recoilProne="22nd_recoil_M392";
 		magazines[]=
 		{
 			"22nd_25nd_762x51_HVAP",
@@ -105,10 +105,10 @@ class cfgWeapons
 				};
 			};
 			multiplier=1;
-			recoil="recoil_single_primary_2outof10";
-			recoilProne="recoil_single_primary_2outof10";
+			recoil="22nd_recoil_M392";
+			recoilProne="22nd_recoil_M392";
 			reloadTime=0.07;
-			dispersion=0.00019999999;
+			dispersion=0.0004363323;
 			minRange=2;
 			minRangeProbab=0.5;
 			midRange=250;

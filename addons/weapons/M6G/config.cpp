@@ -24,12 +24,13 @@ class CfgPatches
 
 class cfgRecoils
 {
-	class recoil_M6G
+	class 22nd_recoil_M6G
 	{
-		muzzleOuter[]={0,0.1,0,0};
-		kickBack[]={0.0099999998,0.02};
+		muzzleInner[] = {0,0,0.1,0.1};
+		muzzleOuter[] = {0.04,1.5,0.2,0.3};
+		kickBack[] = {0.056,0.112};
 		permanent=0;
-		temporary=0.0099999998;
+		temporary = 0.072;
 	};
 };
 
@@ -61,10 +62,10 @@ class cfgWeapons
 
 		magazines[]=
 		{
-			"22nd_mag_M6G"
+			"22nd_8Rnd_127x40_Mag"
 		};
 		magazineWell[] = {};
-		recoil="recoil_pistol_zubr";
+		recoil="22nd_recoil_M6G";
 		baseWeapon="";
 		HUD_BulletInARows=1;
 		HUD_TotalPosibleBullet=16;

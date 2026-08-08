@@ -38,6 +38,18 @@ class OPTRE_M45TAC
 	};
 };
 
+class cfgRecoils
+{
+	class 22nd_recoil_M45
+	{
+		muzzleOuter[] = {1,3,0.6,0.6};
+		muzzleInner[] = {0,0,0.1,0.1};
+		kickBack[] = {0.08,0.1};
+		permanent=0;
+		temporary = 0.022;
+	};
+};
+
 class CfgWeapons
 {
 
@@ -96,8 +108,8 @@ class CfgWeapons
 			maxRangeProbab=0.44999999;
 			distanceZoomMin=60;
 			distanceZoomMax=60;
-			recoil="recoil_single_ksg";
-			recoilProne="recoil_single_prone_ksg";
+			recoil="22nd_recoil_M45";
+			recoilProne="22nd_recoil_M45";
 			reloadTime=0.5;
 		};
 

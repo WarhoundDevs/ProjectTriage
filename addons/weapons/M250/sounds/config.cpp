@@ -42,7 +42,7 @@ class cfgSoundShaders
 				1
 			}
 		};
-		volume=4;
+		volume=1;
 		range=100;
 		rangeCurve[] = {{0,1.2},{50,0.62},{110,0}};
 	};
@@ -56,7 +56,7 @@ class cfgSoundShaders
 				1
 			}
 		};
-		volume=1.4;
+		volume=1;
 		range=1800;
 		rangeCurve[] = {{0,0},{50,0.6},{300,1.2},{2400,0}};
 	};
@@ -70,7 +70,7 @@ class cfgSoundShaders
 				1
 			}
 		};
-		volume=1.4;
+		volume=1;
 		range=4000;
 		rangeCurve[] = {{0,0},{50,0},{300,0.6},{2400,1.2},{6000,0}};
 	};

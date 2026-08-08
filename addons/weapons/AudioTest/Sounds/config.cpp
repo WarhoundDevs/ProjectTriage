@@ -31,8 +31,8 @@ class cfgSoundShaders
 	};
 	class 22nd_AudioTest_closeShot_SoundShader
 	{
-		samples[] = {{"\z\22ndRDF\addons\weapons\AudioTest\Sounds\AudioTest_Close.wav",1}};
-		volume = 2;
+		samples[] = {{"\z\22ndRDF\addons\weapons\AudioTest\Sounds\AudioTest_close.wav",1}};
+		volume = 2; 
 		range = 110;
 		rangeCurve[] = {{0,1.25},{50,0.62},{110,0}};
 	};

@@ -32,7 +32,7 @@ class cfgSoundShaders
 	class 22nd_MA37_closeShot_SoundShader
 	{
 		samples[] = {{"\z\22ndRDF\addons\weapons\MA37\Sounds\MA37_Close.wav",1}};
-		volume = 2;
+		volume = 2.5;
 		range = 110;
 		rangeCurve[] = {{0,1.2},{50,0.62},{110,0}};
 	};

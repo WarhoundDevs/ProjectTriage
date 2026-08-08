@@ -29,12 +29,13 @@ class CfgPatches
 
 class cfgRecoils
 {
-	class recoil_M250
+	class 22nd_recoil_M250
 	{
-		muzzleOuter[]={0,0.1,0,0};
-		kickBack[]={0.0099999998,0.02};
+		muzzleInner[] = {0,0,0.1,0.1};
+		muzzleOuter[] = {0.1,1.5,0.6,0.4};
+		kickBack[] = {0.056,0.072};
 		permanent=0;
-		temporary=0.0099999998;
+		temporary = 0.015;
 	};
 };
 
@@ -67,8 +68,8 @@ class cfgWeapons
 		ArsenalScope=2;
 		HUD_TotalPosibleBullet=100;
 		ACE_Overheating_mrbs=300000;
-		recoil="recoil_M250";
-		recoilProne="recoil_M250";
+		recoil="22nd_recoil_M250";
+		recoilProne="22nd_recoil_M250";
 		magazines[]=
 		{
 			
@@ -102,10 +103,10 @@ class cfgWeapons
 				};
 			};
 			multiplier=1;
-			recoil="recoil_single_primary_2outof10";
-			recoilProne="recoil_single_primary_2outof10";
-			reloadTime=0.20;
-			dispersion=0.00050000002;
+			recoil="22nd_recoil_M250";
+			recoilProne="22nd_recoil_M250";
+			reloadTime=0.15;
+			dispersion=0.0008726646;
 			minRange=2;
 			minRangeProbab=0.5;
 			midRange=250;

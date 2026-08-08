@@ -33,10 +33,11 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
 	class B_65x39_Caseless;
 	class B_127x99_Ball;
 	class B_127x33_Ball;
+	class B_20mm_AP;
 
 	/// Shotgun ///
 
-	class 22nd_ammo_8g_Buck_shell: B_12Gauge_Pellets_Submunition
+	class 22nd_B_8g_Buck_shell: B_12Gauge_Pellets_Submunition
 	{
 		submunitionAmmo="22nd_ammo_8g_Buck";
 		submunitionConeAngle=1.5;
@@ -93,7 +94,7 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
     {
         caliber = 2.315;
         timetolive = 15;
-        hit = 16;
+        hit = 18;
         model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
     };
 
@@ -104,12 +105,28 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
 		hit=17;
 		model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
 	};
+	
+	class 22nd_B_114x90: B_127x99_Ball
+	{
+		caliber = 2.6;
+		timetolive=15;
+		hit = 24;
+		model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
+	};
 
 	class 22nd_B_127x99: B_127x99_Ball
 	{
 		caliber = 2.6;
 		timetolive=15;
 		hit = 35;
+		model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
+	};
+
+	class 22nd_B_145x114: B_20mm_AP
+	{
+		caliber = 4.2;
+		timetolive=15;
+		hit = 80;
 		model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
 	};
 

@@ -32,6 +32,8 @@ class CfgMagazines
 	
 	class OPTRE_8Rnd_127x40_Mag;
 	class OPTRE_12Rnd_127x40_Mag;
+    class OPTRE_15Rnd_762x51_Mag;
+	class OPTRE_4Rnd_145x114_APFSDS_Mag;
 	class OPTRE_25Rnd_762x51_AP_Mag;
 	
 
@@ -49,9 +51,10 @@ class CfgMagazines
 		displayName="8rnd 08 Gauge Buckshot";
 		displayNameShort="8rnd 8G Buckshot";
 		descriptionShort="8rnd 8G Buckshot";
-		ammo="22nd_V_8g_Buck_shell";
+		ammo="22nd_B_8g_Buck_shell";
 		tracersEvery=1;
 	};
+
 	class 22nd_mag_M45_Slug: OPTRE_6Rnd_8Gauge_Slugs
 	{
 		count=8;
@@ -60,7 +63,7 @@ class CfgMagazines
 		displayName="8rnd 08 Gauge AP Slug";
 		displayNameShort="8rnd 8g AP Slug";
 		descriptionShort="8rnd 8g AP Slug";
-		ammo="22nd_V_8g_Slug_AP";
+		ammo="22nd_B_8g_Slug_AP";
 		tracersEvery=1;
 	};
 
@@ -105,9 +108,11 @@ class CfgMagazines
 		tracersEvery=1;
 	};
 
-	class 22nd_25nd_762x51_HVAP: OPTRE_25Rnd_762x51_AP_Mag
+	
+
+	class 22nd_20nd_762x51_HVAP: OPTRE_15Rnd_762x51_Mag
 	{
-		count=36;
+		count=20;
 		mass=15;
 		initspeed=950;
 		displayName="36rnd BR55 Mag";
@@ -116,6 +121,33 @@ class CfgMagazines
 		ammo="22nd_B_762x51_HVAP";
 		tracersEvery=1;
 	};
+
+	class 22nd_15nd_114x90_FMJ: OPTRE_25Rnd_762x51_AP_Mag
+	{
+		count=15;
+		mass=15;
+		initspeed=1050;
+		displayName="36rnd BR55 Mag";
+		displayNameShort="36rnd 9.5x40";
+		descriptionShort="36rnd 9.5x40";
+		ammo="22nd_B_114x90";
+		tracersEvery=1;
+	};
+
+	
+	class 22nd_6nd_145x114_APFSDS: OPTRE_4Rnd_145x114_APFSDS_Mag
+	{
+		count=6;
+		mass=10;
+		initspeed=1200;
+		displayName="6rnd SRS99 APFSDS Mag";
+		displayNameShort="6rnd 14.5x114";
+		descriptionShort="6rnd 14.5x114";
+		ammo="22nd_B_145x114";
+		tracersEvery=1;
+	};
+
+	
 
 	/// MG ///
 

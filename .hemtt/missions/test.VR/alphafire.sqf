@@ -1,7 +1,7 @@
 
-_weapon = "22nd_weapon_AudioTest";     //22nd_AudioTest_Mag //22ndd_weapon_AudioTest
-_mag = "22nd_32nd_762x51_FMJ";
-_firemode = "single";
+_weapon = "22nd_M250";     //22nd_AudioTest_Mag //22ndd_weapon_AudioTest
+_mag = "22nd_50rnd_127x99";
+_firemode = "FullAuto";
 
 
 _units = [

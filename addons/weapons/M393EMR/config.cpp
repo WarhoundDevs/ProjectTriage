@@ -26,12 +26,13 @@ class CfgPatches
 
 class cfgRecoils
 {
-	class recoil_M393
+	class 22nd_recoil_M393
 	{
-		muzzleOuter[]={0,0.1,0,0};
-		kickBack[]={0.0099999998,0.02};
+		muzzleOuter[] = {0.1,2.5,0.6,0.5};
+		muzzleInner[] = {0,0,0.1,0.1};
+		kickBack[] = {0.084,0.112};
 		permanent=0;
-		temporary=0.0099999998;
+		temporary = 0.03;
 	};
 };
 
@@ -65,12 +66,12 @@ class cfgWeapons
 		ArsenalScope=2;
 		HUD_TotalPosibleBullet=100;
 		ACE_Overheating_mrbs=300000;
-		recoil="recoil_M393";
-		recoilProne="recoil_M393";
+		recoil="22nd_recoil_M393";
+		recoilProne="22nd_recoil_M393";
 		magazines[]=
 		{
 			
-			"22nd_mag_M393"
+			"22nd_15nd_114x90_FMJ"
 		};
 		magazineWell[] = {};
 
@@ -100,10 +101,10 @@ class cfgWeapons
 				};
 			};
 			multiplier=1;
-			recoil="recoil_single_primary_2outof10";
-			recoilProne="recoil_single_primary_2outof10";
+			recoil="22nd_recoil_M393";
+			recoilProne="22nd_recoil_M393";
 			reloadTime=0.20;
-			dispersion=0.00050000002;
+			dispersion=0.0002181662;
 			minRange=2;
 			minRangeProbab=0.5;
 			midRange=250;

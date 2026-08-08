@@ -34,12 +34,11 @@ class CfgRecoils
 {
     class 22nd_recoil_MA37
     {
-        muzzleOuter[] = {0.06, 1, 0.4, 0.3};
-        muzzleInner[] = {0, 0, 0.1, 0.1};
-        kickBack[] = {0.028, 0.056};
-
+        muzzleOuter[] = {0.25,0.75,0.25,0.32};
+        muzzleInner[] = {0,0,0.1,0.1};
+        kickBack[] = {0.02,0.027};
         permanent = 0;
-        temporary = 0.012;
+        temporary = 0.025;
     };
 };
 class UGL_F
@@ -93,7 +92,7 @@ class CfgWeapons
 		HUD_TotalPosibleBullet = 32;
 
 		recoil = "22nd_recoil_MA37";
-		recoilProne = "recoil_single_prone_mx";
+		recoilProne = "22nd_recoil_MA37";
 
 		ACE_Overheating_mrbs = 300000;
 
@@ -116,7 +115,7 @@ class CfgWeapons
 		   class Single : Single
 		{
 			reloadTime = 0.1;
-			dispersion = 0.001;
+			dispersion = 0.0005817764;
 
 			minRange = 2;
 			minRangeProbab = 0.5;
@@ -165,7 +164,7 @@ class CfgWeapons
 			displayName = "Full Auto";
 
 			reloadTime = 0.1;
-			dispersion = 0.001;
+			dispersion = 0.0005817764;
 
 			sounds[] = {"StandardSound","SilencedSound"};
 			class BaseSoundModeType
