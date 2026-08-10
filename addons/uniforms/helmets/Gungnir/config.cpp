@@ -6,12 +6,15 @@ class CfgPatches
         weapons[] = 
         {
             "22nd_Gungnir_base",
+            "22nd_Gungnir_AS_base",
 
             //WD
             "22nd_Gungnir_WDL",
+            "22nd_Gungnir_AS_WDL",
 
             //Winter
             "22nd_Gungnir_WNT",
+            "22nd_Gungnir_AS_WNT",
 
             //customs
 
@@ -66,9 +69,31 @@ class CfgWeapons
 		   };
         };
     };
+    class 22nd_Gungnir_AS_base : MA_Mjolnir_Gungnir_Helmet
+    {
+        scope = 0;
+        scopeArsenal = 0;
+        author = "22nd Mod Team";
+        displayName = "[22nd] Gungnir Armoured Soldier base";
+        model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        subItems[] = {"22nd_Infantry_Nightvision"};
+        class ItemInfo : ItemInfo
+        {
+           subItems[] = {"22nd_Infantry_Nightvision"};
+           class HitpointsProtectionInfo
+		   {
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=20;
+					passThrough=0.1;
+				};
+		   };
+        };
+    };
 
 
-    //Gungnir Base
+    //Gungnir Woodland
     class 22nd_Gungnir_WDL : 22nd_Gungnir_base{
         scope=0;
         scopeArsenal=0;
@@ -85,6 +110,34 @@ class CfgWeapons
         {
             model = "22nd_Gungnir_Helmet";
             Custom = "Trooper";
+            Armour = "Base";
+            Camouflage = "WD";
+        };
+
+        hiddenSelectionsTextures[]=
+        {
+            "z\22ndRDF\addons\uniforms\helmets\Gungnir\data\base\22nd_Woodland_Gungnir_Helmet_CO.paa",
+            "MA_Armor\data\Helmets\Gungnir\Visors\Base_Gungnir_Visor_CO.paa"
+        };
+    };
+
+    class 22nd_Gungnir_AS_WDL : 22nd_Gungnir_AS_base{
+        scope=0;
+        scopeArsenal=0;
+        author= "Astro";
+        displayName= "[22nd] Gungnir Woodland (Armoured Soldier)";
+        picture = "z\22ndRDF\addons\uniforms\helmets\Gungnir\data\base\22ndRDF.paa";
+        hiddenSelections[]=
+        {
+            "Camo1",
+            "Camo2"
+        };
+
+        class XtdGearInfo
+        {
+            model = "22nd_Gungnir_Helmet";
+            Custom = "Trooper";
+            Armour = "AS";
             Camouflage = "WD";
         };
 
@@ -114,6 +167,34 @@ class CfgWeapons
         {
             model = "22nd_Gungnir_Helmet";
             Custom = "Trooper";
+            Armour = "Base";
+            Camouflage = "Winter";
+        };
+
+        hiddenSelectionsTextures[]=
+        {
+            "z\22ndRDF\addons\uniforms\helmets\Gungnir\data\base\22nd_Winter_Gungnir_Helmet_CO.paa",
+            "MA_Armor\data\Helmets\Gungnir\Visors\Base_Gungnir_Visor_CO.paa"
+        };
+    };
+
+    class 22nd_Gungnir_AS_WNT : 22nd_Gungnir_AS_base{
+        scope=0;
+        scopeArsenal=0;
+        author= "Astro";
+        displayName= "[22nd] Gungnir Snow (Armoured Soldier)";
+        picture = "z\22ndRDF\addons\uniforms\helmets\Gungnir\data\base\22ndRDF.paa";
+        hiddenSelections[]=
+        {
+            "Camo1",
+            "Camo2"
+        };
+
+        class XtdGearInfo
+        {
+            model = "22nd_Gungnir_Helmet";
+            Custom = "Trooper";
+            Armour = "AS";
             Camouflage = "Winter";
         };
 
