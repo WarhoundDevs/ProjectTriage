@@ -135,6 +135,7 @@ class XtdGearModels
                     "Relic",
                     "Rya",
                     "Sue",
+                    "Wisha",
                     "Yar",
                     "Zoey",
                 };
@@ -166,11 +167,11 @@ class XtdGearModels
                     label = "Sue";
                     image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
                 };
-                //  class Wisha
-                // {
-                //     label = "Wisha";
-                //     image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
-                // };
+                 class Wisha
+                {
+                    label = "Wisha";
+                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+                };
                 class Yar
                 {
                     label = "Yar";

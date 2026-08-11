@@ -58,7 +58,7 @@ class CfgWeapons
 	{
 		dlc="";
 		displayName="[22nd] M45 Tactical Shotgun";
-		descriptionShort = "M45 8 Gauge Shotgun <br /> Best used for CQB enivroments and when hostiles need to be removed from existance. <br /> Operator can front load specialized rounds atop regular magazine (GL Slot)";
+		descriptionShort = "M45 Tactical Shotgun 8 Gauge <br /> ROF: Pump Action <br />  Breacher's best friend, also has ability to front load utility rounds";
 		baseWeapon="";
 		magazines[]=
 		{
@@ -99,7 +99,7 @@ class CfgWeapons
 					"22nd_MA37_Tail_SoundSet"
 				};
 			};
-			dispersion=4.9999999e-005;
+			dispersion=0.0008726646;
 			minRange=2;
 			minRangeProbab=0.2;
 			midRange=75;

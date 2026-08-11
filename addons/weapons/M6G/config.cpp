@@ -27,10 +27,10 @@ class cfgRecoils
 	class 22nd_recoil_M6G
 	{
 		muzzleInner[] = {0,0,0.1,0.1};
-		muzzleOuter[] = {0.04,1.5,0.2,0.3};
+		muzzleOuter[] = {0.08,1.5,0.3,0.3};
 		kickBack[] = {0.056,0.112};
 		permanent=0;
-		temporary = 0.072;
+		temporary = 0.15;
 	};
 };
 
@@ -58,11 +58,11 @@ class cfgWeapons
 	{
 		dlc="";
 		displayName="[22nd] M6G";
-		descriptionShort = "M6G 12.7x40mm Magnum <br /> Packs a punch and can help substitute weapons with limited range";
-
+		descriptionShort = "M6G 12.7x40mm Magnum <br /> Packs a hell of a punch and can help substitute for primary weapons with limited range";
 		magazines[]=
 		{
-			"22nd_8Rnd_127x40_Mag"
+			"22nd_8Rnd_127x40_Mag",
+			"22nd_16Rnd_127x40_Mag"
 		};
 		magazineWell[] = {};
 		recoil="22nd_recoil_M6G";
@@ -71,7 +71,7 @@ class cfgWeapons
 		HUD_TotalPosibleBullet=16;
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			mass=16;
+			mass = 24;
 			class MuzzleSlot: MuzzleSlot
 			{
 				compatibleitems[]=
@@ -86,13 +86,13 @@ class cfgWeapons
 					"OPTRE_M6G_Scope"
 				};
 			};
-			// class PointerSlot: PointerSlot
-			// {
-			// 	compatibleitems[]=
-			// 	{
-			// 		"OPTRE_M6G_Flashlight", "OPTRE_M6G_Laser", "OPTRE_M6G_Vis_Red_Laser"
-			// 	};
-			// };
+			class PointerSlot: PointerSlot
+			{
+				compatibleitems[]=
+				{
+					"OPTRE_M6G_Flashlight", "OPTRE_M6G_Laser", "OPTRE_M6G_Vis_Red_Laser"
+				};
+			};
 		};
 		class Single: Single
 		{
@@ -109,9 +109,10 @@ class cfgWeapons
 					"22nd_MA37_Tail_SoundSet"
 				};
 			};
-			reloadTime=0.025;
-			recoil="recoil_pistol_light";
-			recoilProne="recoil_prone_pistol_light";
+			flashSize = 0.5;
+			reloadTime = 0.15;
+			recoil="22nd_recoil_M6G";
+			recoilProne = "recoil_prone_pistol_heavy";
 		};
 	};
 };

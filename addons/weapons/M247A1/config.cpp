@@ -62,11 +62,12 @@ class cfgWeapons
 	class 22nd_M247A1: OPTRE_M247A1
 	{
 		displayName="[22nd] M247A1 (MG)";
+		descriptionShort = "M247A1 LMG 762.2x51mm <br /> ROF: 750 RPM / 1000 RPM <br /> 3.5 MOA <br /> Queen of suppresion, Warhound armourers have added a high ROF setting not officially endorsed or supported by the UNSC";
 		canShootInWater=1;
 		baseweapon="22nd_weapon_M247A1";
 		scope=2;
 		ArsenalScope=2;
-		HUD_TotalPosibleBullet=48;
+		HUD_TotalPosibleBullet=250;
 		ACE_Overheating_mrbs=300000;
 		recoil="22nd_recoil_m247A1";
 		recoilProne="22nd_recoil_m247A1";

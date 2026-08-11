@@ -1,4 +1,4 @@
-/*
+
     Weapon Test Framework v0.2
     HintSilent Version
 
@@ -157,4 +157,3 @@ player addEventHandler [
 
 [] call WTF_updateDisplay;
 
-*/

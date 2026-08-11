@@ -110,6 +110,7 @@ class cfgWeapons
 				};
 			};
 			multiplier=1;
+			flashSize = 0.1;
 			recoil="22nd_recoil_M7";
 			recoilProne="22nd_recoil_M7";
 			reloadTime=0.059999999;

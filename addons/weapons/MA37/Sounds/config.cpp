@@ -32,23 +32,23 @@ class cfgSoundShaders
 	class 22nd_MA37_closeShot_SoundShader
 	{
 		samples[] = {{"\z\22ndRDF\addons\weapons\MA37\Sounds\MA37_Close.wav",1}};
-		volume = 2.5;
-		range = 110;
-		rangeCurve[] = {{0,1.2},{50,0.62},{110,0}};
+		volume=1;
+		range=50;
+		rangeCurve[] = {{0,1},{50,0}};
 	};
 	class 22nd_MA37_midShot_SoundShader
 	{
 		samples[] = {{"\z\22ndRDF\addons\weapons\MA37\Sounds\MA37_distant.wav",1}};
-		volume = 1;
-		range = 1800;
-		rangeCurve[] = {{0,0},{50,0.5},{300,0.9},{1800,0}};
+		volume=1.2;
+		range = 3000;
+        rangeCurve[] = { {0,0.2}, {50,1}, {300,0}, {3000,0} };
 	};
 	class 22nd_MA37_distShot_SoundShader
 	{
 		samples[] = {{"\z\22ndRDF\addons\weapons\MA37\Sounds\MA37_far.wav",1}};
-		volume = 1.0;
-		range = 6000;
-		rangeCurve[] = {{0,0},{50,0},{300,0.4},{2400,1},{6000,0}};
+		volume=0.9;
+		range=4000;
+		rangeCurve[] = { {0,0}, {50,0}, {300,1}, {3000,1}, {4000,0}  };
 	};
 	//###################################SUPPRESSED#############################################
 	class 22nd_Suppressed_MA37_closeShot_SoundShader

@@ -62,8 +62,8 @@ class cfgWeapons
 		displayName="[22nd] BR55";
 		canShootInWater=1;
 		baseweapon="";
-		scope=2;
-		ArsenalScope=2;
+		scope=0;
+		ArsenalScope=0;
 		ACE_Overheating_mrbs=300000;
 		recoil="recoil_BR55";
 		recoilProne="recoil_BR55";

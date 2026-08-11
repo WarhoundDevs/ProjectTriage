@@ -1,5 +1,5 @@
-_weapon = "22nd_SRS99C";     //ValkHalo_AudioTest_Mag //ValkHalo_weapon_AudioTest
-_mag = "22nd_6nd_145x114_APFSDS";
+_weapon = "22nd_MA37";     //ValkHalo_AudioTest_Mag //ValkHalo_weapon_AudioTest
+_mag = "22nd_32nd_762x51_FMJ";
 _firemode = "Single";
 
 

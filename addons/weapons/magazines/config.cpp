@@ -31,6 +31,7 @@ class CfgMagazines
 	class OPTRE_6Rnd_8Gauge_Slugs;
 	
 	class OPTRE_8Rnd_127x40_Mag;
+	class OPTRE_16Rnd_127x40_Black_Mag;
 	class OPTRE_12Rnd_127x40_Mag;
     class OPTRE_15Rnd_762x51_Mag;
 	class OPTRE_4Rnd_145x114_APFSDS_Mag;
@@ -262,14 +263,28 @@ class CfgMagazines
 	class 22nd_8Rnd_127x40_Mag: OPTRE_8Rnd_127x40_Mag
 	{
 		count=8;
-		mass=6;
-		initspeed=700;
+		mass=7;
+		initspeed=900;
 		displayName="8rnd AP M6G Mag";
-		displayNameShort="8rnd AP 9.5x40";
-		descriptionShort="8rnd AP 9.5x40";
+		displayNameShort="8rnd AP 127x40";
+		descriptionShort="8rnd AP 127x40";
 		ammo="22nd_B_127x40_FMJ"; //change to magnum round
 		tracersEvery=1;
 	};
+
+	class 22nd_16Rnd_127x40_Mag: OPTRE_16Rnd_127x40_Black_Mag
+	{
+		count=16;
+		mass=15;
+		initspeed=900;
+		displayName="16rnd AP M6G Mag";
+		displayNameShort="16rnd AP 127x40";
+		descriptionShort="8rnd AP 127x40";
+		ammo="22nd_B_127x40_FMJ"; //change to magnum round
+		tracersEvery=1;
+	};
+
+
 
 	
 

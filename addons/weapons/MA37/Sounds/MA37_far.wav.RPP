@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.78/win64" 1786207584 0
+<REAPER_PROJECT 0.1 "7.78/win64" 1786253126 0
   <NOTES 0 2
   >
   RIPPLE 0 0
@@ -19,8 +19,8 @@
   VIDEO_CONFIG 0 0 65792
   PANMODE 3
   PANLAWFLAGS 3
-  CURSOR 0.00542996553467
-  ZOOM 552.48969461169031 0 0
+  CURSOR 0.00358596041381
+  ZOOM 278.86532047290166 0 0
   VZOOMEX 21.87757111 0
   USE_REC_CFG 0
   RECMODE 1
@@ -76,7 +76,7 @@
   MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0 0 1
   MASTERHWOUT 0 0 1 0 0 0 0 -1
   MASTER_NCH 2 2
-  MASTER_VOLUME 0.77445705324066 0 -1 -1 1
+  MASTER_VOLUME 0.73284771783525 0 -1 -1 1
   MASTER_PANMODE 3
   MASTER_PANLAWFLAGS 3
   MASTER_FX 1
@@ -109,7 +109,7 @@
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
-    VOLPAN 1.31013106676666 0 -1 -1 1
+    VOLPAN 1.85162304993878 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -118,7 +118,7 @@
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
     LANEREC -1 -1 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -138,27 +138,27 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 3.68254166666667
+      LENGTH 4.39947916666667
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       SEL 0
-      IGUID {CE0EE1A9-5BAB-4C23-A503-4A57468ECA7F}
-      IID 44
-      NAME MA37V2.wav
+      IGUID {888ECA8F-85A4-41BB-B090-6542B66E3E34}
+      IID 58
+      NAME SCARH_Designed_Dist_Oneshot_1.wav
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {6C877E06-F32D-4FE3-BDD5-FE09BEADCCB0}
+      GUID {EBB4E68D-1723-43F2-801C-B755F868CCDC}
       <SOURCE WAVE
-        FILE "C:\z\22ndRDF\addons\weapons\AudioTest\Sounds\Media\MA37V2.wav"
+        FILE "C:\z\22ndRDF\addons\weapons\AudioTest\Sounds\Media\SCARH_Designed_Dist_Oneshot_1.wav"
       >
       <TAKEFX
-        WNDRECT 24 52 736 461
-        SHOW 0
+        WNDRECT 1656 291 736 461
+        SHOW 4
         LASTSEL 3
         DOCKED 0
         BYPASS 1 0 0
@@ -197,34 +197,34 @@
         BYPASS 0 0 0
         <VST "VST: ReaEQ (Cockos)" reaeq.dll 0 "Gunshot Far" 1919247729<56535472656571726561657100000000> ""
           cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAADwEAAAEAAAAAABAA
-          IQAAAAcAAAAEAAAAAQAAAAAAAAAAgEZAAAAAAAAA8D8AAAAAAAAAQAEAAAAAAQAAAAAAAAAAQFVADkdUHNVz/D9SuB6F61EAQAEIAAAAAQAAAAAAAAAAQGVAsLhbLZjs
-          /z89CtejcD32PwEIAAAAAQAAAAAAAAAAIHxAEG7o98CZ9j89CtejcD32PwEIAAAAAQAAAAAAAAAA4KVAEElIYhM91D89CtejcD32PwEBAAAAAQAAAAAAAAAAlLFAwJN8
-          VxOKyT9SuB6F61EAQAEDAAAAAQAAAAAAAAAAiLNAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAADBMdtWN8PA/AAAAAP0BAABcAQAAAgABAA==
-          AEFSIEZhcgAQAAAA
+          IQAAAAcAAAAEAAAAAQAAAAAAAAAAgEFAAAAAAAAA8D8AAAAAAAAAQAEAAAAAAQAAAAAAAAAAQFVADkdUHNVz/D9SuB6F61EAQAEIAAAAAQAAAAAAAAAAQGVADkdUHNVz
+          /D89CtejcD32PwEIAAAAAQAAAAAAAAAAIHxASwr6ryCF7D89CtejcD32PwEIAAAAAQAAAAAAAAAA4KVAiqvo6n2n5j89CtejcD32PwEBAAAAAQAAAAAAAAAAcLdAUkIz
+          z7kJ4D9SuB6F61EAQAEDAAAAAQAAAAAAAAAAiMNAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAADBMdtWN8PA/AAAAAP0BAABcAQAAAgABAA==
+          AFJpZmxlIERpc3RhbnQAEAAAAA==
         >
-        PRESETNAME "AR Far"
+        PRESETNAME "Rifle Distant"
         FLOATPOS 0 0 0 0
         FXID {68B30FEB-58A0-4A6C-A6F9-DC660D1B0E2B}
         WAK 0 0
         BYPASS 1 0 0
         <VST "VST: ReaComp (Cockos)" reacomp.dll 0 "" 1919247213<5653547265636D726561636F6D700000> ""
           bWNlcu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAFwAAAAAAAAAAAAQAA==
-          776t3g3wrd6traI9ED74PG8Sgzq8dBM9AAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAnNEHMwAAgD8AAAAAzcxMPgAAwD4AAAAAAAAAAAAAgD4AAAAAAAAAAAAAAAA=
-          AEd1bnNob3QgRmFyABAAAAA=
+          776t3g3wrd7Mm4A+tX4lPG8SgzxvEoM8AAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAnNEHMwAAgD8AAAAAzcxMPQAAAD4AAAAAAAAAAAAAgD4AAAAAAAAAAAAAAAA=
+          AEd1bnNob3QgQ2xvc2UAEAAAAA==
         >
-        PRESETNAME "Gunshot Far"
+        PRESETNAME "Gunshot Close"
         FLOATPOS 0 0 0 0
         FXID {DB3DB494-8D9C-4D32-8DA6-5269E9C31104}
         WAK 0 0
         BYPASS 0 0 0
         <JS loser/TransientController ""
-          -30 20 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - "Gunshot Far"
+          20 0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - "Gunshot close"
         >
-        PRESETNAME "Gunshot Far"
+        PRESETNAME "Gunshot close"
         FLOATPOS 0 0 0 0
         FXID {E98A6BB9-F2B3-42AD-A45F-340FFAC614F0}
         WAK 0 0
-        BYPASS 0 0 0
+        BYPASS 1 0 0
         <JS loser/Saturation ""
           10 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - "Gun saturation"
         >
@@ -252,7 +252,7 @@
         WAK 0 0
       >
       <EXT
-        ORIGINAL_FILENAME C:\Users\mishs\OneDrive\Desktop\SoundLibrary\22Arma\MA37V2.wav
+        ORIGINAL_FILENAME "C:\Users\mishs\OneDrive\Desktop\SoundLibrary\Modern Weapons SFX Part II\Modern Weapons SFX Part II\Designed\FN SCAR-H Battle Rifle\SCARH_Designed_Dist_Oneshot_1.wav"
       >
     >
   >
@@ -262,7 +262,7 @@
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
-    VOLPAN 0.26529707233193 0 -1 -1 1
+    VOLPAN 0.96742288549431 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -271,7 +271,7 @@
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
     LANEREC -1 -1 -1 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 64
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -362,28 +362,28 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 0.00180998852011
+      POSITION 0
       SNAPOFFS 0
-      LENGTH 3.68254166666667
+      LENGTH 4.39947916666666
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       SEL 0
-      IGUID {57AFBB46-4BD1-45C6-B361-EAFCCE6191A9}
-      IID 44
-      NAME MA37V2.wav
+      IGUID {AE92B8E1-05E1-4E36-BA52-7F30F19B1179}
+      IID 58
+      NAME SCARH_Designed_Dist_Oneshot_1.wav
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {C14F00CA-8A0F-4513-BDD2-49BA9F4FC719}
+      GUID {1173FF52-D3FC-4ECC-A301-9F0E2FA98537}
       <SOURCE WAVE
-        FILE "C:\z\22ndRDF\addons\weapons\AudioTest\Sounds\Media\MA37V2.wav"
+        FILE "C:\z\22ndRDF\addons\weapons\AudioTest\Sounds\Media\SCARH_Designed_Dist_Oneshot_1.wav"
       >
       <TAKEFX
-        WNDRECT 24 52 736 461
+        WNDRECT 1656 291 736 461
         SHOW 0
         LASTSEL 3
         DOCKED 0
@@ -394,7 +394,7 @@
           AFByb2dyYW0gMQAQAAAA
         >
         FLOATPOS 0 0 0 0
-        FXID {76289BE4-DBC7-4754-9CFB-20C7D3E861DF}
+        FXID {544E1A70-0C12-4837-886E-C6EC0F5A6834}
         WAK 0 0
         BYPASS 1 0 0
         <VST "VST: ReaEQ (Cockos)" reaeq.dll 0 "Gunshot Distant" 1919247729<56535472656571726561657100000000> ""
@@ -406,7 +406,7 @@
         >
         PRESETNAME "Rifle Distant"
         FLOATPOS 0 0 0 0
-        FXID {348EEB83-579D-4FA3-9BDA-0BC16788446D}
+        FXID {BB4C0D53-862D-48E2-9829-4B7759B6F1C4}
         WAK 0 0
         BYPASS 1 0 0
         <VST "VST: ReaEQ (Cockos)" reaeq.dll 0 "Gunshot Close" 1919247729<56535472656571726561657100000000> ""
@@ -418,19 +418,19 @@
         >
         PRESETNAME "Rifle Close"
         FLOATPOS 0 0 0 0
-        FXID {B628C442-BB77-43D8-BE3C-B4A117EFD4B2}
+        FXID {51ABDD7C-1D39-486C-ACCA-5320A3965AD9}
         WAK 0 0
         BYPASS 0 0 0
         <VST "VST: ReaEQ (Cockos)" reaeq.dll 0 "Gunshot Far" 1919247729<56535472656571726561657100000000> ""
           cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAADwEAAAEAAAAAABAA
-          IQAAAAcAAAAEAAAAAQAAAAAAAAAAgEZAAAAAAAAA8D8AAAAAAAAAQAEAAAAAAQAAAAAAAAAAQFVADkdUHNVz/D9SuB6F61EAQAEIAAAAAQAAAAAAAAAAQGVAsLhbLZjs
-          /z89CtejcD32PwEIAAAAAQAAAAAAAAAAIHxAEG7o98CZ9j89CtejcD32PwEIAAAAAQAAAAAAAAAA4KVAEElIYhM91D89CtejcD32PwEBAAAAAQAAAAAAAAAAlLFAwJN8
-          VxOKyT9SuB6F61EAQAEDAAAAAQAAAAAAAAAAiLNAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAADBMdtWN8PA/AAAAAP0BAABcAQAAAgABAA==
-          AEFSIEZhcgAQAAAA
+          IQAAAAcAAAAEAAAAAQAAAAAAAAAAgEFAAAAAAAAA8D8AAAAAAAAAQAEAAAAAAQAAAAAAAAAAQFVADkdUHNVz/D9SuB6F61EAQAEIAAAAAQAAAAAAAAAAQGVADkdUHNVz
+          /D89CtejcD32PwEIAAAAAQAAAAAAAAAAIHxASwr6ryCF7D89CtejcD32PwEIAAAAAQAAAAAAAAAA4KVAiqvo6n2n5j89CtejcD32PwEBAAAAAQAAAAAAAAAAcLdAUkIz
+          z7kJ4D9SuB6F61EAQAEDAAAAAQAAAAAAAAAAiMNAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAADBMdtWN8PA/AAAAAP0BAABcAQAAAgABAA==
+          AFJpZmxlIERpc3RhbnQAEAAAAA==
         >
-        PRESETNAME "AR Far"
+        PRESETNAME "Rifle Distant"
         FLOATPOS 0 0 0 0
-        FXID {164FF5CE-074F-48A8-9020-0A254E9235E2}
+        FXID {E10FDB55-5B92-4C4E-A629-E3D665BA74E8}
         WAK 0 0
         BYPASS 1 0 0
         <VST "VST: ReaComp (Cockos)" reacomp.dll 0 "" 1919247213<5653547265636D726561636F6D700000> ""
@@ -440,24 +440,24 @@
         >
         PRESETNAME "Gunshot Close"
         FLOATPOS 0 0 0 0
-        FXID {D4C72385-E32F-4337-A252-667DBD62A321}
+        FXID {AB286592-4887-46BA-B036-2FEC02A35AF2}
         WAK 0 0
         BYPASS 0 0 0
         <JS loser/TransientController ""
-          -30 20 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - "Gunshot Far"
+          20 0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - "Gunshot close"
         >
-        PRESETNAME "Gunshot Far"
+        PRESETNAME "Gunshot close"
         FLOATPOS 0 0 0 0
-        FXID {F0A923A0-D0CC-4093-86FD-169479B65A6E}
+        FXID {7B0D6B54-8460-4508-9934-D046EBCCE8AA}
         WAK 0 0
-        BYPASS 0 0 0
+        BYPASS 1 0 0
         <JS loser/Saturation ""
           10 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - "Gun saturation"
         >
         JS_DIMS 489 408
         PRESETNAME "Gun saturation"
         FLOATPOS 0 0 0 0
-        FXID {3AC02C22-CB42-4F41-BE41-37A3AA104EAC}
+        FXID {EE410E8A-145E-4E4A-B12B-C660F2609630}
         WAK 0 0
         BYPASS 1 0 0
         <VST "VST: ReaGate (Cockos)" reagate.dll 0 "" 1919248244<56535472656774726561676174650000> ""
@@ -467,18 +467,18 @@
         >
         PRESETNAME "Gun gate"
         FLOATPOS 0 0 0 0
-        FXID {DA6EAC28-432E-42F0-B865-62D5FD46B222}
+        FXID {EAB48523-ADC8-4DD0-AE6D-6DDECB3E34F3}
         WAK 0 0
         BYPASS 0 0 0
         <JS sstillwell/eventhorizon2 ""
           0 -1 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
         >
         FLOATPOS 0 0 0 0
-        FXID {638C3A5D-D757-4AD9-98CA-6B26B2A4CB96}
+        FXID {CB9B0EA0-267A-492F-B05A-A77896C40648}
         WAK 0 0
       >
       <EXT
-        ORIGINAL_FILENAME C:\Users\mishs\OneDrive\Desktop\SoundLibrary\22Arma\MA37V2.wav
+        ORIGINAL_FILENAME "C:\Users\mishs\OneDrive\Desktop\SoundLibrary\Modern Weapons SFX Part II\Modern Weapons SFX Part II\Designed\FN SCAR-H Battle Rifle\SCARH_Designed_Dist_Oneshot_1.wav"
       >
     >
   >

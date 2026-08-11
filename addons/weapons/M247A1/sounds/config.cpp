@@ -42,9 +42,9 @@ class cfgSoundShaders
 				1
 			}
 		};
-		volume=3;
-		range=110;
-		rangeCurve[] = {{0,1.5},{50,0.62},{110,0}};
+		volume=1;
+		range=50;
+		rangeCurve[] = {{0,1},{50,0}};
 	};
 	class 22nd_M247A1_midShot_SoundShader
 	{
@@ -56,9 +56,9 @@ class cfgSoundShaders
 				1
 			}
 		};
-		volume=1.4;
-		range=1800;
-		rangeCurve[] = {{0,0},{50,0.6},{300,1.2},{2400,0}};
+		volume=1.2;
+		range = 3000;
+        rangeCurve[] = { {0,0.2}, {50,1}, {300,0}, {3000,0} };
 	};
 	class 22nd_M247A1_distShot_SoundShader
 	{
@@ -70,9 +70,9 @@ class cfgSoundShaders
 				1
 			}
 		};
-		volume=1.4;
+		volume=0.9;
 		range=4000;
-		rangeCurve[] = {{0,0},{50,0},{300,0.6},{2400,1.2},{6000,0}};
+		rangeCurve[] = { {0,0}, {50,0}, {300,1}, {3000,1}, {4000,0}  };
 	};
 	class 22nd_Suppressed_M247A1_closeShot_SoundShader
 	{

@@ -39,7 +39,7 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
 
 	class 22nd_B_8g_Buck_shell: B_12Gauge_Pellets_Submunition
 	{
-		submunitionAmmo="22nd_ammo_8g_Buck";
+		submunitionAmmo="22nd_B_8g_Buck";
 		submunitionConeAngle=1.5;
 		submunitionConeType[]=
 		{
@@ -52,8 +52,8 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
 		fuseDistance=0;
 		grenadeBurningSound[]={};
 		grenadeFireSound[]={};
-		hit=20;
-		caliber=1;
+		hit=10;
+		caliber=3;
 		thrust=210;
 		thrustTime=1.5;
 		timeToLive=6;
@@ -134,32 +134,33 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
   
 	class 22nd_B_5x23: B_65x39_Caseless
 	{
-		caliber=1.7;
+		caliber=1.8;
 		timetolive=15;
 		hit=9;
+		cartridge = "FxCartridge_9mm";
 		model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
 	};
 	class 22nd_5x23_AP: B_65x39_Caseless
 	{
-		caliber=2;
+		caliber=2.2;
 		timetolive=15;
 		hit=10;
-		cartridge="FxCartridge_65_caseless";
+		cartridge = "FxCartridge_9mm";
 		model="\A3\Weapons_f\Data\bullettracer\tracer_red";
 	};
 	class 22nd_5x23_SS: B_65x39_Caseless
 	{
-		caliber=1.5;
+		caliber=1.8;
 		timetolive=15;
 		hit=23;
-		cartridge="FxCartridge_65_caseless";
+		cartridge = "FxCartridge_9mm";
 	};
 
 	class 22nd_B_127x40_FMJ: B_127x33_Ball
 	{
-		caliber=2.42;
-		hit=14;
-		cartridge="FxCartridge_65_caseless";
+		caliber=2.5;
+		hit=18;
+		cartridge = "FxCartridge_9mm";
 	};
 };
 

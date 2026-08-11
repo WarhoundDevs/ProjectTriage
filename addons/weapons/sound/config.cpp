@@ -264,7 +264,7 @@ class CfgSoundSets
 
 	class 22nd_tail_SoundSet 
 	{
-		soundShaders[] = {"22nd_rifle_tailTrees_SoundShader","22nd_rifle_tailForest_SoundShader","22nd_rifle_tailMeadows_SoundShader","22nd_rifle_tailHouses_SoundShader"};
+		soundShaders[] = {"22nd_rifle_tailInterior_SoundShader","22nd_rifle_tailTrees_SoundShader","22nd_rifle_tailForest_SoundShader","22nd_rifle_tailMeadows_SoundShader","22nd_rifle_tailHouses_SoundShader"};
 		volumeFactor = 0.5;
 		volumeCurve = "22nd_tail_soundCurve";
 		stereoStartDistance = 0;
@@ -283,7 +283,7 @@ class CfgSoundSets
 	
 	class 22nd_tail_small_SoundSet 
 	{
-		soundShaders[] = {"22nd_rifle_tailTrees_SoundShader","22nd_rifle_tailForest_SoundShader","22nd_rifle_tailMeadows_SoundShader","22nd_rifle_tailHouses_SoundShader"};
+		soundShaders[] = {"22nd_rifle_tailInterior_SoundShader","22nd_rifle_tailTrees_SoundShader","22nd_rifle_tailForest_SoundShader","22nd_rifle_tailMeadows_SoundShader","22nd_rifle_tailHouses_SoundShader"};
 		volumeFactor = 0.45;
 		volumeCurve = "22nd_tail_soundCurve";
 		stereoStartDistance = 0;
@@ -301,7 +301,7 @@ class CfgSoundSets
 	};			
 	class 22nd_tail_Launcher_SoundSet 
 	{
-		soundShaders[] = {"22nd_rifle_tailTrees_SoundShader","22nd_rifle_tailForest_SoundShader","22nd_rifle_tailMeadows_SoundShader","22nd_rifle_tailHouses_SoundShader"};
+		soundShaders[] = {"22nd_rifle_tailInterior_SoundShader","22nd_rifle_tailTrees_SoundShader","22nd_rifle_tailForest_SoundShader","22nd_rifle_tailMeadows_SoundShader","22nd_rifle_tailHouses_SoundShader"};
 		volumeFactor = 0.60;
 		volumeCurve = "22nd_tail_soundCurve";
 		stereoStartDistance = 0;
@@ -320,7 +320,7 @@ class CfgSoundSets
 
 	class 22ndSD_tail_SoundSet 
 	{
-		soundShaders[] = {" 22nd_sdRifle_tailExterior_SoundShader","alkHalo_sdRifle_tailInterior_SoundShader"};
+		soundShaders[] = {"22nd_rifle_tailInterior_SoundShader","22nd_sdRifle_tailExterior_SoundShader","alkHalo_sdRifle_tailInterior_SoundShader"};
 		volumeFactor = 0.54;
 		volumeCurve = "22nd_tail_soundCurve";
 		stereoStartDistance = 0;
@@ -338,7 +338,7 @@ class CfgSoundSets
 	};	
 	class 22nd_tail_sniper_SoundSet 
 	{
-		soundShaders[] = {"22nd_rifle_tailTrees_SoundShader","22nd_rifle_tailForest_SoundShader","22nd_rifle_tailMeadows_SoundShader","22nd_rifle_tailHouses_SoundShader"};
+		soundShaders[] = {"22nd_rifle_tailInterior_SoundShader","22nd_rifle_tailTrees_SoundShader","22nd_rifle_tailForest_SoundShader","22nd_rifle_tailMeadows_SoundShader","22nd_rifle_tailHouses_SoundShader"};
 		volumeFactor = 0.74;
 		volumeCurve = "22nd_tail_soundCurve";
 		stereoStartDistance = 0;
@@ -356,7 +356,7 @@ class CfgSoundSets
 	};	
 	class 22ndSD_tail_Sniper_SoundSet 
 	{
-		soundShaders[] = {"22nd_rifle_tailTrees_SoundShader","22nd_rifle_tailForest_SoundShader","22nd_rifle_tailMeadows_SoundShader","22nd_rifle_tailHouses_SoundShader"};
+		soundShaders[] = {"22nd_rifle_tailInterior_SoundShader","22nd_rifle_tailTrees_SoundShader","22nd_rifle_tailForest_SoundShader","22nd_rifle_tailMeadows_SoundShader","22nd_rifle_tailHouses_SoundShader"};
 		volumeFactor = 0.62;
 		volumeCurve = "22nd_tail_soundCurve";
 		stereoStartDistance = 2;
@@ -375,7 +375,7 @@ class CfgSoundSets
 	};		
 	class 22nd_tail_DMR_SoundSet 
 	{
-		soundShaders[] = {"22nd_rifle_tailTrees_SoundShader","22nd_rifle_tailForest_SoundShader","22nd_rifle_tailMeadows_SoundShader","22nd_rifle_tailHouses_SoundShader"};
+		soundShaders[] = {"22nd_rifle_tailInterior_SoundShader","22nd_rifle_tailTrees_SoundShader","22nd_rifle_tailForest_SoundShader","22nd_rifle_tailMeadows_SoundShader","22nd_rifle_tailHouses_SoundShader"};
 		volumeFactor = 0.96;
 		volumeCurve = "22nd_tail_soundCurve";
 		stereoStartDistance = 0;
