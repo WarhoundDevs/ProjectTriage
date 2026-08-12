@@ -18,6 +18,11 @@ class CfgPatches
 
             //customs
 
+            //Frog
+            "22nd_Gungnir_Frog_WDL",
+            "22nd_Gungnir_Frog_AS_WDL",
+            "22nd_Gungnir_Frog_WNT",
+            "22nd_Gungnir_Frog_AS_WNT",
 
             // Step 6. New Custom Above this text, spaced from previous name ^
             // Use "tab" or "shift tab" to help neaten up the block of class names when all highlighted.
@@ -95,15 +100,14 @@ class CfgWeapons
 
     //Gungnir Woodland
     class 22nd_Gungnir_WDL : 22nd_Gungnir_base{
-        scope=0;
-        scopeArsenal=0;
+        scope=2;
+        scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] Gungnir Woodland";
         picture = "z\22ndRDF\addons\uniforms\helmets\Gungnir\data\base\22ndRDF.paa";
         hiddenSelections[]=
         {
-            "Camo1",
-            "Camo2"
+            "Camo1"
         };
 
         class XtdGearInfo
@@ -116,21 +120,19 @@ class CfgWeapons
 
         hiddenSelectionsTextures[]=
         {
-            "z\22ndRDF\addons\uniforms\helmets\Gungnir\data\base\22nd_Woodland_Gungnir_Helmet_CO.paa",
-            "MA_Armor\data\Helmets\Gungnir\Visors\Base_Gungnir_Visor_CO.paa"
+            "z\22ndRDF\addons\uniforms\helmets\Gungnir\data\base\WDL_Gungnir_Helmet_CO.paa",
         };
     };
 
     class 22nd_Gungnir_AS_WDL : 22nd_Gungnir_AS_base{
-        scope=0;
-        scopeArsenal=0;
+        scope=2;
+        scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] Gungnir Woodland (Armoured Soldier)";
         picture = "z\22ndRDF\addons\uniforms\helmets\Gungnir\data\base\22ndRDF.paa";
         hiddenSelections[]=
         {
-            "Camo1",
-            "Camo2"
+            "Camo1"
         };
 
         class XtdGearInfo
@@ -143,8 +145,7 @@ class CfgWeapons
 
         hiddenSelectionsTextures[]=
         {
-            "z\22ndRDF\addons\uniforms\helmets\Gungnir\data\base\22nd_Woodland_Gungnir_Helmet_CO.paa",
-            "MA_Armor\data\Helmets\Gungnir\Visors\Base_Gungnir_Visor_CO.paa"
+            "z\22ndRDF\addons\uniforms\helmets\Gungnir\data\base\WDL_AS_Gungnir_Helmet_CO.paa"
         };
     };
 
@@ -159,8 +160,7 @@ class CfgWeapons
         picture = "z\22ndRDF\addons\uniforms\helmets\Gungnir\data\base\22ndRDF.paa";
         hiddenSelections[]=
         {
-            "Camo1",
-            "Camo2"
+            "Camo1"
         };
 
         class XtdGearInfo
@@ -173,8 +173,7 @@ class CfgWeapons
 
         hiddenSelectionsTextures[]=
         {
-            "z\22ndRDF\addons\uniforms\helmets\Gungnir\data\base\22nd_Winter_Gungnir_Helmet_CO.paa",
-            "MA_Armor\data\Helmets\Gungnir\Visors\Base_Gungnir_Visor_CO.paa"
+            "z\22ndRDF\addons\uniforms\helmets\Gungnir\data\base\WNT_Gungnir_Helmet_CO.paa"
         };
     };
 
@@ -186,8 +185,7 @@ class CfgWeapons
         picture = "z\22ndRDF\addons\uniforms\helmets\Gungnir\data\base\22ndRDF.paa";
         hiddenSelections[]=
         {
-            "Camo1",
-            "Camo2"
+            "Camo1"
         };
 
         class XtdGearInfo
@@ -200,12 +198,13 @@ class CfgWeapons
 
         hiddenSelectionsTextures[]=
         {
-            "z\22ndRDF\addons\uniforms\helmets\Gungnir\data\base\22nd_Winter_Gungnir_Helmet_CO.paa",
-            "MA_Armor\data\Helmets\Gungnir\Visors\Base_Gungnir_Visor_CO.paa"
+            "z\22ndRDF\addons\uniforms\helmets\Gungnir\data\base\WNT_AS_Gungnir_Helmet_CO.paa"
         };
     };
 
 
     //// CUSTOM INCLUDES GO UNDER HERE
+
+    #include "customHelmets/Frog/FrogCustomHelmet.hpp"
 
 };

@@ -14,14 +14,20 @@ class XtdGearModels
             };
             class Custom
             {
-                label = "Trooper";
+                label = "Custom";
                 values[] =
                 {
-                    "Trooper"
+                    "Trooper",
+                    "Frog"
                 };
                 class Trooper
                 {
                     label = "Trooper";
+                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+                };
+                class Frog
+                {
+                    label = "Frog";
                     image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
                 };
             };
