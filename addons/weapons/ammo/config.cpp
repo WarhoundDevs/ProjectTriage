@@ -25,6 +25,7 @@ class CfgPatches
 
 class CfgAmmo //Review and make sure ace ballistics and such is properly configured, also maybe make a "base" bullet for each calibre?
 {
+	class BulletBase;
     class B_762x51_Ball;
     class B_12Gauge_Slug;
 	class B_12Gauge_Pellets_Submunition;
@@ -37,39 +38,147 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
 
 	/// Shotgun ///
 
-	class 22nd_B_8g_Buck_shell: B_12Gauge_Pellets_Submunition
+	
+
+	class 22nd_B_8g_Magnum: B_12Gauge_Pellets_Submunition_Deploy
 	{
-		submunitionAmmo="22nd_B_8g_Buck";
-		submunitionConeAngle=1.5;
+		hit=7;
+		caliber=3;
+		typicalSpeed=360;
+		triggerDistance=0;
+		model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
+		tracerScale = 0.3;
+		tracerStartTime = 0;
+		tracerEndTime = 2;
+	};
+	
+
+	class 22nd_B_8g_Moa: B_12Gauge_Pellets_Submunition_Deploy
+	{
+		hit=3.5;
+		caliber=3;
+		typicalSpeed=420;
+		triggerDistance=0;
+		model = "\A3\Weapons_f\Data\bullettracer\tracer_white";
+		tracerScale = 0.1;
+		tracerStartTime = 0;
+		tracerEndTime = 2;
+	};
+
+	class 22nd_B_8g_Hound: B_12Gauge_Pellets_Submunition_Deploy
+	{
+		hit=12;
+		airFriction = -0.00103711;
+		caliber=3;
+		typicalSpeed=700;
+		triggerDistance=0;
+		model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
+		tracerScale = 0.8;
+		tracerStartTime = 0;
+		tracerEndTime = 4;
+	};
+
+	class 22nd_B_8g_Flash: BulletBase
+	{
+		hit = 0;
+        indirectHit = 0;
+        indirectHitRange = 0;
+		airFriction = -0.001;
+		caliber=0.5;
+		explosionEffects = "ExploFlashbang";  // reuse vanilla/ACE flash effect class name if present in your load order
+        soundHit[] = {"", 0, 1};              // silence the default bullet-hit sound so it doesn't play alongside the bang
+        multiSoundHit[] = {};
+        multiSoundHitEffect[] = {};
+		explosionTime = 1.3;
+		deflecting = 80;
+		deflectionSlowDown = 0.2;
+		ace_grenades_flashbang = 1;
+		ace_grenades_flashbangBangs = 1;
+		ace_grenades_flashbangInterval = 0.05;
+		ace_grenades_flashbangIntervalMaxDeviation = 0.001;
+		timeToLive = 2;
+		typicalSpeed=700;
+		fuseDistance = 0;
+		whistleOnFire = 0;
+		model = "\A3\Weapons_f\Data\bullettracer\tracer_white";
+		tracerScale = 1;
+	};
+
+	class 22nd_B_8g_Magnum_shell: B_12Gauge_Pellets_Submunition
+	{
+		submunitionAmmo="22nd_B_8g_Magnum";
+		submunitionConeAngle=0.6;
 		submunitionConeType[]=
 		{
 			"poissondisc",
 			16
 		};
+		submunitionInitSpeed=400;
+		submunitionParentSpeedCoef=0;
+		triggerTime=0;
+		timeToLive=6;
+		triggerDistance=0;
+
+		typicalSpeed=900;
 		indirectHit=0;
 		indirectHitRange=0;
 		explosive=0;
 		fuseDistance=0;
-		grenadeBurningSound[]={};
-		grenadeFireSound[]={};
 		hit=10;
 		caliber=3;
 		thrust=210;
-		thrustTime=1.5;
+	};
+
+	class 22nd_B_8g_Moa_shell: B_12Gauge_Pellets_Submunition
+	{
+		submunitionAmmo="22nd_B_8g_Moa";
+		submunitionConeAngle=1.2;
+		submunitionConeType[]=
+		{
+			"poissondisc",
+			32
+		};
+
+		submunitionInitSpeed=350;
+		submunitionParentSpeedCoef=0;
+		triggerTime=0;
 		timeToLive=6;
 		triggerDistance=0;
+
 		typicalSpeed=900;
+		indirectHit=0;
+		indirectHitRange=0;
+		explosive=0;
+		fuseDistance=0;
+		hit=10;
+		caliber=3;
+		thrust=210;
+		
 	};
-	class 22nd_B_8g_Buck: B_12Gauge_Pellets_Submunition_Deploy
+
+	class 22nd_B_8g_Hound_shell: B_12Gauge_Pellets_Submunition
 	{
-		hit=7;
-		caliber=1.5;
-		typicalSpeed=360;
+		submunitionAmmo="22nd_B_8g_Hound";
+		submunitionConeAngle=0.1;
+		submunitionConeType[]=
+		{
+			"poissondisc",
+			6
+		};
+		submunitionInitSpeed=600;
+		submunitionParentSpeedCoef=0;
+		triggerTime=0;
+		timeToLive=6;
 		triggerDistance=0;
-		model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
-		tracerScale = 0.5;
-		tracerStartTime = 0;
-		tracerEndTime = 2;
+
+		typicalSpeed=900;
+		indirectHit=0;
+		indirectHitRange=0;
+		explosive=0;
+		fuseDistance=0;
+		hit=10;
+		caliber=3;
+		thrust=210;
 	};
 
 	class 22nd_B_8g_Slug_AP: B_12Gauge_Slug //switch to vanilla base class and make tracer
@@ -78,6 +187,24 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
 		caliber=4.5;
 		typicalSpeed=360;
 		triggerDistance=0;
+	};
+
+	class 22nd_B_8g_Slug_Flash: B_12Gauge_Slug //switch to vanilla base class and make tracer
+	{
+		hit=0;
+		caliber=1;
+		typicalSpeed=360;
+		submunitionAmmo="22nd_B_8g_Flash";
+		submunitionConeAngle=1;
+		submunitionConeType[]=
+		{
+			"poissondisc",
+			6
+		};
+		triggerOnImpact=1;
+		submunitionInitSpeed=200;
+		submunitionParentSpeedCoef=0;
+		timeToLive=6;
 	};
 
 	/// Rifle ///

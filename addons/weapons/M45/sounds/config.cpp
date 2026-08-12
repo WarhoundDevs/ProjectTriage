@@ -39,9 +39,9 @@ class cfgSoundShaders
 				1
 			}
 		};
-		volume=1.3;
-		range=100;
-		rangeCurve[] = {{0,1.2},{50,0.8},{110,0}};
+		volume=1.1;
+		range=50;
+		rangeCurve[] = {{0,1},{50,0}};
 	};
 	class 22nd_M45_midShot_SoundShader
 	{
@@ -54,8 +54,8 @@ class cfgSoundShaders
 			}
 		};
 		volume=1;
-		range=1800;
-		rangeCurve[] = {{0,0},{50,0.8},{300,1},{2400,0}};
+		range = 3000;
+        rangeCurve[] = { {0,0.2}, {50,1}, {300,0}, {3000,0} };
 	};
 	class 22nd_M45_distShot_SoundShader
 	{
@@ -67,9 +67,9 @@ class cfgSoundShaders
 				1
 			}
 		};
-		volume=1;
+		volume=0.9;
 		range=4000;
-		rangeCurve[] = {{0,0},{50,0},{300,0.4},{2400,1.5},{6000,0}};
+		rangeCurve[] = { {0,0}, {50,0}, {300,1}, {3000,1}, {4000,0}  };
 	};
 	class 22nd_Suppressed_M45_closeShot_SoundShader
 	{

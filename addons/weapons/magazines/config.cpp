@@ -44,27 +44,87 @@ class CfgMagazines
 
 	/// Shotgun ///
 
-	class 22nd_mag_m45_Buck: OPTRE_6Rnd_8Gauge_Pellets
+	class 22nd_6rnd_m45_Magnum: OPTRE_6Rnd_8Gauge_Pellets
 	{
 		count=8;
 		mass=8;
 		initspeed=500;
-		displayName="8rnd 08 Gauge Buckshot";
-		displayNameShort="8rnd 8G Buckshot";
-		descriptionShort="8rnd 8G Buckshot";
-		ammo="22nd_B_8g_Buck_shell";
+		displayName="6rnd 08-GA 0000 Magnum";
+		displayNameShort="6rnd 08 MAGNUM";
+		descriptionShort="6rnd 08-GA 0000 Magnum";
+		ammo="22nd_B_8g_Magnum_shell";
 		tracersEvery=1;
 	};
 
-	class 22nd_mag_M45_Slug: OPTRE_6Rnd_8Gauge_Slugs
+	class 22nd_2rnd_m45_Magnum: OPTRE_6Rnd_8Gauge_Pellets // Front load
+	{
+		count=2;
+		mass=2;
+		initspeed=500;
+		displayName="2rnd FRONT 08-GA 0000 Magnum";
+		displayNameShort="2rnd FRONT 08 MAGNUM";
+		descriptionShort="6rnd 08-GA 0000 Magnum";
+		ammo="22nd_B_8g_Magnum_shell";
+		tracersEvery=1;
+	};
+
+	class 22nd_6rnd_m45_Moa: OPTRE_6Rnd_8Gauge_Pellets
+	{
+		count=8;
+		mass=8;
+		initspeed=500;
+		displayName="6rnd 08-GA 00B Moa-shot";
+		displayNameShort="6rnd 08 00B MOA";
+		descriptionShort="6rnd 08-GA 00B Moa-shot";
+		ammo="22nd_B_8g_Moa_shell";
+		tracersEvery=1;
+	};
+
+	class 22nd_6rnd_m45_Hound: OPTRE_6Rnd_8Gauge_Pellets
+	{
+		count=8;
+		mass=8;
+		initspeed=500;
+		displayName="6rnd 08-GA 0022 Hound-shot";
+		displayNameShort="6rnd 08 HOUND";
+		descriptionShort="6rnd 08-GA 0022 Hound-shot";
+		ammo="22nd_B_8g_Hound_shell";
+		tracersEvery=1;
+	};
+
+	class 22nd_6rnd_M45_Slug: OPTRE_6Rnd_8Gauge_Slugs
 	{
 		count=8;
 		mass=8;
 		initspeed=800;
-		displayName="8rnd 08 Gauge AP Slug";
-		displayNameShort="8rnd 8g AP Slug";
-		descriptionShort="8rnd 8g AP Slug";
+		displayName="6rnd 08 Gauge AP Slug";
+		displayNameShort="6rnd 8g AP Slug";
+		descriptionShort="6rnd 8g AP Slug";
 		ammo="22nd_B_8g_Slug_AP";
+		tracersEvery=1;
+	};
+
+	class 22nd_6rnd_m45_Flash: OPTRE_6Rnd_8Gauge_Slugs
+	{
+		count=8;
+		mass=8;
+		initspeed=400;
+		displayName="6rnd 08-GA Flash-shot";
+		displayNameShort="6rnd 08 Flash";
+		descriptionShort="6rnd 08-GA Flash";
+		ammo="22nd_B_8g_Flash";
+		tracersEvery=1;
+	};
+
+	class 22nd_3rnd_m45_Flash: OPTRE_6Rnd_8Gauge_Pellets
+	{
+		count=2;
+		mass=8;
+		initspeed=400;
+		displayName="3rnd 08-GA Flash-shot";
+		displayNameShort="3rnd 08 Flash";
+		descriptionShort="3rnd 08-GA Flash";
+		ammo="22nd_B_8g_Flash";
 		tracersEvery=1;
 	};
 

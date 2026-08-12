@@ -28,7 +28,7 @@ class cfgRecoils
 	{
 		muzzleInner[] = {0,0,0.1,0.1};
 		muzzleOuter[] = {0.08,1.5,0.3,0.3};
-		kickBack[] = {0.056,0.112};
+		kickBack[] = {0.08,0.22};
 		permanent=0;
 		temporary = 0.15;
 	};
@@ -67,6 +67,7 @@ class cfgWeapons
 		magazineWell[] = {};
 		recoil="22nd_recoil_M6G";
 		baseWeapon="";
+		inertia = 0.25;
 		HUD_BulletInARows=1;
 		HUD_TotalPosibleBullet=16;
 		class WeaponSlotsInfo: WeaponSlotsInfo
