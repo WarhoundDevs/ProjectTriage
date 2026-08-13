@@ -70,7 +70,7 @@ class cfgSoundShaders
 				1
 			}
 		};
-		volume=0.9;
+		volume=1.5;
 		range=4000;
 		rangeCurve[] = { {0,0}, {50,0}, {300,1}, {3000,1}, {4000,0}  };
 	};
@@ -138,7 +138,7 @@ class cfgSoundSets
 			"22nd_M247A1_midShot_SoundShader",
 			"22nd_M247A1_distShot_SoundShader"
 		};
-		volumeFactor=2;
+		volumeFactor=1.25;
 		// frequencyRandomizer=0.5;
 		// frequencyRandomizermin=0.2;
 	};

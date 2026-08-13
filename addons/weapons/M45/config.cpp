@@ -149,7 +149,7 @@ class CfgWeapons
 					soundSetShot[]=
 					{
 						"22nd_M45_Shot_SoundSet",
-						"22nd_tail_DMR_SoundSet"
+						"22nd_tail_Shotgun_SoundSet"
 					};
 				};
 				class SilencedSound: StandardSound

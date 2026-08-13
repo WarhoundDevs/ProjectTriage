@@ -364,7 +364,7 @@ class CfgWeapons
 
 		class 22nd_M301UGL : UGL_F
 		{
-			displayName = "[VK] M301 Grenade Launcher";
+			displayName = "M301 Grenade Launcher";
 			descriptionShort = "M301 GL";
 
 			cursor = "EmptyCursor";

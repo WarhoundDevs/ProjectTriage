@@ -29,7 +29,7 @@ class cfgSoundShaders
 				1
 			}
 		};
-		volume = 0; //remove or adjust value after closure is added
+		volume = 1; //remove or adjust value after closure is added
 	};
 	class 22nd_M6G_closeShot_SoundShader
 	{
@@ -41,7 +41,7 @@ class cfgSoundShaders
 				1
 			}
 		};
-		volume=1.1;
+		volume=1;
 		range=50;
 		rangeCurve[] = {{0,1},{50,0}};
 	};
@@ -69,7 +69,7 @@ class cfgSoundShaders
 				1
 			}
 		};
-		volume=0.9;
+		volume=1;
 		range=4000;
 		rangeCurve[] = { {0,0}, {50,0}, {300,1}, {3000,1}, {4000,0}  };
 	};
@@ -86,7 +86,7 @@ class cfgSoundSets
 			"22nd_M6G_midShot_SoundShader",
 			"22nd_M6G_distShot_SoundShader"
 		};
-		// volumeFactor=1;
+		volumeFactor=2;
 		// frequencyRandomizer=1.1;
 		// frequencyRandomizermin=0.34999999;
 	};

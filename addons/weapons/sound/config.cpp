@@ -58,43 +58,445 @@ class cfgSoundShaders
 		limitation = 1;	
 	};	
 
+	// Rifle Tail
 
-
-	class 22nd_rifle_tailInterior_SoundShader
+	class 22nd_rifle_tailInterior_close_SoundShader
 	{
-		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\RifleTailIIndoor.wss",1}};
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Rifle\rifle_tailInterior_close.wav",1}};
 		volume = "1.68 * interior";
-		range = 800;
+		rangeCurve[] = { {0,1}, {25,0} };
+		range = 25;
 		limitable = 1;
 	};
-	class 22nd_rifle_tailTrees_SoundShader
+	
+	class 22nd_rifle_tailInterior_distant_SoundShader
 	{
-		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\RifleTailWoods.wss",1}};
-		volume = "(1-interior/1.4)*trees/3";
-		range = 1000;
-		limitation = 1;
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Rifle\rifle_tailInterior_distant.wav",1}};
+		volume = "1.68 * interior";
+		rangeCurve[] = { {0,0}, {25,1}, {100,0}, {300,0}  };
+		range = 300;
+		limitable = 1;
 	};
-	class 22nd_rifle_tailForest_SoundShader
+
+	class 22nd_rifle_tailInterior_far_SoundShader
 	{
-		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\RifleTailWoods.wss",1}};
-		volume = "(1-interior/1.4)*forest/3";
-		range = 1000;
-		limitation = 1;
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Rifle\rifle_tailInterior_far.wav",1}};
+		volume = "1.68 * interior";
+		rangeCurve[] = { {0,0}, {25,0}, {100,1}, {300,0}   };
+		range = 300;
+		limitable = 1;
 	};
-	class 22nd_rifle_tailMeadows_SoundShader
+
+	// Houses / Urban
+	class 22nd_rifle_tailHouses_close_SoundShader
 	{
-		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\RifleOurdoors.wss",1}};
-		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
-		range = 1000;
-		limitation = 1;
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Rifle\rifle_tailUrban_close.wav",1}};
+		volume = "(1-interior/1.4)*houses/3";
+		range = 50;
+		rangeCurve[] = { {0,1}, {50,0} };
+		limitable = 1;
 	};
-	class 22nd_rifle_tailHouses_SoundShader
+
+	class 22nd_rifle_tailHouses_distant_SoundShader
 	{
-		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\RifleTailHouse.wss",1}};
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Rifle\rifle_tailUrban_distant.wav",1}};
 		volume = "(1-interior/1.4)*houses/3";
 		range = 1000;
-		limitation = 1;
+        rangeCurve[] = { {0,0.1}, {50,1}, {300,0}, {1000,0} };
+		limitable = 1;
 	};
+
+	class 22nd_rifle_tailHouses_far_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Rifle\rifle_tailUrban_far.wav",1}};
+		volume = "(1-interior/1.4)*houses/3";
+		range = 1000;
+        rangeCurve[] = { {0,0.1}, {50,0}, {300,1}, {1000,0} };
+		limitable = 1;
+	};
+
+
+	// Trees
+	class 22nd_rifle_tailTrees_close_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Rifle\rifle_tailForest_close.wav",1}};
+		volume = "(1-interior/1.4)*trees/3";
+		range = 50;
+		rangeCurve[] = { {0,1}, {50,0} };
+		limitable = 1;
+	};
+
+	class 22nd_rifle_tailTrees_distant_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Rifle\rifle_tailForest_distant.wav",1}};
+		volume = "(1-interior/1.4)*trees/3";
+		range = 1000;
+        rangeCurve[] = { {0,0.1}, {50,1}, {300,0}, {1000,0} };
+		limitable = 1;
+	};
+
+	class 22nd_rifle_tailTrees_far_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Rifle\rifle_tailForest_far.wav",1}};
+		volume = "(1-interior/1.4)*trees/3";
+		range = 1000;
+        rangeCurve[] = { {0,0.1}, {50,0}, {300,1}, {1000,0} };
+		limitable = 1;
+	};
+
+
+    // forest
+	class 22nd_rifle_tailForest_close_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Rifle\rifle_tailForest_close.wav",1}};
+		volume = "(1-interior/1.4)*forest/3";
+		range = 50;
+		rangeCurve[] = { {0,1}, {50,0} };
+		limitable = 1;
+	};
+
+	class 22nd_rifle_tailForest_distant_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Rifle\rifle_tailForest_distant.wav",1}};
+		volume = "(1-interior/1.4)*forest/3";
+		range = 1000;
+        rangeCurve[] = { {0,0.1}, {50,1}, {300,0}, {1000,0} };
+		limitable = 1;
+	};
+
+	class 22nd_rifle_tailForest_far_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Rifle\rifle_tailForest_far.wav",1}};
+		volume = "(1-interior/1.4)*forest/3";
+		range = 1000;
+        rangeCurve[] = { {0,0.1}, {50,0}, {300,1}, {1000,0} };
+		limitable = 1;
+	};
+
+
+	//meadows
+	class 22nd_rifle_tailMeadows_close_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Rifle\rifle_tailMeadows_close.wav",1}};
+		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
+		range = 50;
+		rangeCurve[] = { {0,2}, {50,0} };
+		limitable = 1;
+	};
+
+	class 22nd_rifle_tailMeadows_distant_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Rifle\rifle_tailMeadows_distant.wav",1}};
+		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
+		range = 1000;
+        rangeCurve[] = { {0,0.1}, {50,1}, {300,0}, {1000,0} };
+		limitable = 1;
+	};
+
+	class 22nd_rifle_tailMeadows_far_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Rifle\rifle_tailMeadows_far.wav",1}};
+		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
+		range = 1000;
+        rangeCurve[] = { {0,0.1}, {50,0}, {300,1}, {1000,0} };
+		limitable = 1;
+	};
+
+
+
+
+
+	//MG
+	class 22nd_MG_tailInterior_close_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\MG\MG_tailInterior_close.wav",1}};
+		volume = "1.68 * interior";
+		rangeCurve[] = { {0,1}, {25,0} };
+		range = 25;
+		limitable = 1;
+	};
+	
+	class 22nd_MG_tailInterior_distant_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\MG\MG_tailInterior_distant.wav",1}};
+		volume = "1.68 * interior";
+		rangeCurve[] = { {0,0}, {25,1}, {100,0}, {300,0}  };
+		range = 300;
+		limitable = 1;
+	};
+
+	class 22nd_MG_tailInterior_far_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\MG\MG_tailInterior_far.wav",1}};
+		volume = "1.68 * interior";
+		rangeCurve[] = { {0,0}, {25,0}, {100,1}, {300,0}   };
+		range = 300;
+		limitable = 1;
+	};
+
+	// Houses / Urban
+	class 22nd_MG_tailHouses_close_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\MG\MG_tailUrban_close.wav",1}};
+		volume = "(1-interior/1.4)*houses/3";
+		range = 50;
+		rangeCurve[] = { {0,1}, {50,0} };
+		limitable = 1;
+	};
+
+	class 22nd_MG_tailHouses_distant_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\MG\MG_tailUrban_distant.wav",1}};
+		volume = "(1-interior/1.4)*houses/3";
+		range = 1000;
+        rangeCurve[] = { {0,0.1}, {50,1}, {300,0}, {1000,0} };
+		limitable = 1;
+	};
+
+	class 22nd_MG_tailHouses_far_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\MG\MG_tailUrban_far.wav",1}};
+		volume = "(1-interior/1.4)*houses/3";
+		range = 1000;
+        rangeCurve[] = { {0,0.1}, {50,0}, {300,1}, {1000,0} };
+		limitable = 1;
+	};
+
+
+	// Trees
+	class 22nd_MG_tailTrees_close_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\MG\MG_tailForest_close.wav",1}};
+		volume = "(1-interior/1.4)*trees/3";
+		range = 50;
+		rangeCurve[] = { {0,1}, {50,0} };
+		limitable = 1;
+	};
+
+	class 22nd_MG_tailTrees_distant_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\MG\MG_tailForest_distant.wav",1}};
+		volume = "(1-interior/1.4)*trees/3";
+		range = 1000;
+        rangeCurve[] = { {0,0.1}, {50,1}, {300,0}, {1000,0} };
+		limitable = 1;
+	};
+
+	class 22nd_MG_tailTrees_far_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\MG\MG_tailForest_far.wav",1}};
+		volume = "(1-interior/1.4)*trees/3";
+		range = 1000;
+        rangeCurve[] = { {0,0.1}, {50,0}, {300,1}, {1000,0} };
+		limitable = 1;
+	};
+
+
+    // forest
+	class 22nd_MG_tailForest_close_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\MG\MG_tailForest_close.wav",1}};
+		volume = "(1-interior/1.4)*forest/3";
+		range = 50;
+		rangeCurve[] = { {0,1}, {50,0} };
+		limitable = 1;
+	};
+
+	class 22nd_MG_tailForest_distant_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\MG\MG_tailForest_distant.wav",1}};
+		volume = "(1-interior/1.4)*forest/3";
+		range = 1000;
+        rangeCurve[] = { {0,0.1}, {50,1}, {300,0}, {1000,0} };
+		limitable = 1;
+	};
+
+	class 22nd_MG_tailForest_far_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\MG\MG_tailForest_far.wav",1}};
+		volume = "(1-interior/1.4)*forest/3";
+		range = 1000;
+        rangeCurve[] = { {0,0.1}, {50,0}, {300,1}, {1000,0} };
+		limitable = 1;
+	};
+
+
+	//meadows
+	class 22nd_MG_tailMeadows_close_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\MG\MG_tailMeadows_close.wav",1}};
+		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
+		range = 50;
+		rangeCurve[] = { {0,1}, {50,0} };
+		limitable = 1;
+	};
+
+	class 22nd_MG_tailMeadows_distant_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\MG\MG_tailMeadows_distant.wav",1}};
+		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
+		range = 1000;
+        rangeCurve[] = { {0,0.1}, {50,1}, {300,0}, {1000,0} };
+		limitable = 1;
+	};
+
+	class 22nd_MG_tailMeadows_far_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\MG\MG_tailMeadows_far.wav",1}};
+		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
+		range = 1000;
+        rangeCurve[] = { {0,0.1}, {50,0}, {300,1}, {1000,0} };
+		limitable = 1;
+	};
+
+
+
+
+
+	//Shotgun
+	class 22nd_Shotgun_tailInterior_close_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Shotgun\Shotgun_tailInterior_close.wav",1}};
+		volume = "1.68 * interior";
+		rangeCurve[] = { {0,1}, {25,0} };
+		range = 25;
+		limitable = 1;
+	};
+	
+	class 22nd_Shotgun_tailInterior_distant_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Shotgun\Shotgun_tailInterior_distant.wav",1}};
+		volume = "1.68 * interior";
+		rangeCurve[] = { {0,0}, {25,1}, {100,0}, {300,0}  };
+		range = 300;
+		limitable = 1;
+	};
+
+	class 22nd_Shotgun_tailInterior_far_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Shotgun\Shotgun_tailInterior_far.wav",1}};
+		volume = "1.68 * interior";
+		rangeCurve[] = { {0,0}, {25,0}, {100,1}, {300,0}   };
+		range = 300;
+		limitable = 1;
+	};
+
+	// Houses / Urban
+	class 22nd_Shotgun_tailHouses_close_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Shotgun\Shotgun_tailUrban_close.wav",1}};
+		volume = "(1-interior/1.4)*houses/3";
+		range = 50;
+		rangeCurve[] = { {0,1}, {50,0} };
+		limitable = 1;
+	};
+
+	class 22nd_Shotgun_tailHouses_distant_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Shotgun\Shotgun_tailUrban_distant.wav",1}};
+		volume = "(1-interior/1.4)*houses/3";
+		range = 1000;
+        rangeCurve[] = { {0,0.1}, {50,1}, {300,0}, {1000,0} };
+		limitable = 1;
+	};
+
+	class 22nd_Shotgun_tailHouses_far_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Shotgun\Shotgun_tailUrban_far.wav",1}};
+		volume = "(1-interior/1.4)*houses/3";
+		range = 1000;
+        rangeCurve[] = { {0,0.1}, {50,0}, {300,1}, {1000,0} };
+		limitable = 1;
+	};
+
+
+	// Trees
+	class 22nd_Shotgun_tailTrees_close_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Shotgun\Shotgun_tailForest_close.wav",1}};
+		volume = "(1-interior/1.4)*trees/3";
+		range = 50;
+		rangeCurve[] = { {0,1}, {50,0} };
+		limitable = 1;
+	};
+
+	class 22nd_Shotgun_tailTrees_distant_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Shotgun\Shotgun_tailForest_distant.wav",1}};
+		volume = "(1-interior/1.4)*trees/3";
+		range = 1000;
+        rangeCurve[] = { {0,0.1}, {50,1}, {300,0}, {1000,0} };
+		limitable = 1;
+	};
+
+	class 22nd_Shotgun_tailTrees_far_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Shotgun\Shotgun_tailForest_far.wav",1}};
+		volume = "(1-interior/1.4)*trees/3";
+		range = 1000;
+        rangeCurve[] = { {0,0.1}, {50,0}, {300,1}, {1000,0} };
+		limitable = 1;
+	};
+
+
+    // forest
+	class 22nd_Shotgun_tailForest_close_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Shotgun\Shotgun_tailForest_close.wav",1}};
+		volume = "(1-interior/1.4)*forest/3";
+		range = 50;
+		rangeCurve[] = { {0,1}, {50,0} };
+		limitable = 1;
+	};
+
+	class 22nd_Shotgun_tailForest_distant_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Shotgun\Shotgun_tailForest_distant.wav",1}};
+		volume = "(1-interior/1.4)*forest/3";
+		range = 1000;
+        rangeCurve[] = { {0,0.1}, {50,1}, {300,0}, {1000,0} };
+		limitable = 1;
+	};
+
+	class 22nd_Shotgun_tailForest_far_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Shotgun\Shotgun_tailForest_far.wav",1}};
+		volume = "(1-interior/1.4)*forest/3";
+		range = 1000;
+        rangeCurve[] = { {0,0.1}, {50,0}, {300,1}, {1000,0} };
+		limitable = 1;
+	};
+
+
+	//meadows
+	class 22nd_Shotgun_tailMeadows_close_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Shotgun\Shotgun_tailMeadows_close.wav",1}};
+		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
+		range = 50;
+		rangeCurve[] = { {0,1}, {50,0} };
+		limitable = 1;
+	};
+
+	class 22nd_Shotgun_tailMeadows_distant_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Shotgun\Shotgun_tailMeadows_distant.wav",1}};
+		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
+		range = 1000;
+        rangeCurve[] = { {0,0.1}, {50,1}, {300,0}, {1000,0} };
+		limitable = 1;
+	};
+
+	class 22nd_Shotgun_tailMeadows_far_SoundShader
+	{
+		samples[] = {{"\z\22ndRDF\addons\weapons\sound\Sounds\Shotgun\Shotgun_tailMeadows_far.wav",1}};
+		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
+		range = 1000;
+        rangeCurve[] = { {0,0.1}, {50,0}, {300,1}, {1000,0} };
+		limitable = 1;
+	};
+
+	
 
 
 	///SD///
@@ -126,9 +528,9 @@ class CfgSoundSets
 		spatial = 1;
 		doppler = 0;
 		loop = 0;
-		frequencyRandomizer = 0.35;
-		frequencyRandomizerMin = 0.025;		
-		soundShadersLimit = 4;
+		frequencyRandomizer = 0.25;
+		frequencyRandomizerMin = 0.01;		
+		soundShadersLimit = 2;
 		sound3DProcessingType = "22nd_basic_3dproc";
 		distanceFilter = "22nd_defaultDistanceFilter";	
 	};	
@@ -264,8 +666,29 @@ class CfgSoundSets
 
 	class 22nd_tail_SoundSet 
 	{
-		soundShaders[] = {"22nd_rifle_tailInterior_SoundShader","22nd_rifle_tailTrees_SoundShader","22nd_rifle_tailForest_SoundShader","22nd_rifle_tailMeadows_SoundShader","22nd_rifle_tailHouses_SoundShader"};
-		volumeFactor = 0.5;
+		soundShaders[] = 
+		{  
+			"22nd_rifle_tailInterior_close_SoundShader",
+			"22nd_rifle_tailInterior_distant_SoundShader",
+			"22nd_rifle_tailInterior_far_SoundShader",
+
+			"22nd_rifle_tailHouses_close_SoundShader",
+			"22nd_rifle_tailHouses_distant_SoundShader",
+			"22nd_rifle_tailHouses_far_SoundShader",
+
+			"22nd_rifle_tailTrees_close_SoundShader",
+			"22nd_rifle_tailTrees_distant_SoundShader",
+			"22nd_rifle_tailTrees_far_SoundShader",
+
+			"22nd_rifle_tailForest_close_SoundShader",
+			"22nd_rifle_tailForest_distant_SoundShader",
+			"22nd_rifle_tailForest_far_SoundShader",
+
+			"22nd_rifle_tailMeadows_close_SoundShader",
+			"22nd_rifle_tailMeadows_distant_SoundShader",
+			"22nd_rifle_tailMeadows_far_SoundShader",
+		};
+		volumeFactor = 2;
 		volumeCurve = "22nd_tail_soundCurve";
 		stereoStartDistance = 0;
 		stereoRadius = 15;
@@ -274,9 +697,87 @@ class CfgSoundSets
 		spatial = 1;
 		doppler = 0;
 		loop = 0;
-		frequencyRandomizer = 2;
-		frequencyRandomizerMin = 0.95;
-		soundShadersLimit = 4;
+		frequencyRandomizer = 0.25;
+		soundShadersLimit = 2;
+		sound3DProcessingType = "22nd_tail_3dproc";
+		distanceFilter = "22nd_defaultDistanceFilter";		
+	};
+	
+
+	class 22nd_tail_MG_SoundSet 
+	{
+		soundShaders[] = 
+		{  
+			"22nd_MG_tailInterior_close_SoundShader",
+			"22nd_MG_tailInterior_distant_SoundShader",
+			"22nd_MG_tailInterior_far_SoundShader",
+
+			"22nd_MG_tailHouses_close_SoundShader",
+			"22nd_MG_tailHouses_distant_SoundShader",
+			"22nd_MG_tailHouses_far_SoundShader",
+
+			"22nd_MG_tailTrees_close_SoundShader",
+			"22nd_MG_tailTrees_distant_SoundShader",
+			"22nd_MG_tailTrees_far_SoundShader",
+
+			"22nd_MG_tailForest_close_SoundShader",
+			"22nd_MG_tailForest_distant_SoundShader",
+			"22nd_MG_tailForest_far_SoundShader",
+
+			"22nd_MG_tailMeadows_close_SoundShader",
+			"22nd_MG_tailMeadows_distant_SoundShader",
+			"22nd_MG_tailMeadows_far_SoundShader",
+		};
+		volumeFactor =1.25;
+		volumeCurve = "22nd_tail_soundCurve";
+		stereoStartDistance = 0;
+		stereoRadius = 15;
+		occlusionFactor = 0.45;
+		obstructionFactor = 0.3;
+		spatial = 1;
+		doppler = 0;
+		loop = 0;
+		frequencyRandomizer = 0.25;
+		soundShadersLimit = 2;
+		sound3DProcessingType = "22nd_tail_3dproc";
+		distanceFilter = "22nd_defaultDistanceFilter";		
+	};	
+	
+	class 22nd_tail_Shotgun_SoundSet 
+	{
+		soundShaders[] = 
+		{  
+			"22nd_Shotgun_tailInterior_close_SoundShader",
+			"22nd_Shotgun_tailInterior_distant_SoundShader",
+			"22nd_Shotgun_tailInterior_far_SoundShader",
+
+			"22nd_Shotgun_tailHouses_close_SoundShader",
+			"22nd_Shotgun_tailHouses_distant_SoundShader",
+			"22nd_Shotgun_tailHouses_far_SoundShader",
+
+			"22nd_Shotgun_tailTrees_close_SoundShader",
+			"22nd_Shotgun_tailTrees_distant_SoundShader",
+			"22nd_Shotgun_tailTrees_far_SoundShader",
+
+			"22nd_Shotgun_tailForest_close_SoundShader",
+			"22nd_Shotgun_tailForest_distant_SoundShader",
+			"22nd_Shotgun_tailForest_far_SoundShader",
+
+			"22nd_Shotgun_tailMeadows_close_SoundShader",
+			"22nd_Shotgun_tailMeadows_distant_SoundShader",
+			"22nd_Shotgun_tailMeadows_far_SoundShader",
+		};
+		volumeFactor =1;
+		volumeCurve = "22nd_tail_soundCurve";
+		stereoStartDistance = 0;
+		stereoRadius = 15;
+		occlusionFactor = 0.45;
+		obstructionFactor = 0.3;
+		spatial = 1;
+		doppler = 0;
+		loop = 0;
+		frequencyRandomizer = 0.25;
+		soundShadersLimit = 2;
 		sound3DProcessingType = "22nd_tail_3dproc";
 		distanceFilter = "22nd_defaultDistanceFilter";		
 	};		
@@ -391,6 +892,9 @@ class CfgSoundSets
 		sound3DProcessingType = "22nd_tail_3dproc";
 		distanceFilter = "22nd_defaultDistanceFilter";				
 	};	
+
+
+
 
 
 };
