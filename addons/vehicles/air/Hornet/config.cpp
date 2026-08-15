@@ -22,8 +22,6 @@ class CfgPatches
 class CfgVehicles
 {
     class OPTRE_UNSC_hornet;
-    class OPTRE_UNSC_hornet_CAP;
-    class OPTRE_UNSC_hornet_CAS;
     class Warhound_Hornet: OPTRE_UNSC_hornet
     {
         scope=2;
