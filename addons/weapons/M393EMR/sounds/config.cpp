@@ -42,7 +42,7 @@ class cfgSoundShaders
 				1
 			}
 		};
-		volume=4;
+		volume=1;
 		range=100;
 		rangeCurve[] = {{0,1.2},{50,0.62},{110,0}};
 	};
@@ -89,7 +89,7 @@ class cfgSoundSets
 			"22nd_M393_midShot_SoundShader",
 			"22nd_M393_distShot_SoundShader"
 		};
-		// volumeFactor=1;
+		volumeFactor=4;
 		// frequencyRandomizer=0.5;
 		// frequencyRandomizermin=0.2;
 	};

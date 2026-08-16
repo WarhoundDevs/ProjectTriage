@@ -39,7 +39,7 @@ class cfgSoundShaders
 				1
 			}
 		};
-		volume=1.1;
+		volume=1.3;
 		range=50;
 		rangeCurve[] = {{0,1},{50,0}};
 	};
@@ -53,7 +53,7 @@ class cfgSoundShaders
 				1
 			}
 		};
-		volume=1;
+		volume=1.3;
 		range = 3000;
         rangeCurve[] = { {0,0.2}, {50,1}, {300,0}, {3000,0} };
 	};
@@ -67,7 +67,7 @@ class cfgSoundShaders
 				1
 			}
 		};
-		volume=0.9;
+		volume=1.5;
 		range=4000;
 		rangeCurve[] = { {0,0}, {50,0}, {300,1}, {3000,1}, {4000,0}  };
 	};
@@ -123,17 +123,9 @@ class cfgSoundSets
 			"22nd_M45_midShot_SoundShader",
 			"22nd_M45_distShot_SoundShader"
 		};
-		volumeFactor=1.4;
-		frequencyRandomizer=1.1;
-		frequencyRandomizermin=0.1;
-		volumeCurve="22nd_weapons_basic_volumecurve";
-		sound3DProcessingType="22nd_weapons_3dprocessor";
-		distanceFilter="22nd_weapons_lowpass_filter";
-		occlusionFactor=0.35;
-		obstructionFactor=0.35;
-		spatial=1;
-		doppler=0;
-		loop=0;
+		volumeFactor=5.9;
+		// frequencyRandomizer=1.1;
+		// frequencyRandomizermin=0.1;
 	};
 	class 22nd_Suppressed_M45_Shot_Soundset
 	{

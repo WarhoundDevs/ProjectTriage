@@ -37,13 +37,13 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M6C\sounds\M6C_Close.wav",
+				"\z\22ndRDF\addons\weapons\M6C\sounds\M6C_close.wav",
 				1
 			}
 		};
-		volume=2;
+		volume=1.1;
 		range=50;
-		rangeCurve="closeShotCurve";
+		rangeCurve[] = {{0,1},{50,0}};
 	};
 	class 22nd_M6C_midShot_SoundShader
 	{
@@ -51,19 +51,13 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M6C\sounds\M6C_Close.wav",
+				"\z\22ndRDF\addons\weapons\M6C\sounds\M6C_distant.wav",
 				1
 			}
 		};
-		volume=0.79432821;
-		range=1800;
-		rangeCurve[]=
-		{
-			{0,0.2},
-			{50,1},
-			{300,0},
-			{1800,0}
-		};
+		volume=1;
+		range = 3000;
+        rangeCurve[] = { {0,0.2}, {50,1}, {300,0}, {3000,0} };
 	};
 	class 22nd_M6C_distShot_SoundShader
 	{
@@ -77,13 +71,7 @@ class cfgSoundShaders
 		};
 		volume=1;
 		range=4000;
-		rangeCurve[]=
-		{
-			{0,0},
-			{50,0},
-			{300,1},
-			{4000,1}
-		};
+		rangeCurve[] = { {0,0}, {50,0}, {300,1}, {3000,1}, {4000,0}  };
 	};
 	class 22nd_Suppressed_M6C_closeShot_SoundShader
 	{
@@ -149,7 +137,7 @@ class cfgSoundSets
 			"22nd_M6C_midShot_SoundShader",
 			"22nd_M6C_distShot_SoundShader"
 		};
-		// volumeFactor=1;
+		volumeFactor=5;
 		// frequencyRandomizer=1.1;
 		// frequencyRandomizermin=0.34999999;
 	};

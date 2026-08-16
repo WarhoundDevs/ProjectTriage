@@ -93,7 +93,7 @@ class CfgWeapons
 				soundSetShot[]=
 				{
 					"22nd_M45_Shot_SoundSet",
-					"22nd_tail_DMR_SoundSet"
+					"22nd_tail_Shotgun_SoundSet"
 				};
 			};
 			class SilencedSound: StandardSound
@@ -149,7 +149,7 @@ class CfgWeapons
 					soundSetShot[]=
 					{
 						"22nd_M45_Shot_SoundSet",
-						"22nd_tail_Shotgun_SoundSet"
+						"HunterShotgun_01_Tail_SoundSet"
 					};
 				};
 				class SilencedSound: StandardSound
@@ -157,7 +157,7 @@ class CfgWeapons
 					soundSetShot[]=
 					{
 						"22nd_Suppressed_M45_Shot_Soundset",
-						"22nd_MA37_Tail_SoundSet"
+						"HunterShotgun_01_Tail_SoundSet"
 					};
 				};
 				dispersion=0.0008726646;
@@ -177,6 +177,7 @@ class CfgWeapons
 		
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
+			mass = 70;
 
 			class MuzzleSlot: MuzzleSlot
 			{

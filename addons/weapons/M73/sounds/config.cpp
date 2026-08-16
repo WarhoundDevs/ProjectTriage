@@ -25,7 +25,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M73\sounds\M73_Close.wss",
+				"\z\22ndRDF\addons\weapons\M73\sounds\M73_Close.wav",
 				1
 			}
 		};
@@ -38,13 +38,13 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M73\sounds\M73_Close.wss",
+				"\z\22ndRDF\addons\weapons\M73\sounds\M73_Close.wav",
 				1
 			}
 		};
 		volume=1;
 		range=50;
-		rangeCurve="closeShotCurve";
+		rangeCurve[] = {{0,1},{50,0}};
 	};
 	class 22nd_M73_midShot_SoundShader
 	{
@@ -52,11 +52,11 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M73\sounds\M73_Close.wss",
+				"\z\22ndRDF\addons\weapons\M73\sounds\M73_distant.wav",
 				1
 			}
 		};
-		volume=0.79432821;
+		volume=1;
 		range=1800;
 		rangeCurve[]=
 		{
@@ -72,7 +72,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M73\sounds\M73_Close.wss",
+				"\z\22ndRDF\addons\weapons\M73\sounds\M73_far.wav",
 				1
 			}
 		};
@@ -99,18 +99,7 @@ class cfgSoundSets
 			"22nd_M73_midShot_SoundShader",
 			"22nd_M73_distShot_SoundShader"
 		};
-		volumeFactor=1.1;
-		frequencyRandomizer=1.1;
-		frequencyFactor=0.94999999;
-		frequencyRandomizermin=0.34999999;
-		volumeCurve="22nd_weapons_basic_volumecurve";
-		sound3DProcessingType="22nd_weapons_3dprocessor";
-		distanceFilter="22nd_weapons_lowpass_filter";
-		occlusionFactor=0.15000001;
-		obstructionFactor=0.30000001;
-		spatial=1;
-		doppler=0;
-		loop=0;
+		volumeFactor=3.1;
 	};
 };
 class cfgMods

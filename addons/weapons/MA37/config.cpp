@@ -145,7 +145,8 @@ class CfgWeapons
 				soundSetShot[] =
 				{
 					"22nd_MA37_Shot_SoundSet",
-					"22nd_tail_SoundSet"
+					"DMR01_Tail_SoundSet",
+					"DMR01_InteriorTail_SoundSet"
 				};
 			};
 
@@ -186,7 +187,8 @@ class CfgWeapons
 				soundSetShot[] =
 				{
 					"22nd_MA37_Shot_SoundSet",
-					"22nd_tail_SoundSet"
+					"DMR01_Tail_SoundSet",
+					"DMR01_InteriorTail_SoundSet",
 				};
 			};
 
@@ -409,7 +411,7 @@ class CfgWeapons
 					soundSetShot[]=
 					{
 						"22nd_M319_Shot_SoundSet",
-						"22nd_tail_Launcher_SoundSet"
+						"GMG40mm_tail_SoundSet"
 					};
 				};
 

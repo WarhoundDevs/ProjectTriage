@@ -92,8 +92,10 @@ class cfgWeapons
 			{
 				soundSetShot[]=
 				{
-					"22nd_M392_Shot_SoundSet",
-					"22nd_tail_DMR_SoundSet"
+					"22nd_M392_Shot_SoundSet", 
+					"DMR03_tail_SoundSet",
+					"DMR03_InteriorTail_SoundSet"
+					
 				};
 			};
 			class SilencedSound: SilencedSound

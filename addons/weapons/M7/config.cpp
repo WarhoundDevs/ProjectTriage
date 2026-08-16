@@ -98,7 +98,8 @@ class cfgWeapons
 				soundSetShot[]=
 				{
 					"22nd_M7_Shot_SoundSet",
-					"22nd_tail_small_SoundSet"
+					"MX_Tail_SoundSet",
+					"MX_InteriorTail_SoundSet",
 				};
 			};
 			class SilencedSound: SilencedSound
@@ -113,7 +114,7 @@ class cfgWeapons
 			flashSize = 0.1;
 			recoil="22nd_recoil_M7";
 			recoilProne="22nd_recoil_M7";
-			reloadTime=0.059999999;
+			reloadTime=0.06;
 			dispersion=0.001454441;
 			minRange=2;
 			minRangeProbab=0.5;

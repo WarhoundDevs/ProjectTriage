@@ -99,7 +99,7 @@ class cfgWeapons
 				soundSetShot[]=
 				{
 					"22nd_M319_Shot_SoundSet",
-					"22nd_tail_Launcher_SoundSet"
+					"GMG40mm_tail_SoundSet"
 				};
 			};
 			multiplier=1;

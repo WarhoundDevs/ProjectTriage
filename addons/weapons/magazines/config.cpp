@@ -36,6 +36,8 @@ class CfgMagazines
     class OPTRE_15Rnd_762x51_Mag;
 	class OPTRE_4Rnd_145x114_APFSDS_Mag;
 	class OPTRE_25Rnd_762x51_AP_Mag;
+
+	class OPTRE_M41_Twin_HEAT_SACLOS;
 	
 
 
@@ -143,7 +145,7 @@ class CfgMagazines
 
 		ammo = "22nd_B_762x51_FMJ";
 
-		tracersEvery = 3;
+		tracersEvery = 1;
 
 		modelSpecial = "";
 		modelSpecialIsProxy = 0;
@@ -175,7 +177,7 @@ class CfgMagazines
 	{
 		count=20;
 		mass=15;
-		initspeed=950;
+		initspeed=1200;
 		displayName="36rnd BR55 Mag";
 		displayNameShort="36rnd 9.5x40";
 		descriptionShort="36rnd 9.5x40";
@@ -187,7 +189,7 @@ class CfgMagazines
 	{
 		count=15;
 		mass=15;
-		initspeed=1050;
+		initspeed=1600;
 		displayName="36rnd BR55 Mag";
 		displayNameShort="36rnd 9.5x40";
 		descriptionShort="36rnd 9.5x40";
@@ -200,7 +202,7 @@ class CfgMagazines
 	{
 		count=6;
 		mass=10;
-		initspeed=1200;
+		initspeed=1800;
 		displayName="6rnd SRS99 APFSDS Mag";
 		displayNameShort="6rnd 14.5x114";
 		descriptionShort="6rnd 14.5x114";
@@ -413,5 +415,32 @@ class CfgMagazines
 		modelSpecial = "";
 		modelSpecialIsProxy = 0;
 	};
+
+
+	/// Launchers
+	class 22nd_2rnd_HEAT_SACLOS: OPTRE_M41_Twin_HEAT_SACLOS
+	{
+		count=2;
+
+		mass=12;
+
+		initspeed=320;
+
+		displayName="2rnd SPNKR AT";
+		displayNameShort="2rnd SPNKR AT";
+		descriptionShort="2rnd SPNKR AT";
+
+		ammo="22nd_R_HEAT_SACLOS";
+		tracersEvery=1;
+	};
+
+
+
+
+
+
+
+
+
 };
 

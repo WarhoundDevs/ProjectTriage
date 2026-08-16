@@ -138,7 +138,7 @@ class cfgSoundSets
 			"22nd_M247A1_midShot_SoundShader",
 			"22nd_M247A1_distShot_SoundShader"
 		};
-		volumeFactor=1.25;
+		volumeFactor=2;
 		// frequencyRandomizer=0.5;
 		// frequencyRandomizermin=0.2;
 	};

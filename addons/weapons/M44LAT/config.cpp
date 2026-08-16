@@ -64,8 +64,9 @@ class cfgWeapons
 		magazineReloadTime = 0.1;
 		magazineReloadSwitchPhase = 0.1;
 		ArsenalScope=2;
-		HUD_TotalPosibleBullet=100;
-		ACE_Overheating_mrbs=300000;
+		ace_overpressure_angle = 60;
+		ace_overpressure_range = 2;
+		ace_overpressure_damage = 0.5;
 		magazines[]=
 		{
 			
@@ -97,7 +98,7 @@ class cfgWeapons
 				soundSetShot[]=
 				{
 					"22nd_M44_Shot_SoundSet",
-					"22nd_tail_Launcher_SoundSet"
+					"Launcher_RPG7_Tail_SoundSet"
 				};
 			};
 		};

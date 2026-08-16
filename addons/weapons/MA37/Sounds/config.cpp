@@ -74,7 +74,7 @@ class cfgSoundSets //on more info about soundSets look at the [[Arma_3_Sound:_cf
 	class 22nd_MA37_Shot_SoundSet: 22nd_rifle_SoundSet
 	{
 		soundShaders[] = {"22nd_MA37_Closure_SoundShader","22nd_MA37_closeShot_SoundShader","22nd_MA37_midShot_SoundShader","22nd_MA37_distShot_SoundShader"};
-		volumefactor=3;
+		volumefactor=5.5;
 		// frequencyrandomizer=0.35;
 		// frequencyrandomizermin=0.1;
 	
@@ -83,7 +83,7 @@ class cfgSoundSets //on more info about soundSets look at the [[Arma_3_Sound:_cf
 	class 22nd_Suppressed_MA37_Shot_Soundset: 22nd_SDrifle_SoundSet
 	{
 		soundShaders[] = {"22nd_Suppressed_MA37_closeShot_SoundShader","22nd_Suppressed_MA37_distShot_SoundShader","22nd_MA37_tailInterior_SoundShader"};
-		volumeFactor = 2.5;
+		volumeFactor = 3;
 		frequencyRandomizer = 0.3;
 		frequencyRandomizermin = 0.05;
 		volumeCurve = "22nd_weapons_basic_volumecurve";

@@ -43,7 +43,7 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
 	class 22nd_B_8g_Magnum: B_12Gauge_Pellets_Submunition_Deploy
 	{
 		hit=7;
-		caliber=3;
+		caliber=4;
 		typicalSpeed=360;
 		triggerDistance=0;
 		model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
@@ -228,7 +228,7 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
 	class 22nd_B_95x40: B_65x39_Case
 	{
 		caliber=2.3;
-		timetolive=15;
+		
 		hit=17;
 		model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
 	};
@@ -236,7 +236,7 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
 	class 22nd_B_114x90: B_127x99_Ball
 	{
 		caliber = 2.6;
-		timetolive=15;
+		
 		hit = 24;
 		model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
 	};
@@ -244,7 +244,7 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
 	class 22nd_B_127x99: B_127x99_Ball
 	{
 		caliber = 2.6;
-		timetolive=15;
+		
 		hit = 35;
 		model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
 	};
@@ -252,33 +252,39 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
 	class 22nd_B_145x114: B_20mm_AP
 	{
 		caliber = 4.2;
-		timetolive=15;
+		
 		hit = 80;
 		model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
 	};
 
 	/// SMG + Pistol ///
-  
+
+    class 22nd_B_10x31: B_65x39_Caseless
+	{
+		caliber=2.1;
+		hit=6;
+
+		model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
+	};
+
 	class 22nd_B_5x23: B_65x39_Caseless
 	{
 		caliber=1.8;
-		timetolive=15;
+		
 		hit=9;
-		cartridge = "FxCartridge_9mm";
 		model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
 	};
 	class 22nd_5x23_AP: B_65x39_Caseless
 	{
 		caliber=2.2;
-		timetolive=15;
+		
 		hit=10;
-		cartridge = "FxCartridge_9mm";
 		model="\A3\Weapons_f\Data\bullettracer\tracer_red";
 	};
 	class 22nd_5x23_SS: B_65x39_Caseless
 	{
 		caliber=1.8;
-		timetolive=15;
+		
 		hit=23;
 		cartridge = "FxCartridge_9mm";
 	};
@@ -289,6 +295,9 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
 		hit=18;
 		cartridge = "FxCartridge_9mm";
 	};
+
+
+	
 };
 
 //For insipiration / ideas

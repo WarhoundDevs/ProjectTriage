@@ -93,7 +93,8 @@ class cfgWeapons
 				soundSetShot[]=
 				{
 					"22nd_M73_Shot_SoundSet",
-					"22nd_tail_MG_SoundSet"
+					"Mk200_Tail_SoundSet",
+					"Mk200_InteriorTail_SoundSet"
 				};
 			};
 			class SilencedSound: SilencedSound

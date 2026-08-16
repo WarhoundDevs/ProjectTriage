@@ -51,11 +51,11 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M392\sounds\M392_Close.wss",
+				"\z\22ndRDF\addons\weapons\M392\sounds\M392_distant.wav",
 				1
 			}
 		};
-		volume=0.79432821;
+		volume=1;
 		range=1800;
 		rangeCurve[]=
 		{
@@ -71,7 +71,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M392\sounds\M392_Close.wss",
+				"\z\22ndRDF\addons\weapons\M392\sounds\M392_far.wss",
 				1
 			}
 		};
@@ -149,17 +149,7 @@ class cfgSoundSets
 			"22nd_M392_midShot_SoundShader",
 			"22nd_M392_distShot_SoundShader"
 		};
-		volumeFactor=1;
-		frequencyRandomizer=0.5;
-		frequencyRandomizermin=0.2;
-		volumeCurve="22nd_weapons_basic_volumecurve";
-		sound3DProcessingType="22nd_weapons_3dprocessor";
-		distanceFilter="22nd_weapons_lowpass_filter";
-		occlusionFactor=0.25;
-		obstructionFactor=0.30000001;
-		spatial=1;
-		doppler=0;
-		loop=0;
+		volumeFactor=5;
 	};
 	class 22nd_Suppressed_M392_Shot_Soundset
 	{

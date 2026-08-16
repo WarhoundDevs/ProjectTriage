@@ -125,7 +125,8 @@ class cfgWeapons
 				soundSetShot[]=
 				{
 					"22nd_M6C_Shot_SoundSet",
-					"22nd_tail_small_SoundSet"
+					"Makarov_Tail_SoundSet",
+					"Makarov_InteriorTail_SoundSet"
 				};
 			};
 			class SilencedSound: SilencedSound

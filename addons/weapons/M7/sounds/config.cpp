@@ -44,9 +44,9 @@ class cfgSoundShaders
 				1
 			}
 		};
-		volume=1;
+		volume=1.1;
 		range=50;
-		rangeCurve[] = {{0,1.2},{50,0.62},{110,0}};
+		rangeCurve[] = {{0,1},{50,0}};
 	};
 	class 22nd_M7_midShot_SoundShader
 	{
@@ -59,8 +59,8 @@ class cfgSoundShaders
 			}
 		};
 		volume=1;
-		range=1800;
-		rangeCurve[] = {{0,0},{50,0.6},{300,1.2},{2400,0}};
+		range = 3000;
+        rangeCurve[] = { {0,0.2}, {50,1}, {300,0}, {3000,0} };
 	};
 	class 22nd_M7_distShot_SoundShader
 	{
@@ -68,13 +68,13 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\\z\22ndRDF\addons\weapons\M7\sounds\M7_far.wav",
+				"\z\22ndRDF\addons\weapons\M7\sounds\M7_far.wav",
 				1
 			}
 		};
 		volume=1;
 		range=4000;
-		rangeCurve[] = {{0,0},{50,0},{300,0.6},{2400,1.2},{6000,0}};
+		rangeCurve[] = { {0,0}, {50,0}, {300,1}, {3000,1}, {4000,0}  };
 	};
 	class 22nd_Suppressed_M7_closeShot_SoundShader
 	{
@@ -141,7 +141,7 @@ class cfgSoundSets
 			"22nd_M7_midShot_SoundShader",
 			"22nd_M7_distShot_SoundShader"
 		};
-		volumeFactor=1;
+		volumeFactor=5;
 		frequencyRandomizer=0.5;
 		frequencyRandomizermin=0.2;
 		volumeCurve="22nd_weapons_basic_volumecurve";
