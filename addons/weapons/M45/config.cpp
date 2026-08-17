@@ -70,6 +70,8 @@ class CfgWeapons
 			"22nd_6rnd_m45_Flash",
 
 		};
+		dexterity = 2;
+		inertia = 0.4;
 		magazineWell[] = {};
 
 		modes[]=

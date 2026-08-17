@@ -28,7 +28,7 @@ class cfgRecoils
 {
 	class 22nd_recoil_M7
 	{
-		muzzleOuter[] = {0.2,0.4,0.3,0.2};
+		muzzleOuter[] = {0.2,0.4,0.2,0.2};
 		kickBack[] = {0.02,0.03};
 		permanent=0;
 		temporary = 0.02;
@@ -63,16 +63,16 @@ class cfgWeapons
 		canShootInWater=1;
 		baseweapon="";
 		scope=2;
+		dexterity = 3.5;
+		inertia = 0.15;
 		ArsenalScope=2;
-		HUD_TotalPosibleBullet=48;
+		HUD_TotalPosibleBullet=60;
 		ACE_Overheating_mrbs=300000;
 		recoil="22nd_recoil_M7";
 		recoilProne="22nd_recoil_M7";
 		magazines[]=
 		{
-			"22nd_mag_M7",
-			"22nd_mag_M7_AP",
-			"22nd_mag_M7_SS"
+			"22nd_mag_M7"
 		};
 		magazineWell[] = {};
 
@@ -114,7 +114,7 @@ class cfgWeapons
 			flashSize = 0.1;
 			recoil="22nd_recoil_M7";
 			recoilProne="22nd_recoil_M7";
-			reloadTime=0.06;
+			reloadTime=0.0667;
 			dispersion=0.001454441;
 			minRange=2;
 			minRangeProbab=0.5;

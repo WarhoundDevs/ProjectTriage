@@ -1339,7 +1339,7 @@ class CfgWeapons
         class ItemInfo : UniformItem 
         {
             uniformModel = "-";
-            containerClass = "Supply90";
+            containerClass = "Supply50";
             mass = 80; // Adjust mass if needed
         };
     };

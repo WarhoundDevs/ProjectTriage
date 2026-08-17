@@ -38,7 +38,7 @@ class CfgMagazines
 	class OPTRE_25Rnd_762x51_AP_Mag;
 
 	class OPTRE_M41_Twin_HEAT_SACLOS;
-	
+	class OPTRE_M41_Twin_HEAT_G;
 
 
 	////  naming convention               22nd_32nd_762x51_FMJ
@@ -139,9 +139,9 @@ class CfgMagazines
 
 		count = 32; 
 
-		mass = 15;
+		mass = 12;
 
-		initSpeed = 800;
+		initSpeed = 850;
 
 		ammo = "22nd_B_762x51_FMJ";
 
@@ -176,11 +176,11 @@ class CfgMagazines
 	class 22nd_20nd_762x51_HVAP: OPTRE_15Rnd_762x51_Mag
 	{
 		count=20;
-		mass=15;
+		mass=12;
 		initspeed=1200;
-		displayName="36rnd BR55 Mag";
-		displayNameShort="36rnd 9.5x40";
-		descriptionShort="36rnd 9.5x40";
+		displayName="20rnd 762x51 HVAP Mag";
+		displayNameShort="20rnd HVAP 762x51";
+		descriptionShort="20rnd HVAP 762x51";
 		ammo="22nd_B_762x51_HVAP";
 		tracersEvery=1;
 	};
@@ -188,11 +188,11 @@ class CfgMagazines
 	class 22nd_15nd_114x90_FMJ: OPTRE_25Rnd_762x51_AP_Mag
 	{
 		count=15;
-		mass=15;
+		mass=12;
 		initspeed=1600;
-		displayName="36rnd BR55 Mag";
-		displayNameShort="36rnd 9.5x40";
-		descriptionShort="36rnd 9.5x40";
+		displayName="15rnd M393 EMR Mag";
+		displayNameShort="15rnd 114x90";
+		descriptionShort="15rnd 114x90";
 		ammo="22nd_B_114x90";
 		tracersEvery=1;
 	};
@@ -218,55 +218,44 @@ class CfgMagazines
 	// M73 //
 
 	class OPTRE_100rnd_95x40_Box;
-	class 22nd_100rnd_95x40_tracer: OPTRE_100rnd_95x40_Box
-	{
-		count=100;
-		mass=15;
-		initspeed=950;
-		displayName="100rnd M73 Box (Tracer)";
-		displayNameShort="100rnd 95x40";
-		descriptionShort="100rnd 95x40";
-		ammo="22nd_B_95x40";
-		tracersEvery=1;
-	};
 	class 22nd_100rnd_95x40_FMJ: OPTRE_100rnd_95x40_Box
 	{
 		count=100;
-		mass=15;
+		mass=30;
 		initspeed=950;
-		displayName="100rnd M73 Box (Mixed)";
+		displayName="100rnd M73 Box (FMJ)";
 		displayNameShort="100rnd 762x51";
 		descriptionShort="100rnd 762x51";
 		ammo="22nd_B_95x40";
-		tracersEvery=3;
+		tracersEvery=1;
 	};
 
 
 	// M247A1 //
 
 	class OPTRE_200Rnd_762x51_M118_M247A1_Box;
-	class 22nd_125rnd_762x51_FMJ: OPTRE_200Rnd_762x51_M118_M247A1_Box
+	class 22nd_150rnd_762x51_FMJ: OPTRE_200Rnd_762x51_M118_M247A1_Box
 	{
-		count=125;
-		mass=15;
+		count=150;
+		mass=28;
 		initspeed=750;
-		displayName="125rnd M247A1 Box (Mixed)";
+		displayName="150rnd M247A1 Box (FMJ)";
 		displayNameShort="150rnd 762x51";
 		descriptionShort="150rnd 762x51";
 		ammo="22nd_B_762x51_FMJ";
-		tracersEvery=3;
+		tracersEvery=1;
 	};
 
-	class 22nd_250rnd_762x51_FMJ: OPTRE_200Rnd_762x51_M118_M247A1_Box
+	class 22nd_300rnd_762x51_FMJ: OPTRE_200Rnd_762x51_M118_M247A1_Box
 	{
-		count=250;
-		mass=15;
+		count=300;
+		mass=65;
 		initspeed=750;
-		displayName="250rnd M73 Box (Mixed)";
-		displayNameShort="250rnd 762x51";
-		descriptionShort="250rnd 762x51";
+		displayName="300rnd M247A1 (FMJ)";
+		displayNameShort="300rnd 762x51";
+		descriptionShort="300rnd 762x51";
 		ammo="22nd_B_762x51_FMJ";
-		tracersEvery=3;
+		tracersEvery=1;
 	};
 
 
@@ -288,44 +277,34 @@ class CfgMagazines
 
 	/// SMG + Pistol ///
 
-	class 22nd_mag_M6C: OPTRE_12Rnd_127x40_Mag
+	class 22nd_mag_M6C: OPTRE_8Rnd_127x40_Mag
 	{
-		count=16;
+		count=18;
 		mass=6;
-		initspeed=600;
-		displayName="16rnd M6C mag";
-		displayNameShort="16rnd 9.5x40";
-		descriptionShort="16rnd 9.5x40";
-		ammo="22nd_B_5x23";
+		initspeed=700;
+		displayName="18rnd 10x31mm M6C mag";
+		displayNameShort="18rnd 10x31mm";
+		descriptionShort="18rnd 10x31mm";
+		ammo="22nd_B_10x31";
 		tracersEvery=1;
 	};
-	class 22nd_mag_M6C_AP: OPTRE_12Rnd_127x40_Mag
+
+	class 22nd_Ext_mag_M6C: OPTRE_12Rnd_127x40_Mag
 	{
-		count=8;
+		count=28;
 		mass=6;
-		initspeed=1000;
-		displayName="8rnd AP M6C Mag";
-		displayNameShort="8rnd AP 9.5x40";
-		descriptionShort="8rnd AP 9.5x40";
-		ammo="22nd_5x23_AP";
-		tracersEvery=1;
-	};
-	class 22nd_mag_M6C_SS: OPTRE_12Rnd_127x40_Mag
-	{
-		count=16;
-		mass=6;
-		initspeed=320;
-		displayName="16rnd SS M6C Mag";
-		displayNameShort="16rnd SS 9.5x40";
-		descriptionShort="16rnd SS 9.5x40";
-		ammo="22nd_5x23_SS";
+		initspeed=700;
+		displayName="28rnd 10x31mm M6C mag";
+		displayNameShort="28rnd 10x31mm";
+		descriptionShort="28rnd 10x31mm";
+		ammo="22nd_B_10x31";
 		tracersEvery=1;
 	};
 
 	class 22nd_8Rnd_127x40_Mag: OPTRE_8Rnd_127x40_Mag
 	{
 		count=8;
-		mass=7;
+		mass=5;
 		initspeed=900;
 		displayName="8rnd AP M6G Mag";
 		displayNameShort="8rnd AP 127x40";
@@ -337,7 +316,7 @@ class CfgMagazines
 	class 22nd_16Rnd_127x40_Mag: OPTRE_16Rnd_127x40_Black_Mag
 	{
 		count=16;
-		mass=15;
+		mass=10;
 		initspeed=900;
 		displayName="16rnd AP M6G Mag";
 		displayNameShort="16rnd AP 127x40";
@@ -352,49 +331,20 @@ class CfgMagazines
 
 	class 22nd_mag_M7: OPTRE_60Rnd_5x23mm_Mag
 	{
-		count=48;
+		count=60;
 
-		mass=12;
+		mass=10;
 
-		initspeed=650;
+		initspeed=750;
 
-		displayName="48rnd M7 Mag";
-		displayNameShort="48rnd 9.5x40";
-		descriptionShort="48rnd 9.5x40";
+		displayName="60rnd M7 Mag";
+		displayNameShort="60rnd 9.5x40";
+		descriptionShort="60rnd 9.5x40";
 
 		ammo="22nd_B_5x23";
 		tracersEvery=1;
 	};
-	class 22nd_mag_M7_AP: OPTRE_60Rnd_5x23mm_Mag
-	{
-		count=32;
-
-		mass=12;
-
-		initspeed=900;
-
-		displayName="32rnd AP M7 Mag";
-		displayNameShort="32rnd AP 9.5x40";
-		descriptionShort="32rnd AP  9.5x40";
-
-		ammo="22nd_B_5x23_AP";
-		tracersEvery=1;
-	};
-	class 22nd_mag_M7_SS: OPTRE_60Rnd_5x23mm_Mag
-	{
-		count=48;
-
-		mass=12;
-
-		initspeed=320;
-
-		displayName="48rnd SS M7 Mag";
-		displayNameShort="48rnd SS 9.5x40";
-		descriptionShort="48rnd SS 9.5x40";
-
-		ammo="22nd_B_5x23_SS";
-		tracersEvery=1;
-	};
+	
 
 	class 22nd_AudioTest_Mag : 22nd_32nd_762x51_FMJ
 	{
@@ -422,9 +372,9 @@ class CfgMagazines
 	{
 		count=2;
 
-		mass=12;
+		mass = 100;
 
-		initspeed=320;
+		initspeed=300;
 
 		displayName="2rnd SPNKR AT";
 		displayNameShort="2rnd SPNKR AT";
@@ -434,13 +384,20 @@ class CfgMagazines
 		tracersEvery=1;
 	};
 
+	class 22nd_2rnd_AA_IR: OPTRE_M41_Twin_HEAT_G
+	{
+		count=2;
 
+		mass = 80;
 
+		initspeed=300;
 
+		displayName="2rnd SPNKR AA";
+		displayNameShort="2rnd SPNKR AA";
+		descriptionShort="2rnd SPNKR AA";
 
-
-
-
-
+		ammo="22nd_R_AA_IR";
+		tracersEvery=1;
+	};
 };
 

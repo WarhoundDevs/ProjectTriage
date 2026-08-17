@@ -71,7 +71,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M392\sounds\M392_far.wss",
+				"\z\22ndRDF\addons\weapons\M392\sounds\M392_far.wav",
 				1
 			}
 		};

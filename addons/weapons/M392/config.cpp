@@ -60,14 +60,16 @@ class cfgWeapons
 		canShootInWater=1;
 		baseweapon="22nd_M392";
 		scope=2;
-		initspeed=1000;
+		initspeed=1200;
+		dexterity = 1.5;
+		inertia = 0.5;
 		ArsenalScope=2;
 		ACE_Overheating_mrbs=300000;
 		recoil="22nd_recoil_M392";
 		recoilProne="22nd_recoil_M392";
 		magazines[]=
 		{
-			"22nd_25nd_762x51_HVAP",
+			"22nd_20nd_762x51_HVAP",
 			"22nd_32nd_762x51_FMJ"
 		};
 		magazineWell[] = {};
@@ -126,20 +128,26 @@ class cfgWeapons
 			{
 				compatibleItems[]=
 				{
-					"optre_M392hb_scope",
-					"optic_aco",
-					"optre_ma5_buis",
-					"",
+					"OPTRE_BR_Classic_Scope_Raised",
+					"OPTRE_BR_Classic_Scope_SLS_Raised",
+					"optic_tws_sniper_G",
+					"optic_Nightstalker",
+					"OPTRE_BMR_Scope",
 					"optre_m393_acog",
-					"optre_m7_sight",
 					"optre_m393_eotech",
 					"optre_m12_optic",
 					"optre_m393_scope",
 					"optre_m392_scope",
-					"optic_mrco"
+					"optic_mrco",
+					"ACE_optic_MRCO_2D",
+					"Optre_Recon_Sight",
+					"Optre_Recon_Sight_Green",
+					"Optre_Recon_Sight_Red",
+					"OPTRE_SRM_Sight"
+
 				};
 			};
-			mass=80;
+			mass=90;
 		};
 		class OpticsModes
 		{

@@ -63,6 +63,8 @@ class cfgWeapons
 		baseweapon="22nd_M319";
 		scope=2;
 		ArsenalScope=2;
+		dexterity = 1;
+		inertia = 0.8;
 		HUD_TotalPosibleBullet=100;
 		ACE_Overheating_mrbs=300000;
 		recoil="recoil_M319";

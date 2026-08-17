@@ -64,15 +64,16 @@ class cfgWeapons
 			"22nd_8Rnd_127x40_Mag",
 			"22nd_16Rnd_127x40_Mag"
 		};
+		dexterity = 2;
+		inertia = 0.2;
 		magazineWell[] = {};
 		recoil="22nd_recoil_M6G";
 		baseWeapon="";
-		inertia = 0.25;
 		HUD_BulletInARows=1;
 		HUD_TotalPosibleBullet=16;
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			mass = 24;
+			mass = 32;
 			class MuzzleSlot: MuzzleSlot
 			{
 				compatibleitems[]=

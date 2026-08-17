@@ -66,6 +66,8 @@ class cfgWeapons
 		baseweapon="22nd_M250";
 		scope=2;
 		ArsenalScope=2;
+		dexterity = 0.5;
+		inertia = 0.9;
 		HUD_TotalPosibleBullet=100;
 		ACE_Overheating_mrbs=300000;
 		recoil="22nd_recoil_M250";
@@ -99,7 +101,7 @@ class cfgWeapons
 				soundSetShot[]=
 				{
 					"22nd_M250_Shot_SoundSet",
-					"22nd_tail_SoundSet"
+					"HMG050_tail_SoundSet"
 				};
 			};
 			multiplier=1;

@@ -137,7 +137,7 @@ class cfgWeapons
 			// 		"OPTRE_M45_Flashlight"
 			// 	};
 			// };
-			mass=40;
+			mass=80;
 		};
 	};
 

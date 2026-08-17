@@ -35,7 +35,7 @@ class cfgRecoils
 		muzzleInner[] = {0,0,0.1,0.1};
 		kickBack[] = {0.03,0.06};
 		permanent=0;
-		temporary = 0.015;
+		temporary = 0.012;
 	};
 };
 
@@ -67,14 +67,16 @@ class cfgWeapons
 		baseweapon="22nd_weapon_M247A1";
 		scope=2;
 		ArsenalScope=2;
+		dexterity = 0.9;
+		inertia = 0.7;
 		HUD_TotalPosibleBullet=250;
 		ACE_Overheating_mrbs=300000;
 		recoil="22nd_recoil_m247A1";
 		recoilProne="22nd_recoil_m247A1";
 		magazines[]=
 		{
-			"22nd_125rnd_762x51_FMJ",
-			"22nd_250rnd_762x51_FMJ"
+			"22nd_150rnd_762x51_FMJ",
+			"22nd_300rnd_762x51_FMJ"
 		};
 		magazineWell[] = {};
 
@@ -160,7 +162,7 @@ class cfgWeapons
 					"optre_m392_scope"
 				};
 			};
-			mass=40;
+			mass=100;
 		};
 		class OpticsModes
 		{

@@ -34,7 +34,7 @@ class CfgRecoils
 {
     class 22nd_recoil_MA37
     {
-        muzzleOuter[] = {0.25,0.75,0.25,0.32};
+        muzzleOuter[] = {0.25,0.75,0.25,0.35};
         muzzleInner[] = {0,0,0.1,0.1};
         kickBack[] = {0.02,0.027};
         permanent = 0;
@@ -85,7 +85,8 @@ class CfgWeapons
 		displayName = "[22nd] MA37 AR";
 	    initSpeed=850;
 		baseWeapon = "22nd_MA37";
-
+		dexterity = 2;
+		inertia = 0.45;
 
 		canShootInWater = 1;
 
@@ -327,7 +328,8 @@ class CfgWeapons
 		descriptionShort = "MA37 7.62x51mm Service Rifle w/ M302 and Integrated optics <br /> Old faithful, jack of all trades, M302 GL for grenadiers";
 		access=3;
 		baseWeapon = "22nd_MA37GL";
-
+		dexterity = 1.8;
+		inertia = 0.5;
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
@@ -424,7 +426,7 @@ class CfgWeapons
 		};
 		class WeaponSlotsInfo : WeaponSlotsInfo
 		{
-			mass = 80;
+			mass = 100;
 
 			class MuzzleSlot : MuzzleSlot
 			{

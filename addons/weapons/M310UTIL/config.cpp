@@ -62,6 +62,8 @@ class cfgWeapons
 		baseweapon="22nd_weapon_M310";
 		scope=2;
 		ArsenalScope=2;
+		dexterity = 3;
+		inertia = 0.15;
 		ACE_Overheating_mrbs=300000;
 		recoil="recoil_M310";
 		recoilProne="recoil_M310";

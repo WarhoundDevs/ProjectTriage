@@ -64,7 +64,9 @@ class cfgWeapons
 		baseweapon="22nd_weapon_M393";
 		scope=2;
 		ArsenalScope=2;
-		HUD_TotalPosibleBullet=100;
+		dexterity = 1.2;
+		inertia = 0.7;
+		HUD_TotalPosibleBullet=15;
 		ACE_Overheating_mrbs=300000;
 		recoil="22nd_recoil_M393";
 		recoilProne="22nd_recoil_M393";
@@ -127,17 +129,18 @@ class cfgWeapons
 			{
 				compatibleItems[]=
 				{
-					"optic_mrco",
-					"optic_aco",
-					"optic_aco_smg",
-					"optic_hamr",
-					"optre_M393_sight",
-					"optre_m393_eotech",
+					"OPTRE_SRM_Sight",
+					"OPTRE_BMR_Scope",
+					"OPTRE_M393_Scope",
+					"OPTRE_BR45_Scope",
+					"OPTRE_BR55HB_Scope",
+					"optic_NVS",
 					"optre_m12_optic",
-					"optre_m392_scope"
+					"optre_m392_scope",
+					"optic_AMS",
 				};
 			};
-			mass=40;
+			mass=95;
 		};
 		// class OpticsModes
 		// {

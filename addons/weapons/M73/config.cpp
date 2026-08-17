@@ -25,11 +25,11 @@ class cfgRecoils
 {
 	class 22nd_recoil_M73
 	{
-		muzzleOuter[] = {0.06,1,0.4,0.3};
+		muzzleOuter[] = {0.03,1,0.3,0.3};
 		muzzleInner[] = {0,0,0.1,0.1};
 		kickBack[] = {0.028,0.056};
 		permanent=0;
-		temporary = 0.012;
+		temporary = 0.010;
 	};
 };
 
@@ -60,6 +60,8 @@ class cfgWeapons
 		descriptionShort = "M73 LSW <br /> Portable  <br /> Operator can front load specialized rounds atop regular magazine (GL Slot)";
 		canShootInWater=1;
 		baseweapon="";
+		dexterity = 1.5;
+		inertia = 0.5;
 		ACE_Overheating_mrbs=300000;
 		recoil="22nd_recoil_M73";
 		recoilProne="22nd_recoil_M73";
@@ -67,7 +69,6 @@ class cfgWeapons
 		ArsenalScope=2;
 		magazines[]=
 		{
-			"22nd_100rnd_95x40_tracer",
 			"22nd_100rnd_95x40_FMJ"
 		};
 		magazineWell[] = {};
@@ -108,7 +109,7 @@ class cfgWeapons
 			multiplier=1;
 			recoil="22nd_recoil_M73";
 			recoilProne="22nd_recoil_M73";
-			reloadTime=0.1;
+			reloadTime=0.0923;
 			dispersion=0.0006544985;
 			minRange=2;
 			minRangeProbab=0.5;
@@ -135,7 +136,6 @@ class cfgWeapons
 					"optre_m73_smartlink",
 					"optic_aco",
 					"optre_ma5_buis",
-					"",
 					"optre_m393_acog",
 					"optre_m7_sight",
 					"optre_m393_eotech",
@@ -145,7 +145,7 @@ class cfgWeapons
 					"optic_mrco"
 				};
 			};
-			mass=80;
+			mass=95;
 		};
 		class OpticsModes
 		{

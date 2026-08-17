@@ -64,6 +64,8 @@ class cfgWeapons
 		baseweapon="22nd_weapon_SRS99C";
 		scope=2;
 		ArsenalScope=2;
+		dexterity = 0.7;
+		inertia = 0.9;
 		HUD_TotalPosibleBullet=100;
 		ACE_Overheating_mrbs=300000;
 		recoil="22nd_recoil_SRS99C";

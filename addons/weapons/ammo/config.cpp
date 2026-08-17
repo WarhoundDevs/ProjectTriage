@@ -32,6 +32,7 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
 	class B_12Gauge_Pellets_Submunition_Deploy;
 	class B_65x39_Case;
 	class B_65x39_Caseless;
+	class B_45ACP_Ball_Yellow;
 	class B_127x99_Ball;
 	class B_127x33_Ball;
 	class B_20mm_AP;
@@ -214,6 +215,7 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
         caliber = 2.125;
         timetolive = 15;
         hit = 12;
+		airFriction = -0.00032;
         model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
     };
 
@@ -221,6 +223,7 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
     {
         caliber = 2.315;
         timetolive = 15;
+		airFriction = -0.00025;
         hit = 18;
         model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
     };
@@ -228,7 +231,7 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
 	class 22nd_B_95x40: B_65x39_Case
 	{
 		caliber=2.3;
-		
+		airFriction = -0.00030;
 		hit=17;
 		model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
 	};
@@ -236,7 +239,7 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
 	class 22nd_B_114x90: B_127x99_Ball
 	{
 		caliber = 2.6;
-		
+		airFriction = -0.0022;
 		hit = 24;
 		model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
 	};
@@ -252,47 +255,34 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
 	class 22nd_B_145x114: B_20mm_AP
 	{
 		caliber = 4.2;
-		
+		airFriction = -0.00015;
 		hit = 80;
 		model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
 	};
 
 	/// SMG + Pistol ///
 
-    class 22nd_B_10x31: B_65x39_Caseless
+    class 22nd_B_10x31: B_45ACP_Ball_Yellow
 	{
-		caliber=2.1;
-		hit=6;
-
+		caliber=2.3;
+		hit=4;
+		airFriction = -0.00062437;
 		model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
 	};
 
 	class 22nd_B_5x23: B_65x39_Caseless
 	{
 		caliber=1.8;
-		
+		airFriction = -0.00042437;
 		hit=9;
 		model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
-	};
-	class 22nd_5x23_AP: B_65x39_Caseless
-	{
-		caliber=2.2;
-		
-		hit=10;
-		model="\A3\Weapons_f\Data\bullettracer\tracer_red";
-	};
-	class 22nd_5x23_SS: B_65x39_Caseless
-	{
-		caliber=1.8;
-		
-		hit=23;
-		cartridge = "FxCartridge_9mm";
 	};
 
 	class 22nd_B_127x40_FMJ: B_127x33_Ball
 	{
 		caliber=2.5;
 		hit=18;
+		airFriction = -0.00055706;
 		cartridge = "FxCartridge_9mm";
 	};
 

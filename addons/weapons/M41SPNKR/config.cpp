@@ -74,7 +74,8 @@ class cfgWeapons
 		magazines[]=
 		{
 			
-			"22nd_2rnd_HEAT_SACLOS" //Default round
+			"22nd_2rnd_HEAT_SACLOS",
+			"22nd_2rnd_AA_IR"
 		};
 		magazineWell[] = {};
 
@@ -110,7 +111,7 @@ class cfgWeapons
 
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			mass=70;
+			mass=100;
 		};
 	};
 };
@@ -119,6 +120,7 @@ class cfgAmmo
 {
 	class OPTRE_M41_Rocket_HEAT_G;
 	class ammo_Penetrator_Vorona;
+	class M_Titan_AA;
 
 	class 22nd_M41SPNKR_HEAT_Penetrator: ammo_Penetrator_Vorona
 	{
@@ -172,5 +174,41 @@ class cfgAmmo
 			// class Direct
 			// {
 			// };
-		};
+	};
+
+	class 22nd_R_AA_IR: M_Titan_AA 
+	{
+			
+			model = "\OPTRE_Weapons\Rockets\M41_rocket.p3d";
+			ace_vehicle_damage_incendiary = 1;
+			effectsMissile = "missile4";
+			effectsMissileInit = "RocketBackEffectsRPG";
+
+			airLock = 1;
+			irLock = 1;
+			laserLock = 0;
+			nvLock = 0;
+			// ace_frag_skip = 0;
+			// ace_frag_classes[] = {"ace_frag_medium","ace_frag_medium_HD"};
+			// ace_frag_charge = 1040;
+			// ace_frag_gurney_c = 2700;
+			// ace_frag_gurney_k = 0.5;
+			// ace_frag_metal = 3850;
+			// ace_frag_force = 1;
+			caliber = 2;
+			hit = 450;
+			indirectHit = 100;
+			indirectHitRange = 6;
+			thrust = 600;
+			thrustTime = 5;
+			cmImmunity = 0.92;
+			weaponLockSystem = "2 + 16";
+			missileLockMinDistance = 15;
+			missileLockMaxDistance = 5000;
+			maneuvrability = 20;
+			trackLead = 1;
+			missileLockCone = 30;
+			missileKeepLockedCone = 180;
+			maxControlRange = 5000;
+	};
 };
