@@ -200,7 +200,7 @@ class CfgMagazines
 	class 22nd_6nd_145x114_APFSDS: OPTRE_4Rnd_145x114_APFSDS_Mag
 	{
 		count=6;
-		mass=10;
+		mass=15;
 		initspeed=1800;
 		displayName="6rnd SRS99 APFSDS Mag";
 		displayNameShort="6rnd 14.5x114";
@@ -345,25 +345,6 @@ class CfgMagazines
 	};
 	
 
-	class 22nd_AudioTest_Mag : 22nd_32nd_762x51_FMJ
-	{
-		displayName = "Audio Test Mag";
-		displayNameShort = "32rnd 762x51";
-		descriptionShort = "32rnd 762x51";
-		scope = 1;
-		count = 60;
-
-		mass = 1;
-
-		initSpeed = 900;
-
-		ammo = "22nd_762x51";
-
-		tracersEvery = 3;
-
-		modelSpecial = "";
-		modelSpecialIsProxy = 0;
-	};
 
 
 	/// Launchers
