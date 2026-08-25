@@ -98,14 +98,6 @@ class CfgWeapons
 					"22nd_tail_Shotgun_SoundSet"
 				};
 			};
-			class SilencedSound: StandardSound
-			{
-				soundSetShot[]=
-				{
-					"22nd_Suppressed_M45_Shot_Soundset",
-					"22nd_MA37_Tail_SoundSet"
-				};
-			};
 			dispersion=0.0008726646;
 			minRange=2;
 			minRangeProbab=0.2;
@@ -154,14 +146,6 @@ class CfgWeapons
 						"HunterShotgun_01_Tail_SoundSet"
 					};
 				};
-				class SilencedSound: StandardSound
-				{
-					soundSetShot[]=
-					{
-						"22nd_Suppressed_M45_Shot_Soundset",
-						"HunterShotgun_01_Tail_SoundSet"
-					};
-				};
 				dispersion=0.0008726646;
 				minRange=2;
 				minRangeProbab=0.2;
@@ -181,13 +165,6 @@ class CfgWeapons
 		{
 			mass = 70;
 
-			class MuzzleSlot: MuzzleSlot
-			{
-				compatibleItems[]=
-				{
-				};
-			};
-
 			class CowsSlot: CowsSlot
 			{
 				linkProxy="\A3\data_f\proxies\weapon_slots\TOP";
@@ -205,6 +182,11 @@ class CfgWeapons
 					"optic_Holosight_smg_blk_F",
 
 				};
+			};
+
+			class MuzzleSlot: MuzzleSlot
+			{
+				compatibleItems[]={};
 			};
 
 			class PointerSlot: PointerSlot

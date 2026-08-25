@@ -25,7 +25,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M393EMR\sounds\M393_closure.wav",
+				"\z\22ndRDF\addons\weapons\M393EMR\sounds\M393_closure.wss",
 				1
 			}
 		};
@@ -38,7 +38,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M393EMR\sounds\M393_close.wav",
+				"\z\22ndRDF\addons\weapons\M393EMR\sounds\M393_close.wss",
 				1
 			}
 		};
@@ -52,7 +52,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M393EMR\sounds\M393_distant.wav",
+				"\z\22ndRDF\addons\weapons\M393EMR\sounds\M393_distant.wss",
 				1
 			}
 		};
@@ -66,7 +66,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M393EMR\sounds\M393_far.wav",
+				"\z\22ndRDF\addons\weapons\M393EMR\sounds\M393_far.wss",
 				1
 			}
 		};

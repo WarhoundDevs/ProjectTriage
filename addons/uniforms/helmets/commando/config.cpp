@@ -6,13 +6,11 @@ class CfgPatches
         weapons[] = 
         {
         
-        "22nd_helmet_commando_base",
+        "22nd_Commando_Helmet_Urban",
+        "22nd_Commando_Helmet_Winter",
+        "22nd_Commando_Helmet_Woodland",
+        "22nd_Commando_Custom_Test",
 
-        "22nd_Commando_base_Urban",
-        "22nd_Commando_base_Winter",
-        "22nd_Commando_base_Woodland",
-
-        "22nd_Commando_Custom_Test"
 
 
 
@@ -45,7 +43,7 @@ class CfgWeapons
 
     class 22nd_helmet_commando_base: MA_Mjolnir_Commando_Helmet //our base helmet but also doubles as VX-19 Urban
     {
-        scope = 0;
+        scope = 1;
         scopeArsenal = 0;
         dlc="22nd_RDF";
         author = "Warhound Mod Team + Misriah Armory";
@@ -71,7 +69,7 @@ class CfgWeapons
     //Base
     class 22nd_Commando_Helmet_Urban: 22nd_helmet_commando_base
     {
-        scope=0;
+        scope=1;
         scopeArsenal=0;
         displayName= "[22nd] Commando Urban";
         class XtdGearInfo
@@ -97,7 +95,7 @@ class CfgWeapons
 
     class 22nd_Commando_Helmet_Winter: 22nd_helmet_commando_base
     {
-        scope=0;
+        scope=1;
         scopeArsenal=0;
         displayName= "[22nd] Commando Snow";
         class XtdGearInfo
@@ -123,7 +121,7 @@ class CfgWeapons
 
     class 22nd_Commando_Helmet_Woodland: 22nd_helmet_commando_base
     {
-        scope=0;
+        scope=1;
         scopeArsenal=0;
         displayName= "[22nd] Commando Woodland";
         class XtdGearInfo
@@ -151,7 +149,7 @@ class CfgWeapons
     //Start Customs
     class 22nd_Commando_Custom_Test: 22nd_helmet_commando_base
     {
-        scope=0;
+        scope=1;
         scopeArsenal=0;
         displayName= "[22nd] Commando Custom Test";
         class XtdGearInfo

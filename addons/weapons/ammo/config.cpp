@@ -43,8 +43,8 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
 
 	class 22nd_B_8g_Magnum: B_12Gauge_Pellets_Submunition_Deploy
 	{
-		hit=7;
-		caliber=4;
+		hit=6;
+		caliber=8;
 		typicalSpeed=360;
 		triggerDistance=0;
 		model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
@@ -57,7 +57,7 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
 	class 22nd_B_8g_Moa: B_12Gauge_Pellets_Submunition_Deploy
 	{
 		hit=3.5;
-		caliber=3;
+		caliber=8;
 		typicalSpeed=420;
 		triggerDistance=0;
 		model = "\A3\Weapons_f\Data\bullettracer\tracer_white";
@@ -70,7 +70,7 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
 	{
 		hit=12;
 		airFriction = -0.00103711;
-		caliber=3;
+		caliber=3.5;
 		typicalSpeed=700;
 		triggerDistance=0;
 		model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
@@ -210,20 +210,21 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
 
 	/// Rifle ///
 
+	// AMMO found in weapons>ammo>config.cpp
     class 22nd_B_762x51_FMJ : B_762x51_Ball //FMJ Used in MA37, 
     {
-        caliber = 2.125;
-        timetolive = 15;
-        hit = 12;
-		airFriction = -0.00032;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
+        caliber = 2.125; //Used in penetration calculation multiplied with muzzle velocity
+        timetolive = 15; // amount of time in seconds the bullet is spanwed for (if it hits something that will happen sooner).
+        hit = 12; // Damage value of bullet, not penetration
+		airFriction = -0.00032; // How much airfriction is applied to bullet, greater value means more of a drop, lower value means flatter trajectory.
+        model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow"; //model of round, in this instance tracer color.
     };
 
 	class 22nd_B_762x51_HVAP : B_762x51_Ball //FMJ Used in MA37, 
     {
         caliber = 2.315;
         timetolive = 15;
-		airFriction = -0.00025;
+		airFriction = -0.00020;
         hit = 18;
         model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
     };
@@ -232,14 +233,14 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
 	{
 		caliber=2.3;
 		airFriction = -0.00030;
-		hit=17;
+		hit=15;
 		model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
 	};
 	
 	class 22nd_B_114x90: B_127x99_Ball
 	{
 		caliber = 2.6;
-		airFriction = -0.0022;
+		airFriction = -0.0015;
 		hit = 24;
 		model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
 	};
@@ -272,9 +273,9 @@ class CfgAmmo //Review and make sure ace ballistics and such is properly configu
 
 	class 22nd_B_5x23: B_65x39_Caseless
 	{
-		caliber=1.8;
+		caliber=2.125;
 		airFriction = -0.00042437;
-		hit=9;
+		hit=8;
 		model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
 	};
 

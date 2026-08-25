@@ -11,10 +11,7 @@ class cfgpatches {
 			    "OPTRE_Weapons",
 			    "MA_Armor"
 		    };
-            units[] = {
-                "22nd_MAKO_Vest", // this is for spawnable units, cfgvehicles specifically, you'd define say: '22nd rifleman' here. Unless you're actually making a new unit theres no need to touch this
-                "22nd_TacVest_Base",
-            };
+            units[] = {};
             weapons[]= {
             "22nd_MAKO_Vest", // ditto, but this is to let the editor recognize it and spawn it on said unit, this only fits weapons, vests and helmets (i think also nvgs?)
             "22nd_TacVest_Base",
@@ -260,7 +257,7 @@ class cfgweapons
     };
     class 22nd_TacVest_Base: Marine_Pouches_Base
     {
-        scope=0;
+        scope=1;
         scopeArsenal=0;
         author="Misriah Armory";
         displayName="[22nd] Tactical Pouches Base";

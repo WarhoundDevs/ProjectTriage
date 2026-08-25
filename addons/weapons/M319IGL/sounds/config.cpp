@@ -26,7 +26,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M319IGL\sounds\M319_closure.wav",
+				"\z\22ndRDF\addons\weapons\M319IGL\sounds\M319_closure.wss",
 				1
 			}
 		};
@@ -39,7 +39,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M319IGL\sounds\M319_close.wav",
+				"\z\22ndRDF\addons\weapons\M319IGL\sounds\M319_close.wss",
 				1
 			}
 		};
@@ -53,7 +53,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M319IGL\sounds\M319_distant.wav",
+				"\z\22ndRDF\addons\weapons\M319IGL\sounds\M319_distant.wss",
 				1
 			}
 		};
@@ -67,7 +67,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M319IGL\sounds\M319_far.wav",
+				"\z\22ndRDF\addons\weapons\M319IGL\sounds\M319_far.wss",
 				1
 			}
 		};

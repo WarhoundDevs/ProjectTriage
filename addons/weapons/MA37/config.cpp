@@ -30,7 +30,15 @@ class CfgPatches
     };
 };
 
-class CfgRecoils
+//Arma 3 modding references
+//cfgAmmo https://community.bistudio.com/wiki/CfgAmmo_Config_Referencem, https://community.bistudio.com/wiki/Arma_3:_Targeting_Config_Reference, https://community.bistudio.com/wiki/Arma_3:_Weapon_Config_Guidelines#Ammo_changes_on_fly_and_on_hit
+//cfgMagazines https://community.bistudio.com/wiki/CfgMagazines_Config_Reference, https://community.bistudio.com/wiki/Arma_3:_Weapon_Config_Guidelines#Magazine_compatibility_groups
+//cfgWeapons https://community.bistudio.com/wiki/Arma_3:_Weapon_Config_Guidelines, https://community.bistudio.com/wiki/Arma_3:_Weapon_Config_Guidelines#Slotable_weapons, 
+
+
+
+
+class CfgRecoils //https://community.bistudio.com/wiki/Arma_3:_CfgRecoils
 {
     class 22nd_recoil_MA37
     {
@@ -74,58 +82,49 @@ class OPTRE_MA37B
 class CfgWeapons
 {
 	
-
-	class 22nd_MA37 : OPTRE_MA37B
+    // Weapon found in this case weapons>MA37>config.cpp
+	class 22nd_MA37 : OPTRE_MA37B 
 	{
-		scope = 2;
-		descriptionShort = "MA37 7.62x51mm Service Rifle w/ integrated smart link optic <br /> Old faithful, jack of all trades";
-		arsenalscope =2;
-		access=3;
-		aimTransitionSpeed=1.0;
-		displayName = "[22nd] MA37 AR";
-	    initSpeed=850;
-		baseWeapon = "22nd_MA37";
-		dexterity = 2;
-		inertia = 0.45;
+		scope = 2; // 2 =can be found in arsenal , 0=Cannot be found in game, 1= can be found in game but not in arsenal.
+		descriptionShort = "MA37 7.62x51mm Service Rifle w/ integrated smart link optic <br /> Old faithful, jack of all trades"; //description when you hover over the weapon
+		arsenalscope =2; 
+		access=3; 
+		aimTransitionSpeed=1.0; // Aim down sight speed
+		displayName = "[22nd] MA37 AR"; //
+	    initSpeed=850; //muzzle velocity of weapon, overerides CFG magazines useful for if you want one gun to share ammo but be slightly buffed.
+		baseWeapon = "22nd_MA37"; //
+		dexterity = 2; // In-game weapon handling value, lower value = takes more time to traverse a weapon.
+		inertia = 0.45; // physical coefficient property that controls how sluggishly or heavily a firearm handles when moving and aiming, higher = heavier
 
 		canShootInWater = 1;
 
-		HUD_TotalPosibleBullet = 32;
+		HUD_TotalPosibleBullet = 32; //OPTRE value
 
-		recoil = "22nd_recoil_MA37";
-		recoilProne = "22nd_recoil_MA37";
+		recoil = "22nd_recoil_MA37"; // references recoil array that in our configs can be found above cfg weapons.S
+		recoilProne = "22nd_recoil_MA37"; // references recoil array that in our configs can be found above cfg weapons.S
 
-		ACE_Overheating_mrbs = 300000;
+		ACE_Overheating_mrbs = 300000; //Ace overheating. Mean Rounds Between Stoppages (this will be scaled based on the barrel temp)
 
 		magazines[] =
 		{
 			"22nd_32nd_762x51_FMJ"
-			// "22nd_mag_Uni_Tracer"
-		};
-		magazineWell[] = {};
+		};  //Magazines this weapon uses or can use
+		magazineWell[] = {}; //Magazine wells this weapon can use
 		modes[] =
 		{
-			"Single",
-			"FullAuto",
-			"close",
-			"short",
-			"medium",
-			"far"
-		};
+			"Single", //Player semi-auto
+			"FullAuto", //Player Full-auto
+			"close", //AI uses
+			"short", //AI uses
+			"medium", //AI uses
+			"far" //AI uses
+		}; //Modes  this weapon can switch too
 
-		   class Single : Single
+		   class Single : Single //inherits from OPTRE singlefire
 		{
-			reloadTime = 0.1;
-			dispersion = 0.0005817764;
+			reloadTime = 0.1; // Rate of fire 60/0.1 = RPM (if X equals reload time) 60/ROF= X
+			dispersion = 0.0005817764; // Accuracy of weapon look at handy chart for MOA conversion
 
-			minRange = 2;
-			minRangeProbab = 0.5;
-
-			midRange = 250;
-			midRangeProbab = 0.7;
-
-			maxRange = 450;
-			maxRangeProbab = 0.3;
 			sounds[] = {"StandardSound","SilencedSound"};
 			class BaseSoundModeType
 			{
@@ -141,29 +140,19 @@ class CfgWeapons
 				};
 			};
 
-			class StandardSound : BaseSoundModeType
+			class StandardSound : BaseSoundModeType //links to custom sounds
 			{
 				soundSetShot[] =
 				{
-					"22nd_MA37_Shot_SoundSet",
+					"22nd_MA37_Shot_SoundSet", //custom soundset
 					"DMR01_Tail_SoundSet",
 					"DMR01_InteriorTail_SoundSet"
 				};
 			};
-
-			class SilencedSound : BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					"22nd_Suppressed_MA37_Shot_SoundSet",
-					"22nd_MA37_Tail_SoundSet"
-				};
-			};
 		};
 
-			class FullAuto : FullAuto
+			class FullAuto : FullAuto //inherits from OPTRE Full auto fire, for values see above^
 		{
-			displayName = "Full Auto";
 
 			reloadTime = 0.1;
 			dispersion = 0.0005817764;
@@ -192,30 +181,12 @@ class CfgWeapons
 					"DMR01_InteriorTail_SoundSet",
 				};
 			};
-
-			class SilencedSound : BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					"22nd_Suppressed_MA37_Shot_SoundSet",
-					"22nd_tail_SoundSet"
-				};
-			};
 		};
 
-		class LinkedItems 
-		{
-            class LinkedItemsOptic 
-			{
-                slot = "CowsSlot"; // Standard top rail/optic slot name
-                item = "22nd_MA37_Smartlink_Scope"; // Class name of the optic you want integrated
-            };
-	    };
 
-
-			class WeaponSlotsInfo : WeaponSlotsInfo
+			class WeaponSlotsInfo : WeaponSlotsInfo // contains accessory slots and weapon weight. 
 		{
-			mass = 80;
+			mass = 80; //weapon weight
 
 			class MuzzleSlot : MuzzleSlot
 			{
@@ -225,11 +196,11 @@ class CfgWeapons
 				};
 			};
 
-			class CowsSlot : CowsSlot
+			class CowsSlot : CowsSlot // Optic Sloot
 			{
 				compatibleItems[] =
 				{
-					"22nd_MA37_Smartlink_Scope"
+					"22nd_MA37_Smartlink_Scope" //Attachment class name the weapon can use.
 				};
 			};
 			
@@ -440,7 +411,7 @@ class CfgWeapons
 			{
 				compatibleItems[] =
 				{
-					"OPTRE_MA37_Smartlink_Scope"
+					"22nd_MA37_Smartlink_Scope"
 				};
 			};
 		};

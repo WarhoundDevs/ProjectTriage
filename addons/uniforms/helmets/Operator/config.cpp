@@ -45,7 +45,7 @@ class CfgWeapons
 {
     class 22nd_Operator_base : OPTRE_UNSC_Operator_Helmet
     {
-        scope = 0;
+        scope = 1;
         scopeArsenal = 0;
         author = "22nd Mod Team";
         displayName = "[22nd] Operator base";
@@ -73,7 +73,6 @@ class CfgWeapons
         scopeArsenal=0;
         author= "Astro";
         displayName= "[22nd] Operator Woodland";
-        picture = "z\22ndRDF\addons\uniforms\helmets\Operator\data\base\22ndRDF.paa";
         hiddenSelections[]=
         {
             "camo1",
@@ -103,7 +102,6 @@ class CfgWeapons
         scopeArsenal=0;
         author= "Astro";
         displayName= "[22nd] Operator Snow";
-        picture = "z\22ndRDF\addons\uniforms\helmets\Operator\data\base\22ndRDF.paa";
         hiddenSelections[]=
         {
             "camo1",

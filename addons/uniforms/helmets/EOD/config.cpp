@@ -50,7 +50,7 @@ class CfgWeapons
 {
     class 22nd_EOD_base : MA_M56E_Helmet
     {
-        scope = 0;
+        scope = 1;
         scopeArsenal = 0;
         author = "22nd Mod Team";
         displayName = "[22nd] M56E base";
@@ -78,7 +78,6 @@ class CfgWeapons
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] EOD Woodland";
-        picture = "z\22ndRDF\addons\uniforms\helmets\EOD\data\base\22ndRDF.paa";
 
         class XtdGearInfo
         {
@@ -102,7 +101,6 @@ class CfgWeapons
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] EOD Snow";
-        picture = "z\22ndRDF\addons\uniforms\helmets\EOD\data\base\22ndRDF.paa";
 
         class XtdGearInfo
         {

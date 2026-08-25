@@ -17,7 +17,6 @@ class CfgPatches
 		weapons[]=
 		{
 			"22nd_M73",
-			"22nd_M73_Suppressor"
 		};
 	};
 };
@@ -53,7 +52,6 @@ class OPTRE_M73
 
 class cfgWeapons
 {
-	
 	class 22nd_M73: OPTRE_M73
 	{
 		displayName="[22nd] M73 LSW";
@@ -98,14 +96,6 @@ class cfgWeapons
 					"Mk200_InteriorTail_SoundSet"
 				};
 			};
-			class SilencedSound: SilencedSound
-			{
-				soundSetShot[]=
-				{
-					"22nd_Suppressed_MA37_Shot_Soundset",
-					"22nd_MA37_Tail_SoundSet"
-				};
-			};
 			multiplier=1;
 			recoil="22nd_recoil_M73";
 			recoilProne="22nd_recoil_M73";
@@ -120,13 +110,6 @@ class cfgWeapons
 		};
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: MuzzleSlot
-			{
-				compatibleItems[]=
-				{
-					"22nd_M73_Suppressor"
-				};
-			};
 			class CowsSlot: CowsSlot
 			{
 				linkProxy="\A3\data_f\proxies\weapon_slots\TOP";
@@ -147,76 +130,5 @@ class cfgWeapons
 			};
 			mass=95;
 		};
-		class OpticsModes
-		{
-			class sight
-			{
-				opticsID=2;
-				useModelOptics=0;
-				opticsPPEffects[]=
-				{
-					"OpticsCHAbera5",
-					"OpticsBlur5"
-				};
-				opticsDisablePeripherialVision=0.67000002;
-				opticsZoomMin=0.375;
-				opticsZoomMax=1.1;
-				opticsZoomInit=0.75;
-				discreteInitIndex=0;
-				distanceZoomMin=100;
-				distanceZoomMax=700;
-				discreteDistance[]={100,200,300,400,500,600,700};
-				discreteDistanceInitIndex=0;
-				memoryPointCamera="eye";
-				visionMode[]={};
-				opticsFlare="true";
-				cameraDir="";
-			};
-		};
-	};
-	class InventoryMuzzleItem_Base_F;
-	class optre_ma5suppressor;
-	class 22nd_M73_Suppressor: optre_ma5suppressor
-	{
-		scope=2;
-		displayName="M73 Suppressor";
-		class ItemInfo: InventoryMuzzleItem_Base_F
-		{
-			soundTypeIndex=1;
-			mass=1;
-			class MagazineCoef
-			{
-				initSpeed=0.5;
-			};
-			class AmmoCoef
-			{
-				hit=1;
-				visibleFire=0.30000001;
-				audibleFire=0.30000001;
-				visibleFireTime=1;
-				audibleFireTime=1;
-				cost=1;
-				typicalSpeed=1;
-				airFriction=1;
-			};
-			model="\A3\weapons_f\acc\acca_mzls_H_F";
-			muzzleEnd="zaslehPoint";
-			alternativeFire="Zasleh2";
-			class MuzzleCoef
-			{
-				dispersionCoef="1.0f";
-				artilleryDispersionCoef="1.0f";
-				fireLightCoef="0.1f";
-				recoilCoef="1.0f";
-				recoilProneCoef="1.0f";
-				minRangeCoef="1.0f";
-				minRangeProbabCoef="1.0f";
-				midRangeCoef="1.0f";
-				midRangeProbabCoef="1.0f";
-				maxRangeCoef="1.0f";
-				maxRangeProbabCoef="1.0f";
-			};
-		};
 	};
 };
-

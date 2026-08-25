@@ -26,7 +26,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M44LAT\sounds\M44_closure.wav",
+				"\z\22ndRDF\addons\weapons\M44LAT\sounds\M44_closure.wss",
 				1
 			}
 		};
@@ -39,7 +39,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M44LAT\sounds\M44_close.wav",
+				"\z\22ndRDF\addons\weapons\M44LAT\sounds\M44_close.wss",
 				1
 			}
 		};
@@ -53,7 +53,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M44LAT\sounds\M44_distant.wav",
+				"\z\22ndRDF\addons\weapons\M44LAT\sounds\M44_distant.wss",
 				1
 			}
 		};
@@ -67,7 +67,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M44LAT\sounds\M44_far.wav",
+				"\z\22ndRDF\addons\weapons\M44LAT\sounds\M44_far.wss",
 				1
 			}
 		};

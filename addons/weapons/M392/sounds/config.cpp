@@ -25,7 +25,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M392\sounds\M392_Closure.wav",
+				"\z\22ndRDF\addons\weapons\M392\sounds\M392_Closure.wss",
 				1
 			}
 		};
@@ -37,7 +37,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M392\sounds\M392_Close.wav",
+				"\z\22ndRDF\addons\weapons\M392\sounds\M392_Close.wss",
 				1
 			}
 		};
@@ -51,7 +51,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M392\sounds\M392_distant.wav",
+				"\z\22ndRDF\addons\weapons\M392\sounds\M392_distant.wss",
 				1
 			}
 		};
@@ -71,7 +71,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M392\sounds\M392_far.wav",
+				"\z\22ndRDF\addons\weapons\M392\sounds\M392_far.wss",
 				1
 			}
 		};

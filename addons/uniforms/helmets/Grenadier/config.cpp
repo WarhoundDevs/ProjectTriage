@@ -46,7 +46,7 @@ class CfgWeapons
 {
     class 22nd_Grenadier_base : MA_Mjolnir_Grenadier_Helmet
     {
-        scope = 0;
+        scope = 1;
         scopeArsenal = 0;
         author = "22nd Mod Team";
         displayName = "[22nd] Grenadier base";
@@ -74,7 +74,6 @@ class CfgWeapons
         scopeArsenal=0;
         author= "Astro";
         displayName= "[22nd] Grenadier Woodland";
-        picture = "z\22ndRDF\addons\uniforms\helmets\Grenadier\data\base\22ndRDF.paa";
         hiddenSelections[]=
         {
             "Camo1",
@@ -103,7 +102,6 @@ class CfgWeapons
         scopeArsenal=0;
         author= "Astro";
         displayName= "[22nd] Grenadier Snow";
-        picture = "z\22ndRDF\addons\uniforms\helmets\Grenadier\data\base\22ndRDF.paa";
         hiddenSelections[]=
         {
             "Camo1",

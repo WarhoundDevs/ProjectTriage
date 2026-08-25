@@ -119,12 +119,7 @@ class cfgWeapons
 		
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: MuzzleSlot
-			{
-				compatibleItems[]=
-				{
-				};
-			};
+			
 			class CowsSlot: CowsSlot
 			{
 				compatibleItems[]=
@@ -142,32 +137,6 @@ class cfgWeapons
 			};
 			mass=95;
 		};
-		// class OpticsModes
-		// {
-		// 	class sight
-		// 	{
-		// 		opticsID=2;
-		// 		useModelOptics=0;
-		// 		opticsPPEffects[]=
-		// 		{
-		// 			"OpticsCHAbera5",
-		// 			"OpticsBlur5"
-		// 		};
-		// 		opticsDisablePeripherialVision=0.67000002;
-		// 		opticsZoomMin=0.375;
-		// 		opticsZoomMax=1.1;
-		// 		opticsZoomInit=0.75;
-		// 		discreteInitIndex=0;
-		// 		distanceZoomMin=100;
-		// 		distanceZoomMax=700;
-		// 		discreteDistance[]={100,200,300,400,500,600,700};
-		// 		discreteDistanceInitIndex=0;
-		// 		memoryPointCamera="eye";
-		// 		visionMode[]={};
-		// 		opticsFlare="true";
-		// 		cameraDir="";
-		// 	};
-		// };
 	};
 };
 

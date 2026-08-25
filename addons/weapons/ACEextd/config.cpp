@@ -133,7 +133,8 @@ class XtdGearModels
 				values[]= 
 				{//Available labels
 					"M392",
-					"M393"
+					"M393",
+					"SRS99C"
 				};
 				class M392 //The options themselves  "Label"
 				{
@@ -145,11 +146,11 @@ class XtdGearModels
 					label="M393 EMR";
 					image="\OPTRE_Weapons\DMR\icons\M395_Icon.paa";
 				};
-				// class M250
-				// {
-				// 	label="M250 HMG";
-				// 	image="\OPTRE_Weapons_MG\m247a1\data\icon\M250.paa";
-				// };
+				class SRS99C
+				{
+					label="SRS99C";
+					image="\OPTRE_weapons\sniper\icons\sniper2.paa";
+				};
 			};
 		};
 
@@ -243,6 +244,12 @@ class XtdGearInfos
 			Armaments="M393"; 
 		};
 
+		class 22nd_SRS99C
+		{
+		    model = "22nd_ACE_weapon_DMR"; 
+			Armaments="SRS99C"; 
+		};
+
 		class 22nd_M319
 		{
 		    model = "22nd_ACE_weapon_M319"; 
@@ -254,7 +261,6 @@ class XtdGearInfos
 		    model = "22nd_ACE_weapon_M319"; 
 			Armaments="M319N"; 
 		};
-
 
 	};
 };

@@ -46,7 +46,7 @@ class CfgWeapons
 {
     class 22nd_Scout_base : MA_Mjolnir_Scout_Helmet
     {
-        scope = 0;
+        scope = 1;
         scopeArsenal = 0;
         author = "22nd Mod Team";
         displayName = "[22nd] Scout base";
@@ -74,7 +74,6 @@ class CfgWeapons
         scopeArsenal=0;
         author= "Astro";
         displayName= "[22nd] Scout Woodland";
-        picture = "z\22ndRDF\addons\uniforms\helmets\Scout\data\base\22ndRDF.paa";
 
         class XtdGearInfo
         {
@@ -98,7 +97,6 @@ class CfgWeapons
         scopeArsenal=0;
         author= "Astro";
         displayName= "[22nd] Scout Snow";
-        picture = "z\22ndRDF\addons\uniforms\helmets\Scout\data\base\22ndRDF.paa";
 
         class XtdGearInfo
         {

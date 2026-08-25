@@ -20,9 +20,9 @@ class CfgPatches
 
             //Frog
             "22nd_Gungnir_Frog_WDL",
-            "22nd_Gungnir_Frog_AS_WDL",
-            "22nd_Gungnir_Frog_WNT",
-            "22nd_Gungnir_Frog_AS_WNT",
+            // "22nd_Gungnir_Frog_AS_WDL",
+            // "22nd_Gungnir_Frog_WNT",
+            // "22nd_Gungnir_Frog_AS_WNT",
 
             // Step 6. New Custom Above this text, spaced from previous name ^
             // Use "tab" or "shift tab" to help neaten up the block of class names when all highlighted.
@@ -54,7 +54,7 @@ class CfgWeapons
 {
     class 22nd_Gungnir_base : MA_Mjolnir_Gungnir_Helmet
     {
-        scope = 0;
+        scope = 1;
         scopeArsenal = 0;
         author = "22nd Mod Team";
         displayName = "[22nd] Gungnir base";
@@ -76,7 +76,7 @@ class CfgWeapons
     };
     class 22nd_Gungnir_AS_base : MA_Mjolnir_Gungnir_Helmet
     {
-        scope = 0;
+        scope = 1;
         scopeArsenal = 0;
         author = "22nd Mod Team";
         displayName = "[22nd] Gungnir Armoured Soldier base";
@@ -104,7 +104,6 @@ class CfgWeapons
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] Gungnir Woodland";
-        picture = "z\22ndRDF\addons\uniforms\helmets\Gungnir\data\base\22ndRDF.paa";
         hiddenSelections[]=
         {
             "Camo1"
@@ -129,7 +128,6 @@ class CfgWeapons
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] Gungnir Woodland (Armoured Soldier)";
-        picture = "z\22ndRDF\addons\uniforms\helmets\Gungnir\data\base\22ndRDF.paa";
         hiddenSelections[]=
         {
             "Camo1"
@@ -153,11 +151,10 @@ class CfgWeapons
     //Gungnir Winter
 
     class 22nd_Gungnir_WNT : 22nd_Gungnir_base{
-        scope=0;
+        scope=1;
         scopeArsenal=0;
         author= "Astro";
         displayName= "[22nd] Gungnir Snow";
-        picture = "z\22ndRDF\addons\uniforms\helmets\Gungnir\data\base\22ndRDF.paa";
         hiddenSelections[]=
         {
             "Camo1"
@@ -178,11 +175,10 @@ class CfgWeapons
     };
 
     class 22nd_Gungnir_AS_WNT : 22nd_Gungnir_AS_base{
-        scope=0;
+        scope=1;
         scopeArsenal=0;
         author= "Astro";
         displayName= "[22nd] Gungnir Snow (Armoured Soldier)";
-        picture = "z\22ndRDF\addons\uniforms\helmets\Gungnir\data\base\22ndRDF.paa";
         hiddenSelections[]=
         {
             "Camo1"

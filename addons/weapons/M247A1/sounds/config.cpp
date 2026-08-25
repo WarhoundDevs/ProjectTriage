@@ -25,7 +25,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M247A1\sounds\M247A1_closure.wav",
+				"\z\22ndRDF\addons\weapons\M247A1\sounds\M247A1_closure.wss",
 				1
 			}
 		};
@@ -38,7 +38,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M247A1\sounds\M247A1_close.wav",
+				"\z\22ndRDF\addons\weapons\M247A1\sounds\M247A1_close.wss",
 				1
 			}
 		};
@@ -52,7 +52,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M247A1\sounds\M247A1_distant.wav",
+				"\z\22ndRDF\addons\weapons\M247A1\sounds\M247A1_distant.wss",
 				1
 			}
 		};
@@ -66,64 +66,13 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M247A1\sounds\M247A1_far.wav",
+				"\z\22ndRDF\addons\weapons\M247A1\sounds\M247A1_far.wss",
 				1
 			}
 		};
 		volume=1.5;
 		range=4000;
 		rangeCurve[] = { {0,0}, {50,0}, {300,1}, {3000,1}, {4000,0}  };
-	};
-	class 22nd_Suppressed_M247A1_closeShot_SoundShader
-	{
-		samples[]=
-		{
-			
-			{
-				"\z\22ndRDF\addons\weapons\M247A1\Sounds\M247A1_close_Suppressed.wav",
-				1
-			}
-		};
-		volume=1.5;
-		range=300;
-		rangeCurve[]=
-		{
-			{0,1},
-			{300,0}
-		};
-	};
-	class 22nd_Suppressed_M247A1_closure_SoundShader
-	{
-		samples[]=
-		{
-			
-			{
-				"\z\22ndRDF\addons\weapons\M247A1\Sounds\M247A1_close_Suppressed.wav",
-				1
-			}
-		};
-		volume=0.44668359;
-		range=5;
-	};
-	class 22nd_Suppressed_M247A1_distShot_SoundShader
-	{
-		samples[]=
-		{
-			
-			{
-				"\z\22ndRDF\addons\weapons\M247A1\Sounds\M247A1_close_Suppressed.wav",
-				1
-			}
-		};
-		volume=0.80000001;
-		range=1000;
-		rangeCurve[]=
-		{
-			{0,0},
-			{50,0},
-			{300,1},
-			{1000,1}
-		};
 	};
 };
 class cfgSoundSets

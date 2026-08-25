@@ -28,7 +28,7 @@ class cfgRecoils
 {
 	class 22nd_recoil_M7
 	{
-		muzzleOuter[] = {0.2,0.4,0.2,0.2};
+		muzzleOuter[] = {0.15,0.4,0.15,0.2};
 		kickBack[] = {0.02,0.03};
 		permanent=0;
 		temporary = 0.02;
@@ -102,14 +102,7 @@ class cfgWeapons
 					"MX_InteriorTail_SoundSet",
 				};
 			};
-			class SilencedSound: SilencedSound
-			{
-				soundSetShot[]=
-				{
-					"22nd_Suppressed_M7_Shot_Soundset",
-					"22nd_MA37_Tail_SoundSet"
-				};
-			};
+			
 			multiplier=1;
 			flashSize = 0.1;
 			recoil="22nd_recoil_M7";

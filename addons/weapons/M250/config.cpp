@@ -35,7 +35,7 @@ class cfgRecoils
 		muzzleOuter[] = {0.1,1.5,0.6,0.4};
 		kickBack[] = {0.056,0.072};
 		permanent=0;
-		temporary = 0.015;
+		temporary = 0.005;
 	};
 };
 
@@ -120,53 +120,21 @@ class cfgWeapons
 		
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: MuzzleSlot
-			{
-				compatibleItems[]=
-				{
-				};
-			};
-			class CowsSlot: CowsSlot
-			{
-				compatibleItems[]=
-				{
-					"optic_mrco",
-					"optic_aco",
-					"optic_aco_smg",
-					"optic_hamr",
-					"optre_M250_sight",
-					"optre_m393_eotech",
-					"optre_m12_optic",
-					"optre_m392_scope"
-				};
-			};
-			mass=40;
-		};
-		class OpticsModes
-		{
-			class sight
-			{
-				opticsID=2;
-				useModelOptics=0;
-				opticsPPEffects[]=
-				{
-					"OpticsCHAbera5",
-					"OpticsBlur5"
-				};
-				opticsDisablePeripherialVision=0.67000002;
-				opticsZoomMin=0.375;
-				opticsZoomMax=1.1;
-				opticsZoomInit=0.75;
-				discreteInitIndex=0;
-				distanceZoomMin=100;
-				distanceZoomMax=700;
-				discreteDistance[]={100,200,300,400,500,600,700};
-				discreteDistanceInitIndex=0;
-				memoryPointCamera="eye";
-				visionMode[]={};
-				opticsFlare="true";
-				cameraDir="";
-			};
+			// class CowsSlot: CowsSlot
+			// {
+			// 	compatibleItems[]=
+			// 	{
+			// 		"optic_mrco",
+			// 		"optic_aco",
+			// 		"optic_aco_smg",
+			// 		"optic_hamr",
+			// 		"optre_M250_sight",
+			// 		"optre_m393_eotech",
+			// 		"optre_m12_optic",
+			// 		"optre_m392_scope"
+			// 	};
+			// };
+			mass=120;
 		};
 	};
 };

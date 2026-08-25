@@ -25,7 +25,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\SRS99C\sounds\SRS99_closure.wav",
+				"\z\22ndRDF\addons\weapons\SRS99C\sounds\SRS99_closure.wss",
 				1
 			}
 		};
@@ -38,7 +38,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\SRS99C\sounds\SRS99_close.wav",
+				"\z\22ndRDF\addons\weapons\SRS99C\sounds\SRS99_close.wss",
 				1
 			}
 		};
@@ -52,7 +52,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\SRS99C\sounds\SRS99_distant.wav",
+				"\z\22ndRDF\addons\weapons\SRS99C\sounds\SRS99_distant.wss",
 				1
 			}
 		};
@@ -66,7 +66,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\SRS99C\sounds\SRS99_far.wav",
+				"\z\22ndRDF\addons\weapons\SRS99C\sounds\SRS99_far.wss",
 				1
 			}
 		};

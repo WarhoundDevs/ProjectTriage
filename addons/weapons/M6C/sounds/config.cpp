@@ -25,7 +25,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M6C\sounds\M6C_Closure.wav",
+				"\z\22ndRDF\addons\weapons\M6C\sounds\M6C_Closure.wss",
 				1
 			}
 		};
@@ -37,7 +37,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M6C\sounds\M6C_close.wav",
+				"\z\22ndRDF\addons\weapons\M6C\sounds\M6C_close.wss",
 				1
 			}
 		};
@@ -51,7 +51,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M6C\sounds\M6C_distant.wav",
+				"\z\22ndRDF\addons\weapons\M6C\sounds\M6C_distant.wss",
 				1
 			}
 		};
@@ -65,7 +65,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M6C\sounds\M6C_Close.wav",
+				"\z\22ndRDF\addons\weapons\M6C\sounds\M6C_Close.wss",
 				1
 			}
 		};
@@ -79,7 +79,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M6C\sounds\M6C_close_Suppressed.wav",
+				"\z\22ndRDF\addons\weapons\M6C\sounds\M6C_close_Suppressed.wss",
 				1
 			}
 		};
@@ -97,7 +97,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M6C\sounds\M6C_close_Suppressed.wav",
+				"\z\22ndRDF\addons\weapons\M6C\sounds\M6C_close_Suppressed.wss",
 				1
 			}
 		};
@@ -110,7 +110,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M6C\sounds\M6C_close_Suppressed.wav",
+				"\z\22ndRDF\addons\weapons\M6C\sounds\M6C_close_Suppressed.wss",
 				1
 			}
 		};

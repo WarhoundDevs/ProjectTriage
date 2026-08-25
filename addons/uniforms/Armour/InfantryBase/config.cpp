@@ -5,7 +5,7 @@ class CfgPatches
         units[] = 
         {
            
-            "22nd_ArmourBase_Vehicle",
+            "22nd_Armourbase_Vehicle",
 
             // WD BDU LIGHT
             "22nd_Base_Light_Brown_Woodland_Low", // 1
@@ -155,9 +155,9 @@ class CfgVehicles
 {
     class MA_Marine_BDU_Base;
 
-    class 22nd_ArmourBase_Vehicle : MA_Marine_BDU_Base
+    class 22nd_Armourbase_Vehicle : MA_Marine_BDU_Base
     {
-        scope = 0; // Visible in editor
+        scope = 1; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_ArmourBaseVar1_Light"; // Custom uniform class
         hiddenSelections[]=
@@ -201,7 +201,7 @@ class CfgVehicles
     // WD BDU LIGHT
 
     //1
-    class 22nd_Base_Light_Brown_Woodland_Low : 22nd_ArmourBase_Vehicle
+    class 22nd_Base_Light_Brown_Woodland_Low : 22nd_Armourbase_Vehicle
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -224,7 +224,7 @@ class CfgVehicles
     };
 
     // 2
-    class 22nd_Base_Light_Brown_Woodland_High : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Light_Brown_Woodland_High : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -247,7 +247,7 @@ class CfgVehicles
     };
 
     // 3
-    class 22nd_Base_Light_Woodland_Woodland_Low : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Light_Woodland_Woodland_Low : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -270,7 +270,7 @@ class CfgVehicles
     };
 
     // 4
-    class 22nd_Base_Light_Woodland_Woodland_High : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Light_Woodland_Woodland_High : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -293,7 +293,7 @@ class CfgVehicles
     };
 
     // 5
-    class 22nd_Base_Light_Olive_Woodland_Low : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Light_Olive_Woodland_Low : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -316,7 +316,7 @@ class CfgVehicles
     };
 
     // 6
-    class 22nd_Base_Light_Olive_Woodland_High : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Light_Olive_Woodland_High : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -339,7 +339,7 @@ class CfgVehicles
     };
 
     // 7
-    class 22nd_Base_Light_Gray_Woodland_Low : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Light_Gray_Woodland_Low : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -362,7 +362,7 @@ class CfgVehicles
     };
 
     // 8
-    class 22nd_Base_Light_Gray_Woodland_High : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Light_Gray_Woodland_High : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -387,7 +387,7 @@ class CfgVehicles
     // WD BDU MEDIUM
 
     //1
-    class 22nd_Base_Medium_Brown_Woodland_Low : 22nd_ArmourBase_Vehicle
+    class 22nd_Base_Medium_Brown_Woodland_Low : 22nd_Armourbase_Vehicle
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -410,7 +410,7 @@ class CfgVehicles
     };
 
     // 2
-    class 22nd_Base_Medium_Brown_Woodland_High : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Medium_Brown_Woodland_High : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -433,7 +433,7 @@ class CfgVehicles
     };
 
     // 3
-    class 22nd_Base_Medium_Woodland_Woodland_Low : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Medium_Woodland_Woodland_Low : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -456,7 +456,7 @@ class CfgVehicles
     };
 
     // 4
-    class 22nd_Base_Medium_Woodland_Woodland_High : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Medium_Woodland_Woodland_High : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -479,7 +479,7 @@ class CfgVehicles
     };
 
     // 5
-    class 22nd_Base_Medium_Olive_Woodland_Low : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Medium_Olive_Woodland_Low : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -502,7 +502,7 @@ class CfgVehicles
     };
 
     // 6
-    class 22nd_Base_Medium_Olive_Woodland_High : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Medium_Olive_Woodland_High : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -525,7 +525,7 @@ class CfgVehicles
     };
 
     // 7
-    class 22nd_Base_Medium_Gray_Woodland_Low : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Medium_Gray_Woodland_Low : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -548,7 +548,7 @@ class CfgVehicles
     };
 
     // 8
-    class 22nd_Base_Medium_Gray_Woodland_High : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Medium_Gray_Woodland_High : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -572,7 +572,7 @@ class CfgVehicles
 
     // WD BDU HEAVY
 
-    class 22nd_Base_Heavy_Brown_Woodland_Low : 22nd_ArmourBase_Vehicle
+    class 22nd_Base_Heavy_Brown_Woodland_Low : 22nd_Armourbase_Vehicle
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -595,7 +595,7 @@ class CfgVehicles
     };
 
     // 2
-    class 22nd_Base_Heavy_Brown_Woodland_High : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Heavy_Brown_Woodland_High : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -618,7 +618,7 @@ class CfgVehicles
     };
 
     // 3
-    class 22nd_Base_Heavy_Woodland_Woodland_Low : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Heavy_Woodland_Woodland_Low : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -641,7 +641,7 @@ class CfgVehicles
     };
 
     // 4
-    class 22nd_Base_Heavy_Woodland_Woodland_High : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Heavy_Woodland_Woodland_High : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -664,7 +664,7 @@ class CfgVehicles
     };
 
     // 5
-    class 22nd_Base_Heavy_Olive_Woodland_Low : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Heavy_Olive_Woodland_Low : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -687,7 +687,7 @@ class CfgVehicles
     };
 
     // 6
-    class 22nd_Base_Heavy_Olive_Woodland_High : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Heavy_Olive_Woodland_High : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -710,7 +710,7 @@ class CfgVehicles
     };
 
     // 7
-    class 22nd_Base_Heavy_Gray_Woodland_Low : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Heavy_Gray_Woodland_Low : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -733,7 +733,7 @@ class CfgVehicles
     };
 
     // 8
-    class 22nd_Base_Heavy_Gray_Woodland_High : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Heavy_Gray_Woodland_High : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -761,7 +761,7 @@ class CfgVehicles
     // WINTER BDU LIGHT
 
     //1
-    class 22nd_Base_Light_Brown_Winter_Low : 22nd_ArmourBase_Vehicle
+    class 22nd_Base_Light_Brown_Winter_Low : 22nd_Armourbase_Vehicle
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -784,7 +784,7 @@ class CfgVehicles
     };
 
     // 2
-    class 22nd_Base_Light_Brown_Winter_High : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Light_Brown_Winter_High : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -807,7 +807,7 @@ class CfgVehicles
     };
 
     // 3
-    class 22nd_Base_Light_Winter_Winter_Low : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Light_Winter_Winter_Low : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -830,7 +830,7 @@ class CfgVehicles
     };
 
     // 4
-    class 22nd_Base_Light_Winter_Winter_High : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Light_Winter_Winter_High : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -853,7 +853,7 @@ class CfgVehicles
     };
 
     // 5
-    class 22nd_Base_Light_Olive_Winter_Low : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Light_Olive_Winter_Low : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -876,7 +876,7 @@ class CfgVehicles
     };
 
     // 6
-    class 22nd_Base_Light_Olive_Winter_High : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Light_Olive_Winter_High : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -899,7 +899,7 @@ class CfgVehicles
     };
 
     // 7
-    class 22nd_Base_Light_Gray_Winter_Low : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Light_Gray_Winter_Low : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -922,7 +922,7 @@ class CfgVehicles
     };
 
     // 8
-    class 22nd_Base_Light_Gray_Winter_High : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Light_Gray_Winter_High : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -947,7 +947,7 @@ class CfgVehicles
     // WINTER BDU MEDIUM
 
     //1
-    class 22nd_Base_Medium_Brown_Winter_Low : 22nd_ArmourBase_Vehicle
+    class 22nd_Base_Medium_Brown_Winter_Low : 22nd_Armourbase_Vehicle
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -970,7 +970,7 @@ class CfgVehicles
     };
 
     // 2
-    class 22nd_Base_Medium_Brown_Winter_High : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Medium_Brown_Winter_High : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -993,7 +993,7 @@ class CfgVehicles
     };
 
     // 3
-    class 22nd_Base_Medium_Winter_Winter_Low : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Medium_Winter_Winter_Low : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -1016,7 +1016,7 @@ class CfgVehicles
     };
 
     // 4
-    class 22nd_Base_Medium_Winter_Winter_High : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Medium_Winter_Winter_High : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -1039,7 +1039,7 @@ class CfgVehicles
     };
 
     // 5
-    class 22nd_Base_Medium_Olive_Winter_Low : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Medium_Olive_Winter_Low : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -1062,7 +1062,7 @@ class CfgVehicles
     };
 
     // 6
-    class 22nd_Base_Medium_Olive_Winter_High : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Medium_Olive_Winter_High : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -1085,7 +1085,7 @@ class CfgVehicles
     };
 
     // 7
-    class 22nd_Base_Medium_Gray_Winter_Low : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Medium_Gray_Winter_Low : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -1108,7 +1108,7 @@ class CfgVehicles
     };
 
     // 8
-    class 22nd_Base_Medium_Gray_Winter_High : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Medium_Gray_Winter_High : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -1132,7 +1132,7 @@ class CfgVehicles
 
     // WD BDU HEAVY
 
-    class 22nd_Base_Heavy_Brown_Winter_Low : 22nd_ArmourBase_Vehicle
+    class 22nd_Base_Heavy_Brown_Winter_Low : 22nd_Armourbase_Vehicle
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -1155,7 +1155,7 @@ class CfgVehicles
     };
 
     // 2
-    class 22nd_Base_Heavy_Brown_Winter_High : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Heavy_Brown_Winter_High : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -1178,7 +1178,7 @@ class CfgVehicles
     };
 
     // 3
-    class 22nd_Base_Heavy_Winter_Winter_Low : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Heavy_Winter_Winter_Low : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -1201,7 +1201,7 @@ class CfgVehicles
     };
 
     // 4
-    class 22nd_Base_Heavy_Winter_Winter_High : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Heavy_Winter_Winter_High : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -1224,7 +1224,7 @@ class CfgVehicles
     };
 
     // 5
-    class 22nd_Base_Heavy_Olive_Winter_Low : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Heavy_Olive_Winter_Low : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -1247,7 +1247,7 @@ class CfgVehicles
     };
 
     // 6
-    class 22nd_Base_Heavy_Olive_Winter_High : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Heavy_Olive_Winter_High : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -1270,7 +1270,7 @@ class CfgVehicles
     };
 
     // 7
-    class 22nd_Base_Heavy_Gray_Winter_Low : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Heavy_Gray_Winter_Low : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -1293,7 +1293,7 @@ class CfgVehicles
     };
 
     // 8
-    class 22nd_Base_Heavy_Gray_Winter_High : 22nd_ArmourBase_Vehicle 
+    class 22nd_Base_Heavy_Gray_Winter_High : 22nd_Armourbase_Vehicle 
     {
         scope = 2; // Visible in editor
         author = "Warhound Mod Team";
@@ -1329,7 +1329,7 @@ class CfgWeapons
    
     class 22nd_ArmourBase : U_B_CombatUniform_mcam
     {
-        scope = 0;
+        scope = 1;
         scopeArsenal = 0;
         author = "Warhound Mod Team";
         displayName = "[22nd] M52A Base"; // In-game name

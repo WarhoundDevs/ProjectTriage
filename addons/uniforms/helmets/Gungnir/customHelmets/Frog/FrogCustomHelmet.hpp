@@ -4,7 +4,6 @@
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] Frog Gungnir Woodland";
-        picture = "z\22ndRDF\addons\uniforms\helmets\Gungnir\data\base\22ndRDF.paa";
         hiddenSelections[]=
         {
             "Camo1"
@@ -24,80 +23,78 @@
         };
     };
 
-    class 22nd_Gungnir_Frog_AS_WDL : 22nd_Gungnir_AS_base{
-        scope=0;
-        scopeArsenal=0;
-        author= "Astro";
-        displayName= "[22nd] Frog Gungnir Woodland (Armoured Soldier)";
-        picture = "z\22ndRDF\addons\uniforms\helmets\Gungnir\data\base\22ndRDF.paa";
-        hiddenSelections[]=
-        {
-            "Camo1"
-        };
+    // class 22nd_Gungnir_Frog_AS_WDL : 22nd_Gungnir_AS_base{
+    //     scope=0;
+    //     scopeArsenal=0;
+    //     author= "Astro";
+    //     displayName= "[22nd] Frog Gungnir Woodland (Armoured Soldier)";
+    //     hiddenSelections[]=
+    //     {
+    //         "Camo1"
+    //     };
 
-        class XtdGearInfo
-        {
-            model = "22nd_Gungnir_Helmet";
-            Custom = "Frog";
-            Armour = "AS";
-            Camouflage = "WD";
-        };
+    //     class XtdGearInfo
+    //     {
+    //         model = "22nd_Gungnir_Helmet";
+    //         Custom = "Frog";
+    //         Armour = "AS";
+    //         Camouflage = "WD";
+    //     };
 
-        hiddenSelectionsTextures[]=
-        {
-            "z\22ndRDF\addons\uniforms\helmets\Gungnir\customHelmets\Frog\Frog_WDL_AS_Helmet_CO.paa"
-        };
-    };
+    //     hiddenSelectionsTextures[]=
+    //     {
+    //         "z\22ndRDF\addons\uniforms\helmets\Gungnir\customHelmets\Frog\Frog_WDL_AS_Helmet_CO.paa"
+    //     };
+    // };
 
 
-    //Gungnir Winter
+    // //Gungnir Winter
 
-    class 22nd_Gungnir_Frog_WNT : 22nd_Gungnir_base{
-        scope=0;
-        scopeArsenal=0;
-        author= "Astro";
-        displayName= "[22nd] Frog Gungnir Snow";
-        picture = "z\22ndRDF\addons\uniforms\helmets\Gungnir\data\base\22ndRDF.paa";
-        hiddenSelections[]=
-        {
-            "Camo1"
-        };
+    // class 22nd_Gungnir_Frog_WNT : 22nd_Gungnir_base{
+    //     scope=0;
+    //     scopeArsenal=0;
+    //     author= "Astro";
+    //     displayName= "[22nd] Frog Gungnir Snow";
 
-        class XtdGearInfo
-        {
-            model = "22nd_Gungnir_Helmet";
-            Custom = "Frog";
-            Armour = "Base";
-            Camouflage = "Winter";
-        };
+    //     hiddenSelections[]=
+    //     {
+    //         "Camo1"
+    //     };
 
-        hiddenSelectionsTextures[]=
-        {
-            "z\22ndRDF\addons\uniforms\helmets\Gungnir\customHelmets\Frog\Frog_WNT_Helmet_CO.paa"
-        };
-    };
+    //     class XtdGearInfo
+    //     {
+    //         model = "22nd_Gungnir_Helmet";
+    //         Custom = "Frog";
+    //         Armour = "Base";
+    //         Camouflage = "Winter";
+    //     };
 
-    class 22nd_Gungnir_Frog_AS_WNT : 22nd_Gungnir_AS_base{
-        scope=0;
-        scopeArsenal=0;
-        author= "Astro";
-        displayName= "[22nd] Frog Gungnir Snow (Armoured Soldier)";
-        picture = "z\22ndRDF\addons\uniforms\helmets\Gungnir\data\base\22ndRDF.paa";
-        hiddenSelections[]=
-        {
-            "Camo1"
-        };
+    //     hiddenSelectionsTextures[]=
+    //     {
+    //         "z\22ndRDF\addons\uniforms\helmets\Gungnir\customHelmets\Frog\Frog_WNT_Helmet_CO.paa"
+    //     };
+    // };
 
-        class XtdGearInfo
-        {
-            model = "22nd_Gungnir_Helmet";
-            Custom = "Frog";
-            Armour = "AS";
-            Camouflage = "Winter";
-        };
+    // class 22nd_Gungnir_Frog_AS_WNT : 22nd_Gungnir_AS_base{
+    //     scope=0;
+    //     scopeArsenal=0;
+    //     author= "Astro";
+    //     displayName= "[22nd] Frog Gungnir Snow (Armoured Soldier)";
+    //     hiddenSelections[]=
+    //     {
+    //         "Camo1"
+    //     };
 
-        hiddenSelectionsTextures[]=
-        {
-            "z\22ndRDF\addons\uniforms\helmets\Gungnir\customHelmets\Frog\Frog_WNT_AS_Helmet_CO.paa"
-        };
-    };
+    //     class XtdGearInfo
+    //     {
+    //         model = "22nd_Gungnir_Helmet";
+    //         Custom = "Frog";
+    //         Armour = "AS";
+    //         Camouflage = "Winter";
+    //     };
+
+    //     hiddenSelectionsTextures[]=
+    //     {
+    //         "z\22ndRDF\addons\uniforms\helmets\Gungnir\customHelmets\Frog\Frog_WNT_AS_Helmet_CO.paa"
+    //     };
+    // };

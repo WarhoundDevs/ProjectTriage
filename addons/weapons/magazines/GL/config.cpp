@@ -292,20 +292,55 @@ class CfgMagazineWells
 			"22nd_3Rnd_40mm_HE_FRAG",
 			"22nd_3Rnd_40mm_HE_DP",
 
-			"22nd_1Rnd_40mm_smokeF_Red",
-			"22nd_1Rnd_40mm_smokeF_Green",
-			"22nd_1Rnd_40mm_smokeF_Blue",
-			"22nd_1Rnd_40mm_smokeF_Purple",
-			"22nd_1Rnd_40mm_smokeF_Yellow",
-			"22nd_1Rnd_40mm_smokeF_Orange",
+			"22nd_1Rnd_40mm_HE_FRAG",
+			"22nd_1Rnd_40mm_HE_DP",
 
-			"22nd_1Rnd_40mm_Flare_White",
-			"22nd_1Rnd_40mm_Flare_Red",
-			"22nd_1Rnd_40mm_Flare_Green",
-			"22nd_1Rnd_40mm_Flare_Blue",
-			"22nd_1Rnd_40mm_Flare_Purple",
-			"22nd_1Rnd_40mm_Flare_Yellow",
-			"22nd_1Rnd_40mm_Flare_Orange"
+			"OPTRE_3Rnd_SmokeBlue_Grenade_shell",
+			"OPTRE_3Rnd_SmokeGreen_Grenade_shell",
+			"OPTRE_3Rnd_SmokeOrange_Grenade_shell",
+			"OPTRE_3Rnd_SmokePurple_Grenade_shell",
+			"OPTRE_3Rnd_SmokeRed_Grenade_shell",
+			"OPTRE_3Rnd_Smoke_Grenade_shell",
+			"OPTRE_3Rnd_SmokeYellow_Grenade_shell",
+
+			"3Rnd_SmokeBlue_Grenade_shell",
+			"3Rnd_SmokeGreen_Grenade_shell",
+			"3Rnd_SmokeOrange_Grenade_shell",
+			"3Rnd_SmokePurple_Grenade_shell",
+			"3Rnd_SmokeRed_Grenade_shell",
+			"3Rnd_Smoke_Grenade_shell",
+			"3Rnd_SmokeYellow_Grenade_shell",
+
+			"OPTRE_1Rnd_SmokeBlue_Grenade_shell",
+			"OPTRE_1Rnd_SmokeGreen_Grenade_shell",
+			"OPTRE_1Rnd_SmokeOrange_Grenade_shell",
+			"OPTRE_1Rnd_SmokePurple_Grenade_shell",
+			"OPTRE_1Rnd_SmokeRed_Grenade_shell",
+			"OPTRE_1Rnd_Smoke_Grenade_shell",
+			"OPTRE_1Rnd_SmokeYellow_Grenade_shell",
+
+			"ACE_40mm_Pike",
+			"ACE_HuntIR_M203",
+			"ACE_40mm_Flare_white",
+			"ACE_40mm_Flare_green",
+			"ACE_40mm_Flare_red",
+			"ACE_40mm_Flare_ir",
+
+
+			"OPTRE_signalSmokeB",
+			"OPTRE_signalSmokeG",
+			"OPTRE_signalSmokeO",
+			"OPTRE_signalSmokeP",
+			"OPTRE_signalSmokeR",
+			"OPTRE_signalSmokeY",
+	
+			"1Rnd_SmokeBlue_Grenade_shell",
+			"1Rnd_SmokeGreen_Grenade_shell",
+			"1Rnd_SmokeOrange_Grenade_shell",
+			"1Rnd_SmokePurple_Grenade_shell",
+			"1Rnd_SmokeRed_Grenade_shell",
+			"1Rnd_Smoke_Grenade_shell",
+			"1Rnd_SmokeYellow_Grenade_shell",
 		};
 	};
 
@@ -318,20 +353,36 @@ class CfgMagazineWells
 			"22nd_1Rnd_40mm_HE_FRAG",
 			"22nd_1Rnd_40mm_HE_DP",
 
-			"22nd_1Rnd_40mm_smokeF_Red",
-			"22nd_1Rnd_40mm_smokeF_Green",
-			"22nd_1Rnd_40mm_smokeF_Blue",
-			"22nd_1Rnd_40mm_smokeF_Purple",
-			"22nd_1Rnd_40mm_smokeF_Yellow",
-			"22nd_1Rnd_40mm_smokeF_Orange",
+			"OPTRE_1Rnd_SmokeBlue_Grenade_shell",
+			"OPTRE_1Rnd_SmokeGreen_Grenade_shell",
+			"OPTRE_1Rnd_SmokeOrange_Grenade_shell",
+			"OPTRE_1Rnd_SmokePurple_Grenade_shell",
+			"OPTRE_1Rnd_SmokeRed_Grenade_shell",
+			"OPTRE_1Rnd_Smoke_Grenade_shell",
+			"OPTRE_1Rnd_SmokeYellow_Grenade_shell",
 
-			"22nd_1Rnd_40mm_Flare_White",
-			"22nd_1Rnd_40mm_Flare_Red",
-			"22nd_1Rnd_40mm_Flare_Green",
-			"22nd_1Rnd_40mm_Flare_Blue",
-			"22nd_1Rnd_40mm_Flare_Purple",
-			"22nd_1Rnd_40mm_Flare_Yellow",
-			"22nd_1Rnd_40mm_Flare_Orange"
+			"ACE_40mm_Pike",
+			"ACE_HuntIR_M203",
+			"ACE_40mm_Flare_white",
+			"ACE_40mm_Flare_green",
+			"ACE_40mm_Flare_red",
+			"ACE_40mm_Flare_ir",
+
+
+			"OPTRE_signalSmokeB",
+			"OPTRE_signalSmokeG",
+			"OPTRE_signalSmokeO",
+			"OPTRE_signalSmokeP",
+			"OPTRE_signalSmokeR",
+			"OPTRE_signalSmokeY",
+	
+			"1Rnd_SmokeBlue_Grenade_shell",
+			"1Rnd_SmokeGreen_Grenade_shell",
+			"1Rnd_SmokeOrange_Grenade_shell",
+			"1Rnd_SmokePurple_Grenade_shell",
+			"1Rnd_SmokeRed_Grenade_shell",
+			"1Rnd_Smoke_Grenade_shell",
+			"1Rnd_SmokeYellow_Grenade_shell",
 		};
 	};
 
@@ -341,20 +392,35 @@ class CfgMagazineWells
 		22nd_40mm_Magazines[] =
 		{
 
-			"22nd_1Rnd_40mm_smokeF_Red",
-			"22nd_1Rnd_40mm_smokeF_Green",
-			"22nd_1Rnd_40mm_smokeF_Blue",
-			"22nd_1Rnd_40mm_smokeF_Purple",
-			"22nd_1Rnd_40mm_smokeF_Yellow",
-			"22nd_1Rnd_40mm_smokeF_Orange",
+			"OPTRE_1Rnd_SmokeBlue_Grenade_shell",
+			"OPTRE_1Rnd_SmokeGreen_Grenade_shell",
+			"OPTRE_1Rnd_SmokeOrange_Grenade_shell",
+			"OPTRE_1Rnd_SmokePurple_Grenade_shell",
+			"OPTRE_1Rnd_SmokeRed_Grenade_shell",
+			"OPTRE_1Rnd_Smoke_Grenade_shell",
+			"OPTRE_1Rnd_SmokeYellow_Grenade_shell",
 
-			"22nd_1Rnd_40mm_Flare_White",
-			"22nd_1Rnd_40mm_Flare_Red",
-			"22nd_1Rnd_40mm_Flare_Green",
-			"22nd_1Rnd_40mm_Flare_Blue",
-			"22nd_1Rnd_40mm_Flare_Purple",
-			"22nd_1Rnd_40mm_Flare_Yellow",
-			"22nd_1Rnd_40mm_Flare_Orange"
+			"ACE_HuntIR_M203",
+			"ACE_40mm_Flare_white",
+			"ACE_40mm_Flare_green",
+			"ACE_40mm_Flare_red",
+			"ACE_40mm_Flare_ir",
+
+
+			"OPTRE_signalSmokeB",
+			"OPTRE_signalSmokeG",
+			"OPTRE_signalSmokeO",
+			"OPTRE_signalSmokeP",
+			"OPTRE_signalSmokeR",
+			"OPTRE_signalSmokeY",
+	
+			"1Rnd_SmokeBlue_Grenade_shell",
+			"1Rnd_SmokeGreen_Grenade_shell",
+			"1Rnd_SmokeOrange_Grenade_shell",
+			"1Rnd_SmokePurple_Grenade_shell",
+			"1Rnd_SmokeRed_Grenade_shell",
+			"1Rnd_Smoke_Grenade_shell",
+			"1Rnd_SmokeYellow_Grenade_shell",
 		};
 	};
 };

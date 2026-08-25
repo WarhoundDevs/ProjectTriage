@@ -46,7 +46,7 @@ class CfgWeapons
 {
     class 22nd_JFO_base : MA_Mjolnir_JFO_Helmet
     {
-        scope = 0;
+        scope = 1;
         scopeArsenal = 0;
         author = "22nd Mod Team";
         displayName = "[22nd] JFO base";
@@ -70,11 +70,10 @@ class CfgWeapons
 
     //JFO Base
     class 22nd_JFO_WDL : 22nd_JFO_base{
-        scope=0;
+        scope=1;
         scopeArsenal=0;
         author= "Astro";
         displayName= "[22nd] JFO Woodland";
-        picture = "z\22ndRDF\addons\uniforms\helmets\JFO\data\base\22ndRDF.paa";
         hiddenSelections[]=
         {
             "Camo1",
@@ -99,11 +98,10 @@ class CfgWeapons
     //JFO Winter
 
     class 22nd_JFO_WNT : 22nd_JFO_base{
-        scope=0;
+        scope=1;
         scopeArsenal=0;
         author= "Astro";
         displayName= "[22nd] JFO Snow";
-        picture = "z\22ndRDF\addons\uniforms\helmets\JFO\data\base\22ndRDF.paa";
         hiddenSelections[]=
         {
             "Camo1",

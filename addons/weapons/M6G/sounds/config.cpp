@@ -25,7 +25,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M6G\sounds\M6G_Closure.wav",
+				"\z\22ndRDF\addons\weapons\M6G\sounds\M6G_Closure.wss",
 				1
 			}
 		};
@@ -37,7 +37,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M6G\sounds\M6G_close.wav",
+				"\z\22ndRDF\addons\weapons\M6G\sounds\M6G_close.wss",
 				1
 			}
 		};
@@ -51,7 +51,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M6G\sounds\M6G_distant.wav",
+				"\z\22ndRDF\addons\weapons\M6G\sounds\M6G_distant.wss",
 				1
 			}
 		};
@@ -65,7 +65,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M6G\sounds\M6G_far.wav",
+				"\z\22ndRDF\addons\weapons\M6G\sounds\M6G_far.wss",
 				1
 			}
 		};

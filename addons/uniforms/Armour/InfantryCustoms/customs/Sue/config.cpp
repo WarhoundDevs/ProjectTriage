@@ -4,8 +4,6 @@ class CfgPatches
     {
         units[] = 
         {
-           
-            "22nd_Armourbase_Vehicle",
 
             // WD BDU LIGHT
             "22nd_Sue_Light_Brown_Woodland_Low", // 1

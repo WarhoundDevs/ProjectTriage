@@ -40,7 +40,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M7\sounds\M7_Close.wav",
+				"\z\22ndRDF\addons\weapons\M7\sounds\M7_Close.wss",
 				1
 			}
 		};
@@ -54,7 +54,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M7\sounds\M7_distant.wav",
+				"\z\22ndRDF\addons\weapons\M7\sounds\M7_distant.wss",
 				1
 			}
 		};
@@ -68,7 +68,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M7\sounds\M7_far.wav",
+				"\z\22ndRDF\addons\weapons\M7\sounds\M7_far.wss",
 				1
 			}
 		};

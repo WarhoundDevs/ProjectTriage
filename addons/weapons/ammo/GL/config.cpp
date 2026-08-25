@@ -45,14 +45,14 @@ class CfgAmmo
 	class 22nd_G_40mm_HE: G_40mm_HE
 	{
 		hit = 80;
-		caliber = 2;
-		indirectHit = 12;
+		caliber = 4;
+		indirectHit = 15;
 		indirectHitRange = 6;
 		fuseDistance = 15; 
 		suppressionRadiusHit = 24;
 
 		ace_frag_charge = 32;
-		ace_frag_classes[] = {"ace_frag_small_HD","ACE_frag_medium_HD","ace_frag_small_HD"};
+		ace_frag_classes[] = {"ACE_frag_small","ACE_frag_medium_HD","ACE_frag_medium"};
 		ace_frag_force = 1;
 		ace_frag_metal = 200;
 	};
@@ -60,7 +60,7 @@ class CfgAmmo
 	class 22nd_G_40mm_HEDP: G_40mm_HEDP
 	{
 		hit = 80;
-		caliber = 2;
+		caliber = 8;
 		indirectHit = 12;
 		indirectHitRange = 6;
 

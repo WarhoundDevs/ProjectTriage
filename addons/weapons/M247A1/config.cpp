@@ -107,14 +107,6 @@ class cfgWeapons
 					"SyndikatLMG_InteriorTail_SoundSet"
 				};
 			};
-			class SilencedSound: SilencedSound
-			{
-				soundSetShot[]=
-				{
-					"22nd_Suppressed_M247A1_Shot_Soundset",
-					"22nd_MA37_Tail_SoundSet"
-				};
-			};
 			multiplier=1;
 			recoil="recoil_single_primary_2outof10";
 			recoilProne="recoil_single_primary_2outof10";
@@ -142,12 +134,6 @@ class cfgWeapons
 		
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: MuzzleSlot
-			{
-				compatibleItems[]=
-				{
-				};
-			};
 			class CowsSlot: CowsSlot
 			{
 				compatibleItems[]=
@@ -163,32 +149,6 @@ class cfgWeapons
 				};
 			};
 			mass=100;
-		};
-		class OpticsModes
-		{
-			class sight
-			{
-				opticsID=2;
-				useModelOptics=0;
-				opticsPPEffects[]=
-				{
-					"OpticsCHAbera5",
-					"OpticsBlur5"
-				};
-				opticsDisablePeripherialVision=0.67000002;
-				opticsZoomMin=0.375;
-				opticsZoomMax=1.1;
-				opticsZoomInit=0.75;
-				discreteInitIndex=0;
-				distanceZoomMin=100;
-				distanceZoomMax=700;
-				discreteDistance[]={100,200,300,400,500,600,700};
-				discreteDistanceInitIndex=0;
-				memoryPointCamera="eye";
-				visionMode[]={};
-				opticsFlare="true";
-				cameraDir="";
-			};
 		};
 	};
 };

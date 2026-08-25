@@ -235,7 +235,7 @@ class CfgWeapons
 {
     class 22nd_Helm_base : CH252_Helmet_Base
     {
-        scope = 0;
+        scope = 1;
         scopeArsenal = 0;
         author = "22nd Mod Team";
         displayName = "[22nd] ECH252-C base";

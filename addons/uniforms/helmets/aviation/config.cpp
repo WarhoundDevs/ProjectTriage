@@ -20,7 +20,7 @@ class CfgPatches
 
             "22nd_VX19_Manta_Urban",
             "22nd_VX19_Manta_Woodland",
-            "22nd_VX19_Manta_Winter",
+            "22nd_VX19_Manta_Snow",
             "22nd_VX19_Manta_Arid",
 
 
@@ -74,7 +74,7 @@ class CfgWeapons
 
     class 22nd_VX19_base: OPTRE_FC_VX19_Helmet //our base helmet but also doubles as VX-19 Urban
     {
-        scope = 0;
+        scope = 1;
         scopeArsenal = 0;
         dlc="22nd_RDF";
         author = "Warhound Mod Team + OPTRE FC";

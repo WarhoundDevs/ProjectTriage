@@ -5,7 +5,6 @@ class CfgPatches
         units[] = 
         {
            
-            "22nd_Armourbase_Vehicle",
 
             // WD BDU LIGHT
             "22nd_Darling_Light_Brown_Woodland_Low", // 1
@@ -73,7 +72,6 @@ class CfgPatches
         };
         weapons[] = 
         {
-            "22nd_Armourbase",
 
             // WD BDU LIGHT
             "22nd_Darling_Light_Brown_Woodland_Low", // 1
@@ -521,7 +519,7 @@ class CfgVehicles
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Gray_TrooperCollar_CO.paa", // Collar texture
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperSoftpadding_CO.paa", // Soft padding texture
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa", // Armor straps texture
-            "\z\22ndRDF\addons\uniforms\Armour\InfantryCustoms\customs\customs\Darling\Base_Darling_UpperArmor_CO.paa", // Upper armor texture
+            "\z\22ndRDF\addons\uniforms\Armour\InfantryCustoms\customs\Darling\Base_Darling_UpperArmor_CO.paa", // Upper armor texture
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_brown_TrooperLowerArmor_CO.paa", // Lower armor texture
             "\z\22ndRDF\addons\uniforms\Armour\InfantryCustoms\customs\Darling\Base_Darling_Shoulders_CO.paa", // Shoulders texture
             "\z\22ndRDF\addons\uniforms\Armour\InfantryCustoms\customs\Darling\Base_Darling_Shoulders_CO.paa", // Shoulders texture (duplicate) 

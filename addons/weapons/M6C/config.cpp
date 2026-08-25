@@ -114,7 +114,7 @@ class cfgWeapons
 					"Makarov_InteriorTail_SoundSet"
 				};
 			};
-			class SilencedSound: SilencedSound
+			class SilencedSound
 			{
 				soundSetShot[]=
 				{

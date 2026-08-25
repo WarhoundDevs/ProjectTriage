@@ -25,7 +25,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M250\sounds\M250_closure.wav",
+				"\z\22ndRDF\addons\weapons\M250\sounds\M250_closure.wss",
 				1
 			}
 		};
@@ -38,7 +38,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M250\sounds\M250_close.wav",
+				"\z\22ndRDF\addons\weapons\M250\sounds\M250_close.wss",
 				1
 			}
 		};
@@ -52,7 +52,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M250\sounds\M250_distant.wav",
+				"\z\22ndRDF\addons\weapons\M250\sounds\M250_distant.wss",
 				1
 			}
 		};
@@ -66,7 +66,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"\z\22ndRDF\addons\weapons\M250\sounds\M250_far.wav",
+				"\z\22ndRDF\addons\weapons\M250\sounds\M250_far.wss",
 				1
 			}
 		};

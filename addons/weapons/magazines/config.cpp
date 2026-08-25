@@ -130,25 +130,24 @@ class CfgMagazines
 		tracersEvery=1;
 	};
 
-	/// Rifle ///
+	// CFG magazines found in weapoons>magazines>config.cpp
+
+	/// Rifle /// 
 	class 22nd_32nd_762x51_FMJ : OPTRE_32Rnd_762x51_Mag /// Used in MA5C, DMR (back up), ///
 	{
-		displayName = "32rnd 762x51 FMJ magazine";
-		displayNameShort = "32rnd 762x51 FMJ";
-		descriptionShort = "32rnds of 762x51 Full Metal Jacket <br /> Specs:  High <br />Used in: M319, M302, M310";
+		displayName = "32rnd 762x51 FMJ magazine"; // display name in inventory
+		displayNameShort = "32rnd 762x51 FMJ"; // display name in top right
+		descriptionShort = "32rnds of 762x51 Full Metal Jacket <br /> Specs:  High <br />Used in: M319, M302, M310"; // display name when you hover over an item
 
-		count = 32; 
+		count = 32;  //amount of bullets in magazine
 
-		mass = 12;
+		mass = 12; //weight of magazine (not in kgs)
 
-		initSpeed = 850;
+		initSpeed =900; // muzzle velocity of round that leaves magazine
 
-		ammo = "22nd_B_762x51_FMJ";
+		ammo = "22nd_B_762x51_FMJ"; //Ammo in magazine
 
-		tracersEvery = 1;
-
-		modelSpecial = "";
-		modelSpecialIsProxy = 0;
+		tracersEvery = 1; // Tracers every 1 round
 	};
 
 
@@ -161,7 +160,7 @@ class CfgMagazines
 
 	class 22nd_36nd_95x40_FMJ: OPTRE_36Rnd_95x40_Mag
 	{
-		count=36;
+		count=36; 
 		mass=15;
 		initspeed=950;
 		displayName="36rnd BR55 Mag";
@@ -177,7 +176,7 @@ class CfgMagazines
 	{
 		count=20;
 		mass=12;
-		initspeed=1200;
+		initspeed=1300;
 		displayName="20rnd 762x51 HVAP Mag";
 		displayNameShort="20rnd HVAP 762x51";
 		descriptionShort="20rnd HVAP 762x51";
@@ -265,13 +264,13 @@ class CfgMagazines
 	class 22nd_50rnd_127x99: OPTRE_50Rnd_127x99_M250_Box
 	{
 		count=100;
-		mass=15;
+		mass=70;
 		initspeed=800;
 		displayName="100rnd M250 Box (FMJ)";
 		displayNameShort="100rnd 127x99";
 		descriptionShort="100rnd 127x99";
 		ammo="22nd_B_127x99";
-		tracersEvery=3;
+		tracersEvery=1;
 	};
 
 

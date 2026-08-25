@@ -54,7 +54,7 @@ class 22nd_CH252C_Helmet_Base: H_HelmetCrew_B
 {
 	displayName="[22nd] CH252C Base";
 	author="22nd Mod Team";
-	scope=0;
+	scope=1;
 	scopeArsenal=0;
 	scopeCurator=0;
     picture = "\A3\characters_f\Data\UI\icon_H_HelmetCrewB_CA.paa";

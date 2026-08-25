@@ -148,27 +148,27 @@ class CfgMagazines
 	class C7_Remote_Mag;
 	class 22nd_C7_Mag_1: C7_Remote_Mag
 	{
-		displayName="[VK] 1pcs C7 Foam";
+		displayName="[22nd] 1pcs C7 Foam";
 		mass=15;
 		ammo="22nd_C7_Ammo_1";
 	};
 	class 22nd_C7_Mag_2: C7_Remote_Mag
 	{
-		displayName="[VK] 2pcs C7 Foam";
+		displayName="[22nd] 2pcs C7 Foam";
 		mass=30;
 		ammo="22nd_C7_Ammo_2";
 	};
 	class OPTRE_M9_Frag;
 	class 22nd_magazine_Grenade_HEDP: OPTRE_M9_Frag
 	{
-		displayName="[VK] M7 HEDP";
+		displayName="[22nd] M7 HEDP";
 		mass=8;
 		displayNameShort="M7 HEDP";
 		ammo="22nd_ammo_Grenade_HEDP";
 	};
 	class 22nd_magazine_Grenade_FRAG: OPTRE_M9_Frag
 	{
-		displayName="[VK] M9 HE-FRAG";
+		displayName="[22nd] M9 HE-FRAG";
 		displayNameShort="M9 FRAG";
 		mass=8;
 		ammo="22nd_ammo_Grenade_HEFRAG";
@@ -176,14 +176,14 @@ class CfgMagazines
 	class MiniGrenade;
 	class 22nd_magazine_Grenade_MINI: MiniGrenade
 	{
-		displayName="[VK] M5 MINI FRAG";
+		displayName="[22nd] M5 MINI FRAG";
 		displayNameShort="M3 MINI";
 		mass=6;
 		ammo="22nd_ammo_Grenade_MINIFRAG";
 	};
 	class 22nd_magazine_Grenade_STINGER: MiniGrenade
 	{
-		displayName="[VK] M6 Stinger";
+		displayName="[22nd] M6 Stinger";
 		displayNameShort="M6 Stinger";
 		mass=6;
 		model="\z\ace\addons\attach\data\ace_IRStrobe.p3d";
@@ -193,7 +193,7 @@ class CfgMagazines
 	class ACE_CTS9;
 	class 22nd_magazine_Grenade_FLASH: ACE_CTS9
 	{
-		displayName="[VK] M3 Flashbang";
+		displayName="[22nd] M3 Flashbang";
 		displayNameShort="M3 Flashbang";
 		mass=4;
 		ammo="22nd_ammo_Grenade_FLASH";
@@ -201,7 +201,7 @@ class CfgMagazines
 	class OPTRE_M2_Smoke;
 	class 22nd_magazine_SMOKE_IMPACT_WHITE: OPTRE_M2_Smoke
 	{
-		displayName="[VK] White Impact Smoke ";
+		displayName="[22nd] White Impact Smoke ";
 		displayNameShort="White Smoke";
 		mass=4;
 		scopeArsenal=2;
@@ -210,7 +210,7 @@ class CfgMagazines
 	class OPTRE_M2_Smoke_Blue;
 	class 22nd_magazine_SMOKE_IMPACT_BLUE: OPTRE_M2_Smoke_Blue
 	{
-		displayName="[VK] Blue Impact Smoke ";
+		displayName="[22nd] Blue Impact Smoke ";
 		displayNameShort="Blue Smoke";
 		mass=4;
 		ammo="22nd_ammo_Smoke_Impact_blue";
@@ -218,7 +218,7 @@ class CfgMagazines
 	class OPTRE_M2_Smoke_Green;
 	class 22nd_magazine_SMOKE_IMPACT_GREEN: OPTRE_M2_Smoke_Green
 	{
-		displayName="[VK] Green Impact Smoke ";
+		displayName="[22nd] Green Impact Smoke ";
 		displayNameShort="Green Smoke";
 		mass=4;
 		ammo="22nd_ammo_Smoke_Impact_green";
@@ -226,7 +226,7 @@ class CfgMagazines
 	class OPTRE_M2_Smoke_Red;
 	class 22nd_magazine_SMOKE_IMPACT_RED: OPTRE_M2_Smoke_Red
 	{
-		displayName="[VK] Red Impact Smoke ";
+		displayName="[22nd] Red Impact Smoke ";
 		displayNameShort="Red Smoke";
 		mass=4;
 		ammo="22nd_ammo_Smoke_Impact_red";
@@ -234,7 +234,7 @@ class CfgMagazines
 	class OPTRE_M2_Smoke_Purple;
 	class 22nd_magazine_SMOKE_IMPACT_PURPLE: OPTRE_M2_Smoke_Purple
 	{
-		displayName="[VK] Purple Impact Smoke";
+		displayName="[22nd] Purple Impact Smoke";
 		displayNameShort="Purple Smoke";
 		mass=4;
 		ammo="22nd_ammo_Smoke_Impact_purple";
@@ -242,7 +242,7 @@ class CfgMagazines
 	class OPTRE_M2_Smoke_Yellow;
 	class 22nd_magazine_SMOKE_IMPACT_YELLOW: OPTRE_M2_Smoke_Yellow
 	{
-		displayName="[VK] Yellow Impact Smoke ";
+		displayName="[22nd] Yellow Impact Smoke ";
 		displayNameShort="Yellow Smoke";
 		mass=4;
 		ammo="22nd_ammo_Smoke_Impact_yellow";
@@ -250,7 +250,7 @@ class CfgMagazines
 	class OPTRE_M2_Smoke_Orange;
 	class 22nd_magazine_SMOKE_IMPACT_ORANGE: OPTRE_M2_Smoke_Orange
 	{
-		displayName="[VK] Orange Impact Smoke ";
+		displayName="[22nd] Orange Impact Smoke ";
 		displayNameShort="Orange Smoke";
 		mass=4;
 		ammo="22nd_ammo_Smoke_Impact_orange";
@@ -392,7 +392,7 @@ class CfgWeapons
 				"soundHit2",
 				0.5
 			};
-			displayName="[VK] 1pc C7 Foam";
+			displayName="[22nd] 1pc C7 Foam";
 			showToPlayer=0;
 		};
 		class 22nd_C7_2_Muzzle: PutMuzzle
@@ -410,7 +410,7 @@ class CfgWeapons
 				"soundHit2",
 				0.5
 			};
-			displayName="[VK] 2pcs C7 Foam";
+			displayName="[22nd] 2pcs C7 Foam";
 			showToPlayer=0;
 		};
 	};

@@ -43,7 +43,7 @@ class CfgWeapons
 
     class 22nd_AA_base: MA_M56A_Helmet //our base helmet but also doubles as VX-19 Urban
     {
-        scope = 0;
+        scope = 1;
         scopeArsenal = 0;
         dlc="22nd_RDF";
         author = "Warhound Mod Team + Misriah Armory";
