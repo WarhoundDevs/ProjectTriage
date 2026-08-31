@@ -43,13 +43,13 @@ class CfgVehicles
         LODDriverTurnedIn=1100;
         hiddenSelectionsTextures[] = 
         {
-            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_armor_urban_co.paa",
-            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_main_urban_co.paa",
+            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Base\22nd_standard_oryx_armor_base.paa",
+            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Base\22nd_standard_oryx_main_base.paa",
             "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
             "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
             "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
-            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_turret_urban_co.paa",
-            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_Scorp_mg_urban_co.paa"
+            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Base\22nd_standard_oryx_turret_base.paa",
+            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Base\22nd_standard_oryx_MG_base.paa"
         };
         textureList[] =
         {
@@ -61,67 +61,101 @@ class CfgVehicles
             0,
             "OryxAPC_Arctic",
             0,
-        }; // I have no clue what happened here, you can use the Garage textures now, but its the classname Oryx_(Color) instead of OryxAPC_(Color) but, it works? (I have no clue who wrote this comment but I'm keeping it - Lex)
+            "OryxAPC_Jungle",
+            0,
+            "OryxAPC_OD",
+            0,
+        };
         class textureSources
         {
             class OryxAPC_Urban
             {
                 displayName = "Urban Camo";
-                author = "Kidd";
+                author = "Astro";
                 textures[] =
                 {
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_armor_urban_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_main_urban_co.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_armor_urb.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_main_urb.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_turret_urban_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_Scorp_mg_urban_co.paa"
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_turret_urb.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_mg_urb.paa"
                 };
             };
             class OryxAPC_Arid
             {
                 displayName = "Arid Camo";
-                author = "Kidd";
+                author = "Astro";
                 textures[] =
                 {
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_armor_arid_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_main_arid_co.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_armor_des.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_main_des.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_desert_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_desert_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_desert_ca.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_turret_arid_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_Scorp_mg_arid_co.paa"
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_turret_des.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_mg_des.paa"
                 };
             };
             class OryxAPC_Woodland
             {
                 displayName = "Woodland Camo";
-                author = "Kidd";
+                author = "Astro";
                 textures[] =
                 {
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_armor_woodland_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_main_woodland_co.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_armor_WDL.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_main_WDL.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_jungle_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_jungle_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_jungle_ca.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_turret_woodland_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_Scorp_mg_woodland_co.paa"
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_turret_WDL.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_mg_WDL.paa"
                 };
             };
             class OryxAPC_Arctic
             {
                 displayName = "Arctic Camo";
-                author = "Kidd";
+                author = "Astro";
                 textures[] =
                 {
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_armor_arctic_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_main_arctic_co.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_armor_artic.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_main_artic.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_tundra_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_tundra_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_tundra_ca.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_turret_arctic_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_Scorp_mg_arctic_co.paa"
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_turret_artic.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_mg_artic.paa"
+                };
+            };
+            class OryxAPC_Jungle
+            {
+                displayName = "Jungle Camo";
+                author = "Astro";
+                textures[] =
+                {
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Jungle\22nd_standard_oryx_armor_jungle.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Jungle\22nd_standard_oryx_main_jungle.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Jungle\22nd_standard_oryx_turret_jungle.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Jungle\22nd_standard_mg_jungle.paa"
+                };
+            };
+            class OryxAPC_OD
+            {
+                displayName = "OD Camo";
+                author = "Astro";
+                textures[] =
+                {
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\OD\22nd_standard_oryx_armor_OD.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\OD\22nd_standard_oryx_main_OD.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\OD\22nd_standard_oryx_turret_OD.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\OD\22nd_standard_mg_OD.paa"
                 };
             };
         };
@@ -139,13 +173,13 @@ class CfgVehicles
         LODDriverTurnedIn=1100;
         hiddenSelectionsTextures[] =
         {
-            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_armor_urban_co.paa",
-            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_main_urban_co.paa",
+            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Base\22nd_standard_oryx_armor_base.paa",
+            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Base\22nd_standard_oryx_main_base.paa",
             "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
             "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
             "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
-            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_turret_urban_co.paa",
-            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_Scorp_mg_urban_co.paa"
+            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Base\22nd_standard_oryx_turret_base.paa",
+            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Base\22nd_standard_oryx_MG_base.paa"
         };
         textureList[] =
         {
@@ -157,67 +191,101 @@ class CfgVehicles
             0,
             "OryxAPC_AIE_Arctic",
             0,
+            "OryxAPC_AIE_Jungle",
+            0,
+            "OryxAPC_AIE_OD",
+            0,
         };
         class textureSources
         {
             class OryxAPC_AIE_Urban
             {
                 displayName = "Urban Camo";
-                author = "Kidd";
+                author = "Astro";
                 textures[] =
                 {
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_armor_urban_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_main_urban_co.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_armor_urb.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_main_urb.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_turret_urban_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_Scorp_mg_urban_co.paa"
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_turret_urb.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_mg_urb.paa"
                 };
             };
             class OryxAPC_AIE_Arid
             {
                 displayName = "Arid Camo";
-                author = "Kidd";
+                author = "Astro";
                 textures[] =
                 {
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_armor_arid_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_main_arid_co.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_armor_des.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_main_des.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_desert_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_desert_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_desert_ca.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_turret_arid_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_Scorp_mg_arid_co.paa"
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_turret_des.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_mg_des.paa"
                 };
             };
             class OryxAPC_AIE_Woodland
             {
                 displayName = "Woodland Camo";
-                author = "Kidd";
+                author = "Astro";
                 textures[] =
                 {
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_armor_woodland_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_main_woodland_co.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_armor_WDL.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_main_WDL.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_jungle_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_jungle_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_jungle_ca.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_turret_woodland_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_Scorp_mg_woodland_co.paa"
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_turret_WDL.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_mg_WDL.paa"
                 };
             };
             class OryxAPC_AIE_Arctic
             {
                 displayName = "Arctic Camo";
-                author = "Kidd";
+                author = "Astro";
                 textures[] =
                 {
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_armor_arctic_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_main_arctic_co.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_armor_artic.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_main_artic.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_tundra_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_tundra_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_tundra_ca.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_turret_arctic_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_Scorp_mg_arctic_co.paa"
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_turret_artic.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_mg_artic.paa"
+                };
+            };
+            class OryxAPC_AIE_Jungle
+            {
+                displayName = "Jungle Camo";
+                author = "Astro";
+                textures[] =
+                {
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Jungle\22nd_standard_oryx_armor_jungle.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Jungle\22nd_standard_oryx_main_jungle.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Jungle\22nd_standard_oryx_turret_jungle.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Jungle\22nd_standard_mg_jungle.paa"
+                };
+            };
+            class OryxAPC_AIE_OD
+            {
+                displayName = "OD Camo";
+                author = "Astro";
+                textures[] =
+                {
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\OD\22nd_standard_oryx_armor_OD.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\OD\22nd_standard_oryx_main_OD.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\OD\22nd_standard_oryx_turret_OD.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\OD\22nd_standard_mg_OD.paa"
                 };
             };
         };
@@ -235,13 +303,13 @@ class CfgVehicles
         LODDriverTurnedIn=1100;
         hiddenSelectionsTextures[] =
         {
-            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_armor_urban_co.paa",
-            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_main_urban_co.paa",
+            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Base\22nd_standard_oryx_armor_base.paa",
+            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Base\22nd_standard_oryx_main_base.paa",
             "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
             "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
             "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
-            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_turret_urban_co.paa",
-            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_Scorp_mg_urban_co.paa"
+            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Base\22nd_standard_oryx_turret_base.paa",
+            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Base\22nd_standard_oryx_MG_base.paa"
         };
         textureList[] =
         {
@@ -253,67 +321,101 @@ class CfgVehicles
             0,
             "OryxAPC_AIE_RCWS_Arctic",
             0,
+            "OryxAPC_AIE_RCWS_Jungle",
+            0,
+            "OryxAPC_AIE_RCWS_OD",
+            0,
         };
         class textureSources
         {
             class OryxAPC_AIE_RCWS_Urban
             {
                 displayName = "Urban Camo";
-                author = "Kidd";
+                author = "Astro";
                 textures[] =
                 {
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_armor_urban_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_main_urban_co.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_armor_urb.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_main_urb.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_turret_urban_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_Scorp_mg_urban_co.paa"
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_turret_urb.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_mg_urb.paa"
                 };
             };
             class OryxAPC_AIE_RCWS_Arid
             {
                 displayName = "Arid Camo";
-                author = "Kidd";
+                author = "Astro";
                 textures[] =
                 {
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_armor_arid_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_main_arid_co.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_armor_des.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_main_des.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_desert_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_desert_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_desert_ca.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_turret_arid_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_Scorp_mg_arid_co.paa"
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_turret_des.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_mg_des.paa"
                 };
             };
             class OryxAPC_AIE_RCWS_Woodland
             {
                 displayName = "Woodland Camo";
-                author = "Kidd";
+                author = "Astro";
                 textures[] =
                 {
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_armor_woodland_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_main_woodland_co.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_armor_WDL.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_main_WDL.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_jungle_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_jungle_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_jungle_ca.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_turret_woodland_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_Scorp_mg_woodland_co.paa"
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_turret_WDL.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_mg_WDL.paa"
                 };
             };
             class OryxAPC_AIE_RCWS_Arctic
             {
                 displayName = "Arctic Camo";
-                author = "Kidd";
+                author = "Astro";
                 textures[] =
                 {
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_armor_arctic_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_main_arctic_co.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_armor_artic.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_main_artic.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_tundra_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_tundra_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_tundra_ca.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_turret_arctic_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_Scorp_mg_arctic_co.paa"
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_turret_artic.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_mg_artic.paa"
+                };
+            };
+            class OryxAPC_AIE_RCWS_Jungle
+            {
+                displayName = "Jungle Camo";
+                author = "Astro";
+                textures[] =
+                {
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Jungle\22nd_standard_oryx_armor_jungle.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Jungle\22nd_standard_oryx_main_jungle.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Jungle\22nd_standard_oryx_turret_jungle.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Jungle\22nd_standard_mg_jungle.paa"
+                };
+            };
+            class OryxAPC_AIE_RCWS_OD
+            {
+                displayName = "OD Camo";
+                author = "Astro";
+                textures[] =
+                {
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\OD\22nd_standard_oryx_armor_OD.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\OD\22nd_standard_oryx_main_OD.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\OD\22nd_standard_oryx_turret_OD.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\OD\22nd_standard_mg_OD.paa"
                 };
             };
         };
@@ -331,13 +433,13 @@ class CfgVehicles
         LODDriverTurnedIn=1100;
         hiddenSelectionsTextures[] =
         {
-            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_armor_urban_co.paa",
-            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_main_urban_co.paa",
+            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Base\22nd_standard_oryx_armor_base.paa",
+            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Base\22nd_standard_oryx_main_base.paa",
             "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
             "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
             "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
-            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_turret_urban_co.paa",
-            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_Scorp_mg_urban_co.paa"
+            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Base\22nd_standard_oryx_turret_base.paa",
+            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Base\22nd_standard_oryx_MG_base.paa"
         };
         textureList[] =
         {
@@ -349,67 +451,101 @@ class CfgVehicles
             0,
             "OryxAPC_M37_Arctic",
             0,
+            "OryxAPC_M37_Jungle",
+            0,
+            "OryxAPC_M37_OD",
+            0,
         };
         class textureSources
         {
             class OryxAPC_M37_Urban
             {
                 displayName = "Urban Camo";
-                author = "Kidd";
+                author = "Astro";
                 textures[] =
                 {
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_armor_urban_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_main_urban_co.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_armor_urb.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_main_urb.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_turret_urban_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_Scorp_mg_urban_co.paa"
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_turret_urb.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_mg_urb.paa"
                 };
             };
             class OryxAPC_M37_Arid
             {
                 displayName = "Arid Camo";
-                author = "Kidd";
+                author = "Astro";
                 textures[] =
                 {
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_armor_arid_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_main_arid_co.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_armor_des.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_main_des.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_desert_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_desert_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_desert_ca.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_turret_arid_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_Scorp_mg_arid_co.paa"
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_turret_des.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_mg_des.paa"
                 };
             };
             class OryxAPC_M37_Woodland
             {
                 displayName = "Woodland Camo";
-                author = "Kidd";
+                author = "Astro";
                 textures[] =
                 {
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_armor_woodland_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_main_woodland_co.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_armor_WDL.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_main_WDL.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_jungle_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_jungle_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_jungle_ca.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_turret_woodland_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_Scorp_mg_woodland_co.paa"
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_turret_WDL.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_mg_WDL.paa"
                 };
             };
             class OryxAPC_M37_Arctic
             {
                 displayName = "Arctic Camo";
-                author = "Kidd";
+                author = "Astro";
                 textures[] =
                 {
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_armor_arctic_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_main_arctic_co.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_armor_artic.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_main_artic.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_tundra_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_tundra_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_tundra_ca.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_turret_arctic_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_Scorp_mg_arctic_co.paa"
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_turret_artic.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_mg_artic.paa"
+                };
+            };
+            class OryxAPC_M37_Jungle
+            {
+                displayName = "Jungle Camo";
+                author = "Astro";
+                textures[] =
+                {
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Jungle\22nd_standard_oryx_armor_jungle.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Jungle\22nd_standard_oryx_main_jungle.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Jungle\22nd_standard_oryx_turret_jungle.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Jungle\22nd_standard_mg_jungle.paa"
+                };
+            };
+            class OryxAPC_M37_OD
+            {
+                displayName = "OD Camo";
+                author = "Astro";
+                textures[] =
+                {
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\OD\22nd_standard_oryx_armor_OD.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\OD\22nd_standard_oryx_main_OD.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\OD\22nd_standard_oryx_turret_OD.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\OD\22nd_standard_mg_OD.paa"
                 };
             };
         };
@@ -427,13 +563,13 @@ class CfgVehicles
         LODDriverTurnedIn=1100;
         hiddenSelectionsTextures[] =
         {
-            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_armor_urban_co.paa",
-            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_main_urban_co.paa",
+            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Base\22nd_standard_oryx_armor_base.paa",
+            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Base\22nd_standard_oryx_main_base.paa",
             "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
             "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
             "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
-            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_turret_urban_co.paa",
-            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_Scorp_mg_urban_co.paa"
+            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Base\22nd_standard_oryx_turret_base.paa",
+            "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Base\22nd_standard_oryx_MG_base.paa"
         };
         textureList[] =
         {
@@ -445,67 +581,101 @@ class CfgVehicles
             0,
             "OryxAPC_M37_RCWS_Arctic",
             0,
+            "OryxAPC_M37_RCWS_Jungle",
+            0,
+            "OryxAPC_M37_RCWS_OD",
+            0,
         };
         class textureSources
         {
             class OryxAPC_M37_RCWS_Urban
             {
                 displayName = "Urban Camo";
-                author = "Kidd";
+                author = "Astro";
                 textures[] =
                 {
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_armor_urban_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_main_urban_co.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_armor_urb.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_main_urb.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_turret_urban_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_Scorp_mg_urban_co.paa"
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_oryx_turret_urb.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Urban\22nd_standard_mg_urb.paa"
                 };
             };
             class OryxAPC_M37_RCWS_Arid
             {
                 displayName = "Arid Camo";
-                author = "Kidd";
+                author = "Astro";
                 textures[] =
                 {
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_armor_arid_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_main_arid_co.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_armor_des.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_main_des.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_desert_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_desert_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_desert_ca.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_turret_arid_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_Scorp_mg_arid_co.paa"
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_oryx_turret_des.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arid\22nd_standard_mg_des.paa"
                 };
             };
             class OryxAPC_M37_RCWS_Woodland
             {
                 displayName = "Woodland Camo";
-                author = "Kidd";
+                author = "Astro";
                 textures[] =
                 {
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_armor_woodland_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_main_woodland_co.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_armor_WDL.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_main_WDL.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_jungle_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_jungle_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_jungle_ca.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_turret_woodland_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_Scorp_mg_woodland_co.paa"
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_oryx_turret_WDL.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Woodland\22nd_standard_mg_WDL.paa"
                 };
             };
             class OryxAPC_M37_RCWS_Arctic
             {
                 displayName = "Arctic Camo";
-                author = "Kidd";
+                author = "Astro";
                 textures[] =
                 {
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_armor_arctic_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_main_arctic_co.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_armor_artic.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_main_artic.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_tundra_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_tundra_ca.paa",
                     "\OPTRE_Vehicles_Tracked\Oryx\data\texture\camo\oryx_net_tundra_ca.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_turret_arctic_co.paa",
-                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_Scorp_mg_arctic_co.paa"
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_oryx_turret_artic.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Arctic\22nd_standard_mg_artic.paa"
+                };
+            };
+            class OryxAPC_M37_RCWS_Jungle
+            {
+                displayName = "Jungle Camo";
+                author = "Astro";
+                textures[] =
+                {
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Jungle\22nd_standard_oryx_armor_jungle.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Jungle\22nd_standard_oryx_main_jungle.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Jungle\22nd_standard_oryx_turret_jungle.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\Jungle\22nd_standard_mg_jungle.paa"
+                };
+            };
+            class OryxAPC_M37_RCWS_OD
+            {
+                displayName = "OD Camo";
+                author = "Astro";
+                textures[] =
+                {
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\OD\22nd_standard_oryx_armor_OD.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\OD\22nd_standard_oryx_main_OD.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "\OPTRE_Vehicles_Tracked\Oryx\data\texture\oryx_net_ca.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\OD\22nd_standard_oryx_turret_OD.paa",
+                    "z\22ndRDF\addons\vehicles\ground\OryxAPC\Standard\OD\22nd_standard_mg_OD.paa"
                 };
             };
         };
