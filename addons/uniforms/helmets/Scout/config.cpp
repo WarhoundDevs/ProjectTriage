@@ -37,14 +37,14 @@ class CfgPatches
 /// !!! CUSTOM HPP DOES NOT GO HERE SCROLL FURTHER DOWN <3 !!!
 #include "infantryXtdGear.hpp"
 
-class MA_Mjolnir_Scout_Helmet
+class MA_M56_Scout_Helmet
 {
 	class ItemInfo;
 };
 
 class CfgWeapons
 {
-    class 22nd_Scout_base : MA_Mjolnir_Scout_Helmet
+    class 22nd_Scout_base : MA_M56_Scout_Helmet
     {
         scope = 1;
         scopeArsenal = 0;
@@ -85,7 +85,7 @@ class CfgWeapons
         hiddenSelectionsTextures[]=
         {
             "z\22ndRDF\addons\uniforms\helmets\Scout\data\base\22nd_Woodland_Scout_Helm_co.paa",
-            "MA_Armor\data\Helmets\H4_Scout\Scout_Visor_Blue_co.paa"
+            "z\22ndRDF\addons\uniforms\helmets\Scout\data\base\22nd_Scout_Visor.paa"
         };
     };
 
@@ -108,7 +108,7 @@ class CfgWeapons
         hiddenSelectionsTextures[]=
         {
             "z\22ndRDF\addons\uniforms\helmets\Scout\data\base\22nd_Winter_Scout_Helm_co.paa",
-            "MA_Armor\data\Helmets\H4_Scout\Scout_Visor_Blue_co.paa"
+            "z\22ndRDF\addons\uniforms\helmets\Scout\data\base\22nd_Scout_Visor.paa"
         };
     };
 

@@ -17,7 +17,8 @@ class XtdGearModels
                 values[] =
                 {
                     "Trooper",
-                    "Yogi"
+                    "Yogi",
+                    "Miles"
                 };
                 class Trooper
                 {
@@ -27,6 +28,11 @@ class XtdGearModels
                 class Yogi
                 {
                     label = "Yogi";
+                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+                };
+                class Miles
+                {
+                    label = "Miles";
                     image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
                 };
             };

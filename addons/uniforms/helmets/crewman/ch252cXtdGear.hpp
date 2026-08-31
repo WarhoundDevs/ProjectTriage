@@ -21,25 +21,13 @@ class XtdGearModels
 
                 values[] =
                 {
-                    "Urban",
                     "Woodland",
-                    "Arid",
                     "Winter"
-                };
-
-                class Urban
-                {
-                    label = "Urban";
                 };
 
                 class Woodland
                 {
                     label = "Woodland";
-                };
-
-                class Arid
-                {
-                    label = "Arid";
                 };
 
                 class Snow
@@ -55,7 +43,8 @@ class XtdGearModels
                 {
                     "Base",
                     "German",
-                    "Lamb"
+                    "Lamb",
+                    "Enigmous"
                 };
 
                 class German
@@ -65,6 +54,10 @@ class XtdGearModels
                 class Lamb
                 {
                     label = "Lamb";
+                };
+                class Enigmous
+                {
+                    label = "Enigmous";
                 };
             };
         };

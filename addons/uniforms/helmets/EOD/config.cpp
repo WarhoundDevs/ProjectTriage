@@ -17,7 +17,11 @@ class CfgPatches
 
             //Yogi
             "22nd_EOD_Woodland_Yogi",
-            "22nd_EOD_Winter_Yogi"
+            "22nd_EOD_Winter_Yogi",
+
+            //Miles
+            "22nd_EOD_Woodland_Miles",
+            "22nd_EOD_Winter_Miles",
 
 
             // Step 6. New Custom Above this text, spaced from previous name ^
@@ -120,5 +124,7 @@ class CfgWeapons
     //// CUSTOM INCLUDES GO UNDER HERE
 
     #include "customHelmets/Yogi/YogiCustomHelmet.hpp"
+
+    #include "customHelmets/Miles/MilesCustomHelmet.hpp"
 
 };
