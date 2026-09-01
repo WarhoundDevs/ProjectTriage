@@ -20,9 +20,9 @@ class CfgPatches
 
             //Frog
             "22nd_Gungnir_Frog_WDL",
-            // "22nd_Gungnir_Frog_AS_WDL",
-            // "22nd_Gungnir_Frog_WNT",
-            // "22nd_Gungnir_Frog_AS_WNT",
+             "22nd_Gungnir_Frog_AS_WDL",
+             "22nd_Gungnir_Frog_WNT",
+             "22nd_Gungnir_Frog_AS_WNT",
 
             // Step 6. New Custom Above this text, spaced from previous name ^
             // Use "tab" or "shift tab" to help neaten up the block of class names when all highlighted.
@@ -151,8 +151,8 @@ class CfgWeapons
     //Gungnir Winter
 
     class 22nd_Gungnir_WNT : 22nd_Gungnir_base{
-        scope=1;
-        scopeArsenal=0;
+        scope=2;
+        scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] Gungnir Snow";
         hiddenSelections[]=
@@ -175,8 +175,8 @@ class CfgWeapons
     };
 
     class 22nd_Gungnir_AS_WNT : 22nd_Gungnir_AS_base{
-        scope=1;
-        scopeArsenal=0;
+        scope=2;
+        scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] Gungnir Snow (Armoured Soldier)";
         hiddenSelections[]=
