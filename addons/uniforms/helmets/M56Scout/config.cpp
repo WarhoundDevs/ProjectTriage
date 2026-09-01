@@ -1,17 +1,17 @@
 class CfgPatches 
 {
-    class 22nd_uniforms_helmets_Scout
+    class 22nd_uniforms_helmets_M56_Scout
     {
         units[] = {};
         weapons[] = 
         {
-            "22nd_Scout_base",
+            "22nd_M56_Scout_base",
 
             //WD
-            "22nd_Scout_WDL",
+            "22nd_M56_Scout_WDL",
 
             //Winter
-            "22nd_Scout_WNT",
+            "22nd_M56_Scout_WNT",
 
             //customs
 
@@ -37,19 +37,19 @@ class CfgPatches
 /// !!! CUSTOM HPP DOES NOT GO HERE SCROLL FURTHER DOWN <3 !!!
 #include "infantryXtdGear.hpp"
 
-class MA_Mjolnir_Scout_Helmet
+class MA_M56_Scout_Helmet
 {
 	class ItemInfo;
 };
 
 class CfgWeapons
 {
-    class 22nd_Scout_base : MA_Mjolnir_Scout_Helmet
+    class 22nd_M56_Scout_base : MA_M56_Scout_Helmet
     {
         scope = 1;
         scopeArsenal = 0;
         author = "22nd Mod Team";
-        displayName = "[22nd] Scout base";
+        displayName = "[22nd] M56 Scout base";
         model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
         subItems[] = {"22nd_Infantry_Nightvision"};
         class ItemInfo : ItemInfo
@@ -68,47 +68,47 @@ class CfgWeapons
     };
 
 
-    //Scout Base
-    class 22nd_Scout_WDL : 22nd_Scout_base{
+    //M56_Scout Base
+    class 22nd_M56_Scout_WDL : 22nd_M56_Scout_base{
         scope=2;
         scopeArsenal=2;
         author= "Astro";
-        displayName= "[22nd] Scout Woodland";
+        displayName= "[22nd] M56 Scout Woodland";
 
         class XtdGearInfo
         {
-            model = "22nd_Scout_Helmet";
+            model = "22nd_M56_Scout_Helmet";
             Custom = "Trooper";
             Camouflage = "WD";
         };
 
         hiddenSelectionsTextures[]=
         {
-            "z\22ndRDF\addons\uniforms\helmets\Scout\data\base\22nd_Woodland_Scout_Helm_co.paa",
-            "z\22ndRDF\addons\uniforms\helmets\Scout\data\base\22nd_Scout_Visor.paa"
+            "z\22ndRDF\addons\uniforms\helmets\M56Scout\data\base\22nd_Woodland_M56_Scout_Helm_co.paa",
+            "z\22ndRDF\addons\uniforms\helmets\M56Scout\data\base\22nd_M56_Scout_Visor.paa"
         };
     };
 
 
-    //Scout Winter
+    //M56_Scout Winter
 
-    class 22nd_Scout_WNT : 22nd_Scout_base{
+    class 22nd_M56_Scout_WNT : 22nd_M56_Scout_base{
         scope=2;
         scopeArsenal=2;
         author= "Astro";
-        displayName= "[22nd] Scout Snow";
+        displayName= "[22nd] M56S Scout Snow";
 
         class XtdGearInfo
         {
-            model = "22nd_Scout_Helmet";
+            model = "22nd_M56_Scout_Helmet";
             Custom = "Trooper";
             Camouflage = "Winter";
         };
 
         hiddenSelectionsTextures[]=
         {
-            "z\22ndRDF\addons\uniforms\helmets\Scout\data\base\22nd_Winter_Scout_Helm_co.paa",
-            "z\22ndRDF\addons\uniforms\helmets\Scout\data\base\22nd_Scout_Visor.paa"
+            "z\22ndRDF\addons\uniforms\helmets\M56Scout\data\base\22nd_Winter_M56_Scout_Helm_co.paa",
+            "z\22ndRDF\addons\uniforms\helmets\M56Scout\data\base\22nd_M56_Scout_Visor.paa"
         };
     };
 

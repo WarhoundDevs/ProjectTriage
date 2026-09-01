@@ -138,6 +138,7 @@ class XtdGearModels
                     "Wisha",
                     "Yar",
                     "Zoey",
+                    "Miles",
                 };
 
                
@@ -180,6 +181,11 @@ class XtdGearModels
                 class Zoey
                 {
                     label = "Zoey";
+                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+                };
+                class Miles
+                {
+                    label = "Miles";
                     image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
                 };
             };
