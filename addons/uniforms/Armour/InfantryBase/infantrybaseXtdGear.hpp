@@ -7,12 +7,13 @@ class XtdGearModels
         {
             label = "[22nd] M52A Arid";
             author = "Warhound Mod Team";
-            options[] = // Class names for your options
+            options[] =  //Class names for your options
             {
                 "upperUniform",
                 "lowerUniform",
                 "Shoulder",
-                "Collar"
+                "Collar",
+                "ShoulderVariant"
             };
             // all options defined underneath the big options box, class names must match the array (Or is it list I forget)
             class upperUniform
@@ -77,8 +78,6 @@ class XtdGearModels
                     "Light",
                     "Medium",
                     "Heavy",
-
-
                 };
                 class Light
                 {
@@ -110,13 +109,45 @@ class XtdGearModels
                     label = "Low";
                 };
             };
+            class ShoulderVariant
+            {
+                label = "Shoulder Variant";
+                values[] =
+                {
+                    "Base",
+                    "Pike1A",
+                    "Pike11",
+                    "Pike12",
+                    "Pike13"
+                };
+                class Base
+                {
+                    label = "No Variant";
+                };
+                class Pike1A
+                {
+                    label = "Pike Actual";
+                };
+                class Pike11
+                {
+                    label = "Pike 1-1";
+                };
+                class Pike12
+                {
+                    label = "Pike 1-2";
+                };
+                class Pike13
+                {
+                    label = "Pike 1-3";
+                };
+            };
         };
-    
+        
         class 22nd_InfantryCustoms_AAE
         {
             label = "[22nd] M52A Arid";
             author = "Warhound Mod Team";
-            options[] = // Class names for your options
+            options[] =  //Class names for your options
             {
                 "custom",
                 "upperUniform",
