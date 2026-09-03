@@ -31,12 +31,12 @@ if (
 		
 		(_this select 0) allowDamage false;
 		(_this select 0) setVariable ["OPTRE_Pelican_AttachedToVehiclesEffect", [], true];
-		if ((((getPosATL (_this select 0)) select 2) >= 200) and !({(_x isKindOf "optre_hornet_base") OR (_x isKindOf "OPTRE_EscapePod") OR (_x isKindOf "Land_Device_slingloadable_F")} count _vehicles > 0)) then
+		if ((((getPosATL (_this select 0)) select 2) >= 200) and ({(_x isKindOf "optre_hornet_base") OR (_x isKindOf "OPTRE_EscapePod") OR (_x isKindOf "Land_Device_slingloadable_F")} count _vehicles > 0)) then
 		{
 			titleText ["-------------------------------------------<br/><t color='#ff0000' size='1.5'>MAGLIFT AIRDROPPED!</t><br/>-------------------------------------------", "PLAIN DOWN", -1, true, true];
 			playSound "FD_Finish_F"; 
 			{
-				if ({(_x isKindOf "OPTRE_M808B_base") OR (_x isKindOf "optre_hornet_base")} count _vehicles > 0) then {player action ["LandGearUp", (_this select 0)]; Sleep 2;};
+				if ({(_x isKindOf "OPTRE_M808B_base") OR (_x isKindOf "optre_hornet_base")} count _vehicles > 0) then {player action ["LandGearUp", (_this select 0)]; sleep 2;};
 				detach _x;
 				_vel = velocity (_this select 0);
 				_x setVelocity [(_vel select 0) / 2, (_vel select 1) / 2, (_vel select 2) -25];
@@ -51,7 +51,7 @@ if (
 				sleep 2;
 				_smoke = createVehicle ["SmokeShellRed", position _x, [], 0, "CAN_COLLIDE"];
 				_smoke attachTo [_x, [0,0,0]];
-				if ((daytime > 17.5) OR (daytime < 7)) then {_flare = createVehicle ["F_20mm_Red", position _smoke, [], 0, "CAN_COLLIDE"]; _flare attachTo [_smoke, [0,0,0]];};
+				if ((dayTime > 17.5) OR (dayTime < 7)) then {_flare = createVehicle ["F_20mm_Red", position _smoke, [], 0, "CAN_COLLIDE"]; _flare attachTo [_smoke, [0,0,0]];};
 				sleep 1;
 				waitUntil {(((position _x) select 2) < 8) AND (((position _x) select 2) > 4)};
 				detach _x;
@@ -62,7 +62,7 @@ if (
 			titleText ["-------------------------------------------<br/><t color='#ff0000' size='1.5'>MAGLIFT RELEASED!</t><br/>-------------------------------------------", "PLAIN DOWN", -1, true, true];
 			playSound "FD_Finish_F"; 
 			{
-				if ({(_x isKindOf "OPTRE_M808B_base") OR (_x isKindOf "optre_hornet_base")} count _vehicles > 0) then {player action ["LandGearUp", (_this select 0)]; Sleep 2;};
+				if ({(_x isKindOf "OPTRE_M808B_base") OR (_x isKindOf "optre_hornet_base")} count _vehicles > 0) then {player action ["LandGearUp", (_this select 0)]; sleep 2;};
 				if (_x isKindOf "Land_Device_slingloadable_F") then {_x setVectorUp [0,0,1]};
 				detach _x;
 				_vel = velocity (_this select 0);

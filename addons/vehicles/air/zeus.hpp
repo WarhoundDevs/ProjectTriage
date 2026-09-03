@@ -17,5 +17,6 @@ units[]=
 	"Warhound_Pelican_AF",
 	"Warhound_Pelican_AF_Single_Seater",
 	"Warhound_Pelican_AF_SOCOM",
-	"Warhound_Pelican_AF_Gunship"
+	"Warhound_Pelican_AF_Gunship",
+	"22nd_Heavy_Pelican"
 };

@@ -112,7 +112,7 @@ if (_loaded) then
 	{
 		params ["_unit", "_killer", "_instigator", "_useEffects"];
 		{
-			if !(_x isKindof "OPTRE_Static_M247H_Shielded_Tripod") then {detach _x;};
+			if !(_x isKindOf "OPTRE_Static_M247H_Shielded_Tripod") then {detach _x;};
 		} forEach attachedObjects _unit;
 	}];
 } else {
