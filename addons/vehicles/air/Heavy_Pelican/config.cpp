@@ -46,7 +46,8 @@ class CfgVehicles
 		editorSubcategory="22nd_Warhound_Company_Air_Vehicles";
         crew="OPTRE_UNSC_Marine_Soldier_Rifleman_AR";
         displayName="[22nd] D77-TC Heavy Pelican";
-        /*weapons[]=
+        /*
+        weapons[]=
         {
             "Laserdesignator_pilotCamera"
         };
@@ -74,9 +75,9 @@ class CfgVehicles
                 class Medium : Wide
                 {
                     opticsDisplayName	= "MFOV";
-                    initFov				= A3_FOV_DEG(6);
-                    minFov				= A3_FOV_DEG(6);
-                    maxFov				= A3_FOV_DEG(6);
+                    initFov				= "A3_FOV_DEG(6)";
+                    minFov				= "A3_FOV_DEG(6)";
+                    maxFov				= "A3_FOV_DEG(6)";
                     gunnerOpticsModel	= "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_medium_F.p3d";
                 };
                 class Narrow : Wide
@@ -86,12 +87,13 @@ class CfgVehicles
                     maxFov				= 0.125;
                     gunnerOpticsModel	= "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_narrow_F.p3d";
                 };
-                showMiniMapInOptics				= true;
+                showMiniMapInOptics				= "true";
                 pilotOpticsShowCursor 			= 1;
-                showUAVViewInOptics				= false;
-                showSlingLoadManagerInOptics	= false;
+                showUAVViewInOptics				= "false";
+                showSlingLoadManagerInOptics	= "false";
             };
-        };*/
+        };
+        */
         hiddenSelectionsTextures[]=
         {
             "z\22ndRDF\addons\vehicles\air\Heavy_Pelican\22nd_HP_Urban_body_co.paa",
@@ -357,89 +359,90 @@ class CfgVehicles
                     };
                 };
             };
-            class VehicleSystemsDisplayManagerComponentLeft: DefaultVehicleSystemsDisplayManagerLeft
-            {
-                class Components: components
+                class VehicleSystemsDisplayManagerComponentLeft: DefaultVehicleSystemsDisplayManagerLeft
                 {
-                    class EmptyDisplay
+                    class Components: Components
                     {
-                        componentType="EmptyDisplayComponent";
-                    };
-                    class MinimapDisplay
-                    {
-                        componentType="MinimapDisplayComponent";
-                        resource="RscCustomInfoAirborneMiniMap";
-                    };
-                    class CrewDisplay
-                    {
-                        componentType="CrewDisplayComponent";
-                        resource="RscCustomInfoCrew";
-                    };
-                    class UAVDisplay
-                    {
-                        componentType="UAVFeedDisplayComponent";
-                    };
-                    class VehiclePrimaryGunnerDisplay
-                    {
-                        componentType="TransportFeedDisplayComponent";
-                        source="PrimaryGunner";
-                    };
-                    class VehicleMissileDisplay
-                    {
-                        componentType="TransportFeedDisplayComponent";
-                        source="Missile";
-                    };
-                    class SensorDisplay
-                    {
-                        componentType="SensorsDisplayComponent";
-                        range[]={4000,2000,16000,8000};
-                        resource="RscCustomInfoSensors";
+                        class EmptyDisplay
+                        {
+                            componentType="EmptyDisplayComponent";
+                        };
+                        class MinimapDisplay
+                        {
+                            componentType="MinimapDisplayComponent";
+                            resource="RscCustomInfoAirborneMiniMap";
+                        };
+                        class CrewDisplay
+                        {
+                            componentType="CrewDisplayComponent";
+                            resource="RscCustomInfoCrew";
+                        };
+                        class UAVDisplay
+                        {
+                            componentType="UAVFeedDisplayComponent";
+                        };
+                        class VehiclePrimaryGunnerDisplay
+                        {
+                            componentType="TransportFeedDisplayComponent";
+                            source="PrimaryGunner";
+                        };
+                        class VehicleMissileDisplay
+                        {
+                            componentType="TransportFeedDisplayComponent";
+                            source="Missile";
+                        };
+                        class SensorDisplay
+                        {
+                            componentType="SensorsDisplayComponent";
+                            range[]={4000,2000,16000,8000};
+                            resource="RscCustomInfoSensors";
+                        };
                     };
                 };
-            };
-            class VehicleSystemsDisplayManagerComponentRight: DefaultVehicleSystemsDisplayManagerRight
-            {
-                defaultDisplay="SensorDisplay";
-                class Components: components
+                class VehicleSystemsDisplayManagerComponentRight: DefaultVehicleSystemsDisplayManagerRight
                 {
-                    class EmptyDisplay
+                    defaultDisplay="SensorDisplay";
+                    class Components: Components
                     {
-                        componentType="EmptyDisplayComponent";
-                    };
-                    class MinimapDisplay
-                    {
-                        componentType="MinimapDisplayComponent";
-                        resource="RscCustomInfoAirborneMiniMap";
-                    };
-                    class CrewDisplay
-                    {
-                        componentType="CrewDisplayComponent";
-                        resource="RscCustomInfoCrew";
-                    };
-                    class UAVDisplay
-                    {
-                        componentType="UAVFeedDisplayComponent";
-                    };
-                    class VehiclePrimaryGunnerDisplay
-                    {
-                        componentType="TransportFeedDisplayComponent";
-                        source="PrimaryGunner";
-                    };
-                    class VehicleMissileDisplay
-                    {
-                        componentType="TransportFeedDisplayComponent";
-                        source="Missile";
-                    };
-                    class SensorDisplay
-                    {
-                        componentType="SensorsDisplayComponent";
-                        range[]={4000,2000,16000,8000};
-                        resource="RscCustomInfoSensors";
+                        class EmptyDisplay
+                        {
+                            componentType="EmptyDisplayComponent";
+                        };
+                        class MinimapDisplay
+                        {
+                            componentType="MinimapDisplayComponent";
+                            resource="RscCustomInfoAirborneMiniMap";
+                        };
+                        class CrewDisplay
+                        {
+                            componentType="CrewDisplayComponent";
+                            resource="RscCustomInfoCrew";
+                        };
+                        class UAVDisplay
+                        {
+                            componentType="UAVFeedDisplayComponent";
+                        };
+                        class VehiclePrimaryGunnerDisplay
+                        {
+                            componentType="TransportFeedDisplayComponent";
+                            source="PrimaryGunner";
+                        };
+                        class VehicleMissileDisplay
+                        {
+                            componentType="TransportFeedDisplayComponent";
+                            source="Missile";
+                        };
+                        class SensorDisplay
+                        {
+                            componentType="SensorsDisplayComponent";
+                            range[]={4000,2000,16000,8000};
+                            resource="RscCustomInfoSensors";
+                        };
                     };
                 };
+                
             };
             */
         };
-
     };
 };
