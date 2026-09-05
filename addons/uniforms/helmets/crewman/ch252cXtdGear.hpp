@@ -43,7 +43,7 @@ class XtdGearModels
                 {
                     "Base",
                     "German",
-                    "Lamb",
+                //    "Lamb",
                     "Enigmous"
                 };
 
@@ -51,10 +51,10 @@ class XtdGearModels
                 {
                     label = "German";
                 };
-                class Lamb
-                {
-                    label = "Lamb";
-                };
+            //    class Lamb
+            //    {
+            //        label = "Lamb";
+            //    };
                 class Enigmous
                 {
                     label = "Enigmous";

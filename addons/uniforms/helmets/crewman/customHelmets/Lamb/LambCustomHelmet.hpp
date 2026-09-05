@@ -1,6 +1,6 @@
 class 22nd_CH252C_Lamb_Winter : 22nd_CH252C_Helmet_Base{
-        scope=2;
-        scopeArsenal=2;
+        scope=0;
+        scopeArsenal=0;
         displayName= "[22nd] CH252-AC (Lamb) Snow";
         class XtdGearInfo
         {
@@ -22,8 +22,8 @@ class 22nd_CH252C_Lamb_Winter : 22nd_CH252C_Helmet_Base{
     };
 
     class 22nd_CH252C_Lamb_Woodland : 22nd_CH252C_Helmet_Base{
-        scope=2;
-        scopeArsenal=2;
+        scope=0;
+        scopeArsenal=0;
         displayName= "[22nd] CH252-AC (Lamb) Woodland";
         class XtdGearInfo
         {
