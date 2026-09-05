@@ -71,7 +71,7 @@ class CfgWeapons
     //JFO Base
     class 22nd_JFO_WDL : 22nd_JFO_base{
         scope=1;
-        scopeArsenal=0;
+        scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] JFO Woodland";
         hiddenSelections[]=

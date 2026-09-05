@@ -125,18 +125,18 @@ class XtdGearModels
                     "Alloy",
                     "Bay",
                     "Bee",
-                    "Darling",
+                //    "Darling",
                     "Ferret",
                     "Grims",
                     "Harper",
-                    "Hoodie",
+                //    "Hoodie",
                     "Jacks",
-                    "Kulyk",
+                //    "Kulyk",
                     "Relic",
-                    "Rivera",
+                //    "Rivera",
                     "Sue",
                     "Wisha",
-                    "Yar",
+                //    "Yar",
                     "Zoey",
  
                 };
@@ -158,11 +158,11 @@ class XtdGearModels
                     label = "Bee";
                     image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
                 };
-                class Darling
-                {
-                    label = "Darling";
-                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
-                };
+            //    class Darling
+            //    {
+            //        label = "Darling";
+            //        image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+            //    };
                 class Ferret
                 {
                     label = "Ferret";
@@ -178,31 +178,31 @@ class XtdGearModels
                     label = "Harper";
                     image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
                 };
-                class Hoodie
-                {
-                    label = "Hoodie";
-                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
-                };
+            //    class Hoodie
+            //    {
+            //        label = "Hoodie";
+            //        image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+            //    };
                 class Jacks
                 {
                     label = "Jacks";
                     image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
                 };
-                class Kulyk
-                {
-                    label = "Kulyk";
-                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
-                };
+            //    class Kulyk
+            //    {
+            //        label = "Kulyk";
+            //        image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+            //    };
                 class Relic
                 {
                     label = "Relic";
                     image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
                 };
-                class Rivera
-                {
-                    label = "Rivera";
-                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
-                };
+            //    class Rivera
+            //    {
+            //        label = "Rivera";
+            //        image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+            //    };
                 class Sue
                 {
                     label = "Sue";
@@ -213,11 +213,11 @@ class XtdGearModels
                     label = "Wisha";
                     image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
                 };
-                class Yar
-                {
-                    label = "Yar";
-                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
-                };
+            //    class Yar
+            //    {
+            //        label = "Yar";
+            //        image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+            //    };
                 class Zoey
                 {
                     label = "Zoey";

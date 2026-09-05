@@ -160,7 +160,7 @@ class CfgVehicles
     //1
     class 22nd_Yar_Light_Brown_Woodland_Low : 22nd_Armourbase_Vehicle
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Light_Brown_Woodland_Low"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Uni_Collar","Shoulders_Lower1","Shoulders_Lower2","Shoulders_Upper"};
@@ -183,7 +183,7 @@ class CfgVehicles
     // 2
     class 22nd_Yar_Light_Brown_Woodland_High : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Light_Brown_Woodland_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Shoulders_Lower1","Shoulders_Lower2","Shoulders_Upper"};
@@ -206,7 +206,7 @@ class CfgVehicles
     // 3
     class 22nd_Yar_Light_Woodland_Woodland_Low : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Light_Brown_Woodland_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Uni_Collar","Shoulders_Lower1","Shoulders_Lower2","Shoulders_Upper"};
@@ -229,7 +229,7 @@ class CfgVehicles
     // 4
     class 22nd_Yar_Light_Woodland_Woodland_High : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Light_Brown_Woodland_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Shoulders_Lower1","Shoulders_Lower2","Shoulders_Upper"};
@@ -252,7 +252,7 @@ class CfgVehicles
     // 5
     class 22nd_Yar_Light_Olive_Woodland_Low : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Light_Olive_Woodland_Low"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Uni_Collar","Shoulders_Lower1","Shoulders_Lower2","Shoulders_Upper"};
@@ -275,7 +275,7 @@ class CfgVehicles
     // 6
     class 22nd_Yar_Light_Olive_Woodland_High : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Light_Olive_Woodland_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Shoulders_Lower1","Shoulders_Lower2","Shoulders_Upper"};
@@ -298,7 +298,7 @@ class CfgVehicles
     // 7
     class 22nd_Yar_Light_Gray_Woodland_Low : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Light_Gray_Woodland_Low"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Uni_Collar","Shoulders_Lower1","Shoulders_Lower2","Shoulders_Upper"};
@@ -321,7 +321,7 @@ class CfgVehicles
     // 8
     class 22nd_Yar_Light_Gray_Woodland_High : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Light_Gray_Woodland_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Shoulders_Lower1","Shoulders_Lower2","Shoulders_Upper"};
@@ -346,7 +346,7 @@ class CfgVehicles
     //1
     class 22nd_Yar_Medium_Brown_Woodland_Low : 22nd_Armourbase_Vehicle
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Light_Brown_Woodland_Low"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Uni_Collar","Shoulders_Lower1"};
@@ -369,7 +369,7 @@ class CfgVehicles
     // 2
     class 22nd_Yar_Medium_Brown_Woodland_High : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Medium_Brown_Woodland_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Shoulders_Lower1"};
@@ -392,7 +392,7 @@ class CfgVehicles
     // 3
     class 22nd_Yar_Medium_Woodland_Woodland_Low : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Medium_Brown_Woodland_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Uni_Collar","Shoulders_Lower1"};
@@ -415,7 +415,7 @@ class CfgVehicles
     // 4
     class 22nd_Yar_Medium_Woodland_Woodland_High : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Medium_Brown_Woodland_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Shoulders_Lower1"};
@@ -438,7 +438,7 @@ class CfgVehicles
     // 5
     class 22nd_Yar_Medium_Olive_Woodland_Low : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Medium_Olive_Woodland_Low"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Uni_Collar","Shoulders_Lower1"};
@@ -461,7 +461,7 @@ class CfgVehicles
     // 6
     class 22nd_Yar_Medium_Olive_Woodland_High : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Medium_Olive_Woodland_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Shoulders_Lower1"};
@@ -484,7 +484,7 @@ class CfgVehicles
     // 7
     class 22nd_Yar_Medium_Gray_Woodland_Low : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Medium_Gray_Woodland_Low"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Uni_Collar","Shoulders_Lower1"};
@@ -507,7 +507,7 @@ class CfgVehicles
     // 8
     class 22nd_Yar_Medium_Gray_Woodland_High : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Medium_Gray_Woodland_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Shoulders_Lower1"};
@@ -531,7 +531,7 @@ class CfgVehicles
 
     class 22nd_Yar_Heavy_Brown_Woodland_Low : 22nd_Armourbase_Vehicle
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Light_Brown_Woodland_Low"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Uni_Collar","Shoulders_Lower2"};
@@ -554,7 +554,7 @@ class CfgVehicles
     // 2
     class 22nd_Yar_Heavy_Brown_Woodland_High : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Heavy_Brown_Woodland_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Shoulders_Lower2"};
@@ -577,7 +577,7 @@ class CfgVehicles
     // 3
     class 22nd_Yar_Heavy_Woodland_Woodland_Low : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Heavy_Brown_Woodland_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Uni_Collar","Shoulders_Lower2"};
@@ -600,7 +600,7 @@ class CfgVehicles
     // 4
     class 22nd_Yar_Heavy_Woodland_Woodland_High : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Heavy_Brown_Woodland_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Shoulders_Lower2"};
@@ -623,7 +623,7 @@ class CfgVehicles
     // 5
     class 22nd_Yar_Heavy_Olive_Woodland_Low : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Heavy_Olive_Woodland_Low"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Uni_Collar","Shoulders_Lower2"};
@@ -646,7 +646,7 @@ class CfgVehicles
     // 6
     class 22nd_Yar_Heavy_Olive_Woodland_High : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Heavy_Olive_Woodland_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Shoulders_Lower2"};
@@ -669,7 +669,7 @@ class CfgVehicles
     // 7
     class 22nd_Yar_Heavy_Gray_Woodland_Low : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Heavy_Gray_Woodland_Low"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Uni_Collar","Shoulders_Lower2"};
@@ -692,7 +692,7 @@ class CfgVehicles
     // 8
     class 22nd_Yar_Heavy_Gray_Woodland_High : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Heavy_Gray_Woodland_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Shoulders_Lower2"};
@@ -720,7 +720,7 @@ class CfgVehicles
     //1
     class 22nd_Yar_Light_Brown_Winter_Low : 22nd_Armourbase_Vehicle
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Light_Brown_Winter_Low"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Uni_Collar","Shoulders_Lower1","Shoulders_Lower2","Shoulders_Upper"};
@@ -743,7 +743,7 @@ class CfgVehicles
     // 2
     class 22nd_Yar_Light_Brown_Winter_High : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Light_Brown_Winter_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Shoulders_Lower1","Shoulders_Lower2","Shoulders_Upper"};
@@ -766,7 +766,7 @@ class CfgVehicles
     // 3
     class 22nd_Yar_Light_Winter_Winter_Low : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Light_Brown_Winter_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Uni_Collar","Shoulders_Lower1","Shoulders_Lower2","Shoulders_Upper"};
@@ -789,7 +789,7 @@ class CfgVehicles
     // 4
     class 22nd_Yar_Light_Winter_Winter_High : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Light_Brown_Winter_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Shoulders_Lower1","Shoulders_Lower2","Shoulders_Upper"};
@@ -812,7 +812,7 @@ class CfgVehicles
     // 5
     class 22nd_Yar_Light_Olive_Winter_Low : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Light_Olive_Winter_Low"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Uni_Collar","Shoulders_Lower1","Shoulders_Lower2","Shoulders_Upper"};
@@ -835,7 +835,7 @@ class CfgVehicles
     // 6
     class 22nd_Yar_Light_Olive_Winter_High : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Light_Olive_Winter_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Shoulders_Lower1","Shoulders_Lower2","Shoulders_Upper"};
@@ -858,7 +858,7 @@ class CfgVehicles
     // 7
     class 22nd_Yar_Light_Gray_Winter_Low : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Light_Gray_Winter_Low"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Uni_Collar","Shoulders_Lower1","Shoulders_Lower2","Shoulders_Upper"};
@@ -881,7 +881,7 @@ class CfgVehicles
     // 8
     class 22nd_Yar_Light_Gray_Winter_High : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Light_Gray_Winter_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Shoulders_Lower1","Shoulders_Lower2","Shoulders_Upper"};
@@ -906,7 +906,7 @@ class CfgVehicles
     //1
     class 22nd_Yar_Medium_Brown_Winter_Low : 22nd_Armourbase_Vehicle
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Light_Brown_Winter_Low"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Uni_Collar","Shoulders_Lower1"};
@@ -929,7 +929,7 @@ class CfgVehicles
     // 2
     class 22nd_Yar_Medium_Brown_Winter_High : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Medium_Brown_Winter_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Shoulders_Lower1"};
@@ -952,7 +952,7 @@ class CfgVehicles
     // 3
     class 22nd_Yar_Medium_Winter_Winter_Low : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Medium_Brown_Winter_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Uni_Collar","Shoulders_Lower1"};
@@ -975,7 +975,7 @@ class CfgVehicles
     // 4
     class 22nd_Yar_Medium_Winter_Winter_High : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Medium_Brown_Winter_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Shoulders_Lower1"};
@@ -998,7 +998,7 @@ class CfgVehicles
     // 5
     class 22nd_Yar_Medium_Olive_Winter_Low : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Medium_Olive_Winter_Low"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Uni_Collar","Shoulders_Lower1"};
@@ -1021,7 +1021,7 @@ class CfgVehicles
     // 6
     class 22nd_Yar_Medium_Olive_Winter_High : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Medium_Olive_Winter_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Shoulders_Lower1"};
@@ -1044,7 +1044,7 @@ class CfgVehicles
     // 7
     class 22nd_Yar_Medium_Gray_Winter_Low : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Medium_Gray_Winter_Low"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Uni_Collar","Shoulders_Lower1"};
@@ -1067,7 +1067,7 @@ class CfgVehicles
     // 8
     class 22nd_Yar_Medium_Gray_Winter_High : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Medium_Gray_Winter_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Shoulders_Lower1"};
@@ -1091,7 +1091,7 @@ class CfgVehicles
 
     class 22nd_Yar_Heavy_Brown_Winter_Low : 22nd_Armourbase_Vehicle
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Light_Brown_Winter_Low"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Uni_Collar","Shoulders_Lower2"};
@@ -1114,7 +1114,7 @@ class CfgVehicles
     // 2
     class 22nd_Yar_Heavy_Brown_Winter_High : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Heavy_Brown_Winter_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Shoulders_Lower2"};
@@ -1137,7 +1137,7 @@ class CfgVehicles
     // 3
     class 22nd_Yar_Heavy_Winter_Winter_Low : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Heavy_Brown_Winter_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Uni_Collar","Shoulders_Lower2"};
@@ -1160,7 +1160,7 @@ class CfgVehicles
     // 4
     class 22nd_Yar_Heavy_Winter_Winter_High : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Heavy_Brown_Winter_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Shoulders_Lower2"};
@@ -1183,7 +1183,7 @@ class CfgVehicles
     // 5
     class 22nd_Yar_Heavy_Olive_Winter_Low : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Heavy_Olive_Winter_Low"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Uni_Collar","Shoulders_Lower2"};
@@ -1206,7 +1206,7 @@ class CfgVehicles
     // 6
     class 22nd_Yar_Heavy_Olive_Winter_High : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Heavy_Olive_Winter_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Shoulders_Lower2"};
@@ -1229,7 +1229,7 @@ class CfgVehicles
     // 7
     class 22nd_Yar_Heavy_Gray_Winter_Low : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Heavy_Gray_Winter_Low"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Uni_Collar","Shoulders_Lower2"};
@@ -1252,7 +1252,7 @@ class CfgVehicles
     // 8
     class 22nd_Yar_Heavy_Gray_Winter_High : 22nd_Armourbase_Vehicle 
     {
-        scope = 2; // Visible in editor
+        scope = 0; // Visible in editor
         author = "Warhound Mod Team";
         uniformClass = "22nd_Yar_Heavy_Gray_Winter_High"; // Custom uniform class
         hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Camo6","Camo7","Camo8","Camo9","Camo10","Shoulders_Lower2"};
@@ -1290,8 +1290,8 @@ class CfgWeapons
     // 1
     class 22nd_Yar_Light_Brown_Woodland_Low : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1312,8 +1312,8 @@ class CfgWeapons
     // 2
     class 22nd_Yar_Light_Brown_Woodland_High : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1334,8 +1334,8 @@ class CfgWeapons
     // 3
     class 22nd_Yar_Light_Woodland_Woodland_Low : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1356,8 +1356,8 @@ class CfgWeapons
     // 4
     class 22nd_Yar_Light_Woodland_Woodland_High : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1378,8 +1378,8 @@ class CfgWeapons
     // 5
     class 22nd_Yar_Light_Olive_Woodland_Low : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1400,8 +1400,8 @@ class CfgWeapons
     // 6
     class 22nd_Yar_Light_Olive_Woodland_High : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1422,8 +1422,8 @@ class CfgWeapons
     // 7
     class 22nd_Yar_Light_Gray_Woodland_Low : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1444,8 +1444,8 @@ class CfgWeapons
     // 8
     class 22nd_Yar_Light_Gray_Woodland_High : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1468,8 +1468,8 @@ class CfgWeapons
     // 1
     class 22nd_Yar_Medium_Brown_Woodland_Low : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1490,8 +1490,8 @@ class CfgWeapons
     // 2
     class 22nd_Yar_Medium_Brown_Woodland_High : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1512,8 +1512,8 @@ class CfgWeapons
     // 3
     class 22nd_Yar_Medium_Woodland_Woodland_Low : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1534,8 +1534,8 @@ class CfgWeapons
     // 4
     class 22nd_Yar_Medium_Woodland_Woodland_High : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1556,8 +1556,8 @@ class CfgWeapons
     // 5
     class 22nd_Yar_Medium_Olive_Woodland_Low : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1578,8 +1578,8 @@ class CfgWeapons
     // 6
     class 22nd_Yar_Medium_Olive_Woodland_High : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1600,8 +1600,8 @@ class CfgWeapons
     // 7
      class 22nd_Yar_Medium_Gray_Woodland_Low : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1622,8 +1622,8 @@ class CfgWeapons
     // 8
     class 22nd_Yar_Medium_Gray_Woodland_High : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1646,8 +1646,8 @@ class CfgWeapons
     // 1
     class 22nd_Yar_Heavy_Brown_Woodland_Low : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1668,8 +1668,8 @@ class CfgWeapons
     // 2
     class 22nd_Yar_Heavy_Brown_Woodland_High : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1690,8 +1690,8 @@ class CfgWeapons
     // 3
     class 22nd_Yar_Heavy_Woodland_Woodland_Low : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1712,8 +1712,8 @@ class CfgWeapons
     // 4
     class 22nd_Yar_Heavy_Woodland_Woodland_High : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1734,8 +1734,8 @@ class CfgWeapons
     // 5
     class 22nd_Yar_Heavy_Olive_Woodland_Low : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1756,8 +1756,8 @@ class CfgWeapons
     // 6
     class 22nd_Yar_Heavy_Olive_Woodland_High : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1778,8 +1778,8 @@ class CfgWeapons
     // 7
      class 22nd_Yar_Heavy_Gray_Woodland_Low : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1800,8 +1800,8 @@ class CfgWeapons
     // 8
     class 22nd_Yar_Heavy_Gray_Woodland_High : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1826,8 +1826,8 @@ class CfgWeapons
     // 1
     class 22nd_Yar_Light_Brown_Winter_Low : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1848,8 +1848,8 @@ class CfgWeapons
     // 2
     class 22nd_Yar_Light_Brown_Winter_High : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1870,8 +1870,8 @@ class CfgWeapons
     // 3
     class 22nd_Yar_Light_Winter_Winter_Low : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1892,8 +1892,8 @@ class CfgWeapons
     // 4
     class 22nd_Yar_Light_Winter_Winter_High : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1914,8 +1914,8 @@ class CfgWeapons
     // 5
     class 22nd_Yar_Light_Olive_Winter_Low : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1936,8 +1936,8 @@ class CfgWeapons
     // 6
     class 22nd_Yar_Light_Olive_Winter_High : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1958,8 +1958,8 @@ class CfgWeapons
     // 7
      class 22nd_Yar_Light_Gray_Winter_Low : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -1980,8 +1980,8 @@ class CfgWeapons
     // 8
     class 22nd_Yar_Light_Gray_Winter_High : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -2004,8 +2004,8 @@ class CfgWeapons
     // 1
     class 22nd_Yar_Medium_Brown_Winter_Low : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -2026,8 +2026,8 @@ class CfgWeapons
     // 2
     class 22nd_Yar_Medium_Brown_Winter_High : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -2048,8 +2048,8 @@ class CfgWeapons
     // 3
     class 22nd_Yar_Medium_Winter_Winter_Low : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -2070,8 +2070,8 @@ class CfgWeapons
     // 4
     class 22nd_Yar_Medium_Winter_Winter_High : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -2092,8 +2092,8 @@ class CfgWeapons
     // 5
     class 22nd_Yar_Medium_Olive_Winter_Low : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -2114,8 +2114,8 @@ class CfgWeapons
     // 6
     class 22nd_Yar_Medium_Olive_Winter_High : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -2136,8 +2136,8 @@ class CfgWeapons
     // 7
      class 22nd_Yar_Medium_Gray_Winter_Low : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -2158,8 +2158,8 @@ class CfgWeapons
     // 8
     class 22nd_Yar_Medium_Gray_Winter_High : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -2182,8 +2182,8 @@ class CfgWeapons
     // 1
     class 22nd_Yar_Heavy_Brown_Winter_Low : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -2204,8 +2204,8 @@ class CfgWeapons
     // 2
     class 22nd_Yar_Heavy_Brown_Winter_High : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -2226,8 +2226,8 @@ class CfgWeapons
     // 3
     class 22nd_Yar_Heavy_Winter_Winter_Low : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -2248,8 +2248,8 @@ class CfgWeapons
     // 4
     class 22nd_Yar_Heavy_Winter_Winter_High : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -2270,8 +2270,8 @@ class CfgWeapons
     // 5
     class 22nd_Yar_Heavy_Olive_Winter_Low : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -2292,8 +2292,8 @@ class CfgWeapons
     // 6
     class 22nd_Yar_Heavy_Olive_Winter_High : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -2314,8 +2314,8 @@ class CfgWeapons
     // 7
      class 22nd_Yar_Heavy_Gray_Winter_Low : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo
@@ -2336,8 +2336,8 @@ class CfgWeapons
     // 8
     class 22nd_Yar_Heavy_Gray_Winter_High : 22nd_Armourbase
     {
-        scope = 2;  // Visible in editor
-        scopeArsenal = 2;
+        scope = 0;  // Visible in editor
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's M52A + ARMY BDU";
         // picture = "\W_Uniform\W_Armour\22ndRDF.paa";
         class XtdGearInfo

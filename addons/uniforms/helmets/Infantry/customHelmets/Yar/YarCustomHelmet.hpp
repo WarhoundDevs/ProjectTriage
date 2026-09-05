@@ -1,8 +1,8 @@
 
     class 22nd_Yar_HelmBase_Open: 22nd_Helm_base
     {
-        scope = 2;
-        scopeArsenal = 2;
+        scope = 0;
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's ECH252-C";
         picture = "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\iconHelmetBase.paa";
         hiddenSelections[] =
@@ -85,8 +85,8 @@
 
     class 22nd_Yar_HelmBase_Closed : 22nd_Helm_base
     {
-        scope = 2;
-        scopeArsenal = 2;
+        scope = 0;
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's ECH252-C";
         picture = "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\iconHelmetBase.paa";
         hiddenSelections[] =
@@ -170,8 +170,8 @@
 
     class 22nd_Yar_HelmBase_Eye : 22nd_Helm_base
     {
-        scope = 2;
-        scopeArsenal = 2;
+        scope = 0;
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's ECH252-C Eyepiece";
         picture = "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\iconHelmetBase.paa";
         hiddenSelections[] =
@@ -255,8 +255,8 @@
 
     class 22nd_Yar_HelmBase_Visor : 22nd_Helm_base
     {
-        scope = 2;
-        scopeArsenal = 2;
+        scope = 0;
+        scopeArsenal = 0;
         author = "Warhound Mod Team";
         displayName = "[22nd] Yar's ECH252-C Visor";
         model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
@@ -345,8 +345,8 @@
 
     class 22nd_Yar_HelmSnow_Open : 22nd_Helm_base
     {
-        scope = 2;
-        scopeArsenal = 2; 
+        scope = 0;
+        scopeArsenal = 0; 
         displayName = "[22nd] Yar's ECH252-C/W";
         picture = "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\iconHelmetWinter.paa";
         hiddenSelections[] =
@@ -431,8 +431,8 @@
 
     class 22nd_Yar_HelmSnow_Closed : 22nd_Helm_base
     {
-        scope = 2;
-        scopeArsenal = 2;
+        scope = 0;
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's ECH252-C/W Closed";
         picture = "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\iconHelmetWinter.paa";
         hiddenSelections[] =
@@ -516,8 +516,8 @@
     };
     class 22nd_Yar_HelmSnow_Eye : 22nd_Helm_base
     {
-        scope = 2;
-        scopeArsenal = 2;
+        scope = 0;
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's ECH252-C/W Eyepiece";
         picture = "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\iconHelmetWinter.paa";
         hiddenSelections[] =
@@ -601,8 +601,8 @@
     };
     class 22nd_Yar_HelmSnow_Visor : 22nd_Helm_base
     {
-        scope = 2;
-        scopeArsenal = 2;
+        scope = 0;
+        scopeArsenal = 0;
         displayName = "[22nd] Yar's ECH252-C/W Visor";
         picture = "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\iconHelmetWinter.paa";
         hiddenSelections[] =

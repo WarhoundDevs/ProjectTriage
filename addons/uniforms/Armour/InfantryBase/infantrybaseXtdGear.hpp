@@ -161,24 +161,24 @@ class XtdGearModels
                 label = "Owner";
                 values[] =
                 {
-                    "Darling",
+                //    "Darling",
                     "German",
                     "Relic",
-                    "Rya",
+                //    "Rya",
                     "Sue",
                     "Wisha",
-                    "Yar",
+                //    "Yar",
                     "Zoey",
                     "Miles",
                 };
 
                
 
-                class Darling
-                {
-                    label = "Darling";
-                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
-                };
+            //    class Darling
+            //    {
+            //        label = "Darling";
+            //        image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+            //    };
                 class German
                 {
                     label = "German";
@@ -189,11 +189,11 @@ class XtdGearModels
                     label = "Relic";
                     image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
                 };
-                class Rya
-                {
-                    label = "Rya";
-                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
-                };
+            //    class Rya
+            //    {
+            //        label = "Rya";
+            //        image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+            //    };
                 class Sue
                 {
                     label = "Sue";
@@ -204,11 +204,11 @@ class XtdGearModels
                     label = "Wisha";
                     image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
                 };
-                class Yar
-                {
-                    label = "Yar";
-                    image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
-                };
+            //    class Yar
+            //    {
+            //        label = "Yar";
+            //        image="#(rgb,8,8,3)color(0.52,0.19,0,0.7)";
+            //    };
                 class Zoey
                 {
                     label = "Zoey";
