@@ -20,6 +20,7 @@ class CfgPatches
 		{
 			"cba_main",
 			"A3_Data_F",
+            "DMNS_Air",
 	
 		};
 		requiredVersion=0.1;
