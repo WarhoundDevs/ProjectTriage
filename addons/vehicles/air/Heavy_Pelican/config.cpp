@@ -46,7 +46,6 @@ class CfgVehicles
 		editorSubcategory="22nd_Warhound_Company_Air_Vehicles";
         crew="OPTRE_UNSC_Marine_Soldier_Rifleman_AR";
         displayName="[22nd] D77-TC Heavy Pelican";
-        /*
         weapons[]=
         {
             "Laserdesignator_pilotCamera"
@@ -93,7 +92,6 @@ class CfgVehicles
                 showSlingLoadManagerInOptics	= "false";
             };
         };
-        */
         hiddenSelectionsTextures[]=
         {
             "z\22ndRDF\addons\vehicles\air\Heavy_Pelican\22nd_HP_Urban_body_co.paa",

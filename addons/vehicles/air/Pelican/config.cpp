@@ -47,6 +47,52 @@ class CfgVehicles
 		crew="OPTRE_UNSC_Marine_Pilot";
 		editorCategory="22nd_Warhound_Company";
 		editorSubcategory="22nd_Warhound_Company_Air_Vehicles";
+		weapons[]=
+        {
+            "Laserdesignator_pilotCamera"
+        };
+            magazines[]=
+        {
+            "Laserbatteries"
+        };
+        class pilotCamera // A class that creates a turret-like slewable secondary optics for the pilot. Used to simulate Targeting Pods.
+        {
+            class OpticsIn
+            {
+                class Wide
+                {
+                    initAngleX			= 0; minAngleX=0; maxAngleX=0;
+                    initAngleY			= 0; minAngleY=0; maxAngleY=0;
+                    initFov				= 0.25; 			// Zoom level of the magnification mode. In this case discrete - min/max/init set to the same value
+                    minFov				= 0.25;
+                    maxFov				= 0.25;
+                    directionStabilized	= 1; 				// Allows stabilization of the turret
+                    visionMode[]		= {"Normal","Ti"};	// Available spectrum modes - in this case visible and thermal
+                    thermalMode[]		= {0,1};			// TI modes - in this case WHOT and BHOT
+                    gunnerOpticsModel	= "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_wide_F.p3d"; // model used for the reticle
+                    opticsPPEffects[]	= {};  				// post-process effects used in the optics
+                };
+                class Medium : Wide
+                {
+                    opticsDisplayName	= "MFOV";
+                    initFov				= "A3_FOV_DEG(6)";
+                    minFov				= "A3_FOV_DEG(6)";
+                    maxFov				= "A3_FOV_DEG(6)";
+                    gunnerOpticsModel	= "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_medium_F.p3d";
+                };
+                class Narrow : Wide
+                {
+                    initFov				= 0.125;
+                    minFov				= 0.125;
+                    maxFov				= 0.125;
+                    gunnerOpticsModel	= "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_narrow_F.p3d";
+                };
+                showMiniMapInOptics				= "true";
+                pilotOpticsShowCursor 			= 1;
+                showUAVViewInOptics				= "false";
+                showSlingLoadManagerInOptics	= "false";
+            };
+        };
 		hiddenSelections[]=
 		{
 			"camo1",
@@ -445,6 +491,52 @@ class CfgVehicles
 		crew="OPTRE_UNSC_Marine_Pilot";
 		editorCategory="22nd_Warhound_Company";
 		editorSubcategory="22nd_Warhound_Company_Air_Vehicles";
+		weapons[]=
+        {
+            "Laserdesignator_pilotCamera"
+        };
+            magazines[]=
+        {
+            "Laserbatteries"
+        };
+        class pilotCamera // A class that creates a turret-like slewable secondary optics for the pilot. Used to simulate Targeting Pods.
+        {
+            class OpticsIn
+            {
+                class Wide
+                {
+                    initAngleX			= 0; minAngleX=0; maxAngleX=0;
+                    initAngleY			= 0; minAngleY=0; maxAngleY=0;
+                    initFov				= 0.25; 			// Zoom level of the magnification mode. In this case discrete - min/max/init set to the same value
+                    minFov				= 0.25;
+                    maxFov				= 0.25;
+                    directionStabilized	= 1; 				// Allows stabilization of the turret
+                    visionMode[]		= {"Normal","Ti"};	// Available spectrum modes - in this case visible and thermal
+                    thermalMode[]		= {0,1};			// TI modes - in this case WHOT and BHOT
+                    gunnerOpticsModel	= "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_wide_F.p3d"; // model used for the reticle
+                    opticsPPEffects[]	= {};  				// post-process effects used in the optics
+                };
+                class Medium : Wide
+                {
+                    opticsDisplayName	= "MFOV";
+                    initFov				= "A3_FOV_DEG(6)";
+                    minFov				= "A3_FOV_DEG(6)";
+                    maxFov				= "A3_FOV_DEG(6)";
+                    gunnerOpticsModel	= "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_medium_F.p3d";
+                };
+                class Narrow : Wide
+                {
+                    initFov				= 0.125;
+                    minFov				= 0.125;
+                    maxFov				= 0.125;
+                    gunnerOpticsModel	= "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_narrow_F.p3d";
+                };
+                showMiniMapInOptics				= "true";
+                pilotOpticsShowCursor 			= 1;
+                showUAVViewInOptics				= "false";
+                showSlingLoadManagerInOptics	= "false";
+            };
+        };
 		hiddenSelections[]=
 		{
 			"camo1",
@@ -843,6 +935,52 @@ class CfgVehicles
 		crew="OPTRE_UNSC_Marine_Pilot";
 		editorCategory="22nd_Warhound_Company";
 		editorSubcategory="22nd_Warhound_Company_Air_Vehicles";
+		weapons[]=
+        {
+            "Laserdesignator_pilotCamera"
+        };
+            magazines[]=
+        {
+            "Laserbatteries"
+        };
+        class pilotCamera // A class that creates a turret-like slewable secondary optics for the pilot. Used to simulate Targeting Pods.
+        {
+            class OpticsIn
+            {
+                class Wide
+                {
+                    initAngleX			= 0; minAngleX=0; maxAngleX=0;
+                    initAngleY			= 0; minAngleY=0; maxAngleY=0;
+                    initFov				= 0.25; 			// Zoom level of the magnification mode. In this case discrete - min/max/init set to the same value
+                    minFov				= 0.25;
+                    maxFov				= 0.25;
+                    directionStabilized	= 1; 				// Allows stabilization of the turret
+                    visionMode[]		= {"Normal","Ti"};	// Available spectrum modes - in this case visible and thermal
+                    thermalMode[]		= {0,1};			// TI modes - in this case WHOT and BHOT
+                    gunnerOpticsModel	= "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_wide_F.p3d"; // model used for the reticle
+                    opticsPPEffects[]	= {};  				// post-process effects used in the optics
+                };
+                class Medium : Wide
+                {
+                    opticsDisplayName	= "MFOV";
+                    initFov				= "A3_FOV_DEG(6)";
+                    minFov				= "A3_FOV_DEG(6)";
+                    maxFov				= "A3_FOV_DEG(6)";
+                    gunnerOpticsModel	= "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_medium_F.p3d";
+                };
+                class Narrow : Wide
+                {
+                    initFov				= 0.125;
+                    minFov				= 0.125;
+                    maxFov				= 0.125;
+                    gunnerOpticsModel	= "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_narrow_F.p3d";
+                };
+                showMiniMapInOptics				= "true";
+                pilotOpticsShowCursor 			= 1;
+                showUAVViewInOptics				= "false";
+                showSlingLoadManagerInOptics	= "false";
+            };
+        };
 		hiddenSelections[]=
 		{
 			"camo1",
@@ -1228,7 +1366,8 @@ class CfgVehicles
 			0,
 		};
 	};
-	class Warhound_Pelican_AF_Gunship: SAG6_Pelican_Gunship{
+	class Warhound_Pelican_AF_Gunship: SAG6_Pelican_Gunship
+	{
 		features="Randomization: No";
 		scope=2;
 		scopeCurator=2;
@@ -1240,6 +1379,52 @@ class CfgVehicles
 		crew="OPTRE_UNSC_Marine_Pilot";
 		editorCategory="22nd_Warhound_Company";
 		editorSubcategory="22nd_Warhound_Company_Air_Vehicles";
+		weapons[]=
+        {
+            "Laserdesignator_pilotCamera"
+        };
+            magazines[]=
+        {
+            "Laserbatteries"
+        };
+        class pilotCamera // A class that creates a turret-like slewable secondary optics for the pilot. Used to simulate Targeting Pods.
+        {
+            class OpticsIn
+            {
+                class Wide
+                {
+                    initAngleX			= 0; minAngleX=0; maxAngleX=0;
+                    initAngleY			= 0; minAngleY=0; maxAngleY=0;
+                    initFov				= 0.25; 			// Zoom level of the magnification mode. In this case discrete - min/max/init set to the same value
+                    minFov				= 0.25;
+                    maxFov				= 0.25;
+                    directionStabilized	= 1; 				// Allows stabilization of the turret
+                    visionMode[]		= {"Normal","Ti"};	// Available spectrum modes - in this case visible and thermal
+                    thermalMode[]		= {0,1};			// TI modes - in this case WHOT and BHOT
+                    gunnerOpticsModel	= "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_wide_F.p3d"; // model used for the reticle
+                    opticsPPEffects[]	= {};  				// post-process effects used in the optics
+                };
+                class Medium : Wide
+                {
+                    opticsDisplayName	= "MFOV";
+                    initFov				= "A3_FOV_DEG(6)";
+                    minFov				= "A3_FOV_DEG(6)";
+                    maxFov				= "A3_FOV_DEG(6)";
+                    gunnerOpticsModel	= "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_medium_F.p3d";
+                };
+                class Narrow : Wide
+                {
+                    initFov				= 0.125;
+                    minFov				= 0.125;
+                    maxFov				= 0.125;
+                    gunnerOpticsModel	= "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_narrow_F.p3d";
+                };
+                showMiniMapInOptics				= "true";
+                pilotOpticsShowCursor 			= 1;
+                showUAVViewInOptics				= "false";
+                showSlingLoadManagerInOptics	= "false";
+            };
+        };
 		hiddenSelections[]=
 		{
 			"camo1",
