@@ -35,10 +35,10 @@ class cfgWeapons
 		vehicleClass = "22nd_Stetson_Hat";
 		author = "22nd Mod Team";
 		picture = "addons\22nd_misc\UI\icon_h_stetson_ca.paa";
-		model = "addons\22nd_misc\22nd_Stetson.p3d";
+		model = "z\22ndRDF\addons\misc\stetsons\22nd_Stetson.p3d";
 		hiddenSelectionsTextures[] = 
 		{
-			"\22nd_Stetsons\Data\Stetson_co.paa"
+			"z\22ndRDF\addons\misc\stetsons\Data\Stetson_co.paa"
 		};
 		hiddenSelections[] = 
 		{
@@ -47,13 +47,13 @@ class cfgWeapons
 		class ItemInfo: HeadgearItem
 		{
 			mass = 5;
-			uniformmodel = "\22nd_Stetsons\22nd_Stetson";
+			uniformmodel = "z\22ndRDF\addons\misc\stetsons\22nd_Stetson";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.95;
 			hiddenSelectionsTextures[] = 
 			{
-				"\22nd_Stetsons\Data\Stetson_co.paa"
+				"z\22ndRDF\addons\misc\stetsons\Data\Stetson_co.paa"
 			};
 			hiddenSelections[] = 
 			{
