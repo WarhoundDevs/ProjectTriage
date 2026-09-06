@@ -4,6 +4,7 @@
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] Frog Gungnir Woodland";
+        picture = "\z\22ndRDF\addons\uniforms\helmets\Gungnir\data\iconHelmetGungnirBase.paa";
         hiddenSelections[]=
         {
             "Camo1"
@@ -28,6 +29,7 @@
          scopeArsenal=2;
          author= "Astro";
          displayName= "[22nd] Frog Gungnir Woodland (Armoured Soldier)";
+         picture = "\z\22ndRDF\addons\uniforms\helmets\Gungnir\data\iconHelmetGungnirASBase.paa";
          hiddenSelections[]=
          {
              "Camo1"
@@ -55,7 +57,7 @@
          scopeArsenal=2;
          author= "Astro";
          displayName= "[22nd] Frog Gungnir Snow";
-
+         picture = "\z\22ndRDF\addons\uniforms\helmets\Gungnir\data\iconHelmetGungnirWinter.paa";
          hiddenSelections[]=
          {
              "Camo1"
@@ -80,6 +82,7 @@
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] Frog Gungnir Snow (Armoured Soldier)";
+        picture = "\z\22ndRDF\addons\uniforms\helmets\Gungnir\data\iconHelmetGungnirASWinter.paa";
         hiddenSelections[]=
         {
             "Camo1"

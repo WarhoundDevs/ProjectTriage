@@ -104,6 +104,7 @@ class CfgWeapons
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] Gungnir Woodland";
+        picture = "\z\22ndRDF\addons\uniforms\helmets\Gungnir\data\iconHelmetGungnirBase.paa";
         hiddenSelections[]=
         {
             "Camo1"
@@ -128,6 +129,7 @@ class CfgWeapons
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] Gungnir Woodland (Armoured Soldier)";
+        picture = "\z\22ndRDF\addons\uniforms\helmets\Gungnir\data\iconHelmetGungnirASBase.paa";
         hiddenSelections[]=
         {
             "Camo1"
@@ -155,6 +157,7 @@ class CfgWeapons
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] Gungnir Snow";
+        picture = "\z\22ndRDF\addons\uniforms\helmets\Gungnir\data\iconHelmetGungnirWinter.paa";
         hiddenSelections[]=
         {
             "Camo1"
@@ -179,6 +182,7 @@ class CfgWeapons
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] Gungnir Snow (Armoured Soldier)";
+        picture = "\z\22ndRDF\addons\uniforms\helmets\Gungnir\data\iconHelmetGungnirASWinter.paa";
         hiddenSelections[]=
         {
             "Camo1"

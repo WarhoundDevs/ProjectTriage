@@ -82,6 +82,7 @@ class CfgWeapons
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] EOD Woodland";
+        picture = "\z\22ndRDF\addons\uniforms\helmets\EOD\data\iconHelmetEODBase.paa";
 
         class XtdGearInfo
         {
@@ -105,6 +106,7 @@ class CfgWeapons
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] EOD Snow";
+        picture = "\z\22ndRDF\addons\uniforms\helmets\EOD\data\iconHelmetEODWinter.paa";
 
         class XtdGearInfo
         {

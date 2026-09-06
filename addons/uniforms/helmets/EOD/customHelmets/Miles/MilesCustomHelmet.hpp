@@ -3,6 +3,7 @@
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] EOD Woodland (Miles)";
+        picture = "\z\22ndRDF\addons\uniforms\helmets\EOD\data\iconHelmetEODBase.paa";
 
         class XtdGearInfo
         {
@@ -23,6 +24,7 @@
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] EOD Winter (Miles)";
+        picture = "\z\22ndRDF\addons\uniforms\helmets\EOD\data\iconHelmetEODWinter.paa";
 
         class XtdGearInfo
         {

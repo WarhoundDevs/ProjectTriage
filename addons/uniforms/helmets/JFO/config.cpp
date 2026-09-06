@@ -74,6 +74,7 @@ class CfgWeapons
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] JFO Woodland";
+        picture = "\z\22ndRDF\addons\uniforms\helmets\JFO\data\iconHelmetJFOBase.paa";
         hiddenSelections[]=
         {
             "Camo1",
@@ -102,6 +103,7 @@ class CfgWeapons
         scopeArsenal=0;
         author= "Astro";
         displayName= "[22nd] JFO Snow";
+    //    picture = "\z\22ndRDF\addons\uniforms\helmets\JFO\data\iconHelmetJFOWinter.paa";
         hiddenSelections[]=
         {
             "Camo1",

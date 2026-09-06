@@ -74,6 +74,7 @@ class CfgWeapons
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] Scout Woodland";
+        picture = "\z\22ndRDF\addons\uniforms\helmets\Scout\data\iconHelmetScoutBase.paa";
 
         class XtdGearInfo
         {
@@ -97,6 +98,7 @@ class CfgWeapons
         scopeArsenal=2;
         author= "Astro";
         displayName= "[22nd] Scout Snow";
+        picture = "\z\22ndRDF\addons\uniforms\helmets\Scout\data\iconHelmetScoutWinter.paa";
 
         class XtdGearInfo
         {
