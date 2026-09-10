@@ -32,6 +32,18 @@ class CfgPatches
             "22nd_HelmSnow_Visor_med",
 
 
+            //BioHazard
+            "22nd_HelmCBRN_Open",        
+            "22nd_HelmCBRN_Closed",
+            "22nd_HelmCBRN_Eye",
+            "22nd_HelmCBRN_Visor",
+
+            "22nd_HelmCBRN_Open_med",
+            "22nd_HelmCBRN_Closed_med",
+            "22nd_HelmCBRN_Eye_med",
+            "22nd_HelmCBRN_Visor_med",
+
+
             //customs
 
             //Alloy
@@ -1614,6 +1626,686 @@ class CfgWeapons
             };
         };
     };
+
+
+    //Infantry BioHazard
+    class 22nd_HelmCBRN_Open: 22nd_Helm_base
+    {
+        scope = 0;
+        scopeArsenal = 0;
+        displayName = "[22nd] ECH252-C/CBRN";
+        picture = "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\iconHelmetBase.paa";
+       
+        hiddenSelections[] =
+        {
+            "camo1", // Helmet
+            "camo2", // NVG Mount
+            "camo3", // Helmet Strap
+            "camo4", // Eyepiece
+            "camo5", // Eyepiece Glass
+            "camo6", // Glasses/Visor
+            "camo7", // Vac Seal
+            "Camo8", // Chin Module
+            "Camo9", // Visor, Closed
+            //"Helmet",
+            //"NVGMount",
+            //"HelmetStrap",
+            "EyePiece",
+            "EyePieceGlass",
+            "VisorGlasses",
+            "VaccumCollar",
+            "Helmet_Chin",
+            "Closed_Visor"
+        };
+        class XtdGearInfo
+        {
+            model = "22nd_ECH252C";
+            Camouflage = "CBRN";
+            Variants = "Open";
+            Decal = "None";
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN.paa",
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN.paa",
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+        };
+        class itemInfo: itemInfo
+        {
+           
+            hiddenSelections[] =
+            {
+                "camo1", // Helmet
+                "camo2", // NVG Mount
+                "camo3", // Helmet Strap
+                "camo4", // Eyepiece
+                "camo5", // Eyepiece Glass
+                "camo6", // Glasses/Visor
+                "camo7", // Vac Seal
+                "Camo8", // Chin Module
+                "Camo9", // Visor, Closed
+                //"Helmet",
+                //"NVGMount",
+                //"HelmetStrap",
+                "EyePiece",
+                "EyePieceGlass",
+                "VisorGlasses",
+                "VaccumCollar",
+                "Helmet_Chin",
+                "Closed_Visor"
+            };
+             hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN.paa",
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN.paa",
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            };
+        };
+    };
+
+    class 22nd_HelmCBRN_Closed : 22nd_Helm_base
+    {
+        scope = 0;
+        scopeArsenal = 0;
+        displayName = "[22nd] ECH252-C/CBRN";
+        picture = "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\iconHelmetBase.paa";
+        hiddenSelections[] =
+        {
+            "camo1", // Helmet
+            "camo2", // NVG Mount
+            "camo3", // Helmet Strap
+            "camo4", // Eyepiece
+            "camo5", // Eyepiece Glass
+            "camo6", // Glasses/Visor
+            "camo7", // Vac Seal
+            "Camo8", // Chin Module
+            "Camo9", // Visor, Closed
+            //"Helmet",
+            //"NVGMount",
+            //"HelmetStrap",
+            "EyePiece",
+            "EyePieceGlass",
+            "VisorGlasses",
+            "VaccumCollar",
+            //"Helmet_Chin",
+            //"Closed_Visor"
+        };
+        class XtdGearInfo
+        {
+            model = "22nd_ECH252C";
+            Camouflage = "CBRN";
+            Variants = "Closed";
+            Decal = "None";
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN.paa",
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN.paa",
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Brown_CO.paa",
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Lower.paa",
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Lower.paa",
+        };
+         class itemInfo: itemInfo
+        {
+            hiddenSelections[] =
+            {
+                "camo1", // Helmet
+                "camo2", // NVG Mount
+                "camo3", // Helmet Strap
+                "camo4", // Eyepiece
+                "camo5", // Eyepiece Glass
+                "camo6", // Glasses/Visor
+                "camo7", // Vac Seal
+                "Camo8", // Chin Module
+                "Camo9", // Visor, Closed
+                //"Helmet",
+                //"NVGMount",
+                //"HelmetStrap",
+                "EyePiece",
+                "EyePieceGlass",
+                "VisorGlasses",
+                "VaccumCollar",
+                //"Helmet_Chin",
+                //"Closed_Visor"
+            };
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN.paa",
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN.paa",
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Brown_CO.paa",
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Lower.paa",
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Lower.paa",
+            };
+        };
+    };
+
+    class 22nd_HelmCBRN_Eye : 22nd_Helm_base
+    {
+        scope = 0;
+        scopeArsenal = 0;
+        displayName = "[22nd] ECH252-C/CBRN Eyepiece";
+        picture = "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\iconHelmetBase.paa";
+        hiddenSelections[] =
+        {
+            "camo1", // Helmet
+            "camo2", // NVG Mount
+            "camo3", // Helmet Strap
+            "camo4", // Eyepiece
+            "camo5", // Eyepiece Glass
+            "camo6", // Glasses/Visor
+            "camo7", // Vac Seal
+            "Camo8", // Chin Module
+            "Camo9", // Visor, Closed
+            //"Helmet",
+            //"NVGMount",
+            //"HelmetStrap",
+            //"EyePiece",
+            //"EyePieceGlass",
+            "VisorGlasses",
+            "VaccumCollar",
+            "Helmet_Chin",
+            "Closed_Visor"
+        };
+        class XtdGearInfo
+        {
+            model = "22nd_ECH252C";
+            Camouflage = "CBRN";
+            Variants = "Eyepiece";
+            Decal = "None";
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN.paa",
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN.paa",
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+        };
+        class itemInfo: itemInfo
+        {
+            hiddenSelections[] =
+            {
+                "camo1", // Helmet
+                "camo2", // NVG Mount
+                "camo3", // Helmet Strap
+                "camo4", // Eyepiece
+                "camo5", // Eyepiece Glass
+                "camo6", // Glasses/Visor
+                "camo7", // Vac Seal
+                "Camo8", // Chin Module
+                "Camo9", // Visor, Closed
+                //"Helmet",
+                //"NVGMount",
+                //"HelmetStrap",
+                //"EyePiece",
+                //"EyePieceGlass",
+                "VisorGlasses",
+                "VaccumCollar",
+                "Helmet_Chin",
+                "Closed_Visor"
+            };
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN.paa",
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN.paa",
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            };
+        };
+    };
+
+    class 22nd_HelmCBRN_Visor : 22nd_Helm_base
+    {
+        scope = 0;
+        scopeArsenal = 0;
+        author = "Warhound Mod Team";
+        displayName = "[22nd] ECH252-C/CBRN Visor";
+        model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        picture = "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\iconHelmetBase.paa";
+        hiddenSelections[] =
+        {
+            "camo1", // Helmet
+            "camo2", // NVG Mount
+            "camo3", // Helmet Strap
+            "camo4", // Eyepiece
+            "camo5", // Eyepiece Glass
+            "camo6", // Glasses/Visor
+            "camo7", // Vac Seal
+            "Camo8", // Chin Module
+            "Camo9", // Visor, Closed
+            //"Helmet",
+            //"NVGMount",
+            //"HelmetStrap",
+            "EyePiece",
+            "EyePieceGlass",
+            //"VisorGlasses",
+            "VaccumCollar",
+            "Helmet_Chin",
+            "Closed_Visor"
+        };
+        class XtdGearInfo
+        {
+            model = "22nd_ECH252C";
+            Camouflage = "CBRN";
+            Variants = "Visor";
+            Decal = "None";
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN.paa",
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN.paa",
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+        };
+        class itemInfo: itemInfo
+        {
+            hiddenSelections[] =
+            {
+                "camo1", // Helmet
+                "camo2", // NVG Mount
+                "camo3", // Helmet Strap
+                "camo4", // Eyepiece
+                "camo5", // Eyepiece Glass
+                "camo6", // Glasses/Visor
+                "camo7", // Vac Seal
+                "Camo8", // Chin Module
+                "Camo9", // Visor, Closed
+                //"Helmet",
+                //"NVGMount",
+                //"HelmetStrap",
+                "EyePiece",
+                "EyePieceGlass",
+                //"VisorGlasses",
+                "VaccumCollar",
+                "Helmet_Chin",
+                "Closed_Visor"
+            };
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN.paa",
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN.paa",
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            };
+        };
+    };
+
+    //Infantry BioHazard Medic
+    class 22nd_HelmCBRN_Open_med : 22nd_Helm_base
+    {
+        scope = 0;
+        scopeArsenal = 0;
+        displayName = "[22nd] ECH252-MED/CBRN";
+        picture = "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\iconHelmetBaseMed.paa";
+        hiddenSelections[] =
+        {
+            "camo1", // Helmet
+            "camo2", // NVG Mount
+            "camo3", // Helmet Strap
+            "camo4", // Eyepiece
+            "camo5", // Eyepiece Glass
+            "camo6", // Glasses/Visor
+            "camo7", // Vac Seal
+            "Camo8", // Chin Module
+            "Camo9", // Visor, Closed
+            //"Helmet",
+            //"NVGMount",
+            //"HelmetStrap",
+            "EyePiece",
+            "EyePieceGlass",
+            "VisorGlasses",
+            "VaccumCollar",
+            "Helmet_Chin",
+            "Closed_Visor"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Med.paa",
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Med.paa",
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Med.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+        };
+        class XtdGearInfo
+        {
+            model = "22nd_ECH252C";
+            Camouflage = "CBRN";
+            Variants = "Open";
+            Decal = "Medical";
+        };
+        class itemInfo: itemInfo
+        {
+            hiddenSelections[] =
+            {
+                "camo1", // Helmet
+                "camo2", // NVG Mount
+                "camo3", // Helmet Strap
+                "camo4", // Eyepiece
+                "camo5", // Eyepiece Glass
+                "camo6", // Glasses/Visor
+                "camo7", // Vac Seal
+                "Camo8", // Chin Module
+                "Camo9", // Visor, Closed
+                //"Helmet",
+                //"NVGMount",
+                //"HelmetStrap",
+                "EyePiece",
+                "EyePieceGlass",
+                "VisorGlasses",
+                "VaccumCollar",
+                "Helmet_Chin",
+                "Closed_Visor"
+            };
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Med.paa",
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Med.paa",
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Med.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+            };
+        };
+    };
+
+    class 22nd_HelmCBRN_Closed_med : 22nd_Helm_base
+    {
+        scope = 0;
+        scopeArsenal = 0;
+        displayName = "[22nd] ECH252-MED/CBRN Closed";
+        picture = "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\iconHelmetBaseMed.paa";
+        hiddenSelections[] =
+        {
+            "camo1", // Helmet
+            "camo2", // NVG Mount
+            "camo3", // Helmet Strap
+            "camo4", // Eyepiece
+            "camo5", // Eyepiece Glass
+            "camo6", // Glasses/Visor
+            "camo7", // Vac Seal
+            "Camo8", // Chin Module
+            "Camo9", // Visor, Closed
+            //"Helmet",
+            //"NVGMount",
+            //"HelmetStrap",
+            "EyePiece",
+            "EyePieceGlass",
+            "VisorGlasses",
+            "VaccumCollar",
+            //"Helmet_Chin",
+            //"Closed_Visor"
+        };
+        class XtdGearInfo
+        {
+            model = "22nd_ECH252C";
+            Camouflage = "CBRN";
+            Variants = "Closed";
+            Decal = "Medical";
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Med.paa",
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Med.paa",
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Med.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Brown_CO.paa",
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Lower.paa",
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Lower.paa"
+        };
+        class itemInfo: itemInfo
+        {
+            hiddenSelections[] =
+            {
+                "camo1", // Helmet
+                "camo2", // NVG Mount
+                "camo3", // Helmet Strap
+                "camo4", // Eyepiece
+                "camo5", // Eyepiece Glass
+                "camo6", // Glasses/Visor
+                "camo7", // Vac Seal
+                "Camo8", // Chin Module
+                "Camo9", // Visor, Closed
+                //"Helmet",
+                //"NVGMount",
+                //"HelmetStrap",
+                "EyePiece",
+                "EyePieceGlass",
+                "VisorGlasses",
+                "VaccumCollar",
+                //"Helmet_Chin",
+                //"Closed_Visor"
+            };
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Med.paa",
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Med.paa",
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Med.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Brown_CO.paa",
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Lower.paa",
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Lower.paa"
+            };
+        };
+    };
+
+    class 22nd_HelmCBRN_Eye_med : 22nd_Helm_base
+    {
+        scope = 0;
+        scopeArsenal = 0;
+        displayName = "[22nd] ECH252-MED/CBRN Eyepiece ";
+        picture = "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\iconHelmetBaseMed.paa";
+        hiddenSelections[] =
+        {
+            "camo1", // Helmet
+            "camo2", // NVG Mount
+            "camo3", // Helmet Strap
+            "camo4", // Eyepiece
+            "camo5", // Eyepiece Glass
+            "camo6", // Glasses/Visor
+            "camo7", // Vac Seal
+            "Camo8", // Chin Module
+            "Camo9", // Visor, Closed
+            //"Helmet",
+            //"NVGMount",
+            //"HelmetStrap",
+            //"EyePiece",
+            //"EyePieceGlass",
+            "VisorGlasses",
+            "VaccumCollar",
+            "Helmet_Chin",
+            "Closed_Visor"
+        };
+        class XtdGearInfo
+        {
+            model = "22nd_ECH252C";
+            Camouflage = "CBRN";
+            Variants = "Eyepiece";
+            Decal = "Medical";
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Med.paa",
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Med.paa",
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Med.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+        };
+         class itemInfo: itemInfo
+        {
+            hiddenSelections[] =
+            {
+                "camo1", // Helmet
+                "camo2", // NVG Mount
+                "camo3", // Helmet Strap
+                "camo4", // Eyepiece
+                "camo5", // Eyepiece Glass
+                "camo6", // Glasses/Visor
+                "camo7", // Vac Seal
+                "Camo8", // Chin Module
+                "Camo9", // Visor, Closed
+                //"Helmet",
+                //"NVGMount",
+                //"HelmetStrap",
+                //"EyePiece",
+                //"EyePieceGlass",
+                "VisorGlasses",
+                "VaccumCollar",
+                "Helmet_Chin",
+                "Closed_Visor"
+            };
+            hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Med.paa",
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Med.paa",
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Med.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+            };
+        };
+    };
+
+    class 22nd_HelmCBRN_Visor_med : 22nd_Helm_base
+    {
+        scope = 0;
+        scopeArsenal = 0;
+        displayName = "[22nd] ECH252-MED/CBRN Visor";
+        picture = "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\iconHelmetBaseMed.paa";
+        hiddenSelections[] =
+        {
+            "camo1", // Helmet
+            "camo2", // NVG Mount
+            "camo3", // Helmet Strap
+            "camo4", // Eyepiece
+            "camo5", // Eyepiece Glass
+            "camo6", // Glasses/Visor
+            "camo7", // Vac Seal
+            "Camo8", // Chin Module
+            "Camo9", // Visor, Closed
+            //"Helmet",
+            //"NVGMount",
+            //"HelmetStrap",
+            "EyePiece",
+            "EyePieceGlass",
+            //"VisorGlasses",
+            "VaccumCollar",
+            "Helmet_Chin",
+            "Closed_Visor"
+        };
+        class XtdGearInfo
+        {
+            model = "22nd_ECH252C";
+            Camouflage = "CBRN";
+            Variants = "Visor";
+            Decal = "Medical";
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Med.paa",
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Med.paa",
+            "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Med.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+        };
+        class itemInfo: itemInfo
+        {
+            hiddenSelections[] =
+            {
+                "camo1", // Helmet
+                "camo2", // NVG Mount
+                "camo3", // Helmet Strap
+                "camo4", // Eyepiece
+                "camo5", // Eyepiece Glass
+                "camo6", // Glasses/Visor
+                "camo7", // Vac Seal
+                "Camo8", // Chin Module
+                "Camo9", // Visor, Closed
+                //"Helmet",
+                //"NVGMount",
+                //"HelmetStrap",
+                "EyePiece",
+                "EyePieceGlass",
+                //"VisorGlasses",
+                "VaccumCollar",
+                "Helmet_Chin",
+                "Closed_Visor"
+            };
+             hiddenSelectionsTextures[] =
+            {
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Med.paa",
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Med.paa",
+                "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\22nd_Helmet_CBRN_Med.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            };
+        };
+    };
+
 
 
     //// CUSTOM INCLUDES GO UNDER HERE
