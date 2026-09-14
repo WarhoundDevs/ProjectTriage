@@ -1631,8 +1631,8 @@ class CfgWeapons
     //Infantry BioHazard
     class 22nd_HelmCBRN_Open: 22nd_Helm_base
     {
-        scope = 0;
-        scopeArsenal = 0;
+        scope = 2;
+        scopeArsenal = 2;
         displayName = "[22nd] ECH252-C/CBRN";
         picture = "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\iconHelmetBase.paa";
        
@@ -1717,8 +1717,8 @@ class CfgWeapons
 
     class 22nd_HelmCBRN_Closed : 22nd_Helm_base
     {
-        scope = 0;
-        scopeArsenal = 0;
+        scope = 2;
+        scopeArsenal = 2;
         displayName = "[22nd] ECH252-C/CBRN";
         picture = "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\iconHelmetBase.paa";
         hiddenSelections[] =
@@ -1801,8 +1801,8 @@ class CfgWeapons
 
     class 22nd_HelmCBRN_Eye : 22nd_Helm_base
     {
-        scope = 0;
-        scopeArsenal = 0;
+        scope = 2;
+        scopeArsenal = 2;
         displayName = "[22nd] ECH252-C/CBRN Eyepiece";
         picture = "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\iconHelmetBase.paa";
         hiddenSelections[] =
@@ -1885,8 +1885,8 @@ class CfgWeapons
 
     class 22nd_HelmCBRN_Visor : 22nd_Helm_base
     {
-        scope = 0;
-        scopeArsenal = 0;
+        scope = 2;
+        scopeArsenal = 2;
         author = "Warhound Mod Team";
         displayName = "[22nd] ECH252-C/CBRN Visor";
         model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
@@ -1972,8 +1972,8 @@ class CfgWeapons
     //Infantry BioHazard Medic
     class 22nd_HelmCBRN_Open_med : 22nd_Helm_base
     {
-        scope = 0;
-        scopeArsenal = 0;
+        scope = 2;
+        scopeArsenal = 2;
         displayName = "[22nd] ECH252-MED/CBRN";
         picture = "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\iconHelmetBaseMed.paa";
         hiddenSelections[] =
@@ -2056,8 +2056,8 @@ class CfgWeapons
 
     class 22nd_HelmCBRN_Closed_med : 22nd_Helm_base
     {
-        scope = 0;
-        scopeArsenal = 0;
+        scope = 2;
+        scopeArsenal = 2;
         displayName = "[22nd] ECH252-MED/CBRN Closed";
         picture = "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\iconHelmetBaseMed.paa";
         hiddenSelections[] =
@@ -2140,8 +2140,8 @@ class CfgWeapons
 
     class 22nd_HelmCBRN_Eye_med : 22nd_Helm_base
     {
-        scope = 0;
-        scopeArsenal = 0;
+        scope = 2;
+        scopeArsenal = 2;
         displayName = "[22nd] ECH252-MED/CBRN Eyepiece ";
         picture = "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\iconHelmetBaseMed.paa";
         hiddenSelections[] =
@@ -2224,8 +2224,8 @@ class CfgWeapons
 
     class 22nd_HelmCBRN_Visor_med : 22nd_Helm_base
     {
-        scope = 0;
-        scopeArsenal = 0;
+        scope = 2;
+        scopeArsenal = 2;
         displayName = "[22nd] ECH252-MED/CBRN Visor";
         picture = "\z\22ndRDF\addons\uniforms\helmets\Infantry\data\base\iconHelmetBaseMed.paa";
         hiddenSelections[] =
