@@ -38,7 +38,7 @@ class XtdGearModels
                 {
                     "WD",
                     "Winter",
-                //    "CBRN"
+                    "CBRN"
 
                 };
                 class WD
@@ -51,11 +51,11 @@ class XtdGearModels
                     label = "Winter";
                     image = "#(rgb,8,8,3)color(0.7,0.7,0.7,1)";
                 };
-            //    class CBRN
-            //    {
-            //        label = "BioHazard";
-            //        image = "#(rgb,8,8,3)color(0.9843137,1,0,1)";
-            //    };
+                class CBRN
+                {
+                    label = "BioHazard";
+                    image = "#(rgb,8,8,3)color(0.9843137,1,0,1)";
+                };
             };
             class Variants
             {

@@ -1,36 +1,36 @@
-class CfgPatches 
-{
-    class 22nd_uniforms_helmets_JFO
-    {
-        units[] = {};
-        weapons[] = 
-        {
-            "22nd_JFO_base",
-
-            //WD
-            "22nd_JFO_WDL",
-
-            //Winter
-            "22nd_JFO_WNT",
-
-            //customs
-
-
+//class CfgPatches 
+//{
+//    class 22nd_uniforms_helmets_JFO
+//    {
+//        units[] = {};
+//        weapons[] = 
+//        {
+//            "22nd_JFO_base",
+//
+//            //WD
+//            "22nd_JFO_WDL",
+//
+//            //Winter
+//            "22nd_JFO_WNT",
+//
+//            //customs
+//
+//
             // Step 6. New Custom Above this text, spaced from previous name ^
             // Use "tab" or "shift tab" to help neaten up the block of class names when all highlighted.
 
 
-        };
+//        };
 
-        requiredVersion = 1.0;
-        requiredAddons[] = 
-        {
-            "MA_Armor", 
-            "A3_Characters_F",
-            "A3_Data_F_Mark"
-        }; // Reference any required addons
-    };
-};
+//        requiredVersion = 1.0;
+//        requiredAddons[] = 
+//        {
+//            "MA_Armor", 
+//            "A3_Characters_F",
+//            "A3_Data_F_Mark"
+//        }; // Reference any required addons
+//    };
+//};
 
 ////////////////////////////////////////////////////////// THIS IS A BIG CONFIG! Use EDIT>OUTLINING>TOGGLE ALL OUTLINING | TO COLLAPSE AND MAKE IT EASIER TO GET WHERE YOU NEED TO!!! //////////////////////////////////////////////////////////
 
