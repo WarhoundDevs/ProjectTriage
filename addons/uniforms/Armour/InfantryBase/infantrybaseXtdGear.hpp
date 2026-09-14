@@ -57,8 +57,7 @@ class XtdGearModels
                 values[] =
                 {
                     "Woodland",
-                    "Winter",
-                    "BH"
+                    "Winter"
                 };
                  class Woodland
                 {
@@ -67,10 +66,6 @@ class XtdGearModels
                  class Winter
                 {
                     label = "Winter";
-                };
-                 class BH
-                {
-                    label = "Biohazard";
                 };
             };
 
